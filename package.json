@@ -1,7 +1,7 @@
 {
-  "name": "test-starter",
-  "version": "1.0.0",
-  "description": "",
+  "name": "fullstackbullettin-website",
+  "version": "0.0.0",
+  "description": "The source code for fullstackbulletin.com website",
   "main": "index.js",
   "scripts": {
     "test": "echo 'Well... we will do it live for now'",
@@ -34,8 +34,26 @@
     "watch:all": "npm-run-all -p watch:data watch:css watch:views watch:icons watch:js",
     "prod:start": "npm run prod:build:all && npm run serve"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Luciano Mammino",
+    "email": "lucianomammino@gmail.com",
+    "url": "http://loige.co"
+  },
+  "contributors": [
+    {
+      "name": "Andrea Mangano",
+      "email": "andreaman87@gmail.com",
+      "url": "http://andreamangano.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FullStackBulletin/fullstackbulletin.com"
+  },
+  "bugs": {
+    "url": "https://github.com/FullStackBulletin/fullstackbulletin.com/issues"
+  },
   "devDependencies": {
     "autoprefixer": "^6.7.0",
     "babel-core": "^6.22.1",
