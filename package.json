@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo 'Well... we will do it live for now'",
     "clean": "rimraf dist/*",
     "convert:data": "yaml2json settings/data.yml > dist/data.json",
     "copy:fonts": "cpx 'assets/fonts/**/*.{eot,ttf,otf,woff,woff2,svg}' dist/fonts/",
