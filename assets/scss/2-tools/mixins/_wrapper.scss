@@ -1,0 +1,7 @@
+@mixin responsive-wrapper($wrapper-sizes) {
+  @each $media, $value in $wrapper-sizes {
+    @include media-query($media) {
+      max-width: rem-calc($value);
+    }
+  }
+}

@@ -1,0 +1,11 @@
+$palette-primary: get-palette('primary');
+$palette-neutral: get-palette('neutral');
+
+@function primaryColor($color) {
+  @return map-get($palette-primary, $color);
+}
+
+@function neutralColor($color) {
+  @return map-get($palette-neutral, $color);
+}
+

@@ -1,0 +1,55 @@
+h1 {
+  @extend %h1;
+  margin: $v-unit * 1.5 0;
+}
+
+h2 {
+  @extend %h2;
+  margin: $v-unit * 1.5 0;
+}
+
+h3 {
+  @extend %h3;
+  margin: $v-unit 0 ($v-unit / 2);
+}
+
+h4 {
+  @extend %h4;
+  margin: $v-unit / 2 0;
+}
+
+h5 {
+  @extend %h5;
+  margin: $v-unit / 2 0;
+}
+
+h6 {
+  @extend %h6;
+  margin: $v-unit / 2 0;
+}
+
+p {
+  @extend %p;
+  margin: $v-unit / 2 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+small {
+  // @include moderato;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}

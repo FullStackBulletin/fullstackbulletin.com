@@ -1,0 +1,29 @@
+extends _layout
+
+include ./mixins/_docs-mixins.pug
+
+block head_css
+  link(
+    href="css/docs.css"
+    rel="stylesheet"
+    type="text/css")
+
+block body
+  - var productName = 'Confetti';
+
+  body.docs-layout
+
+    .docs-layout__page
+
+      h1 Styleguide
+      p=`Below is the styleguide we created for ${productName} project — both for the benefit of the (web) developers and to ensure consistency across all brand pages and UI.`
+
+      //- Typography
+      include ./docs/typography.pug
+
+      //- Palettes
+      include ./docs/palettes.pug
+
+
+
+      

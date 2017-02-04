@@ -1,0 +1,7 @@
+@mixin responsive-typo($font-size) {
+  @each $media, $value in $font-size {
+    @include media-query($media) {
+      font-size: rem-calc($value);
+    }
+  }
+}

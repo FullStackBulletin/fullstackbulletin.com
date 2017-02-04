@@ -1,0 +1,60 @@
+//------------
+// REMOVE UNIT
+//------------
+@function remove-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+//----------------
+// REM CALCULATION
+//----------------
+@function rem-calc($values, $base-value: $rem-base) {
+  @if length($values) == 1 {
+    @return remove-unit($values) / remove-unit($base-value) * 1rem;
+  } @else {
+    $remValues: ();
+
+    @each $value in $values {
+      $remValues: append($remValues, remove-unit($value) / remove-unit($base-value) * 1rem);
+    }
+
+    @return $remValues;
+  }
+}
+//---------------
+// EM CALCULATION
+//---------------
+@function em-calc($values, $base-value: $rem-base) {
+  @if length($values) == 1 {
+    @return remove-unit($values) / remove-unit($base-value) * 1em;
+  } @else {
+    $emValues: ();
+    @each $value in $values {
+      $emValues: append($emValues, remove-unit($value) / remove-unit($base-value) * 1em);
+    }
+    @return $emValues;
+  }
+}
+//------------------
+// PIXEL CALCULATION
+//------------------
+@function px-calc($values, $base-value: $rem-base) {
+  @if length($values) == 1 {
+    @return remove-unit($values) * remove-unit($base-value) * 1px;
+  } @else {
+    $pxValues: ();
+    @each $value in $values {
+      $pxValues: append($pxValues, remove-unit($value) * remove-unit($base-value) * 1px);
+    }
+    @return $pxValues;
+  }
+}
+//--------
+// Z-INDEX
+//--------
+@function z($layer) {
+  @if not map-has-key($z-layers, $layer) {
+    @warn "No layer found for `#{$layer}` in $z-layers map. Property omitted.";
+    @warn $z-layers;
+  }
+  @return map-get($z-layers, $layer);
+}

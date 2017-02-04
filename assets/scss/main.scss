@@ -1,0 +1,15 @@
+@import './1-settings/palette';
+
+@import './2-tools/functions';
+@import './2-tools/mixins/typography';
+@import './2-tools/mixins/wrapper';
+
+@import './3-generic/normalize';
+@import './3-generic/layout-settings';
+
+@import './4-base/fonts/primary';
+@import './4-base/placeholders/typography';
+@import './4-base/typography';
+
+@import './7-pages/layout';
+@import './7-pages/index';

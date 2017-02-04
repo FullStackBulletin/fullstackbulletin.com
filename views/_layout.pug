@@ -1,0 +1,50 @@
+doctype html
+
+mixin svg-embedded(path, classes)
+  object(
+    class=classes
+    type="image/svg+xml"
+    data=path)
+
+html(lang=lang)
+
+  head
+
+    title= meta.title
+    meta(
+      name="description"
+      content=meta.description)
+
+    meta(
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0")
+
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+    base(href="/")
+
+    block head_css
+      link(
+        href="css/main.css"
+        rel="stylesheet"
+        type="text/css")
+
+  block body
+    body.layout
+
+      .layout__page
+        block page
+
+      footer.layout__footer Footer
+
+  //-
+      block js_external
+        script(
+          src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous")
+
+  block js
+    script(
+      src="js/main.bundle.js")

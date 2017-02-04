@@ -1,0 +1,48 @@
+// Rem base
+$rem-base: 16px !default;
+
+// Z layers
+$z-layers: (
+  "overthetop": 99999,
+  "modal": 7000,
+  "sidebar": 6000,
+  "navbar": 5000,
+  "popover": 4000,
+  "overlay": 3000,
+  "inpage": 1000,
+  "standard": 1,
+  "below": -1,
+  "bottomless": -99999
+);
+
+// Units
+$v-unit: rem-calc(16);
+$h-unit: rem-calc(16);
+
+// Fonts
+// $base-font-family: 'gotham', sans-serif;
+$base-font-family: 'okomito', sans-serif;
+$layout-wrapper-sizes: ('medium': 960, 'large': 1050, 'huge': 1200);
+
+$layout-slide-wrapper: rem-calc(900);
+
+// Grid
+@import 'super-gigi/dist/helpers/functions';
+
+$debug: false;
+$use-dry: false;
+// $row-width: $layout-wrapper;
+$column-gutter: rem-calc(32);
+//- $rem-base: 16px;
+$breakpoints: (
+  xxsmall: em-calc(280),
+  xsmall: em-calc(480),
+  small: em-calc(640),
+  medium: em-calc(768),
+  large: em-calc(1024),
+  xlarge: em-calc(1280),
+  xxlarge: em-calc(1440),
+  huge: em-calc(1800)
+);
+
+@import 'super-gigi/dist/main';

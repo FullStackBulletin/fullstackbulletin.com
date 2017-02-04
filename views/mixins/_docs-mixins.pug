@@ -1,0 +1,44 @@
+//--------------
+//- DOCS SECTION
+//--------------
+mixin docsSection(config)
+  .docs-section
+
+    if config.title
+      h2.docs-section__title!= config.title
+
+    if config.description
+      .docs-section__description!= config.description
+
+    block
+
+//------------
+//- DOCS BLOCK
+//------------
+mixin docsBlock(config)
+  .docs-block
+
+    h3.docs-block__title!=config.title
+    if config.description
+      p.docs-block__description!=config.description
+
+    if config.open
+      .docs-block__content
+        block
+    else
+      .docs-block__preview
+        block
+
+//--------------
+//- PALETTE GRID
+//--------------
+mixin paletteGrid(palette)
+  .palette-grid
+    .palette-grid__list
+      each value, key in palette
+        .palette-grid__item
+          .color-box
+            .color-box__swatch(style=`background-color: ${value};`)
+            .color-box__info
+              .color-box__label= key
+              .color-box__hex= value

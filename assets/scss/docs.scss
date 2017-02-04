@@ -1,0 +1,92 @@
+@import './main';
+
+.docs-layout {
+
+  &__page {
+    margin: 0 auto;
+    max-width: rem-calc(1100);
+    padding: 0 ($column-gutter / 2);
+  }
+}
+
+.docs-block {
+  padding-bottom: $v-unit * 4;
+
+  &__title {
+    border-bottom: 1px solid neutralColor('neutral-low');
+    padding-bottom: $v-unit * 2;
+    text-transform: capitalize;
+  }
+
+  &__description {
+    margin-top: $v-unit;
+  }
+
+  &__preview,
+  &__content {
+    margin-top: $v-unit * 2;
+  }
+
+  &__preview {
+    background-color: neutralColor('neutral-low');
+    border: 1px solid neutralColor('neutral-low');
+    padding: ($v-unit * 2) ($h-unit * 2);
+  }
+}
+
+.headings-grid {
+
+  &__list {}
+
+  &__item {
+    border-bottom: 1px solid neutralColor('neutral-low');
+    padding: $v-unit 0;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    * {
+      line-height: 1;
+      margin: 0;
+    }
+  }
+}
+
+.palette-grid {
+  margin-top: -$v-unit;
+
+  &__list {
+    @include grid-row(false);
+    margin: 0 (-$h-unit / 2);
+  }
+
+  &__item {
+    @include grid-column($width:(xxsmall: 6, small: 4, medium: 3, large: 2), $collapse:true);
+    margin-top: $v-unit;
+    padding: 0 ($h-unit / 2);
+  }
+}
+
+.color-box {
+  background-color: neutralColor('neutral-lowest');
+  box-shadow: 0 2px 4px rgba(neutralColor('neutral-highest'), .2);
+
+  &__swatch {
+    display: block;
+    height: rem-calc(100);
+    width: 100%;
+  }
+
+  &__info {
+    padding: rem-calc(8 10);
+  }
+
+  &__label {
+    text-transform: capitalize;
+  }
+
+  &__hex {
+    color: neutralColor('neutral-medium');
+  }
+}
