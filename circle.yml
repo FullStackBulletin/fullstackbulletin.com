@@ -1,0 +1,9 @@
+machine:
+  node:
+    version: 7.0.0
+
+test:
+  post:
+    - npm run prod:build:all
+    - cp -R dist/* $CIRCLE_ARTIFACTS
+    - if [ $CIRCLE_BRANCH = 'master' ]; then aws s3 sync dist s3://fullstackbulletin.com; fi
