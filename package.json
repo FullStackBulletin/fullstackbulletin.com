@@ -10,7 +10,7 @@
     "copy:fonts": "cpx 'assets/fonts/**/*.{eot,ttf,otf,woff,woff2,svg}' dist/fonts/",
     "copy:icons": "cpx 'assets/icons/**/*.svg' dist/icons/",
     "copy:images": "cpx 'assets/images/**/*.{svg,png,jpg,jpeg,gif}' dist/images/",
-    "build:views": "pug views/[^_]*.pug --obj ./settings/pug.js --out dist/",
+    "build:views": "pug views/index.pug views/docs.pug --obj ./settings/pug.js --out dist/",
     "refresh:views": "npm run convert:data && npm run build:views",
     "dev:compile:scss": "node-sass --output-style -o dist/css assets/scss --include-path node_modules --functions ./settings/scss.js",
     "dev:build:js": "webpack --config ./webpack.development.js",
@@ -36,13 +36,13 @@
   },
   "author": {
     "name": "Luciano Mammino",
-    "email": "lucianomammino@gmail.com",
+    "email": "luciano@fullstackbulletin.com",
     "url": "http://loige.co"
   },
   "contributors": [
     {
       "name": "Andrea Mangano",
-      "email": "andreaman87@gmail.com",
+      "email": "andrea@fullstackbulletin.com",
       "url": "http://andreamangano.com"
     }
   ],
