@@ -11,6 +11,8 @@ categories:
     icon: backend.svg
   - name: Web Design
     icon: webdesign.svg
+  - name: Database
+    icon: database.svg
   - name: Devops
     icon: devops.svg
 sampleLink:
