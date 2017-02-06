@@ -3,4 +3,48 @@ meta:
   description: 'Weekly newsletter about Full Stack web development'
 
 headline: 'FullStack Bulletin'
-subHeadline: 'Currently work in progress. Please come back later...'
+subHeadline: 'The most awesome weekly newsletter about Full Stack web development'
+categories:
+  - name: Frontend
+    icon: frontend.svg
+  - name: Backend
+    icon: backend.svg
+  - name: Web Design
+    icon: webdesign.svg
+  - name: Database
+    icon: database.svg
+  - name: Devops
+    icon: devops.svg
+sampleLink:
+  url: https://mailchimp.com/somecampaign-url
+  label: See a sample issue
+callToAction:
+  label: Subscribe now
+subscribeForm:
+  email:
+    label: youremail@awesome.com
+  submit:
+    label: Subscribe
+  method: POST
+  action: https://somemailchimp.com/subscribesomething
+faq:
+  label: F.A.Q.
+  entries:
+    - title: Faq 1?
+      text: >
+        Sample multiline
+        description
+    - title: Faq 2?
+      text: >
+        Sample multiline
+        description
+    - title: Faq 3?
+      text: >
+        Sample multiline
+        description
+footer:
+  info: >
+    Brought to you by <a href="https://twitter.com/andreaman87" target="_blank">@andreaman87</a> &
+    <a href="https://twitter.com/loige" target="_blank">@loige</a>.
+  sub: >
+    Made with ❤️ and a bit of <a href="https://github.com/FullStackBulletin" target="_blank">automation</a>.
