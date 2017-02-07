@@ -2,18 +2,15 @@ var palettes = require('./palette');
 var sass = require('node-sass');
 
 function hexToRgb(hex) {
-    // Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
-    var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-    hex = hex.replace(shorthandRegex, function(m, r, g, b) {
-        return r + r + g + g + b + b;
-    });
-
-    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-    return result ? {
-        r: parseInt(result[1], 16),
-        g: parseInt(result[2], 16),
-        b: parseInt(result[3], 16)
-    } : null;
+  if (typeof hex !== 'string') {
+    throw new TypeError('Expected a string');
+  }
+  hex = hex.replace(/^#/, '');
+  if (hex.length === 3) {
+    hex = hex[0] + hex[0] + hex[1] + hex[1] + hex[2] + hex[2];
+  }
+  var num = parseInt(hex, 16);
+  return { r: num >> 16, g: num >> 8 & 255, b: num & 255};
 }
 
 module.exports = {
@@ -30,13 +27,14 @@ module.exports = {
     // Get the Sass Color class
     var ColorClass = sass.types.Color;
     // Iterate every key
-    keys.forEach((key, i) => {
+    var convertedColor;
+    keys.forEach(function(key, i) {
       // Convert the value of the given key on the object palette into rgb format
-      var convertedColor = hexToRgb(palette[key]);
+      convertedColor = hexToRgb(palette[key]);
       // Create a new Sass color instance
       var color = new ColorClass(convertedColor.r, convertedColor.g, convertedColor.b);
       // Set the key value in the sass Map
-      map.setKey(i, sass.types.String(paletteName + '-' + key));
+      map.setKey(i, sass.types.String(key));
       map.setValue(i, color);
     });
     return map;
