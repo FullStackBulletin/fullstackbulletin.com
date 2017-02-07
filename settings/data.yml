@@ -28,7 +28,7 @@ subscribeForm:
   method: POST
   action: https://somemailchimp.com/subscribesomething
 faq:
-  label: F.A.Q.
+  title: F.A.Q.
   entries:
     - title: Faq 1?
       text: >
@@ -44,7 +44,6 @@ faq:
         description
 footer:
   info: >
-    Brought to you by <a href="https://twitter.com/andreaman87" target="_blank">@andreaman87</a> &
-    <a href="https://twitter.com/loige" target="_blank">@loige</a>.
+    Brought to you by <a href="https://twitter.com/loige" target="_blank">@loige</a> & <a href="https://twitter.com/andreaman87" target="_blank">@andreaman87</a>.
   sub: >
     Made with ❤️ and a bit of <a href="https://github.com/FullStackBulletin" target="_blank">automation</a>.
