@@ -7,7 +7,7 @@
     "test": "echo 'Well... we will do it live for now'",
     "clean": "rimraf dist/*",
     "convert:data": "yaml2json settings/data.yml > dist/data.json",
-    "copy:fonts": "cpx 'assets/fonts/**/*.{eot,ttf,otf,woff,woff2,svg}' dist/fonts/",
+    "copy:fonts": "cpx 'assets/fonts/**/*.{woff,woff2}' dist/fonts/",
     "copy:icons": "cpx 'assets/icons/**/*.svg' dist/icons/",
     "copy:images": "cpx 'assets/images/**/*.{svg,png,jpg,jpeg,gif}' dist/images/",
     "build:views": "pug views/index.pug views/docs.pug --obj ./settings/pug.js --out dist/",
