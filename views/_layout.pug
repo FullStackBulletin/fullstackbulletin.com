@@ -36,7 +36,9 @@ html(lang=lang)
       .layout__page
         block page
 
-      footer.layout__footer Footer
+      footer.layout__footer
+        !=footer.info
+        !=footer.sub
 
   //-
       block js_external

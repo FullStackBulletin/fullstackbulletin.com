@@ -9,3 +9,33 @@ block page
     h1=headline
     h3=subHeadline
 
+  each category in categories
+    h4!=category.name
+
+  a(href=sampleLink.url)!=sampleLink.label
+
+  h2!=callToAction.label
+
+  form(
+    method=subscribeForm.method
+    action=subscribeForm.action)
+
+    label(for="form-email-field")=subscribeForm.email.label
+    div
+      input(
+        id="form-email-field",
+        type="text"
+        name="email"
+        placeholder=subscribeForm.email.label)
+
+    button(type="submit")!=subscribeForm.submit.label
+
+  div
+    h2!=faq.title
+    div
+      each faqItem in faq.entries
+        h3!=faqItem.title
+        p!=faqItem.text
+
+
+
