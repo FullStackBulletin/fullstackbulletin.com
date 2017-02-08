@@ -5,3 +5,24 @@
     }
   }
 }
+
+@mixin get-typo($tag, $data: null) {
+  @if ($data == null) {
+    $data: get-typo($tag);
+  }
+  @each $key, $value in $data {
+    @if $key == sizes {
+      @include responsive-typo($value);
+    } @else {
+      #{$key}: $value;
+    }
+  }
+}
+
+@mixin print-typography() {
+  @each $key, $value in get-typography() {
+    #{$key} {
+      @include get-typo($key, $value);
+    }
+  }
+}
