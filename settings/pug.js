@@ -1,4 +1,4 @@
-var palettes = require('./palette');
 var data = require('./../dist/data.json');
-data.palettes = palettes;
+data.palettes = require('./palette');
+data.typography = require('./typography');
 module.exports = data;
