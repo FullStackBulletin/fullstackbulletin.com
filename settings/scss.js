@@ -1,5 +1,7 @@
 var palettes = require('./palette');
+var typography = require('./typography');
 var sass = require('node-sass');
+var sassUtils = require('node-sass-utils')(sass);
 
 function hexToRgb(hex) {
   if (typeof hex !== 'string') {
@@ -38,5 +40,12 @@ module.exports = {
       map.setValue(i, color);
     });
     return map;
+  },
+  'get-typography': function(name) {
+    return sassUtils.castToSass(typography);
+  },
+  'get-typo($name)': function(name) {
+    var typo = typos[name.getValue()];
+    return sassUtils.castToSass(typography);
   }
 };
