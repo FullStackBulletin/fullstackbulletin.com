@@ -11,8 +11,10 @@
     $data: get-typo($tag);
   }
   @each $key, $value in $data {
-    @if $key == sizes {
+    @if ($key == sizes) {
       @include responsive-typo($value);
+    } @elseif ($key == 'font-size') {
+      #{$key}: rem-calc($value);
     } @else {
       #{$key}: $value;
     }
