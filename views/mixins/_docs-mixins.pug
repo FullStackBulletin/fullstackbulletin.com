@@ -1,7 +1,7 @@
 //--------------
 //- DOCS SECTION
 //--------------
-mixin docsSection(config)
+mixin docs-section(config)
   .docs-section
 
     if config.title
@@ -15,7 +15,7 @@ mixin docsSection(config)
 //------------
 //- DOCS BLOCK
 //------------
-mixin docsBlock(config)
+mixin docs-block(config)
   .docs-block
 
     h3.docs-block__title!=config.title
@@ -32,7 +32,7 @@ mixin docsBlock(config)
 //--------------
 //- PALETTE GRID
 //--------------
-mixin paletteGrid(palette)
+mixin palette-grid(palette)
   .palette-grid
     .palette-grid__list
       each value, key in palette

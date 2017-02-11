@@ -1,10 +1,9 @@
 .layout {
-  color: neutralColor('neutral-highest');
+  color: neutral-color('neutral-highest');
   font-family: $base-font-family;
   font-size: 16px;
-  text-rendering: optimizeLegibility;
   padding: rem-calc(10);
+  text-rendering: optimizeLegibility;
 
-  &__page {
-  }
+  // &__page {}
 }
