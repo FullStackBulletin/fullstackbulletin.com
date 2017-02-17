@@ -22,26 +22,32 @@ callToAction:
   label: Subscribe now
 subscribeForm:
   email:
-    label: youremail@awesome.com
+    fieldId: mce-EMAIL
+    fieldName: EMAIL
+    label: you.are.awesome@email.com
   submit:
     label: Subscribe
   method: POST
-  action: https://somemailchimp.com/subscribesomething
+  action: //fullstackbulletin.us15.list-manage.com/subscribe/post?u=b015626aa6028495fe77c75ea&amp;id=55ace33899
 faq:
   title: F.A.Q.
   entries:
-    - title: Faq 1?
+    - title: What's the value for me?
       text: >
-        Sample multiline
-        description
-    - title: Faq 2?
+        So, if you are a Full stack developer (or you are anspiring to become one)
+        this mailing list will provide you every week 7 relevant articles for you
+        to stay relevant and hopefully learn some new cool tricks. Did we already
+        said that it's FREE?
+    - title: Where do you get the content?
       text: >
-        Sample multiline
-        description
-    - title: Faq 3?
+        We hand pick what we believe are the best articles and posts around the
+        web and then we leave the task of extracting the best 7 every week to a
+        ranking algorithm that we developed.
+    - title: Can I send feedbacks?
       text: >
-        Sample multiline
-        description
+        Sure, we'd love to hear from you. Feel free to use
+        <a target="_blank" href="https://fullstackbulletin.typeform.com/to/eW48Yb">this form</a>
+        to tell us what you think about this newsletter.
 footer:
   info: >
     Brought to you by <a href="https://twitter.com/loige" target="_blank">@loige</a> & <a href="https://twitter.com/andreaman87" target="_blank">@andreaman87</a>.
