@@ -1,7 +1,6 @@
 module.exports = {
-  primary: {
-    'brand': '#ffd300',
-    'primary': '#ffd300'
+  brand: {
+    primary: '#ffd300'
   },
   neutral: {
     'lowest': '#fff',
