@@ -1,9 +1,9 @@
 meta:
   title: 'FullStack Bulletin'
-  description: 'Weekly newsletter about Full Stack web development'
+  description: 'Weekly newsletter about full stack web development'
 
-headline: 'FullStack Bulletin'
-subHeadline: 'The most awesome weekly newsletter about Full Stack web development'
+headline: '<strong>Fullstack</strong> Bulletin'
+subHeadline: 'The most <strong>awesome weekly newsletter</strong> about full stack web development.'
 categories:
   - name: Frontend
     icon: frontend.svg
@@ -17,33 +17,32 @@ categories:
     icon: devops.svg
 sampleLink:
   url: https://mailchimp.com/somecampaign-url
-  label: See a sample issue
+  label: Here's what the emails look like.
 callToAction:
-  label: Subscribe now
+  label: '<strong>Join</strong> thousands of developers who get the <strong>best 5 links</strong> in their inboxes every week, <strong>for free</strong>:'
 subscribeForm:
   email:
     label: youremail@awesome.com
   submit:
     label: Subscribe
+  note:  We never send spam and you can unsubscribe instantly with one click.
   method: POST
   action: https://somemailchimp.com/subscribesomething
 faq:
   title: F.A.Q.
   entries:
-    - title: Faq 1?
+    - title: Question?
       text: >
-        Sample multiline
-        description
-    - title: Faq 2?
+        Answer text
+    - title: Question?
       text: >
-        Sample multiline
-        description
-    - title: Faq 3?
+        Answer text
+    - title: Question?
       text: >
-        Sample multiline
-        description
+        Answer text
 footer:
   info: >
-    Brought to you by <a href="https://twitter.com/loige" target="_blank">@loige</a> & <a href="https://twitter.com/andreaman87" target="_blank">@andreaman87</a>.
+    Brought to you by <a href="https://twitter.com/loige" target="_blank"><strong>@loige</strong></a>
+    & <a href="https://twitter.com/andreaman87" target="_blank"><strong>@andreaman87</strong></a>.
   sub: >
-    Made with ❤️ and a bit of <a href="https://github.com/FullStackBulletin" target="_blank">automation</a>.
+    Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank"><strong>automation</strong></a>.
