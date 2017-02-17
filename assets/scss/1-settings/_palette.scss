@@ -1,10 +1,7 @@
-$palette-primary: get-palette('primary');
-$palette-neutral: get-palette('neutral');
-
-@function primary-color($color) {
-  @return map-get($palette-primary, $color);
+@function brand-color($color) {
+  @return map-get(get-palette('brand'), $color);
 }
 
 @function neutral-color($color) {
-  @return map-get($palette-neutral, $color);
+  @return map-get(get-palette('neutral'), $color);
 }
