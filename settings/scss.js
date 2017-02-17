@@ -44,8 +44,7 @@ module.exports = {
   'get-typography': function(name) {
     return sassUtils.castToSass(typography);
   },
-  'get-typo($name)': function(name) {
-    var typo = typos[name.getValue()];
-    return sassUtils.castToSass(typography);
+  'get-type($name)': function(name) {
+    return sassUtils.castToSass(typography[name.getValue()]);
   }
 };
