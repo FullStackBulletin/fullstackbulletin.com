@@ -1,41 +1,66 @@
 extends _layout
 
 block page
+  .page-index
 
-  //-------
-  //- INTRO
-  //-------
-  section
-    h1=headline
-    h3=subHeadline
+    section.page-index__main
 
-  each category in categories
-    h4!=category.name
+      header.header
+        .header__logo
+          include ../assets/images/logo-minimal.svg
 
-  a(href=sampleLink.url)!=sampleLink.label
+        h1.header__headline!=headline
+        h3.header__subheadline!=subHeadline
 
-  h2!=callToAction.label
+      .separator
+        .separator__icon
+          include ../assets/icons/email.svg
 
-  form(
-    method=subscribeForm.method
-    action=subscribeForm.action)
+      .page-index__subscribe
 
-    label(for="form-email-field")=subscribeForm.email.label
-    div
-      input(
-        id="form-email-field",
-        type="text"
-        name="email"
-        placeholder=subscribeForm.email.label)
+        .subscribe
+          h4.subscribe__title!=callToAction.label
+          form.subscribe__form(
+            method=subscribeForm.method
+            action=subscribeForm.action)
 
-    button(type="submit")!=subscribeForm.submit.label
+            .subscribe__box
+              .subscribe__input-field
+                input.subscribe__input(
+                  id="form-email-field",
+                  type="text"
+                  name="email"
+                  placeholder=subscribeForm.email.label)
 
-  div
-    h2!=faq.title
-    div
-      each faqItem in faq.entries
-        h3!=faqItem.title
-        p!=faqItem.text
+              .subscribe__submit-field
+                button.subscribe__submit(type="submit")
+                  .subscribe__submit-icon
+                    include ../assets/icons/subscribe.svg
+                  .subscribe__submit-label!=subscribeForm.submit.label
+
+            small.subscribe__note!=subscribeForm.note
+              a(href=sampleLink.url)!=` <strong>${sampleLink.label}</strong>`
+
+        //-
+          .header__categories
+            .categories
+              ul.categories__list
+                each category in categories
+                  .categories__item
+                    .categories__item-block
+                      h4.categories__name!=category.name
+
+    section.page-index__faq
+
+      .faq
+        .faq__content
+          .faq__frame
+            h3.faq__title!=faq.title
+            .faq__list
+              each faqItem in faq.entries
+                .faq__item
+                  h4.faq__item-title!=faqItem.title
+                  p.faq__item-description!=faqItem.text
 
 
 
