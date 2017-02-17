@@ -1,0 +1,27 @@
+extends _layout
+
+//- include ./mixins/_docs-mixins.pug
+
+block head_css
+  link(
+    href="css/docs.css"
+    rel="stylesheet"
+    type="text/css")
+
+block page
+  - var productName = 'fullStack<strong>Bulletin</strong>';
+
+  h1 Styleguide
+  p!=`Below is the styleguide we created for ${productName} project — both for the benefit of the (web) developers and to ensure consistency across all brand pages and UI.`
+
+  //- Palettes
+  #palettes
+    include _palettes.pug
+
+  //- Typography
+  #typography
+    include _typography.pug
+
+
+
+      
