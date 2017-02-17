@@ -20,12 +20,12 @@ block page
     method=subscribeForm.method
     action=subscribeForm.action)
 
-    label(for="form-email-field")=subscribeForm.email.label
+    label(for=subscribeForm.email.fieldId)=subscribeForm.email.label
     div
       input(
-        id="form-email-field",
-        type="text"
-        name="email"
+        id=subscribeForm.email.fieldId,
+        type="email"
+        name=subscribeForm.email.fieldName
         placeholder=subscribeForm.email.label)
 
     button(type="submit")!=subscribeForm.submit.label
@@ -36,6 +36,3 @@ block page
       each faqItem in faq.entries
         h3!=faqItem.title
         p!=faqItem.text
-
-
-
