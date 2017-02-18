@@ -1,6 +1,6 @@
 meta:
   title: 'FullStack Bulletin'
-  description: 'Weekly newsletter about full stack web development'
+  description: 'Weekly Newsletter about Fullstack Web Development'
 
 headline: '<strong>Fullstack</strong> Bulletin'
 subHeadline: 'The most <strong>awesome weekly newsletter</strong> about full stack web development.'
@@ -19,27 +19,36 @@ sampleLink:
   url: https://mailchimp.com/somecampaign-url
   label: Here's what the emails look like.
 callToAction:
-  label: '<strong>Join</strong> thousands of developers who get the <strong>best 5 links</strong> in their inboxes every week, <strong>for free</strong>:'
+  label: '<strong>Join</strong> thousands of developers who get the <strong>best 7 links</strong> in their inboxes every week, <strong>for free</strong>:'
 subscribeForm:
   email:
-    label: youremail@awesome.com
+    fieldId: mce-EMAIL
+    fieldName: EMAIL
+    label: you.are.awesome@email.com
   submit:
     label: Subscribe
   note:  We never send spam and you can unsubscribe instantly with one click.
   method: POST
-  action: https://somemailchimp.com/subscribesomething
+  action: //fullstackbulletin.us15.list-manage.com/subscribe/post?u=b015626aa6028495fe77c75ea&amp;id=55ace33899
 faq:
   title: F.A.Q.
   entries:
-    - title: Question?
+    - title: What's the value for me?
       text: >
-        Answer text
-    - title: Question?
+        So, if you are a Full stack developer (or you are anspiring to become one)
+        this mailing list will provide you every week 7 relevant articles for you
+        to stay relevant and hopefully learn some new cool tricks. Did we already
+        said that it's FREE?
+    - title: Where do you get the content?
       text: >
-        Answer text
-    - title: Question?
+        We hand pick what we believe are the best articles and posts around the
+        web and then we leave the task of extracting the best 7 every week to a
+        ranking algorithm that we developed.
+    - title: Can I send feedbacks?
       text: >
-        Answer text
+        Sure, we'd love to hear from you. Feel free to use
+        <a target="_blank" href="https://fullstackbulletin.typeform.com/to/eW48Yb">this form</a>
+        to tell us what you think about this newsletter.
 footer:
   info: >
     Brought to you by <a href="https://twitter.com/loige" target="_blank"><strong>@loige</strong></a>

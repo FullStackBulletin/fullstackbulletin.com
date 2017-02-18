@@ -27,9 +27,9 @@ block page
             .subscribe__box
               .subscribe__input-field
                 input.subscribe__input(
-                  id="form-email-field",
-                  type="text"
-                  name="email"
+                  id=subscribeForm.email.fieldId
+                  type="email"
+                  name=subscribeForm.email.fieldName
                   placeholder=subscribeForm.email.label)
 
               .subscribe__submit-field
@@ -61,6 +61,3 @@ block page
                 .faq__item
                   h4.faq__item-title!=faqItem.title
                   p.faq__item-description!=faqItem.text
-
-
-
