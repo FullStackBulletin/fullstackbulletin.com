@@ -1,6 +1,7 @@
 @include print-typography();
 
 a {
+  border-bottom: 2px solid #ffd300;
   color: currentColor;
   text-decoration: none;
 }

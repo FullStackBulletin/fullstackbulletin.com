@@ -38,7 +38,7 @@ faq:
         So, if you are a Full stack developer (or you are anspiring to become one)
         this mailing list will provide you every week 7 relevant articles for you
         to stay relevant and hopefully learn some new cool tricks. Did we already
-        said that it's FREE?
+        say that it's for FREE?
     - title: Where do you get the content?
       text: >
         We hand pick what we believe are the best articles and posts around the
@@ -47,11 +47,11 @@ faq:
     - title: Can I send feedbacks?
       text: >
         Sure, we'd love to hear from you. Feel free to use
-        <a target="_blank" href="https://fullstackbulletin.typeform.com/to/eW48Yb">this form</a>
+        <a target="_blank" href="https://fullstackbulletin.typeform.com/to/eW48Yb">our feedbacks form</a>
         to tell us what you think about this newsletter.
 footer:
   info: >
     Brought to you by <a href="https://twitter.com/loige" target="_blank"><strong>@loige</strong></a>
     & <a href="https://twitter.com/andreaman87" target="_blank"><strong>@andreaman87</strong></a>.
   sub: >
-    Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank"><strong>automation</strong></a>.
+    Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank"><strong>automation</strong></a> — <a target="_blank" href="https://fullstackbulletin.typeform.com/to/eW48Yb"><strong>Feedbacks form</strong></a>
