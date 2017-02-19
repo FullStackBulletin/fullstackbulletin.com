@@ -1,9 +1,16 @@
 .layout {
-  color: neutral-color('neutral-highest');
+  background-color: brand-color('primary');
+  color: neutral-color('highest');
   font-family: $base-font-family;
   font-size: 16px;
-  padding: rem-calc(10);
   text-rendering: optimizeLegibility;
+  padding-top: ($space-base / 2);
 
-  // &__page {}
+  &__page {
+    background-color: neutral-color('lowest');
+  }
+
+  &__footer {
+    padding: $space-small $h-unit $space-medium;
+  }
 }

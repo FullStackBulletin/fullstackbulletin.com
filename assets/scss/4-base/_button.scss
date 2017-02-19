@@ -1,0 +1,17 @@
+button, .button {
+  @include get-type('h6');
+  outline: 0;
+  background-color: brand-color('primary');
+  color: neutral-color('highest');
+  border: 0;
+  padding: (($v-unit / 2) + rem-calc(3)) $h-unit ($v-unit / 2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: rem-calc(50);
+  line-height: 1;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}

@@ -1,20 +1,119 @@
-@import './main';
+@import 'main';
 
+// Scss file created exclusively to style the docs page.
+// It will not be imported in the final dist
+
+html,
+body {
+  height: 100%;
+}
+
+//------------
+// DOCS LAYOUT
+//------------
 .docs-layout {
+  background-color: neutral-color('lowest');
+  color: neutral-color('highest');
+  font-size: $rem-base;
+  min-height: 100vh;
+
+  &__content {
+    @include grid-row(false);
+    max-width: 100%;
+
+    @include media-query('large') {
+      min-height: 100%;
+    }
+  }
+
+  &__nav {
+    @include grid-column(('xxsmall': 12, 'large': 0), true);
+    background-color: neutral-color('lower');
+    border-right: 1px solid neutral-color('lower');
+
+    @include media-query('large') {
+      width: rem-calc(250);
+    }
+  }
+
+  &__page-wrapper {
+    @include grid-column(('xxsmall': 12, 'large': auto));
+    padding-bottom: $v-unit * 2;
+
+    @include media-query('large') {
+      padding: 0 ($h-unit * 4) ($v-unit * 4);
+    }
+  }
 
   &__page {
     margin: 0 auto;
-    max-width: rem-calc(1100);
-    padding: 0 ($column-gutter / 2);
+    max-width: rem-calc(1200);
+    width: 100%;
   }
 }
 
-.docs-block {
-  padding-bottom: $v-unit * 4;
+//----------
+// DOCS LOGO
+//----------
+.docs-logo {
+  background-color: neutral-color('lowest');
+  padding: ($v-unit * 2) ($h-unit * 2);
+
+  &__image {
+    margin: 0 auto;
+    max-width: rem-calc(200);
+    width: 100%;
+  }
+}
+
+//---------
+// DOCS NAV
+//---------
+.docs-nav {
+  padding: ($v-unit * 2) 0;
+
+  // &__list {}
+
+  // &__item {}
+
+  &__link {
+    @include get-type('h6');
+    color: neutral-color('medium');
+    display: block;
+    font-weight: normal;
+    margin: 0;
+    padding: ($v-unit / 2) $h-unit;
+    text-transform: uppercase;
+  }
+}
+
+//-------------
+// DOCS SECTION
+//-------------
+.docs-section {
 
   &__title {
-    border-bottom: 1px solid neutral-color('low');
-    padding-bottom: $v-unit * 2;
+    border-bottom: 2px solid neutral-color('lower');
+    margin: 0;
+    padding: ($v-unit * 4) 0 $v-unit;
+  }
+
+  &__description {
+    @include get-type('h4');
+    color: neutral-color('higher');
+    margin-top: $v-unit * 2;
+  }
+}
+
+//-----------
+// DOCS BLOCK
+//-----------
+.docs-block {
+
+  &__title {
+    @include get-type('h4');
+    color: neutral-color('medium');
+    margin-bottom: 0;
     text-transform: capitalize;
   }
 
@@ -22,25 +121,30 @@
     margin-top: $v-unit;
   }
 
-  &__preview,
   &__content {
-    margin-top: $v-unit * 2;
+    margin-top: $v-unit;
   }
 
   &__preview {
     background-color: neutral-color('low');
     border: 1px solid neutral-color('low');
+    margin-top: $v-unit * 2;
     padding: ($v-unit * 2) ($h-unit * 2);
   }
 }
 
+//--------------
+// HEADINGS GRID
+//--------------
 .headings-grid {
 
-  // &__list {}
+  &__list {
+    border: 1px solid neutral-color('lower');
+  }
 
   &__item {
-    border-bottom: 1px dotted neutral-color('low');
-    padding: $v-unit * 1.5 0;
+    border-bottom: 1px solid neutral-color('lower');
+    padding: $v-unit $h-unit;
 
     &:last-child {
       border-bottom: 0;
@@ -67,9 +171,10 @@
 
   &__sizes {
     background-color: neutral-color('lower');
+    color: neutral-color('higher');
     display: inline-flex;
     margin-top: $v-unit;
-    padding: rem-calc(2 4);
+    padding: rem-calc(2 6);
   }
 
   &__size {
@@ -82,24 +187,79 @@
   }
 }
 
+//-------------
+// PALETTE GRID
+//-------------
 .palette-grid {
-  margin-top: -$v-unit;
 
   &__list {
     @include grid-row(false);
-    margin: 0 (-$h-unit / 2);
   }
 
   &__item {
-    @include grid-column($width:(xxsmall: 6, small: 4, medium: 3, large: 2), $collapse:true);
-    margin-top: $v-unit;
-    padding: 0 ($h-unit / 2);
+    @include grid-column($width:(xxsmall: 6, small: 0), $collapse:true);
+
+    @include media-query('small') {
+      width: rem-calc(150);
+    }
   }
 }
 
+//-----------
+// ICONS GRID
+//-----------
+.icons-grid {
+
+  &__list {
+    @include grid-row(false);
+    font-size: 1.5rem;
+    padding: 1px;
+
+    @include media-query('medium') {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__list--small {
+    @include grid-row(false);
+    font-size: 1rem;
+
+    @include media-query('medium') {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__item {
+    @include grid-column((xxsmall: 6, xsmall: 3, large: 2), true);
+    outline: 1px solid neutral-color('lower');
+    text-align: center;
+  }
+
+  &__icon {
+    background-color: neutral-color('lowest');
+    padding: $v-unit $h-unit;
+  }
+
+  &__symbol {
+    svg:hover {
+      background-color: #9cff00;
+    }
+  }
+
+  &__name {
+    @include get-type('small');
+    color: neutral-color('medium');
+    line-height: 1;
+    margin-top: rem-calc(4);
+  }
+}
+
+//----------
+// COLOR BOX
+//----------
 .color-box {
   background-color: neutral-color('lowest');
-  box-shadow: 0 2px 4px rgba(neutral-color('highest'), .2);
+  box-shadow: 0 0 4px rgba(neutral-color('highest'), .2);
 
   &__swatch {
     display: block;
@@ -108,14 +268,17 @@
   }
 
   &__info {
-    padding: rem-calc(8 10);
+    padding: rem-calc(8 10 10);
   }
 
   &__label {
-    text-transform: capitalize;
+    line-height: 1;
+    text-transform: none;
   }
 
   &__hex {
     color: neutral-color('medium');
+    line-height: 1;
+    margin-top: rem-calc(4);
   }
 }

@@ -1,66 +1,72 @@
+// TODO: add font-family for each type
+
 module.exports = {
   h1: {
     sizes: {
-      medium: 43,
-      large: 48
+      medium: 45.83,
+      huge: 52.93
     },
-    'font-size': 34,
     'font-weight': 'normal',
+    'font-size': 36.72,
     'line-height': 1.2
   },
   h2: {
     sizes: {
-      medium: 34,
-      large: 36
+      medium: 36.06,
+      huge: 41.94
     },
-    'font-size': 30,
     'font-weight': 'normal',
-    'line-height': 1.2
+    'font-size': 28.18,
+    'line-height': 1.125
   },
   h3: {
     sizes: {
-      medium: 24
+      medium: 28.25,
+      huge: 33.16
     },
-    'font-size': 22,
     'font-weight': 'normal',
+    'font-size': 22.34,
     'line-height': 1.3
   },
   h4: {
     sizes: {
-      medium: 20,
-      large: 21
+      medium: 22,
+      huge: 26.12
     },
-    'font-size': 19,
-    'font-weight': 'bold',
-    'line-height': 1.2
+    'font-weight': 'normal',
+    'font-size': 18.875,
+    'line-height': 1.4
   },
   h5: {
     sizes: {
-      medium: 18,
-      large: 16
+      huge: 20.5
     },
-    'font-size': 17,
     'font-weight': 'normal',
-    'line-height': 1.2
+    'font-size': 17,
+    'line-height': 1.25
   },
   h6: {
     sizes: {
-      large: 14
+      huge: 16
     },
-    'font-size': 16,
-    'font-weight': 'normal',
-    'line-height': 1.3
+    'font-weight': 'bold',
+    'font-size': 14,
+    'line-height': 1.175
   },
   p: {
-    'font-size': 16,
+    sizes: {
+      huge: 16
+    },
     'font-weight': 'normal',
-    'line-height': 1.4
+    'font-size': 15,
+    'line-height': 1.7
   },
   small: {
     sizes: {
-      medium: 14
+      huge: 14
     },
-    'font-size': 12,
-    'font-weight': 'normal'
-  },
+    'font-weight': 'normal',
+    'font-size': 13,
+    'line-height': 1.5
+  }
 };

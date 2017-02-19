@@ -39,9 +39,21 @@ html(lang=lang)
       .layout__page
         block page
 
-      footer.layout__footer
-        !=footer.info
-        !=footer.sub
+      .layout__footer
+        footer.footer
+
+          .footer__wrapper
+            
+            .footer__content
+
+              .footer__primary
+                .footer__logo
+                  include ../assets/images/logo-footer.svg
+              .footer__secondary
+                p.footer__credits
+                  !=footer.info
+                  <br/>
+                  !=footer.sub
 
   //-
       block js_external
@@ -49,7 +61,7 @@ html(lang=lang)
           src="https://code.jquery.com/jquery-3.1.1.min.js"
           integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
           crossorigin="anonymous")
-
-  block js
-    script(
-      src="js/main.bundle.js")
+  //-
+    block js
+      script(
+        src="js/main.bundle.js")

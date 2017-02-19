@@ -1,0 +1,18 @@
+.page-index {
+
+  &__main {
+    padding: 0 $h-unit $space-medium;
+
+    @include media-query('medium') {
+      padding: 0 $h-unit $space-medium;
+    }
+  }
+
+  &__faq {
+    padding: 0 $h-unit $space-small;
+
+    @include media-query('medium') {
+      padding: $space-small $h-unit $space-large;
+    }
+  }
+}

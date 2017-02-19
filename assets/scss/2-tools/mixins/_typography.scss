@@ -1,4 +1,4 @@
-@mixin responsive-typo($font-size) {
+@mixin responsive-type($font-size) {
   @each $media, $value in $font-size {
     @include media-query($media) {
       font-size: rem-calc($value);
@@ -6,13 +6,13 @@
   }
 }
 
-@mixin get-typo($tag, $data: null) {
+@mixin get-type($tag, $data: null) {
   @if ($data == null) {
-    $data: get-typo($tag);
+    $data: get-type($tag);
   }
   @each $key, $value in $data {
     @if ($key == sizes) {
-      @include responsive-typo($value);
+      @include responsive-type($value);
     } @elseif ($key == 'font-size') {
       #{$key}: rem-calc($value);
     } @else {
@@ -24,7 +24,7 @@
 @mixin print-typography() {
   @each $key, $value in get-typography() {
     #{$key} {
-      @include get-typo($key, $value);
+      @include get-type($key, $value);
     }
   }
 }

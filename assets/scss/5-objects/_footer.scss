@@ -1,0 +1,41 @@
+.footer {
+  color: neutral-color('highest');
+
+  &__wrapper {
+    @include responsive-wrapper($layout-wrapper-sizes);
+    margin: 0 auto;
+  }
+
+  &__content {
+    @include grid-row();
+    align-items: center;
+  }
+
+  &__primary,
+  &__secondary {
+    margin-top: $space-base;
+  }
+
+  &__primary {
+    @include grid-column((xxsmall: 12, medium: 0));
+  }
+
+  &__secondary {
+    @include grid-column((xxsmall: 12, medium: auto));
+  }
+
+  &__logo {
+    max-width: rem-calc(120);
+    line-height: 0;
+
+    svg {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &__credits {
+    margin: rem-calc(3) 0 0;
+    line-height: 1.3;
+  }
+}
