@@ -8,7 +8,7 @@ mixin docs-section(config)
       h2.docs-section__title!= config.title
 
     if config.description
-      .docs-section__description!= config.description
+      p.docs-section__description!= config.description
 
     block
 
@@ -18,7 +18,9 @@ mixin docs-section(config)
 mixin docs-block(config)
   .docs-block
 
-    h3.docs-block__title!=config.title
+    if config.title
+      h3.docs-block__title!=config.title
+
     if config.description
       p.docs-block__description!=config.description
 
