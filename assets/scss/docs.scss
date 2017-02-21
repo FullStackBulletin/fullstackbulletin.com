@@ -138,13 +138,11 @@ body {
 //--------------
 .headings-grid {
 
-  &__list {
-    border: 1px solid neutral-color('lower');
-  }
+  // &__list {}
 
   &__item {
     border-bottom: 1px solid neutral-color('lower');
-    padding: $v-unit $h-unit;
+    padding: $v-unit 0;
 
     &:last-child {
       border-bottom: 0;

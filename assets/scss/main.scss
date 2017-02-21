@@ -12,13 +12,13 @@
 @import './4-base/input';
 @import './4-base/button';
 
-@import './5-objects/header';
-@import './5-objects/categories';
-@import './5-objects/separator';
-@import './5-objects/faq';
-@import './5-objects/footer';
+@import './5-components/header';
+@import './5-components/categories';
+@import './5-components/separator';
+@import './5-components/faq';
+@import './5-components/footer';
+@import './5-components/subscribe';
 
-@import './6-components/subscribe';
+@import './6-layout/layout';
 
-@import './7-pages/layout';
 @import './7-pages/index';
