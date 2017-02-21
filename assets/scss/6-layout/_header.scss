@@ -1,0 +1,34 @@
+.header {
+  padding: $space-medium 0 $space-base;
+  text-align: center;
+
+  @include media-query('medium') {
+    padding: $space-large 0 $space-medium;
+  }
+
+  &__logo {
+    color: brand-color('primary');
+    margin: 0 auto;
+    max-width: rem-calc(290);
+
+    @include media-query('medium') {
+      max-width: rem-calc(400);
+    }
+  }
+
+  // &__headline {
+  //   font-weight: 900;
+  //   line-height: 1;
+  //   text-indent: -9999px;
+
+  //   strong {
+  //     color: brand-color('primary');
+  //   }
+  // }
+
+  &__subheadline {
+    @include get-type('h3');
+    margin: $space-medium auto 0;
+    max-width: rem-calc(600);
+  }
+}

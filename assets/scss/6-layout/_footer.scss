@@ -7,8 +7,7 @@
   }
 
   &__content {
-    @include grid-row();
-    align-items: center;
+    text-align: center;
   }
 
   &__primary,
@@ -16,17 +15,10 @@
     margin-top: $space-base;
   }
 
-  &__primary {
-    @include grid-column((xxsmall: 12, medium: 0));
-  }
-
-  &__secondary {
-    @include grid-column((xxsmall: 12, medium: auto));
-  }
-
   &__logo {
-    max-width: rem-calc(120);
+    display: inline-block;
     line-height: 0;
+    max-width: rem-calc(160);
 
     svg {
       display: block;
@@ -36,6 +28,5 @@
 
   &__credits {
     margin: rem-calc(3) 0 0;
-    line-height: 1.3;
   }
 }
