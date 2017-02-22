@@ -1,0 +1,13 @@
++docs-section({
+    title: 'Faq'
+})
+
+  +docs-block({
+      title: 'Faq'
+  })
+    +faq(faq.entries[0])
+
+  +docs-block({
+      title: 'Faq List'
+  })
+    +faqs({title: faq.title, entries: faq.entries})
