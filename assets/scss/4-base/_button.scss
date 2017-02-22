@@ -1,4 +1,4 @@
-button, .button {
+%button {
   @include get-type('h6');
   outline: 0;
   background-color: brand-color('primary');
@@ -14,4 +14,8 @@ button, .button {
   letter-spacing: 1px;
   border-radius: 3px;
   text-transform: uppercase;
+}
+
+button, .button {
+  @extend %button;
 }
