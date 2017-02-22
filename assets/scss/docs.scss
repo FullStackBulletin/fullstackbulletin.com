@@ -34,6 +34,10 @@ body {
     @include media-query('large') {
       width: rem-calc(250);
     }
+
+    @include media-query('huge') {
+      width: rem-calc(350);
+    }
   }
 
   &__page-wrapper {
@@ -84,7 +88,7 @@ body {
     display: block;
     font-weight: normal;
     margin: 0;
-    padding: $space-base ($space-base / 2);
+    padding: ($space-base / 2) $space-base;
     text-transform: uppercase;
   }
 }
@@ -99,10 +103,9 @@ body {
   }
 
   &__title {
-    border-bottom: 2px solid neutral-color('lower');
     font-weight: bold;
     margin: 0;
-    padding: $space-small 0 $space-base;
+    padding-top: $space-small;
   }
 
   &__description {
@@ -129,12 +132,11 @@ body {
   }
 
   &__content {
-    margin-top: $space-base;
+    margin-top: $space-small;
   }
 
   &__preview {
-    background-color: neutral-color('low');
-    border: 1px solid neutral-color('low');
+    background-color: #f0f0f0;
     margin-top: $space-small;
     padding: $space-small;
   }
@@ -196,14 +198,11 @@ body {
 // LOGO GRID
 //----------
 .logo-grid {
+  border: 1px solid neutral-color('lower');
+  padding-bottom: $space-base;
 
   &__list {
     @include grid-row();
-  }
-
-  &__item-small,
-  &__item-medium {
-    margin-top: ($space-small / 2);
   }
 
   &__item-small {
@@ -220,10 +219,9 @@ body {
 //---------
 .logo-box {
   align-items: center;
-  border: 1px solid neutral-color('lower');
   display: flex;
   height: 100%;
-  padding: $space-small $space-small ($space-small * 1.5);
+  padding: $space-small $space-small ($space-small * 2);
   position: relative;
 
   &__picture {
@@ -236,7 +234,7 @@ body {
     bottom: 0;
     color: neutral-color('medium');
     display: flex;
-    height: $space-small;
+    height: $space-medium;
     justify-content: center;
     left: 0;
     line-height: 1;
@@ -294,15 +292,17 @@ body {
 .palette-grid {
 
   &__list {
-    @include grid-row(false);
+    // @include grid-row(false);
   }
 
   &__item {
+    /*
     @include grid-column($width:(xxsmall: 6, small: 0), $collapse:true);
 
     @include media-query('small') {
       width: rem-calc(220);
     }
+    */
   }
 }
 
@@ -362,14 +362,22 @@ body {
   background-color: neutral-color('lowest');
   box-shadow: 0 0 4px rgba(neutral-color('highest'), .2);
 
-  &__swatch {
-    display: block;
-    height: rem-calc(100);
-    width: 100%;
+  &__content {
+    @include grid-row();
+  }
+
+  &__swatch,
+  &__info {
+    @include grid-column(6);
+    justify-content: center;
+  }
+
+  &__swatch-color {
+    height: 100%;
   }
 
   &__info {
-    padding: rem-calc(8 10 10);
+    padding: ($space-base / 2) 0;
   }
 
   &__label {
@@ -378,6 +386,7 @@ body {
   }
 
   &__hex {
+    @include get-type('small');
     color: neutral-color('medium');
     line-height: 1;
     margin-top: rem-calc(4);
