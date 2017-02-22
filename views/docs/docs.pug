@@ -4,9 +4,9 @@ extends _layout
 
 block head_css
   link(
-    href="css/docs.css"
-    rel="stylesheet"
-    type="text/css")
+  href="css/docs.css"
+  rel="stylesheet"
+  type="text/css")
 
 block page
   - var productName = 'fullStack<strong>Bulletin</strong>';
@@ -26,6 +26,16 @@ block page
   #typography
     include _typography.pug
 
+  //- Icons
+  #icons
+    include _icons.pug
 
+  //- Faq
+  #faq
+    include _faq.pug
+
+  //- Footer
+  #footer
+    include _footer.pug
 
       
