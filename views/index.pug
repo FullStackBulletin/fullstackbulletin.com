@@ -5,13 +5,7 @@ block page
 
     section.page-index__main
 
-      header.header
-        .header__logo
-          include ../assets/images/logo/vertical.svg
-
-        //-
-          h1.header__headline!=headline
-        h1.header__subheadline!=subHeadline
+      include partials/_header
 
       .separator
         .separator__icon
@@ -22,16 +16,16 @@ block page
         .subscribe
           h4.subscribe__title!=callToAction.label
           form.subscribe__form(
-            method=subscribeForm.method
-            action=subscribeForm.action)
+          method=subscribeForm.method
+          action=subscribeForm.action)
 
             .subscribe__box
               .subscribe__input-field
                 input.subscribe__input(
-                  id=subscribeForm.email.fieldId
-                  type="email"
-                  name=subscribeForm.email.fieldName
-                  placeholder=subscribeForm.email.label)
+                id=subscribeForm.email.fieldId
+                type="email"
+                name=subscribeForm.email.fieldName
+                placeholder=subscribeForm.email.label)
 
               .subscribe__submit-field
                 button.subscribe__submit(type="submit")
@@ -40,25 +34,9 @@ block page
                   .subscribe__submit-label!=subscribeForm.submit.label
 
             small.subscribe__note!=subscribeForm.note
-              a(href=sampleLink.url)!=` <strong>${sampleLink.label}</strong>`
-
-        //-
-          .header__categories
-            .categories
-              ul.categories__list
-                each category in categories
-                  .categories__item
-                    .categories__item-block
-                      h4.categories__name!=category.name
+              =" "
+              a(href=sampleLink.url)!=`<strong>${sampleLink.label}</strong>`
 
     section.page-index__faq
+      +faqs({title: faq.title, entries: faq.entries})
 
-      .faq
-        .faq__content
-          .faq__frame
-            h3.faq__title!=faq.title
-            .faq__list
-              each faqItem in faq.entries
-                .faq__item
-                  h4.faq__item-title!=faqItem.title
-                  p.faq__item-description!=faqItem.text
