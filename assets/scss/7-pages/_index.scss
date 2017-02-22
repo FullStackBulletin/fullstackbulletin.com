@@ -4,11 +4,12 @@
     padding: 0 $h-unit $space-medium;
 
     @include media-query('medium') {
-      padding: 0 $h-unit $space-medium;
+      padding: 0 $h-unit $space-large;
     }
   }
 
   &__faq {
+    border-top: 1px dashed neutral-color('lower');
     padding: 0 $h-unit $space-small;
 
     @include media-query('medium') {

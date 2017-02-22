@@ -1,0 +1,10 @@
+.faq {
+  &__title {
+    font-weight: bold;
+    margin: 0;
+  }
+
+  &__description {
+    margin: ($space-base / 2) 0 0;
+  }
+}

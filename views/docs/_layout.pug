@@ -1,4 +1,5 @@
-include ./mixins/_index.pug
+include mixins/_index
+include ../mixins/_index
 
 doctype html
 
@@ -9,8 +10,8 @@ html
     title=Documentation
 
     meta(
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0")
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0")
 
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
@@ -19,27 +20,25 @@ html
 
     block head_css
       link(
-        href="css/docs.css"
-        rel="stylesheet"
-        type="text/css")
+      href="css/docs.css"
+      rel="stylesheet"
+      type="text/css")
 
   block body
     body.docs-layout
       .docs-layout__content
 
-        - var navigation = [{label: 'Palettes', url: '#palettes'}, {label: 'Typography', url: '#typography'}]
-
         .docs-layout__nav
           .docs-logo
             .docs-logo__image
-              include ./../../assets/images/logo-vertical.svg
+              include ./../../assets/images/logo/vertical.svg
 
           nav.docs-nav
             .docs-nav__list
               each item in navigation
                 li.docs-nav__item
                   a.docs-nav__link(
-                    href=`/docs.html?${item.url}`)!=item.label
+                  href=`/docs.html?${item.url}`)!=item.label
 
         .docs-layout__page-wrapper
           .docs-layout__page
