@@ -1,8 +1,8 @@
 module.exports = {
   brand: {
-    dark: '#927900',
+    light: '#ffe66d',
     primary: '#ffd300',
-    light: '#ffe66d'  
+    dark: '#927900'
   },
   neutral: {
     lowest: '#fff',
@@ -14,5 +14,3 @@ module.exports = {
     highest: '#0c0c0c'
   }
 };
-
-
