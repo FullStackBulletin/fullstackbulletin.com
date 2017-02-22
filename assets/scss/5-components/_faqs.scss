@@ -5,14 +5,7 @@
     margin: 0 auto;
   }
 
-  &__frame {
-    border-top: 1px dashed neutral-color('lower');
-
-    @include media-query('medium') {
-      border: 2px dashed neutral-color('lower');
-      padding: 0 ($space-base * 2) $space-base;
-    }
-  }
+  // &__frame {}
 
   &__list {
     column-gap: $column-gutter;
