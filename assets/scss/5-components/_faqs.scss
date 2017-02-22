@@ -1,0 +1,34 @@
+.faqs {
+
+  &__content {
+    @include responsive-wrapper($layout-wrapper-sizes);
+    margin: 0 auto;
+  }
+
+  &__frame {
+    border-top: 1px dashed neutral-color('lower');
+
+    @include media-query('medium') {
+      border: 2px dashed neutral-color('lower');
+      padding: 0 ($space-base * 2) $space-base;
+    }
+  }
+
+  &__list {
+    column-gap: $column-gutter;
+
+    @include media-query('medium') {
+      column-count: 2;
+    }
+  }
+
+  &__item {
+    display: inline-block;
+    margin-bottom: $space-base;
+    width: 100%;
+
+    @include media-query('medium') {
+      margin-bottom: $space-small;
+    }
+  }
+}
