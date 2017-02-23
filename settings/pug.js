@@ -7,6 +7,7 @@ data.navigation = [
   {label: 'Faq', url: '#faq'},
   {label: 'Footer', url: '#footer'}
 ];
-data.palettes = require('./palette');
+data.palettes = require('./palettes');
 data.typography = require('./typography');
+data.icons = require('./icons.json');
 module.exports = data;
