@@ -4,7 +4,7 @@ machine:
 
 test:
   post:
-    - npm run prod:build:all
+    - npm run prod:build
     - cp -R dist/* $CIRCLE_ARTIFACTS
     - >
       if [ $CIRCLE_BRANCH = 'master' ]; then aws s3 sync dist s3://fullstackbulletin.com && aws configure set preview.cloudfront true && aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --invalidation-batch "{ \"Paths\": { \"Quantity\": 1, \"Items\": [ \"/*\" ] }, \"CallerReference\": \"CIRCLE-CI-BUILD-$CIRCLE_BUILD_NUM-$CIRCLE_SHA1\" }"; fi
