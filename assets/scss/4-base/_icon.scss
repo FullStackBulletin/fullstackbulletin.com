@@ -1,0 +1,11 @@
+.icon {
+  display: block;
+  line-height: 0;
+
+  & > svg {
+    fill: currentColor;
+    stroke: currentColor;
+    height: 1em;
+    width: 1em;
+  }
+}

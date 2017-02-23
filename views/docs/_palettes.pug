@@ -1,10 +1,8 @@
 +docs-section({
-    title: 'Colour Palettes'
-})
+    title: 'Colour Palettes'})
 
   each value, key in palettes
     +docs-block({
-        title: `${key} palette`,
-        open: true})
-
+      title: `${key} palette`,
+      open: true})
       +palette-grid(value)

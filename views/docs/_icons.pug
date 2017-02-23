@@ -1,7 +1,12 @@
 +docs-section({
-    title: 'Icons'
-})
+  title: 'Icons'})
 
   +docs-block({
-      title: 'Preview (Medium)'
-  })
+    title: 'Preview',
+    open: true})
+    +icons-grid({icons: icons})
+
+  +docs-block({
+    title: 'Small preview',
+    open: true})
+    +icons-grid({icons: icons, type: 'small'})

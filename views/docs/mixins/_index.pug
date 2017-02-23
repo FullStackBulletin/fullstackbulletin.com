@@ -31,6 +31,22 @@ mixin docs-block(config)
       .docs-block__preview
         block
 
+//------------
+//- ICONS GRID
+//------------
+mixin icons-grid(config)
+  - var classType = config.type ? `icons-grid--${config.type}` : '';
+  .icons-grid(
+  class=classType)
+    .icons-grid__list
+      each icon in config.icons
+        - var name = icon.replace(/\.[^\/.]+$/, '');
+        .icons-grid__item
+          .icons-grid__icon
+            .icons-grid__symbol
+              +icon({name: name})
+            .icons-grid__name= name
+
 //--------------
 //- PALETTE GRID
 //--------------

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+<symbol id="email" viewBox="0 0 100 100">
+  <rect x="55" y="45" width="11" height="10"/><rect x="34" y="45" width="11" height="10"/><rect x="45" y="55" width="10" height="11"/><rect x="66" y="34" width="11" height="11"/>
+  <path d="M88.11,12H1V88H99V12H88.11ZM88,44.56V77H12V34H23V23H77V34H88V44.56Z"/><rect x="23" y="34" width="11" height="11"/>
+
+</symbol>
+<symbol id="subscribe" viewBox="0 0 100 100"><title>*</title><path d="M79.4,34.91L60.78,16.29,69.6,7.47a4.74,4.74,0,0,1,6.86,0L87.73,18.74a4.74,4.74,0,0,1,0,6.86ZM45.1,84L35.3,94H99V84H45.1Zm9.8-62.81L1,75.58V94H19.62l53.9-54.29Z"/>
+</symbol></svg>
