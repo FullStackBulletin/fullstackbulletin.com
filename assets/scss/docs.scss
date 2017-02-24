@@ -314,6 +314,7 @@ body {
   &__list {
     @include grid-row(false);
     font-size: 1.5rem;
+    max-width: 100%;
     padding: 1px;
 
     @include media-query('medium') {
@@ -321,8 +322,7 @@ body {
     }
   }
 
-  &__list--small {
-    @include grid-row(false);
+  &--small &__list{
     font-size: 1rem;
 
     @include media-query('medium') {
@@ -343,7 +343,7 @@ body {
 
   &__symbol {
     svg:hover {
-      background-color: brand-color('light');
+      background-color: brand-color('primary');
     }
   }
 
