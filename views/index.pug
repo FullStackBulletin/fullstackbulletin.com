@@ -11,30 +11,7 @@ block page
       +separator('email')
 
       .page-index__subscribe
-
-        .subscribe
-          h4.subscribe__title!=callToAction.label
-          form.subscribe__form(
-          method=subscribeForm.method
-          action=subscribeForm.action)
-
-            .subscribe__box
-              .subscribe__input-field
-                input.subscribe__input(
-                id=subscribeForm.email.fieldId
-                type="email"
-                name=subscribeForm.email.fieldName
-                placeholder=subscribeForm.email.label)
-
-              .subscribe__submit-field
-                button.subscribe__submit(type="submit")
-                  .subscribe__submit-icon
-                    +icon({name: 'subscribe'})
-                  .subscribe__submit-label!=subscribeForm.submit.label
-
-            small.subscribe__note!=subscribeForm.note
-              =" "
-              a(href=sampleLink.url)!=`<strong>${sampleLink.label}</strong>`
+        include partials/_subscribe
 
     section.page-index__faq
       +faqs({title: faq.title, entries: faq.entries})

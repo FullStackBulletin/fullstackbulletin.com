@@ -1,17 +1,7 @@
-.subscribe {
-  &__title {
-    margin: $space-base auto;
-    max-width: rem-calc(600);
-    text-align: center;
+.subscribe-form {
 
-    @include media-query('medium') {
-      margin: $space-medium auto;
-    }
-  }
-
-  &__box {
+  &__content {
     @include grid-row(false);
-    max-width: rem-calc(500);
   }
 
   &__input-field {
@@ -55,12 +45,5 @@
     @include media-query('medium') {
       display: block;
     }
-  }
-
-  &__note {
-    color: neutral-color('high');
-    display: block;
-    margin-top: $space-small;
-    text-align: center;
   }
 }

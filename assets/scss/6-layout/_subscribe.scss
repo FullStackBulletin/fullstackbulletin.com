@@ -1,0 +1,23 @@
+.subscribe {
+  &__title {
+    margin: $space-base auto;
+    max-width: rem-calc(600);
+    text-align: center;
+
+    @include media-query('medium') {
+      margin: $space-medium auto;
+    }
+  }
+
+  &__form {
+    margin: 0 auto;
+    max-width: rem-calc(500);
+  }
+
+  &__note {
+    color: neutral-color('high');
+    display: block;
+    margin-top: $space-small;
+    text-align: center;
+  }
+}
