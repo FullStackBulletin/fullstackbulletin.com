@@ -25,12 +25,17 @@ html
           .docs-logo
             .docs-logo__image
               include ../../assets/images/logo/vertical.svg
+
           nav.docs-nav
             .docs-nav__list
               each item in navigation
-                li.docs-nav__item
-                  a.docs-nav__link(
-                  href=`/docs.html?${item.url}`)!=item.label
+                .docs-nav__item
+                  h6.docs-nav__section-title!=item.label
+                  .docs-nav__items
+                    each subItem in item.items
+                      a.docs-nav__link(
+                      href=`/docs.html?${subItem.url}`)!=subItem.label
+
         .docs-layout__page-wrapper
           .docs-layout__page
             block page

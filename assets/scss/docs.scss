@@ -75,20 +75,30 @@ body {
 // DOCS NAV
 //---------
 .docs-nav {
-  padding: $space-small 0;
+  padding: ($v-unit * 2) 0;
 
   // &__list {}
 
   // &__item {}
 
+  &__items {
+    padding: $v-unit 0;
+  }
+
+  &__section-title {
+    border-bottom: 1px solid rgba(neutral-color('medium'), 0.5);
+    margin: 0;
+    padding: $v-unit $h-unit;
+  }
+
   &__link {
     @include get-type('h6');
-    border: 0;
+    border-bottom: 0;
     color: neutral-color('medium');
     display: block;
     font-weight: normal;
     margin: 0;
-    padding: ($space-base / 2) $space-base;
+    padding: ($v-unit / 2) $h-unit;
     text-transform: uppercase;
   }
 }
