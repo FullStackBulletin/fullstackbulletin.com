@@ -12,14 +12,14 @@ body {
 // DOCS LAYOUT
 //------------
 .docs-layout {
-  background-color: neutral-color('lowest');
+  background-color: lighten(neutral-color('lower'), 12%);
   color: neutral-color('highest');
   font-size: $rem-base;
   min-height: 100vh;
 
   &__content {
     @include grid-row(false);
-    max-width: 100%;
+    max-width: rem-calc(1400);
 
     @include media-query('large') {
       min-height: 100%;
@@ -28,7 +28,6 @@ body {
 
   &__nav {
     @include grid-column(('xxsmall': 12, 'large': 0), true);
-    background-color: neutral-color('lower');
     border-right: 1px solid neutral-color('lower');
 
     @include media-query('large') {
@@ -42,10 +41,11 @@ body {
 
   &__page-wrapper {
     @include grid-column(('xxsmall': 12, 'large': auto));
+    background-color: neutral-color('lowest');
     padding-bottom: $space-small;
 
     @include media-query('large') {
-      padding: $space-medium $space-medium $space-small;
+      padding: $space-medium $space-medium $space-large;
     }
   }
 
@@ -86,7 +86,7 @@ body {
   }
 
   &__section-title {
-    border-bottom: 1px solid rgba(neutral-color('medium'), 0.5);
+    border-bottom: 1px dotted rgba(neutral-color('medium'), 0.5);
     margin: 0;
     padding: $v-unit $h-unit;
   }
@@ -146,9 +146,13 @@ body {
   }
 
   &__preview {
-    background-color: #f0f0f0;
+    border: 1px solid neutral-color('lower');
     margin-top: $space-small;
-    padding: $space-small;
+    padding: ($space-base / 2);
+
+    @include media-query('medium') {
+      padding: $space-small;
+    }
   }
 }
 

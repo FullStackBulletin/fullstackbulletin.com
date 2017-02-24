@@ -8,6 +8,14 @@
     }
   }
 
+  &__header {
+    padding: $space-medium 0 $space-base;
+
+    @include media-query('medium') {
+      padding: $space-large 0 $space-medium;
+    }
+  }
+
   &__faq {
     border-top: 1px dashed neutral-color('lower');
     padding: 0 $h-unit $space-small;

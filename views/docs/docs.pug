@@ -11,8 +11,8 @@ block head_css
 block page
   - var productName = 'fullStack<strong>Bulletin</strong>';
 
-  h1 Styleguide
-  h3!=`Below is the styleguide we created for ${productName} project — both for the benefit of the (web) developers and to ensure consistency across all brand pages and UI.`
+  h1 UI Components
+  h3!=`Below is the UI components styleguide we created for ${productName} project — both for the benefit of the (web) developers and to ensure consistency across all brand pages and UI.`
 
   //- Logo
   #logo
@@ -30,9 +30,25 @@ block page
   #icons
     include _icons.pug
 
+  //- Separator
+  #separator
+    include _separator.pug
+
+  //- Separator
+  #subscribe-form
+    include _subscribe-form.pug
+
   //- Faq
   #faq
     include _faq.pug
+
+  //- Footer
+  #header
+    include _header.pug
+
+  //- Subscribe
+  #subscribe
+    include _subscribe.pug
 
   //- Footer
   #footer

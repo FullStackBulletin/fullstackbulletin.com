@@ -12,6 +12,8 @@ data.navigation = [
   {
     label: 'Components',
     items: [
+      {label: 'Separator', url: '#separator'},
+      {label: 'Subscribe form', url: '#subscribe-form'},
       {label: 'Faq', url: '#faq'}
     ]
   },
@@ -19,6 +21,7 @@ data.navigation = [
     label: 'Layouts',
     items: [
       {label: 'Header', url: '#header'},
+      {label: 'Subscribe', url: '#subscribe'},
       {label: 'Footer', url: '#footer'}
     ]
   }
