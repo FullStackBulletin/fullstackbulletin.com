@@ -1,10 +1,5 @@
 .header {
-  padding: $space-medium 0 $space-base;
   text-align: center;
-
-  @include media-query('medium') {
-    padding: $space-large 0 $space-medium;
-  }
 
   &__logo {
     color: brand-color('primary');
