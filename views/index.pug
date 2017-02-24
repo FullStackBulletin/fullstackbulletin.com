@@ -7,9 +7,7 @@ block page
 
       include partials/_header
 
-      .separator
-        .separator__icon
-          include ../assets/icons/email.svg
+      +separator('email')
 
       .page-index__subscribe
 
@@ -30,7 +28,7 @@ block page
               .subscribe__submit-field
                 button.subscribe__submit(type="submit")
                   .subscribe__submit-icon
-                    include ../assets/icons/subscribe.svg
+                    +icon({name: 'subscribe'})
                   .subscribe__submit-label!=subscribeForm.submit.label
 
             small.subscribe__note!=subscribeForm.note

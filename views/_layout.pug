@@ -3,41 +3,34 @@ include mixins/_index
 doctype html
 
 html(lang=lang)
-
   head
-
     title= meta.title
     meta(
     name="description"
     content=meta.description)
-
     meta(
-    name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0")
-
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0")
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
-
-    base(href="/")
-
     block head_css
+      //-
+        link(
+          href="https://fonts.googleapis.com/css?family=Roboto:400,900"
+          rel="stylesheet")
       link(
-      href="https://fonts.googleapis.com/css?family=Roboto:400,900"
-      rel="stylesheet")
-      link(
-      href="css/main.css"
-      rel="stylesheet"
-      type="text/css")
+        href="css/main.css"
+        rel="stylesheet"
+        type="text/css")
 
   block body
+    div(style="display: none")
+      include ../assets/icons-sprite.svg
     body.layout
-
       .layout__page
         block page
-
       .layout__footer
         include partials/_footer
-
       block analytics
         if analyticsId
           script.

@@ -42,7 +42,7 @@
   }
 
   &__submit-icon {
-    width: rem-calc(20);
+    font-size: rem-calc(20);
 
     @include media-query('medium') {
       display: none;
