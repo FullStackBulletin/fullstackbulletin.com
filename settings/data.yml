@@ -16,8 +16,8 @@ categories:
   - name: Devops
     icon: devops.svg
 sampleLink:
-  url: https://mailchimp.com/somecampaign-url
-  label: Here’s what the email looks like.
+  url: http://us15.campaign-archive1.com/home/?u=b015626aa6028495fe77c75ea&id=55ace33899
+  label: Check out our previous emails.
 callToAction:
   label: '<strong>Join</strong> thousands of developers who get the <strong>best 7 links</strong> in their inboxes every week, <strong>for free</strong>:'
 subscribeForm:
