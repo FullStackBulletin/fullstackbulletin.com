@@ -3,6 +3,14 @@
   "version": "0.0.0",
   "description": "The source code for fullstackbulletin.com website",
   "main": "index.js",
+  "per-env": {
+    "development": {
+      "output_folder": "dev"
+    },
+    "production": {
+      "output_folder": "dist"
+    }
+  },
   "scripts": {
     "test": "echo 'Well... we will do it live for now'",
     "clean": "rimraf dist/*",
@@ -72,12 +80,13 @@
     "node-sass-utils": "^1.1.2",
     "npm-run-all": "^4.0.1",
     "onchange": "^3.2.1",
+    "per-env": "^1.0.2",
     "postcss-cli": "^2.6.0",
     "pug-cli": "^1.0.0-alpha6",
     "rimraf": "^2.5.4",
     "super-gigi": "^1.11.0",
     "svg-sprite-generator": "0.0.7",
-    "webpack": "^1.14.0",
+    "webpack": "^2.4.1",
     "yamljs": "^0.2.8"
   },
   "dependencies": {
