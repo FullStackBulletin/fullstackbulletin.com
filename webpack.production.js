@@ -8,7 +8,7 @@ module.exports = [{
   },
   output: {
     path: path.resolve(BUILDDIR, 'js'),
-    filename: '[name].bundle.min.js'
+    filename: `[name]__${process.env['npm_package_version']}.bundle.min.js`
   },
   context: __dirname,
   target: 'web',

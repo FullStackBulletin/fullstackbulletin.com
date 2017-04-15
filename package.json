@@ -1,6 +1,6 @@
 {
   "name": "fullstackbullettin-website",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The source code for fullstackbulletin.com website",
   "main": "index.js",
   "per-env": {
@@ -9,6 +9,9 @@
     },
     "production": {
       "output_folder": "dist"
+    },
+    "documentation": {
+      "output_folder": "dist-doc"
     }
   },
   "scripts": {
@@ -22,7 +25,7 @@
     "optimize:images": "imagemin assets/images -o ${output_folder}/images",
     "build:js": "npm-run-all compile:utilities:js compile:js:${NODE_ENV}",
     "optimize:css:vendors": "postcss -c settings/post-css.json -u autoprefixer -r ${output_folder}/css/*",
-    "optimize:css:mq": "mqpacker --sort ${output_folder}/css/main.css > ${output_folder}/css/main.min.css",
+    "optimize:css:mq": "mqpacker --sort ${output_folder}/css/main.css > ${output_folder}/css/main__$npm_package_version.min.css",
     "build:views": "pug views/index.pug --obj ${output_folder}/data.json --out ${output_folder}",
     "create:assets": "npm-run-all clean build:js build:svg-icons-sprite build:images:${NODE_ENV} build:css:${NODE_ENV} convert:data build:views",
     "watch:css": "onchange 'assets/scss' -- npm run build:css:${NODE_ENV}",
@@ -31,7 +34,7 @@
     "serve": "browser-sync start --no-open -s ${output_folder} -f ${output_folder}",
     "start": "npm-run-all create:assets serve",
     "compile:js:development": "webpack --config ./webpack.development.js",
-    "compile:css:development": "node-sass --output-style compact -o ${output_folder}/css assets/scss/main.scss --include-path node_modules --functions ./settings/scss.js",
+    "compile:css:development": "node-sass -o ${output_folder}/css assets/scss/main.scss --output-style compact --include-path node_modules --functions ./settings/scss.js",
     "build:css:development": "npm-run-all compile:css:development optimize:css:vendors",
     "build:images:development": "npm-run-all copy:images copy:favicon",
     "compile:js:production": "webpack -p --config ./webpack.production.js",
