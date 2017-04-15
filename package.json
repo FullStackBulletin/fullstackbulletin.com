@@ -40,6 +40,8 @@
     "build:images:production": "npm-run-all copy:images copy:favicon optimize:images",
     "dev:development": "npm-run-all -p start watch:*",
     "prod:production": "npm run start",
+    "prod:build:production": "npm run create:assets",
+    "prod:build": "NODE_ENV=production per-env",
     "dev": "NODE_ENV=development per-env",
     "prod": "NODE_ENV=production per-env"
   },
