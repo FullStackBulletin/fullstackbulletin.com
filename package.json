@@ -35,7 +35,7 @@
     "start": "npm-run-all create:assets serve",
     "compile:js:development": "webpack --config ./webpack.development.js",
     "compile:css:development": "node-sass -o ${output_folder}/css assets/scss/main.scss --output-style compact --include-path node_modules --functions ./settings/scss.js",
-    "build:css:development": "npm-run-all compile:css:development optimize:css:vendors",
+    "build:css:development": "npm-run-all compile:css:development optimize:css:*",
     "build:images:development": "npm-run-all copy:images copy:favicon",
     "compile:js:production": "webpack -p --config ./webpack.production.js",
     "compile:css:production": "node-sass --output-style compressed -o ${output_folder}/css assets/scss/main.scss --include-path node_modules --functions ./settings/scss.js",
