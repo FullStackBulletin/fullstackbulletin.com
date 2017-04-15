@@ -8,7 +8,7 @@ module.exports = [{
   },
   output: {
     path: path.resolve(BUILDDIR, 'js'),
-    filename: '[name].bundle.js'
+    filename: '[name].bundle.min.js'
   },
   context: __dirname,
   target: 'web',

@@ -1,5 +1,5 @@
 include mixins/_index
-
+- var isProduction = process.env.NODE_ENV === 'production';
 doctype html
 
 html(lang=lang)
@@ -14,12 +14,9 @@ html(lang=lang)
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     block head_css
-      //-
-        link(
-          href="https://fonts.googleapis.com/css?family=Roboto:400,900"
-          rel="stylesheet")
+      - var cssFile = isProduction ? 'main.min.css' : 'main.css';
       link(
-        href="css/main.css"
+        href=`css/${cssFile}`
         rel="stylesheet"
         type="text/css")
 
@@ -58,4 +55,5 @@ html(lang=lang)
   //-
     block js
       script(
-        src="js/main.bundle.js")
+        - var jsFile = isProduction ? 'main.bundle.min.js' : 'main.bundle.js';
+        src=`js/${jsFile}`)
