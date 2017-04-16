@@ -41,3 +41,4 @@ build-utilities/compiled
 dist/
 dev/
 lib/
+dist-doc/

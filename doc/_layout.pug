@@ -1,5 +1,5 @@
 include mixins/_index
-include ../mixins/_index
+include ./../views/mixins/_index
 
 doctype html
 html
@@ -11,20 +11,20 @@ html
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
     block head_css
-    link(
-      href="css/docs.css"
-      rel="stylesheet"
-      type="text/css")
+      link(
+        href="css/docs.css"
+        rel="stylesheet"
+        type="text/css")
 
   block body
     body.docs-layout
       div(style="display: none;")
-        include ../../assets/icons-sprite.svg
+        include ../assets/icons-sprite.svg
       .docs-layout__content
         .docs-layout__nav
           .docs-logo
             .docs-logo__image
-              include ../../assets/images/logo/vertical.svg
+              include ../assets/images/logo/vertical.svg
 
           nav.docs-nav
             .docs-nav__list

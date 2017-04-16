@@ -1,13 +1,5 @@
 extends _layout
 
-//- include ./mixins/_docs-mixins.pug
-
-block head_css
-  link(
-  href="css/docs.css"
-  rel="stylesheet"
-  type="text/css")
-
 block page
   - var productName = 'fullStack<strong>Bulletin</strong>';
 
@@ -16,42 +8,42 @@ block page
 
   //- Logo
   #logo
-    include _logo.pug
+    include _logo
 
   //- Palettes
   #palettes
-    include _palettes.pug
+    include _palettes
 
   //- Typography
   #typography
-    include _typography.pug
+    include _typography
 
   //- Icons
   #icons
-    include _icons.pug
+    include _icons
 
   //- Separator
   #separator
-    include _separator.pug
+    include _separator
 
   //- Separator
   #subscribe-form
-    include _subscribe-form.pug
+    include _subscribe-form
 
   //- Faq
   #faq
-    include _faq.pug
+    include _faq
 
   //- Footer
   #header
-    include _header.pug
+    include _header
 
   //- Subscribe
   #subscribe
-    include _subscribe.pug
+    include _subscribe
 
   //- Footer
   #footer
-    include _footer.pug
+    include _footer
 
       

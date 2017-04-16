@@ -1,5 +1,4 @@
-var data = require('./../dist/data.json');
-data.navigation = [
+module.exports = [
   {
     label: 'Basic',
     items: [
@@ -26,7 +25,3 @@ data.navigation = [
     ]
   }
 ];
-data.palettes = require('./palettes');
-data.typography = require('./typography');
-data.icons = require('./icons.json');
-module.exports = data;
