@@ -1,7 +1,6 @@
 .footer {
-  background-color: brand-color('primary');
-  color: neutral-color('highest');
-  padding: $space-small $h-unit $space-medium;
+  color: neutral-color('medium');
+  padding: $space-large $h-unit;
 
   &__wrapper {
     @include responsive-wrapper($layout-wrapper-sizes);
@@ -9,26 +8,59 @@
   }
 
   &__content {
-    text-align: center;
+    @include grid-row();
+    align-items: center;
+    justify-content: space-between;
   }
 
   &__primary,
   &__secondary {
-    margin-top: $space-small;
+    @include grid-column((xxsmall: 12, medium: 5));
+    margin: $space-base 0;
   }
 
   &__logo {
     display: inline-block;
     line-height: 0;
-    max-width: rem-calc(160);
+    max-width: rem-calc(130);
+    color: brand-color('primary');
+
+    @include media-query('medium') {
+      max-width: rem-calc(150);
+    }
 
     svg {
+      fill: neutral-color('lowest');
       display: block;
       width: 100%;
     }
   }
 
+  &__description {
+    margin: rem-calc(30) 0 0;
+  }
+
   &__credits {
     margin: 0;
+  }
+
+  &__feedback-text,
+  &__description,
+  &__credits {
+    @include get-type('small');
+
+    a {
+      color: brand-color('primary');
+      text-decoration: underline;
+    }
+  }
+
+  &__feedback {
+    margin-top: $space-base;
+  }
+
+  &__feedback-button {
+    @extend %button;
+    margin-top: rem-calc(20);
   }
 }

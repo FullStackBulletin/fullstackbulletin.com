@@ -1,23 +1,43 @@
 .subscribe {
-  &__title {
-    margin: $space-base auto;
-    max-width: rem-calc(600);
-    text-align: center;
+
+  &__content {
+    margin: 0 auto;
 
     @include media-query('medium') {
-      margin: $space-medium auto;
+      @include grid-space('max-width', 8);
+    }
+  }
+
+  &__title {
+    @include get-type('h2');
+    margin: 0;
+  }
+
+  &__resources {
+    margin-top: $space-medium;
+  }
+
+  &__resource {
+    position: relative;
+    margin-top: $space-base;
+
+    &:first-child {
+      margin-top: 0;
     }
   }
 
   &__form {
-    margin: 0 auto;
-    max-width: rem-calc(500);
+    margin-top: $space-medium;
   }
 
   &__note {
-    color: neutral-color('high');
+    color: neutral-color('medium');
     display: block;
     margin-top: $space-small;
-    text-align: center;
+
+    a {
+      color: brand-color('primary');
+      text-decoration: underline;
+    }
   }
 }

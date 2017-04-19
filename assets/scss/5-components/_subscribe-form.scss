@@ -2,6 +2,10 @@
 
   &__content {
     @include grid-row(false);
+
+    @include media-query('large') {
+      height: rem-calc(54);
+    }
   }
 
   &__input-field {
@@ -10,24 +14,18 @@
 
   &__submit-field {
     @include grid-column(0, true);
-
-    @include media-query('medium') {
-      padding-left: ($column-gutter / 2);
-    }
   }
 
   &__input {
-    border-radius: 3px 0 0 3px;
   }
 
   &__submit {
-    border-radius: 0 3px 3px 0;
   }
 
   &__input,
   &__submit {
-    @include media-query('medium') {
-      border-radius: 3px;
+    @include media-query('large') {
+      height: 100% !important;
     }
   }
 

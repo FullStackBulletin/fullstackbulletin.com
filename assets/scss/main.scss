@@ -7,16 +7,19 @@
 @import './3-generic/normalize';
 @import './3-generic/layout-settings';
 
-@import './4-base/fonts/primary';
+// @import './4-base/fonts/primary';
+@import './4-base/commons';
 @import './4-base/icon';
 @import './4-base/typography';
 @import './4-base/input';
 @import './4-base/button';
 
-@import './5-components/separator';
 @import './5-components/faq';
 @import './5-components/faqs';
 @import './5-components/subscribe-form';
+@import './5-components/founder';
+@import './5-components/founders';
+@import './5-components/resource';
 
 @import './6-layout/subscribe';
 @import './6-layout/layout';

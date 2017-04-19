@@ -1,13 +1,28 @@
 .layout {
-  background-color: brand-color('primary');
+  background-color: neutral-color('highest');
   color: neutral-color('highest');
-  font-family: $base-font-family;
+  font-family: $secondary-font;
   font-size: 16px;
-  padding-top: ($space-base / 2);
   text-rendering: optimizeLegibility;
 
-  &__page {
-    background-color: neutral-color('lowest');
+  &__loader {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(neutral-color('highest'), .9);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: z('overlay');
+    display: none;
+  }
+
+
+  &.is-loading &__loader {
+    display: flex;
   }
 
   // &__footer {}
