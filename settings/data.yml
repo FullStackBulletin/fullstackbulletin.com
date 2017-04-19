@@ -3,7 +3,54 @@ meta:
   description: 'Weekly Newsletter about Fullstack Web Development'
 
 headline: '<strong>Fullstack</strong> Bulletin'
-subHeadline: 'The most <strong>awesome weekly newsletter</strong> about full stack web development.'
+subHeadline: 'The weekly newsletter<br/> about full stack web development'
+
+navigation:
+  - label: Faq
+    url: '#faq'
+  - label: Founders
+    url: '#founders'
+  - label: Feedback form
+    url: https://fullstackbulletin.typeform.com/to/eW48Yb
+
+founders:
+  title: Founders
+  list:
+    - name: Luciano Mammino
+      image: TBD
+      description: >
+        Web developer, entrepreneur, fighter, butterfly maker!
+      profiles:
+        twitter:
+          label: @loige
+          url: https://twitter.com/loige
+        blog:
+          label: http://loige.co
+          url: http://loige.co
+    - name: Andrea Mangano
+      image: TBD
+      description: >
+        UI/Web developer, food lover, romantic and visionary man, curious about life.
+      profiles:
+        twitter:
+          label: @andreaman87
+          url: https://twitter.com/andreaman87
+        website:
+          label: http://andreamangano.com
+          url: http://andreamangano.com
+
+resources:
+  - image: bulletin.svg
+    count: 7
+    text: links to selected articles
+  - image: book.svg
+    count: 1
+    text: book suggested
+  - image: quote.svg
+    count: 1
+    text: tech quote
+
+
 categories:
   - name: Frontend
     icon: frontend.svg
@@ -15,21 +62,25 @@ categories:
     icon: database.svg
   - name: Devops
     icon: devops.svg
+
 sampleLink:
   url: http://us15.campaign-archive1.com/home/?u=b015626aa6028495fe77c75ea&id=55ace33899
   label: Check out our previous emails.
+
 callToAction:
-  label: '<strong>Join</strong> thousands of developers who get the <strong>best 7 links</strong> in their inboxes every week, <strong>for free</strong>:'
+  label: 'Join to get the best 7 links in your inbox every week, for free:'
+
 subscribeForm:
   email:
     fieldId: mce-EMAIL
     fieldName: EMAIL
     label: you.are.awesome@email.com
   submit:
-    label: Subscribe
+    label: Join now
   note:  We never send spam and you can unsubscribe instantly with one click.
   method: POST
   action: //fullstackbulletin.us15.list-manage.com/subscribe/post?u=b015626aa6028495fe77c75ea&amp;id=55ace33899
+
 faq:
   title: F.A.Q.
   entries:
@@ -49,11 +100,16 @@ faq:
         Sure, we'd love to hear from you. Feel free to use
         <a target="_blank" href="https://fullstackbulletin.typeform.com/to/eW48Yb">our feedback form</a>
         to tell us what you think about this newsletter.
+
 footer:
-  info: >
-    Brought to you by <a href="https://twitter.com/loige" target="_blank"><strong>@loige</strong></a>
-    & <a href="https://twitter.com/andreaman87" target="_blank"><strong>@andreaman87</strong></a>.
+  description: >
+    We hand pick what we believe are the best articles and posts around the web and then we leave
+    the task of extracting the best 7 every week to ranking algorithm that we developed.
   sub: >
-    Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank"><strong>automation</strong></a> — <a target="_blank" href="https://fullstackbulletin.typeform.com/to/eW48Yb"><strong>Feedback form</strong></a>
+    Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank"><strong>automation</strong></a>
+  feedback:
+    text: Feel free to use our feedback form to tell us what you think about this newsletter.
+    label: Feedback form
+    url: https://fullstackbulletin.typeform.com/to/eW48Yb
 
 analyticsId: UA-92281204-1
