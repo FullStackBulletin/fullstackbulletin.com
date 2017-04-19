@@ -1,0 +1,22 @@
+.subscribe
+  .subscribe__content
+    h4.subscribe__title!=callToAction.label
+
+    .subscribe__resources
+
+      each resource in resources
+        .subscribe__resource
+          .resource
+            .resource__content
+              .resource__cover
+                img.resource__cover-image(src=`images/${resource.image}` alt="")
+              .resource__info
+                .resource__count=resource.count
+                .resource__text!=resource.text
+
+    .subscribe__form
+      include _subscribe-form
+
+      small.subscribe__note!=subscribeForm.note
+        =" "
+        a(href=sampleLink.url)!=`<strong>${sampleLink.label}</strong>`
