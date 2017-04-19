@@ -1,0 +1,75 @@
+.founder {
+
+  &__content {
+    @include grid-row(false);
+  }
+
+  &__primary {
+    @include grid-column((xxsmall: 8, medium: 6), true);
+  }
+
+  &__secondary {
+    @include grid-column((xxsmall: 4, medium: 6), true);
+    padding-right: $h-unit;
+  }
+
+  &__image-block {
+    max-width: rem-calc(200);
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: '';
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: brand-color('primary');
+      opacity: .6;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    display: block;
+  }
+
+  &__name {
+    margin: $space-small 0 0;
+  }
+
+  &__description {
+    margin: $space-base 0 0;
+  }
+
+  &__extras {
+    @include grid-column(12);
+    margin-top: $space-base;
+  }
+
+  &__profile {
+    margin-top: rem-calc(15);
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  &__profile-link {
+    @include get-type('small');
+    position: relative;
+    display: block;
+    line-height: 1;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: rem-calc(-8);
+      width: rem-calc(30);
+      height: rem-calc(4);
+      background-color: brand-color('primary');
+    }
+  }
+
+}

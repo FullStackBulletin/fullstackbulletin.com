@@ -1,0 +1,16 @@
+.founders {
+
+  &__title {
+    margin: 0;
+  }
+
+  &__list {
+    @include grid-row();
+    margin-top: $space-medium;
+  }
+
+  &__item {
+    @include grid-column((xxsmall: 12, medium: 6));
+    margin-bottom: $space-medium;
+  }
+}
