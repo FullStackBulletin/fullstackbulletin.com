@@ -1,0 +1,14 @@
+mixin founder(founder)
+  .founder
+    .founder__content
+      .founder__secondary
+        .founder__image-block
+          img.founder__image(src="http://www.placehold.it/200x230" alt=founder.name)
+      .founder__primary
+        h4.founder__name=founder.name
+        p.founder__description!=founder.description
+      .founder__extras
+        .founder__profiles
+          each profile in founder.profiles
+            .founder__profile
+              a.founder__profile-link(href=profile.url)!=profile.label
