@@ -1,0 +1,39 @@
+.resource {
+  height: 100%;
+
+  &__content {
+    @include grid-row(false);
+    align-items: center;
+  }
+
+  &__cover {
+    @include grid-column(0, true);
+    max-width: rem-calc(50);
+    margin: 0 auto;
+  }
+
+  &__cover-image {
+    line-height: 0;
+    width: 100%;
+  }
+
+  &__info {
+    @include grid-column(auto, true);
+    color: neutral-color('medium');
+    padding-left: $h-unit;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__count {
+    @include get-type('h1');
+    display: block;
+    color: brand-color('primary');
+    width: rem-calc(30);
+    text-align: center;
+  }
+
+  &__text {
+    margin-left: rem-calc(10);
+  }
+}
