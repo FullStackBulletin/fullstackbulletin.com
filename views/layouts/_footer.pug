@@ -1,0 +1,14 @@
+//- TODOS: feedback button bigger / social share / link to archive
+footer.footer
+  .footer__wrapper
+    .footer__content
+      .footer__primary
+        .footer__logo
+          include ../../assets/images/logo/compact.svg
+        p.footer__description!=footer.description
+      .footer__secondary
+        //- p.footer__credits!=footer.credits
+        p.footer__credits!=footer.sub
+        .footer__feedback
+          p.footer__feedback-text!=footer.feedback.text
+          a.footer__feedback-button(href=footer.feedback.url)!=footer.feedback.label
