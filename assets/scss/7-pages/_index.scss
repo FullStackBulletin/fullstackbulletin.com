@@ -1,27 +1,44 @@
 .page-index {
 
-  &__main {
-    padding: 0 $h-unit $space-medium;
+  &__header {
+    padding: $space-base $h-unit;
 
     @include media-query('medium') {
-      padding: 0 $h-unit $space-large;
+      padding: $space-small $h-unit;
+      position: relative;
+      z-index: 1;
     }
   }
 
-  &__header {
-    padding: $space-medium 0 $space-base;
+  &__main {
+    background: linear-gradient(to top, lighten(neutral-color('highest'), 9) 70%, neutral-color('highest') 100%);
+    color: neutral-color('lowest');
+    padding: $space-medium $h-unit;
 
     @include media-query('medium') {
-      padding: $space-large 0 $space-medium;
+      padding: $space-medium $h-unit $space-large;
     }
+  }
+
+  &__mini-navigation-content,
+  &__founders-content,
+  &__faq-content,
+  &__header-content,
+  &__main-content {
+    @include responsive-wrapper($layout-wrapper-sizes);
+    margin: 0 auto;
+    /*position: relative;
+    z-index: 1;
+    */
   }
 
   &__faq {
-    border-top: 1px dashed neutral-color('lower');
-    padding: 0 $h-unit $space-small;
+    padding: $space-medium $h-unit;
+    background-color: neutral-color('lowest');
+  }
 
-    @include media-query('medium') {
-      padding: $space-small $h-unit $space-large;
-    }
+  &__founders {
+    padding: $space-large $h-unit $space-medium;
+    background-color: neutral-color('lower');
   }
 }

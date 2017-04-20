@@ -2,12 +2,11 @@
 
 @import './2-tools/functions';
 @import './2-tools/mixins/typography';
+@import './2-tools/mixins/visually-hidden';
 @import './2-tools/mixins/wrapper';
-
 @import './3-generic/normalize';
 @import './3-generic/layout-settings';
 
-// @import './4-base/fonts/primary';
 @import './4-base/commons';
 @import './4-base/icon';
 @import './4-base/typography';

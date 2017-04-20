@@ -8,7 +8,7 @@
 
   &__cover {
     @include grid-column(0, true);
-    max-width: rem-calc(50);
+    max-width: rem-calc(40);
     margin: 0 auto;
   }
 
@@ -20,16 +20,16 @@
   &__info {
     @include grid-column(auto, true);
     color: neutral-color('medium');
-    padding-left: $h-unit;
+    padding-left: rem-calc(10);
     flex-direction: row;
     align-items: center;
   }
 
   &__count {
-    @include get-type('h1');
+    @include get-type('h2');
     display: block;
     color: brand-color('primary');
-    width: rem-calc(30);
+    width: rem-calc(20);
     text-align: center;
   }
 

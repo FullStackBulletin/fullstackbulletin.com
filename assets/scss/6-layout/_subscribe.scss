@@ -9,21 +9,32 @@
   }
 
   &__title {
-    @include get-type('h2');
+    @include get-type('h3');
+    max-width: rem-calc(500);
     margin: 0;
   }
 
-  &__resources {
+  &__resources-box {
     margin-top: $space-medium;
+    border-top: 1px solid rgba(neutral-color('medium'), 0.4);
+    padding-top: rem-calc(10);
+  }
+
+  &__resources {
+    @include grid-row(false);
+    align-items: center;
   }
 
   &__resource {
+    @include grid-column((xxsmall: 12, medium: 4), true);
     position: relative;
-    margin-top: $space-base;
+    // margin-top: $space-base;
 
+    /*
     &:first-child {
       margin-top: 0;
     }
+    */
   }
 
   &__form {

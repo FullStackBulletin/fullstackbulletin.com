@@ -1,6 +1,6 @@
 .footer {
   color: neutral-color('medium');
-  padding: $space-large $h-unit;
+  padding: $space-medium $h-unit;
 
   &__wrapper {
     @include responsive-wrapper($layout-wrapper-sizes);

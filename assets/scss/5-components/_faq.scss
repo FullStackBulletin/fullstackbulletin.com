@@ -1,10 +1,40 @@
+$duration: 300ms;
+$ease-in-back: cubic-bezier(0.600, -0.280, 0.735, 0.045);
+
 .faq {
+
   &__title {
-    font-weight: bold;
+    @include get-type('h5');
     margin: 0;
   }
 
+  &__label {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    text-decoration: underline;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
   &__description {
-    margin: ($space-base / 2) 0 0;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity $duration 0s $ease-in-back,
+    visibility 0s $duration;
+    visibility: hidden;
+    margin: 0;
+  }
+
+  &__hidden-input:checked ~ &__description {
+    opacity: 1;
+    height: auto;
+    overflow: visible;
+    transition: visibility 0s, opacity $duration;
+    visibility: visible;
+    margin: rem-calc(20 0 0);
   }
 }

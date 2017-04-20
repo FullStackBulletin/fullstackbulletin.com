@@ -20,9 +20,8 @@
 
     &--expanded {
       display: none;
-      width: rem-calc(180);
+      width: rem-calc(160);
       padding-right: $h-unit * 2;
-
 
       @include media-query('medium') {
         display: block;

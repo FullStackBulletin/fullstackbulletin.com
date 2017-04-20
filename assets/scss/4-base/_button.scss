@@ -5,14 +5,13 @@
   background-color: brand-color('primary');
   color: neutral-color('highest');
   border: 0;
-  padding: ($v-unit / 2) $h-unit;
+  padding: ($v-unit / 2) ($h-unit * 1.5);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   height: rem-calc(44);
   line-height: 1;
-  // letter-spacing: 1px;
   border-radius: 0;
   text-transform: uppercase;
 }
