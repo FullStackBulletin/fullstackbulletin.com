@@ -1,0 +1,6 @@
+mixin faq(faq, i)
+  .faq
+    input.faq__hidden-input.u-visually-hidden(type="checkbox" id=`faq-${i}`)
+    h4.faq__title
+      label.faq__label(for=`faq-${i}`)!=faq.title
+    p.faq__description!=faq.description
