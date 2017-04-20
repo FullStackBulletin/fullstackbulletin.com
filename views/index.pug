@@ -3,16 +3,20 @@ extends _layout
 block page
   .page-index
 
+    .page-index__header
+      .page-index__header-content
+        include layouts/_header
+
     section.page-index__main
-
-      .page-index__header
-        include partials/_header
-
-      +separator('email')
-
-      .page-index__subscribe
-        include partials/_subscribe
+      .page-index__main-content
+        include layouts/_subscribe
 
     section.page-index__faq
-      +faqs({title: faq.title, entries: faq.entries})
+      .page-index__faq-content
+        +faqs({title: faq.title, entries: faq.entries})
+
+    section.page-index__founders
+      .page-index__founders-content
+        +founders(founders)
+
 
