@@ -1,9 +1,0 @@
-mixin faqs(config)
-  .faqs
-    .faqs__content
-      .faqs__frame
-        h3.faqs__title!=config.title
-        .faqs__list
-          each faqItem in config.entries
-            .faqs__item
-              +faq(faqItem)
