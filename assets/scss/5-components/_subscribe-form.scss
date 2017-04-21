@@ -35,7 +35,6 @@
     font-size: 180%;
 
     @include media-query('medium') {
-      display: none;
       font-size: 140%;
     }
   }
