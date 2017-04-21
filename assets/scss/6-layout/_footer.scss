@@ -26,7 +26,7 @@
     color: brand-color('primary');
 
     @include media-query('medium') {
-      max-width: rem-calc(150);
+      max-width: rem-calc(134);
     }
 
     svg {

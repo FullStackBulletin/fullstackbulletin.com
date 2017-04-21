@@ -20,7 +20,7 @@
   &__info {
     @include grid-column(auto, true);
     color: neutral-color('medium');
-    padding-left: rem-calc(10);
+    padding: 0 rem-calc(10);
     flex-direction: row;
     align-items: center;
   }
@@ -34,6 +34,7 @@
   }
 
   &__text {
+    @include get-type('small');
     margin-left: rem-calc(10);
   }
 }

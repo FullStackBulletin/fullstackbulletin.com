@@ -1,44 +1,81 @@
 .page-index {
 
   &__header {
+    background: rgba(neutral-color('highest'), .4);
     padding: $space-base $h-unit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: z('navbar');
+    transition-property: background-color, padding;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out;
+
+    &.is-fixed {
+      background-color: neutral-color('highest');
+      box-shadow: rem-calc(0 7 30 -7) rgba(neutral-color('highest'), .8);
+    }
 
     @include media-query('medium') {
       padding: $space-small $h-unit;
-      position: relative;
-      z-index: 1;
+
+      &.is-fixed {
+        padding: $space-base $h-unit;
+      }
     }
   }
 
   &__main {
-    background: linear-gradient(to top, lighten(neutral-color('highest'), 9) 70%, neutral-color('highest') 100%);
+    background: neutral-color('highest');
     color: neutral-color('lowest');
-    padding: $space-medium $h-unit;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
 
-    @include media-query('medium') {
-      padding: $space-medium $h-unit $space-large;
+    &::after {
+      content: '';
+      background: $bg_color;
+      box-shadow: rem-calc(0 0 250 100) $bg_color;
+      position: absolute;
+      width: 50vw;
+      height: 50vh;
+      left: 50%;
+      top: 50%;
+      border-radius: 50%;
+      transform: translateY(-50%) translateX(-50%);
+      z-index: 1;
     }
   }
 
-  &__mini-navigation-content,
+  &__main-content {
+    position: relative;
+    z-index: 2;
+    padding: ($space-large * 2) $h-unit $space-medium;
+
+    @include media-query('medium') {
+      padding: ($space-large * 2) $h-unit $space-large;
+    }
+  }
+
   &__founders-content,
   &__faq-content,
   &__header-content,
   &__main-content {
     @include responsive-wrapper($layout-wrapper-sizes);
     margin: 0 auto;
-    /*position: relative;
-    z-index: 1;
-    */
   }
 
   &__faq {
-    padding: $space-medium $h-unit;
-    background-color: neutral-color('lowest');
+    padding: $space-large $h-unit;
+    background-color: neutral-color('lower');
   }
 
   &__founders {
-    padding: $space-large $h-unit $space-medium;
+    padding: 0 $h-unit $space-medium;
     background-color: neutral-color('lower');
   }
 }

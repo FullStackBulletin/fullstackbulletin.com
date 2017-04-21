@@ -4,18 +4,19 @@
     margin: 0 auto;
 
     @include media-query('medium') {
-      @include grid-space('max-width', 8);
+      @include grid-space('max-width', 10);
     }
   }
 
   &__title {
     @include get-type('h3');
     max-width: rem-calc(500);
-    margin: 0;
+    margin: 0 auto;
+    text-align: center;
   }
 
   &__resources-box {
-    margin-top: $space-medium;
+    margin-top: $space-large;
     border-top: 1px solid rgba(neutral-color('medium'), 0.4);
     padding-top: rem-calc(10);
   }
@@ -45,6 +46,7 @@
     color: neutral-color('medium');
     display: block;
     margin-top: $space-small;
+    text-align: center;
 
     a {
       color: brand-color('primary');
