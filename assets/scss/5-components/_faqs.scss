@@ -1,33 +1,22 @@
 .faqs {
 
   &__title {
-    // text-align: center;
     margin: 0;
   }
 
-  &__content {
-    @include media-query('large') {
-      @include grid-space('max-width', 8);
-      margin: 0 auto;
-    }
-  }
-
-  // &__frame {}
-
   &__list {
     margin-top: $space-small;
-    /*
+
     column-gap: $column-gutter;
 
     @include media-query('medium') {
       column-count: 2;
     }
-    */
   }
 
   &__item {
-    // display: inline-block;
-    margin-bottom: $space-base;
+    display: inline-block;
+    margin-bottom: $space-small;
     width: 100%;
   }
 }
