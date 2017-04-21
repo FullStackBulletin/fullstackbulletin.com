@@ -6,6 +6,7 @@
       include _subscribe-form
 
       small.subscribe__note!=`${subscribeForm.note} `
+        br
         a(href=sampleLink.url)!=`<strong>${sampleLink.label}</strong>`
 
     .subscribe__resources-box
