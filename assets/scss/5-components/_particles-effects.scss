@@ -1,0 +1,61 @@
+$particles: 30;
+$radius: rem-calc(1800);
+$base_size: rem-calc(70);
+$initial_scale: .4;
+$animation_duration: 6000ms;
+$bg_color: neutral-color('highest');
+$animation_ease: cubic-bezier(0.125, 0, 0.410, 0);
+$animation_direction: reverse;
+$π: $PI;
+
+@function getCoordinates($p: 100) {
+  $θ: 2 * $π * (random($p) * (1 / $p));
+  $u: (random($p) * (1 / $p)) + (random($p) * (1 / $p));
+  $r: null;
+  @if ($u > 1) { $r: 2 - $u; }
+  @else { $r: $u;  }
+  $x: $r * cos($θ);
+  $y: $r * sin($θ);
+  $c: sqrt(pow($x,2) + pow($y,2));
+  $coords: ($x, $y, $c);
+  @return $coords;
+}
+
+.particle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: $base_size;
+  height: $base_size;
+  opacity: 0;
+  animation: doit $animation_duration infinite $animation_ease;
+  animation-direction: $animation_direction;
+  will-change: transform, opacity;
+}
+
+$i: 1;
+@for $i from $i through $particles {
+  $coords: getCoordinates();
+  $x: nth($coords,1) * $radius;
+  $y: nth($coords,2) * $radius;
+  $c: nth($coords,3);
+  $d: sin($c * $π / 2);
+
+  #particle#{$i} {
+    background: brand-color('primary');
+    transform: translateX($x) translateY($y) scale(1-$d);
+    animation-delay: random($animation_duration) + ms;
+  }
+}
+
+@keyframes doit {
+  0% { opacity: 0; }
+  5% { opacity: 1; }
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateY(0) scale($initial_scale);
+  }
+}
