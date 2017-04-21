@@ -3,11 +3,19 @@ extends _layout
 block page
   .page-index
 
-    .page-index__header
+    #header-ref.page-index__header
       .page-index__header-content
         include layouts/_header
 
-    section.page-index__main
+    section#main-ref.page-index__main
+
+
+      //- particles
+      - var n = 0;
+      while n < 20
+        .particle(id=`particle${n}`)
+        - n++
+
       .page-index__main-content
         include layouts/_subscribe
 
