@@ -32,10 +32,11 @@
   }
 
   &__submit-icon {
-    font-size: rem-calc(20);
+    font-size: 180%;
 
     @include media-query('medium') {
       display: none;
+      font-size: 140%;
     }
   }
 
@@ -44,6 +45,7 @@
 
     @include media-query('medium') {
       display: block;
+      margin-left: rem-calc(10);
     }
   }
 }
