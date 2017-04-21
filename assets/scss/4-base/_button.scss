@@ -1,9 +1,10 @@
 %button {
   @include get-type('small');
   font-family: $base-font-family;
-  outline: 0;
-  background-color: brand-color('primary');
   color: neutral-color('highest');
+  outline: 0;
+  background: brand-color('primary');
+  font-weight: 600;
   border: 0;
   padding: ($v-unit / 2) ($h-unit * 1.5);
   display: inline-flex;
@@ -14,6 +15,11 @@
   line-height: 1;
   border-radius: 0;
   text-transform: uppercase;
+
+  &:hover {
+    background: brand-color('dark');
+    cursor: pointer;
+  }
 }
 
 button, .button {
