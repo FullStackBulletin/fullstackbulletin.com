@@ -45,10 +45,10 @@ resources:
     text: selected articles
   - image: book.svg
     count: 1
-    text: book suggested
+    text: suggested book
   - image: quote.svg
     count: 1
-    text: tech quote
+    text: inspirational tech quote
 
 
 categories:
