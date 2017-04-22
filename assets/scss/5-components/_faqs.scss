@@ -1,6 +1,7 @@
 .faqs {
 
   &__title {
+    @extend %title-section;
     margin: 0;
   }
 
