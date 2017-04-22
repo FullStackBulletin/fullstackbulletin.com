@@ -1,6 +1,8 @@
 meta:
   title: 'FullStack Bulletin'
   description: 'Weekly Newsletter about Fullstack Web Development'
+  feedUrl: 'http://us15.campaign-archive1.com/feed?u=b015626aa6028495fe77c75ea&id=55ace33899'
+  feedDescription: 'FullStack Bulletin all issues'
 
 headline: '<strong>Fullstack</strong> Bulletin'
 subHeadline: 'The weekly newsletter<br/> about full stack web development'

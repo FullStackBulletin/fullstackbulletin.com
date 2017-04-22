@@ -31,7 +31,7 @@
     "compile:css:production": "node-sass --output-style compressed -o $npm_config_package_output/css assets/scss --include-path node_modules --functions ./settings/scss.js",
     "build:css:production": "npm-run-all compile:css:production optimize:css:*",
     "build:images:production": "npm-run-all copy:images copy:favicon optimize:images",
-    "prod:build": "export NODE_ENV=production && npm run create:assets",
+    "prod:build": "export NODE_ENV=production && npm config set package_output dist && npm run create:assets",
     "dev": "export NODE_ENV=development && npm config set package_output dev && npm-run-all -p start watch:*",
     "prod": "export NODE_ENV=production && npm config set package_output dist && npm run start",
     "//": "----- Docs -----",
