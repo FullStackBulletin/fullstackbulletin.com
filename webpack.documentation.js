@@ -1,5 +1,5 @@
 const path = require('path');
-const BUILDDIR = path.resolve(__dirname, process.env['npm_package_per_env_documentation_output_folder']);
+const BUILDDIR = path.resolve(__dirname, process.env['npm_config_output']);
 
 module.exports = [{
   name: 'client',
