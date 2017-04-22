@@ -1,19 +1,23 @@
 window.addEventListener('load', function() {
+
   document.getElementById('layout').classList.remove('is-loading');
 
-  //set up ScrollMagic
-  const headerController = new ScrollMagic.Controller({
+  const controller = new ScrollMagic.Controller({
     globalSceneOptions: {
       triggerHook: 'onLeave'
     }
   });
 
-  //pin the navigation
-  const pin = new ScrollMagic.Scene({
+  const pinHeader = new ScrollMagic.Scene({
     triggerElement: '#main-ref',
     offset: 200
   })
-  // .setPin('#header-ref', {pushFollowers: false})
     .setClassToggle('#header-ref', 'is-fixed')
-    .addTo(headerController);
+    .addTo(controller);
+
+  const showSubscribe = new ScrollMagic.Scene({
+    triggerElement: '#faq'
+  })
+    .setClassToggle('#header-ref', 'is-subscribe-showed')
+    .addTo(controller);
 }, false);

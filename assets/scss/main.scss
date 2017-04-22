@@ -5,8 +5,10 @@
 @import './2-tools/mixins/typography';
 @import './2-tools/mixins/visually-hidden';
 @import './2-tools/mixins/wrapper';
+
 @import './3-generic/normalize';
 @import './3-generic/layout-settings';
+@import './3-generic/placeholders/title-section';
 
 @import './4-base/commons';
 @import './4-base/icon';
@@ -29,3 +31,6 @@
 @import './6-layout/header';
 
 @import './7-pages/index';
+
+@import './8-trumps/header';
+@import './8-trumps/subscribe-form';

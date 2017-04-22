@@ -1,5 +1,6 @@
 .header {
   color: neutral-color('lowest');
+  overflow: hidden;
 
   &__content {
     @include grid-row(false);
@@ -45,8 +46,11 @@
     }
   }
 
-  &__subheadline {
+  &__main {
     @include grid-column(auto, true);
+  }
+
+  &__subheadline {
     @include get-type('p');
     color: neutral-color('medium');
     margin: 0;
@@ -57,5 +61,13 @@
       font-weight: 400;
       color: brand-color('primary');
     }
+  }
+
+  &__subscribe {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    transition: opacity 500ms 0s ease-in-out, visibility 0s 500ms;
   }
 }

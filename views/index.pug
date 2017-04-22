@@ -9,7 +9,6 @@ block page
 
     section#main-ref.page-index__main
 
-
       //- particles
       - var n = 0;
       while n < 20
@@ -19,7 +18,7 @@ block page
       .page-index__main-content
         include layouts/_subscribe
 
-    section.page-index__faq
+    section#faq.page-index__faq
       .page-index__faq-content
         +faqs({title: faq.title, entries: faq.entries})
 
