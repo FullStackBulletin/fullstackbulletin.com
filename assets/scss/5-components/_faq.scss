@@ -55,6 +55,11 @@ $ease-in-back: cubic-bezier(0.600, -0.280, 0.735, 0.045);
     visibility 0s $duration;
     visibility: hidden;
     margin: 0;
+
+    a {
+      font-weight: 700;
+      text-decoration: underline;
+    }
   }
 
   &__hidden-input:checked ~ &__description {
