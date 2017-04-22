@@ -86,20 +86,35 @@ faq:
   entries:
     - title: What's the value for me?
       description: >
-        So, if you are a Full stack developer (or you are aspiring to become one)
-        this mailing list will provide you every week 7 interesting articles to help you to
+        This mailing list will provide you every week with <strong>7 interesting articles</strong>,
+        <strong>a suggested book</strong> and <strong>an inspirational tech quote</strong> to help you to
         stay relevant and hopefully learn some new cool tricks. Did we already
         say that it's for FREE?
     - title: Where do you get the content?
       description: >
-        We hand pick what we believe are the best articles and posts around the
+        We hand pick what we believe is the best content around the
         web and then we leave the task of extracting the best 7 every week to a
-        ranking algorithm that we developed.
+        <a href="https://github.com/FullStackBulletin">ranking algorithm</a> that we developed.
+    - title: Can I see an example email?
+      description: >
+        Sure! We have an <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b015626aa6028495fe77c75ea&id=55ace33899">archive</a> with
+        all our published issues. Feel free to check them out.
+    - title: I don't like receiving emails...
+      description: >
+        Don't worry, you are not the only one and we respect that! The good news is that FullStack Bulletin
+        issues can be consumed also on the web through our <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b015626aa6028495fe77c75ea&id=55ace33899">archive page</a>
+        and our <a href="http://us15.campaign-archive1.com/feed?u=b015626aa6028495fe77c75ea&id=55ace33899">RSS feed</a>.
     - title: Can I send feedback?
       description: >
         Sure, we'd love to hear from you. Feel free to use
         <a target="_blank" href="https://fullstackbulletin.typeform.com/to/eW48Yb">our feedback form</a>
         to tell us what you think about this newsletter.
+    - title: Is FSB looking for sponsors?
+      description: >
+        FullStack Bulletin is a non-profit initiative, so having some sponsor on board
+        would help us to keep the lights on. If you have a sponsorship idea
+        that can be relevant for FullStack developers, we would love to
+        <a href="mailto:admin@fullstackbulletin.com?subject=I%20am%20interested%20in%20sponsoring%20FullStack%20bulletin">discuss it</a> with you!
 
 footer:
   description: >
