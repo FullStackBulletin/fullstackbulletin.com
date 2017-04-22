@@ -63,4 +63,21 @@
     @extend %button;
     margin-top: rem-calc(20);
   }
+
+  &__navigation {
+    margin-top: $space-small;
+  }
+
+  &__navigation-item {
+    @include get-type('small');
+    color: brand-color('primary');
+  }
+
+  &__navigation-item + &__navigation-item {
+    &::before {
+      content: '/';
+      color: neutral-color('medium');
+      margin: rem-calc(0 10);
+    }
+  }
 }

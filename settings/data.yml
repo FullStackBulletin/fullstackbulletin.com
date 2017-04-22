@@ -6,12 +6,10 @@ headline: '<strong>Fullstack</strong> Bulletin'
 subHeadline: 'The weekly newsletter<br/> about full stack web development'
 
 navigation:
-  - label: Faq
-    url: '#faq'
-  - label: Founders
-    url: '#founders'
-  - label: Feedback form
-    url: https://fullstackbulletin.typeform.com/to/eW48Yb
+  - label: Become a sponsor
+    link: mailto:admin@fullstack.com?subject=Info to become a Fullstack bulletin sponsor
+  - label: Archive newsletter
+    link: http://us15.campaign-archive1.com/home/?u=b015626aa6028495fe77c75ea&id=55ace33899
 
 founders:
   title: Founders

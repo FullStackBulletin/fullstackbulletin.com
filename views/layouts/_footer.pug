@@ -6,6 +6,9 @@ footer.footer
         .footer__logo
           include ../../assets/images/logo/compact.svg
         p.footer__description!=footer.description
+        .footer__navigation
+          each item in navigation
+            a.footer__navigation-item(href=item.link)!=item.label
       .footer__secondary
         //- p.footer__credits!=footer.credits
         p.footer__credits!=footer.sub
