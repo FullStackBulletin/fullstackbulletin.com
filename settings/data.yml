@@ -7,7 +7,7 @@ subHeadline: 'The weekly newsletter<br/> about full stack web development'
 
 navigation:
   - label: Become a sponsor
-    link: mailto:admin@fullstack.com?subject=Info to become a Fullstack bulletin sponsor
+    link: mailto:admin@fullstackbulletin.com?subject=I%20am%20interested%20in%20sponsoring%20FullStack%20bulletin
   - label: Archive newsletter
     link: http://us15.campaign-archive1.com/home/?u=b015626aa6028495fe77c75ea&id=55ace33899
 
@@ -85,7 +85,7 @@ faq:
     - title: What's the value for me?
       description: >
         So, if you are a Full stack developer (or you are aspiring to become one)
-        this mailing list will provide you every week 7 interesting articles to help you to 
+        this mailing list will provide you every week 7 interesting articles to help you to
         stay relevant and hopefully learn some new cool tricks. Did we already
         say that it's for FREE?
     - title: Where do you get the content?
