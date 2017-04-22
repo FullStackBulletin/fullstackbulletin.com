@@ -3,7 +3,7 @@ mixin founder(founder)
     .founder__content
       .founder__secondary
         .founder__image-block
-          img.founder__image(src="http://www.placehold.it/200x230" alt=founder.name)
+          img.founder__image(src=`/images/founders/${founder.image}` alt=founder.name)
       .founder__primary
         h4.founder__name=founder.name
         p.founder__description!=founder.description

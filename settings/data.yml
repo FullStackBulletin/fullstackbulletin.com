@@ -15,7 +15,7 @@ founders:
   title: Founders
   list:
     - name: Luciano Mammino
-      image: TBD
+      image: luciano-mammino.png
       description: >
         Web developer, entrepreneur, fighter, butterfly maker!
       profiles:
@@ -26,7 +26,7 @@ founders:
           label: http://loige.co
           url: http://loige.co
     - name: Andrea Mangano
-      image: TBD
+      image: andrea-mangano.png
       description: >
         UI/Web developer, food lover, romantic and visionary man, curious about life.
       profiles:
