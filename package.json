@@ -9,7 +9,7 @@
     "convert:data": "yaml2json settings/data.yml > $npm_config_package_output/data.json",
     "compile:utilities:js": "rimraf build-utilities/lib/* && babel --presets es2015 -d build-utilities/lib build-utilities/src",
     "build:svg-icons-sprite": "svg-sprite-generate -d assets/icons -o assets/icons-sprite.svg",
-    "copy:favicon": "cpx 'assets/favicon/*.{svg,png,jpg,jpeg,gif}' $npm_config_package_output",
+    "copy:favicon": "cpx 'assets/favicon/*.{svg,png,jpg,jpeg,gif,json,xml}' $npm_config_package_output",
     "copy:images": "cpx 'assets/images/**/*.{svg,png,jpg,jpeg,gif}' $npm_config_package_output/images",
     "optimize:images": "imagemin assets/images -o $npm_config_package_output/images",
     "build:js": "npm-run-all compile:utilities:js compile:js:${NODE_ENV}",
