@@ -3,8 +3,8 @@
 
   +docs-block({
     title: 'Item'})
-    +faq(faq.entries[0])
+    +faq(fixtures.faqs.entries[0], 0, 'example-1-id')
 
   +docs-block({
     title: 'List'})
-    +faqs({title: faq.title, entries: faq.entries})
+    +faqs(fixtures.faqs)
