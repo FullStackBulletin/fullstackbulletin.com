@@ -1,5 +1,6 @@
 include mixins/_index
 include ../views/components/_index
+include ../views/layouts/_index
 
 doctype html
 html
@@ -21,10 +22,11 @@ html
       div(style="display: none;")
         include ../assets/icons-sprite.svg
       .docs-layout__content
+
         .docs-layout__nav
           .docs-logo
             .docs-logo__image
-              include ../assets/images/logo/vertical.svg
+              include ../assets/images/logo/compact.svg
 
           nav.docs-nav
             .docs-nav__list
@@ -34,7 +36,7 @@ html
                   .docs-nav__items
                     each subItem in item.items
                       a.docs-nav__link(
-                      href=`/docs.html?${subItem.url}`)!=subItem.label
+                      href=subItem.url)!=subItem.label
 
         .docs-layout__page-wrapper
           .docs-layout__page
