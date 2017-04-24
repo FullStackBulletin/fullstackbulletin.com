@@ -1,4 +1,5 @@
 @import 'main';
+@import 'loader.scss';
 
 // Scss file created exclusively to style the doc page.
 // It will not be imported in the final dist
@@ -28,7 +29,9 @@ body {
 
   &__nav {
     @include grid-column(('xxsmall': 12, 'large': 0), true);
-    border-right: 1px solid neutral-color('lower');
+    background-color: neutral-color('lowest');
+    width: rem-calc(280);
+    border-right: 2px solid neutral-color('highest');
 
     @include media-query('large') {
       width: rem-calc(250);
@@ -51,7 +54,7 @@ body {
 
   &__page {
     margin: 0 auto;
-    max-width: rem-calc(1200);
+    max-width: rem-calc(1400);
     width: 100%;
   }
 }
@@ -60,7 +63,7 @@ body {
 // DOCS LOGO
 //----------
 .docs-logo {
-  background-color: neutral-color('lowest');
+  background-color: neutral-color('highest');
   padding: $space-small;
 
   &__image {
@@ -68,6 +71,7 @@ body {
     margin: 0 auto;
     max-width: rem-calc(200);
     width: 100%;
+    fill: neutral-color('lowest');
   }
 }
 
@@ -146,9 +150,14 @@ body {
   }
 
   &__preview {
-    border: 1px solid neutral-color('lower');
+    position: relative;
+    background-color: neutral-color('lower');
     margin-top: $space-small;
     padding: ($space-base / 2);
+
+    &--highest {
+      background-color: neutral-color('highest');
+    }
 
     @include media-query('medium') {
       padding: $space-small;
@@ -164,7 +173,7 @@ body {
   // &__list {}
 
   &__item {
-    border-bottom: 1px solid neutral-color('lower');
+    border-bottom: 1px solid neutral-color('low');
     padding: $space-base 0;
 
     &:last-child {
@@ -187,14 +196,13 @@ body {
   }
 
   &__family {
-    margin-top: ($space-base / 2);
+    margin-top: ($space-small);
   }
 
   &__sizes {
     background-color: neutral-color('lower');
     color: neutral-color('higher');
     display: inline-flex;
-    margin-top: $space-base;
     padding: rem-calc(2 6);
   }
 
@@ -212,7 +220,7 @@ body {
 // LOGO GRID
 //----------
 .logo-grid {
-  border: 1px solid neutral-color('lower');
+  border: 1px solid neutral-color('low');
   padding-bottom: $space-base;
 
   &__list {
@@ -291,10 +299,6 @@ body {
     max-width: rem-calc(100);
   }
 
-  &--vertical &__picture {
-    max-width: rem-calc(350);
-  }
-
   &--minimal &__picture {
     max-width: rem-calc(70);
   }
@@ -305,38 +309,24 @@ body {
 //-------------
 .palette-grid {
 
-  &__list {
-    // @include grid-row(false);
-  }
+  // &__list {}
 
-  &__item {
-    /*
-    @include grid-column($width:(xxsmall: 6, small: 0), $collapse:true);
-
-    @include media-query('small') {
-      width: rem-calc(220);
-    }
-    */
-  }
+  // &__item {}
 }
 
 //-----------
 // ICONS GRID
 //-----------
 .icons-grid {
+  background-color: neutral-color('lower');
 
   &__list {
     @include grid-row(false);
-    font-size: 1.5rem;
     max-width: 100%;
     padding: 1px;
-
-    @include media-query('medium') {
-      font-size: 2.5rem;
-    }
   }
 
-  &--small &__list{
+  &--small &__symbol{
     font-size: 1rem;
 
     @include media-query('medium') {
@@ -346,16 +336,20 @@ body {
 
   &__item {
     @include grid-column((xxsmall: 6, xsmall: 3, large: 2), true);
-    outline: 1px solid neutral-color('lower');
     text-align: center;
   }
 
   &__icon {
-    background-color: neutral-color('lowest');
     padding: $v-unit $h-unit;
   }
 
   &__symbol {
+    font-size: 1.5rem;
+
+    @include media-query('medium') {
+      font-size: 2.5rem;
+    }
+
     svg:hover {
       background-color: brand-color('primary');
     }
@@ -365,7 +359,7 @@ body {
     @include get-type('small');
     color: neutral-color('medium');
     line-height: 1;
-    margin-top: rem-calc(4);
+    margin-top: rem-calc(8);
   }
 }
 
@@ -404,5 +398,24 @@ body {
     color: neutral-color('medium');
     line-height: 1;
     margin-top: rem-calc(4);
+  }
+}
+
+.loader-example {
+
+  &__loader {
+    @extend %loader-container;
+    position: absolute;
+  }
+
+  &.is-loading &__loader {
+    display: flex;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: rem-calc(200);
   }
 }
