@@ -1,13 +1,14 @@
-header.header
-  .header__content
-    .header__logo
-      a.header__logo-link(href="/")
-        .header__logo-image.header__logo-image--expanded
-          include ../../assets/images/logo/compact.svg
-        .header__logo-image.header__logo-image--minimal
-          include ../../assets/images/logo/pictogram-minimal.svg
+mixin header(config)
+  header.header
+    .header__content
+      .header__logo
+        a.header__logo-link(href="/")
+          .header__logo-image.header__logo-image--expanded
+            include ../../assets/images/logo/compact.svg
+          .header__logo-image.header__logo-image--minimal
+            include ../../assets/images/logo/pictogram-minimal.svg
 
-    .header__main
-      h1.header__subheadline!=subHeadline
-      .header__subscribe
-        include _subscribe-form
+      .header__main
+        h1.header__subheadline!=config.subHeadline
+        .header__subscribe
+          +subscribe-form(config.subscribeForm)

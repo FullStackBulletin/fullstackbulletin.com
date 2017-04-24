@@ -3,7 +3,7 @@
     h4.subscribe__title!=callToAction.label
 
     .subscribe__form
-      include _subscribe-form
+      +subscribe-form(subscribeForm)
 
       small.subscribe__note!=`${subscribeForm.note} `
         br
