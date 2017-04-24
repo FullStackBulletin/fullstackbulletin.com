@@ -15,7 +15,7 @@ navigation:
 
 founders:
   title: Founders
-  list:
+  entries:
     - name: Luciano Mammino
       image: luciano-mammino.png
       description: >
