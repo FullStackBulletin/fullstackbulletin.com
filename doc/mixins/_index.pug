@@ -28,7 +28,7 @@ mixin docs-block(config)
       .docs-block__content
         block
     else
-      .docs-block__preview
+      .docs-block__preview(class=`docs-block__preview--${config.background}`)
         block
 
 //------------
