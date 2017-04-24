@@ -1,4 +1,5 @@
 include components/_index
+include layouts/_index
 - var isProduction = process.env.NODE_ENV === 'production';
 doctype html
 
@@ -178,7 +179,7 @@ html(lang=lang)
       .layout__page
         block page
       .layout__footer
-        include layouts/_footer
+        +footer(Object.assign({}, footer, {navigation}))
       block analytics
         if analyticsId
           script.
