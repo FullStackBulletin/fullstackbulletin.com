@@ -1,8 +1,9 @@
-mixin faq(faq, i)
+mixin faq(faq, i, id)
+  - id = id || `faq-${i}`
   .faq
-    input.faq__hidden-input.u-visually-hidden(type="checkbox" id=`faq-${i}`)
+    input.faq__hidden-input.u-visually-hidden(type="checkbox" id=id)
     h4.faq__title
       span.faq__count
         span.faq__count-box=i + 1
-      label.faq__label(for=`faq-${i}`)!=faq.title
+      label.faq__label(for=id)!=faq.title
     p.faq__description!=faq.description
