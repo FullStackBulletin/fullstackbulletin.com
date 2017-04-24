@@ -11,9 +11,9 @@ module.exports = [
   {
     label: 'Components',
     items: [
-      {label: 'Separator', url: '#separator'},
       {label: 'Subscribe form', url: '#subscribe-form'},
-      {label: 'Faq', url: '#faq'}
+      {label: 'Faqs', url: '#faqs'},
+      {label: 'Founders', url: '#founders'}
     ]
   },
   {

@@ -5,7 +5,7 @@ block page
 
     #header-ref.page-index__header
       .page-index__header-content
-        include layouts/_header
+        +header(Object.assign({}, {subHeadline}, {subscribeForm}))
 
     section#main-ref.page-index__main
 
