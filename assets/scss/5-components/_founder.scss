@@ -5,11 +5,11 @@
   }
 
   &__primary {
-    @include grid-column((xxsmall: 8, medium: 6), true);
+    @include grid-column((xxsmall: 8, medium: 6, large: auto), true);
   }
 
   &__secondary {
-    @include grid-column((xxsmall: 4, medium: 6), true);
+    @include grid-column((xxsmall: 4, medium: 6, large: 0), true);
     padding-right: $h-unit;
   }
 
