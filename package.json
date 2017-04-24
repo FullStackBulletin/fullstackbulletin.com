@@ -35,12 +35,14 @@
     "dev": "export NODE_ENV=development && npm config set package_output dev && npm-run-all -p start watch:*",
     "prod": "export NODE_ENV=production && npm config set package_output dist && npm run start",
     "//": "----- Docs -----",
-    "build:images:documentation": "npm-run-all copy:images copy:favicon optimize:images",
+    "create-icons-list:documentation": "node ./build-utilities/lib/createIconsList --data './assets/icons/' > $npm_config_package_output/icons.json",
+    "copy:images:documentation": "npm run create-icons-list:documentation && cpx 'doc/images/**/*.{svg,png,jpg,jpeg,gif}' $npm_config_package_output/images",
+    "build:images:documentation": "npm-run-all copy:images copy:images:documentation copy:favicon optimize:images",
     "compile:js:documentation": "webpack -p --config ./webpack.documentation.js",
     "build:views:documentation": "pug doc/index.pug --obj settings/docs/pug.js --out $npm_config_output",
     "compile:css:documentation": "node-sass --output-style compact -o $npm_config_package_output/css assets/scss/docs.scss --include-path node_modules --functions ./settings/scss.js",
     "build:css:documentation": "npm-run-all compile:css:documentation optimize:css:vendors",
-    "doc": "export NODE_ENV=documentation && npm config set package_output dist-doc && npm run start"
+    "doc": "export NODE_ENV=documentation && npm config set package_output dist-doc && npm-run-all start watch:*"
   },
   "author": {
     "name": "Luciano Mammino",
