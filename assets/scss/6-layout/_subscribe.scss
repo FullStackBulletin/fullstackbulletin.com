@@ -37,13 +37,6 @@
   &__resource {
     @include grid-column((xxsmall: 12, medium: 4), true);
     position: relative;
-    // margin-top: $space-base;
-
-    /*
-    &:first-child {
-      margin-top: 0;
-    }
-    */
   }
 
   &__form {
