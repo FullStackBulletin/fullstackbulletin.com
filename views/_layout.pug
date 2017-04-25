@@ -3,7 +3,7 @@ include layouts/_index
 - var isProduction = process.env.NODE_ENV === 'production';
 doctype html
 
-html(lang=meta.lang)
+html(lang=meta.lang prefix="og: http://ogp.me/ns#")
   head
     title= meta.title
     meta(
@@ -14,7 +14,20 @@ html(lang=meta.lang)
       content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0")
     meta(charset="utf-8")
     meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(property="og:title" content=meta.title)
+    meta(property="og:description" content=meta.description)
+    meta(property="og:site_name" content=meta.title)
+    meta(property="og:type" content="website")
+    meta(property="og:url" content=meta.canonicalUrl)
+    meta(property="og:image" content="/images/share-banner-facebook.jpg")
+    meta(property="og:locale" content=meta.locale)
+    meta(property="twitter:card" content="website")
+    meta(property="twitter:site" content=meta.twitterProfile)
+    meta(property="twitter:title" content=meta.title)
+    meta(property="twitter:description" content=meta.description)
+    meta(property="twitter:image" content="/images/share-banner-twitter.jpg")
 
+    link(rel="canonical" href=meta.canonicalUrl)
     link(rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png")
     link(rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png")
     link(rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png")

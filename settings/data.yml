@@ -1,12 +1,15 @@
 meta:
   lang: en
+  locale: en_US
   title: 'FullStack Bulletin'
-  description: 'Weekly Newsletter about Fullstack Web Development'
+  description: 'The most awesome weekly newsletter about fullstack web development'
+  canonicalUrl: https://fullstackbulletin.com
   feedUrl: 'http://us15.campaign-archive1.com/feed?u=b015626aa6028495fe77c75ea&id=55ace33899'
-  feedDescription: 'FullStack Bulletin all issues'
+  feedDescription: 'FullStack Bulletin — All issues'
+  twitterProfile: fstackbulletin
 
 headline: '<strong>Fullstack</strong> Bulletin'
-subHeadline: 'The weekly newsletter<br/> about full stack web development'
+subHeadline: 'The most awesome weekly newsletter<br/> about fullstack web development'
 
 navigation:
   - label: Become a sponsor
