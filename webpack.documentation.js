@@ -1,10 +1,10 @@
 const path = require('path');
-const BUILDDIR = path.resolve(__dirname, process.env['npm_package_per_env_development_output_folder']);
+const BUILDDIR = path.resolve(__dirname, process.env['npm_package_per_env_documentation_output_folder']);
 
 module.exports = [{
   name: 'client',
   entry: {
-    main: path.resolve(__dirname, 'assets/scripts/main.js')
+    main: path.resolve(__dirname, 'doc/js/main.js')
   },
   output: {
     path: path.resolve(BUILDDIR, 'js'),

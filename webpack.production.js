@@ -1,27 +1,23 @@
-// const webpack = require('webpack');
 const path = require('path');
-const BUILDDIR = path.resolve(__dirname, 'dist');
+const BUILDDIR = path.resolve(__dirname, process.env['npm_package_per_env_production_output_folder']);
 
 module.exports = [{
   name: 'client',
   entry: {
     main: path.resolve(__dirname, 'assets/scripts/main.js')
   },
-  target: 'node-webkit',
-  devtool: 'source-map',
   output: {
     path: path.resolve(BUILDDIR, 'js'),
-    filename: '[name].bundle.js'
+    filename: `[name]__${process.env['npm_package_version']}.bundle.min.js`
   },
-  externals: {
-    jquery: '$'
-  },
+  context: __dirname,
+  target: 'web',
   module: {
     loaders: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
           presets: ['es2015']
         }
