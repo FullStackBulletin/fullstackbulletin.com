@@ -4,14 +4,6 @@
 
   &__content {
     @include grid-row(false);
-
-    @include media-query('medium') {
-      height: rem-calc(60);
-    }
-
-    @include media-query('huge') {
-      height: rem-calc(75);
-    }
   }
 
   &__input-field {
@@ -22,16 +14,19 @@
     @include grid-column(3, true);
   }
 
-  &__input {
-  }
+  // &__input {}
 
-  &__submit {
-  }
+  // &__submit {}
 
   &__input,
   &__submit {
+
     @include media-query('medium') {
-      height: 100% !important;
+      height: rem-calc(60) !important;
+    }
+
+    @include media-query('huge') {
+      height: rem-calc(75) !important;
     }
   }
 

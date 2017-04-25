@@ -22,6 +22,8 @@
     &--expanded {
       display: none;
       width: rem-calc(165);
+      // Fixes height bug I.E. 11
+      height: rem-calc(40);
       padding-right: $h-unit * 2;
 
       @include media-query('medium') {
@@ -30,6 +32,7 @@
 
       @include media-query('huge') {
         width: rem-calc(210);
+        height: rem-calc(53.19);
       }
     }
 

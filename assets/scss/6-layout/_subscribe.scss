@@ -4,11 +4,11 @@
     margin: 0 auto;
 
     @include media-query('medium') {
-      @include grid-space('max-width', 10);
+      @include grid-space('width', 10);
     }
 
     @include media-query('huge') {
-      @include grid-space('max-width', 12);
+      width: 100%;
     }
   }
 

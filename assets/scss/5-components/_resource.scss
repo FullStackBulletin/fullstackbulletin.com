@@ -8,7 +8,7 @@
 
   &__cover {
     @include grid-column(0, true);
-    max-width: rem-calc(40);
+    width: rem-calc(40);
     margin: 0 auto;
   }
 
@@ -35,6 +35,6 @@
 
   &__text {
     @include get-type('small');
-    margin-left: rem-calc(10);
+    padding-left: rem-calc(10);
   }
 }

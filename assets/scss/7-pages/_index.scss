@@ -24,6 +24,14 @@
         padding: $space-base $h-unit;
       }
     }
+
+    @include media-query('huge') {
+      padding: $space-medium $h-unit;
+
+      &.is-fixed {
+        padding: $space-small $h-unit;
+      }
+    }
   }
 
   &__main {
@@ -34,7 +42,12 @@
     display: flex;
     overflow: hidden;
     align-items: center;
-    justify-content: center;
+    // justify-content: center;
+
+    // Fixes min-height I.E. 11 alignment bug
+    @include media-query('large') {
+      height: 100vh;
+    }
 
     &::after {
       content: '';

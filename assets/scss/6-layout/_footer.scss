@@ -22,15 +22,21 @@
   &__logo {
     display: inline-block;
     line-height: 0;
-    max-width: rem-calc(130);
+    width: rem-calc(130);
+    // Fixes height bug I.E. 11
+    height: rem-calc(38.34);
     color: brand-color('primary');
 
     @include media-query('medium') {
-      max-width: rem-calc(134);
+      width: rem-calc(134);
+      // Fixes height bug I.E. 11
+      height: rem-calc(40);
     }
 
     @include media-query('huge') {
-      max-width: rem-calc(178);
+      width: rem-calc(178);
+      // Fixes height bug I.E. 11
+      height: rem-calc(53.19);
     }
 
     svg {
