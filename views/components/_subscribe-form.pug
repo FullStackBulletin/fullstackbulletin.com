@@ -1,7 +1,8 @@
 mixin subscribe-form(subscribeForm)
   form.subscribe-form(
     method=subscribeForm.method
-    action=subscribeForm.action)
+    action=subscribeForm.action
+    target="_blank")
     .subscribe-form__content
       .subscribe-form__input-field
         input.subscribe-form__input(
