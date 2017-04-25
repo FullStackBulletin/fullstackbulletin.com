@@ -13,11 +13,14 @@
       .headings-grid__list
         each type, key in typography
           .headings-grid__item
-            #{key}!=`<span class="headings-grid__type">${key}</span>: ${placeholder}`
+            .headings-grid__sample
+              #{key}!=`<span class="headings-grid__type">${key}</span>: ${placeholder}`
             .headings-grid__info
-              if type['font-family']
-                p.headings-grid__family
+              p.headings-grid__family
+                if type['font-family']
                   !=type['font-family']
+                else
+                  | inherit
               if type.sizes
                 small.headings-grid__sizes
                   if type['font-size']
