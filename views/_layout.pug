@@ -3,7 +3,7 @@ include layouts/_index
 - var isProduction = process.env.NODE_ENV === 'production';
 doctype html
 
-html(lang=lang)
+html(lang=meta.lang)
   head
     title= meta.title
     meta(
