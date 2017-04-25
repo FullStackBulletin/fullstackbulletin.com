@@ -27,6 +27,10 @@
       @include media-query('medium') {
         display: block;
       }
+
+      @include media-query('huge') {
+        width: rem-calc(210);
+      }
     }
 
     &--minimal {

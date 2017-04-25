@@ -4,5 +4,9 @@
     @include media-query('medium') {
       height: rem-calc(50);
     }
+
+    @include media-query('huge') {
+      height: rem-calc(64);
+    }
   }
 }

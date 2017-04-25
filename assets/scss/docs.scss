@@ -29,9 +29,9 @@ body {
 
   &__nav {
     @include grid-column(('xxsmall': 12, 'large': 0), true);
-    background-color: neutral-color('lowest');
+    background-color: neutral-color('lower');
     width: rem-calc(280);
-    border-right: 2px solid neutral-color('highest');
+    // border-right: 2px solid neutral-color('highest');
 
     @include media-query('large') {
       width: rem-calc(250);
@@ -90,7 +90,7 @@ body {
   }
 
   &__section-title {
-    border-bottom: 1px dotted rgba(neutral-color('medium'), 0.5);
+    border-bottom: 1px solid neutral-color('low');
     margin: 0;
     padding: $v-unit $h-unit;
   }
@@ -151,11 +151,13 @@ body {
 
   &__preview {
     position: relative;
+    border: 1px solid neutral-color('lower');
     background-color: neutral-color('lower');
-    margin-top: $space-small;
+    margin-top: $space-base;
     padding: ($space-base / 2);
 
     &--highest {
+      border-color: neutral-color('highest');
       background-color: neutral-color('highest');
     }
 
@@ -173,8 +175,9 @@ body {
   // &__list {}
 
   &__item {
+    @include grid-row();
+    align-items: center;
     border-bottom: 1px solid neutral-color('low');
-    padding: $space-base 0;
 
     &:last-child {
       border-bottom: 0;
@@ -195,8 +198,11 @@ body {
     }
   }
 
-  &__family {
-    margin-top: ($space-small);
+  &__sample,
+  &__info {
+    @include grid-column((xxsmall: 12, large: 6));
+    padding-top: $space-small;
+    padding-bottom: $space-small;
   }
 
   &__sizes {
@@ -220,8 +226,12 @@ body {
 // LOGO GRID
 //----------
 .logo-grid {
-  border: 1px solid neutral-color('low');
   padding-bottom: $space-base;
+
+  &--highest {
+    color: neutral-color('lowest');
+    fill: neutral-color('lowest');
+  }
 
   &__list {
     @include grid-row();
@@ -266,31 +276,6 @@ body {
     right: 0;
   }
 
-  &--brand-text-color {
-    color: brand-color('primary');
-  }
-
-  &--brand-background-color {
-    background-color: brand-color('primary');
-  }
-
-  &--highest-background-color {
-    background-color: neutral-color('highest');
-  }
-
-  &--brand-background-color,
-  &--highest-background-color {
-    border-color: transparent;
-  }
-
-  &--brand-background-color &__name {
-    color: neutral-color('highest');
-  }
-
-  &--highest-background-color &__name {
-    color: neutral-color('lowest');
-  }
-
   &--compact &__picture {
     max-width: rem-calc(260);
   }
@@ -308,6 +293,7 @@ body {
 // PALETTE GRID
 //-------------
 .palette-grid {
+  border: 1px solid neutral-color('low');
 
   // &__list {}
 
@@ -368,7 +354,6 @@ body {
 //----------
 .color-box {
   background-color: neutral-color('lowest');
-  box-shadow: 0 0 4px rgba(neutral-color('highest'), .2);
 
   &__content {
     @include grid-row();
@@ -385,7 +370,7 @@ body {
   }
 
   &__info {
-    padding: ($space-base / 2) 0;
+    padding: ($space-base / 2) ($column-gutter / 2);
   }
 
   &__label {

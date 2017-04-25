@@ -6,6 +6,10 @@
     @include media-query('medium') {
       @include grid-space('max-width', 10);
     }
+
+    @include media-query('huge') {
+      @include grid-space('max-width', 12);
+    }
   }
 
   &__title {
@@ -13,6 +17,10 @@
     max-width: rem-calc(500);
     margin: 0 auto;
     text-align: center;
+
+    @include media-query('huge') {
+      max-width: rem-calc(700);
+    }
   }
 
   &__resources-box {

@@ -16,7 +16,8 @@ window.addEventListener('load', function() {
     .addTo(controller);
 
   const showSubscribe = new ScrollMagic.Scene({
-    triggerElement: '#faq'
+    triggerElement: '#faq',
+    offset: -200
   })
     .setClassToggle('#header-ref', 'is-subscribe-showed')
     .addTo(controller);

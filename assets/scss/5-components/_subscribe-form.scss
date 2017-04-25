@@ -8,6 +8,10 @@
     @include media-query('medium') {
       height: rem-calc(60);
     }
+
+    @include media-query('huge') {
+      height: rem-calc(75);
+    }
   }
 
   &__input-field {

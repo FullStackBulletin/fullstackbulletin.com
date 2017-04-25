@@ -34,6 +34,11 @@ $π: $PI;
   animation: doit $animation_duration infinite $animation_ease;
   animation-direction: $animation_direction;
   will-change: transform, opacity;
+
+  @include media-query('huge') {
+    width: $base_size * 2;
+    height: $base_size * 2;
+  }
 }
 
 $i: 1;

@@ -29,6 +29,10 @@
       max-width: rem-calc(134);
     }
 
+    @include media-query('huge') {
+      max-width: rem-calc(178);
+    }
+
     svg {
       fill: neutral-color('lowest');
       display: block;

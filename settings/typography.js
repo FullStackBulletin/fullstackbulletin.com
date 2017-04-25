@@ -5,7 +5,7 @@ module.exports = {
   h1: {
     sizes: {
       medium: '2.488em',
-      huge: '2.488em'
+      huge: '3.235em'
     },
     'font-family': primaryFont,
     'font-weight': 'normal',
@@ -15,7 +15,7 @@ module.exports = {
   h2: {
     sizes: {
       medium: '2.074em',
-      huge: '2.074em'
+      huge: '2.696em'
     },
     'font-family': primaryFont,
     'font-weight': 400,
@@ -25,7 +25,7 @@ module.exports = {
   h3: {
     sizes: {
       medium: '1.728em',
-      huge: '1.728em'
+      huge: '2.246em'
     },
     'font-family': primaryFont,
     'font-weight': 400,
@@ -35,7 +35,7 @@ module.exports = {
   h4: {
     sizes: {
       medium: '1.44em',
-      huge: '1.44em'
+      huge: '1.872em'
     },
     'font-family': primaryFont,
     'font-weight': 600,
@@ -45,7 +45,7 @@ module.exports = {
   h5: {
     sizes: {
       medium: '1.2em',
-      huge: '1.2em'
+      huge: '1.56em'
     },
     'font-family': primaryFont,
     'font-weight': 600,
@@ -55,7 +55,7 @@ module.exports = {
   h6: {
     sizes: {
       medium: '1em',
-      huge: '1em'
+      huge: '1.3em'
     },
     'font-family': primaryFont,
     'font-weight': 600,
@@ -65,7 +65,7 @@ module.exports = {
   p: {
     sizes: {
       medium: '1em',
-      huge: '1em'
+      huge: '1.3em'
     },
     'font-family': secondaryFont,
     'font-weight': 'normal',
@@ -74,7 +74,8 @@ module.exports = {
   },
   small: {
     sizes: {
-      medium: '0.9em'
+      medium: '0.9em',
+      huge: '1.1em'
     },
     'font-weight': 'normal',
     'font-size': '0.8em',
