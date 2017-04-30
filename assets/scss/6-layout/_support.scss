@@ -1,0 +1,47 @@
+.support {
+
+  &__content {
+    @include grid-row();
+  }
+
+  &__icon-box {
+    @include grid-column((xxsmall: 12, small: 0));
+  }
+
+  &__icon {
+    font-size: rem-calc(90);
+    margin: 0 auto;
+  }
+
+  &__info {
+    @include grid-column((xxsmall: 12, small: auto));
+  }
+
+  &__info-content {
+    @include grid-row();
+  }
+
+  &__call {
+    @include grid-column((xxsmall: 12, medium: 8));
+    margin: $space-base 0;
+    text-align: center;
+
+    @include media-query('small') {
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+
+  &__share {
+    @include grid-column((xxsmall: 12, medium: 4));
+  }
+
+  &__info-title {
+    margin: 0;
+  }
+
+  &__info-description {
+    margin: ($space-base / 2) 0 0;
+    max-width: rem-calc(600);
+  }
+}
