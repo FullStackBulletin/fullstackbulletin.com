@@ -63,10 +63,15 @@
     margin: 0;
     line-height: 1.5;
     padding-top: rem-calc(2);
+    max-width: rem-calc(350);
 
     strong {
       font-weight: 400;
       color: brand-color('primary');
+    }
+
+    @include media-query('huge') {
+      max-width: rem-calc(450);
     }
   }
 
