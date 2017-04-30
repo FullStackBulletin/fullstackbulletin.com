@@ -77,9 +77,15 @@
   &__founders-content,
   &__faq-content,
   &__header-content,
-  &__main-content {
+  &__main-content,
+  &__support-content {
     @include responsive-wrapper($layout-wrapper-sizes);
     margin: 0 auto;
+  }
+
+  &__support {
+    padding: $space-medium $h-unit;
+    background-color: brand-color('primary');
   }
 
   &__faq {
