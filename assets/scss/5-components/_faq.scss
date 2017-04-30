@@ -1,10 +1,73 @@
+$duration: 300ms;
+$ease-in-back: cubic-bezier(0.600, -0.280, 0.735, 0.045);
+
 .faq {
+
   &__title {
-    font-weight: bold;
+    @include get-type('h5');
     margin: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &::before {
+      content: '';
+      width: 100%;
+      border-bottom: 1px dashed neutral-color('medium');
+      position: absolute;
+      top: 50%;
+      left: 0;
+    }
+  }
+
+  &__count,
+  &__label {
+    background-color: neutral-color('lower');
+    z-index: 1;
+    padding-right: rem-calc(10);
+  }
+
+  &__count-box {
+    width: rem-calc(30);
+    height: rem-calc(30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brand-color('primary');
+  }
+
+  &__label {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    text-decoration: underline;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__description {
-    margin: ($space-base / 2) 0 0;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity $duration 0s $ease-in-back,
+    visibility 0s $duration;
+    visibility: hidden;
+    margin: 0;
+
+    a {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }
+
+  &__hidden-input:checked ~ &__description {
+    opacity: 1;
+    height: auto;
+    overflow: visible;
+    transition: visibility 0s, opacity $duration;
+    visibility: visible;
+    margin: rem-calc(20 0 0);
   }
 }

@@ -1,13 +1,13 @@
 .faqs {
 
-  &__content {
-    @include responsive-wrapper($layout-wrapper-sizes);
-    margin: 0 auto;
+  &__title {
+    @extend %title-section;
+    margin: 0;
   }
 
-  // &__frame {}
-
   &__list {
+    margin-top: $space-small;
+
     column-gap: $column-gutter;
 
     @include media-query('medium') {
@@ -17,11 +17,7 @@
 
   &__item {
     display: inline-block;
-    margin-bottom: $space-base;
+    margin-bottom: $space-small;
     width: 100%;
-
-    @include media-query('medium') {
-      margin-bottom: $space-small;
-    }
   }
 }

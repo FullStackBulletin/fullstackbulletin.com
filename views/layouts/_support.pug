@@ -1,0 +1,13 @@
+mixin support(config)
+  .support
+    .support__content
+      .support__icon-box
+        .support__icon.pulse
+          +icon({name: 'heart'})
+      .support__info
+        .support__info-content
+          .support__call
+            h3.support__info-title!=config.title
+            p.support__info-description!=config.description
+          .support__share
+            +social-share('', config.shareTitle)

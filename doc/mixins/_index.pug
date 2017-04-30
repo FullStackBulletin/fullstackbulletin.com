@@ -1,0 +1,65 @@
+//--------------
+//- DOCS SECTION
+//--------------
+mixin docs-section(config)
+  .docs-section
+
+    if config.title
+      h2.docs-section__title!= config.title
+
+    if config.description
+      p.docs-section__description!= config.description
+
+    block
+
+//------------
+//- DOCS BLOCK
+//------------
+mixin docs-block(config)
+  .docs-block
+
+    if config.title
+      h3.docs-block__title!=config.title
+
+    if config.description
+      p.docs-block__description!=config.description
+
+    if config.open
+      .docs-block__content
+        block
+    else
+      .docs-block__preview(class=`docs-block__preview--${config.background}`)
+        block
+
+//------------
+//- ICONS GRID
+//------------
+mixin icons-grid(config)
+  - var classType = config.type ? `icons-grid--${config.type}` : '';
+  .icons-grid(
+  class=classType)
+    .icons-grid__list
+      each icon in config.icons
+        - var name = icon.replace(/\.[^\/.]+$/, '');
+        .icons-grid__item
+          .icons-grid__icon
+            .icons-grid__symbol
+              +icon({name: name})
+            .icons-grid__name= name
+
+//--------------
+//- PALETTE GRID
+//--------------
+mixin palette-grid(palette)
+  .palette-grid
+    .palette-grid__list
+      each value, key in palette
+        .palette-grid__item
+          .color-box
+            .color-box__content
+              .color-box__swatch
+                .color-box__swatch-color(
+                  style=`background-color: ${value};`)
+              .color-box__info
+                strong.color-box__label= key
+                .color-box__hex= value

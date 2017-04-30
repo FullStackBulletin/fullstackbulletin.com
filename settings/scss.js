@@ -1,7 +1,7 @@
 var palettes = require('./palettes');
 var typography = require('./typography');
-var getPaletteFromSass = require('./../build-utilities/compiled/getPaletteFromSass');
-var typographyUtils = require('./../build-utilities/compiled/typography');
+var getPaletteFromSass = require('./../build-utilities/lib/getPaletteFromSass');
+var typographyUtils = require('./../build-utilities/lib/typography');
 
 module.exports = {
   'get-palette($name)': getPaletteFromSass(palettes),

@@ -1,0 +1,23 @@
+.is-subscribe-showed .header {
+
+  &__logo {
+    display: none;
+
+    @include media-query('medium') {
+      display: block;
+    }
+  }
+
+  &__subheadline {
+    display: none;
+  }
+
+  &__subscribe {
+    visibility: visible;
+    height: auto;
+    width: auto;
+    opacity: 1;
+    transition: visibility 0s, opacity 500ms;
+    max-width: rem-calc(750);
+  }
+}

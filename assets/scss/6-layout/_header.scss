@@ -1,29 +1,85 @@
 .header {
-  text-align: center;
+  color: neutral-color('lowest');
+  overflow: hidden;
+
+  &__content {
+    @include grid-row(false);
+    align-items: center;
+  }
 
   &__logo {
-    color: brand-color('primary');
-    margin: 0 auto;
-    max-width: rem-calc(290);
+    @include grid-column(0, true);
+    line-height: 0;
+  }
 
-    @include media-query('medium') {
-      max-width: rem-calc(400);
+  &__logo-link {
+    display: block;
+    color: brand-color('primary');
+  }
+
+  &__logo-image {
+
+    &--expanded {
+      display: none;
+      width: rem-calc(165);
+      // Fixes height bug I.E. 11
+      height: rem-calc(40);
+      padding-right: $h-unit * 2;
+
+      @include media-query('medium') {
+        display: block;
+      }
+
+      @include media-query('huge') {
+        width: rem-calc(210);
+        height: rem-calc(53.19);
+      }
+    }
+
+    &--minimal {
+      color: neutral-color('lowest');
+      width: rem-calc(55);
+      padding-right: $h-unit;
+
+      @include media-query('medium') {
+        display: none;
+      }
+    }
+
+    svg {
+      fill: neutral-color('lowest');
+      display: block;
+      width: 100%;
     }
   }
 
-  // &__headline {
-  //   font-weight: 900;
-  //   line-height: 1;
-  //   text-indent: -9999px;
-
-  //   strong {
-  //     color: brand-color('primary');
-  //   }
-  // }
+  &__main {
+    @include grid-column(auto, true);
+  }
 
   &__subheadline {
-    @include get-type('h3');
-    margin: $space-medium auto 0;
-    max-width: rem-calc(600);
+    @include get-type('p');
+    color: neutral-color('medium');
+    margin: 0;
+    line-height: 1.5;
+    padding-top: rem-calc(2);
+    max-width: rem-calc(350);
+
+    strong {
+      font-weight: 400;
+      color: brand-color('primary');
+    }
+
+    @include media-query('huge') {
+      max-width: rem-calc(450);
+    }
+  }
+
+  &__subscribe {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    transition: opacity 500ms 0s ease-in-out, visibility 0s 500ms;
   }
 }

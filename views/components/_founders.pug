@@ -1,0 +1,7 @@
+mixin founders(founders)
+  .founders
+    h2.founders__title!=founders.title
+    .founders__list
+      each founder in founders.entries
+        .founders__item
+          +founder(founder)

@@ -1,7 +1,7 @@
 @mixin responsive-type($font-size) {
   @each $media, $value in $font-size {
     @include media-query($media) {
-      font-size: rem-calc($value);
+      font-size: $value;
     }
   }
 }
@@ -14,7 +14,7 @@
     @if ($key == sizes) {
       @include responsive-type($value);
     } @elseif ($key == 'font-size') {
-      #{$key}: rem-calc($value);
+      #{$key}: $value;
     } @else {
       #{$key}: $value;
     }

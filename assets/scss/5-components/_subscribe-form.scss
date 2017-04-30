@@ -1,41 +1,40 @@
 .subscribe-form {
+  border-radius: 5px;
+  overflow: hidden;
 
   &__content {
     @include grid-row(false);
   }
 
   &__input-field {
-    @include grid-column(auto, true);
+    @include grid-column(9, true);
   }
 
   &__submit-field {
-    @include grid-column(0, true);
-
-    @include media-query('medium') {
-      padding-left: ($column-gutter / 2);
-    }
+    @include grid-column(3, true);
   }
 
-  &__input {
-    border-radius: 3px 0 0 3px;
-  }
+  // &__input {}
 
-  &__submit {
-    border-radius: 0 3px 3px 0;
-  }
+  // &__submit {}
 
   &__input,
   &__submit {
+
     @include media-query('medium') {
-      border-radius: 3px;
+      height: rem-calc(60) !important;
+    }
+
+    @include media-query('huge') {
+      height: rem-calc(75) !important;
     }
   }
 
   &__submit-icon {
-    font-size: rem-calc(20);
+    font-size: 180%;
 
     @include media-query('medium') {
-      display: none;
+      font-size: 140%;
     }
   }
 
@@ -44,6 +43,7 @@
 
     @include media-query('medium') {
       display: block;
+      margin-left: rem-calc(10);
     }
   }
 }

@@ -1,0 +1,43 @@
++docs-section({
+    title: 'Logo'
+})
+  +docs-block({title: 'Light background'})
+
+    .logo-grid
+      .logo-grid__list
+
+        .logo-grid__item-medium
+          .logo-box.logo-box--compact
+            .logo-box__picture
+              include ../assets/images/logo/compact.svg
+            h6.logo-box__name Compact
+
+        .logo-grid__item-medium
+          .logo-box.logo-box--minimal
+            .logo-box__picture
+              include ../assets/images/logo/pictogram-minimal.svg
+            h6.logo-box__name Pictogram Minimal
+
+  +docs-block({
+    title: 'Dark background',
+    background: 'highest'
+  })
+    .logo-grid.logo-grid--highest
+      .logo-grid__list
+        .logo-grid__item-medium
+          .logo-box.logo-box--compact
+            .logo-box__picture
+              include ../assets/images/logo/compact.svg
+            h6.logo-box__name Compact
+
+        .logo-grid__item-medium
+          .logo-box.logo-box--minimal
+            .logo-box__picture
+              include ../assets/images/logo/pictogram-minimal.svg
+            h6.logo-box__name Pictogram Minimal
+        //-
+          .logo-grid__item-medium
+            .logo-box.logo-box--square.logo-box--brand-text-color
+              .logo-box__picture
+                include ../assets/images/logo/pictogram-square.svg
+              h6.logo-box__name Pictogram Square

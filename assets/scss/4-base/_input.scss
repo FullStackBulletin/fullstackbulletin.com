@@ -1,11 +1,12 @@
 input[type='text'],
 input[type='email'] {
+  @include get-type('p');
   appearance: none;
   background-color: neutral-color('lowest');
   display: block;
   font-family: inherit;
-  height: rem-calc(46);
+  height: rem-calc(44);
   padding: 0 $h-unit;
-  border: 2px solid brand-color('primary');
-  // border-radius: 3px;
+  border-radius: 0;
+  border: 0;
 }

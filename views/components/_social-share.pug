@@ -1,0 +1,23 @@
+mixin social-share(link, title)
+  - var url = `https://fullstackbulletin.com/${link}`;
+  - var twitterSharePageUrl = `https://twitter.com/intent/tweet/?text=${title}&amp;url=${url}`
+  - var facebookSharePageUrl = `https://facebook.com/sharer/sharer.php?u=${url}`;
+  - var linkedinSharePageUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=${title}&summary=${title}&source=Focus+Risparmio`;
+
+  .social-share
+    .social-share__list
+      .social-share__item
+        a.social-share__link(href=facebookSharePageUrl)
+          .social-share__icon
+            +icon({name: "facebook"})
+          .social-share__text Facebook
+      .social-share__item
+        a.social-share__link(href=twitterSharePageUrl)
+          .social-share__icon
+            +icon({name: "twitter"})
+          .social-share__text Twitter
+      .social-share__item
+        a.social-share__link.social-share__link--linkedin(href=linkedinSharePageUrl)
+          .social-share__icon
+            +icon({name: "linkedin"})
+          .social-share__text Linkedin

@@ -1,6 +1,7 @@
 @import 'main';
+@import 'loader.scss';
 
-// Scss file created exclusively to style the docs page.
+// Scss file created exclusively to style the doc page.
 // It will not be imported in the final dist
 
 html,
@@ -28,7 +29,9 @@ body {
 
   &__nav {
     @include grid-column(('xxsmall': 12, 'large': 0), true);
-    border-right: 1px solid neutral-color('lower');
+    background-color: neutral-color('lower');
+    width: rem-calc(280);
+    // border-right: 2px solid neutral-color('highest');
 
     @include media-query('large') {
       width: rem-calc(250);
@@ -51,7 +54,7 @@ body {
 
   &__page {
     margin: 0 auto;
-    max-width: rem-calc(1200);
+    max-width: rem-calc(1400);
     width: 100%;
   }
 }
@@ -60,7 +63,7 @@ body {
 // DOCS LOGO
 //----------
 .docs-logo {
-  background-color: neutral-color('lowest');
+  background-color: neutral-color('highest');
   padding: $space-small;
 
   &__image {
@@ -68,6 +71,7 @@ body {
     margin: 0 auto;
     max-width: rem-calc(200);
     width: 100%;
+    fill: neutral-color('lowest');
   }
 }
 
@@ -86,7 +90,7 @@ body {
   }
 
   &__section-title {
-    border-bottom: 1px dotted rgba(neutral-color('medium'), 0.5);
+    border-bottom: 1px solid neutral-color('low');
     margin: 0;
     padding: $v-unit $h-unit;
   }
@@ -146,9 +150,16 @@ body {
   }
 
   &__preview {
+    position: relative;
     border: 1px solid neutral-color('lower');
-    margin-top: $space-small;
+    background-color: neutral-color('lower');
+    margin-top: $space-base;
     padding: ($space-base / 2);
+
+    &--highest {
+      border-color: neutral-color('highest');
+      background-color: neutral-color('highest');
+    }
 
     @include media-query('medium') {
       padding: $space-small;
@@ -164,8 +175,9 @@ body {
   // &__list {}
 
   &__item {
-    border-bottom: 1px solid neutral-color('lower');
-    padding: $space-base 0;
+    @include grid-row();
+    align-items: center;
+    border-bottom: 1px solid neutral-color('low');
 
     &:last-child {
       border-bottom: 0;
@@ -186,15 +198,17 @@ body {
     }
   }
 
-  &__family {
-    margin-top: ($space-base / 2);
+  &__sample,
+  &__info {
+    @include grid-column((xxsmall: 12, large: 6));
+    padding-top: $space-small;
+    padding-bottom: $space-small;
   }
 
   &__sizes {
     background-color: neutral-color('lower');
     color: neutral-color('higher');
     display: inline-flex;
-    margin-top: $space-base;
     padding: rem-calc(2 6);
   }
 
@@ -212,8 +226,12 @@ body {
 // LOGO GRID
 //----------
 .logo-grid {
-  border: 1px solid neutral-color('lower');
   padding-bottom: $space-base;
+
+  &--highest {
+    color: neutral-color('lowest');
+    fill: neutral-color('lowest');
+  }
 
   &__list {
     @include grid-row();
@@ -258,41 +276,12 @@ body {
     right: 0;
   }
 
-  &--brand-text-color {
-    color: brand-color('primary');
-  }
-
-  &--brand-background-color {
-    background-color: brand-color('primary');
-  }
-
-  &--highest-background-color {
-    background-color: neutral-color('highest');
-  }
-
-  &--brand-background-color,
-  &--highest-background-color {
-    border-color: transparent;
-  }
-
-  &--brand-background-color &__name {
-    color: neutral-color('highest');
-  }
-
-  &--highest-background-color &__name {
-    color: neutral-color('lowest');
-  }
-
   &--compact &__picture {
     max-width: rem-calc(260);
   }
 
   &--square &__picture {
     max-width: rem-calc(100);
-  }
-
-  &--vertical &__picture {
-    max-width: rem-calc(350);
   }
 
   &--minimal &__picture {
@@ -304,39 +293,26 @@ body {
 // PALETTE GRID
 //-------------
 .palette-grid {
+  border: 1px solid neutral-color('low');
 
-  &__list {
-    // @include grid-row(false);
-  }
+  // &__list {}
 
-  &__item {
-    /*
-    @include grid-column($width:(xxsmall: 6, small: 0), $collapse:true);
-
-    @include media-query('small') {
-      width: rem-calc(220);
-    }
-    */
-  }
+  // &__item {}
 }
 
 //-----------
 // ICONS GRID
 //-----------
 .icons-grid {
+  background-color: neutral-color('lower');
 
   &__list {
     @include grid-row(false);
-    font-size: 1.5rem;
     max-width: 100%;
     padding: 1px;
-
-    @include media-query('medium') {
-      font-size: 2.5rem;
-    }
   }
 
-  &--small &__list{
+  &--small &__symbol{
     font-size: 1rem;
 
     @include media-query('medium') {
@@ -346,16 +322,20 @@ body {
 
   &__item {
     @include grid-column((xxsmall: 6, xsmall: 3, large: 2), true);
-    outline: 1px solid neutral-color('lower');
     text-align: center;
   }
 
   &__icon {
-    background-color: neutral-color('lowest');
     padding: $v-unit $h-unit;
   }
 
   &__symbol {
+    font-size: 1.5rem;
+
+    @include media-query('medium') {
+      font-size: 2.5rem;
+    }
+
     svg:hover {
       background-color: brand-color('primary');
     }
@@ -365,7 +345,7 @@ body {
     @include get-type('small');
     color: neutral-color('medium');
     line-height: 1;
-    margin-top: rem-calc(4);
+    margin-top: rem-calc(8);
   }
 }
 
@@ -374,7 +354,6 @@ body {
 //----------
 .color-box {
   background-color: neutral-color('lowest');
-  box-shadow: 0 0 4px rgba(neutral-color('highest'), .2);
 
   &__content {
     @include grid-row();
@@ -391,7 +370,7 @@ body {
   }
 
   &__info {
-    padding: ($space-base / 2) 0;
+    padding: ($space-base / 2) ($column-gutter / 2);
   }
 
   &__label {
@@ -404,5 +383,24 @@ body {
     color: neutral-color('medium');
     line-height: 1;
     margin-top: rem-calc(4);
+  }
+}
+
+.loader-example {
+
+  &__loader {
+    @extend %loader-container;
+    position: absolute;
+  }
+
+  &.is-loading &__loader {
+    display: flex;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: rem-calc(200);
   }
 }

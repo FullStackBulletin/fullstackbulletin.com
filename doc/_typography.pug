@@ -1,0 +1,29 @@
+//--------------------
+//- TYPOGRAPHY SECTION
+//--------------------
++docs-section({
+    title: 'Typography'})
+
+  +docs-block({
+      title: 'Hierarchy of Type',
+      open: true})
+
+    -var placeholder= 'Lorem ipsum dolor sit amet,</br>consectetur adipiscing elit.'
+    .headings-grid
+      .headings-grid__list
+        each type, key in typography
+          .headings-grid__item
+            .headings-grid__sample
+              #{key}!=`<span class="headings-grid__type">${key}</span>: ${placeholder}`
+            .headings-grid__info
+              p.headings-grid__family
+                if type['font-family']
+                  !=type['font-family']
+                else
+                  | inherit
+              if type.sizes
+                small.headings-grid__sizes
+                  if type['font-size']
+                    .headings-grid__size!=`base: <strong>${type['font-size']}px</strong>`
+                  each size, key in type.sizes
+                    .headings-grid__size!=`${key}: <strong>${size}px</strong>`

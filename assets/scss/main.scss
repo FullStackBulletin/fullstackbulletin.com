@@ -1,26 +1,39 @@
+@import './mathsass/math';
 @import './1-settings/palette';
 
 @import './2-tools/functions';
 @import './2-tools/mixins/typography';
+@import './2-tools/mixins/visually-hidden';
 @import './2-tools/mixins/wrapper';
 
 @import './3-generic/normalize';
 @import './3-generic/layout-settings';
+@import './3-generic/placeholders/title-section';
+@import './3-generic/placeholders/loader';
 
-@import './4-base/fonts/primary';
+@import './4-base/commons';
 @import './4-base/icon';
 @import './4-base/typography';
 @import './4-base/input';
 @import './4-base/button';
+@import './4-base/animation';
 
-@import './5-components/separator';
 @import './5-components/faq';
 @import './5-components/faqs';
+@import './5-components/social-share';
 @import './5-components/subscribe-form';
+@import './5-components/founder';
+@import './5-components/founders';
+@import './5-components/resource';
+@import './5-components/particles-effects';
 
 @import './6-layout/subscribe';
 @import './6-layout/layout';
 @import './6-layout/footer';
 @import './6-layout/header';
+@import './6-layout/support';
 
 @import './7-pages/index';
+
+@import './8-trumps/header';
+@import './8-trumps/subscribe-form';

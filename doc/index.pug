@@ -1,0 +1,53 @@
+extends _layout
+
+block page
+  - var productName = 'fullStack<strong>Bulletin</strong>';
+
+  h1 UI Components
+  h3!=`Below is the UI components styleguide we created for ${productName} project — both for the benefit of the (web) developers and to ensure consistency across all brand pages and UI.`
+
+  //- Logo
+  #logo
+    include _logo
+
+  //- Palettes
+  #palettes
+    include _palettes
+
+  //- Typography
+  #typography
+    include _typography
+
+  //- Icons
+  #icons
+    include _icons
+
+  //- Loader
+  #loader
+    include _loader
+
+  //- Subscribe-form
+  #subscribe-form
+    include _subscribe-form
+
+  //- Faq
+  #faqs
+    include _faqs
+
+  //- Founders
+  #founders
+    include _founders
+
+  //- Header
+  #header
+    include _header
+
+  //- Subscribe
+  #subscribe
+    // include _subscribe
+
+  //- Footer
+  #footer
+    include _footer
+
+      

@@ -3,16 +3,31 @@ extends _layout
 block page
   .page-index
 
-    section.page-index__main
+    #header-ref.page-index__header
+      .page-index__header-content
+        +header(Object.assign({}, {subHeadline}, {subscribeForm}))
 
-      .page-index__header
-        include partials/_header
+    section#main-ref.page-index__main
 
-      +separator('email')
+      //- particles
+      - var n = 0;
+      while n < 30
+        .particle(id=`particle${n}`)
+        - n++
 
-      .page-index__subscribe
-        include partials/_subscribe
+      .page-index__main-content
+        include layouts/_subscribe
 
-    section.page-index__faq
-      +faqs({title: faq.title, entries: faq.entries})
+    section#support.page-index__support
+      .page-index__support-content
+        +support(Object.assign({}, support, {shareTitle: subHeadline}))
+
+    section#faq.page-index__faq
+      .page-index__faq-content
+        +faqs(faq)
+
+    section.page-index__founders
+      .page-index__founders-content
+        +founders(founders)
+
 

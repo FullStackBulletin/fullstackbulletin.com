@@ -1,72 +1,84 @@
 // TODO: add font-family for each type
-
+var primaryFont = `'Montserrat', sans-serif`;
+var secondaryFont = `'Space Mono', monospace`;
 module.exports = {
   h1: {
     sizes: {
-      medium: 45.83,
-      huge: 52.93
+      medium: '2.488em',
+      huge: '3.235em'
     },
+    'font-family': primaryFont,
     'font-weight': 'normal',
-    'font-size': 36.72,
-    'line-height': 1.2
+    'font-size': '1.991em',
+    'line-height': 1.3
   },
   h2: {
     sizes: {
-      medium: 36.06,
-      huge: 41.94
+      medium: '2.074em',
+      huge: '2.696em'
     },
-    'font-weight': 'normal',
-    'font-size': 28.18,
-    'line-height': 1.125
+    'font-family': primaryFont,
+    'font-weight': 400,
+    'font-size': '1.659em',
+    'line-height': 1.3
   },
   h3: {
     sizes: {
-      medium: 28.25,
-      huge: 33.16
+      medium: '1.728em',
+      huge: '2.246em'
     },
-    'font-weight': 'normal',
-    'font-size': 22.34,
+    'font-family': primaryFont,
+    'font-weight': 400,
+    'font-size': '1.382em',
     'line-height': 1.3
   },
   h4: {
     sizes: {
-      medium: 22,
-      huge: 26.12
+      medium: '1.44em',
+      huge: '1.872em'
     },
-    'font-weight': 'normal',
-    'font-size': 18.875,
+    'font-family': primaryFont,
+    'font-weight': 600,
+    'font-size': '1.152em',
     'line-height': 1.4
   },
   h5: {
     sizes: {
-      huge: 20.5
+      medium: '1.2em',
+      huge: '1.56em'
     },
-    'font-weight': 'normal',
-    'font-size': 17,
+    'font-family': primaryFont,
+    'font-weight': 600,
+    'font-size': '0.96em',
     'line-height': 1.25
   },
   h6: {
     sizes: {
-      huge: 16
+      medium: '1em',
+      huge: '1.3em'
     },
-    'font-weight': 'bold',
-    'font-size': 14,
+    'font-family': primaryFont,
+    'font-weight': 600,
+    'font-size': '0.8em',
     'line-height': 1.175
   },
   p: {
     sizes: {
-      huge: 16
+      medium: '1em',
+      huge: '1.3em'
     },
+    'font-family': secondaryFont,
     'font-weight': 'normal',
-    'font-size': 15,
+    'font-size': '0.8em',
     'line-height': 1.7
   },
   small: {
     sizes: {
-      huge: 14
+      medium: '0.9em',
+      huge: '1.1em'
     },
     'font-weight': 'normal',
-    'font-size': 13,
+    'font-size': '0.8em',
     'line-height': 1.5
   }
 };

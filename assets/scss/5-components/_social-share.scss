@@ -1,0 +1,36 @@
+.social-share {
+
+  &__list {
+    @include grid-row();
+  }
+
+  &__item {
+    @include grid-column((xxsmall: 6, medium: 12));
+  }
+
+  &__link {
+    display: flex;
+    line-height: 1;
+    position: relative;
+    padding-top: rem-calc(10);
+    margin-bottom: rem-calc(10);
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: rem-calc(-8);
+      width: rem-calc(30);
+      height: rem-calc(4);
+      background-color: neutral-color('highest');
+    }
+  }
+
+  &__icon {
+    width: rem-calc(25);
+  }
+
+  &__text {
+
+  }
+}

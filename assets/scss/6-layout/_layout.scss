@@ -1,13 +1,16 @@
 .layout {
-  background-color: brand-color('primary');
+  background-color: neutral-color('highest');
   color: neutral-color('highest');
-  font-family: $base-font-family;
+  font-family: $secondary-font;
   font-size: 16px;
-  padding-top: ($space-base / 2);
   text-rendering: optimizeLegibility;
 
-  &__page {
-    background-color: neutral-color('lowest');
+  &__loader {
+    @extend %loader-container;
+  }
+
+  &.is-loading &__loader {
+    display: flex;
   }
 
   // &__footer {}

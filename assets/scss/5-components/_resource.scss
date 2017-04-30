@@ -1,0 +1,39 @@
+.resource {
+
+  &__content {
+    @include grid-row(false);
+    align-items: center;
+  }
+
+  &__cover {
+    @include grid-column(0, true);
+    width: rem-calc(40);
+    margin: 0 auto;
+  }
+
+  &__cover-image {
+    line-height: 0;
+    width: 100%;
+  }
+
+  &__info {
+    @include grid-column(auto, true);
+    color: neutral-color('medium');
+    padding: 0 rem-calc(10);
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__count {
+    @include get-type('h2');
+    display: block;
+    color: brand-color('primary');
+    width: rem-calc(20);
+    text-align: center;
+  }
+
+  &__text {
+    @include get-type('small');
+    padding-left: rem-calc(10);
+  }
+}

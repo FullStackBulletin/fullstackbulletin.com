@@ -1,0 +1,11 @@
+%title-section {
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    width: rem-calc(40);
+    height: rem-calc(8);
+    background-color: brand-color('primary');
+  }
+}

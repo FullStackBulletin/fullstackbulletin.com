@@ -1,0 +1,18 @@
+mixin footer(config)
+  footer.footer
+    .footer__wrapper
+      .footer__content
+        .footer__primary
+          .footer__logo
+            include ../../assets/images/logo/compact.svg
+          p.footer__description!=config.description
+          .footer__navigation
+            each item in config.navigation
+              .footer__navigation-item
+                a.footer__navigation-link(href=item.link)!=item.label
+        .footer__secondary
+          //- p.footer__credits!=footer.credits
+          p.footer__credits!=config.sub
+          .footer__feedback
+            p.footer__feedback-text!=config.feedback.text
+            a.footer__feedback-button(href=config.feedback.url)!=config.feedback.label

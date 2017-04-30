@@ -27,8 +27,9 @@ $space-small: $v-unit * 2;
 $space-base: $v-unit;
 
 // Fonts
-$base-font-family: 'Roboto', sans-serif;
-$layout-wrapper-sizes: ('small': 960, 'huge': 1200);
+$base-font-family: 'Montserrat', sans-serif;
+$secondary-font: 'Space Mono', monospace;
+$layout-wrapper-sizes: ('small': 960, 'medium': 1200,'huge': 1500);
 
 // Grid
 @import 'super-gigi/dist/helpers/functions';

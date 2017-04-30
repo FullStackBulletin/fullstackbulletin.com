@@ -1,0 +1,78 @@
+$loader-side: rem-calc(70);
+$loader-point-side: rem-calc(8);
+
+.loader {
+  width: $loader-side;
+  height: $loader-side;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: brand-color('primary');
+  position:relative;
+  outline: 1px solid brand-color('primary');
+  animation-name: pulsate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+
+  &__logo {
+    line-height: 0;
+  }
+
+  svg {
+    width: $loader-side / 2;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    width: $loader-point-side;
+    height: $loader-point-side;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: neutral-color('highest');
+    animation-name: motion;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  &::after {
+    animation-delay: 500ms;
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes motion {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: $loader-side - $loader-point-side;
+    top: 0;
+  }
+  50% {
+    left: $loader-side - $loader-point-side;
+    top: $loader-side - $loader-point-side;
+  }
+  75% {
+    left: 0;
+    top: $loader-side - $loader-point-side;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}

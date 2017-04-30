@@ -39,3 +39,6 @@ jspm_packages
 .idea
 build-utilities/compiled
 dist/
+dev/
+lib/
+dist-doc/

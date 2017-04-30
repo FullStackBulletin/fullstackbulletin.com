@@ -1,19 +1,25 @@
 %button {
-  @include get-type('h6');
-  outline: 0;
-  background-color: brand-color('primary');
+  @include get-type('small');
+  font-family: $base-font-family;
   color: neutral-color('highest');
+  outline: 0;
+  background: brand-color('primary');
+  font-weight: 600;
   border: 0;
-  padding: (($v-unit / 2) + rem-calc(3)) $h-unit ($v-unit / 2);
+  padding: ($v-unit / 2) ($h-unit * 1.5);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: rem-calc(50);
+  height: rem-calc(44);
   line-height: 1;
-  letter-spacing: 1px;
-  border-radius: 3px;
+  border-radius: 0;
   text-transform: uppercase;
+
+  &:hover {
+    background: brand-color('dark');
+    cursor: pointer;
+  }
 }
 
 button, .button {
