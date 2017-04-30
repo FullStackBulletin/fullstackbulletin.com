@@ -11,12 +11,16 @@ block page
 
       //- particles
       - var n = 0;
-      while n < 20
+      while n < 30
         .particle(id=`particle${n}`)
         - n++
 
       .page-index__main-content
         include layouts/_subscribe
+
+    section#support.page-index__support
+      .page-index__support-content
+        +support(Object.assign({}, support, {shareTitle: subHeadline}))
 
     section#faq.page-index__faq
       .page-index__faq-content
