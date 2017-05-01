@@ -1,23 +1,23 @@
 mixin social-share(link, title)
   - var url = `https://fullstackbulletin.com/${link}`;
-  - var twitterSharePageUrl = `https://twitter.com/intent/tweet/?text=${title}&amp;url=${url}`
+  - var twitterSharePageUrl = `https://twitter.com/intent/tweet/?text=${title}&url=${url}&via=fstackbulletin`
   - var facebookSharePageUrl = `https://facebook.com/sharer/sharer.php?u=${url}`;
-  - var linkedinSharePageUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=${title}&summary=${title}&source=Focus+Risparmio`;
+  - var linkedinSharePageUrl = `https://www.linkedin.com/shareArticle?mini=true&url=${url}&title=${title}&summary=${title}&source=Fullstack+Bulletin`;
 
   .social-share
     .social-share__list
       .social-share__item
-        a.social-share__link(href=facebookSharePageUrl)
+        a.social-share__link(href=facebookSharePageUrl target="_blank")
           .social-share__icon
             +icon({name: "facebook"})
           .social-share__text Facebook
       .social-share__item
-        a.social-share__link(href=twitterSharePageUrl)
+        a.social-share__link(href=twitterSharePageUrl target="_blank")
           .social-share__icon
             +icon({name: "twitter"})
           .social-share__text Twitter
       .social-share__item
-        a.social-share__link.social-share__link--linkedin(href=linkedinSharePageUrl)
+        a.social-share__link.social-share__link--linkedin(href=linkedinSharePageUrl target="_blank")
           .social-share__icon
             +icon({name: "linkedin"})
           .social-share__text Linkedin
