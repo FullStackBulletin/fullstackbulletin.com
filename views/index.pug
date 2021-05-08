@@ -18,6 +18,10 @@ block page
       .page-index__main-content
         include layouts/_subscribe
 
+    section#sponsors.page-index__sponsors
+      .page-index__sponsors-content
+        +sponsors(sponsors)
+
     section#support.page-index__support
       .page-index__support-content
         +support(Object.assign({}, support, {shareTitle: subHeadline}))

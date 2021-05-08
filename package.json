@@ -74,7 +74,7 @@
     "cpx": "^1.5.0",
     "css-mqpacker": "^5.0.1",
     "imagemin-cli": "^3.0.0",
-    "node-sass": "^4.3.0",
+    "node-sass": "^6.0.0",
     "node-sass-utils": "^1.1.2",
     "npm-run-all": "^4.0.1",
     "onchange": "^3.2.1",

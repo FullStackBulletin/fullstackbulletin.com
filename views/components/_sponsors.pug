@@ -1,0 +1,9 @@
+mixin sponsors(sponsors)
+  .sponsors
+    h2.sponsors__title Past sponsors
+    div.sponsors__list
+      each sponsor in sponsors
+        .sponsors__item
+          .sponsors__content
+            a(href=`${sponsor.link}?utm_source=fullstackbulletin_home_page` target="_blank")
+              img(src=`/images/${sponsor.logo}` alt=`${sponsor.name}'s logo`)

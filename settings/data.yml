@@ -1,15 +1,15 @@
 meta:
   lang: en
   locale: en_US
-  title: 'FullStack Bulletin'
-  description: 'The most awesome weekly newsletter about fullstack web development'
+  title: "FullStack Bulletin"
+  description: "The most awesome weekly newsletter about fullstack web development"
   canonicalUrl: https://fullstackbulletin.com
-  feedUrl: 'http://us15.campaign-archive1.com/feed?u=b015626aa6028495fe77c75ea&id=55ace33899'
-  feedDescription: 'FullStack Bulletin — All issues'
+  feedUrl: "http://us15.campaign-archive1.com/feed?u=b015626aa6028495fe77c75ea&id=55ace33899"
+  feedDescription: "FullStack Bulletin — All issues"
   twitterProfile: fstackbulletin
 
-headline: '<strong>Fullstack</strong> Bulletin'
-subHeadline: 'The most awesome weekly newsletter about fullstack web development'
+headline: "<strong>Fullstack</strong> Bulletin"
+subHeadline: "The most awesome weekly newsletter about fullstack web development"
 
 navigation:
   - label: Become a sponsor
@@ -30,22 +30,27 @@ founders:
         Web developer, entrepreneur, fighter, butterfly maker!
       profiles:
         twitter:
-          label: @loige
+          label: "@loige"
           url: https://twitter.com/loige
         blog:
-          label: http://loige.co
-          url: http://loige.co
+          label: loige.co
+          url: https://loige.co
     - name: Andrea Mangano
       image: andrea-mangano.png
       description: >
         UI/Web developer, food lover, romantic and visionary man, curious about life.
       profiles:
         twitter:
-          label: @andreaman87
+          label: "@andreaman87"
           url: https://twitter.com/andreaman87
         website:
-          label: http://andreamangano.com
-          url: http://andreamangano.com
+          label: andreamangano.com
+          url: https://andreamangano.com
+
+sponsors:
+  - name: Dashlane
+    link: https://www.dashlane.com
+    logo: dashlane.svg
 
 resources:
   - image: bulletin.svg
@@ -57,7 +62,6 @@ resources:
   - image: quote.svg
     count: 1
     text: inspirational tech quote
-
 
 categories:
   - name: Frontend
@@ -76,7 +80,7 @@ sampleLink:
   label: Check out our previous emails
 
 callToAction:
-  label: 'Join to get the best 7 links in your inbox every week, for free:'
+  label: "Join to get the best 7 links in your inbox every week, for free:"
 
 subscribeForm:
   email:
@@ -85,7 +89,7 @@ subscribeForm:
     label: you.are.awesome@email.com
   submit:
     label: Join now
-  note:  We never send spam and you can unsubscribe instantly with one click.
+  note: We never send spam and you can unsubscribe instantly with one click.
   method: POST
   action: //fullstackbulletin.us15.list-manage.com/subscribe/post?u=b015626aa6028495fe77c75ea&amp;id=55ace33899
 
