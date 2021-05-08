@@ -18,9 +18,8 @@ jobs:
       - run:
           name: Deploy
           command: >
-            if [ "$CIRCLE_BRANCH" = 'master' ]
-            then
-            export AWS_DEFAULT_REGION="eu-west-1"
+            if [ "$CIRCLE_BRANCH" = 'master' ]; then
+              export AWS_DEFAULT_REGION="eu-west-1"
               aws s3 sync dist s3://fullstackbulletin.com;
               aws configure set preview.cloudfront true;
               aws cloudfront create-invalidation --distribution-id "$CLOUDFRONT_DISTRIBUTION_ID" --invalidation-batch "{ \"Paths\": { \"Quantity\": 1, \"Items\": [ \"/*\" ] }, \"CallerReference\": \"CIRCLE-CI-BUILD-$CIRCLE_BUILD_NUM-$CIRCLE_SHA1\" }";
