@@ -6,7 +6,7 @@ orbs:
 jobs:
   build-and-publish:
     docker:
-      - image: cimg/node:14
+      - image: circleci/node:14
     steps:
       - checkout
       - node/install-packages
