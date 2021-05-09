@@ -89,6 +89,10 @@
     background-color: brand-color('primary');
   }
 
+  &__sponsors {
+    padding: $space-small $h-unit;
+  }
+
   &__faq {
     padding: $space-large $h-unit;
     background-color: neutral-color('lower');
