@@ -51,8 +51,17 @@ sponsors:
   - name: Dashlane
     link: https://www.dashlane.com
     logo: dashlane.svg
+  - name: Upstash
+    link: https://upstash.com
+    logo: upstash.svg
+  - name: Belka Digital
+    link: https://www.belkadigital.com
+    logo: belka.svg
+  - name: FeedHive
+    link: https://feedhive.io
+    logo: feedhive.svg
   - name: Nudge
-    link: https://giveitanudge.com/
+    link: https://giveitanudge.com
     logo: nudge.svg
 
 resources:
