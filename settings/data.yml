@@ -51,6 +51,9 @@ sponsors:
   - name: Dashlane
     link: https://www.dashlane.com
     logo: dashlane.svg
+  - name: Nudge
+    link: https://giveitanudge.com/
+    logo: nudge.svg
 
 resources:
   - image: bulletin.svg
