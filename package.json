@@ -78,7 +78,7 @@
     "imagemin-gifsicle": "^7.0.0",
     "imagemin-jpegtran": "^7.0.0",
     "imagemin-optipng": "^8.0.0",
-    "node-sass": "^6.0.0",
+    "node-sass": "^7.0.0",
     "node-sass-utils": "^1.1.2",
     "npm-run-all": "^4.0.1",
     "onchange": "^3.2.1",
