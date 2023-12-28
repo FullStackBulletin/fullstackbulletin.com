@@ -63,10 +63,19 @@ sponsors:
   - name: Nudge
     link: https://giveitanudge.com
     logo: nudge.svg
+  - name: MisterDA
+    link: https://www.misterda.com/
+    logo: misterda.svg
+  - name: ConfigCat
+    link: https://configcat.com/
+    logo: configcat.svg
+  - name: Packt
+    link: https://www.packtpub.com/
+    logo: packt.svg
 
 resources:
   - image: bulletin.svg
-    count: 7
+    count: 7+
     text: selected articles
   - image: book.svg
     count: 1
