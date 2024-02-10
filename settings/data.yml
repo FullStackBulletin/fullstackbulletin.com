@@ -72,6 +72,9 @@ sponsors:
   - name: Packt
     link: https://www.packtpub.com/
     logo: packt.svg
+  - name: PostHog
+    link: https://posthog.com/
+    logo: posthog.svg
 
 resources:
   - image: bulletin.svg
