@@ -20,17 +20,14 @@ jobs:
           node-version: 20
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
-
       - name: Test
         run: pnpm test
         env:
           CI: true
-
       - name: Build
         run: pnpm prod:build
         env:
           CI: true
-
       - name: Release to GH pages if on master
         if: ${{github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'}}
         uses: crazy-max/ghaction-github-pages@v1
