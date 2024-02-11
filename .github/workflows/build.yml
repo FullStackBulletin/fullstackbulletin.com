@@ -2,9 +2,9 @@ name: Build
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "main", "master" ]
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -28,8 +28,8 @@ jobs:
         run: pnpm prod:build
         env:
           CI: true
-      - name: Release to GH pages if on master
-        if: ${{github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'}}
+      - name: Release to GH pages if on main
+        if: ${{github.ref == 'refs/heads/main'}}
         uses: crazy-max/ghaction-github-pages@v1
         with:
           target_branch: gh-pages
