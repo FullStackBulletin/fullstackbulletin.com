@@ -1,0 +1,225 @@
+<!DOCTYPE html><html lang="en" prefix="og: http://ogp.me/ns#"><head><title>FullStack Bulletin</title><meta name="description" content="The most awesome weekly newsletter about fullstack web development"><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta property="og:title" content="FullStack Bulletin"><meta property="og:description" content="The most awesome weekly newsletter about fullstack web development"><meta property="og:site_name" content="FullStack Bulletin"><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><meta property="twitter:card" content="website"><meta property="twitter:site" content="fstackbulletin"><meta property="twitter:title" content="FullStack Bulletin"><meta property="twitter:description" content="The most awesome weekly newsletter about fullstack web development"><meta property="twitter:image" content="https://fullstackbulletin.com/images/share-banner-twitter.jpg"><link rel="canonical" href="https://fullstackbulletin.com"><link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="manifest" href="/manifest.json"><meta name="msapplication-TileColor" content="#f8e81c"><meta name="msapplication-TileImage" content="/ms-icon-144x144.png"><meta name="theme-color" content="#f8e81c"><link href="css/main__1.0.0.min.css" rel="stylesheet" type="text/css"><link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Space+Mono" rel="stylesheet"><link rel="alternate" type="application/rss+xml"><style>.loader {
+  width: 4.375rem;
+  height: 4.375rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f8e81c;
+  position: relative;
+  outline: 1px solid #f8e81c;
+  -webkit-animation-name: pulsate;
+  animation-name: pulsate;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.loader__logo {
+  line-height: 0;
+}
+
+.loader svg {
+  width: 2.1875rem;
+}
+
+.loader::before, .loader::after {
+  content: '';
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  -webkit-animation-name: motion;
+  animation-name: motion;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+
+.loader::after {
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+
+@-webkit-keyframes motion {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 3.875rem;
+    top: 0;
+  }
+  50% {
+    left: 3.875rem;
+    top: 3.875rem;
+  }
+  75% {
+    left: 0;
+    top: 3.875rem;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+
+@keyframes motion {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 3.875rem;
+    top: 0;
+  }
+  50% {
+    left: 3.875rem;
+    top: 3.875rem;
+  }
+  75% {
+    left: 0;
+    top: 3.875rem;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+
+</style></head><body class="layout is-loading" id="layout"><div style="display: none"><?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+<symbol id="email" viewBox="0 0 100 100">
+  <rect x="55" y="45" width="11" height="10"/><rect x="34" y="45" width="11" height="10"/><rect x="45" y="55" width="10" height="11"/><rect x="66" y="34" width="11" height="11"/>
+  <path d="M88.11,12H1V88H99V12H88.11ZM88,44.56V77H12V34H23V23H77V34H88V44.56Z"/><rect x="23" y="34" width="11" height="11"/>
+
+</symbol>
+<symbol id="facebook" viewBox="0 0 51 100">
+  <path fill="inherit" fill-rule="nonzero" d="M50.526 16.667h-8.964c-7.334 0-8.964 3.333-8.964 8.333v11.667H49.71l-2.443 17.5h-14.67V100H14.67V54.167H0v-17.5h14.67V23.333C14.67 8.333 23.632 0 37.486 0c6.52 0 12.224.833 13.04.833v15.834z"/>
+
+</symbol>
+<symbol id="heart" viewBox="0 0 100 100">
+  <path fill="currentColor" d="M99,29V50H89V61H78V72H67V83H56V94H45V83H34V72H23V61H12V50H1V29H12V18H23V7H34V18H45V29H56V18H67V7H78V18H89V29H99Z"/>
+
+</symbol>
+<symbol id="linkedin" viewBox="0 0 98 99">
+  <path fill="inherit" fill-rule="nonzero" d="M97.78 97.732H77.455V66.024c0-7.317 0-17.073-10.57-17.073-10.568 0-12.194 8.13-12.194 17.074v32.52H34.367v-65.04h19.512v8.943c2.44-4.878 8.943-10.57 19.512-10.57 20.325 0 24.39 13.822 24.39 30.895v34.96zM11.602 23.748C5.098 23.748.22 18.058.22 12.366.22 5.862 5.098.17 11.602.17s11.382 4.88 11.382 11.383c.813 6.504-4.878 12.195-11.382 12.195zm10.57 73.984H1.845v-65.04H22.17v65.04z"/>
+
+</symbol>
+<symbol id="twitter" viewBox="0 0 100 85">
+  <path fill="inherit" fill-rule="nonzero" d="M100 10.498c-3.75 1.718-7.708 2.792-11.875 3.437 4.167-2.578 7.5-6.658 8.958-11.598C93.125 4.7 88.75 6.417 83.958 7.49c-3.75-4.08-9.166-6.657-15-6.657-11.25 0-20.416 9.45-20.416 21.048 0 1.72.208 3.223.625 4.727-16.875-.86-32.084-9.236-42.292-22.122-1.667 3.22-2.708 6.658-2.708 10.524 0 7.3 3.54 13.744 9.166 17.61-3.333-.215-6.458-1.074-9.375-2.577v.215c0 10.31 7.084 18.9 16.46 20.833-1.668.43-3.543.645-5.418.645-1.25 0-2.708-.214-3.958-.43 2.708 8.377 10.208 14.606 19.166 14.606-7.083 5.585-15.833 9.02-25.416 9.02-1.667 0-3.334 0-4.792-.214 9.167 6.014 19.792 9.45 31.458 9.45 37.71 0 58.334-32.216 58.334-60.137v-2.793c3.958-2.792 7.5-6.443 10.208-10.74z"/>
+
+</symbol></svg></div><div class="layout__loader"><div class="loader"><div class="loader__logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 138">
+    <path fill="currentColor" d="M5,138V25h25v113H5z M30,25V0h65v25H30z M57,65V50h38v15H57z M57,95V80h38v15H57z"/>
+</svg></div></div></div><div class="layout__page"><div class="page-index"><div class="page-index__header" id="header-ref"><div class="page-index__header-content"><header class="header"><div class="header__content"><div class="header__logo"><a class="header__logo-link" href="/"><div class="header__logo-image header__logo-image--expanded"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.3 50">
+    <path d="M87.9,27h4.3v22.6l-4.3-0.1V27z M81.1,49.5l4.3,0.1V27h-4.3V49.5z M62.2,43c0,2.1-0.7,3.6-2,4.7c-1.3,1.1-3.3,1.8-5.7,1.8
+	H44.2V27h10.1c2.4,0,4.3,0.6,5.5,1.6c1.2,1.1,1.8,2.5,1.8,4.2c0,2.3-1.4,3.8-3.6,4.5v0.1C60.5,38.1,62.2,40.2,62.2,43z M48.8,36.1h5
+	c2,0,3.4-0.9,3.4-2.7c0-1.7-1.2-2.7-3.3-2.7h-5.1V36.1z M57.7,42.6c0-2.1-1.6-3.3-3.7-3.3h-5.2v6.4h5.3
+	C56.3,45.7,57.7,44.5,57.7,42.6z M74.4,42.6L74.4,42.6c0,2.2-1.3,3.7-3.3,3.7c-1.8,0-2.7-1-2.7-2.9V33.3h-4.3v10.8
+	c0,3.5,2,5.8,5.6,5.8c2.3,0,3.6-0.8,4.7-2.3h0.1v1.9h4.2V33.3h-4.3V42.6z M137.2,32.8c-2.2,0-3.7,1-4.9,2.7v-2.2h-4.2v16.2h4.3v-9.2
+	c0-2.2,1.4-3.7,3.3-3.7c1.8,0,2.8,1.3,2.8,3v9.9h4.3V38.9C142.8,35.3,140.6,32.8,137.2,32.8z M121.4,49.5h4.3V33.3h-4.3V49.5z
+	 M116.8,44.7v-8.6h2.8v-2.8h-2.8v-5h-4.2v5h-2.3v2.9h2.3v9.5c0,3.1,2.3,3.9,4.4,3.9c1.7,0,2.7-0.1,2.7-0.1v-3.2c0,0-0.8,0-1.3,0
+	C117.5,46.3,116.8,45.9,116.8,44.7z M121.4,31.2h4.3v-3.9h-4.3V31.2z M109.9,42.7H98.2c0.3,2.5,1.7,4,4.2,4c1.7,0,2.7-0.8,3.1-2h4.2
+	c-0.6,2.9-3.2,5.3-7.4,5.3c-5.3,0-8.4-3.8-8.4-8.6c0-4.8,3.3-8.5,8-8.5C107.1,32.9,109.9,36.9,109.9,42.7z M105.4,39.7
+	c-0.1-2.1-1.5-3.5-3.5-3.5c-2.2,0-3.3,1.4-3.7,3.5H105.4z M19.1,34.4H33V29H19.1V34.4z M9.2,9.1H33V0H9.2V9.1z M19.1,23.6H33v-5.4
+	H19.1V23.6z M0,50h9.2V9.1H0V50z"/>
+    <path fill="currentColor" d="M44.2,0h16.2v3.9H48.8v5.3h9.9v3.9h-9.9v9.5h-4.6V0z M79,22.6h4.3V0H79V22.6z M85.8,22.6h4.4V0h-4.4V22.6z M71.9,15.7
+	c0,2.2-1.3,3.7-3.3,3.7c-1.8,0-2.7-1-2.7-2.9V6.4h-4.3v10.8c0,3.5,2,5.8,5.6,5.8c2.3,0,3.6-0.8,4.7-2.3l0.1,1.9h4.2V6.4h-4.3V15.7z
+	 M160.5,12.6l6-6.2h-5.2l-5.8,6.1V0h-4.3v22.6h4.3v-5.5l1.9-1.9l4.6,7.4h5.2L160.5,12.6z M133.2,22.5v0.2H129
+	c-0.2-0.4-0.4-1.2-0.5-1.9c-0.9,1.2-2.1,2.2-4.9,2.2c-3.3,0-5.7-1.7-5.7-5c0-3.6,2.9-4.7,6.5-5.2c2.7-0.4,3.9-0.6,3.9-1.8
+	s-0.9-1.9-2.7-1.9c-2,0-3,0.7-3.1,2.3h-3.8c0.1-2.8,2.3-5.3,7-5.3c4.9,0,6.9,2.2,6.9,6v8.2C132.6,21.5,132.8,22.3,133.2,22.5z
+	 M128.5,14.5c-0.8,0.4-1.9,0.7-3,0.9c-2.3,0.5-3.4,1-3.4,2.5s1,2.1,2.5,2.1c2.6-0.1,3.9-1.6,3.9-3.1V14.5z M142.4,19.5
+	c-2.7,0-3.9-2-3.9-5.1c0-3.1,1.3-5.1,3.9-5.1c1.6,0,2.7,1.1,3,2.5h4.2c-0.6-3.5-3.2-5.9-7.4-5.9c-4.9,0-8.1,3.8-8.1,8.6
+	s3.2,8.5,8.5,8.5c4.3,0,7-2.8,7.3-6.2h-4.2C145.4,18.6,144.1,19.5,142.4,19.5z M113.6,17.7V8.5h2.8V5.7h-2.8V1.3h-4.2v4.4h-2.3v2.9
+	h2.3v10.1c0,3.1,2.3,3.9,4.4,3.9c1.7,0,2.7-0.1,2.7-0.1v-3.2c0,0-0.8,0-1.3,0C114.3,19.3,113.6,18.9,113.6,17.7z M100.8,12.7
+	c-2.3-0.5-4.5-0.6-4.5-2c0-1.2,1.1-1.8,2.8-1.8c1.8,0,2.9,0.7,3.1,2.4h3.9c-0.3-3.3-2.7-5.4-7-5.4c-3.7,0-6.6,1.7-6.6,5.2
+	s2.9,4.3,5.8,4.9c2.2,0.4,4.3,0.6,4.3,2.1c0,1.2-1.1,1.9-3,1.9c-2,0-3.3-0.8-3.6-2.7h-4c0.3,3.5,2.9,5.7,7.6,5.7
+	c4.1,0,6.9-1.9,6.9-5.2C106.5,14,103.5,13.3,100.8,12.7z"/>
+</svg></div><div class="header__logo-image header__logo-image--minimal"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 138">
+    <path fill="currentColor" d="M5,138V25h25v113H5z M30,25V0h65v25H30z M57,65V50h38v15H57z M57,95V80h38v15H57z"/>
+</svg></div></a></div><div class="header__main"><h1 class="header__subheadline">The most awesome weekly newsletter about fullstack web development</h1><div class="header__subscribe"><form class="subscribe-form" method="POST" action="//fullstackbulletin.us15.list-manage.com/subscribe/post?u=b015626aa6028495fe77c75ea&amp;amp;id=55ace33899" target="_blank"><div class="subscribe-form__content"><div class="subscribe-form__input-field"><input class="subscribe-form__input" id="mce-EMAIL" type="email" name="EMAIL" placeholder="you.are.awesome@email.com"/></div><div class="subscribe-form__submit-field"><button class="subscribe-form__submit" type="submit"><div class="subscribe-form__submit-icon"><div class="icon"><svg viewBox="0 0 100 100"><use xlink:href="#email"></use></svg></div></div><div class="subscribe-form__submit-label">Join now</div></button></div></div></form></div></div></div></header></div></div><section class="page-index__main" id="main-ref"><div class="particle" id="particle0"></div><div class="particle" id="particle1"></div><div class="particle" id="particle2"></div><div class="particle" id="particle3"></div><div class="particle" id="particle4"></div><div class="particle" id="particle5"></div><div class="particle" id="particle6"></div><div class="particle" id="particle7"></div><div class="particle" id="particle8"></div><div class="particle" id="particle9"></div><div class="particle" id="particle10"></div><div class="particle" id="particle11"></div><div class="particle" id="particle12"></div><div class="particle" id="particle13"></div><div class="particle" id="particle14"></div><div class="particle" id="particle15"></div><div class="particle" id="particle16"></div><div class="particle" id="particle17"></div><div class="particle" id="particle18"></div><div class="particle" id="particle19"></div><div class="particle" id="particle20"></div><div class="particle" id="particle21"></div><div class="particle" id="particle22"></div><div class="particle" id="particle23"></div><div class="particle" id="particle24"></div><div class="particle" id="particle25"></div><div class="particle" id="particle26"></div><div class="particle" id="particle27"></div><div class="particle" id="particle28"></div><div class="particle" id="particle29"></div><div class="page-index__main-content"><div class="subscribe"><div class="subscribe__content"><h4 class="subscribe__title">Join to get the best 7 links in your inbox every week, for free:</h4><div class="subscribe__form"><form class="subscribe-form" method="POST" action="//fullstackbulletin.us15.list-manage.com/subscribe/post?u=b015626aa6028495fe77c75ea&amp;amp;id=55ace33899" target="_blank"><div class="subscribe-form__content"><div class="subscribe-form__input-field"><input class="subscribe-form__input" id="mce-EMAIL" type="email" name="EMAIL" placeholder="you.are.awesome@email.com"/></div><div class="subscribe-form__submit-field"><button class="subscribe-form__submit" type="submit"><div class="subscribe-form__submit-icon"><div class="icon"><svg viewBox="0 0 100 100"><use xlink:href="#email"></use></svg></div></div><div class="subscribe-form__submit-label">Join now</div></button></div></div></form><small class="subscribe__note">We never send spam and you can unsubscribe instantly with one click. <br><a href="http://us15.campaign-archive1.com/home/?u=b015626aa6028495fe77c75ea&amp;id=55ace33899"><strong>Check out our previous emails</strong></a></small></div><div class="subscribe__resources-box"><div class="subscribe__resources"><div class="subscribe__resource"><div class="resource"><div class="resource__content"><div class="resource__cover"><img class="resource__cover-image" src="images/bulletin.svg" alt=""></div><div class="resource__info"><div class="resource__count">7+</div><div class="resource__text">selected articles</div></div></div></div></div><div class="subscribe__resource"><div class="resource"><div class="resource__content"><div class="resource__cover"><img class="resource__cover-image" src="images/book.svg" alt=""></div><div class="resource__info"><div class="resource__count">1</div><div class="resource__text">suggested book</div></div></div></div></div><div class="subscribe__resource"><div class="resource"><div class="resource__content"><div class="resource__cover"><img class="resource__cover-image" src="images/quote.svg" alt=""></div><div class="resource__info"><div class="resource__count">1</div><div class="resource__text">inspirational tech quote</div></div></div></div></div></div></div></div></div></div></section><section class="page-index__sponsors" id="sponsors"><div class="page-index__sponsors-content"><div class="sponsors"><h2 class="sponsors__title">Past sponsors</h2><div class="sponsors__list"><div class="sponsors__item"><div class="sponsors__content"><a href="https://www.dashlane.com?utm_source=fullstackbulletin_home_page" target="_blank"><img src="/images/dashlane.svg" alt="Dashlane's logo"/></a></div></div><div class="sponsors__item"><div class="sponsors__content"><a href="https://upstash.com?utm_source=fullstackbulletin_home_page" target="_blank"><img src="/images/upstash.svg" alt="Upstash's logo"/></a></div></div><div class="sponsors__item"><div class="sponsors__content"><a href="https://www.belkadigital.com?utm_source=fullstackbulletin_home_page" target="_blank"><img src="/images/belka.svg" alt="Belka Digital's logo"/></a></div></div><div class="sponsors__item"><div class="sponsors__content"><a href="https://feedhive.io?utm_source=fullstackbulletin_home_page" target="_blank"><img src="/images/feedhive.svg" alt="FeedHive's logo"/></a></div></div><div class="sponsors__item"><div class="sponsors__content"><a href="https://giveitanudge.com?utm_source=fullstackbulletin_home_page" target="_blank"><img src="/images/nudge.svg" alt="Nudge's logo"/></a></div></div><div class="sponsors__item"><div class="sponsors__content"><a href="https://www.misterda.com/?utm_source=fullstackbulletin_home_page" target="_blank"><img src="/images/misterda.svg" alt="MisterDA's logo"/></a></div></div><div class="sponsors__item"><div class="sponsors__content"><a href="https://configcat.com/?utm_source=fullstackbulletin_home_page" target="_blank"><img src="/images/configcat.svg" alt="ConfigCat's logo"/></a></div></div><div class="sponsors__item"><div class="sponsors__content"><a href="https://www.packtpub.com/?utm_source=fullstackbulletin_home_page" target="_blank"><img src="/images/packt.svg" alt="Packt's logo"/></a></div></div><div class="sponsors__item"><div class="sponsors__content"><a href="https://posthog.com/?utm_source=fullstackbulletin_home_page" target="_blank"><img src="/images/posthog.svg" alt="PostHog's logo"/></a></div></div></div></div></div></section><section class="page-index__support" id="support"><div class="page-index__support-content"><div class="support"><div class="support__content"><div class="support__icon-box"><div class="support__icon pulse"><div class="icon"><svg viewBox="0 0 100 100"><use xlink:href="#heart"></use></svg></div></div></div><div class="support__info"><div class="support__info-content"><div class="support__call"><h3 class="support__info-title">Spread the FullStack Love</h3><p class="support__info-description">Tell your friends and colleagues about FullStack Bulletin and help us spread the best FullStack gems every week!</p></div><div class="support__share"><div class="social-share"><div class="social-share__list"><div class="social-share__item"><a class="social-share__link" href="https://facebook.com/sharer/sharer.php?u=https://fullstackbulletin.com/" target="_blank"><div class="social-share__icon"><div class="icon"><svg viewBox="0 0 100 100"><use xlink:href="#facebook"></use></svg></div></div><div class="social-share__text">Facebook</div></a></div><div class="social-share__item"><a class="social-share__link" href="https://twitter.com/intent/tweet/?text=The most awesome weekly newsletter about fullstack web development&amp;url=https://fullstackbulletin.com/&amp;via=fstackbulletin" target="_blank"><div class="social-share__icon"><div class="icon"><svg viewBox="0 0 100 100"><use xlink:href="#twitter"></use></svg></div></div><div class="social-share__text">Twitter</div></a></div><div class="social-share__item"><a class="social-share__link social-share__link--linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://fullstackbulletin.com/&amp;title=The most awesome weekly newsletter about fullstack web development&amp;summary=The most awesome weekly newsletter about fullstack web development&amp;source=Fullstack+Bulletin" target="_blank"><div class="social-share__icon"><div class="icon"><svg viewBox="0 0 100 100"><use xlink:href="#linkedin"></use></svg></div></div><div class="social-share__text">Linkedin</div></a></div></div></div></div></div></div></div></div></div></section><section class="page-index__faq" id="faq"><div class="page-index__faq-content"><div class="faqs"><div class="faqs__content"><div class="faqs__frame"><h2 class="faqs__title">F.A.Q.</h2><div class="faqs__list"><div class="faqs__item"><div class="faq"><input class="faq__hidden-input u-visually-hidden" type="checkbox" id="faq-0"/><h4 class="faq__title"><span class="faq__count"><span class="faq__count-box">1</span></span><label class="faq__label" for="faq-0">What's the value for me?</label></h4><p class="faq__description">This mailing list will provide you every week with <strong>7 interesting articles</strong>, <strong>a suggested book</strong> and <strong>an inspirational tech quote</strong> to help you to stay relevant and hopefully learn some new cool tricks. Did we already say that it's for FREE?
+</p></div></div><div class="faqs__item"><div class="faq"><input class="faq__hidden-input u-visually-hidden" type="checkbox" id="faq-1"/><h4 class="faq__title"><span class="faq__count"><span class="faq__count-box">2</span></span><label class="faq__label" for="faq-1">Where do you get the content?</label></h4><p class="faq__description">We hand pick what we believe is the best content around the web and then we leave the task of extracting the best 7 every week to a <a href="https://github.com/FullStackBulletin">ranking algorithm</a> that we developed.
+</p></div></div><div class="faqs__item"><div class="faq"><input class="faq__hidden-input u-visually-hidden" type="checkbox" id="faq-2"/><h4 class="faq__title"><span class="faq__count"><span class="faq__count-box">3</span></span><label class="faq__label" for="faq-2">Can I see an example email?</label></h4><p class="faq__description">Sure! We have an <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b015626aa6028495fe77c75ea&id=55ace33899">archive</a> with all our published issues. Feel free to check them out.
+</p></div></div><div class="faqs__item"><div class="faq"><input class="faq__hidden-input u-visually-hidden" type="checkbox" id="faq-3"/><h4 class="faq__title"><span class="faq__count"><span class="faq__count-box">4</span></span><label class="faq__label" for="faq-3">I don't like receiving emails...</label></h4><p class="faq__description">Don't worry, you are not the only one and we respect that! The good news is that FullStack Bulletin issues can be consumed also on the web through our <a target="_blank" href="http://us15.campaign-archive1.com/home/?u=b015626aa6028495fe77c75ea&id=55ace33899">archive page</a> and our <a href="http://us15.campaign-archive1.com/feed?u=b015626aa6028495fe77c75ea&id=55ace33899">RSS feed</a>.
+</p></div></div><div class="faqs__item"><div class="faq"><input class="faq__hidden-input u-visually-hidden" type="checkbox" id="faq-4"/><h4 class="faq__title"><span class="faq__count"><span class="faq__count-box">5</span></span><label class="faq__label" for="faq-4">Can I send feedback?</label></h4><p class="faq__description">Sure, we'd love to hear from you. Feel free to use <a target="_blank" href="https://fullstackbulletin.typeform.com/to/eW48Yb">our feedback form</a> to tell us what you think about this newsletter.
+</p></div></div><div class="faqs__item"><div class="faq"><input class="faq__hidden-input u-visually-hidden" type="checkbox" id="faq-5"/><h4 class="faq__title"><span class="faq__count"><span class="faq__count-box">6</span></span><label class="faq__label" for="faq-5">Is FSB looking for sponsors?</label></h4><p class="faq__description">FullStack Bulletin is a non-profit initiative, so having some sponsor on board would help us to keep the lights on. If you have a sponsorship idea that can be relevant for FullStack developers, we would love to <a href="mailto:admin@fullstackbulletin.com?subject=I%20am%20interested%20in%20sponsoring%20FullStack%20bulletin">discuss it</a> with you!
+</p></div></div></div></div></div></div></div></section><section class="page-index__founders"><div class="page-index__founders-content"><div class="founders"><h2 class="founders__title">Founders</h2><div class="founders__list"><div class="founders__item"><div class="founder"><div class="founder__content"><div class="founder__secondary"><div class="founder__image-block"><img class="founder__image" src="/images/founders/luciano-mammino.png" alt="Luciano Mammino"/></div></div><div class="founder__primary"><h4 class="founder__name">Luciano Mammino</h4><p class="founder__description">Web developer, entrepreneur, fighter, butterfly maker!
+</p></div><div class="founder__extras"><div class="founder__profiles"><div class="founder__profile"><a class="founder__profile-link" href="https://twitter.com/loige">@loige</a></div><div class="founder__profile"><a class="founder__profile-link" href="https://loige.co">loige.co</a></div></div></div></div></div></div><div class="founders__item"><div class="founder"><div class="founder__content"><div class="founder__secondary"><div class="founder__image-block"><img class="founder__image" src="/images/founders/andrea-mangano.png" alt="Andrea Mangano"/></div></div><div class="founder__primary"><h4 class="founder__name">Andrea Mangano</h4><p class="founder__description">UI/Web developer, food lover, romantic and visionary man, curious about life.
+</p></div><div class="founder__extras"><div class="founder__profiles"><div class="founder__profile"><a class="founder__profile-link" href="https://twitter.com/andreaman87">@andreaman87</a></div><div class="founder__profile"><a class="founder__profile-link" href="https://andreamangano.com">andreamangano.com</a></div></div></div></div></div></div></div></div></div></section></div></div><div class="layout__footer"><footer class="footer"><div class="footer__wrapper"><div class="footer__content"><div class="footer__primary"><div class="footer__logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.3 50">
+    <path d="M87.9,27h4.3v22.6l-4.3-0.1V27z M81.1,49.5l4.3,0.1V27h-4.3V49.5z M62.2,43c0,2.1-0.7,3.6-2,4.7c-1.3,1.1-3.3,1.8-5.7,1.8
+	H44.2V27h10.1c2.4,0,4.3,0.6,5.5,1.6c1.2,1.1,1.8,2.5,1.8,4.2c0,2.3-1.4,3.8-3.6,4.5v0.1C60.5,38.1,62.2,40.2,62.2,43z M48.8,36.1h5
+	c2,0,3.4-0.9,3.4-2.7c0-1.7-1.2-2.7-3.3-2.7h-5.1V36.1z M57.7,42.6c0-2.1-1.6-3.3-3.7-3.3h-5.2v6.4h5.3
+	C56.3,45.7,57.7,44.5,57.7,42.6z M74.4,42.6L74.4,42.6c0,2.2-1.3,3.7-3.3,3.7c-1.8,0-2.7-1-2.7-2.9V33.3h-4.3v10.8
+	c0,3.5,2,5.8,5.6,5.8c2.3,0,3.6-0.8,4.7-2.3h0.1v1.9h4.2V33.3h-4.3V42.6z M137.2,32.8c-2.2,0-3.7,1-4.9,2.7v-2.2h-4.2v16.2h4.3v-9.2
+	c0-2.2,1.4-3.7,3.3-3.7c1.8,0,2.8,1.3,2.8,3v9.9h4.3V38.9C142.8,35.3,140.6,32.8,137.2,32.8z M121.4,49.5h4.3V33.3h-4.3V49.5z
+	 M116.8,44.7v-8.6h2.8v-2.8h-2.8v-5h-4.2v5h-2.3v2.9h2.3v9.5c0,3.1,2.3,3.9,4.4,3.9c1.7,0,2.7-0.1,2.7-0.1v-3.2c0,0-0.8,0-1.3,0
+	C117.5,46.3,116.8,45.9,116.8,44.7z M121.4,31.2h4.3v-3.9h-4.3V31.2z M109.9,42.7H98.2c0.3,2.5,1.7,4,4.2,4c1.7,0,2.7-0.8,3.1-2h4.2
+	c-0.6,2.9-3.2,5.3-7.4,5.3c-5.3,0-8.4-3.8-8.4-8.6c0-4.8,3.3-8.5,8-8.5C107.1,32.9,109.9,36.9,109.9,42.7z M105.4,39.7
+	c-0.1-2.1-1.5-3.5-3.5-3.5c-2.2,0-3.3,1.4-3.7,3.5H105.4z M19.1,34.4H33V29H19.1V34.4z M9.2,9.1H33V0H9.2V9.1z M19.1,23.6H33v-5.4
+	H19.1V23.6z M0,50h9.2V9.1H0V50z"/>
+    <path fill="currentColor" d="M44.2,0h16.2v3.9H48.8v5.3h9.9v3.9h-9.9v9.5h-4.6V0z M79,22.6h4.3V0H79V22.6z M85.8,22.6h4.4V0h-4.4V22.6z M71.9,15.7
+	c0,2.2-1.3,3.7-3.3,3.7c-1.8,0-2.7-1-2.7-2.9V6.4h-4.3v10.8c0,3.5,2,5.8,5.6,5.8c2.3,0,3.6-0.8,4.7-2.3l0.1,1.9h4.2V6.4h-4.3V15.7z
+	 M160.5,12.6l6-6.2h-5.2l-5.8,6.1V0h-4.3v22.6h4.3v-5.5l1.9-1.9l4.6,7.4h5.2L160.5,12.6z M133.2,22.5v0.2H129
+	c-0.2-0.4-0.4-1.2-0.5-1.9c-0.9,1.2-2.1,2.2-4.9,2.2c-3.3,0-5.7-1.7-5.7-5c0-3.6,2.9-4.7,6.5-5.2c2.7-0.4,3.9-0.6,3.9-1.8
+	s-0.9-1.9-2.7-1.9c-2,0-3,0.7-3.1,2.3h-3.8c0.1-2.8,2.3-5.3,7-5.3c4.9,0,6.9,2.2,6.9,6v8.2C132.6,21.5,132.8,22.3,133.2,22.5z
+	 M128.5,14.5c-0.8,0.4-1.9,0.7-3,0.9c-2.3,0.5-3.4,1-3.4,2.5s1,2.1,2.5,2.1c2.6-0.1,3.9-1.6,3.9-3.1V14.5z M142.4,19.5
+	c-2.7,0-3.9-2-3.9-5.1c0-3.1,1.3-5.1,3.9-5.1c1.6,0,2.7,1.1,3,2.5h4.2c-0.6-3.5-3.2-5.9-7.4-5.9c-4.9,0-8.1,3.8-8.1,8.6
+	s3.2,8.5,8.5,8.5c4.3,0,7-2.8,7.3-6.2h-4.2C145.4,18.6,144.1,19.5,142.4,19.5z M113.6,17.7V8.5h2.8V5.7h-2.8V1.3h-4.2v4.4h-2.3v2.9
+	h2.3v10.1c0,3.1,2.3,3.9,4.4,3.9c1.7,0,2.7-0.1,2.7-0.1v-3.2c0,0-0.8,0-1.3,0C114.3,19.3,113.6,18.9,113.6,17.7z M100.8,12.7
+	c-2.3-0.5-4.5-0.6-4.5-2c0-1.2,1.1-1.8,2.8-1.8c1.8,0,2.9,0.7,3.1,2.4h3.9c-0.3-3.3-2.7-5.4-7-5.4c-3.7,0-6.6,1.7-6.6,5.2
+	s2.9,4.3,5.8,4.9c2.2,0.4,4.3,0.6,4.3,2.1c0,1.2-1.1,1.9-3,1.9c-2,0-3.3-0.8-3.6-2.7h-4c0.3,3.5,2.9,5.7,7.6,5.7
+	c4.1,0,6.9-1.9,6.9-5.2C106.5,14,103.5,13.3,100.8,12.7z"/>
+</svg></div><p class="footer__description">We hand pick what we believe are the best articles and posts around the web and then we leave the task of extracting the best 7 every week to ranking algorithm that we developed.
+</p><div class="footer__navigation"><div class="footer__navigation-item"><a class="footer__navigation-link" href="mailto:admin@fullstackbulletin.com?subject=I%20am%20interested%20in%20sponsoring%20FullStack%20bulletin">Become a sponsor</a></div><div class="footer__navigation-item"><a class="footer__navigation-link" href="http://us15.campaign-archive1.com/home/?u=b015626aa6028495fe77c75ea&amp;id=55ace33899">Archive newsletter</a></div></div></div><div class="footer__secondary"><p class="footer__credits">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank"><strong>automation</strong></a>
+</p><div class="footer__feedback"><p class="footer__feedback-text">Feel free to use our feedback form to tell us what you think about this newsletter.</p><a class="footer__feedback-button" href="https://fullstackbulletin.typeform.com/to/eW48Yb">Feedback form</a></div></div></div></div></footer></div><script>(function (i, s, o, g, r, a, m) {
+  i['GoogleAnalyticsObject'] = r;
+  i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+  a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+  a.async = 1;
+  a.src = g;
+  m.parentNode.insertBefore(a, m)
+})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+ga('create', 'UA-92281204-1', 'auto');
+ga('send', 'pageview');
+</script></body><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script><script src="js/main__1.0.0.bundle.min.js"></script><script>!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+twq('config','okohn');</script></html>
