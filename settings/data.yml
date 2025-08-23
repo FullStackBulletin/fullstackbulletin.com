@@ -31,7 +31,7 @@ founders:
       profiles:
         twitter:
           label: "@loige"
-          url: https://twitter.com/loige
+          url: https://x.com/loige
         blog:
           label: loige.co
           url: https://loige.co
@@ -42,7 +42,7 @@ founders:
       profiles:
         twitter:
           label: "@andreaman87"
-          url: https://twitter.com/andreaman87
+          url: https://x.com/andreaman87
         website:
           label: andreamangano.com
           url: https://andreamangano.com
@@ -100,7 +100,7 @@ categories:
     icon: devops.svg
 
 sampleLink:
-  url: http://us15.campaign-archive1.com/home/?u=b015626aa6028495fe77c75ea&id=55ace33899
+  url: "https://buttondown.com/fullstackbulletin/archive/"
   label: Check out our previous emails
 
 callToAction:
@@ -108,14 +108,16 @@ callToAction:
 
 subscribeForm:
   email:
-    fieldId: mce-EMAIL
-    fieldName: EMAIL
+    fieldId: bd-email
+    fieldName: email
     label: you.are.awesome@email.com
   submit:
     label: Join now
   note: We never send spam and you can unsubscribe instantly with one click.
   method: POST
-  action: //fullstackbulletin.us15.list-manage.com/subscribe/post?u=b015626aa6028495fe77c75ea&amp;id=55ace33899
+  action: //buttondown.com/api/emails/embed-subscribe/fullstackbulletin
+  target: popupwindow
+  onsubmit: "onsubmit=\"window.open('https://archive.fullstackbulletin.com', 'popupwindow')\""
 
 faq:
   title: F.A.Q.
