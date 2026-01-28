@@ -75,6 +75,9 @@ sponsors:
   - name: PostHog
     link: https://posthog.com/
     logo: posthog.svg
+  - name: Trigger.dev
+    link: https://trigger.dev
+    logo: triggerdev.svg
 
 resources:
   - image: bulletin.svg
