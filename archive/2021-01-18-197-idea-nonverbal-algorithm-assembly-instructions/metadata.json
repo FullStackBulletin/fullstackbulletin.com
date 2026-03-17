@@ -1,0 +1,75 @@
+{
+  "issueNumber": 197,
+  "title": "IDEA - nonverbal algorithm assembly instructions",
+  "slug": "2021-01-18-197-idea-nonverbal-algorithm-assembly-instructions",
+  "date": "2021-01-18",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #3, 2021\n\n\n⭐️ FullStack Bulletin has outgrown its free plan! If you enjoy this newsletter, consider supporting us:\n\n\n[Donate on Patreon](https://patreon.com/lucianomammino) - [Discuss sponsorship](https://fstack.link/sponsor)",
+  "quote": {
+    "text": "Any sufficiently advanced technology is equivalent to magic",
+    "author": "Arthur C. Clarke",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_C._Clarke"
+  },
+  "links": [
+    {
+      "title": "IDEA - nonverbal algorithm assembly instructions",
+      "url": "https://idea-instructions.com/",
+      "description": "IDEA is a series of nonverbal algorithm assembly instructions. It is a great resource to learn about computer science topics such as **asymmetric encryption** or **binary search**. Guess where the inspiration is coming from?",
+      "imageUrl": "./a340ff2731eb6df5dd0929de30608433d37c82a1a012361035f816fc8170c211.jpg",
+      "featured": true
+    },
+    {
+      "title": "Ditherpunk",
+      "url": "https://surma.dev/things/ditherpunk",
+      "description": "A wonderful walkthrough about monochrome image dithering. These techniques can be extremely interesting if you are trying to create a design with a unique look and feel or if you are just curious about image processing.",
+      "imageUrl": "./6f3cc14b3c3e18ffe16bc7dc50aa0703357083bb8eed19a3117ac68826e2f850.jpg",
+      "featured": false
+    },
+    {
+      "title": "10 best practices to containerize Node.js web applications",
+      "url": "https://snyk.io/blog/10-best-practices-to-containerize-nodejs-web-applications-with-docker",
+      "description": "Are you looking for best practices on how to build Node.js Docker images for your web applications? Then this article probably has all you need to know!",
+      "imageUrl": "./6c9f259fdbc3716a9421da2c8fd50fb1cf83c075437c71c425e7835a5a9931f6.png",
+      "featured": false
+    },
+    {
+      "title": "hexops/dockerfile",
+      "url": "https://github.com/hexops/dockerfile",
+      "description": "On the topic of dockerizing applications, this repository illustrates several great best practices that you can apply to any kind of application.",
+      "imageUrl": "./d61eed2e4ac005fdd98a34ff45ff1522bbd85d9374d92df58ba1e657368876eb.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to Fall In Love With Single Div Illustrations",
+      "url": "https://dev.to/albertwalicki/how-to-fall-in-love-with-single-div-illustrations-1a5",
+      "description": "Do you know that you can use a single `<div>` to create nice CSS illustrations? There are few interesting techniques that allow you to apply multiple styling rules to the same div. Check it out if you are curious. It also contains a bunch of really nice artsy examples!",
+      "imageUrl": "./8c0813579518c7495751a591781648789a9b20e56063ab8f29b808215c3e1af5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Memory Leaks Demystified",
+      "url": "http://nodesource.com/blog/memory-leaks-demystified",
+      "description": "Tracking down memory leaks in Node.js has been a recurring topic, people are always interested in learning more about due to the complexity.",
+      "imageUrl": "./d2ae9ed824d8dc7cbb10ee8ffefd5a832073efefdf3719f32f86a8ee3c623f3a.png",
+      "featured": false
+    },
+    {
+      "title": "3 experiments with CSS paper effects",
+      "url": "https://dev.to/s_aitchison/3-experiments-with-css-paper-effects-2o56",
+      "description": "A series of interesting experiments about recreating paper effect using CSS. A great way to learn one or two new CSS tricks and to take inspirations for your next web design!",
+      "imageUrl": "./45d2050aa24da79e002e5bb5ec24b012e8ea8229e04c5d9d4249493bdde365d4.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Fluent Python: Clear, Concise, and Effective Programming",
+    "author": "Luciano Ramalho",
+    "description": "Python’s simplicity lets you become productive quickly, but this often means you aren’t using everything it has to offer.  With this hands-on guide, you’ll learn how to write effective, idiomatic Python code by leveraging its best—and possibly most neglected—features.",
+    "coverImageUrl": "./30290ce19e65a7fffc72aab6893578a1fc0008018337e91d311736d9b587c8fe.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491946008/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491946008/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

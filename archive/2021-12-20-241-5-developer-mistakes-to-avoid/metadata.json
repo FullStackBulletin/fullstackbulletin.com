@@ -1,0 +1,75 @@
+{
+  "issueNumber": 241,
+  "title": "5 Developer Mistakes to Avoid",
+  "slug": "2021-12-20-241-5-developer-mistakes-to-avoid",
+  "date": "2021-12-20",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Computers are like Old Testament gods; lots of rules and no mercy",
+    "author": "Joseph Campbell",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Campbell"
+  },
+  "links": [
+    {
+      "title": "5 Developer Mistakes to Avoid",
+      "url": "https://cult.honeypot.io/reads/5-big-mistakes-developers-should-avoid/",
+      "description": "With the new year around the corner, it's a great time to reflect on our careers and figure out what can we do to improve. We love this article because it brings a very human and collaborative perspective on the topic. Do you need a teaser? What about mistake #1 *\"Putting code before people\"*? And there are other 4 gems like this one...",
+      "imageUrl": "./d69d20c3b163f154093936f2f534b199d15e7f5a871137992c763c01e56e7022.png",
+      "featured": true
+    },
+    {
+      "title": "TAMAGUI - React design system",
+      "url": "https://tamagui.dev/",
+      "description": "A lovely design system for both the web and React Native. There is not shortage of options in this space, so why do we like TAMAGUI? Well, first of all for the lovely logo, but more seriously, it's very focused on performance, it gives you some nice primitives without making strong design decisions for you and, finally, it supports theming out of the box!",
+      "imageUrl": "./5cacc3e485cda3e1e836e8d55cd7507c1250d45eb921f1e10a4d7a9c486632e5.png",
+      "featured": false
+    },
+    {
+      "title": "What’s new in TypeScript 4.5",
+      "url": "https://blog.logrocket.com/whats-new-typescript-4-5/",
+      "description": "TypeScript 4.5 was recently released and it comes with some interesting new features: the new `Awaited` type (pun intended), possibility to replace built-in types using libraries in `node_modules`, template strings as discriminants and much more.",
+      "imageUrl": "./9a615a3e5ff06f2185becf9a027f1551a7dc12d8303b1654a0abd9d01917f51f.png",
+      "featured": false
+    },
+    {
+      "title": "Building a pixel art CSS generator",
+      "url": "https://fjolt.com/article/css-pixel-art-generator",
+      "description": "Did you know you can use CSS to create pixel art? It's a bit tricky though, so why not creating a visual editor using HTML and JavaScript? Yes, this article will guide you exactly through this idea... and there is already a pixel editor already available if you just want to play with that!",
+      "imageUrl": "./dd29013fc649ac3720f8304ff4657949a2a137db194c56a3224dea4f5d1f90d6.png",
+      "featured": false
+    },
+    {
+      "title": "Automations you can run on GitHub",
+      "url": "https://github.blog/2021-12-16-5-automations-every-developer-should-be-running/",
+      "description": "You can use GitHub workflows to automate a lot of tedious tasks that can help you to make sure your code is always reaching great standards. For example, avoid security vulnerabilities, make sure all your buttons work, be notified if your website is running slow after a change, or even automating writing release notes.",
+      "imageUrl": "./b806a6c3735fcd42bd8a816a53d6f1211abc172682fedc64670428f4d32c4055.png",
+      "featured": false
+    },
+    {
+      "title": "Pico.css",
+      "url": "https://picocss.com/",
+      "description": "Another interesting entry in the field of CSS and styling. Pico.css is a new minimal CSS framework for semantic HTML. This means that you can get a pretty nicely styled page without having to write a line of css or use special classes. But if you want to go a bit further, Pico.css also gives you classes and other utilities (including themes!) to be able to customise your style.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Coding font tournament",
+      "url": "https://www.codingfont.com/",
+      "description": "*\"Hey what's this cool coding font you are using?\"*How many times did you hear (or ask) this question? 😅\n\n\n\nOk, let's come up with our own favourite coding font! How? Through a tournament, of course! Play a game of eliminating competing coding fonts, until your unique favourite will emerge victorious! ⚔️",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Development with Node and Express: Leveraging the JavaScript Stack",
+    "author": "Ethan Brown",
+    "description": "Learn how to build dynamic web applications with Express, a key component of the Node/JavaScript development stack. In this hands-on guide, author Ethan Brown teaches you the fundamentals through the development of a fictional application that exposes a public website and a RESTful API. You’ll also learn web architecture best practices to help you build single-page, multi-page, and hybrid web apps with Express.",
+    "coverImageUrl": "./fa50d6bec7065a557f93ff1ccee308384e327bc7bdc62dab9513ef493759a11f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491949309/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491949309/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

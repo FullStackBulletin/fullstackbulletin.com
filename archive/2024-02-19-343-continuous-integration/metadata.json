@@ -1,0 +1,104 @@
+{
+  "issueNumber": 360,
+  "title": "Continuous Integration",
+  "slug": "2024-02-19-343-continuous-integration",
+  "date": "2024-02-19",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nWelcome to issue #360!\n\nIn this issue, we're delving into essential themes that shape the modern web development landscape. From foundational practices to cutting-edge techniques, we've curated a collection of articles to keep you informed and inspired. We start with the importance of Continuous Integration with insights from Martin Fowler, tackle fundamental (painful) challenges like centering a div and navigating client-side routing, and stay updated on the latest tooling and frameworks, including Vite 5.1. Additionally, we'll explore how to alleviate pain points in Node.js, TypeScript, and ESM setups, delve into scaling web applications with distributed systems, and discover creative design trends like animating font palettes with CSS.\n\nWithout further ado, let's get into this awesome content and let's become even stronger full-stack developers! 💪",
+  "quote": {
+    "text": "If we wish to count lines of code, we should not regard them as \"lines produced\" but as \"lines spent\"“",
+    "author": "E.W. Dijkstra",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/E._W._Dijkstra"
+  },
+  "links": [
+    {
+      "title": "Continuous Integration",
+      "url": "https://martinfowler.com/articles/continuousIntegration.html",
+      "description": "The famed [Martin Fowler](https://martinfowler.com/) gives us an extensive introduction to the practice of Continuous Integration. Nowadays this is something that every developer should know and take very seriously. So if this is something you feel you should explore a bit more, you'll enjoy this resource.",
+      "imageUrl": "./3c8431bf26390028c324ac56781330f3b80b89e9b20b23e7375c77afe998f36b.png",
+      "featured": true
+    },
+    {
+      "title": "How To Center a Div",
+      "url": "https://joshwcomeau.com/css/center-a-div",
+      "description": "It might seem funny to see this title in an article in 2024... but to be fair this is still a very good interview question and many people (me included) would fail at it! Let's pretend there's no shame in it (because web dev is hard), but let's also admit we need a deep dive... so here's the deep dive we were all waiting for! Spoiler alert: there's more than one way to center a Div...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Node.js, TypeScript and ESM: it doesn't have to be painful",
+      "url": "https://dev.to/a0viedo/nodejs-typescript-and-esm-it-doesnt-have-to-be-painful-438e",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Announcing Vite 5.1",
+      "url": "https://vitejs.dev/blog/announcing-vite5-1",
+      "description": "Vite 5.1 is out! Since, for me, Vite is one of those tools that has brought back the joy of building frontends, I am always excited to see what's new in every release. This one comes with an updated Runtime API, some new features, and a significant performance improvement! Check out the article if you are curious to know the details.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A Distributed Systems Reading List",
+      "url": "https://ferd.ca/a-distributed-systems-reading-list.html",
+      "description": "If you think distributed systems are a bit off-topic here you might be right... But also, if you ever want to build a highly scalable web application in the cloud guess what you'll need to learn? Yes, right answer: distributed systems! This article collects some of the most important concepts in distributed systems and provides several useful resources to deep dive into each and every one of them! Invaluable.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Modern client-side routing: the Navigation API",
+      "url": "https://developer.chrome.com/docs/web-platform/navigation-api",
+      "description": "LSingle Page Applications are famous for providing navigation between pages without ever refreshing pages entirely. But they also update the page URL making it look like you moved to a new URL. How do they achieve that? Well, generally speaking by using the [History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API), but now there's a new alternative: the Navigation API, which promises to be easier to adopt.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Animating Font Palette",
+      "url": "https://textlab.dev/posts/animating-font-palette",
+      "description": "With the release of Chrome 121 we can now animate a smooth transition between font-palettes in Color Fonts using only CSS. If you don't know what this means, it's probably easier to just have a quick look at the article and check out the effect itself. This is something cool you could easily use to spice up your next web design project!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "MongoDB: The Definitive Guide: Powerful and Scalable Data Storage",
+    "author": "Kristina Chodorow",
+    "description": "Manage the huMONGOus amount of data collected through your web application with MongoDB. This authoritative introduction—written by a core contributor to the project—shows you the many advantages of using document-oriented databases, and demonstrates how this reliable, high-performance system allows for almost infinite horizontal scalability. This book provides guidance for database developers, advanced configuration for system administrators, and an overview of the concepts and use cases for other people on your project.",
+    "coverImageUrl": "./d98bc829eaad931cbbfe76cf5cddb28b6b469caa0a8f6f508749d164568b6f11.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449344682/?tag=fullstackbulletin-20",
+    "amazonUk": null
+  },
+  "additionalLinks": [
+    {
+      "title": "Hot Module Replacement is Easy",
+      "url": "https://bjornlu.com/blog/hot-module-replacement-is-easy"
+    },
+    {
+      "title": "Don’t Disable Form Controls",
+      "url": "https://adrianroselli.com/2024/02/dont-disable-form-controls.html"
+    },
+    {
+      "title": "Evolution of a high-performance system: from synchronous to seamless scalability",
+      "url": "https://technology.lastminute.com/evolution-of-a-high-performance-system-from-synchronous-to-seamless-scalability"
+    },
+    {
+      "title": "Migrating to Astro: The Beginning",
+      "url": "https://raygesualdo.com/posts/migrating-to-astro-the-beginning"
+    },
+    {
+      "title": "htmx examples: Async Authentication",
+      "url": "https://htmx.org/examples/async-auth"
+    },
+    {
+      "title": "borp: node:test runner wrapper with TypeScript support",
+      "url": "https://github.com/mcollina/borp"
+    },
+    {
+      "title": "How to create the perfect icon",
+      "url": "https://blog.streamlinehq.com/evaluating-icons"
+    }
+  ],
+  "sponsor": null
+}

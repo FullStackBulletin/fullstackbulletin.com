@@ -1,0 +1,75 @@
+{
+  "issueNumber": 13,
+  "title": "Docker in Production E-books",
+  "slug": "2017-06-05-013-docker-in-production-e-books",
+  "date": "2017-06-05",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #22, 2017",
+  "quote": {
+    "text": "Software is like sex: It’s better when it’s free",
+    "author": "Linus Torvalds",
+    "authorTitle": "Software developer and inventor of Linux",
+    "authorUrl": "https://en.wikipedia.org/wiki/Linus_Torvalds"
+  },
+  "links": [
+    {
+      "title": "Docker in production E-books",
+      "url": "http://scaledocker.com/",
+      "description": "Two free e-books about Docker from a site reliability engineer and Docker Captain: \"Docker fundamentals\" and \"Docker security\". Two precious resources if you are into Docker or want to learn more about it.",
+      "imageUrl": "./11bc2936be9f3af466bce9ccae3245561cf2d6e7f9e0e84e4c5f7cfb4f24fe4c.png",
+      "featured": true
+    },
+    {
+      "title": "Node v8.0.0 released!",
+      "url": "https://nodejs.org/en/blog/release/v8.0.0",
+      "description": "The next major release of Node.js brings a range of significant changes and additions, far too many for us to cover adequately in a blog post such as this. This article contains a summary of the most significant changes and features.",
+      "imageUrl": "./55dbba65821f8f8e74e69689fae29a04f15f0db05b9122db5ee7eeea8d199de3.png",
+      "featured": false
+    },
+    {
+      "title": "Marko",
+      "url": "http://markojs.com/",
+      "description": "A friendly (and fast!) UI library that makes building web apps fun. Marko uses a very concise yaml-like syntax to make building reactive web components or entire web applications a super quick and engaging experience.",
+      "imageUrl": "./888b1448805d8be693919aa9c87c5c57a1e19372a27fcc151376908cb5ebd722.png",
+      "featured": false
+    },
+    {
+      "title": "Rearchitecting Airbnb’s Frontend",
+      "url": "https://medium.com/airbnb-engineering/rearchitecting-airbnbs-frontend-5e213efc24d2",
+      "description": "AirBnB recently rethought the architecture for the JavaScript side of their frontend codebase. This post will look at the product drivers that precipitated the changes, the steps taken to move away from the legacy Rails solutions, and some of the key pillars of the new stack.",
+      "imageUrl": "./36f20d03eff56e9945a7a893acd5c906e1813613f44b65b3855b1fd7f63efd55.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Unified Styling Language",
+      "url": "https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660",
+      "description": "In this article we’re going to take a look at why writing your styles in JavaScript isn’t such a terrible idea after all, and why you should be keeping an eye on this rapidly evolving space.",
+      "imageUrl": "./f9be7bb8a664aa9444e60f540709fe83d3d224b42414bc93e496408a77a958c9.jpg",
+      "featured": false
+    },
+    {
+      "title": "HTTPS on Stack Overflow",
+      "url": "https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow",
+      "description": "Stack overflow finally supports HTTPS by default in all its websites. This is a very detailed story about how they got there and all the pitfalls they needed to face in order to achieve this result.",
+      "imageUrl": "./8a04ff64b60de5184be8bb8293c64c5b786b66da1b467fe5c5abd3b9a39c84b2.png",
+      "featured": false
+    },
+    {
+      "title": "Better Form Design: One Thing Per Page",
+      "url": "https://smashingmagazine.com/2017/05/better-form-design-one-thing-per-page",
+      "description": "You can improve your form design with a simple pattern named \"One Thing Per Page\". Learn how to split up a complex process into multiple smaller pieces.",
+      "imageUrl": "./5b47022be1dc3165bc7ae08e580773b38761c15ada9324ad08082ea25cdcc51c.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Mythical Man-Month: Essays on Software Engineering",
+    "author": "Frederick P. Brooks Jr.",
+    "description": "Few books on software project management have been as influential and timeless as The Mythical Man-Month. With a blend of software engineering facts and thought-provoking opinions, Fred Brooks offers insight for anyone managing complex projects. These essays draw from his experience as project manager for the IBM System/360 computer family and then for OS/360, its massive software system. Now, 20 years after the initial publication of his book, Brooks has revisited his original ideas and added new thoughts and advice, both for readers already familiar with his work and for readers discovering it for the first time.",
+    "coverImageUrl": "./f69ef92cce9e0ba56f14311a6fad691ee26f7ca2373cd8fe9049efc8accbb9c4.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0201835959/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0201835959/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

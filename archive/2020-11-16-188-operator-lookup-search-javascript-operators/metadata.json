@@ -1,0 +1,75 @@
+{
+  "issueNumber": 188,
+  "title": "Operator Lookup - Search JavaScript operators",
+  "slug": "2020-11-16-188-operator-lookup-search-javascript-operators",
+  "date": "2020-11-16",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #46, 2020",
+  "quote": {
+    "text": "To err is human, but to really foul things up you need a computer",
+    "author": "Paul Ehrlich",
+    "authorTitle": "Physician and scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Paul_Ehrlich"
+  },
+  "links": [
+    {
+      "title": "Operator Lookup - Search JavaScript operators",
+      "url": "https://joshwcomeau.com/operator-lookup",
+      "description": "A friendly interactive guide about all the operators available in JavaScript. Do you know what **??=** or **>>=** are for? Go check them out!",
+      "imageUrl": "./fb1f18fe38c80ce9a593e749eb1741f8270ff35410ba24920cd1bded10f19a17.jpg",
+      "featured": true
+    },
+    {
+      "title": "Emoji b4 emoji",
+      "url": "https://ilovetypography.com/2020/11/08/emoji-before-emoji-hieroglyphic-broadsides",
+      "description": "If you think Emojis are something new and only for cool kids you must check out this interesting article. It goes back in history showing different usage of pictograms that were used throughout history even to create entertaining rebus games.",
+      "imageUrl": "./b9f16d31764d245929eb49633dd1be6b9fb55f22f1a1aac5a0ea79f8ce32e60d.png",
+      "featured": false
+    },
+    {
+      "title": "Comparing Objects in JavaScript",
+      "url": "https://medium.com/javascript-in-plain-english/comparing-objects-in-javascript-ce2dc1f3de7f",
+      "description": "What works, what doesn’t and why. In JavaScript, it’s easy to compare objects for equality, but not so easy to tell if they contain the same values. But Why?",
+      "imageUrl": "./f72fe8bf424e0b3a65bdd852fec4aefaefda859988d9dc17625b3e6884447cb2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rust vs Go",
+      "url": "https://bitfieldconsulting.com/golang/rust-vs-go",
+      "description": "Which is better, Rust or Go? Which language should you choose for your next project, and why? How do the two compare in areas like performance, simplicity, safety, features, scale, and concurrency? Let's find out, in this friendly and even-handed comparison of Rust and Go.",
+      "imageUrl": "./9f13348d06d1a224b87cba19b4e70826869a90039b2471742c25bd63ba43b8a7.jpg",
+      "featured": false
+    },
+    {
+      "title": "What's so great about Go?",
+      "url": "https://stackoverflow.blog/2020/11/02/go-golang-learn-fast-programming-languages",
+      "description": "In this article, StackOverflow explores the traits that have led to the rising popularity of the Go programming language.",
+      "imageUrl": "./8cc8331aa2038c3e0bcc520ca3cb954a8ac080b6865ec346ee48614774e70a4f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Layout projection: A method for animating browser layouts at 60fps",
+      "url": "https://mattperry.is/writing-code/layout-projection-animate-browser-layout-60fps",
+      "description": "Browser layouts are difficult to animate. Layout projection provides a method of animating layouts at 60fps with no visual distortion.",
+      "imageUrl": "./42097065216067a658bdb2a90fc5a4b4d11fb857019a565646b58f70d3141b4e.png",
+      "featured": false
+    },
+    {
+      "title": "CSS Painting versus CSS Houdini Paint API",
+      "url": "https://lisilinhart.info/posts/css-houdini-performance",
+      "description": "How CSS features like painting backgrounds compare to CSS Houdini’s Paint API in terms of performance? CSS on it's own is already pretty powerful and can paint lots of amazing things. To figure out the difference in performance this article illustrates two pens, that essentially do the same thing: paint 200 divs, with 9 colored background circles each.",
+      "imageUrl": "./913cce363023ec59404c7ccd1bbd60aac2ab8be656a18a613a661cf2162f8361.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Mastery",
+    "author": "Andy Budd",
+    "description": "Fully updated to the latest CSS modules, make the journey to CSS mastery as simple and painless as possible. This book dives into advanced aspects of CSS-based design, such as responsive design, modular CSS, and CSS typography. Through a series of easy-to-follow tutorials, you will learn practical CSS techniques you can immediately start using in your daily work.",
+    "coverImageUrl": "./513cab7982483119d4449542560da5b139ad8ff61b1c9e3b7d2904bd9a602db5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1430258632/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1430258632/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,116 @@
+{
+  "issueNumber": 455,
+  "title": "Nice Select, Bro",
+  "slug": "2026-02-09-435-nice-select-bro",
+  "date": "2026-02-09",
+  "templateType": "buttondown-markdown",
+  "intro": "Good day,\n\nIn the last few weeks I have been building a couple of AI powered websites and workflows where users can do things like query databases in plain English, then get results back as inline tables, charts, or even downloadable Excel files with pivot tables, color graded cells, and embedded charts. It feels a bit like giving people a new set of superpowers, without forcing them to learn SQL first.\n\nI am pretty convinced AI powered web apps are going to be a major trend this year, and for a long time after. The adoption barrier drops hard when users can simply describe what they want and the app figures out the gnarly parts under the hood. The big question is, where do you even start building this stuff? I have been exploring the growing universe of agentic workflow tools, like [Vercel AI SDK](https://ai-sdk.dev/), [TanStack AI](https://tanstack.com/ai), [Rig](https://rig.rs/) (Rust), and [Strands](https://strandsagents.com/) (from AWS, Python and TypeScript) and many more. So far I am enjoying TanStack AI quite a lot, even if it is still early and has a few rough edges and missing features.\n\nIf you are building anything in this space, please keep me in the loop. Reply to this email and tell me what you are working on, what tools you are using, and what is driving you nuts (or making you smile). I can definitely learn a lot from fellow fullstack engineers on these shiny new topics.\n\nNow, let us get into the curated content. I really like how this issue turned out. It is a fun mix of practical and inspirational pieces, and I hope you will enjoy it too.\n\nMay your code compile on the first try!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "It turns out the Internet is this amazing resource for everyone who has access to it",
+    "author": "Alexis Ohanian",
+    "authorTitle": "Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alexis_Ohanian?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=455-nice-select-bro"
+  },
+  "links": [
+    {
+      "title": "Nice Select, Bro!",
+      "url": "https://nerdy.dev/nice-select",
+      "description": "This feels like a perfect sequel to our favourite pick of two weeks ago: [“The Incredible Overcomplexity of the Shadcn Radio Button.”](https://buttondown.com/fullstackbulletin/archive/453-the-incredible-overcomplexity-of-the-shadcn-radio-button/) Instead of reaching for a fully custom select with a pile of div soup, this article shows just how far a real, native `<select>` can go today when you lean into the platform. It walks through a “nice select” build that keeps all the good native stuff, like accessibility, keyboard behavior, and default semantics, while layering on the kind of polish that usually screams “custom component.” Think crisp styling, smooth open and close motion, theme friendly visuals, clever handling for long lists, and little UX touches that make the dropdown feel premium instead of clunky. The best part is that most of it is CSS, with only a tiny bit of JavaScript to help with alignment and positioning. If you have ever built a custom select and instantly regretted it, this is a hopeful look at a future where the web needs fewer hacks, and you spend more time shipping features instead of rebuilding form controls from scratch.",
+      "imageUrl": "./6635f914270bc57139abfb19574f1bd8d0a27d51ae94518f7fee7681d0a29e72.jpg",
+      "featured": true
+    },
+    {
+      "title": "Node.js Path Traversal: Prevention & Security Guide",
+      "url": "https://nodejsdesignpatterns.com/blog/nodejs-path-traversal-security",
+      "description": "Last week I finally managed to publish this article, after working on it for a while. I had the first draft ready three months ago, then it got lost on my overcrowded (and perhaps disorganized) TODO list, so I truly hope you will enjoy it. The topic is path traversal, and it is kind of scary how it is silently becoming the new SQL injection. It pops up in a ton of places, basically every time where a user input can somehow influence reading from a given file path. When it slips through, the exploits can get wild fast, like reading sensitive files, leaking secrets, and using that access as the first step for dangerous lateral movement toward something worse. The goal of this piece is to educate and give you a framework. How to spot the risky patterns, how to reason about trust boundaries and path resolution, and how to harden your code so paths cannot escape where they should live. It also does not stop at JavaScript and Node.js techniques. It pushes you to think in multiple defense layers (security in depth), which is one of those essential mindsets if you want to write reliable production code.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Patterns of Legacy Displacement",
+      "url": "https://martinfowler.com/articles/patterns-legacy-displacement",
+      "description": "I have been working for the last five years or so as a Cloud Architect, and after seeing a whole parade of modernization projects up close, this one hit very close to home. It puts words and structure around a problem a lot of teams quietly suffer through. Legacy displacement can turn into an endless treadmill where you keep “replacing the old system” without ever truly getting to the finish line. What I like here is how grounded it stays. It pushes you to start with the uncomfortable question teams often skip. What outcome are you actually aiming for. Faster delivery, lower risk, retiring a platform, surviving a vendor change, untangling a business process. From there, it lays out patterns for making progress without betting everything on a single big bang cutover. Expect incremental moves, transitional architecture you will eventually delete, and lots of attention to the human side of change, not just the code and infrastructure. Also, if you are working more as a leader or architect, or you are aiming to grow into that kind of role, this is a fantastic read. It gives you a vocabulary for the tradeoffs, and a way to guide the conversation away from heroic rewrites and toward steady, survivable change. And yes, this is probably a bit of a step up if you have been focused mostly on the fullstack trade, but it is the kind of step that gives you a wider perspective. It is also surprisingly applicable to the kinds of projects you will run into again and again, especially once you are the person people look to when the word “modernization” shows up on the roadmap.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "otpauth: JavaScript Library for Implementing One Time Passwords",
+      "url": "https://github.com/hectorm/otpauth",
+      "description": "Last week I accidentally bumped into this nice little library, and I honestly cannot wait to find an excuse to use it. OTPAuth is a clean, no drama toolkit for one time passwords. It covers both HOTP and TOTP, and it runs basically everywhere you care about, including Node.js, Deno, Bun, and the browser. What I like is that it does not stop at “here is a code generator.” It handles the real setup flow stuff too, like building and parsing `otpauth://...` URIs for QR codes, which is exactly the glue you need for onboarding screens, authenticator apps, and migrations. It also feels thoughtfully designed around correctness and security, with sensible guidance on secrets, validation windows, and the realities of server side verification. If you want a practical demo of what you can do with it, there is a [dedicated browser sandbox](https://otpauth.molinero.dev/) you can play with to see the whole thing working end to end. And if you have ever been confused by the difference between OTP, TOTP, and HOTP, [this companion read](https://www.onelogin.com/learn/otp-totp-hotp) is for you...  [**Check Repo**](https://github.com/hectorm/otpauth)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Performance-Optimized Video Embeds with Zero JavaScript",
+      "url": "https://frontendmasters.com/blog/performance-optimized-video-embeds-with-zero-javascript",
+      "description": "Have you ever noticed that the moment you drop a single YouTube embed into a page, Lighthouse starts swearing against you? Even if you have never looked at a performance report in your life, this one is still for you. It shows a clever way to add `<iframe>` embeds without destroying your site’s performance. The trick feels almost unfair. The heavyweight player only loads after someone actually clicks play, and it does it with zero JavaScript. You render a lightweight, styled thumbnail inside `<summary>` so it looks like a real embed, then keep the real iframe behind a `<details>` toggle with `loading=\"lazy\"` so the browser does not sprint to fetch the player upfront. The extra magic is in the CSS. When `<details>` opens, the preview thumbnail gets hidden and the `<iframe>` takes its place cleanly, so there is no layout shifting. The handoff is so smooth you barely notice `<details>` is involved at all (unless you take a look at the DOM). I have been using `<details>` and `<summary>` for FAQ sections for a while now, because you get a clean zero-JS solution out of the box. But it would have never crossed my mind to apply the same idea to video embeds. Honestly, absolutely genius level stuff.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Explicit resource management in JavaScript",
+      "url": "https://allthingssmitty.com/2026/02/02/explicit-resource-management-in-javascript",
+      "description": "This is one of those JavaScript features that is still relatively new, but also not so new anymore. And yet I still have not seen it used enough in the wild, which makes me think it is mostly a knowledge gap, not a lack of usefulness. That is why I loved this short, super clear intro. It makes the idea click fast. BTW, this has been available in Node.js since 20.4.0, which is about two and a half years ago! The feature is **Explicit Resource Management**, and it basically turns cleanup of resources (file handles, locks, or even promises and streams) into something the language can reliably guarantee for you. You get the new `using` syntax (and `await using`), which makes cleanup a property of scope (once the variable goes out of scope, the associated resource is automatically cleaned up). Instead of manually wiring `try` and `finally` and then hoping your code stays correct through refactors, you declare the resource right where you acquire it and JavaScript takes it from there. This can be a lifesaver for avoiding accidental memory and resource leaks. And if you ever need to implement custom resources, they opt in by exposing `Symbol.dispose` for sync cleanup, or `Symbol.asyncDispose` for async cleanup. When execution leaves the scope (success, early return, or error), disposal runs automatically. And if your code does not fit neatly into a single block, `DisposableStack` and `AsyncDisposableStack` let you register cleanup steps and dispose them reliably at the end. I had not even heard of those two before, so this article was a real winner for me. It gave me a clean mental model, plus a couple of practical tools I genuinely want to start using.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "prefill: Partial application for React components",
+      "url": "https://www.xoid.dev/blog/introducing-prefill",
+      "description": "If your component folder is slowly filling up with wrappers like `StyledButton`, `PrimaryButton`, `DangerButton`, and `SlightlyDifferentDangerButton`, this one will feel weirdly cathartic. It introduces `prefill`, a tiny React utility that treats “preconfiguring a component” as a real primitive. The idea is simple: compose props before they reach the component, so you can lock in defaults, inject styles, or adapt an API without writing yet another wrapper. The examples make it click fast. Instead of wrapping a library component just to sprinkle defaults, you `prefill(Component, { ... })` and get nice extras like sane merging for `className` and `style`, preserved `displayName`, and fewer ref and typing headaches. It even helps with prop hygiene, so config only props do not accidentally leak onto DOM elements.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Designing Interfaces: Patterns for Effective Interaction Design",
+    "author": "Jenifer Tidwell, Charles Brewer, and Aynne Valencia",
+    "description": "Designing good application interfaces isn't easy now that companies need to create compelling, seamless user experiences across an exploding number of channels, screens, and contexts. In this updated third edition, youâ??ll learn how to navigate through the maze of design options. By capturing UI best practices as design patterns, this best-selling book provides solutions to common design problems.\nYouâ??ll learn patterns for mobile apps, web applications, and desktop software. Each pattern contains full-color examples and practical design advice you can apply immediately. Experienced designers can use this guide as an idea sourcebook, and novices will find a road map to the world of interface and interaction design.",
+    "coverImageUrl": "./efd3a4879002fbb37a1b94c9c3a347059c5bfc0661f163c8e89164fe5c872c8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492051969",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492051969"
+  },
+  "additionalLinks": [
+    {
+      "title": "The Browser’s Little White Lies",
+      "url": "https://blog.jim-nielsen.com/2026/browsers-white-lies"
+    },
+    {
+      "title": "The Too Early Breakpoint",
+      "url": "https://ishadeed.com/article/too-early-breakpoint"
+    },
+    {
+      "title": "Solving Shrinkwrap: New Experimental Technique",
+      "url": "https://kizu.dev/shrinkwrap-solution"
+    },
+    {
+      "title": "Building an RSS Aggregator with Astro",
+      "url": "https://raymondcamden.com/2026/02/02/building-an-rss-aggregator-with-astro"
+    },
+    {
+      "title": "Ship types, not docs",
+      "url": "https://shiptypes.com/"
+    },
+    {
+      "title": "Docker Sandboxes: Run Claude Code and More Safely",
+      "url": "https://docker.com/blog/docker-sandboxes-run-claude-code-and-other-coding-agents-unsupervised-but-safely"
+    },
+    {
+      "title": "The Secret Life of JavaScript -  The Generator",
+      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-javascript-the-generator-1fi5"
+    },
+    {
+      "title": "Combobox vs. Multiselect vs. Listbox: How To Choose The Right One",
+      "url": "https://smashingmagazine.com/2026/02/combobox-vs-multiselect-vs-listbox"
+    },
+    {
+      "title": "Infonomic UI Kit - An opinionated UI kit",
+      "url": "https://github.com/infonomic/uikit"
+    },
+    {
+      "title": "Exploring Lambda Durable Functions (AWS Bites Podcast)",
+      "url": "https://awsbites.com/152-exploring-lambda-durable-functions/"
+    }
+  ],
+  "sponsor": null
+}

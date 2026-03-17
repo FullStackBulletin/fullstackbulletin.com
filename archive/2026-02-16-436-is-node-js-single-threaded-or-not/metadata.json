@@ -1,0 +1,124 @@
+{
+  "issueNumber": 456,
+  "title": "Is Node.js Single Threaded… or Not?",
+  "slug": "2026-02-16-436-is-node-js-single-threaded-or-not",
+  "date": "2026-02-16",
+  "templateType": "buttondown-markdown",
+  "intro": "Hey,\n\nLast week felt like one long experiment in building with AI instead of just talking about it, and I honestly much prefer the doing to the talking. It is so much more rewarding to just take action than to think and talk and never actually build anything. I spent a good chunk of time wiring AI features into a couple of apps and really learning about three big areas: **custom tool calls** to let the model integrate with external systems and even drive parts of a web UI, **structured output** with [Zod](https://zod.dev/) and [JSON Schema](https://zod.dev/json-schema) so you can safely use LLM responses in your code, and **guardrails** that keep users focused on your application tasks instead of asking for random jokes or cake recipes. On top of that I picked up a bunch of smaller tricks to make the model behave a little more predictably for the specific workflow I had in mind. I was also rapidly prototyping a few different UIs for customer demos, and Claude Code surprised me in a very good way. Using its [frontend design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) and [web artifacts builder](https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder) skills I could go from rough idea to decent, modern looking interfaces in a couple of evenings. That is the kind of work that would usually take me two or three weeks of slow iteration.\n\nIt was not all keyboards and prompts though. I also had the pleasure of chatting with [Francesco Ciulla](https://www.francescociulla.com/) on his excellent [YouTube channel](https://www.youtube.com/channel/UCBRxDSTfr2aJVODDh4WG_7g) about **AWS Lambda** and **Rust**. We did one live recording, and from that you now get two options: the [full live stream](https://www.linkedin.com/events/7425227143413968896/) where we talk more broadly about **Serverless** and why Rust can be such a good fit for Lambda, and a [shorter edited cut](https://youtu.be/SHvE8B9NYdg) that focuses only on my live demo for the busy ones who just have time to see the code in action. If you watch either of them I would love to hear what you think.\n\nNow let us get into some hand curated full stack goodness, because there is a lot to explore this week and I genuinely hope you will enjoy every single pick.\n\nHappy learning and building!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "All programming languages are shit. But the good ones fertilize your mind",
+    "author": "Reginald Braithwaite",
+    "authorTitle": "Software Developer",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "Is Node.js Single Threaded… or Not?",
+      "url": "http://nodesource.com/blog/is-nodejs-single-threaded-or-not",
+      "description": "I love this piece because it finally gives a precise answer to a question I have heard for years without any hand waving. It separates V8 from the Node runtime, walks through examples like `setTimeout` and `crypto.pbkdf2`, and shows exactly what stays on the main JavaScript call stack and what gets pushed into libuv and the thread pool. It also clears up a subtle but important point. JavaScript in Node runs on a single main thread by default, but you can get real parallelism when you explicitly opt into models such as Worker Threads or separate processes. By the end you get a mental model you can actually use when you are debugging strange concurrency issues in production or deciding whether you really need to reach for a worker. So is it single threaded? It depends what we are talking about. If you look only at the main thread then yes, but that does not mean we cannot use the runtime to run concurrent or even genuinely parallel work when a project really needs it. Node.js is kinda weird that way... and that's why I personally love it!",
+      "imageUrl": "./3476f8f7b5cdd864b38dabf3d5d3cc1808b55d9dcde484bf4ed70686e9ee177d.png",
+      "featured": true
+    },
+    {
+      "title": "Definitive Guide to Multi Threaded Rendering on the Web",
+      "url": "https://hackernoon.com/definitive-guide-to-multi-threaded-rendering-on-the-web",
+      "description": "And speaking of multi threading, if the Node article is about how the backend thinks on its main thread, this one is the perfect companion on the frontend. The DOM still lives on a single thread, but the author shows how you can push serious work off it with Web Workers, SharedArrayBuffer and atomics for coordination, Offscreen Canvas, and even prebuilt DOM work away from the main thread. I came away with a concrete toolkit for those “why is this UI so janky” moments, plus a better sense of when it is worth spinning up a worker instead of reaching for yet another clever hook or tiny refactor. Somewhat related, I recently used [Astro’s Partytown integration](https://docs.astro.build/en/guides/integrations-guide/partytown/) to move heavy third party scripts like analytics into web workers so they stop blocking the main thread and trashing performance.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Facehash: Beautiful Minimalist Avatars for React",
+      "url": "https://facehash.dev/",
+      "description": "I have built way too many boring placeholder avatars in my life so Facehash instantly made me smile. This idea is almost as old as the web, or at least as old as WordPress... don't ask me dates, but we are talking decades old! I still remember fiddling with [Gravatar](https://gravatar.com/) defaults profile pictures, starting with [identicons](https://en.wikipedia.org/wiki/Identicon) then graduating to [Robohash](https://robohash.org/) and many others after that. Facehash feels like that same idea brought up to date for modern React apps, generating soft minimalist faces from arbitrary strings using SVGs that are created directly in the browser, with no external image service or asset pipeline to worry about. If, in recent times, you have seen things like [DiceBear](https://www.dicebear.com/) or [Boring Avatars](https://boringavatars.com/) you already know how delightful this can be, and here it becomes not just a fun technical trick for turning data into art but a very practical way to spice up default profile pictures in your app at almost zero cost, since everything runs entirely on the client.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A New Meta Tag for Respecting Text Scaling on Mobile",
+      "url": "https://matuzo.at/blog/2026/text-scaling-meta-tag",
+      "description": "This is one of those tiny web platform updates that quietly mean a lot for real users. The author shows how Firefox already respects system font size while Chrome and Safari still ignore it for web content, then introduces a proposed text scale meta tag that finally lets us opt in to matching user text scaling preferences. The examples make the difference between fixed pixel values and relative units crystal clear and there is a nice reality check about layout issues you need to test for before flipping this on in production.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "vouch: A community trust management system based on explicit vouches to participate.",
+      "url": "https://github.com/mitchellh/vouch",
+      "description": "This project scratches a very real itch for anyone running an open source community or internal platform. Vouch lets you gate sensitive actions on an explicit web of trust, so people must be vouched in before they can do things like merge, deploy, moderate, or even open a pull request in the first place, which feels very relevant with the wave of low quality AI slop PRs that many high profile projects are drowning in right now. The interesting bit for me is that Vouch lists can form a real web of trust. You can configure a project to read other projects lists of vouched or denounced users, so communities with shared values can share their trust decisions and build a larger, more comprehensive network of trust across the ecosystem. Someone who has already proven trustworthy in one repo can automatically be treated as trustworthy in another, and the same goes for users who have been explicitly blocked. Everything lives in a simple flat file format with ready made GitHub integration through Actions and a CLI, so you can start experimenting without tearing up your existing workflow. And as a final nudge, this comes from Mitchell Hashimoto, the same mind behind Vagrant, Terraform, Ghostty and a bunch of other staples in our tooling, which is one more reason I think it is worth checking out. [**Check Repo**](https://github.com/mitchellh/vouch)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "AI Makes the Easy Part Easier and the Hard Part Harder for Developers",
+      "url": "https://blundergoat.com/articles/ai-makes-the-easy-part-easier-and-the-hard-part-harder",
+      "description": "This essay put into words a tension I have been feeling for a while. If you have read the editorials in the last couple of issues of this newsletter you already know I am right in the middle of this, caught between AI assisted coding that feels like super powers and the sense that it is quietly stealing something beautiful and artisanal from us. Writing code was never the truly hard part of our job. The real difficulty is investigation, context gathering, and validation, and the author shows how handing the simple bit to AI can leave us with only the hardest parts of the work, often without the understanding we need to judge the generated code. I have to admit, I miss sitting down to actually write code and to learn the tiny domain specific details of a language or framework that make you go from “it works” to “this is excellent.” This piece captures how over relying on AI can quietly steal that kind of mastery from you. I especially liked the concrete stories about vibe coding gone wrong and the framing of AI as a senior level skill with junior level trust, which feels like a very healthy mindset to bring into real teams.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Browser Hates Surprises",
+      "url": "https://frontendmasters.com/blog/the-browser-hates-surprises",
+      "description": "I adore articles that change how I think about the browser and this one absolutely does that. We often treat the browser like a canvas, a blank slate waiting for us to paint pixels, but this piece argues that the browser is really a constraint solver that is negotiating geometry with you at high speed every time a page loads. You hand it your rules in HTML and CSS, and when you give it all the “math” up front the result feels magical. stable, buttery smooth, no surprises. When you do not, when an image loads late, a scrollbar suddenly appears, or a font swap nudges everything around, you break the spell and jank shows up in the form of layout shift and terrible CLS scores. The article walks through a chaotic “bad” demo first so you can really feel the pain, then shows how small changes like reserving space for images, planning for scrollbars, setting aspect ratios, and coordinating data fetching can turn the same page into something calm and predictable. If you have ever yelled at Core Web Vitals, this is a great tour of how to stop surprising the browser and start orchestrating the rendering engine instead.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Laws of UX: Using Psychology to Design Better Products & Services",
+    "author": "Jon Yablonski",
+    "description": "An understanding of psychology—specifically the psychology behind how users behave and interact with digital interfaces—is perhaps the single most valuable nondesign skill a designer can have. The most elegant design can fail if it forces users to conform to the design rather than working within the \"blueprint\" of how humans perceive and process the world around them.\nThis practical guide explains how you can apply key principles in psychology to build products and experiences that are more intuitive and human-centered. Author Jon Yablonski deconstructs familiar apps and experiences to provide clear examples of how UX designers can build experiences that adapt to how users perceive and process digital interfaces.\nYou'll learn:",
+    "coverImageUrl": "./44d5304d991b16f0c923478333f8b8e26feb6f26c681b450b96936999bb3fb9f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/149205531X",
+    "amazonUk": "https://www.amazon.co.uk/dp/149205531X"
+  },
+  "additionalLinks": [
+    {
+      "title": "broz: A simple, frameless browser for screenshots",
+      "url": "https://github.com/antfu/broz"
+    },
+    {
+      "title": "Building Bulletproof React Components",
+      "url": "https://shud.in/thoughts/build-bulletproof-react-components"
+    },
+    {
+      "title": "Bear UI Component Library",
+      "url": "https://bearui.com/"
+    },
+    {
+      "title": "Announcing TypeScript 6.0 Beta",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-6-0-beta"
+    },
+    {
+      "title": "Virtual File System for Node.js",
+      "url": "https://github.com/nodejs/node/pull/61478"
+    },
+    {
+      "title": "It’s about to get a lot easier for your JavaScript to clean up after itself",
+      "url": "https://piccalil.li/blog/its-about-to-get-a-lot-easier-for-your-javascript-to-clean-up-after-itself"
+    },
+    {
+      "title": "Next.js at Enterprise Level",
+      "url": "https://techhub.iodigital.com/articles/nextjs-at-enterprise-level"
+    },
+    {
+      "title": "rpxy: simple and ultrafast reverse-proxy",
+      "url": "https://rpxy.io/"
+    },
+    {
+      "title": "How a Broken Heart (emoji) Broke a Website's Performance!",
+      "url": "https://allenpike.com/2026/a-broken-heart"
+    },
+    {
+      "title": "Shades of Halftone",
+      "url": "https://blog.maximeheckel.com/posts/shades-of-halftone"
+    },
+    {
+      "title": "Trying to Make the Perfect Pie Chart in CSS",
+      "url": "https://css-tricks.com/trying-to-make-the-perfect-pie-chart-in-css"
+    },
+    {
+      "title": "An insightful read on how a top engineer uses Claude Code effectively",
+      "url": "https://boristane.com/blog/how-i-use-claude-code/"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 213,
+  "title": "The modern guide to React state patterns",
+  "slug": "2021-05-31-213-the-modern-guide-to-react-state-patterns",
+  "date": "2021-05-31",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "Imagination is the Discovering Faculty, pre-eminently. It is that which penetrates into the unseen worlds around us, the worlds of Science",
+    "author": "Ada Lovelace",
+    "authorTitle": "Mathematician",
+    "authorUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+  },
+  "links": [
+    {
+      "title": "The modern guide to React state patterns",
+      "url": "https://blog.logrocket.com/modern-guide-react-state-patterns/",
+      "description": "**How do we handle complex state using React?** React has been around for a while now, but this question keeps coming up every so often! Managing state is a never ending struggle for software engineers and React is no exception. This article tries to take a modern stance on this topic and explores some new ways to manage state in React!",
+      "imageUrl": "./86e95f0cf91b9c3bd56bcaf49db4e0fb6f9f5eacd19d923da836dc49f4acdef8.png",
+      "featured": true
+    },
+    {
+      "title": "Explore DOM Events",
+      "url": "https://domevents.dev/",
+      "description": "Have you ever wondered how DOM Events actually work? If you have been doing any web development, chances are you have been dealing with them in a way or another. But if you really want to understand DOM events in-depth, you should definitely play with this wonderful interactive **DOM Event simulator**!",
+      "imageUrl": "./c870220c960385aa4b00b05d9f2fd4209965183edc6eaaf4a1f3e38d775882f9.jpg",
+      "featured": false
+    },
+    {
+      "title": "What is High Availability?",
+      "url": "https://digitalocean.com/community/tutorials/what-is-high-availability",
+      "description": "While handling increased system load is a common concern, decreasing downtime and eliminating single points of failure are just as important. High availability is a quality of infrastructure design at scale that addresses these latter considerations.",
+      "imageUrl": "./a1f1f6e18e2ff8f4fbacce43346def8e8212ef019ae839d6c77a1ba02390ec3d.jpg",
+      "featured": false
+    },
+    {
+      "title": "TypeScript - Poor man's async await using generators",
+      "url": "https://fnune.com/typescript/2020/07/31/typescript-series-4-poor-mans-async-await-in-typescript-using-generators",
+      "description": "Async/Await is one of those magic things that you can do in JavaScript. But is it really magic? Well, of course, it isn't! In this article, you can see an async engine re-implemented in TypeScript using generator functions. This will not just help you to demystify how Async/Await actually works but it will also help you to make the pattern type-safe!",
+      "imageUrl": "./ec493df9eb49d34830d3eca00a82b16e32e8191f1e54fc916594cd73c501c0dc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Everything you need to know about DynamoDB Partitions",
+      "url": "https://alexdebrie.com/posts/dynamodb-partitions",
+      "description": "Understanding DynamoDB partitions will make you a better user of DynamoDB. In this post, you'll learn how DynamoDB partitions work and how they should affect your data modeling.",
+      "imageUrl": "./ceb9332fb3321a82b76764a6a724b4044adacdaaff81701865ca1def21e9e1a9.jpg",
+      "featured": false
+    },
+    {
+      "title": "How To Handle Command-line Arguments in Node.js Scripts",
+      "url": "https://digitalocean.com/community/tutorials/nodejs-command-line-arguments-node-scripts",
+      "description": "In this article, you will learn how to use arguments in your Node.js scripts and then you will recreate the script with the commander library.",
+      "imageUrl": "./3a19aa62473dccf7fd11d03a117e86b0da507698be6c5089411a0a37135e4523.jpg",
+      "featured": false
+    },
+    {
+      "title": "claytongulick/bit-sync",
+      "url": "https://github.com/claytongulick/bit-sync",
+      "description": "Bit-sync is a utility for synchronizing arbitrary data using the rsync algorithm in pure js. If you need to build apps that require data synchronization features, this library might become your next best friend!",
+      "imageUrl": "./5de77eee3897f953e776c4708672c44bf264504d3fca1c834d6a7b4ed1875028.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "You Don't Know JS: ES6 & Beyond",
+    "author": "Kyle Simpson",
+    "description": "As part of the \"You Don’t Know JS\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built. Learn new ES6 syntax that eases the pain points of common programming idioms. Organize code with iterators, generators, modules, and classes. Express async flow control with Promises combined with generators. Use collections to work more efficiently with data in structured waysLeverage new API helpers, including Array, Object, Math, Number, and String. Extend your program’s capabilities through meta programming.",
+    "coverImageUrl": "./dc82d3e22d7d2516883c5adc587d3a8817d011c764cda892712040ff1b3ea3e1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491904240/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491904240/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 240,
+  "title": "#240: Introducing Svelte",
+  "slug": "2021-12-13-240-50-introducing-svelte",
+  "date": "2021-12-13",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nBelka design and develop digital products.\n\n[We can help you with your next project.](https://belkadigital.com/)",
+  "quote": {
+    "text": "Computers are like Old Testament gods; lots of rules and no mercy",
+    "author": "Joseph Campbell",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Campbell"
+  },
+  "links": [
+    {
+      "title": "Introducing Svelte",
+      "url": "https://joshcollinsworth.com/blog/introducing-svelte-comparing-with-react-vue",
+      "description": "Now that Rich Harris, the creator of Svelte, has joined Vercel to work full time on Svelte, we can definitely expect an even brighter future for this framework. In this article you can find a great introduction to Svelte and a comparison with other mainstream frontend frameworks such as React.",
+      "imageUrl": "./2df2c01b4b36550531d4cba4edb94306c3fa691b4667f61d0657c30ea5616b74.jpg",
+      "featured": true
+    },
+    {
+      "title": "Get started with validation in Node.js",
+      "url": "https://simonplend.com/get-started-with-validation-in-node-js",
+      "description": "Adding validation to your backend Node.js applications doesn't need to be a headache! In this article you can learn how to do that using `ajv` and JSON Schema.",
+      "imageUrl": "./42ed34c06137b84b1280ab4472ff2cc71278726beab1e01b46b8f93ee2c1fc26.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Visual Guide to React Rendering",
+      "url": "https://alexsidorenko.com/blog/react-render-refs",
+      "description": "A React Trivia: How to disable a button after 3 clicks without re-rendering the component the first 2 times? It turns out you can do that by using Refs. How much do you know about them?",
+      "imageUrl": "./0298b0bd2b3bc78aa88bf5980c6f8ec0fd1e7f630e65a12dc7d51e1f519959e9.png",
+      "featured": false
+    },
+    {
+      "title": "Various ways to include comments on your static site",
+      "url": "https://darekkay.com/blog/static-site-comments",
+      "description": "This article provides a selection of different techniques to implement comments using a static site generator. A great resource if you are currently working on a static website (maybe your own blog) and you want to enable comments in your pages!",
+      "imageUrl": "./422c877757ed91629e34bbcd39d09fefa6c8941f7861aa4f21018683a280f781.jpg",
+      "featured": false
+    },
+    {
+      "title": "UX Design is useless and it slows down the software development",
+      "url": "https://www.belkadigital.com/articles/ux-design-slows-down-development",
+      "description": "Adding the design activities to a software development process is not easy. This is how we do it!\nsponsored",
+      "imageUrl": "./4fc7d0c1c57555d2461cfe7b915d8c15aa38b4e3bd22435eeeb5ebb727ab68ca.jpg",
+      "featured": false
+    },
+    {
+      "title": "Tailwind CSS v3 is here!",
+      "url": "https://tailwindcss.com/blog/tailwindcss-v3",
+      "description": "Tailwind CSS v3 has recently been announced by its creator Adam Wathan. This new version brings incredible performance gains, huge workflow improvements, and a seriously ridiculous number of new features. The most impressive of them is Just-in-Time compilation (originally experimental, now it's the default).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How to build a Netflix clone",
+      "url": "https://th3wall.hashnode.dev/proud-to-present-you-fakeflix-a-netflix-clone-built-with-react-redux-firebase-and-framer-motion",
+      "description": "Have you ever wondered what it would take to build a frontend application for something like Netflix? Davide Mandelli asked himself the same question and he come up with Fakeflix, a Netflix clone built using React, Redux, Firebase and Framer Motion. An excellent example made totally open source!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Development with Node and Express: Leveraging the JavaScript Stack",
+    "author": "Ethan Brown",
+    "description": "Learn how to build dynamic web applications with Express, a key component of the Node/JavaScript development stack. In this hands-on guide, author Ethan Brown teaches you the fundamentals through the development of a fictional application that exposes a public website and a RESTful API. You’ll also learn web architecture best practices to help you build single-page, multi-page, and hybrid web apps with Express.",
+    "coverImageUrl": "./fa50d6bec7065a557f93ff1ccee308384e327bc7bdc62dab9513ef493759a11f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491949309/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491949309/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

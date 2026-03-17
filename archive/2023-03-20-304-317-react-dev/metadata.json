@@ -1,0 +1,75 @@
+{
+  "issueNumber": 317,
+  "title": "#317: React.dev",
+  "slug": "2023-03-20-304-317-react-dev",
+  "date": "2023-03-20",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "The great myth of our times is that technology is communication",
+    "author": "Libby Larsen",
+    "authorTitle": "Composer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Libby_Larsen"
+  },
+  "links": [
+    {
+      "title": "React.dev",
+      "url": "https://react.dev/",
+      "description": "The new React website and guide is out! We spoke about the beta version before, but it's finally here as the main website for all things React! Check out the new style and the new guides and see what it means to build modern React applications!",
+      "imageUrl": "./2557bba490d804374842e109ee884162281a287f1b37dd526696679d6195eaef.png",
+      "featured": true
+    },
+    {
+      "title": "Command Line Interface Guidelines",
+      "url": "https://clig.dev/",
+      "description": "If you create Command Line Applications, CLI for friends, you might wonder what a *good* CLI looks like. This open-source guide shows you the traditional UNIX principles and how they apply them in the modern days.",
+      "imageUrl": "./099f640e20cfe27a79d69d64869f791e221769c286c4574e1413448b8c8f725b.jpg",
+      "featured": false
+    },
+    {
+      "title": "gajus/turbowatch: Fast file change detector for Node.js.",
+      "url": "https://github.com/gajus/turbowatch",
+      "description": "This is a new promising open-source project that provides an extremely fast file change detector and task orchestrator for Node.js. Check it out, you might be able to say goodbye to **nodemon**.",
+      "imageUrl": "./8a28622a03150a80145171a3e22975d76dc4480dbc85a939a4cb43d1a2c2bb75.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rspack",
+      "url": "https://rspack.dev/",
+      "description": "RSpack is yet another module bundler for the web... what makes it stand apart is that being **Rust**-based it promises great performance. I heard rumors it might be integrated into **Vite** as an alternative to **Rollup**... Definitely worth checking it out, especially if you work with large code bases where the speed-up might save you tons of precious build time! Plus the logo looks like a weird mix of both **Kirby** and Rust's mascot: **Ferris**! Is that a good thing? I don't know, but it looks cute!",
+      "imageUrl": "./64487574dd867b544a4dfa6704c7e549b199b08484991ba4c89ac6e57a22bff3.png",
+      "featured": false
+    },
+    {
+      "title": "Typescripting the technical interview",
+      "url": "https://richard-towers.com/2023/03/11/typescripting-the-technical-interview.html",
+      "description": "Have you ever thought about how to really **show off** in a TypeScript technical interview? This article provides some (rather crazy) suggestions and examples! Definitely worth a read, even though I wouldn't recommend actually doing this in a tech interview 😅",
+      "imageUrl": "./956bd8ecc11b489c54d50cd7e23d23c7d1f4609a0c2356acafd6ea57ac331e2e.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Meaning(lessness) of Serverless",
+      "url": "https://ben11kehoe.medium.com/the-meaning-lessness-of-serverless-cc004936dee5",
+      "description": "The very prolific [Ben Kehoe](https://ben11kehoe.medium.com/) recently published a new article about the meaning of the word “Serverless”. It's a term that is honestly close to meaningless, and it’s not useful to argue about the definition. So how should we talk about serverless today?",
+      "imageUrl": "./a7fa45e94e07df26b2684f7090c9ebec6f39e12c6b310e2b4c2ccecf3da6c6ce.png",
+      "featured": false
+    },
+    {
+      "title": "Why Coding Communities Are Good for Your Career",
+      "url": "https://www.codu.co/articles/why-coding-communities-are-good-for-your-career-a3g_m7wz",
+      "description": "If you feel your coding career is somewhat stuck and that you are not progressing as fast as you'd hoped, maybe what you are missing is being involved in some local coding community. This awesome article goes in-depth on the benefits of partaking in a coding community. So don't be shy, get out there, make some friends, and learn with them!",
+      "imageUrl": "./7aa4bf9ae0772191c66b5daef57f3f4934666e7fccc9fc3d4203f3b9e496bb49.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "UX Strategy: How to Devise Innovative Digital Products that People Want",
+    "author": "Jaime Levy",
+    "description": "User experience (UX) strategy requires a careful blend of business strategy and UX design, but until now, there hasn’t been an easy-to-apply framework for executing it. This hands-on guide introduces lightweight strategy tools and techniques to help you and your team craft innovative multi-device products that people want to use. Whether you’re an entrepreneur, UX/UI designer, product manager, or part of an intrapreneurial team, this book teaches simple-to-advanced strategies that you can use in your work right away.",
+    "coverImageUrl": "./fb5bfe56ce390883cd7e92437fbc707fe0ce9062ff82c591ed2eba65ee4daa8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372864/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372864/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

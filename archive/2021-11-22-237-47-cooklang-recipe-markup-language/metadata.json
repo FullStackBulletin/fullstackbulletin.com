@@ -1,0 +1,75 @@
+{
+  "issueNumber": 237,
+  "title": "#237: Cooklang – Recipe Markup Language",
+  "slug": "2021-11-22-237-47-cooklang-recipe-markup-language",
+  "date": "2021-11-22",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #46, 2021",
+  "quote": {
+    "text": "To err is human, but to really foul things up you need a computer",
+    "author": "Paul Ehrlich",
+    "authorTitle": "Physician and scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Paul_Ehrlich"
+  },
+  "links": [
+    {
+      "title": "Cooklang – Recipe Markup Language",
+      "url": "https://cooklang.org/",
+      "description": "Cooklang is a markup language for recipes. If you are considering to build any food related app or website, you should definitely consider having a look at Cooklang. This is also an interesting use case of how sometimes domain-specific languages can make a huge difference.",
+      "imageUrl": "./f59417dfe811083acac242fc67e0b2356611d4f74f1aafc124eeec485c10c866.png",
+      "featured": true
+    },
+    {
+      "title": "Data Fabric vs. Data Mesh: What's the Difference?",
+      "url": "https://blog.starburst.io/data-fabric-vs.-data-mesh-whats-the-difference",
+      "description": "Data is becoming more and more a maker or a breaker of entire organisations. Being able to manage data proficiently is really an important topic and this is creating new approaches and terminology. Do you know about the data fabric and the Data Mesh and what's the difference between them?",
+      "imageUrl": "./4ebf082948774ff1ebb87fbadc29f31c5ad2be45c3d47810c892c051d2558602.jpg",
+      "featured": false
+    },
+    {
+      "title": "Understanding why our build got 15x slower with Webpack 5",
+      "url": "https://engineering.tines.com/blog/understanding-why-our-build-got-15x-slower-with-webpack",
+      "description": "A very interesting case study where, all of a sudden, building a front-end went from taking a few seconds to taking a few minutes. This is was due to a particular Webpack configuration and with this article you can certainly learn a lot about how to keep Webpack performant!",
+      "imageUrl": "./e3aabb9730669faf03b2d23b7377445df1353e0c9a0e4792d811913a96c4c78f.jpg",
+      "featured": false
+    },
+    {
+      "title": "TypeScript, event handlers in the DOM, and the this keyword",
+      "url": "https://valentinog.com/blog/this",
+      "description": "In this quick post you'll learn how to make TypeScript play well with the infamous this keyword when working with event handlers in the DOM.",
+      "imageUrl": "./49d468dc33d2a942da0b48f2e8283efa0231a38967dca3ced2e2b38f736945b1.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to Grasp Containers - Efficient Learning Path",
+      "url": "https://iximiuz.com/en/posts/container-learning-path",
+      "description": "What is a Container? Container vs. VM? Docker vs. Kubernetes. How to organize the learning efficiently? There is certainly a lot to learn when it comes to container and this article makes a great job of explaining the main concepts and giving you an organised study path to build up more experience.",
+      "imageUrl": "./e5448226705c9c0eb3ad59e3e2334709030d4a8b962a42e83fe420257e5eca5c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Responsive design: quick tips",
+      "url": "https://dev.to/fidalmathew/responsive-design-css-tips-nhj",
+      "description": "A short post that presents some practical advices on what is important to consider when creating responsive designs. How should margin and padding change between a mobile and a desktop version? What about using em, rem or percentage units?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Building the blob menu",
+      "url": "https://yosracodes.hashnode.dev/blob-menu",
+      "description": "An interesting tutorial that can teach you how to build an animated menu with a popup blob effect. This approach uses JavaScript and CSS to achieve this interesting effect. Definitely worth checking it out!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Mastery",
+    "author": "Andy Budd",
+    "description": "Fully updated to the latest CSS modules, make the journey to CSS mastery as simple and painless as possible. This book dives into advanced aspects of CSS-based design, such as responsive design, modular CSS, and CSS typography. Through a series of easy-to-follow tutorials, you will learn practical CSS techniques you can immediately start using in your daily work.",
+    "coverImageUrl": "./513cab7982483119d4449542560da5b139ad8ff61b1c9e3b7d2904bd9a602db5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1430258632/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1430258632/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

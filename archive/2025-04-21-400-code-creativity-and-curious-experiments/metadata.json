@@ -1,0 +1,104 @@
+{
+  "issueNumber": 419,
+  "title": "Code, Creativity, and Curious Experiments",
+  "slug": "2025-04-21-400-code-creativity-and-curious-experiments",
+  "date": "2025-04-21",
+  "templateType": "mce-mailchimp",
+  "intro": "Hey folks 👋\n\nThis week’s edition is a weird one... in the best possible way, of course!\n\nWe’ve got a mix of deep technical content (think: building your own analytics engine or coding an AI agent from scratch), alongside some visually striking, graphics-heavy inspiration, like dreamy WebGL gradients and clever CSS scroll effects that’ll make your layouts pop.\n\nI hope you enjoy the ride!\n\nBut hey, if you feel like taking a breather from code, I’ve got something a little different for you too. It’s a short novel I recently stumbled across — strange, unique, and unexpectedly philosophical. *[A conversation between a flip-flopped philosopher and a sarcastic machine](https://write.as/nullbeam/conversations-between-a-flip-flopped-philosopher-and-a-sarcastic-machine)*. It’s funny, thoughtful, and might even make you question the meaning of life… or at least why you put your pants on every day in these weird times that we are living in.\n\nEnjoy this week’s picks — and as always, feel free to reply with any feedback, suggestions, or cool links worth sharing. Also, let me know if you liked (or didn’t like) the short story — so I’ll know whether to dig up more of these next time!\n\nYour editor,\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway“",
+    "author": "Andrew S. Tanenbaum",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum"
+  },
+  "links": [
+    {
+      "title": "Roll your own blog analytics in 130 lines of code",
+      "url": "https://orjpap.github.io/valtown/http/analytics/blog/jekyll/2025/04/15/blog-analytics.html",
+      "description": "This week's top pick is a brilliant example of DIY ingenuity. Why rely on Google Analytics or Plausible when you can craft a lightweight, privacy-friendly analytics solution yourself? In just under 130 lines of JavaScript, [Orestis Papadopoulos](https://www.linkedin.com/in/orestis-papadopoulos-38612b358/) shows how to set up a serverless analytics system using [Val town](https://www.val.town/) (a collaborative code editor for writing and hosting serverless APIs). OK, maybe you don’t care too much about building your analytics, but I’m personally tinkering with using Val Town to add some engaging interactive stuff to my own website… it feels like a simpler and possibly a more fun alternative to AWS Lambda!",
+      "imageUrl": "./93f5fcf4095cb92485e27fc303d6890667e7f52d3e42d1ea02002f6ac5b9ae53.png",
+      "featured": true
+    },
+    {
+      "title": "A flowing WebGL gradient, deconstructed",
+      "url": "https://alexharri.com/blog/webgl-gradients",
+      "description": "We need more articles like this one. WebGL has been on my “want to learn” list for a while, but finding approachable, well-explained content is… tough. That’s why I was so impressed with this piece! It dives into creating smooth, interactive gradients using WebGL and GLSL, and it’s packed with beautifully crafted interactive widgets that make each step easy to follow. What makes this especially cool is that once you start to master WebGL, you unlock endless possibilities to bring virtually any kind of visual or graphic effect to your websites — no limits, just creativity and shaders. BTW, if you like this topic, another cool resource we featured before is [WebGL Fundamentals](https://webgl2fundamentals.org/).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Best Programmers I Know",
+      "url": "https://endler.dev/2025/best-programmers",
+      "description": "Have you ever wondered what it takes to get better at the art of software engineering? What if you want to become one of the very best? In this thoughtful post, the author reflects on the traits that truly set great developers apart — things like mastering your tools, simplifying problems, reading docs like a pro, and staying endlessly curious. It is not about genius-level breakthroughs, but consistency, clarity, and care. This really resonated with me because it is very much in line with the mission of this very newsletter, where we try to curate content that keeps you curious and informed.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How To Build An Agent",
+      "url": "https://ampcode.com/how-to-build-an-agent",
+      "description": "If you are not sick of AI and agents yet, and are actually intrigued by the idea of building one yourself, here is a solid pick. This post walks you through creating a code-editing terminal agent powered by Claude, in under 400 lines of Go. It reads, writes, and modifies files, and it is all orchestrated through a surprisingly simple feedback loop. Sure, this might feel like it lives outside the usual full-stack web dev space, but the truth is, AI is quickly becoming part of every field in software engineering. A few years from now, having a solid grasp of how these systems work might not just be a bonus… it might be expected.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What if we sent JSX over the wire?",
+      "url": "https://overreacted.io/jsx-over-the-wire",
+      "description": "In his latest post, Mr. React himself (Dan Abramov) explores what it might look like to send JSX over the network and treat it as a real data format (i.e. an alternative to JSON!), not just a compile-time convenience. It is thought-provoking, a bit wild, and full of those classic Dan moments that make you question how the web even works. I have to admit — I am not fully convinced this is a good idea… but then again, I felt the same way the first time I saw JSX. And well, I ended up using it every day. So who knows? Maybe this is one of those ideas that just needs to grow on you.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Advanced React in the Wild",
+      "url": "https://largeapps.dev/case-studies/advanced",
+      "description": "If you are thirsting for more React content… here is a biggie! This case study dives deep into advanced patterns for scaling React in large applications — think context boundaries, co-location, smart versus dumb components, and more. I have been working myself on a Next.js project over the last 6 months that is starting to grow bigger and will soon need to power five different websites… so I am pretty sure I will be using some of these learnings very soon!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Holographic masks experiment",
+      "url": "https://codepen.io/HejChristian/full/YPzLbYX",
+      "description": "We saved the best for last! This is another one’s for those of you who are constantly hunting for unique, creative touches that make a website feel truly special... especially in an age where everything is starting to look a bit too Vercel or shadcn-flavored! This CodePen experiment recreates a stunning scroll-based holographic effect using CSS masks and `background-attachment: fixed`. Scroll through it, be amazed, and don’t forget to click the button to peek under the hood and see how the effect is built. There’s even a link to the [original article](https://robbowen.digital/wrote-about/css-blend-mode-shaders/) that inspired it, in case you want to dive deeper!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Building Micro-Frontends: Scaling Teams and Projects, Empowering Developers",
+    "author": "Luca Mezzalira",
+    "description": "What's the answer to today's increasingly complex web applications? Micro-frontends. Inspired by the microservices model, this approach lets you break interfaces into separate features managed by different teams of developers. With this practical guide, Luca Mezzalira shows software architects, tech leads, and software developers how to build and deliver artifacts atomically rather than use a big bang deployment. You'll learn how micro-frontends enable your team to choose any library or framework. This gives your organization technical flexibility and allows you to hire and retain a broad spectrum of talent. Micro-frontends also support distributed or colocated teams more efficiently. Pick up this book and learn how to get started with this technological breakthrough right away.",
+    "coverImageUrl": "./806c9e86ca8151e590b609e28c816dae7e97eef441efaf81e0a4d1415f0a0b19.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492082996?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492082996?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Hako (yet another JavaScript runtime...)",
+      "url": "https://andrews.substack.com/p/hako"
+    },
+    {
+      "title": "Deploying TypeScript: recent advances and possible future directions",
+      "url": "https://2ality.com/2025/04/deploying-typescript-present-future.html"
+    },
+    {
+      "title": "The State of Authorization in 2025",
+      "url": "https://permit.io/blog/state-of-authorization-2025"
+    },
+    {
+      "title": "Mastering default values in JavaScript with the nullish coalescing (??) operator",
+      "url": "https://allthingssmitty.com/2025/04/10/mastering-default-values-in-javascript-with-the-nullish-coalescing-operator"
+    },
+    {
+      "title": "Skip links: what, why, and how",
+      "url": "https://tempertemper.net/blog/skip-links-what-why-and-how"
+    },
+    {
+      "title": "We Put a Distributed Database In the Browser – And Made a Game of It!",
+      "url": "https://tigerbeetle.com/blog/2023-07-11-we-put-a-distributed-database-in-the-browser"
+    },
+    {
+      "title": "CSS Custom Properties vs. Sass Variables: A Pragmatic Guide",
+      "url": "https://piccalil.li/links/css-custom-properties-vs-sass-variables-a-pragmatic-guide"
+    }
+  ],
+  "sponsor": null
+}

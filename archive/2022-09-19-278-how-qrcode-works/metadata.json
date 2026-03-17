@@ -1,0 +1,75 @@
+{
+  "issueNumber": 291,
+  "title": "How QRCode works",
+  "slug": "2022-09-19-278-how-qrcode-works",
+  "date": "2022-09-19",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Never trust a computer you can’t throw out a window",
+    "author": "Steve Wozniak",
+    "authorTitle": "American inventor & Apple co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Wozniak"
+  },
+  "links": [
+    {
+      "title": "How QRCode works 🤯",
+      "url": "https://typefully.com/DanHollick/qr-codes-T7tLlNi",
+      "description": "If you know me, you have probably noticed that I am fascinated by QRCodes (I even wrote a [Rust decoder for the Covid certificates!](https://github.com/rust-italia/dgc)). I admit though I have never looked into how QRCodes actually encode the data. This post blew my mind. If you are curious to know how you could generate a QRCode from scratch check this one out. I promise it's really fascinating.",
+      "imageUrl": "./ed137b194265f878c84831f2aeb9ce3674601125cc71ce18ccdcba3e18beeffd.png",
+      "featured": true
+    },
+    {
+      "title": "How the JavaScript DOM Works",
+      "url": "https://freecodecamp.org/news/the-javascript-dom-a-practical-tutorial",
+      "description": "OK, I admit the previous article was a bit off-topic... Let's look into something closer to the theme of full stack web development: how the DOM (Document Object Model) works! The DOM is a fundamental concept when writing frontend apps in JavaScript, so let's dive in!",
+      "imageUrl": "./278f52cfa742300bbb0f75e30e8803cf327bbe61211fe6a0a39c556c80f6e09b.jpg",
+      "featured": false
+    },
+    {
+      "title": "useSyncExternalStore - The underrated React API",
+      "url": "https://thisweekinreact.com/articles/useSyncExternalStore-the-underrated-react-api",
+      "description": "If you are not satisfied with any of the **124354332** different ways of managing state in React, here's a new one for you: **`useSyncExternalStore()`**! It is a new React 18 hook to subscribe to external data sources. It is often used internally by state management libraries - like Redux - to implement a selector system.",
+      "imageUrl": "./0c837a907bc5deb1a77fedb54a6c7f30098d21f9e25760f669b2bedeb8fa1968.jpg",
+      "featured": false
+    },
+    {
+      "title": "Lightning CSS",
+      "url": "https://lightningcss.dev/",
+      "description": "Rust disrupts the CSS world too! If you are finding yourself having to minify tons of CSS files in your build process, check Lightning CSS out. It's an extremely fast tool written in Rust, probably the fastest option to minify CSS today! I am planning to add it to the build process of my own website... not because there's a lot of CSS, but just because it can be a fun excuse to try it...",
+      "imageUrl": "./ccc1ef33ca54a96bfca82ef590dab4eaba1ab09d2b32961bff5895a27f45ede4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Introducing Signals",
+      "url": "https://preactjs.com/blog/introducing-signals",
+      "description": "Have you tried [SolidJS](https://www.solidjs.com/) already? I did and I loved it! But this is not about SolidJS. Well, it kinda is since **signals** are a concept popularised by Solid, and now it's finding its way into other frameworks. Signals are a way of expressing state that ensures apps stay fast regardless of how complex they get. The **Preact** team has built a generic signals library that you can use with many frameworks!",
+      "imageUrl": "./601e3a6b4265f45d08119bdebbed00be217ace76667e77e46ca2a04a8481999c.png",
+      "featured": false
+    },
+    {
+      "title": "An overview of Node.js: architecture, APIs, event loop, concurrency",
+      "url": "https://2ality.com/2022/09/nodejs-overview.html",
+      "description": "The brilliant **Dr. Axel Rauschmayer** has been writing tons of awesome Node.js articles lately and this one is probably one of my favorites... This blog post gives an overview of how Node.js works: What its architecture looks like. How its APIs are structured. A few highlights of its global variables and built-in modules and a lot more!",
+      "imageUrl": "./88a666b2abe596611ebbadead2ba85452a363f5c19592f84ac79b70492bee601.png",
+      "featured": false
+    },
+    {
+      "title": "Default Exports in JavaScript Modules Are Terrible",
+      "url": "https://lloydatkinson.net/posts/2022/default-exports-in-javascript-modules-are-terrible",
+      "description": "In JavaScript and Node.js, default exports can lead to mismatched and confusing names. Named exports should be used instead. This opinionated article goes into a lot more detail with many examples and... it has a point!",
+      "imageUrl": "./8997a9497d4e8154203ddc4e61c9fe34800e32344343dbe8ac0ac9946b21fd10.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elasticsearch: The Definitive Guide: A Distributed Real-Time Search and Analytics Engine",
+    "author": "Clinton Gormley",
+    "description": "Whether you need full-text search or real-time analytics of structured data—or both—the Elasticsearch distributed search engine is an ideal way to put your data to work. This practical guide not only shows you how to search, analyze, and explore data with Elasticsearch, but also helps you deal with the complexities of human language, geolocation, and relationships. If you’re a newcomer to both search and distributed systems, you’ll quickly learn how to integrate Elasticsearch into your application.",
+    "coverImageUrl": "./2ddcf691a406ca14d2511a89ef30ae08a29fa1c50fa8de58d3b1506180ab6520.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358543/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449358543/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

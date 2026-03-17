@@ -1,0 +1,75 @@
+{
+  "issueNumber": 66,
+  "title": "\udc4b Hello, GitHub",
+  "slug": "2018-06-11-066-hello-github",
+  "date": "2018-06-11",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #23, 2018",
+  "quote": {
+    "text": "Good programmers use their brains, but good guidelines save us having to think out every case",
+    "author": null,
+    "authorTitle": "Author",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "👋 Hello, GitHub",
+      "url": "https://natfriedman.github.io/hello",
+      "description": "It's no news anymore that GitHub is joining the Microsoft family. But maybe you are curious to have a glimpse of what the future of the platform will be and what might or might not change for Open Source developers. Have a look at this open letter by Nat Friedman, ex-Xamarin CEO and future GitHub CEO!",
+      "imageUrl": "./91809db40c432ecf7de82a9de5f91273244ff1611e3234c9841f7da3a7645140.jpg",
+      "featured": true
+    },
+    {
+      "title": "Intelligent Tracking Prevention 2.0",
+      "url": "https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0",
+      "description": "Today we’re happy to bring you Intelligent Tracking Prevention 2.0, or ITP 2.0. It builds upon ITP 1.0, which we released last year, and ITP 1.1, which was released in March, adding the Storage Access API. Removal of the…",
+      "imageUrl": "./1d848e2ea939204df0410ef4bfdaa1643046bf1b0e96abe3485b233030995188.jpg",
+      "featured": false
+    },
+    {
+      "title": "Kubernetes gets Containerd Integration",
+      "url": "https://kubernetes.io/blog/2018/05/24/kubernetes-containerd-integration-goes-ga",
+      "description": "Kubernetes Containerd Integration finally goes GA, supporting Containerd 1.1 and all Kubernetes features. Containerd seems to bring better startup performances when compared to Docker, but if you are curious to know what are all the main advantages and differences, don't miss this article.",
+      "imageUrl": "./56dd5c53ae5dc3f447e26beeb668fb38550f2796845e999152dbe4f1e1a79ccf.png",
+      "featured": false
+    },
+    {
+      "title": "Build a Node.js command-line chat application with Chatkit",
+      "url": "https://medium.freecodecamp.org/build-a-node-js-command-line-chat-application-with-chatkit-8d0c4546085e",
+      "description": "Building chat in your app can be pretty complex. Yet, with Chatkit, implementing fully-featured chat is nothing but a few lines of code.",
+      "imageUrl": "./a3ce769b8b36d3ebe7f06a2872df0d4cf26c54003c5d4056687b0e4f47d309bc.jpg",
+      "featured": false
+    },
+    {
+      "title": "How I Came to Write D",
+      "url": "http://drdobbs.com/architecture-and-design/how-i-came-to-write-d/240165322",
+      "description": "The path that led Walter Bright to write a language, now among the top 20 most used, began with curiosity — and an insult.",
+      "imageUrl": "./93ec8b64717d7233b67f769aea62e44622975c2325358a3bf0966e3e59c787a0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Z-Index Explained: How to Stack Elements Using CSS",
+      "url": "https://medium.freecodecamp.org/z-index-explained-how-to-stack-elements-using-css-7c5aa0f179b3",
+      "description": "I have always struggled with the CSS property z-index. It sounds so easy at first. Elements with a higher z-index value are displayed in…",
+      "imageUrl": "./886c3b46288ac2a1778276c3c60afe8fb81b4ef11dd28c83546d97ba9970268f.jpg",
+      "featured": false
+    },
+    {
+      "title": "CORS",
+      "url": "https://frontendian.co/cors",
+      "description": "CORS (Cross-Origin Resource Sharing) is subject tinged with dread for many web developers. Like tales of a mythical sea beast, every developer has a story to tell about the day CORS seized upon one of their web requests, dragging it down into the inexorable depths, never to be seen again.",
+      "imageUrl": "./55c1ca1ac90c0d18fe55508c2eae8244f9cb9e3b65b283f9c129e540d6e67da9.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Getting Started with hapi.js",
+    "author": "John Brett",
+    "description": "This book will introduce hapi.js and walk you through the creation of your first working application using the out-of-the-box features hapi.js provides. Packed with real-world problems and examples, this book introduces some of the basic concepts of hapi.js and Node.js and takes you through the typical journey you'll face when developing an application. Starting with easier concepts such as routing requests, building APIs serving JSON, using templates to build websites and applications, and connecting databases, we then move on to more complex problems such as authentication, model validation, caching, and techniques for structuring your codebase to scale gracefully.",
+    "coverImageUrl": "./d31bcb4e84d816e5d5fcc91de57a73e2d10b8c811815001c4ed2997d6b526a79.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785888188/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785888188/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

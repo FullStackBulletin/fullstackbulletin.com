@@ -1,0 +1,136 @@
+{
+  "issueNumber": 444,
+  "title": "Finding Mr TIFF",
+  "slug": "2025-11-10-424-finding-mr-tiff",
+  "date": "2025-11-10",
+  "templateType": "buttondown-markdown",
+  "intro": "Howdy,\n\nThis issue turned out more inspirational than I planned, which might be exactly what we all need. Thinking deeply and broadly often moves us further than learning the latest CSS or JavaScript trick. If you are here to stay inspired, you will love this one.\n\nStill, you will find a few practical pieces to keep you grounded and ready to build for the web. Do not forget to check the extra links at the end. I packed more than usual because I found some gems that were too good to skip.\n\nLet’s wander a little. Inspiration likes to be found off the path.  \n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "All of the biggest technological inventions created by man - the airplane, the automobile, the computer - says little about his intelligence, but speaks volumes about his laziness",
+    "author": "Mark Kennedy",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Mark_Kennedy?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=444-finding-mr-tiff"
+  },
+  "links": [
+    {
+      "title": "Finding Mr TIFF",
+      "url": "https://inventingthefuture.ghost.io/mr-tiff",
+      "description": "Have you ever heard of the [**TIFF** file format](https://en.wikipedia.org/wiki/TIFF)? It stands for *Tagged Image File Format*. It stores high quality raster images with lossless options. It was introduced by Aldus with help from Microsoft in 1986, and is now stewarded by Adobe, which makes it almost four decades old. I used it a few times early in my career (funny to think this format is pretty much as old as me), but that is not the point here. The point, or the question should I say, is *who created this format?* It is a legit question, and we often forget to credit the people behind the tech that shapes how we work. I was mesmerized reading this story where the author is trying everything to unravel the mystery behind the person who actually created TIFF, which for years was credited to a company rather than a human. I will not spoil it. It is a fascinating and touching read. It sits a little outside our usual full stack beat, yet it is absolutely worth your time. I am sure you will enjoy it.",
+      "imageUrl": "./a38285bf16a226e1d3c70d8c332953ea7f5e5cd5bf1c6b9413b3ac7faf8061e8.jpg",
+      "featured": true
+    },
+    {
+      "title": "The SSO Wall of Shame",
+      "url": "https://sso.tax/",
+      "description": "Have you ever found yourself staring at the feature matrix on a SaaS pricing page and thinking *\"why are some of these features so disproportionately expensive?\"* Intuitively, the technical cost rarely lines up with the sticker price. Sometimes it feels like luxury pricing: it's expensive... just because they can and somebody is willing to pay for it just to make a problem go away!  SSO is the poster child here, and I have seen some truly wild workarounds inside teams just to dodge that extortion level fee for the feature. Ans SSO is one of those things that should be done right and should be a priority for any team with more than one person! That is why this site hit me right in the feels. **SSO Tax** tracks and calls out products that charge extra for single sign on, highlights companies that include it at no extra cost, gathers community reports, and even gives you a friendly email template to nudge vendors toward fair pricing. If you have been hit by the SSO tax before, I am sure this will resonate with you too. And if you are building a SaaS product, please do not make SSO expensive for no technical reason... Thanks!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "You Should Write An Agent",
+      "url": "https://fly.io/blog/everyone-write-an-agent",
+      "description": "AI Agents are having a moment. This post makes a simple case: you should build one. Not for the hype, but because wiring a tiny LLM loop with a single tool is far easier than it looks, and the exercise teaches you a lot about context, tool design, and where the real engineering work still lives. It walks through a minimal Python loop, adds a small tool, then nudges you to think about context storage, security boundaries, and cost trade offs you will meet in the real world. It is opinionated, practical, and very buildable. It is a bit off topic for our usual full-stack beat, or perhaps not. Maybe the future of building for the web will have us shipping agents alongside our apps. Or maybe we'll write agents that collaborate to create websites on our behalf... Who knows? For now let's just enjoy the exercise and stay open minded.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "From web developer to database developer in 10 years",
+      "url": "https://notes.eatonphil.com/2025-02-15-from-web-developer-to-database-developer-in-10-years.html",
+      "description": "I have met some ridiculously talented systems engineers in my career, and a few of them quietly (well, sometimes not so quietly) believed that web development is easy, or at least not as worthy as their craft. Like web dev is for simple folks, who can't even fathom the complexity of *real* software development! Maybe there is a grain of truth in the sense that constraints and failure modes look different. Still, software is software. If you learn the fundamentals and you care deeply, you can cross borders. You do not have to limit yourself to the web craft. That is why this story hit home. It follows a developer who started with web pages in PHP, then kept pulling the thread until it led to writing databases in C and Rust. The journey is patient, curious, and very human. It shows that switching domains does not mean you will be mediocre at both. It can mean you become excellent at one by bringing lessons from the other. Do not let anyone tell you that you cannot go from the browser to the storage engine. Follow your curiosity. Follow your passion. You can do it, and you can be good at it too.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Perfectly Pointed Tooltips: A Foundation",
+      "url": "https://frontendmasters.com/blog/perfectly-pointed-tooltips-a-foundation",
+      "description": "I admit I started today's issue with a stack of pure inspiration. Loved every minute of it, and I hope you did too. But maybe you are itching for something practical that flips you into build mode fast. Here is one for the CSS lovers. This guide breaks down how to craft tooltips that actually point to what they are attached to. Clean positioning, a crisp little arrow that stays centered, sensible spacing, and graceful behavior when space gets tight. It leans on modern CSS, keeps JavaScript light, and does not forget accessibility with focus and keyboard in mind. The result is a reusable foundation you can drop into real apps without feeling hacky. If you want a quick win that sharpens your UI instincts, dive in and ship a better tooltip today.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How to Fix Any Bug",
+      "url": "https://overreacted.io/how-to-fix-any-bug",
+      "description": "Bugs do not care how senior you are. We all get stuck, we all spiral, and we all need a reliable way out. This piece lays out a calm recipe you can follow when your brain is fried and the logs look like hieroglyphs. Shrink the problem until you can hold it in your hand. Question every assumption. Change one thing at a time. Add probes and asserts that tell you what really happened, not what you hoped would happen. If you cannot reproduce it, you cannot fix it, so keep slicing until you can. One interesting detail: the author uses LLMs as a troubleshooting assistant, which is smart and time saving. The technique still holds even if you do everything by yourself, just like the good old times. When you are truly lost, step away, then come back and read the code like it was written by a stranger. It is simple, not easy, and it works across stacks. Frontend, backend, databases, you name it. Worth bookmarking for the next time a bug decides to live rent free in your day.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Directives and the Platform Boundary",
+      "url": "https://tanstack.com/blog/directives-and-the-platform-boundary",
+      "description": "Maybe you have felt this too. In modern fullstack React projects with server side rendering, those top of file strings like `\"use client\"` and `\"use server\"` never quite sat right with me, but it was hard to say why. This piece finally clicks it into place. It argues for using *directives* carefully because they look like part of the platform even though they are not. That blurs the boundary between JavaScript and a framework. The confusion leaks into tooling, makes portability brittle, and nudges the ecosystem toward vendor dialects. The author’s core suggestion is simple: when a feature needs options, ownership, and evolution, prefer an explicit import and an API over a magic string. Treat HTML and the platform as the source of truth. Let libraries plug in through imports, and keep that boundary crisp. I like the caution here. We are drifting toward a style of JavaScript that abuses custom directives, and the near term ergonomics hide long term costs. If you value portability, clarity, and a healthier path to shared primitives, this is a timely read.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Building Evolutionary Architectures: Automated Software Governance",
+    "author": "Neal Ford, Rebecca Parsons, Patrick Kua, and Pramod Sadalage",
+    "description": "The software development ecosystem is constantly changing, providing a constant stream of new tools, frameworks, techniques, and paradigms. Over the past few years, incremental developments in core engineering practices for software development have created the foundations for rethinking how architecture changes over time, along with ways to protect important architectural characteristics as it evolves. This practical guide ties those parts together with a new way to think about architecture and time.",
+    "coverImageUrl": "./4b6b914e661a4d7c4504b31bf4eec378a7fac35070fd0003599e52c169717e7e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492097543",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492097543"
+  },
+  "additionalLinks": [
+    {
+      "title": "History of Domains",
+      "url": "https://dotcom.press/history-of-domains"
+    },
+    {
+      "title": "Use Cases for Field Sizing",
+      "url": "https://ishadeed.com/article/field-sizing"
+    },
+    {
+      "title": "Requiring Node.js modules from BitTorrent",
+      "url": "https://evanhahn.com/node-torrent-import"
+    },
+    {
+      "title": "Comparing interviews at 8 large tech companies",
+      "url": "https://blog.pragmaticengineer.com/comparing-interviews-at-8-large-tech-companies"
+    },
+    {
+      "title": "The Dead framework theory",
+      "url": "https://aifoc.us/dead-framework-theory"
+    },
+    {
+      "title": "Datadog Instance Explorer",
+      "url": "https://instances.datadoghq.com/"
+    },
+    {
+      "title": "The \"Most Hated\" CSS Feature: tan()",
+      "url": "https://css-tricks.com/the-most-hated-css-feature-tan"
+    },
+    {
+      "title": "Why startups choose React (and when you shouldn't)",
+      "url": "https://evilmartians.com/chronicles/why-startups-choose-react-and-when-you-should-not"
+    },
+    {
+      "title": "The Origin Story of JavaScript (video)",
+      "url": "https://youtube.com/watch?v=Sl3XUmg4LBk"
+    },
+    {
+      "title": "How We Saved $500,000 Per Year by Rolling Our Own “S3”",
+      "url": "https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143"
+    },
+    {
+      "title": "JavaScript prototype pollution",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Prototype_pollution"
+    },
+    {
+      "title": "Encapsulate as much state as possible in your component",
+      "url": "https://blacksheepcode.com/posts/encapsulate_as_much_state_as_possible"
+    },
+    {
+      "title": "The Inner Workings of JavaScript Source Maps",
+      "url": "https://www.polarsignals.com/blog/posts/2025/11/04/javascript-source-maps-internals"
+    },
+    {
+      "title": "TypeScript’s rise in the AI era: Insights from Lead Architect, Anders Hejlsberg",
+      "url": "https://github.blog/developer-skills/programming-languages-and-frameworks/typescripts-rise-in-the-ai-era-insights-from-lead-architect-anders-hejlsberg/"
+    },
+    {
+      "title": "Embedding TypeScript",
+      "url": "https://andrews.substack.com/p/embedding-typescript"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 263,
+  "title": "Comparing Gatsby and Next.js for website development",
+  "slug": "2022-03-07-250-comparing-gatsby-and-next-js-for-website-development",
+  "date": "2022-03-07",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "I think that novels that leave out technology misrepresent life as badly as Victorians misrepresented life by leaving out sex",
+    "author": "Kurt Vonnegut",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Kurt_Vonnegut"
+  },
+  "links": [
+    {
+      "title": "Comparing Gatsby and Next.js for website development",
+      "url": "https://dev.to/alex_barashkov/comparing-gatsby-and-nextjs-for-website-development-13b7",
+      "description": "Gatsby and Next.js, from a first glance, could look pretty much the same. Both are React-based and allow you to build static website as well as more dynamic ones. But there are some fundamental differences, so which one should you pick for your next project? Let's find out!",
+      "imageUrl": "./43ab2400e4959ab69f5af1cf44d2970b805ea6592955e05d7d66e91245a4ca3a.jpg",
+      "featured": true
+    },
+    {
+      "title": "How does UTF-8 turn “😂” into “F09F9882”?",
+      "url": "https://sethmlarson.dev/blog/utf-8",
+      "description": "If you're anything like me, you love emojis! Emojis appear like an image on the screen, but they aren't an image like a PNG or JPEG. What do emojis look like to computers?",
+      "imageUrl": "./ca09a7e35048162bf7610e3a75c6ca6a121f366234ed0efb9aa821c3942b72fb.png",
+      "featured": false
+    },
+    {
+      "title": "Javascript Records and Tuples",
+      "url": "https://fjolt.com/article/javascript-records-and-tuples",
+      "description": "Records and Tuples are a new immutable primitive coming to Javascript. Let's look at how they work and how you can use them in your code today.",
+      "imageUrl": "./2b3355883abaeef6b789dffc471ab31cc3bca06da4b2aff05f111aa12aee463f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Solid.js feels like what I always wanted React to be",
+      "url": "https://typeofnan.dev/solid-js-feels-like-what-i-always-wanted-react-to-be",
+      "description": "What is Solid.js and how does it compare to React? What are some things that Solid.js actually does better (and maybe in a more intuitive way) in respect to React? Let's see a few interesting examples!",
+      "imageUrl": "./17fba80650d0ea8ce059cb2c6de19d3b629fd865f2494c5dca1055615bc71104.jpg",
+      "featured": false
+    },
+    {
+      "title": "Practical Guide to Solving Hard Problems",
+      "url": "https://praeclarum.org/2022/02/19/hard-problems.html",
+      "description": "I sometimes find myself in a position of needing to write some code\nthat I’m just not sure how to write. Been there have you?\nHere are the steps I take when I’m stumped.\nNo huge revelations here, just hard-earned advice.",
+      "imageUrl": "./871dfe484169d74238ab230798fbf697ea081f25a15582f2170a15be9fb527f8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Optimizing third-party script loading in Next.js",
+      "url": "https://web.dev/script-component",
+      "description": "This article discusses the Next.js Script component and demonstrates how it can be used for better sequencing of third-party scripts.",
+      "imageUrl": "./eae36c8a4783a0198b57ed4ed0efbc110d6d926bb041f744263e070f084b746f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Testing Pipeline 101 For Frontend Testing",
+      "url": "https://smashingmagazine.com/2022/02/testing-pipeline-101-frontend-testing",
+      "description": "You don’t need to be a full DevOps engineer if you want to introduce a testing build routine. With the help of some testing frameworks and GitHub actions, Ramona Schwering gives a short kick-off to help you get on the right track.",
+      "imageUrl": "./e4a7ea8af84e97a1f21f63367df5eea31ecfc0bb81dd9d8bc429023db9f890b2.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "RESTful Web APIs: Services for a Changing World",
+    "author": "Leonard Richardson",
+    "description": "The popularity of REST in recent years has led to tremendous growth in almost-RESTful APIs that don’t include many of the architecture’s benefits. With this practical guide, you’ll learn what it takes to design usable REST APIs that evolve over time.",
+    "coverImageUrl": "./9c4219f67796409cdc3651baaeb21d2190a783120c0f90db3533777479bc62a9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358063/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449358063/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

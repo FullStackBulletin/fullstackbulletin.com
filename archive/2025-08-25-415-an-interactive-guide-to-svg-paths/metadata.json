@@ -1,0 +1,70 @@
+{
+  "issueNumber": 435,
+  "title": "An Interactive Guide to SVG Paths",
+  "slug": "2025-08-25-415-an-interactive-guide-to-svg-paths",
+  "date": "2025-08-25",
+  "templateType": "buttondown-markdown",
+  "intro": "Hello, \n\nBig milestone this week: this is our first issue sent via [Buttondown](https://buttondown.com/)! 🎉\n\nSwitching away from Mailchimp is something I’ve wanted to do for a long time. Don’t get me wrong... Mailchimp served us well over the years (all previous 434 issues, in fact!), but it’s been getting pricey, and honestly... I was never fully happy with their content editor and the email layout. Some of you even told me the emails weren’t super readable on mobile. Fair feedback!\n\nSo, Buttondown! I’m hoping this move helps us keep costs a bit more under control, but more importantly, that it gives you a smoother, cleaner experience as a reader.\n\nThe migration itself went fairly smoothly (altough I still need to migrate some of my beloved [automation](https://github.com/FullStackBulletin/automation) and part of the [website](https://fullstackbulletin.com/)), but you know how these things go... If you spot a broken link, weird formatting, or — worst-case — you unsubscribed recently and somehow ended up back here, I’m really sorry for that. You can unsubscribe again easily (link in the footer), and I promise I’m not trying to spam anyone. Just an honest hiccup in the switch.\n\nAs always, I’d love to hear your thoughts. If anything’s broken (or awesome), hit reply and let me know. Feedback is gold.\n\nNow! Let’s dive into this week’s hand-picked full-stack goodness, curated with love, as always 💛\n\nHappy reading and coding!  \n\n— [Luciano](https://loige.co/)",
+  "quote": null,
+  "links": [
+    {
+      "title": "An Interactive Guide to SVG Paths",
+      "url": "https://joshwcomeau.com/svg/interactive-guide-to-paths",
+      "description": "I’ve always had a bit of a thing for vector graphics. There’s something deeply satisfying about how SVGs are just… text. That’s right, pure markup magic. And once you wrap your head around the syntax, it opens the door to dynamically generating shapes, animations, and interactive artwork with code. It’s like programming meets drawing, and it scratches that creative itch in a way few things do. What makes SVGs even cooler? You can poke at them through the DOM and sprinkle in JavaScript to make them dance. So if you’ve ever been even a little curious about how `<path>` works in SVG, this interactive guide is pure gold. It’s visual, hands-on, and honestly a joy to go through. Let your creative side out to play!",
+      "imageUrl": "./cf0139fcf049887c999ae3760af32024d4b861e7bfbe78fb15a8edbf5257adac.png",
+      "featured": true
+    },
+    {
+      "title": "Closer to the Metal: Leaving Playwright for CDP",
+      "url": "https://browser-use.com/posts/playwright-to-cdp",
+      "description": "Let’s switch gears... but not completely. We’re still talking about automation through code, only this time we’re steering it straight into the world of browsers! Have you ever used **Playwright**? It’s one of the best E2E testing tools out there, giving you the power to script real browser behavior like clicking buttons, filling forms, or navigating between pages. But here’s the twist: Playwright isn’t magic! Under the hood, it talks to browsers using something called **CDP (Chrome DevTools Protocol)**, a lower-level interface that gives you even more control. This article is a solid deep dive into how Playwright builds on top of CDP, and why you might want to explore CDP directly if you’re looking for performance, flexibility, or just want to know how the *puppeteering* actually works (pun intended... if you got it).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Can We Use Local Storage Instead of Context-Redux-Zustand?",
+      "url": "https://developerway.com/posts/local-storage-instead-of-context",
+      "description": "This is a question I’ve found myself circling back to a few times, especially after discovering **signals** in **SolidJS**. They opened my eyes to a whole new way of thinking about state, reactivity, and where (and how) data should live. This article dives right into that same curiosity. It explores when using `LocalStorage` might actually be a better fit than React Context. Think global state that needs to persist across sessions but doesn’t necessarily need to trigger re-renders every time it changes... It’s a thought-provoking read that’ll challenge some default assumptions about app architecture and possibly nudge you toward simpler, more efficient patterns.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Next.js 15.5",
+      "url": "https://nextjs.org/blog/next-15-5",
+      "description": "Let’s be honest, Next.js is probably the most widely used full-stack framework in web development right now. Whether you love it, tolerate it, or secretly grumble about it while using it anyway (like I do), it’s become the default choice for a huge chunk of the ecosystem. Even LLMs seem to default to it when asked how to build a web app! So like it or not, having some level of Next.js fluency is becoming table stakes. And guess what? There’s a new version out. Next.js 15.5 brings some solid updates to caching, partial pre-rendering, and the app router. If you’re working on production-grade apps (or plan to), it’s worth skimming this changelog to see what’s evolving under the hood.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "QuickJS Sandbox: Execute JavaScript and TypeScript code safe and secure",
+      "url": "https://sebastianwessel.github.io/quickjs/index.html",
+      "description": "This project is absolutely bonkers in the best way. It runs QuickJS (a tiny, embeddable JavaScript engine written in C) right in the browser, via WebAssembly. Yep, that means you can fire up a fully separate JavaScript runtime inside your browser tab and start executing code in a completely isolated context. Why would you want this? Well, for one: sandboxing. For another: curiosity. And also because it’s just really cool to see stuff like this working entirely client-side. Think interactive REPLs, teaching tools, plugin systems, or even experiments with running multiple JS runtimes side-by-side. [**Check out project**](https://sebastianwessel.github.io/quickjs/index.html)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "npm Adopts OIDC for Trusted Publishing in CI/CD Workflows",
+      "url": "https://socket.dev/blog/npm-trusted-publishing",
+      "description": "I’m a huge fan of **OIDC**. I’ve implemented it in all sorts of business contexts, and one of my favorite use cases is letting GitHub Actions deploy to AWS using short-lived credentials. No more static secrets, no more long-lived tokens... just clean, secure, on-demand access that disappears when the job's done. And for the longest time, I wished I could do the same thing when publishing packages to npm. Well... now we finally can! This post dives into npm's new *Trusted Publishing* feature, which brings first-class OIDC support to the registry. That means you can authorize your GitHub repo to publish directly with no access tokens and therefore no secret leakage risk!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What Learning React Won't Teach You: Image Formats",
+      "url": "https://idiallo.com/blog/react-and-image-format",
+      "description": "We started this issue with a solid deep dive into SVGs, so it only feels right to close it with a nod to their pixel-powered cousins: **JPG** and **PNG**, the two most widely used raster image formats on the web. What I loved about this article is how clearly it lays out a truth that’s easy to overlook: JPG and PNG are not truly interchangeable. They each have specific strengths and trade-offs, and mixing them up can lead to seriously suboptimal results. Think bloated file sizes, blurry compression artifacts, or sharp edges that suddenly go fuzzy. If you’ve ever found yourself exporting assets without thinking too hard about the format, this is your friendly wake-up call.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Building Microservices: Designing Fine-Grained Systems",
+    "author": "Sam Newman",
+    "description": "As organizations shift from monolithic applications to smaller, self-contained microservices, distributed systems have become more fine-grained. But developing these new systems brings its own host of problems. This expanded second edition takes a holistic view of topics that you need to consider when building, managing, and scaling microservices architectures. Through clear examples and practical advice, author Sam Newman gives everyone from architects and developers to testers and IT operators a firm grounding in the concepts. You'll dive into the latest solutions for modeling, integrating, testing, deploying, and monitoring your own autonomous services. Real-world cases reveal how organizations today manage to get the most out of these architectures. Microservices technologies continue to move quickly. This book brings you up to speed.",
+    "coverImageUrl": "./357c19aebbd32079fe61584581b8d78910ea6d463a7601e7042a222025c8ef96.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492034029?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492034029?tag=loige-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

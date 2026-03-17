@@ -1,7 +1,7 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 
-const RAW_ARCHIVES = new URL('../raw_archives/', import.meta.url).pathname;
+const RAW_ARCHIVES = new URL('../archive/', import.meta.url).pathname;
 const MAX_PRE2022_INDEX = 243;
 
 async function main() {

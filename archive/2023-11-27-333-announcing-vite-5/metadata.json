@@ -1,0 +1,96 @@
+{
+  "issueNumber": 348,
+  "title": "Announcing Vite 5",
+  "slug": "2023-11-27-333-announcing-vite-5",
+  "date": "2023-11-27",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\n... and welcome to issue #348!\n\nI am currently packing and getting ready to travel to Las Vegas to attend **re:Invent**, the biggest AWS conference of the year! By the time you get this email I should already be there! If you are attending as well, [give me a shout](https://twitter.com/loige), I'd really love to have a chat and know what can I do to make FullStack Bulletin better for you!\n\nNow, I'll leave you to some juicy full-stack content. This week, somehow there's lots of talking about CSS Grids, so I hope you like the topic, but if not, there's plenty of other cool stuff to check out!\n\nEnjoy! 😊",
+  "quote": {
+    "text": "Good programmers don't just write programs. They build a working vocabulary“",
+    "author": "Guy Steele",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Guy_L._Steele_Jr."
+  },
+  "links": [
+    {
+      "title": "Announcing Vite 5",
+      "url": "https://vitejs.dev/blog/announcing-vite5",
+      "description": "Vite is one of the most used JavaScript/TypeScript dev servers and bundlers of the ecosystem. It's great to see a new major release that focuses on performance and polishing the internal API. Check out this release post to find out about the other changes.",
+      "imageUrl": "./42ecd43bf4d9dbd620b1275cb670caa306dfad01d35f66d0917925f2f970a630.jpg",
+      "featured": true
+    },
+    {
+      "title": "An Interactive Guide to CSS Grid",
+      "url": "https://joshwcomeau.com/css/interactive-guide-to-grid",
+      "description": "How much do you know about CSS Grid? If I have to be honest, every time I use it I feel incredibly powerful, but also incredibly dumb... I can never quite achieve what I set myself to do and then I eventually revert to doing something simpler with Flexbox. If you are like me, you might really enjoy this interactive guide to CSS Grid. It helps with setting the correct mental model from the start and it does a great job at showing which primitives you can compose to achieve great results with your layouts. But CSS Grid is not for every use case, so you'll also learn when it's worth using it and when you should pick something else instead.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Valley of Code",
+      "url": "https://thevalleyofcode.com/",
+      "description": "The Valley of Code is a portal with lots of useful information for those who aspire to become full-stack web developers. Oh, are you already a well-capable full-stack web developer? Well, good for you! But trust me, this website has so much good stuff in it that I am sure there's some topic you might want to revise and make sure your understanding of all the bits and pieces is top-notch!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Creating Bento Grid Layouts",
+      "url": "https://www.julienthibeaut.xyz/blog/create-bento-grid-layouts",
+      "description": "One of my favourite new web design trends is the Bento Grid. It takes inspiration from the famous Japanese Bento Box and it is widely used (even Apple has been using it quite extensively in the last year). Now, if you like this trend too and you also like Tailwind CSS, you might want to learn how to create a Bento Grid Layout with Tailwind CSS, so here you go.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "An Attempted Taxonomy of Web Components",
+      "url": "https://zachleat.com/web/a-taxonomy-of-web-component-types",
+      "description": "Zach Leatherman (creator of [Eleventy](https://www.11ty.dev/) and a big fan of progressive enhancement and zero-dependency web components) attempts to define a taxonomy of Web Components. What does that mean? The idea is to classify different types of web components by their intrinsic characteristics. It's definitely worth a read, especially if you prefer to use frontend frameworks. It's amazing to see how much you can achieve with plain simple \"vanilla\" web components.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Width and Height in CSS",
+      "url": "https://blog.jim-nielsen.com/2023/width-and-height-in-css",
+      "description": "A short article that discusses the big beautiful mess that is making things for the world wide web (which is especially true when it comes to defining width and height properties in CSS... sooooo many nuances!)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Your Website’s URLs Can and Should Be Beautiful",
+      "url": "https://opuszine.us/posts/your-websites-urls-can-should-be-beautiful",
+      "description": "The key to making a beautiful URL is finding a balance between brevity and clarity. Beautiful URLs can make the difference and be catchy and drive more conversions!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Self-Taught Programmer: The Definitive Guide to Programming Professionally",
+    "author": "Cory Althoff",
+    "description": "This book is not just about learning to program; although you will learn to code. If you want to program professionally, it is not enough to learn to code; that is why, in addition to helping you learn to program, it also covers the rest of the things you need to know to program professionally that classes and books don't teach you.",
+    "coverImageUrl": "./0d26611bf9dd58f18784b3d3fcf7f9dc3df28576b928cd220faae5debef9813e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01M01YDQA/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01M01YDQA/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "5 Formatting Techniques for Long-Form Content",
+      "url": "https://nngroup.com/articles/formatting-long-form-content"
+    },
+    {
+      "title": "The Tension and Future of Jamstack",
+      "url": "https://zachleat.com/web/jamstack-future"
+    },
+    {
+      "title": "APIs with Rust and Axum - Part 1",
+      "url": "https://ryan17.dev/blog/apis-with-rust-and-axum"
+    },
+    {
+      "title": "Introducing Amazon CloudFront KeyValueStore: A low-latency datastore for CloudFront Functions",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudfront-keyvaluestore-a-low-latency-datastore-for-cloudfront-functions/"
+    },
+    {
+      "title": "Build a CRUD REST API in Rust",
+      "url": "https://youtu.be/vhNoiBOuW94"
+    }
+  ],
+  "sponsor": null
+}

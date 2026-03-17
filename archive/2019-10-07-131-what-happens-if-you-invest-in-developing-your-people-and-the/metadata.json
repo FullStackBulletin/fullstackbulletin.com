@@ -1,0 +1,75 @@
+{
+  "issueNumber": 131,
+  "title": "What happens if you invest in developing your people and they leave?",
+  "slug": "2019-10-07-131-what-happens-if-you-invest-in-developing-your-people-and-the",
+  "date": "2019-10-07",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #40, 2019",
+  "quote": {
+    "text": "Should array indices start at 0 or 1?  My compromise of 0.5 was rejected without, I thought, proper consideration",
+    "author": "Stan Kelly-Bootle",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stan_Kelly-Bootle"
+  },
+  "links": [
+    {
+      "title": "What happens if you invest in developing your people and they leave?",
+      "url": "https://linkedin.com/pulse/20140528191427-10197807-what-happens-if-you-invest-in-developing-your-people-and-they-leave",
+      "description": "If and when some people leave your organization- does that mean you wasted your training and development dollar?\nIn an age when 70% of the workforce is disengaged, you can’t afford not to invest in the personal and professional development of everyone in your organization.",
+      "imageUrl": "./e084fffbe89d4a82f16230bfae17a6a2e7d07fdcdb29f5d2b27e02b1efa2699a.jpg",
+      "featured": true
+    },
+    {
+      "title": "🔥 Design Tips",
+      "url": "https://twitter.com/i/moments/994601867987619840",
+      "description": "A brilliant collection of web design tips in a beautiful sequence of Twitter images!",
+      "imageUrl": "./b6a7c9f55a3c26a24394d4232fab8a51e5ccea9d9304313f3bf5bb05e57a0266.png",
+      "featured": false
+    },
+    {
+      "title": "Comparing Database Types",
+      "url": "https://prisma.io/blog/comparison-of-database-models-1iz9u29nwn37",
+      "description": "Many types of databases exist, each with their own benefits. In this guide, we'll compare the relational, document, key-value, graph, and wide-column databases and talk about what each of them offer.",
+      "imageUrl": "./e369ea9cda02f37f49554ba87713f1e130f3bc8b20ded6f6b442eeadcdcd4720.jpg",
+      "featured": false
+    },
+    {
+      "title": "37 Exceptional Font Pairings Trends",
+      "url": "https://niceverynice.com/blog/font-pairings",
+      "description": "You must be updated with the latest trends in typography if you want amazing branding and designs. Check out popular font pairings that work well together.",
+      "imageUrl": "./1a07b18bc59461e42456cfa88503e81517d71460ce1cc6d17f852731953a8fda.jpg",
+      "featured": false
+    },
+    {
+      "title": "They can't hack your servers if you don't have any servers, right?",
+      "url": "https://dev.to/mattchenderson/they-can-t-hack-your-servers-if-you-don-t-have-any-servers-right-246a",
+      "description": "Serverless does a lot, but it doesn’t make your app invulnerable. This article will explore common pitfalls of serverless architectures and how to start thinking about security in a serverless world.",
+      "imageUrl": "./1402f00ccc346294e38b774b1c7cdc443a03162d0b295852152af4ceb03ab292.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Art of Ecommerce",
+      "url": "https://sidesupply.com/guides/art-of-ecommerce",
+      "description": "Insights into building a direct to consumer brand or online e-commerce businesses.",
+      "imageUrl": "./ac04f928a1469fc137748b549055f5a40037fa95d12172bef5e9faa57b010937.jpg",
+      "featured": false
+    },
+    {
+      "title": "Don't Sync State. Derive It!",
+      "url": "https://kentcdodds.com/blog/dont-sync-state-derive-it",
+      "description": "How to avoid state synchronization bugs and complexity with derived state.",
+      "imageUrl": "./a8c3088b21587710978ccc2360fe3a1512d57a17fb90bed3590538ce6a031e0b.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Introduction to Algorithms, Third Edition (International Edition)",
+    "author": "Thomas H. Cormen",
+    "description": "Some books on algorithms are rigorous but incomplete; others cover masses of material but lack rigor.  Introduction to Algorithms uniquely combines rigor and comprehensiveness. The book covers a broad range of algorithms in depth, yet makes their design and analysis accessible to all levels of readers. Each chapter is relatively self-contained and can be used as a unit of study. The algorithms are described in English and in a pseudocode designed to be readable by anyone who has done a little programming. The explanations have been kept elementary without sacrificing depth of coverage or mathematical rigor.",
+    "coverImageUrl": "./ada166c15107ba9d6c6eec0fcaaef5daa371a0f2d5e3550a7ea6e624aed90770.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0262533057/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0262533057/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

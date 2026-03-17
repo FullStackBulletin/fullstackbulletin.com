@@ -1,0 +1,75 @@
+{
+  "issueNumber": 157,
+  "title": "Web Skills",
+  "slug": "2020-04-13-157-web-skills",
+  "date": "2020-04-13",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #15, 2020",
+  "quote": {
+    "text": "This is the whole point of technology.  It creates an appetite for immortality on the one hand.  It threatens universal extinction on the other. Technology is lust removed from nature",
+    "author": "Don DeLillo",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Don_DeLillo"
+  },
+  "links": [
+    {
+      "title": "Web Skills",
+      "url": "https://andreasbm.github.io/web-skills",
+      "description": "A visual overview of useful skills to learn as a web developer",
+      "imageUrl": "./08c6073b9568628d6000910bdfbc3feeaa14099d4d4b60c67c1837f5d6955fd3.jpg",
+      "featured": true
+    },
+    {
+      "title": "Learn CSS Animations (free)",
+      "url": "https://scrimba.com/g/gcssanimations",
+      "description": "A fantastic FREE interactive video course on CSS animations provided by the lovely folks at Scrimba. The perfect Easter egg 🥚",
+      "imageUrl": "./8165ea2ab6595c2cf27d466f4db878d5a2548f32fae43500ba4f0ee43b4f9787.png",
+      "featured": false
+    },
+    {
+      "title": "Bootstrap 5: What's New About It and Release Date",
+      "url": "https://designmodo.com/bootstrap-5",
+      "description": "In this article, let's take a look at Bootstrap 5 major updates including the release date, integration, code new elements and modification.",
+      "imageUrl": "./0774fa05899b674aabf0377bf585d5ae0d49a633c7e98bb74e6d3bbed92e6655.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS Findings From The New Facebook Design",
+      "url": "http://ishadeed.com/article/new-facebook-css",
+      "description": "A very thorough analysis of Facebook new design by using only the browser DevTools to figure out how the folks at Facebook do CSS. Super interesting and in-depth article!",
+      "imageUrl": "./ddc157775890d5dc7ebcab779901106cfa6622990a2fae4d8299d4677127969b.jpg",
+      "featured": false
+    },
+    {
+      "title": "React Patterns",
+      "url": "https://reactpatterns.com/",
+      "description": "A huge list of React design patterns from beginners to advanced developers. Simple examples, short descriptions, and quality advice.",
+      "imageUrl": "./0d46b3b98d0fcb216b7f9b173ce3e9e41246d26e6c483364f5b645da7495c4e7.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Web Almanac",
+      "url": "https://almanac.httparchive.org/en/2019",
+      "description": "The Web Almanac is an annual state of the web report combining the expertise of the web community with the data and trends of the HTTP Archive.",
+      "imageUrl": "./2185f869724f8580117a34e99b44847d06196abbc46950763c4548d650060979.jpg",
+      "featured": false
+    },
+    {
+      "title": "React Folder Structure in 5 Steps",
+      "url": "https://robinwieruch.de/react-folder-structure",
+      "description": "A walkthrough on how to structure a large React apps into folders and files for a scalable React project.",
+      "imageUrl": "./66badec7be0f89263c2c0bd7b0bcf60b680097fc00c45d593d3866ab5ac9af13.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Reactive Programming with RxJava: Creating Asynchronous, Event-Based Applications",
+    "author": "Tomasz Nurkiewicz",
+    "description": "In today’s app-driven era, when programs are asynchronous and responsiveness is so vital, reactive programming can help you write code that’s more reliable, easier to scale, and better-performing. With this practical book, Java developers will first learn how to view problems in the reactive way, and then build programs that leverage the best features of this exciting new programming paradigm.",
+    "coverImageUrl": "./bfc89b612724cc827df12cd74bfda688fa86774c756e46d104dc6fce54b5ba7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491931655/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491931655/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 313,
+  "title": "The core-js drama",
+  "slug": "2023-02-20-300-the-core-js-drama",
+  "date": "2023-02-20",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Technology is a word that describes something that doesn’t work yet",
+    "author": "Douglas Adams",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Douglas_Adams"
+  },
+  "links": [
+    {
+      "title": "The core-js drama",
+      "url": "https://github.com/zloirock/core-js",
+      "description": "Do you know what core-js is? It's the most widely used polyfill library for the JavaScript standard, supporting all the latest ECMAScript features and many existing proposals, including iterator helpers. How popular is it? **250 million downloads/month popular**! Unfortunately, the library's author, [zloirock](https://github.com/zloirock), is feeling burnt out and considering abandoning the project. However, they are still open to giving open source one last chance. But not all hope is lost, we can certainly help the maintainer in many ways, and we should seriously consider doing so!",
+      "imageUrl": "./bea7203090aa4bbd9a8ed99f4c0231eef4d46e60f940e641de896565f1dd7559.jpg",
+      "featured": true
+    },
+    {
+      "title": "Design Patterns in TypeScript",
+      "url": "https://refactoring.guru/design-patterns/typescript",
+      "description": "If you have been using TypeScript for a while, here is a great resource to discover how you can improve the structure of your codebase by using common design patterns. This catalog presents 22 patterns with annotated code examples written in TypeScript.",
+      "imageUrl": "./8e754c62fde7d3e4aca8950bbd49f3529b08dbcd5c2052b7a6d96cd27a2e7cec.png",
+      "featured": false
+    },
+    {
+      "title": "yup: Object validation library",
+      "url": "https://github.com/jquense/yup",
+      "description": "Yup is a powerful schema builder for runtime value parsing and validation, with a concise yet expressive schema interface capable of modeling simple to complex data models. It has built-in async validation support, TypeScript support, and allows you to add your own type-safe methods and schema. Yup also provides rich error details, making debugging easier. It is quickly becoming a popular tool for data validation and transformation. If you have been loving [zod](https://zod.dev/), yup is definitely a serious contender to it.",
+      "imageUrl": "./5ea6d30ed6af2889fb41e4139c9926b5cb60a55e64e91db00b0e11fda42eaf48.jpg",
+      "featured": false
+    },
+    {
+      "title": "Resumable React: How To Use React Inside Qwik",
+      "url": "https://builder.io/blog/resumable-react-how-to-use-react-inside-qwik",
+      "description": "Did you know you can leverage almost the entirety of the React ecosystem inside a Qwik application?\n\nBasically, you can build React applications, without ever loading React in the user's browser. Sounds too good to be true? Let’s see how this works.",
+      "imageUrl": "./d1527da6b87ba74d213c4885cfa4ac924f45f38efb349029254666613f8a1c58.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Guide To Responsive Design In 2023 and Beyond",
+      "url": "http://ishadeed.com/article/responsive-design",
+      "description": "In this article, [Ahmad Shadeed](https://ishadeed.com/), discusses how building fluid layouts today is not just about fixed-width breakpoints, but rather designing layouts that work on any device size. Some websites still follow the adaptive design pattern, which relies on a container that gets a new **max-width** value based on the viewport width. The term \"responsive\" means different things in 2023, with media queries that check for user preferences and modern CSS features that make fluid layouts possible without using media queries.",
+      "imageUrl": "./cb41da2c932ad71e4631e9ac22ed7a5e8f8284fdc39a53ac7522b069e333a2eb.jpg",
+      "featured": false
+    },
+    {
+      "title": "Easy SVG Customization And Animation: A Practical Guide",
+      "url": "https://smashingmagazine.com/2023/01/svg-customization-animation-practical-guide",
+      "description": "Developers often feel discouraged from editing SVG markup and experimenting with SVG animations, thinking it’s a significant time investment or they need to use a complex animation library to do so. In this article, Adrian showcases his favorite tricks, which make the process streamlined and fun.",
+      "imageUrl": "./aa3535512791a66bd83ebff93449af5120a15855b52117d6f5cf80674fcc2b08.jpg",
+      "featured": false
+    },
+    {
+      "title": "Writing Javascript without a build system",
+      "url": "https://jvns.ca/blog/2023/02/16/writing-javascript-without-a-build-system",
+      "description": "In this article, [Julia Evans](https://jvns.ca/), discusses their experience with writing JavaScript for frontend projects and the question of whether to use a build system or not. The author shared their thoughts on what is appealing about build systems, why they usually do not use them, and why they find it frustrating that some frontend JavaScript libraries require a build system. The author wrote the piece to help those who write simple, small JavaScript projects that do not require a build system, as most of the writing about JS assumes that a build system is being used.",
+      "imageUrl": "./a7aadf8dd75c6727b571a5749b44ce1bdc9abde589811385e5779f8d77f059b6.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Big Data: Principles and best practices of scalable realtime data systems",
+    "author": "Nathan Marz",
+    "description": "Big Data teaches you to build big data systems using an architecture that takes advantage of clustered hardware along with new tools designed specifically to capture and analyze web-scale data. It describes a scalable, easy-to-understand approach to big data systems that can be built and run by a small team.",
+    "coverImageUrl": "./f109f576f51b956a93fffd90f2756794ef95a8d46f118a0f1e23f611c7af4a75.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617290343/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617290343/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

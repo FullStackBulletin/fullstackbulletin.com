@@ -1,0 +1,108 @@
+{
+  "issueNumber": 437,
+  "title": "Modern Background Patterns & Gradients Snippets",
+  "slug": "2025-09-08-417-modern-background-patterns-gradients-snippets",
+  "date": "2025-09-08",
+  "templateType": "buttondown-markdown",
+  "intro": "Hi there,\n\nAnother week, another issue full of hand picked nuggets of full-stack knowledge and inspiration (and admittedly, a little bit of AI too, because we cannot escape it these days).\n\nThis one mixes quick wins with deep dives. Fresh CSS and Tailwind patterns you can paste straight in. A reality check on what AI can do for product design. A slick gallery for UI inspiration when your brain is out of juice. RSC without a framework for the brave. OKLCH colors that make palettes feel sane. A price per token dashboard for anyone shipping with models. And a practical look at the new React's `<Activity>` boundary to hide views while keeping state.\n\nGrab a coffee, pick your lane, and let your curiosity drive. If something sparks an idea or a rant, hit reply and tell me about it.\n\nHappy reading and coding!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "In C++ it's harder to shoot yourself in the foot, but when you do, you blow off your whole leg",
+    "author": "Bjarne Stroustrup",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Bjarne_Stroustrup?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=437-pattern-craft-modern-background-patterns-gradients-snippets"
+  },
+  "links": [
+    {
+      "title": "Modern Background Patterns & Gradients Snippets",
+      "url": "https://patterncraft.fun/",
+      "description": "**PatternCraft** is a neat little resource I discovered last week. I love tiny utilities that help you spice up a site fast, and this one delivers. It generates background patterns in geometric, gradient, decorative, and other styles. Every pattern is built with modern CSS and Tailwind, no images required. Copy any pattern with one click and drop it into your HTML. Want to go further? Plug it into your theme and swap colors on the fly, perfect for light versus dark mode or brand palettes. It is totally free and a smart pick if you are building a new site or giving an old one a fresh coat of paint CSS!",
+      "imageUrl": "./3cec880996e8f74a0868de9c52f84c2f21220c761cd03e3e297938f2c7960b63.jpg",
+      "featured": true
+    },
+    {
+      "title": "Beyond The Hype: What AI Can Really Do For Product Design",
+      "url": "https://smashingmagazine.com/2025/08/beyond-hype-what-ai-can-do-product-design",
+      "description": "Lately I have become more and more interested in finding a good balance between using AI and doing it all myself. I am convinced that today AI cannot finish big ambitious projects on its own (at least not to an acceptable level of quality). It needs a lot of steering. I call it AI assisted development. You keep both hands on the wheel, and a very capable assistant handles the boring bits. That is for development. So what can AI really do for product design? Let us find out.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Viewport UI: UI curated experiences for you inspiration.",
+      "url": "https://viewport-ui.design/",
+      "description": "Viewport UI is another neat resource that helps you find great inspiration for interactions and all kinds of UI moments across platforms. The gallery is curated and easy to browse, with categories for web, desktop, mobile, watch, iOS, Android, icons, and motion. Check it out if you want an alternative to Dribbble for design inspiration and a faster way to spark ideas for your next build.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "React Server Components support without a framework",
+      "url": "https://krasimirtsonev.com/blog/article/vanilla-react-server-components-with-no-framework",
+      "description": "I have to admit I am still not entirely sold on React Server Components (RSC), although I do see the appeal. I cannot quite explain why, but the setups I have seen feel too complicated, half baked or brittle, or too dependent on a framework. Yes, I am looking at you Next.js! This article introduces Forket, a tool that splits your code into client and server so you can run RSC without a framework. I have not used it yet, but it looks extremely promising.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What are OKLCH colors?",
+      "url": "https://jakub.kr/components/oklch-colors",
+      "description": "We have covered OKLCH colors before, but I feel we have not covered them enough. So what is special about them? OKLCH is a perceptual color model. Tweaks map to how we actually see color, which makes everyday work a lot more predictable. The killer move is consistent brightness. Pick a base color, keep lightness steady, then slide hue to spin the wheel and you get a balanced palette without surprises. This piece shows the idea with clear visuals and plenty of practical notes. CSS `oklch()`, contrast tips, and how to swap palettes for light versus dark mode. I am already experimenting and enjoying the results. Are you? Let me know!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Compare LLM API Prices For Over 300 Models",
+      "url": "https://pricepertoken.com/",
+      "description": "We are back for more AI info. This one is an incredibly practical resource. There are so many models out there, and if you are building an LLM powered application it can be tough to pick the right one. Fit to your use case matters most, but price deserves serious attention. **Price per Token** gives you a handy dynamic table that shows the actual cost across models. input and output dollar cost per million tokens. It also lists context length and the potential cost for caching when supported. Check it out if you are comparing providers or planning your runway.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Using Activity with Suspenseful data",
+      "url": "https://simeongriggs.dev/use-the-activity-boundary-to-hide-suspenseful-components",
+      "description": "Here is the key value of [`<Activity>`](https://react.dev/reference/react/Activity) (still experimental). It lets you hide parts of the UI while preserving each component’s internal state. Set its mode to `visible` or `hidden`. When `hidden`, React applies `display: none`, preserves the children’s state, and cleans up their Effects. Reveal it and React restores the previous state so the view pops back instantly. Perfect for tabs, drawers, and sidebars where you do not want to lose input or scroll position. The demo in this article uses a table that fetches course rows from a CMS. The parent controls visibility with radio filters while each row decides whether it should show. You get snappy filters with preserved row state and suspenseful fetches that keep preloading in the background. There is also a [handy video](https://x.com/simeonGriggs/status/1961811173747155047) that explains the main ideas in about three minutes, plus a concise demo of `<Activity>` with suspenseful data.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "AI as a Service: Serverless machine learning with AWS",
+    "author": "Peter Elger, and Eoin Shanaghy",
+    "description": "AI as a Service is a practical handbook to building and implementing serverless AI applications, without bogging you down with a lot of theory. Instead, you'll find easy-to-digest instruction and two complete hands-on serverless AI builds in this must-have guide! Companies everywhere are moving everyday business processes over to the cloud, and AI is increasingly being given the reins in these tasks. As this massive digital transformation continues, the combination of serverless computing and AI promises to become the de facto standard for business-to-consumer platform development—and developers who can design, develop, implement, and maintain these systems will be in high demand! AI as a Service is a practical handbook to building and implementing serverless AI applications, without bogging you down with a lot of theory. Instead, you'll find easy-to-digest instruction and two complete hands-on serverless AI builds in this must-have guide!",
+    "coverImageUrl": "./d637fe618e8c70eeba6ca88f491ee31fe303dcb57911af292be3f66c988281f5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617296155",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617296155"
+  },
+  "additionalLinks": [
+    {
+      "title": "Designing a Clickable Card with Semantic HTML in Mind",
+      "url": "https://shuvo.dev/blogs/designing-a-clickable-card-designing-with-semantic-html-in-mind"
+    },
+    {
+      "title": "You no longer need JavaScript (for most things)",
+      "url": "https://lyra.horse/blog/2025/08/you-dont-need-js"
+    },
+    {
+      "title": "Elements of Rust: Core Types and Traits",
+      "url": "https://rustcurious.com/elements"
+    },
+    {
+      "title": "CSS boilerplate",
+      "url": "https://matuzo.at/"
+    },
+    {
+      "title": "i18n-check: Validate i18n translation files",
+      "url": "https://github.com/lingualdev/i18n-check"
+    },
+    {
+      "title": "Speeding up the JavaScript ecosystem: Semver",
+      "url": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-12"
+    },
+    {
+      "title": "Eliminating JavaScript cold starts on AWS Lambda",
+      "url": "https://goose.icu/lambda"
+    },
+    {
+      "title": "Lambda and Java with Mark Sailes (AWS Bites podcast)",
+      "url": "https://awsbites.com/148-lambda-and-java-with-mark-sailes/"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 211,
+  "title": "HTML tags and CSS for emails",
+  "slug": "2021-05-17-211-html-tags-and-css-for-emails",
+  "date": "2021-05-17",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "Science and technology revolutionize our lives, but memory, tradition and myth frame our response",
+    "author": "Arthur Schlesinger",
+    "authorTitle": "Historian",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_Schlesinger"
+  },
+  "links": [
+    {
+      "title": "HTML tags and CSS for emails",
+      "url": "https://caniemail.com/",
+      "description": "Did you ever have to work on the HTML content for an e-mail? If you did you probably realized how much more constrained email clients are compared to fully-fledged browsers. As a result of that, you cannot simply use all the tags and CSS rules that you love, but only a limited subset. Thanks to this website you can check what is safe for use in an email context.",
+      "imageUrl": "./2d1e55930a3cf34e2c58bec58c566a4ed3bf6ea2d23e4fc6d0541fa3995cfac1.jpg",
+      "featured": true
+    },
+    {
+      "title": "Optimizing Web Vitals using Lighthouse",
+      "url": "https://web.dev/optimize-vitals-lighthouse",
+      "description": "This brilliant article by Google covers new tooling features in Lighthouse, PageSpeed, and DevTools to help identify how your site can improve on the Web Vitals.",
+      "imageUrl": "./6514760c3d0068edbd75b91c444d0a45ecc2094f64e647dae6470aa1cd745fe0.jpg",
+      "featured": false
+    },
+    {
+      "title": "UX Lexicon",
+      "url": "https://curiositytank.com/ux-lexicon",
+      "description": "An evolving, interactive glossary of UX research terms. As a web developer, you are probably working with UX professionals. In these cases, it's great to have a common language to be able to collaborate effectively and build great products for your users!",
+      "imageUrl": "./816c94f76839d687fe8902f3c2ca3dbd04ec6f22af4b078a0e3ea89b09993dbc.png",
+      "featured": false
+    },
+    {
+      "title": "Solving a Mystery Behavior of parseInt() in JavaScript",
+      "url": "https://dmitripavlutin.com/parseint-mystery-javascript",
+      "description": "Solving a mystery of how parseInt() parses small float numbers in JavaScript.",
+      "imageUrl": "./48a48f5f87f3408ac8fd490f1d871b95954358c4241c2d77e21caafbf8f71eae.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Critical Request: How to Prioritise Requests to Improve Speed",
+      "url": "https://calibreapp.com/blog/critical-request",
+      "description": "Are you trying to build fast and performant web experiences? Of course, you are! One great way to improve the feeling of snappiness of web pages is to carefully prioritize the order of loading different assets. In this article, you can learn how to apply this idea in practice.",
+      "imageUrl": "./1bfadc2aab0515baffa973db09871410f4ffa7a6f79d4badabed277a26ebc214.png",
+      "featured": false
+    },
+    {
+      "title": "ES Temporal: 2 Minute Standards",
+      "url": "https://bkardell.com/blog/TemporalIn2Min.html",
+      "description": "If you have done enough JavaScript, you probably know that the language lacks when it comes to handling dates and times. Thankfully there is a new proposal called ES Temporal that introduces a much more robust set of functionalities that will make handling temporal data a much nicer experience! Check out this article for the details!",
+      "imageUrl": "./7ff7b0c263293f52ed047b98504171c58ac9335bf74f52445628e15aa766592f.png",
+      "featured": false
+    },
+    {
+      "title": "Tree-Shaking: A Reference Guide",
+      "url": "https://www.smashingmagazine.com/2021/05/tree-shaking-reference-guide/",
+      "description": "“Tree-shaking” is a must-have performance optimization when bundling JavaScript. In this article, we dive deeper on how exactly it works and how specs and practice intertwine to make bundles leaner and more performant. Plus, you’ll get a tree-shaking checklist to use for your projects.",
+      "imageUrl": "./83bb37645a44e61797759a41245d5ac428e2de6da0d68c9d2bb61e6c15b10153.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Linux Command Line: A Complete Introduction",
+    "author": "William E. Shotts Jr.",
+    "description": "The Linux Command Line takes you from your very first terminal keystrokes to writing full programs in Bash, the most popular Linux shell. Along the way you'll learn the timeless skills handed down by generations of gray-bearded, mouse-shunning gurus: file navigation, environment configuration, command chaining, pattern matching with regular expressions, and more. In addition to that practical knowledge, author William Shotts reveals the philosophy behind these tools and the rich heritage that your desktop Linux machine has inherited from Unix supercomputers of yore.",
+    "coverImageUrl": "./998e4e84a48a026be41c01888d1d2f1a0e2c087213f327ada5f8a0f3467f1202.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593273894/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593273894/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

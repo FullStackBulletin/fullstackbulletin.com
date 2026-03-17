@@ -1,5 +1,0 @@
-{
-  "autoprefixer": {
-    "browsers": "> 1%, last 4 versions, Firefox ESR, Opera 12.1"
-  }
-}

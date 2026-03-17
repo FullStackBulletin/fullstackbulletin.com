@@ -1,0 +1,75 @@
+{
+  "issueNumber": 20,
+  "title": "ES8 was Released and here are its Main New Features 🔥",
+  "slug": "2017-07-24-020-es8-was-released-and-here-are-its-main-new-features",
+  "date": "2017-07-24",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #29, 2017",
+  "quote": {
+    "text": "Standards are always out of date.  That’s what makes them standards",
+    "author": "Alan Bennett",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Bennett"
+  },
+  "links": [
+    {
+      "title": "ES8 was Released and here are its Main New Features 🔥",
+      "url": "https://hackernoon.com/es8-was-released-and-here-are-its-main-new-features-ee9c394adf66",
+      "description": "The new features of the EcmaScript specification 8th edition",
+      "imageUrl": "./d4fd2cca814035ab8a375158404895c9b47b0e25732e38f2db4806f2e6485a26.jpg",
+      "featured": true
+    },
+    {
+      "title": "Reverse Engineering One Line of JavaScript",
+      "url": "https://alexkras.com/reverse-engineering-one-line-of-javascript",
+      "description": "An interesting exercise in trying to explain how an animated ASCII art, built in vanilla JavaScript, actually works.",
+      "imageUrl": "./5f598356c1f4069dc269f0c59c04824d7fa71c6b2a23346eb549909d6be8fa2f.jpg",
+      "featured": false
+    },
+    {
+      "title": "GPU Accelerated JavaScript",
+      "url": "http://gpu.rocks/",
+      "description": "A single-file JavaScript library for GPGPU in the browser. It will automatically compile specially written JavaScript functions into shader language and run them on the GPU using the WebGL API.",
+      "imageUrl": "./9504e97977d1aa62dea2ec1297faab1ce77ac6e42a05b6375e0398f6eb09fbfe.jpg",
+      "featured": false
+    },
+    {
+      "title": "Redis 4.0 General Availability",
+      "url": "https://groups.google.com/d/msg/redis-db/5Kh3viziYGQ/58TKLwX0AAAJ",
+      "description": "Finally, after the canonical 1 year of developments, Redis 4.0.0 is out and it ships with a good amount of interesting features that you should check out.",
+      "imageUrl": "./0e15cd4be5b4574293f63e5ed0919b15ae532e68c1448250a005f61e45a5f504.png",
+      "featured": false
+    },
+    {
+      "title": "coells/100days",
+      "url": "https://github.com/coells/100days",
+      "description": "This repository contains notebooks with live code to accompany 100 days of algorithms challenge.",
+      "imageUrl": "./fef699900b00332542b0c2917cafb2464e681d5be4692bd9700dda1fb926b9d5.jpg",
+      "featured": false
+    },
+    {
+      "title": "shieldfy/API-Security-Checklist",
+      "url": "https://github.com/shieldfy/API-Security-Checklist",
+      "description": "API-Security-Checklist - Checklist of the most important security countermeasures when designing, testing, and releasing your API",
+      "imageUrl": "./7671e3968ad18f1223a798845ec8f249f037d42031fdb22b1874e6c67179c878.jpg",
+      "featured": false
+    },
+    {
+      "title": "URLs are UI",
+      "url": "https://hanselman.com/blog/URLsAreUI.aspx",
+      "description": "What a great title. 'URLs are UI.' Pithy, clear, crisp. Very true. I've been saying it for years. Someone on Twitter ...",
+      "imageUrl": "./d9171282671060b2a11f7e895a43cb97c10d78748ef9ac41bca82344c2f59083.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Irresistible APIs: Designing web APIs that developers will love",
+    "author": "Kirsten Hunter",
+    "description": "Well-designed APIs feel like a natural extension of the application, rather than just a new interface into the backend database. Designing Web APIs based on use cases allows an organization to develop irresistible APIs, which developers can consume easily and which support the business values of that organization.",
+    "coverImageUrl": "./30b0a33a50dce31e700a6e019b8e0d6136b4e6d656592cb23358dc5b945f4c2a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617292559/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617292559/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

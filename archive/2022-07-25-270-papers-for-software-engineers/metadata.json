@@ -1,0 +1,75 @@
+{
+  "issueNumber": 283,
+  "title": "Papers for Software Engineers",
+  "slug": "2022-07-25-270-papers-for-software-engineers",
+  "date": "2022-07-25",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Standards are always out of date.  That’s what makes them standards",
+    "author": "Alan Bennett",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Bennett"
+  },
+  "links": [
+    {
+      "title": "Papers for Software Engineers",
+      "url": "https://github.com/facundoolano/software-papers",
+      "description": "A curated list of papers for Software Engineers, open source... on GitHub of course! Why should you care? Because you can learn tons of cool stuff about the **history of computing**, how the main **data structures** work or even how **Bitcoin** and **DynamoDB** work behind the scenes.",
+      "imageUrl": "./9f01fbc4349984e79c0ea9aa8e922694eeea741d9319794bdf85e3dfb090fd01.jpg",
+      "featured": true
+    },
+    {
+      "title": "React Hooks: The Deep Cuts",
+      "url": "https://css-tricks.com/react-hooks-the-deep-cuts",
+      "description": "Hooks are reusable functions. They allow you to use state and other features (e.g. lifecycle methods and so on) without writing a class. You have probably seen **useState** and **useEffect**, but how much do you know about **useReducer**, **useRef**, **useImperativeHandle**, **useMemo**, and **useCallback**?",
+      "imageUrl": "./80738251aba8e9e3c3f89e692c76046c3f57d8d1296ca074ad58629c6d22abdb.jpg",
+      "featured": false
+    },
+    {
+      "title": "Async Rust: What is a runtime? How tokio works under the hood",
+      "url": "https://kerkour.com/rust-async-await-what-is-a-runtime",
+      "description": "This is a very specific Rust article, but it explore a topic that is extremely interesting even if you have been using **async/await** in languages such as **JavaScript**, **Python** or **C#**. There's no better way to understand how async/await works than looking under the hood and seeing how an async executor is made!",
+      "imageUrl": "./d757e753c9a8bf45dcb34298f15bc2565a88888b602e46b36d56a64c2c2d0f8f.jpg",
+      "featured": false
+    },
+    {
+      "title": "îles",
+      "url": "https://iles-docs.netlify.app/",
+      "description": "îles (self-proclaimed as \"The Joyful Site Generator\"), is a new static site generator that implements the **island architecture** (made famous by Astro) and supports **partial hydration**. It has out of the box for some of the most common frontend frameworks such as **Preact**, **VueJS**, **Svelte,** and even **SolidJS**!",
+      "imageUrl": "./35622ca2d39190d605e27b748550f2abea26be4862e1e2ca522954cae68cb524.jpg",
+      "featured": false
+    },
+    {
+      "title": "Lessons Learned From Running Serverless in Production",
+      "url": "https://lumigo.io/blog/lessons-learned-running-serverless-in-production",
+      "description": "Some great Serverless production tips from Yan Cui, long-time serverless expert, and AWS Hero. Do you want a teaser? What about observability, using multiple AWS accounts, and loading data securely?",
+      "imageUrl": "./42d05c4695720e12aeda45719851d283e2f6cfa09a1302b06c59ef90fa00b7c5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rust, SolidJS, and Tauri: Create a cross-platform desktop app",
+      "url": "https://blog.logrocket.com/rust-solid-js-tauri-desktop-app",
+      "description": "Tauri is a new framework that aims to replace Electron, offering a much more lightweight runtime built in Rust. In this article you can learn how to leverage Tauri with Rust on the backend and SolidJS on the frontend to build very performant desktop applications.",
+      "imageUrl": "./2652ba404c2e9f0e1406fdeca17e8b25d66b7c22173562c235fc4698e7cf5864.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to Use the Call, Apply, and Bind Functions in JavaScript",
+      "url": "https://freecodecamp.org/news/understand-call-apply-and-bind-in-javascript-with-examples",
+      "description": "Some of the most misunderstood features of JavaScript are the functions call, apply and bind. If you have been confused by these topics in the past, this article provides an excellent explanation and a bunch of very good examples!",
+      "imageUrl": "./8b722419838415fdc457834bd5726bfdff584f22219904f9b512463cbf9d7013.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Irresistible APIs: Designing web APIs that developers will love",
+    "author": "Kirsten Hunter",
+    "description": "Well-designed APIs feel like a natural extension of the application, rather than just a new interface into the backend database. Designing Web APIs based on use cases allows an organization to develop irresistible APIs, which developers can consume easily and which support the business values of that organization.",
+    "coverImageUrl": "./30b0a33a50dce31e700a6e019b8e0d6136b4e6d656592cb23358dc5b945f4c2a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617292559/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617292559/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

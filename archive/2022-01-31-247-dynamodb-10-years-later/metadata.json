@@ -1,0 +1,75 @@
+{
+  "issueNumber": 258,
+  "title": "DynamoDB: 10 years later",
+  "slug": "2022-01-31-247-dynamodb-10-years-later",
+  "date": "2022-01-31",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Just because something doesn’t do what you planned it to do doesn’t mean it’s useless",
+    "author": "Thomas Edison",
+    "authorTitle": "Inventor",
+    "authorUrl": "https://en.wikipedia.org/wiki/Thomas_Edison"
+  },
+  "links": [
+    {
+      "title": "Amazon’s DynamoDB — 10 years later",
+      "url": "https://www.amazon.science/latest-news/amazons-dynamodb-10-years-later",
+      "description": "Amazon DynamoDB was introduced 10 years ago today; one of its key contributors reflects on its origins, and discusses the 'never-ending journey' to make DynamoDB more secure, more available and more performant.",
+      "imageUrl": "./ddfd72e58297dcd2fd513bb92df7823f21ae6fb170fa8280780fadaa2d602ed1.jpg",
+      "featured": true
+    },
+    {
+      "title": "CSS Gradient Text",
+      "url": "https://cssgradient.io/blog/css-gradient-text",
+      "description": "We have seen this trend more and more throughout 2021 and we are sure we will see more of this, sooo do you know how to make text gradients with CSS? Because... if you don't you can check out this tutorial to learn more! 😜",
+      "imageUrl": "./b76979d19464f8469a2a5ff9a838482e950fee5324e4720b0c7e5a7d0346faed.jpg",
+      "featured": false
+    },
+    {
+      "title": "Two Phase Commit",
+      "url": "https://martinfowler.com/articles/patterns-of-distributed-systems/two-phase-commit.html",
+      "description": "Two Phase Commit is an interesting Design Pattern for distributed systems that allows you to update resources on multiple nodes in one atomic operation. If you are interested in learning more about distributed systems this is definitely a hot topic to look at!",
+      "imageUrl": "./94e932f04cc2a9c3eaceb198b6f9c43e084fdd81688a6eeac0146c3af297a616.jpg",
+      "featured": false
+    },
+    {
+      "title": "Becoming a Better Writer in Tech",
+      "url": "https://blog.pragmaticengineer.com/becoming-a-better-writer-in-tech",
+      "description": "Writing is an increasingly important skill for engineers at all levels. In this article you can learn a few interesting tactics for more clear, more frequent and more confident technical writing.",
+      "imageUrl": "./2c8241ffe3732f022a098e232b214a386d7666a172bafc0e5838c15fae36717b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Monio: Monads in JavaScript",
+      "url": "https://github.com/getify/monio",
+      "description": "Monio is an interesting JavaScript library that allows you to use the idea of Monads (Functional Programming) and use it with promise based async code. What's even better about Monio is that it has an excellent documentation that can be used as a soft introduction to functional programming in JavaScript. Check it out!",
+      "imageUrl": "./589ab9016030e7c6291dc586822969cd319da4428ef02a90d2723918330a85b5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Should I get an AWS certification?",
+      "url": "https://youtube.com/watch?v=qf0CuUOtPEI",
+      "description": "Is it worth getting an AWS certification? In this episode of AWS Bites podcast, Eoin and Luciano discuss why a certification can be important from the perspective of individuals and companies, what are the certifications available and how are they grouped. Finally they provide some suggestions for a study plan and give various useful resources and tips.",
+      "imageUrl": "./4c671a7081227adccb2d7e71ddf871bd43b28086bdda9ed320b42aa97468b0c3.jpg",
+      "featured": false
+    },
+    {
+      "title": "Good advice on JSX conditionals",
+      "url": "https://thoughtspile.github.io/2022/01/17/jsx-conditionals/index.html",
+      "description": "Conditional rendering is a cornerstone of any templating language. React / JSX bravely chose not to have a dedicated conditional syntax (like `ng-if` or `v-if`) and to rely on JS boolean operations instead. In this article you can find more about this topic. If you do any React, you can learn how to avoid some pitfalls and how to write more expressive conditionals.",
+      "imageUrl": "./53637a94632c7b77a08e6b7347c258104c3e784112aa826675be02d32dd0f11d.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Regular Expressions",
+    "author": "Jeffrey E. F. Friedl",
+    "description": "Regular expressions are an extremely powerful tool for manipulating text and data. They are now standard features in a wide range of languages and popular tools, including Perl, Python, Ruby, Java, VB.NET and C# (and any language using the .NET Framework), PHP, and MySQL.If you don't use regular expressions yet, you will discover in this book a whole new world of mastery over your data. If you already use them, you'll appreciate this book's unprecedented detail and breadth of coverage.",
+    "coverImageUrl": "./396d6f15a915700637c37f7d2fcde88b8839c4580fbc81d9acd6add805980fd3.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0596528124/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0596528124/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

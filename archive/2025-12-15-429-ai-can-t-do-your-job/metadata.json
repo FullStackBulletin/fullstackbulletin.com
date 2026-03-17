@@ -1,0 +1,112 @@
+{
+  "issueNumber": 449,
+  "title": "AI Can’t Do Your Job",
+  "slug": "2025-12-15-429-ai-can-t-do-your-job",
+  "date": "2025-12-15",
+  "templateType": "buttondown-markdown",
+  "intro": "Ciao,\n\nToday we are leaning quite a bit into AI. Not the flashy demos or the hype, but the uncomfortable question behind it. What does AI (and especially GenAI) actually means for us as developers, for our careers, and for the way we build software together?\n\nPart of this focus is personal. I recently passed the AWS Solutions Architect Professional certification and, in a moment of optimism, decided to start studying for the GenAI Professional one. So if this issue feels a little AI flavored, it might not be entirely random. Wish me luck while you read!\n\nAt the same time, this is still a full stack newsletter. You will find plenty of non AI goodies too. From patterns for modern JavaScript apps, to performance deep dives, to two brand new React Server Components vulnerabilities that are different from the one we talked about just last week. Yes, there is more patching to do.\n\nMy hope is that this issue helps you feel a bit less afraid of AI and a bit more intentional about the kind of developer you want to become in this new era. Now, grab a coffee, sharpen your curiosity, and enjoy this week’s journey.\n\nOh, before I forget... Last week I had a couple of awesome chats with some of you, just because they decided to hit reply and get in touch more personally. I love this stuff, so do not be shy and reach out. If you do not know what to say, just tell me about your most recent project and what you learned. I love that kind of story.\n\nExplore the edges of your comfort zone!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "The computer revolution is a revolution in the way we think and in the way we express what we think",
+    "author": "Hal Abelson",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Hal_Abelson?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=449-ai-cant-do-your-job"
+  },
+  "links": [
+    {
+      "title": "AI Can’t Do Your Job",
+      "url": "https://terriblesoftware.org/2025/12/11/ai-can-write-your-code-it-cant-do-your-job",
+      "description": "Did calculators replace accountants? No. But you will not find a serious accountant today who refuses to use a calculator. Well, these days it is mostly spreadsheets and dedicated software, but you get the point. This piece takes that same idea and applies it to our current AI moment, where coding tools can write a lot of our code and at the same time spark a very real fear that they are about to take our jobs. But what is our job really? The author argues that programming is just one task inside the broader role of software engineer. The real work is everything around the code, from turning fuzzy business problems into clear requirements, to making tradeoffs, pushing back when needed, and taking responsibility for what ships and what does not. AI can speed up the typing and even help explore solutions. It cannot sit in the awkward meeting, balance constraints, and decide what actually makes sense to build. I mostly agree with that hypothesis, so I will let the rest of the essay walk you through why AI can write your code, yet still cannot do your job.",
+      "imageUrl": "./8c96e2d461f452bfc0d132af65cd08eb4fdde2ce25b833f9ce12ab2ee12d7da1.jpg",
+      "featured": true
+    },
+    {
+      "title": "Werner Vogels (AWS CTO) Delivers His Final Keynote",
+      "url": "https://youtube.com/watch?v=3Y1G9najGiI",
+      "description": "I was lucky enough to catch Werner Vogels last two keynotes live in Las Vegas in 2023 and 2024. This year I missed re:Invent in person, so I was very ready to binge the recordings from home, starting with Werner’s new talk, which also happens to be his final re:Invent keynote... yes, there's even a mic drop at the end! In classic Werner fashion, it opens with a slightly unhinged mini movie intro. Think time travel, a very familiar car, and a tour through eras of computing that land us right back in the middle of today’s AI panic. I wanted to feature this talk because it pairs beautifully with the previous essay about AI writing your code but not doing your job. Werner takes that same anxiety and pokes at the idea that now everyone can be a developer. What actually changes when AI tools lower the bar to shipping software, and what still belongs to people who think in systems, make tradeoffs, and take ownership for what they build. I have lots of respect for Werner, but you should absolutely take it with a pinch of salt, since this is still coming from AWS, which has a huge interest in selling you more AI. But even with that in mind, there are a lot of thoughtful and provocative ideas in here about what it means to be a developer in this new era.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Kernel (Newspaper)",
+      "url": "https://thekernel.news/",
+      "description": "If Werner’s keynote was the movie, The Kernel is the in universe newspaper that drops as you walk out of the cinema. It literally launched at the same re Invent keynote, and from the photos and writeups it looks like they even put printed copies on every seat. A proper tech paper by builders, for builders, spun up just for this moment. The lead story is Werner’s essay on the Renaissance developer, which ties directly back to that keynote idea. In short, AI keeps lowering the barrier to writing code, but that only makes human judgment more important. The Renaissance developer is a modern polymath who thinks in systems, understands business and people, communicates clearly with both humans and machines, and takes real ownership of what ships, while using AI as one more powerful tool rather than a replacement for their craft. I like this framing a lot, but I also read it with my skeptical hat on. It is a very optimistic story that does not fully wrestle with the messy bits, like what happens to junior roles if AI eats all the simple tasks, how safe it is to rely on oceans of AI generated code, or how companies might use this productivity boost to cut headcount instead of uplifting everyone into architect land. So I recommend reading it both as inspiration for where we could go and as a prompt to think hard about the economic and human tradeoffs we will have to navigate to get there.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Patterns.dev",
+      "url": "https://patterns.dev/",
+      "description": "I might have shared this one before. Honestly I do not care. It is that good and I am saying this as someone who loves JavaScript, Node.js and design patterns way more than is probably healthy. Patterns[dot]dev is a free online book and reference for modern web app patterns. It is split into three big sections: Vanilla JavaScript patterns, React patterns and Vue patterns. You get classic patterns like Singleton, Factory and Observer plus modern ideas around rendering and performance, all explained in a very practical way and grounded in how we actually build apps today. It is created by two of my favorite educators, Lydia Hallie and Addy Osmani, brilliant content creators who have inspired me not just to create content but to lift my content game entirely. The whole thing is available to read online, and you can also download it as a four hundred plus page ebook for free in multiple formats if you prefer to binge it on your reader of choice.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Denial of Service and Source Code Exposure in React Server Components",
+      "url": "https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components",
+      "description": "[Last week](https://buttondown.com/fullstackbulletin/archive/448-the-bun-is-in-the-anthropic-oven/) we talked about [a pretty terrifying React Server Components vulnerability](https://www.wiz.io/blog/critical-vulnerability-in-react-cve-2025-55182) that could hit you if you use Next.js (even if you never touch server components directly). You updated, you breathed out, you maybe promised yourself to look into your threat model tomorrow. Turns out the horror story has a sequel... actually two! The React team just disclosed two more RSC issues, a high severity denial of service and a medium severity source code exposure, affecting the same family of react server dom packages and even some of the versions that were supposed to be fixed by the first patch. In other words, if your app speaks the RSC protocol through a framework like Next, you probably need to update again. This official post by the React team walks through what the new CVEs actually are, which versions are vulnerable, and which releases you should upgrade to right now so your React app does not become an easy target.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Barcode as a design object",
+      "url": "https://pangrampangram.com/blogs/journal/barcode",
+      "description": "Perhaps this one is a bit off topic, but I have a soft spot for barcodes and QR codes, so I could not resist sharing it. Just to give you a sense of the obsession, I once tried to build a startup around the idea of certified QR codes, basically codes with a digital signature. I built a functional prototype, but the idea went nowhere at the time. Almost no one knew what QR codes were back then, and the average mobile phone camera was so bad that scanning them barely worked. Years later, that exact concept showed up at scale in digital COVID certificates all around the world, and of course I went deep on how those worked, deconstructed them using Rust and even [gave a few talks about the whole learning process](https://www.youtube.com/watch?v=2dFJkYH_Cc0). But I digress... This piece is not really about the engineering magic of cramming data into printed patterns. It is a much more artistic take. It asks a simple question. Can we make 2D barcodes and QR codes beautiful? Turns out the answer is yes, and the article walks through some really playful, clever, and surprisingly elegant examples. If you secretly enjoy this stuff as much as I do, it is a very fun scroll.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How fast can browsers process base64 data?",
+      "url": "https://lemire.me/blog/2025/11/29/how-fast-can-browsers-process-base64-data",
+      "description": "If you care about performance even a little, this one is nerd candy. Base64 quietly sits behind things like data URIs, blobs, WebSockets that sneak binary through text channels, and all sorts of browser tricks. The author looks at the new `Uint8Array.toBase64` and `Uint8Array.fromBase64` functions and asks a simple question. How fast can browsers actually chew through this stuff in practice? Short answer. Faster than your disk and, in many cases, faster than your network. On an Apple M4 laptop, Chrome, Edge and Brave encode at around nineteen gigabytes per second, Safari is close behind at seventeen, and Safari then jumps ahead on decode with about double the speed of the Chromium crowd. Firefox and Servo are much slower for now, although both engines already have work in progress to close the gap. It is a nice reminder that Base64 in the browser is almost never your bottleneck, plus you get a handy benchmark page you can run in your own setup to see how your favorite browser stacks up.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Multithreaded JavaScript -  Concurrency Beyond the Event Loop",
+    "author": "Thomas Hunter II, and Bryan English",
+    "description": "The nature of JavaScript is to be single threaded. This is reflected not only in libraries and applications, but also in online forum posts, books, and online documentation. Thanks to recent advancements in the platform—such as with web workers in the browser, worker_threads in Node.js, and the Atomics and SharedArrayBuffer objects—JavaScript engineers are able to build multi-threaded applications. These features will go down as being the biggest paradigm shift for the world's most popular programming language.\nMultithreaded JavaScript explores the various features that JavaScript runtimes have at their disposal for implementing multithreaded programming, using a spectrum of API reference material and high level programming patterns.",
+    "coverImageUrl": "./d46211da006d703a5749af239640af7bedf4ff2d0c7e147caf60000e574da50a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1098104439",
+    "amazonUk": "https://www.amazon.co.uk/dp/1098104439"
+  },
+  "additionalLinks": [
+    {
+      "title": "Generating Utility Classes from Design Tokens using Style Dictionary",
+      "url": "https://alwaystwisted.com/articles/a-design-tokens-workflow-part-13.html"
+    },
+    {
+      "title": "On Idempotency Keys",
+      "url": "https://morling.dev/blog/on-idempotency-keys"
+    },
+    {
+      "title": "CSS Wrapped 2025",
+      "url": "https://chrome.dev/css-wrapped-2025"
+    },
+    {
+      "title": "Controlling dialogs and popovers with the Invoker Commands API",
+      "url": "https://htmhell.dev/adventcalendar/2025/7"
+    },
+    {
+      "title": "Double Click: What Does It Mean To Be A Designer In The Age Of AI?",
+      "url": "https://figma.com/blog/double-click-what-does-it-mean-to-be-a-designer-in-the-age-of-ai"
+    },
+    {
+      "title": "Did you know your browser has two accessibility trees?",
+      "url": "https://www.maxdesign.com.au/articles/two-trees.html"
+    },
+    {
+      "title": "Next.js Image Optimization",
+      "url": "https://debugbear.com/blog/nextjs-image-optimization"
+    },
+    {
+      "title": "How We're Protecting Our Newsroom from npm Supply Chain Attacks",
+      "url": "https://pnpm.io/blog/2025/12/05/newsroom-npm-supply-chain-security"
+    },
+    {
+      "title": "How good engineers write bad code at big companies",
+      "url": "https://seangoedecke.com/bad-code-at-big-companies"
+    }
+  ],
+  "sponsor": null
+}

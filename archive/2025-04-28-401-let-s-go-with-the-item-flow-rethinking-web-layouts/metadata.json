@@ -1,0 +1,108 @@
+{
+  "issueNumber": 420,
+  "title": "Let's go with the item-flow! Rethinking web layouts",
+  "slug": "2025-04-28-401-let-s-go-with-the-item-flow-rethinking-web-layouts",
+  "date": "2025-04-28",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nThis week, you will find, as always, a nice mix of handpicked resources: from pure **CSS** experiments to deeper architectural insights and, yes, quite a few **Node.js** articles too! Why so much Node.js this time? Well, your editor (that’s me!) has a soft spot for it… and this issue is a little special.\n\nI am beyond excited to finally share a project that has been keeping me busy since November last year: A brand-new edition of **Node.js Design Patterns** (the book I co-authored with [Mario Casciaro](https://mario.fyi/)) is on its way!\n\nAnd this is not just a simple update. Over the years, we have received tons of feedback from readers all over the world, and we took that feedback very seriously. This new, revamped, and improved edition does not just bring the content up to date with the latest and greatest features of Node.js.\n\nWe have added more real-life stories from our own experience, practical lessons learned, TypeScript references where they make sense, and even a completely new chapter (almost 100 pages!) dedicated entirely to the art of testing.\n\nYou can already [pre-order your copy](https://www.packtpub.com/en-us/product/nodejs-design-patterns-9781803235431) if you are curious. I truly look forward to hearing your feedback. Hopefully, this new edition will help you bridge the gap from junior to senior, and push you to the next level in your Node.js journey!\n\nBut back to the newsletter... I hope you enjoy this week's collection, and as always, feel free to reply to this email if you have suggestions, feedback, or just want to say hi! I always love getting to know you a bit better and learning what makes this newsletter worth your time.\n\nHappy reading and coding!\n—Your editor, [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Errors using inadequate data are much less than those using no data at all“",
+    "author": "Charles Babbage",
+    "authorTitle": "Mathematician",
+    "authorUrl": "https://en.wikipedia.org/wiki/Charles_Babbage"
+  },
+  "links": [
+    {
+      "title": "Go with the item-flow! Rethinking web layouts",
+      "url": "https://ishadeed.com/article/item-flow",
+      "description": "Have you ever wondered how to recreate a dense, brick-like grid layout like Pinterest? That kind of layout is often called \"masonry\" — and today it usually requires a bit of hacky CSS or heavy JavaScript. This article introduces a fascinating proposal called *\"Item Flow\"* that could change that. It aims to unify `flex-flow` and `grid-auto-flow` into a single, more powerful syntax, making complex layouts (like masonry) a first-class citizen in CSS.",
+      "imageUrl": "./3fef872a5e807d27c06f4052f4d5526a3cb28875520fbe4595f593d9fbef7e8b.jpg",
+      "featured": true
+    },
+    {
+      "title": "The Hidden Cost of AI Coding",
+      "url": "https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding",
+      "description": "Are you someone who loves the idea of **vibe coding** and believes it is the future of full-stack web development? Or are you still a bit skeptical, wondering what might be lost along the way? This thoughtful article invites you to take a step back and reflect. It questions whether, in our rush toward AI-assisted coding, we might be trading away something essential (that deep sense of flow, focus, and fulfillment that makes crafting software so satisfying in the first place). What do I think? AI can be a wonderful assistant and definitely boost our productivity, but as with everything, the real secret lies in finding the right balance.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "When Do Retry, Backoff, and Jitter Work?",
+      "url": "https://thenewstack.io/when-do-retry-backoff-and-jitter-work",
+      "description": "As **Werner Vogels** (CTO of Amazon) so eloquently put it, *\"Everything fails all the time.\"* And what do we do when we fail? We stand up and retry! But when it comes to complex web applications and distributed systems, retrying blindly can sometimes cause more harm than good. This piece breaks it all down. It explores when retry strategies like **backoff** and **jitter** actually help (and when they might not). Understanding these patterns is key if you want to build systems that are truly resilient, not just stubborn.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Under the Hood of React Query",
+      "url": "https://medium.com/@janardhan.roh/under-the-hood-of-react-query-a-deep-dive-into-its-internal-mechanics-ee51c0ce076e",
+      "description": "I have been using **React Query** a lot in my latest **React** project, and I am really loving it. It is such a great way to handle HTTP requests in React while taking care of all the tricky parts: loading states, failures, caching, refreshing, and more. If you have ever wondered how React Query works under the hood, this deep dive is a fantastic resource. It explores how React Query manages data, retries, background updates, cache invalidation, and even garbage collection. A great read if you want to understand the magic behind the DX we sometimes take for granted!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Understanding Hydration Errors by building a SSR React Project",
+      "url": "https://propelauth.com/post/understanding-hydration-errors",
+      "description": "Hydration errors are one of those things that always bite me (and annoy me) every time I use Next.js to build something... But why are these errors happening and what can we actually do to avoid them? This great tutorial takes a very practical approach: instead of just theorizing, it walks you through building a simple server-rendered React app and shows exactly how (and why) hydration mismatches happen. It is packed with examples where you can see real errors happen and learn how to fix them properly. If you want a much clearer mental model for React, server-side rendering, and hydration, this is absolutely worth your time!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Dependency-free Command-Line Apps in Node.js",
+      "url": "https://lirantal.com/blog/dependency-free-command-line-apps-powered-by-node-js-core-modules",
+      "description": "What do you do when you need to build a simple CLI utility to automate some mundane task? I often start by just installing **[commander](https://www.npmjs.com/package/commander)** or **[yargs](https://www.npmjs.com/package/yargs)**... but not anymore! This great tutorial shows how you can build powerful **command-line apps using only Node.js core modules**, with no third-party dependencies needed. From colorful console output with `styleText()`, to parsing arguments with `util.parseArgs()`, to adding debug logs via `util.debuglog()`, Node.js now gives you everything you need out of the box. Less is better — and sometimes it is also more secure, more maintainable, and simply more satisfying.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Best Node.js Observability Tools",
+      "url": "http://nodesource.com/blog/nodejs-observability-tools-2025",
+      "description": "Let's stick with **Node.js** and the topic of resilient applications for this last curated resource, and let's talk about **observability**. Which tool is the best? This article from the NodeSource team (yes, the folks behind N|Solid) does a great job at comparing observability solutions without being overly biased. It covers tools like **New Relic**, **Datadog**, **AppDynamics**, **Dynatrace**, **OpenTelemetry**, **Clinic.js**, and of course **N|Solid** itself. If you care about performance profiling, security visibility, and deep Node.js runtime insights, this is a must-read. Picking the right observability tool can save you from countless hours of debugging and keep your systems running smoothly.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Serverless Development on AWS: Building Enterprise-Scale Serverless Solutions",
+    "author": "Sheen Brisals, and Luke Hedger",
+    "description": "The adoption of serverless is on the rise, but until now, little guidance has been available for development teams that want to apply this technology on AWS. This definitive guide is packed with architectural, security, and data best practices and patterns for architects and engineers who want to build reliable enterprise-scale serverless solutions. Sheen Brisals, an AWS Serverless Hero, and Luke Hedger, an AWS Community Builder, outline the serverless adoption requirements for an enterprise, examine the development tools your team needs, and explain in depth the nuances of testing event-driven and distributed serverless services. You'll gain practical guidance for keeping up with change and learn how to build serverless solutions with sustainability in mind.",
+    "coverImageUrl": "./64f288176c4311f8980a1a8b2dc5b8e3dc7531e27802c59e8659210f67bc18b6.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1098141938?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1098141938?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Inclusive Dark Mode: Designing Accessible Dark Themes For All Users",
+      "url": "https://smashingmagazine.com/2025/04/inclusive-dark-mode-designing-accessible-dark-themes"
+    },
+    {
+      "title": "Building An Offline-Friendly Image Upload System",
+      "url": "https://smashingmagazine.com/2025/04/building-offline-friendly-image-upload-system"
+    },
+    {
+      "title": "Magick images",
+      "url": "https://ethanmarcotte.com/wrote/magick-images"
+    },
+    {
+      "title": "Frimousse: An emoji picker for React",
+      "url": "https://frimousse.liveblocks.io/"
+    },
+    {
+      "title": "Build a Fullstack App with Vanilla JS and Go",
+      "url": "https://firt.dev/vanillajs-go/"
+    },
+    {
+      "title": "Advanced TypeScript manipulation features for the real world",
+      "url": "https://piccalil.li/blog/advanced-typescript-manipulation-features-for-the-real-world/"
+    },
+    {
+      "title": "The Lost CSS Tricks of Cohost.org",
+      "url": "https://css-tricks.com/the-lost-css-tricks-of-cohost-org/"
+    },
+    {
+      "title": "Custom CSS Functions in the Browser",
+      "url": "https://www.oddbird.net/2025/04/11/custom-functions/"
+    }
+  ],
+  "sponsor": null
+}

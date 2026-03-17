@@ -1,0 +1,75 @@
+{
+  "issueNumber": 47,
+  "title": "How To Build A Horse With Programming",
+  "slug": "2018-02-05-047-how-to-build-a-horse-with-programming",
+  "date": "2018-02-05",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #5, 2018",
+  "quote": {
+    "text": "It has become appallingly obvious that our technology has exceeded our humanity",
+    "author": "Albert Einstein",
+    "authorTitle": "Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "links": [
+    {
+      "title": "How To Build A Horse With Programming",
+      "url": "https://blog.toggl.com/build-horse-programming",
+      "description": "Tired of modern transportation? Have a ton of hay laying around? It sounds like you might very well be in the market for a horse, but maybe not one built with a programming language. Why not? You'll see...",
+      "imageUrl": "./b47f80234c32ea19f61d98d92d2dfe4378624f4267677e6c24768141938efa0e.jpg",
+      "featured": true
+    },
+    {
+      "title": "Guide for writing awesome React components",
+      "url": "https://codeburst.io/step-by-step-guide-for-writing-awesome-react-components-210c6def902b",
+      "description": "Descriptive and versatile checklist with must do’s and should do’s when conceptualizing sleek and professional React code.",
+      "imageUrl": "./504eb33c33a59de275209663e3107564c71e413203fd5d02f08ea6b9d0db3b22.jpg",
+      "featured": false
+    },
+    {
+      "title": "Wargames",
+      "url": "http://overthewire.org/wargames",
+      "description": "Learn and practice IT security concepts in the form of fun-filled games.",
+      "imageUrl": "./370a33d5813bd2201a206cca78a1341b0b7cbd20976a6c513778b5d9e7d42444.png",
+      "featured": false
+    },
+    {
+      "title": "Making the fastest site in the world",
+      "url": "https://hackernoon.com/10-things-i-learned-making-the-fastest-site-in-the-world-18a0e1cdf4a7",
+      "description": "This post is about performance techniques and illustrates 10 learnings while trying to build an extremely performant website.",
+      "imageUrl": "./07df9dadbd1f5ba5158f42a807d5e543dea379b40c03fce86f32c5d42135505c.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS Naming Conventions",
+      "url": "https://medium.freecodecamp.org/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849",
+      "description": "A selection of helpful CSS naming conventions to help you save time, be consistent and avoid to spend hours of terrible debugging.",
+      "imageUrl": "./cff6eb4507ebb8c4f4943c05756eec9bdd388ef89bca323d528e335abfd25466.jpg",
+      "featured": false
+    },
+    {
+      "title": "Hacker 101",
+      "url": "https://hacker101.com/",
+      "description": "Another interesting free class for web security. Whether you’re a programmer with an interest in bug bounties or in learning how to build secure web applications, Hacker101 has something to teach you.",
+      "imageUrl": "./c00cd8e0fb49e6395cd60be18276c6d9312ecaee5ceb0c07993cdcac06f582bf.png",
+      "featured": false
+    },
+    {
+      "title": "Principles in UI design",
+      "url": "https://medium.muz.li/gestalt-principles-in-ui-design-6b75a41e9965",
+      "description": "Gestalt (form, shape in German) is a group of visual perception principles developed by German psychologists in 1920s. It is built on the theory that “an organized whole, is perceived as greater than the sum of its parts”.",
+      "imageUrl": "./80a789decc863c54e6d8b330d0733f59b52cad4654e01ac7fbc8791660bc6bf4.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "PHP and MySQL Web Development (5th Edition) (Developer's Library)",
+    "author": "Luke Welling",
+    "description": "PHP and MySQL are popular open-source technologies that are ideal for quickly developing database-driven Web applications. PHP is a powerful scripting language designed to enable developers to create highly featured Web applications quickly, and MySQL is a fast, reliable database that integrates well with PHP and is suited for dynamic Internet-based applications",
+    "coverImageUrl": "./215552defe4b9e1ca9846aa5b85f2a20bdf3752b7580570be5a6d3bda1582bfa.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321833899/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321833899/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

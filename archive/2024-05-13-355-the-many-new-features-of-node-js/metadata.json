@@ -1,0 +1,104 @@
+{
+  "issueNumber": 372,
+  "title": "The many new features of Node.js",
+  "slug": "2024-05-13-355-the-many-new-features-of-node-js",
+  "date": "2024-05-13",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #372!\n\nLast week I announced my new side project, a book titled [**\"Crafting Lambda Functions in Rust\"**](https://rust-lambda.com/). You can probably guess what it is about! 😇 I am working on this project with the awesome [James Eastham](https://jameseastham.co.uk/) and we look forward to seeing how it will evolve! If you are curious, you can check out [our website](https://rust-lambda.com/) and if you want to support us you can already [purchase the book in early access mode](https://app.gumroad.com/checkout?product=mheuj&quantity=1&code=early-access) (with a 60% discount!) and support our efforts! I'd really appreciate it if you do that!\n\nBut now, without further ado, let's get into some full-stack news! This week we have lots of cool stuff in store for you! I enjoyed the first link, so if you have to be picky, just go for that one!\n\nHave a great full-stack week!\n\n— Your lovely editor, [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "TypeScript is not a language, it is a multiverse of languages where your universe depends on your tsconfig.json",
+    "author": null,
+    "authorTitle": "Author & open-source developer",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "🎥 The Many New Features of Node.js",
+      "url": "https://www.youtube.com/live/evCnOaVaOTo?si=NDVzm8OcCQjpzKfw%3Futm_source%3Dfullstackbulletin.com",
+      "description": "In this live stream, [Jason Lengstorf](https://www.learnwithjason.dev/) and [Matteo Collina](https://nodeland.dev/), two of my favourite tech content creators out there, showcase some of the new amazing features available in Node.js 22. They debate how the perception of Node.js seems to have been locked in the past and how not many people are taking advantage of these new advancements. If you do any Node.js, this is a must-watch!",
+      "imageUrl": "./c0c3155cc25e0d3fe791ccfe54cfff7cb15a5cbb7ece1ac8c2cd81fc9ddd76ab.png",
+      "featured": true
+    },
+    {
+      "title": "Unleash the power of Scroll-Driven Animations",
+      "url": "https://developer.chrome.com/blog/scroll-driven-animations-video-course",
+      "description": "A 10-part FREE video course to learn all about scroll-driven animations. And by the way, this is using some new cool CSS properties, not with JavaScript! Any cool modern website has some kind of scroll-driven animation these days, so defo worth checking this one out!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Microsoft's $1M Vote of Confidence in Rust's Future",
+      "url": "https://thenewstack.io/microsofts-1m-vote-of-confidence-in-rusts-future",
+      "description": "We mentioned before that Rust is becoming more and more a great candidate language for full-stack web development thanks to frameworks such as [leptos](https://github.com/leptos-rs/leptos). Last week, Microsoft has made an unrestricted $1 million donation to the Rust Foundation, demonstrating its commitment to the Rust programming language and its ecosystem. This is one big step forward for the language and it will probably means, more adoption in the months and years to come. If you haven't invested in Rust, maybe it's time to start to play with it a little bit.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Latency numbers every frontend developer should know",
+      "url": "https://vercel.com/blog/latency-numbers-every-web-developer-should-know",
+      "description": "In this article, Vercel dissects the topic of latency. It provides all common numbers and measurements that every web developer should be familiar with. Building speedy websites is a multi-faceted effort, so this is a great guide to get the lay of the land on what's important to measure and improve.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "6 tools that made my life much easier as a Software Engineer",
+      "url": "https://thetshaped.dev/p/6-tools-to-ease-software-engineer-life",
+      "description": "An interesting collection of tools that can make your life as a software engineer a little bit easier, especially if you are on a Mac. I really enjoyed this one and discovered a couple of new tools, I wasn't familiar with. Hopefully, you'll like it as well.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Popover API is Here",
+      "url": "https://frontendmasters.com/blog/popover-api-is-here",
+      "description": "This API, which you can use entirely in HTML, allows you to open an element on top of **everything** despite where it lives in the DOM and without any particular styling. It's pretty cool and, most importantly, it doesn't require JavaScript!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A Brief Note on Highlighted Text",
+      "url": "https://adrianroselli.com/2024/05/a-brief-note-on-highlighted-text.html",
+      "description": "Did you know that you can style the look and feel of selected text using CSS? You can actually style a lot more and soon you'll be able to style even the text highlighted by your browser after you run a \"search in page\" action. If this topic interests you, this article has a lot of fascinating details, so go check it out!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Ultimate Node.js for Cross-Platform App Development: Learn to Build Robust, Scalable, and Performant Server-Side JavaScript Applications with Node.js (English Edition)",
+    "author": "Ramesh Kumar",
+    "description": "Unlock the full potential of Node.js for modern web development with this comprehensive handbook to developing applications and services. The book will cover the fundamentals to advanced techniques, and explore the intricacies of building powerful applications. You will master Express server creation, develop RESTful APIs with efficient routing, and dive into MongoDB for seamless data persistence. It will uncover the nuances of template engines, middleware, and robust authentication methods. Leverage Socket.IO for real-time capabilities and adeptly handle errors with effective logging. The projects will double as versatile boilerplates for kickstarting your own development endeavors. In the later chapter, you will learn Test-Driven Development with Mocha, gain insights into debugging, and perfect the art of building and deploying Node.js applications. Each example in the book adheres to common best practices, providing valuable insights to help you avoid common pitfalls. Designed as both a learning resource and a reference guide, this book equips you with the knowledge to tackle challenging problems at any stage of development.",
+    "coverImageUrl": "./980e49699b60835a88fd632929264b1f2e3b9c90c89cbd3eafb11eff9783a30b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/8196815158?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/8196815158?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Why Patching Globals Is Harmful",
+      "url": "https://kettanaito.com/blog/why-patching-globals-is-harmful"
+    },
+    {
+      "title": "Why don’t we talk about minifying CSS anymore?",
+      "url": "https://blog.sentry.io/why-dont-we-talk-about-minifying-css"
+    },
+    {
+      "title": "Keep it together: 5 essential design patterns for dev tool UIs",
+      "url": "https://evilmartians.com/chronicles/keep-it-together-5-essential-design-patterns-for-dev-tool-uis"
+    },
+    {
+      "title": "Making room for long list markers with subgrid",
+      "url": "https://noahliebman.net/2024/03/making-room-for-long-list-markers-with-subgrid"
+    },
+    {
+      "title": "Misconceptions about CSS Specificity",
+      "url": "https://bram.us/2024/05/05/misconceptions-about-css-specificity"
+    },
+    {
+      "title": "Using React Shepherd to build a site tour",
+      "url": "https://blog.logrocket.com/using-react-shepherd-build-site-tour"
+    },
+    {
+      "title": "Pechkin: an asynchronous Node.js file upload with multipart/form-data support",
+      "url": "https://github.com/rafasofizada/pechkin"
+    }
+  ],
+  "sponsor": null
+}

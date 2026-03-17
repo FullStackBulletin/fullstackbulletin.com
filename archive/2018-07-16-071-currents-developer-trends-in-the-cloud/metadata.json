@@ -1,0 +1,75 @@
+{
+  "issueNumber": 71,
+  "title": "Currents: Developer trends in the cloud",
+  "slug": "2018-07-16-071-currents-developer-trends-in-the-cloud",
+  "date": "2018-07-16",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #28, 2018",
+  "quote": {
+    "text": "I do not fear computers. I fear lack of them",
+    "author": "Isaac Asimov",
+    "authorTitle": "Author and Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Isaac_Asimov"
+  },
+  "links": [
+    {
+      "title": "Developer trends in the cloud",
+      "url": "https://digitalocean.com/currents/june-2018",
+      "description": "Trends in the developer community move quickly. As a developer-focused company, it's vital for us to keep up with the technologies and tools that developers and their teams are interested in so we can help them achieve their goals.",
+      "imageUrl": "./22238d4b424b4026fbb0da509c3760117996f7e15686e13bfd900f17521a1738.png",
+      "featured": true
+    },
+    {
+      "title": "Designing for accessibility",
+      "url": "https://uxdesign.cc/designing-for-accessibility-is-not-that-hard-c04cc4779d94",
+      "description": "Seven easy-to-implement guidelines to design a more accessible web ❤️",
+      "imageUrl": "./5bf820025a5cf1898407d736a40162d49cfebe8d56383f9017dec2d6b62a99cb.jpg",
+      "featured": false
+    },
+    {
+      "title": "What Is Redux: A Designer’s Guide",
+      "url": "https://smashingmagazine.com/2018/07/redux-designers-guide",
+      "description": "Do you know Redux's real power is beyond managing the state? As designers, if we understand the advantages and downsides of Redux, we'll be able to contribute to this decision making from the perspective of design.",
+      "imageUrl": "./a00854f56673915b1f32b35c4675bf28dff898aeed51552181fa5e122d4d9241.png",
+      "featured": false
+    },
+    {
+      "title": "Delivering WordPress in 7KB",
+      "url": "https://css-tricks.com/delivering-wordpress-in-7kb",
+      "description": "How to squeeze WordPress so that an entire theme is below 7KB? This article show how to achieve this ambitious goal and how to reduce carbon emissions while doing it!",
+      "imageUrl": "./6dcaacc405d444f6474266c8010a58b1998022b015b82de9e33301d53bc94200.jpg",
+      "featured": false
+    },
+    {
+      "title": "NSQ: realtime distributed messaging platform",
+      "url": "https://nsq.io/",
+      "description": "NSQ is an ops friendly real-time distributed messaging platform written in Go. You can use this project in a variety of context, for example to power the backbone of your next micro-services architecture.",
+      "imageUrl": "./638877a69be75d0650179d96f071b63e1ca4b0f8e3fe264a32379fb44e079c27.png",
+      "featured": false
+    },
+    {
+      "title": "Cloudflare Workers, Lambda and Lambda@Edge",
+      "url": "https://blog.cloudflare.com/serverless-performance-comparison-workers-lambda",
+      "description": "A few months ago we released a new way for people to run serverless Javascript called Cloudflare Workers. We believe Workers is the fastest way to execute serverless functions, but lets prove it.",
+      "imageUrl": "./496bb088dd23dbb0c0491aa68b50ec0d6256e9b7d27d9c52c716c51c54666abb.jpg",
+      "featured": false
+    },
+    {
+      "title": "Code: Simple, correct, fast. In that order!",
+      "url": "https://drewdevault.com/2018/07/09/Simple-correct-fast.html",
+      "description": "The single most important quality in a piece of software is simplicity. It’s more important than doing the task you set out to achieve. It’s more important than performance. The reason is straightforward: if your solution is not simple, it will not be correct or fast.",
+      "imageUrl": "./a5b5992dc3d4de2a66531479e7c76c71438351a5f099f2dc0ab33f7720d32043.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Angular 2 Cookbook",
+    "author": "Matt Frisbie",
+    "description": "This book covers all the most complicated Angular concepts and at the same time introduces the best practices with which to wield these powerful tools. It also covers in detail all the concepts you'll need to get you building applications faster. Often neglected topics such as testing and performance optimization are widely covered as well. A developer that reads through all the content in this book will have a broad and deep understanding of all the major topics in the Angular 2 universe.",
+    "coverImageUrl": "./b6885ee25caf4d2b67b01862d2a10f60300e0c6c69537686826de54524ca4ac3.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01JLBMC86/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01JLBMC86/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

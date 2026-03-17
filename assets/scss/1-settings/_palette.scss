@@ -1,7 +1,0 @@
-@function brand-color($color) {
-  @return map-get(get-palette('brand'), $color);
-}
-
-@function neutral-color($color) {
-  @return map-get(get-palette('neutral'), $color);
-}

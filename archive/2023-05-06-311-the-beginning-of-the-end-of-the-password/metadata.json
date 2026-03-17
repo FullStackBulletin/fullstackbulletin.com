@@ -1,0 +1,75 @@
+{
+  "issueNumber": 324,
+  "title": "The beginning of the end of the password",
+  "slug": "2023-05-06-311-the-beginning-of-the-end-of-the-password",
+  "date": "2023-05-06",
+  "templateType": "old-mailchimp",
+  "intro": "Fullstack Bulletin is going on holiday for 3 weeks! Next issue will be in June 😎",
+  "quote": {
+    "text": "The art challenges the technology, and the technology inspires the art",
+    "author": "John Lasseter",
+    "authorTitle": "Director",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_Lasseter"
+  },
+  "links": [
+    {
+      "title": "The beginning of the end of the password",
+      "url": "https://blog.google/technology/safety-security/the-beginning-of-the-end-of-the-password",
+      "description": "For some time the tech industry has been working on a simpler and safer alternative to passwords. While passwords will be with us for some time to come, they are often frustrating to remember and put you at risk if they end up in the wrong hands. With this announcement, Google is starting to roll out **PassKeys**, a new technology that provides passwordless logins.",
+      "imageUrl": "./6d566c9fefd8d7f19e2699dc8c527f189a375f002c53d9faea9910a706351355.jpg",
+      "featured": true
+    },
+    {
+      "title": "Rebuilding a featured news section with modern CSS",
+      "url": "http://ishadeed.com/article/rebuild-featured-news-modern-css",
+      "description": "This is a fantastic case study that showcases how to use **CSS Grids** and other modern CSS features to build a new responsive version of Vox News. Check it out if you are working on a content-heavy website and you are looking for some inspiration and best practices.",
+      "imageUrl": "./40c6c958101e4b79b9c7adb25890b40c8d21309c02bb0369d3684300e6296950.jpg",
+      "featured": false
+    },
+    {
+      "title": "Dissecting Npm Malware: Five Packages And Their Evil Install Scripts",
+      "url": "https://blog.sandworm.dev/dissecting-npm-malware-five-packages-and-their-evil-install-scripts",
+      "description": "Packages published on npm can declare pre and post-install hooks, which are scripts that run, well, pre or post-install. That is to say, when the npm CLI installs a package, it also runs those scripts on your machine. **What if these some of these scripts are \"evil\"?!**",
+      "imageUrl": "./fa6c7aa14dc61df359a04806a79e8eabe7b3f0c6333ef2d20659b95140edd452.png",
+      "featured": false
+    },
+    {
+      "title": "Is Rust a worthy contender for web development?",
+      "url": "https://joshmo.hashnode.dev/can-rust-beat-javascript-in-2023",
+      "description": "A detailed look at Rust's position within the web development space and what it can offer. I am betting we will see a lot more Rust in the web space in the coming years, and this article shares the same vision. Check it out if you are curious to find out more!",
+      "imageUrl": "./4b00e894c66916d3bdf457989cad1e5d8f3c10b812902296f5e28b156321e99c.png",
+      "featured": false
+    },
+    {
+      "title": "Exploring The Potential Of Web Workers For Multithreading On The Web",
+      "url": "https://smashingmagazine.com/2023/04/potential-web-workers-multithreading-web",
+      "description": "In this article, Sarah Oke Okolo explores the importance of Web Workers for multithreading on the web, including the limitations and considerations of using them and the strategies for mitigating potential issues associated with them.",
+      "imageUrl": "./0577058463b31250f3d4920467c1fab783ebc8338115b5332720b8ceb360e704.png",
+      "featured": false
+    },
+    {
+      "title": "Master Namespaces In TypeScript",
+      "url": "http://nicotsou.com/tltr-typescript-namespaces",
+      "description": "Learn how to use namespaces and how they help on creating type definition files.",
+      "imageUrl": "./23cc00434fa60c3472ae60d7f6effa7302187d27818d1499ba57355797be22a9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Error handling patterns",
+      "url": "https://andreabergia.com/blog/2023/05/error-handling-patterns",
+      "description": "Error handling is a fundamental aspect of programming. Unless you are writing “hello world”, you will need to handle errors in your code. In this post, the author discusses the most common approaches used by various programming languages.",
+      "imageUrl": "./29b5eaed4a62fe025863241d9a980de5fee4a596f8ba49b6b763b7777194cb51.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Go Programming Language",
+    "author": "Alan A. A. Donovan",
+    "description": "The Go Programming Language   is the authoritative resource for any programmer who wants to learn Go. It shows how to write clear and idiomatic Go to solve real-world problems. The book does not assume prior knowledge of Go nor experience with any specific language, so you’ll find it accessible whether you’re most comfortable with JavaScript, Ruby, Python, Java, or C++.",
+    "coverImageUrl": "./be6ca3847c1c5e1bb60721ca2947bb788e506e371357a6e933bcac0b448d6a7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134190440/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134190440/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

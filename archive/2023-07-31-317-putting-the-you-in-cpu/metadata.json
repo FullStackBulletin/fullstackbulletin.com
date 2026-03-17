@@ -1,0 +1,75 @@
+{
+  "issueNumber": 331,
+  "title": "Putting the \"You\" in CPU",
+  "slug": "2023-07-31-317-putting-the-you-in-cpu",
+  "date": "2023-07-31",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "To iterate is human, to recurse divine",
+    "author": "L. Peter Deutsch",
+    "authorTitle": "Software developer and Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/L._Peter_Deutsch"
+  },
+  "links": [
+    {
+      "title": "Putting the \"You\" in CPU",
+      "url": "https://cpu.land/",
+      "description": "What happens when you run a program on your computer? Learn how multiprocessing works, what system calls really are, how computers manage memory with hardware interrupts, and how Linux loads executables. This is my new favorite website. The explanations are really down to earth and it's full of useful illustrations. It is totally recommended!",
+      "imageUrl": "./936f9c369d6296298732cee7492054fb8254aa8e86fc3114f5bed2c25768bf27.jpg",
+      "featured": true
+    },
+    {
+      "title": "Re-creating a Japanese Fireworks Catalog from 1883 in CSS",
+      "url": "https://dev.to/madsstoumann/re-creating-a-japanese-fireworks-catalog-from-1883-in-css-83j",
+      "description": "Japanese art is always fascinating. This article goes into an interesting creative rabbit hole: is it possible to recreate Japanese Fireworks illustrations with plain CSS? If you enjoy CSS-only art, you'll find this article interesting!",
+      "imageUrl": "./c17a8bbcb19bfc25434f2facffce5b571a1ab2562938442dba4c7085c90722b4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Core Web Vitals for Search Engine Optimisation",
+      "url": "https://csswizardry.com/2023/07/core-web-vitals-for-search-engine-optimisation",
+      "description": "There’s still a lot of misunderstanding about CWV for SEO. This article tries to demystify what Core Web Vitals really mean for SEO and it's really useful if you are working on the performance of a marketing website!",
+      "imageUrl": "./480a9e4659162e9561d3c48e3b52c7e4ddf8c072d7fe47811e0525792b39859f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Hono - Ultrafast web framework for the Edges",
+      "url": "https://hono.dev/",
+      "description": "Hono is (yet another) JavaScript web framework that just entered the game! It's a bit different than the other though. It focuses on being a small, simple, and ultrafast web framework for the Edges. It works on Cloudflare Workers, Fastly Compute@Edge, Deno, Bun, Vercel, Lagon, AWS Lambda, Node.js, and others.",
+      "imageUrl": "./4405b55ad2f37ca14c2086bdfb4bf08c18ac4bcce75e34a49789d16ea59cb293.jpg",
+      "featured": false
+    },
+    {
+      "title": "Introducing Valibot, a < 1kb Zod Alternative",
+      "url": "https://builder.io/blog/introducing-valibot",
+      "description": "Valibot is a schema library for validating structural data, comparable to Zod, Ajv, Joi, and Yup. The big innovation of Valibot is the modular design of the API and optimization of the source code for compression. So you can get the benefits of Zod at a fraction of the weight!",
+      "imageUrl": "./2c726e7cf2ac7841be6817aebb22fbf6b56de6464d46b1f92c3d33bd0d78a506.jpg",
+      "featured": false
+    },
+    {
+      "title": "Easy SVG sparklines",
+      "url": "https://alexplescan.com/posts/2023/07/08/easy-svg-sparklines",
+      "description": "Using SVG to easily create sparkline charts, and rendering them on the server side with Elixir and Phoenix. A great peak into what it takes to create SVGs by hand and also a cool case study to see how to generate SVG programmatically from the server!",
+      "imageUrl": "./6f00e0745ef5f5785e5f2d9ee59b4aec07b52da090ae244aa78edd020546f51b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Monolith does not always equal “bad”",
+      "url": "https://www.thestack.technology/monoliths-vs-microservices-both",
+      "description": "I like microservices, but microservices are not the solution to all evil... and in fairness they bring a hell of a lot of complexity to the game... So this talk actually shines a light on monoliths and makes clear that they are not intrinsically bad... A great watch if you enjoy thinking about systems design and architecture.",
+      "imageUrl": "./2d6fea6c2ec9514c3d68684c9037ac6c8763e515112db1143e15d12b80bab968.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Symfony",
+    "author": "Sohail Salehi",
+    "description": "In this book, you will learn some lesser known aspects of development with Symfony, and you will see how to use Symfony as a framework to create reliable and effective applications. You might have developed some impressive PHP libraries in other projects, but what is the point when your library is tied to one particular project? With Symfony, you can turn your code into a service and reuse it in other projects.",
+    "coverImageUrl": "./d8bd967503d4ad357e4fca70c6900b2da278b7cd54f0417d9683194425c0bcbf.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1784390313/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1784390313/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

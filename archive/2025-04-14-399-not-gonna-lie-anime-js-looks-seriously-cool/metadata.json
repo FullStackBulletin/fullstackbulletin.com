@@ -1,0 +1,100 @@
+{
+  "issueNumber": 418,
+  "title": "Not Gonna Lie… Anime.js Looks Seriously Cool",
+  "slug": "2025-04-14-399-not-gonna-lie-anime-js-looks-seriously-cool",
+  "date": "2025-04-14",
+  "templateType": "mce-mailchimp",
+  "intro": "Hey folks 👋\n\nNo big personal updates this week — just your regularly scheduled dose of full-stack inspiration, handpicked with care to keep you curious, motivated, and maybe even a little surprised. I truly enjoy digging up these gems each week, and I hope that comes through.\n\nYou know, full-stack development has always reminded me of jazz. It’s part improvisation, part mastery, and part just knowing which notes not to play. It’s what makes this work both challenging and incredibly fun — the mix of backend logic, frontend finesse, and all the glue in between.\n\nSo dive in, explore the links, and don’t miss the bonus picks at the bottom! And if you ever have suggestions, content you think deserves a mention, or just want to say hi — hit reply. I’d love to hear from you and make this newsletter even more useful for you.\n\nUntil next time — happy coding!\n\n—Your editor, [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Computers are good at following instructions, but not at reading your mind“",
+    "author": "Donald Knuth",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Donald_Knuth"
+  },
+  "links": [
+    {
+      "title": "Anime.js",
+      "url": "https://animejs.com/",
+      "description": "Smooth animations and seamless transitions are more than just aesthetic details—they make modern web experiences feel alive. Over the years, I’ve tried a bunch of animation libraries, but **Anime.js** keeps standing out as one of the most complete and versatile ones I’ve worked with. It gives you a solid timeline API to choreograph complex sequences, supports SVG animations, and has great tools like stagger effects, spring physics, draggable interactions, and scroll-based triggers. If you care about building polished, interactive frontends, this is one of those tools you’ll be glad to have in your stack. Their landing page itself is such a wonder, so just checking that out can provide tons of inspiration! [**Check out the library**](https://animejs.com/)",
+      "imageUrl": "./02d7c6250c1ff27a2cae1be93f2a39b1907684952c6732c27200beee77670254.png",
+      "featured": true
+    },
+    {
+      "title": "Git turns 20 🎂",
+      "url": "https://github.blog/open-source/git/git-turns-20-a-qa-with-linus-torvalds",
+      "description": "Git just turned 20, and GitHub marked the occasion with a rare interview with **Linus Torvalds** himself. If you’ve ever been curious about the origin story of Git—how it was hacked together in just 10 days to replace BitKeeper, why it feels more like a file system than a traditional VCS, or what Linus thinks about SHA-1—this is an absolute must-read. I found it fascinating how pragmatic and unceremonious his approach was: “I wrote it for my own issues,” he says. Yet somehow, that personal tool ended up redefining how the entire software world collaborates. It's a great reminder that sometimes the best tools are the ones built out of frustration and necessity—not grand vision.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "“Just use Vite”… with the Workers runtime",
+      "url": "https://blog.cloudflare.com/introducing-the-cloudflare-vite-plugin",
+      "description": "Every week, I’m more and more impressed by how deeply Vite is permeating the web development ecosystem. No surprises last week: Vite showed up with a big bang in the **Cloudflare Workers** world, too. Cloudflare just dropped an official Vite plugin that streamlines deploying Workers and Pages functions. It supports local dev with wrangler, smart routing for functions, environment variable injection, and more. If you’re already using Vite for your frontend and curious about bringing that same smooth DX to the edge, this might be your next favorite tool. Fun fact: the article makes a serious effort not to mention Next.js... I wonder why that is! 😛",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Tailwind's @apply feature is better than it sounds",
+      "url": "https://css-tricks.com/tailwinds-apply-feature-is-better-than-it-sounds",
+      "description": "I’ve said it before and I’ll say it again — I like Tailwind. But not always the vanilla flavor. That’s why this post really resonated with me. In it, the author makes a strong case for Tailwind’s much-maligned `@apply` directive — comparing it to Sass mixins, showing how it brings clarity and reusability to your layouts, and making a compelling argument that using Tailwind doesn’t have to mean abandoning CSS altogether. If you’ve ever felt torn between utility-first and traditional CSS, this one’s a great read.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "JekyllPad - Markdown Editor for GitHub Pages",
+      "url": "https://jekyllpad.com/",
+      "description": "I have tons of static websites — seriously, tons. Most are powered by Markdown content managed through GitHub, which works great for developers like me. But the moment a non-technical content editor enters the picture, things can get... messy. Markdown? Git commits? PRs? Most folks just want the simplicity of WordPress — and I get that — but if you’re anything like me, you'd still rather avoid WordPress like the plague. That’s why I was intrigued by Jekyllpad. It connects to your GitHub repo and gives editors a clean, modern CMS interface to create and update Markdown content — no setup, no local dev, no technical hurdles. Just sign in with GitHub, write in a WYSIWYG-like editor, and it pushes commits straight to your repo. The only downside? It's not open source (yet), so you can't self-host — but there's a free plan for non-commercial use, which makes it easy to try out. Then if you are looking for similar ideas, [Tina](https://tina.io/) is another one that I think is really promising (and it's more a of a fully featured CMS); and it's also open!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Cover Flow with Modern CSS: Scroll-Driven Animations in Action",
+      "url": "https://addyosmani.com/blog/coverflow",
+      "description": "Addy Osmani is, without question, one of my absolute favorite people in the web dev space. Everything he publishes feels like it pushes the boundaries of what the web can do — and often lands way beyond expectations. His latest article? Pure gold once again. This time, he dives into how you can recreate Apple’s iconic Cover Flow using nothing but HTML and modern CSS. Yep, no JavaScript needed. Thanks to scroll-driven animations, scroll snap, and a sprinkle of view timelines, you get silky smooth, performant, 3D-style transitions that feel native. It's one of those examples that reminds you how far CSS has come — and how fun frontend work can be.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Building a toast library from scratch in just 30 minutes",
+      "url": "https://gomakethings.com/building-a-toast-library-from-scratch-in-just-30-minutes",
+      "description": "I always appreciate when a content creator or educator takes on the challenge of building something from scratch — live and unfiltered. There’s something kind of magical about seeing someone else’s thought process unfold in real time. You pick up on little things: the way they structure their code, how they debug, the tools they reach for without thinking. It’s a million little learning opportunities packed into 30 minutes. [Chris Ferdinandi](https://mastodon.social/@cferdinandi) does exactly that in his latest video, where he builds a complete toast notification library using just vanilla JavaScript. From HTML structure to styling, to a clean API and even custom events for extensibility [**Watch the Video**](https://gomakethings.com/building-a-toast-library-from-scratch-in-just-30-minutes)",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Learning Vue",
+    "author": "Maya Shavin",
+    "description": "Learn the core concepts of Vue.js, the modern JavaScript framework for building frontend applications and interfaces from scratch. With concise, practical, and clear examples, this book takes web developers step-by-step through the tools and libraries in the Vue.js ecosystem and shows them how to create complete applications for real-world web projects. You'll learn how to handle data communication between components with Pinia architecture, develop a manageable routing system for a frontend project to control the application flow, and produce basic animation effects to create a better user experience.",
+    "coverImageUrl": "./79a6f84dad1644dcaaf3d604b333c1fa334a0232fb27a01952e2d78da6b5cf4c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B0CPB9KRCG?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B0CPB9KRCG?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Bare: a bare-bone JavaScript runtime",
+      "url": "https://bare.pears.com/"
+    },
+    {
+      "title": "Zod v4 (beta)",
+      "url": "https://v4.zod.dev/v4"
+    },
+    {
+      "title": "Do more with SVG (SVG Art)",
+      "url": "https://fuma-nama.vercel.app/blog/svg-art"
+    },
+    {
+      "title": "Fumadocs (documentation website with OpenAPI support)",
+      "url": "https://fumadocs.vercel.app/"
+    },
+    {
+      "title": "First Look at The Modern CSS attr()",
+      "url": "https://ishadeed.com/article/modern-attr/"
+    },
+    {
+      "title": "I guess some request headers are more trustworthy than others",
+      "url": "https://macarthur.me/posts/forbidden-request-headers/"
+    }
+  ],
+  "sponsor": null
+}

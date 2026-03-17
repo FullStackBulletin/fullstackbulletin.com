@@ -1,0 +1,75 @@
+{
+  "issueNumber": 139,
+  "title": "What Newspapers Can Teach Us About Web Design",
+  "slug": "2019-12-02-139-what-newspapers-can-teach-us-about-web-design",
+  "date": "2019-12-02",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #48, 2019",
+  "quote": {
+    "text": "Computers are useless.  They can only give you answers",
+    "author": "Pablo Picasso",
+    "authorTitle": "Artist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Pablo_Picasso"
+  },
+  "links": [
+    {
+      "title": "What Newspapers Can Teach Us About Web Design",
+      "url": "https://smashingmagazine.com/2019/11/newspapers-teach-web-design",
+      "description": "Before the home page, there was the front page. From the Gutenberg Principle to grid systems to above the fold, newspapers teach us much about the foundations of web design.",
+      "imageUrl": "./5c3a42fe4982270e1bd0ed1e33892731bc292dccecfc613133c23829cbbcd90f.jpg",
+      "featured": true
+    },
+    {
+      "title": "Design APIs: The Evolution of Design Systems",
+      "url": "https://matthewstrom.com/writing/design-apis",
+      "description": "An exporation of how an API for design decisions works.",
+      "imageUrl": "./d78394073331fdb17bcbfd58ecd27a7227fc0c30262a28f7888eb7732e3ea852.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript in 2019",
+      "url": "https://almanac.httparchive.org/en/2019/javascript",
+      "description": "JavaScript chapter of the 2019 Web Almanac covering how much JavaScript we use on the web, compression, libraries and frameworks, loading, and source maps.",
+      "imageUrl": "./bb92e829361b9c6d841462bc29c40cc660468d0b121f0e8cc042f38fbdcf8b6c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Airbnb: How To Reduce Churn With Personalization",
+      "url": "https://growth.design/case-studies/airbnb-personalization",
+      "description": "See how Airbnb compares to alternative booking apps when it comes to personalization. Learn how to apply this to your product to reduce user churn.",
+      "imageUrl": "./87ff7509859b6c28aa56af6278b9eca8bf060f5b879c67fc47c1fba76ebc4bb6.jpg",
+      "featured": false
+    },
+    {
+      "title": "The database of databases",
+      "url": "https://dbdb.io/",
+      "description": "Discover and learn about more than 600 new and old database management systems!",
+      "imageUrl": "./be9ce1b559df1650e9f2b79d6f0ca2ecf7b5a313207098f28edac6a41c6a72d8.png",
+      "featured": false
+    },
+    {
+      "title": "Egnyte Architecture: building a multi petabyte content platform",
+      "url": "http://highscalability.com/blog/2019/11/25/egnyte-architecture-lessons-learned-in-building-and-scaling.html",
+      "description": "This article explores some of the lessons learned while building Egnyte, a content platform that can process petabytes of data.",
+      "imageUrl": "./e3689c652341d869c5b417f19acbb718289d047263af71de3b6d028377d92b7b.jpg",
+      "featured": false
+    },
+    {
+      "title": "AWS Lambda: Real-World Use Cases for the DevOps Engineer",
+      "url": "https://blog.thundra.io/aws-lambda-use-cases-for-devops-engineers",
+      "description": "This post explores how AWS Lambda can reduce the operational overhead, costs and increase productivity through real world use cases for DevOps/SRE engineers.",
+      "imageUrl": "./0d6521e456e63613b8b9e66f29318e93508ff169e6f3eaf7aac5ff7fcd725033.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Modern PHP: New Features and Good Practices",
+    "author": "Josh Lockhart",
+    "description": "PHP is experiencing a renaissance, though it may be difficult to tell with all of the outdated PHP tutorials online. With this practical guide, you’ll learn how PHP has become a full-featured, mature language with object-orientation, namespaces, and a growing collection of reusable component libraries. Author Josh Lockhart—creator of PHP The Right Way, a popular initiative to encourage PHP best practices—reveals these new language features in action. You’ll learn best practices for application architecture and planning, databases, security, testing, debugging, and deployment.",
+    "coverImageUrl": "./418bba906f21b114b5c7dcb0d9e0d7c44a714c727d1cf0edbb7f097a7406b2d5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491905018/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491905018/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

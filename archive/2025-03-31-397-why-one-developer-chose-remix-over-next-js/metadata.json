@@ -1,0 +1,100 @@
+{
+  "issueNumber": 416,
+  "title": "Why One Developer Chose Remix Over Next.js",
+  "slug": "2025-03-31-397-why-one-developer-chose-remix-over-next-js",
+  "date": "2025-03-31",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nThis week, I want to shine a spotlight on a newsletter that’s earned a permanent spot in my inbox: [Web Weekly](https://webweekly.email/) by **Stefan Judis**. Stefan is one of those web devs who just oozes passion (seriously, peek at [his blog](https://www.stefanjudis.com/) and you’ll see what I mean), and his newsletter is a goldmine of hand-picked links, tips, and curiosities. Confession time: I’ve definitely “borrowed” a few links from Web Weekly for this very newsletter — it’s that good. If you think there’s no such thing as too many awesome web dev newsletters (same), then go check it out. You won’t regret it.\n\nIn the meantime, I hope this week’s collection of hand-curated content helps you stay motivated, sharp, and maybe even a little inspired.\n\nHave fun — and happy full-stack coding!\n\n—Your editor, Luciano",
+  "quote": {
+    "text": "Standards are always out of date. That's what makes them standards“",
+    "author": "Alan Bennett",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Bennett"
+  },
+  "links": [
+    {
+      "title": "Why One Developer Chose Remix Over Next.js",
+      "url": "https://epicweb.dev/why-i-wont-use-nextjs",
+      "description": "Lately, I’ve been hearing more and more devs share their frustrations with Next.js. And to be honest, I’ve had my own share of grudges too — which is why I’m always curious when someone lays out a thoughtful critique and suggests an alternative. This article by Kent C. Dodds isn’t exactly new (fun fact: the framework he recommends has since changed its name 😅), but revisiting it was a surprisingly relevant experience. Kent lays out 9 reasons why he moved away from Next.js — touching on everything from web fundamentals and DX tradeoffs to the platform lock-in that quietly shapes our stack decisions. He also brings in voices from across the community, making it feel more like a conversation than a hot take. And while he’s clearly opinionated, Kent closes with a refreshingly grounded reminder: **“Whatever you use is probably fine!”**",
+      "imageUrl": "./cdb43a1ef0a7ea9d7d2d9dc8a2976d9f37305a99872ff4423ac1efa058e185e7.png",
+      "featured": true
+    },
+    {
+      "title": "MCP: What It Is and Why It Matters",
+      "url": "https://addyo.substack.com/p/mcp-what-it-is-and-why-it-matters",
+      "description": "In his recent article, \"MCP: What It Is and Why It Matters,\" Addy Osmani introduces the Model Context Protocol (MCP), a standard designed to facilitate seamless communication between AI assistants and various software tools. By providing a unified language, MCP enables AI systems to interact with multiple applications without the need for tool-specific integrations, thereby enhancing extensibility and interoperability. Osmani illustrates how MCP functions similarly to a GraphQL supergraph, connecting multiple endpoints under a unified API. This approach has the potential to significantly advance AI engineering practices by simplifying the integration process and fostering a more cohesive ecosystem.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The <select> element can now be customized with CSS",
+      "url": "https://developer.chrome.com/blog/a-customizable-select",
+      "description": "For years, customizing the native `<select>` element has been a thorn in the side of web developers. The lack of styling options forced many of us to reinvent the wheel, crafting custom dropdown components from scratch—often at the expense of accessibility and performance. But now, with the introduction of `appearance: base-select` in Chrome 135, there's a light at the end of the tunnel. This new CSS property unlocks a world of customization possibilities, allowing for rich content, consistent styling, and a more streamlined development process. It's exciting to think that in the near future, we might finally bid farewell to those cumbersome custom components and embrace a more standardized approach. For a deep dive into these new capabilities and how to implement them, check out this insightful article.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A new way to draw separators in CSS",
+      "url": "https://blogs.windows.com/msedgedev/2025/03/19/minding-the-gaps-a-new-way-to-draw-separators-in-css",
+      "description": "Here’s another CSS-related gem! Drawing separator lines between different sections of a webpage is such a common design need — yet doing it cleanly in modern layouts like Flexbox or Grid has always felt a bit hacky. This post from the Edge team dives into a new proposal that could change that: gap-based separators. Think of it like column-rule, but for rows and across more layout types. It’s still early days, but the direction looks super promising. If you’ve ever had to wrangle `::before` elements just to get a nice dividing line, this one’s worth a read.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "NaN Glyph Filters fonts",
+      "url": "https://generativefonts.xyz/",
+      "description": "I’m a huge font nerd and this collection instantly grabbed me. **NaN Glyph Filters** is a wild and wonderful set of procedurally generated display fonts, along with the actual codebase used to design them. Each typeface feels alive, experimental, and full of personality. I genuinely love how unique they are — and I’m already dreaming up ways to use them in a future design… maybe even in this very newsletter! If you’re into creative coding, generative design, or just love a good typeface, go explore this one. Oh yeah... did I tell you that these fonts are fully open-source?!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Node.js will stop distributing Corepack",
+      "url": "https://socket.dev/blog/node-js-tsc-votes-to-stop-distributing-corepack",
+      "description": "This one made me a bit sad. The Node.js TSC has voted to stop distributing Corepack by default — and as someone who’s been using it for the past year, I have to say: I really liked it! Corepack acts as a bridge between Node and package managers like Yarn and pnpm, letting you pin and automatically install the right version without asking users to do it manually. Super handy. That said, the decision makes sense. The post breaks down the reasoning clearly — from maintenance concerns to the broader conversation around what belongs in Node core. If you’ve relied on Corepack or are just curious what this means going forward, it’s a good one to catch up on.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Unspoken Git secrets",
+      "url": "https://read.highgrowthengineer.com/p/unspoken-git-secrets",
+      "description": "Raise your hand if you consider yourself a Git master! …I definitely wouldn’t raise mine — especially after reading this post. This isn’t your usual “git basics” refresher. It’s packed with lesser-known commands, deep explanations of how Git actually works under the hood, and tips that’ll make you feel both smarter and slightly embarrassed you didn’t know them already. If Git still feels like a bit of a black box (or you just want to level up your mental model), this one’s a goldmine.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Fundamentals of Software Architecture: An Engineering Approach",
+    "author": "Mark Richards, and Neal Ford",
+    "description": "Salary surveys worldwide regularly place software architect in the top 10 best jobs, yet no real guide exists to help developers become architects. Until now. This book provides the first comprehensive overview of software architecture's many aspects. Aspiring and existing architects alike will examine architectural characteristics, architectural patterns, component determination, diagramming and presenting architecture, evolutionary architecture, and many other topics. Mark Richards and Neal Ford—hands-on practitioners who have taught software architecture classes professionally for years—focus on architecture principles that apply across all technology stacks. You'll explore software architecture in a modern light, taking into account all the innovations of the past decade.",
+    "coverImageUrl": "./ef2c5ae990ce035a13c2749dd507692c42cf9b0267033911320d028377b6e293.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492043451?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492043451?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "The JavaScript Oxidation Compiler",
+      "url": "https://github.com/oxc-project"
+    },
+    {
+      "title": "String Tune",
+      "url": "https://tune-demo.fiddle.digital/"
+    },
+    {
+      "title": "You should know this before choosing Next.js",
+      "url": "https://eduardoboucas.com/posts/2025-03-25-you-should-know-this-before-choosing-nextjs"
+    },
+    {
+      "title": "Authorization in Next.js",
+      "url": "https://robinwieruch.de/next-authorization"
+    },
+    {
+      "title": "Design Systems and Legos",
+      "url": "https://gomakethings.com/design-systems-and-legos"
+    },
+    {
+      "title": "Dark mode for SVG",
+      "url": "https://fullystacked.net/dark-mode-svg"
+    }
+  ],
+  "sponsor": null
+}

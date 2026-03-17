@@ -1,0 +1,75 @@
+{
+  "issueNumber": 70,
+  "title": "Computer, build me an app",
+  "slug": "2018-07-09-070-computer-build-me-an-app",
+  "date": "2018-07-09",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #27, 2018",
+  "quote": {
+    "text": "The function of good software is to make the complex appear to be simple",
+    "author": "Grady Booch",
+    "authorTitle": "Software engineer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Grady_Booch"
+  },
+  "links": [
+    {
+      "title": "Computer, build me an app",
+      "url": "https://youtu.be/qqt6YxAZoOc",
+      "description": "Frameworks exist because writing maintainable apps in vanilla JavaScript is hard. But frameworks aren’t free: downloading and parsing those extra bytes slows things up, just when your users are deciding whether to stick around. Instead of choosing between bulky frameworks and maintainability nightmares, what if we could tell the computer ‘here are the blueprints, now you write the code’? In this talk, we’ll discover a new breed of tools, such as **Svelte**, that let you do exactly that.",
+      "imageUrl": "./481509a21ba399a61fb0cb91d5c53718ca5561f58170b01a60896f77dc6dbae6.png",
+      "featured": true
+    },
+    {
+      "title": "Flutter - Beautiful native apps in record time",
+      "url": "https://flutter.io/",
+      "description": "Flutter is Google’s mobile UI framework for crafting high-quality native experiences on iOS and Android in record time. Flutter works with existing code, is used by developers and organizations around the world, and is free and open source.",
+      "imageUrl": "./aadb88462bfd9fb1bb714e7ab440a84306a603eaed278cc84453d1fe1036bb3e.png",
+      "featured": false
+    },
+    {
+      "title": "Webpack — The Confusing Parts",
+      "url": "https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9",
+      "description": "Webpack is the leading module bundler for React and Redux apps. Webpack is a fully fledged solution and, at first, it might result very cumbersome and confusing. This article is going to help you understand the main principle to remove that barrier to entry that might stop you from appreciating this awesome tool!",
+      "imageUrl": "./6e390eba1d063f076dc735513bc6dd6a14d303bfbd8bb3e77c2bb019a59dfff6.jpg",
+      "featured": false
+    },
+    {
+      "title": "10 Small Design Mistakes We Still Make",
+      "url": "https://uxplanet.org/10-small-design-mistakes-we-still-make-1cd5f60bc708",
+      "description": "By revisiting the famous UX book \"Don’t Make Me Think\" by Steve Krug, this article re-purposes 10 recurring design mistakes that you should definitely avoid while building your next awesome product.",
+      "imageUrl": "./39f6d5ae1be687ba640d94f0d03a8b69d0413a85501cf46dbd7a0db4d537444c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Emojicode",
+      "url": "https://emojicode.org/",
+      "description": "Emojicode is probably the best (and most fun) programming language. It's a serious project, a full-blown language consisting mostly of emojis. How not to love it? I am sure you are already looking for an excuse to introduce Emojicode in your team, even before checking the website!",
+      "imageUrl": "./4b4c95da78646e688d2a39085fa03871cd1d35cb03cb2ef714fe0bb8edd818ae.png",
+      "featured": false
+    },
+    {
+      "title": "Optimizing React: Virtual DOM explained",
+      "url": "https://evilmartians.com/chronicles/optimizing-react-virtual-dom-explained",
+      "description": "Learn about React's Virtual DOM and use this knowledge to speed up your applications. In this thorough beginner-friendly introduction to framework's internals, we will demystify JSX, show you how React makes rendering decisions, explain how to find bottlenecks, and share some tips to avoid common mistakes.",
+      "imageUrl": "./95f0f7f0baa3be81797efc28d73f0531440fd358b78395e063a7228043226503.jpg",
+      "featured": false
+    },
+    {
+      "title": "Design your CSS grids with Layoutit",
+      "url": "http://layoutit.com/grid",
+      "description": "Visual interface builder for CSS Grid that allows you to easily create and export your custom layouts (with legacy grid support).",
+      "imageUrl": "./88677a8bac84b79d3e77b5c3ace0ec5515118d8f1d2af213ec2229d443cc3a4e.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+    "author": "Lea Verou",
+    "description": "In this practical guide, CSS expert Lea Verou provides 47 undocumented techniques and tips to help intermediate-to advanced CSS developers devise elegant solutions to a wide range of everyday web design problems. Rather than focus on design, CSS Secrets shows you how to solve problems with code. You'll learn how to apply Lea's analytical approach to practically every CSS problem you face to attain DRY, maintainable, flexible, lightweight, and standards-compliant results.",
+    "coverImageUrl": "./e20c35997e3e8a6a408d0165643e9832e92142192a5c4b89e0e684f372fe7735.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372635/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372635/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

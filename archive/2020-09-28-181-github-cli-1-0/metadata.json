@@ -1,0 +1,75 @@
+{
+  "issueNumber": 181,
+  "title": "GitHub CLI 1.0",
+  "slug": "2020-09-28-181-github-cli-1-0",
+  "date": "2020-09-28",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #39, 2020",
+  "quote": {
+    "text": "UNIX is simple.  It just takes a genius to understand its simplicity",
+    "author": "Dennis Ritchie",
+    "authorTitle": "Computer scientist and inventor of the C language",
+    "authorUrl": "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+  },
+  "links": [
+    {
+      "title": "GitHub CLI 1.0",
+      "url": "https://github.blog/2020-09-17-github-cli-1-0-is-now-available",
+      "description": "GitHub CLI brings GitHub to your terminal. It reduces context switching, helps you focus, and enables you to more easily script and create your own workflows.",
+      "imageUrl": "./24d62f9c9b70482e23eb18de9ac8e8a836ee57ebace5504fe14c25c19532aaca.jpg",
+      "featured": true
+    },
+    {
+      "title": "OAuth in Node.js CLI Apps",
+      "url": "http://thecodebarbarian.com/oauth-in-nodejs-cli-apps",
+      "description": "OAuth is a popular tool for logging in to web apps, but Node makes it easy to use OAuth for CLI apps too. Here's how you can add OAuth support to a Slack CLI app.",
+      "imageUrl": "./c6b0157e5331beee6488720790f557888afe375cace3d1f7b6aa9887d695af14.jpg",
+      "featured": false
+    },
+    {
+      "title": "Free svg background generator",
+      "url": "https://bgjar.com/",
+      "description": "Free svg background generator for your websites, blogs and app.",
+      "imageUrl": "./75a83b87c9f92b4225077d642e58c300e3b02f0c92709b6dc628fb61d0dc8c6a.png",
+      "featured": false
+    },
+    {
+      "title": "alixaxel/chrome-aws-lambda",
+      "url": "https://github.com/alixaxel/chrome-aws-lambda",
+      "description": "Chromium Binary for AWS Lambda and Google Cloud Functions. A great library to easily run Puppeteer in serverless environments.",
+      "imageUrl": "./d5b51b65910daf2707da8a9749374df4e910ba5b81742d1e20a7b1d5b1f2c37c.png",
+      "featured": false
+    },
+    {
+      "title": "Mono Icons",
+      "url": "https://icons.mono.company/",
+      "description": "A free, consistent, open-source icon set designed to be used in a wide variety of digital products.",
+      "imageUrl": "./f23ac00c9d1bd64270b842565d6906e5ed7c5a05987cf31e992a924397f0dceb.jpg",
+      "featured": false
+    },
+    {
+      "title": "Migrating from styled-components to Stitches",
+      "url": "https://stitches.dev/blog/migrating-from-styled-components-to-stitches",
+      "description": "Stitches in a new CSS-in-JS library. In this article, you will learn what are the main differences with styled-components and how to migrate an existing project to stitches.",
+      "imageUrl": "./2c905146dd410e9d08fd88d753195203be4c46ce01d6f609f87510ca8333da10.jpg",
+      "featured": false
+    },
+    {
+      "title": "ReadSpecWith.us",
+      "url": "https://readspecwith.us/",
+      "description": "Read the ECMAScript Specification and understand what it means with code examples!",
+      "imageUrl": "./4330de85313377b99856636b44bd5e56e0f34a677acbaa428c16e8244b309aca.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Agile Web Development with Rails 5",
+    "author": "Sam Ruby",
+    "description": "Rails 5 and Ruby 2.2 bring many improvements, including new APIs and substantial performance enhancements, and the fifth edition of this award-winning classic is now updated! If you're new to Rails, you'll get step-by-step guidance. If you're an experienced developer, this book will give you the comprehensive, insider information you need for the latest version of Ruby on Rails.",
+    "coverImageUrl": "./8ce7511fb3c8594f256f41ec4168254572d3e762c632005637323efef4d09ba0.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501712/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501712/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

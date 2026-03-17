@@ -1,0 +1,75 @@
+{
+  "issueNumber": 256,
+  "title": "Advanced Git Concepts You Should Know",
+  "slug": "2022-01-17-245-advanced-git-concepts-you-should-know",
+  "date": "2022-01-17",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nPower your content experiences with high fidelity data. Retrieve analytics & insights with [the Nudge API](https://giveitanudge.com/?ndg_source=fs).",
+  "quote": {
+    "text": "Any sufficiently advanced technology is equivalent to magic",
+    "author": "Arthur C. Clarke",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_C._Clarke"
+  },
+  "links": [
+    {
+      "title": "Advanced Git Concepts You Should Know",
+      "url": "https://dev.to/ruppysuppy/advanced-git-concepts-you-should-know-nle",
+      "description": "Have you gotten accustomed to the basics of git, but the advanced concepts make you scratch your head? This article, introduces you to the advanced git concepts, but also show you how to use them in a real-world scenario!",
+      "imageUrl": "./f95943667dde083d1cf848c9a4eab531159c1b92bbf8432be8890aae7ea90031.jpg",
+      "featured": true
+    },
+    {
+      "title": "Databases in 2021: A Year in Review",
+      "url": "https://ottertune.com/blog/2021-databases-retrospective",
+      "description": "Andy Pavlo's take on 2021 database industry happenings, a year marked by the dominance of  PostgreSQL and the rise of new databases based on the PostgreSQL wire protocol.",
+      "imageUrl": "./06fed38943d967f990974de65e13d143df56893d92e3451ad876ff3099fd07fa.jpg",
+      "featured": false
+    },
+    {
+      "title": "A New Container Query Polyfill That Just Works",
+      "url": "https://css-tricks.com/a-new-container-query-polyfill-that-just-works",
+      "description": "There is an easy-to-use CSS container query polyfill now. You essentially conditionally load it and forget about it. Then write spec-compliant container queries code.",
+      "imageUrl": "./c7da50d7cac228f07372fe38d050cf8a40c1ddf157d5af02d6f4401eee1f7ddb.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to mentor software engineers",
+      "url": "https://xdg.me/mentor-engineers",
+      "description": "If you have been around the tech block long enough, chances are you might have mentored (or will have to mentor) more junior engineers. Mentoring is a complex activity and it should not be triviliasied. This article gives a number of tips and suggestions to make sure you can do a great job as a mentor!",
+      "imageUrl": "./b723bb36b2715ce35d8d08fb70a328eff6055206b0da3e1023bb4fb9230f6781.jpg",
+      "featured": false
+    },
+    {
+      "title": "Generate Mesh Gradients",
+      "url": "https://meshy.uxie.io/",
+      "description": "Are you looking for a quick and effective way to generate a background for a picture or for a website design? With this tool, you can easily generate & customizse beautiful and colorful mesh gradients and export them to PNG.",
+      "imageUrl": "./a3b117a204aa12bb1c68b049502c8107e808709a464c415f3a57b4d45103a34b.jpg",
+      "featured": false
+    },
+    {
+      "title": "useRainbow()",
+      "url": "https://sonnet.io/posts/use-rainbow",
+      "description": "`potato.horse` is an artistic website with an interesting effect on the page background. As you scroll to the page, the background changes color following the colors of the rainbow. In this post, the author of `potato.horse`, describes how they achieved this effect by using a React hook.",
+      "imageUrl": "./37d5049f8dd149d2d3acba229f07857c5931a802c6f54acf399d54481769b624.jpg",
+      "featured": false
+    },
+    {
+      "title": "An In-Depth Guide To Implementing JWT Authentication in Laravel",
+      "url": "https://adevait.com/laravel/implementing-jwt-authentication-in-laravel",
+      "description": "In this tutorial, you’ll learn how to create new custom guards, issue and verify JWT tokens manually, and a few other things.",
+      "imageUrl": "./b40eff41a0eda78faaf0c1b98671e41e229a257a3972165e8683ce63aa5a9653.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Fluent Python: Clear, Concise, and Effective Programming",
+    "author": "Luciano Ramalho",
+    "description": "Python’s simplicity lets you become productive quickly, but this often means you aren’t using everything it has to offer.  With this hands-on guide, you’ll learn how to write effective, idiomatic Python code by leveraging its best—and possibly most neglected—features.",
+    "coverImageUrl": "./30290ce19e65a7fffc72aab6893578a1fc0008018337e91d311736d9b587c8fe.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491946008/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491946008/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

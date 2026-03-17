@@ -1,0 +1,75 @@
+{
+  "issueNumber": 78,
+  "title": "A Tale of Types, Classes, and Maps",
+  "slug": "2018-09-03-078-a-tale-of-types-classes-and-maps",
+  "date": "2018-09-03",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #35, 2018",
+  "quote": {
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute",
+    "author": "Gerald Jay Sussman and Hal Abelson",
+    "authorTitle": "Computer Scientists and Authors",
+    "authorUrl": "https://en.wikipedia.org/wiki/Gerald_Jay_Sussman"
+  },
+  "links": [
+    {
+      "title": "A Tale of Types, Classes, and Maps",
+      "url": "https://youtu.be/IFWulQnM5E0",
+      "description": "In this fantastic talk, Benedikt Meurer, Google Engineer working on V8, explores important ingredients of modern JavaScript engines, and how these ingredients make it possible to write the amazing JavaScript applications that we see today.",
+      "imageUrl": "./053fc7979231fcb2632c935c65d4684117261ae2de468460ceced7b7023cd8e6.png",
+      "featured": true
+    },
+    {
+      "title": "felixrieseberg/windows95",
+      "url": "https://github.com/felixrieseberg/windows95",
+      "description": "If you are feeling nostalgic and really crave that need to use again Windows 95, here is a very simple solution: Windows 95 emulated from within an Electron app! Runs on macOS, Linux, and Windows. 🤪",
+      "imageUrl": "./35ca94c35b721d36b7465761830408652cc3764f981ad6e2f4a7f640e9121d9c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Babel 7 goes live!",
+      "url": "https://babeljs.io/blog/2018/08/27/7.0.0",
+      "description": "After almost 2 years, 4k commits, over 50 pre-releases, and a lot of help we are excited to announce the release of Babel 7. Find out what's new in this exciting release!",
+      "imageUrl": "./ffd1dfe52baa911cc8d228b394f32c0f264d24fbb2c35d5fcf9e90003b054a57.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why is a Java guy so excited about Node.js and JavaScript?",
+      "url": "https://blog.sourcerer.io/why-is-a-java-guy-so-excited-about-node-js-and-javascript-7cfc423efb44",
+      "description": "A point of view article from a long time Java Engineer moving to the Node.js and JavaScript.",
+      "imageUrl": "./6adddcd763667f6366abe13d75e0793e2edd23d121d983461d33ccbc826bcb46.jpg",
+      "featured": false
+    },
+    {
+      "title": "Stimulus framework",
+      "url": "https://stimulusjs.org/",
+      "description": "Stimulus is a JavaScript framework with modest ambitions. It doesn’t seek to take over your entire front-end—in fact, it’s not concerned with rendering HTML at all. Instead, it’s designed to augment your HTML with just enough behavior to make it shine.",
+      "imageUrl": "./5a8cc929dcc7b56e8a9c3bad7bea64c5da549925deff86939e0083656cc622b8.png",
+      "featured": false
+    },
+    {
+      "title": "Art of debugging with Chrome DevTools",
+      "url": "https://medium.com/frontmen/art-of-debugging-with-chrome-devtools-ab7b5fd8e0b4",
+      "description": "Chrome DevTools come with an array of features that help developers debug their apps effectively, and therefore find and fix the bugs. There's so much you can do that sometimes, especially at the beginning, it's easy to get lost. This article is gonna help you to be practical and learn what's important.",
+      "imageUrl": "./6cbdafac16e3b6722ce012ce868cf7b4532cf9ddb45867401c06a49ac662af00.jpg",
+      "featured": false
+    },
+    {
+      "title": "GraphQL Server Tutorial with Apollo Server and Express",
+      "url": "https://robinwieruch.de/graphql-apollo-server-tutorial",
+      "description": "Learn how to build a GraphQL server with Apollo Server and Express with authentication, authorization, pagination, subscription, database access, tests, etc.",
+      "imageUrl": "./e2bff74157353c35148cede64602d3ccefc2875cd3a653a1ecf6ffaa7982eaf0.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Building Microservices: Designing Fine-Grained Systems",
+    "author": "Sam Newman",
+    "description": "Distributed systems have become more fine-grained in the past 10 years, shifting from code-heavy monolithic applications to smaller, self-contained microservices. But developing these systems brings its own set of headaches. With lots of examples and practical advice, this book takes a holistic view of the topics that system architects and administrators must consider when building, managing, and evolving microservice architectures.",
+    "coverImageUrl": "./1575a11c0c5e3af091d32426cf1cdcb142f177a57d156a18bad7df292b50a78c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491950358/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491950358/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

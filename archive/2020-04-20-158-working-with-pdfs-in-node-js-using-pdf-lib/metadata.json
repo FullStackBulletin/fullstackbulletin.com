@@ -1,0 +1,75 @@
+{
+  "issueNumber": 158,
+  "title": "Working With PDFs in Node.js Using pdf-lib",
+  "slug": "2020-04-20-158-working-with-pdfs-in-node-js-using-pdf-lib",
+  "date": "2020-04-20",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #16, 2020",
+  "quote": {
+    "text": "The real danger is not that computers will begin to think like men, but that men will begin to think like computers",
+    "author": "Sydney Harris",
+    "authorTitle": "Journalist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Sydney_Harris"
+  },
+  "links": [
+    {
+      "title": "Working With PDFs in Node.js Using pdf-lib",
+      "url": "http://thecodebarbarian.com/working-with-pdfs-in-node-js",
+      "description": "The pdf-lib npm module makes it easy to create and modify PDFs, including combining two PDFs and adding page numbers. In this article, you will find some interesting examples!",
+      "imageUrl": "./63e10b6c6838528763950d23025ebcb5370b0757350be422730088b2c928c220.jpg",
+      "featured": true
+    },
+    {
+      "title": "Attack matrix for Kubernetes",
+      "url": "https://microsoft.com/security/blog/2020/04/02/attack-matrix-kubernetes",
+      "description": "While Kubernetes has many advantages, it also brings new security challenges. If you are considering Kubernetes, this article will help you to adjust your security perspective towards it!",
+      "imageUrl": "./12e91ae7c1fa263b2e2289a3653df4751e92b1eab1654a25fb54922651dee412.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building dark mode on Stack Overflow",
+      "url": "https://stackoverflow.blog/2020/03/31/building-dark-mode-on-stack-overflow",
+      "description": "A very detailed article that tells how StackOverflow designed their \"Dark Mode\" feature. A great use case if you are thinking to build a similar feature.",
+      "imageUrl": "./c80b8eb8786dfc026bd7cdba64f43155ddf3aeec0cb1f0655868c87b565bbde9.jpg",
+      "featured": false
+    },
+    {
+      "title": "MVP.css - Minimalist stylesheet for HTML elements",
+      "url": "https://andybrewer.github.io/mvp",
+      "description": "MVP.css - No classes, no framework. Just semantic HTML and you're done. Really a great tool for simple and minimalistic websites!",
+      "imageUrl": "./2af974970a46773b0871d3e62803ff8430bf32bf06f98cddeafd2dba7b77668d.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Static Future",
+      "url": "https://joshwcomeau.com/gatsby/a-static-future",
+      "description": "What are static websites and why are they taking over the web (again...)? In this article, you will learn what is a static website and what are the advantages of building one using Gatsby.js.",
+      "imageUrl": "./84f5b62e6e34695e70ffa4f37da41b37530177d73540046ecf7d7000cc69b2a9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rendering charts with OffscreenCanvas",
+      "url": "https://blog.scottlogic.com/2020/03/19/offscreen-canvas.html",
+      "description": "Rendering charts can be a very intensive operation for the browser, especially multiple charting widgets in the context of a wider application. OffscreenCanvas is growing in browser support and allows canvas rendering to be delegated to a WebWorker.",
+      "imageUrl": "./c1da1f726ecde2f6744f4ba68589d155f3dfaba8b6d899472cc022a33318c2a9.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS Variables for React Devs",
+      "url": "https://joshwcomeau.com/css/css-variables-for-react-devs",
+      "description": "Another great article by Josh W. Comeau, giving us an interesting perspective on how we could use CSS variables as a simple alternative to CSS-in-JS.",
+      "imageUrl": "./59c54428fe302a77698c13b697ad5fcf29615695787a8bef9628fce3e0969559.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Scraping with Python: Collecting Data from the Modern Web",
+    "author": "Ryan Mitchell",
+    "description": "Learn web scraping and crawling techniques to access unlimited data from any web source in any format. With this practical guide, you’ll learn how to use Python scripts and web APIs to gather and process data from thousands—or even millions—of web pages at once. Ideal for programmers, security professionals, and web administrators familiar with Python, this book not only teaches basic web scraping mechanics, but also delves into more advanced topics, such as analyzing raw data or using scrapers for frontend website testing.",
+    "coverImageUrl": "./3b1c651ba95d78b7e56b9d061b654489f967bb664b283d5be64ac9f029b88bec.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B00ZJNH0G0/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B00ZJNH0G0/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

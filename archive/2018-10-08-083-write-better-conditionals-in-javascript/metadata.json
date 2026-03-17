@@ -1,0 +1,75 @@
+{
+  "issueNumber": 83,
+  "title": "Write Better Conditionals in JavaScript",
+  "slug": "2018-10-08-083-write-better-conditionals-in-javascript",
+  "date": "2018-10-08",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #40, 2018",
+  "quote": {
+    "text": "Should array indices start at 0 or 1?  My compromise of 0.5 was rejected without, I thought, proper consideration",
+    "author": "Stan Kelly-Bootle",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stan_Kelly-Bootle"
+  },
+  "links": [
+    {
+      "title": "Write Better Conditionals in JavaScript",
+      "url": "http://scotch.io/tutorials/5-tips-to-write-better-conditionals-in-javascript",
+      "description": "When working with JavaScript, we deal a lot with conditionals, in this article you will find 5 tips for you to write better and cleaner conditionals.",
+      "imageUrl": "./69a0f9c739a1f0f49bddb82b343f1609040c25e08f8b053f27a7d3e7c9b447fd.jpg",
+      "featured": true
+    },
+    {
+      "title": "On Node Framework Popularity",
+      "url": "https://hueniverse.com/on-node-framework-popularity-355fbde5cbe4",
+      "description": "Eran Hammer, the creator of the Hapi framework, ventured into a research on the current status of Node.js web frameworks. In his research, Eran asked developers how they feel about the frameworks they use and tried to find interesting patterns to understand what the future can bring us.",
+      "imageUrl": "./017db2c7cf0b8f433cbe952eede318e4fd27ff9771544f27fa1014515844d439.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to write X in both Python 3 and JavaScript",
+      "url": "https://sayazamurai.github.io/python-vs-javascript",
+      "description": "Python and JavaScript are two of the most popular programming languages. If you're a Python programmer learning JavaScript, or a JavaScript programmer learning Python, this handy cheat sheet might help you.",
+      "imageUrl": "./a970c9de0816b004e55cd92c228c5718a0d8e69158ce7363eaf951ed747ed8b2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Eleven Tips to Scale Node.js",
+      "url": "https://medium.com/microsoftazure/eleven-tips-to-scale-node-js-65cbf6deef6e",
+      "description": "A collection of useful tips to help you write better Node.js with the goal of making software that scales in the cloud and that is easy to deal with within an organization.",
+      "imageUrl": "./6bebafa5682277c76b9e382ef83f8d5c234943a5cd16b63bc2e8d60c7358dd90.jpg",
+      "featured": false
+    },
+    {
+      "title": "Kubernetes: The Surprisingly Affordable Platform for Personal Projects",
+      "url": "http://www.doxsey.net/blog/kubernetes--the-surprisingly-affordable-platform-for-personal-projects",
+      "description": "An interesting point of view about Kubernetes and how it can be used even for small scale personal projects. This serves both as a quick intro to the advantages of Kubernetes and as a practical advice to \"productionize\" your next project.",
+      "imageUrl": "./2852611736716ea1d0a6be29941a0a2203496d169dd5deabf220cf40c2be8a0b.png",
+      "featured": false
+    },
+    {
+      "title": "How to Test React Components using Jest and Enzyme",
+      "url": "https://blog.bitsrc.io/how-to-test-react-components-using-jest-and-enzyme-fab851a43875",
+      "description": "Learn how to test React components using Jest and Enzyme",
+      "imageUrl": "./f975ae62838676c1acd8df44167c996f4e56cb2156df740c7d1e4a7b19162eb9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Parcel v1.10.0 released",
+      "url": "https://medium.com/@devongovett/parcel-v1-10-0-babel-7-flow-elm-and-more-c20736553573",
+      "description": "Parcel v1.10.0. has been released and it brings support for Babel 7, Flow, Elm and more. Check it out!",
+      "imageUrl": "./d43968272694a9ed55f50ba6e5eb697224848f03b3d077c7a51b79e5f518a9b6.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Introduction to Algorithms, Third Edition (International Edition)",
+    "author": "Thomas H. Cormen",
+    "description": "Some books on algorithms are rigorous but incomplete; others cover masses of material but lack rigor.  Introduction to Algorithms uniquely combines rigor and comprehensiveness. The book covers a broad range of algorithms in depth, yet makes their design and analysis accessible to all levels of readers. Each chapter is relatively self-contained and can be used as a unit of study. The algorithms are described in English and in a pseudocode designed to be readable by anyone who has done a little programming. The explanations have been kept elementary without sacrificing depth of coverage or mathematical rigor.",
+    "coverImageUrl": "./ada166c15107ba9d6c6eec0fcaaef5daa371a0f2d5e3550a7ea6e624aed90770.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0262533057/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0262533057/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

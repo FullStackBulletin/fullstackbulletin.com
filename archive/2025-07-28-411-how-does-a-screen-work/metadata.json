@@ -1,0 +1,92 @@
+{
+  "issueNumber": 431,
+  "title": "How does a screen work?",
+  "slug": "2025-07-28-411-how-does-a-screen-work",
+  "date": "2025-07-28",
+  "templateType": "mce-mailchimp",
+  "intro": "Yo, I was on holiday last week too... or at least that’s what I told my calendar.\n\nIn reality, it was one of *those* breaks. The kind where you step away from work to catch up on all the personal stuff you’ve been putting off for months. You know, life admin, overdue errands, maybe a bit of DIY chaos. So now I’m back at my desk thinking... I could really use a holiday to recover from my holiday.\n\nAnyway, enough rambling. Let’s get back to the fullstack love!\n\nSince I wasn’t knee-deep in debugging or working through specific technical problems, my reading pattern went a bit off-script. I wandered, explored, and clicked on whatever looked fun or intriguing in the moment. So this week’s issue might feel a little more eclectic than usual... think of it as a mix-tape of curiosities that happened to grab my attention. Hopefully, you’ll find something unexpected that inspires you too.\n\nEnjoy!\n— Luciano\n\nPS: A few readers mentioned that the current email layout isn’t super readable on mobile Gmail (Android). This kind of feedback is incredibly helpful. If you’re having trouble reading the newsletter on your device too, please reply to this email and include a screenshot along with your device details. I’ll do my best to cook up a layout that works better for everyone!",
+  "quote": {
+    "text": "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human“",
+    "author": "Alan Turing",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Turing"
+  },
+  "links": [
+    {
+      "title": "How does a screen work?",
+      "url": "https://makingsoftware.com/chapters/how-a-screen-works",
+      "description": "Okay, so this one’s a little off-script for FullStack Bulletin. It’s not your typical deep dive into a JavaScript quirk or a shiny new backend tool. But I loved it. I’ve been working with screens for as long as I can remember, and somehow I never stopped to ask... how do these things actually work? Maybe it resonated more because I’m not really a hardware person, but this beautifully illustrated piece opened up a whole new corner of curiosity for me. It walks through the magic behind cathode rays, liquid crystals, and pixels with clarity and charm. If you’re up for a brief detour from code and want to come back with a new layer of awe for the folks who make our hardware hum, this is a must-read.",
+      "imageUrl": "./01ef6ed6a175fd3d84d348e8ba8a23039c8a409cd6eb7aa15681c702f4408a86.png",
+      "featured": true
+    },
+    {
+      "title": "Tooooools.app",
+      "url": "https://tooooools.app/",
+      "description": "If you just finished reading about how CRT screens work and thought, “Wow, I kinda miss that fuzzy scanline glow”, you're going to love this next one. Tooooools is not your typical image generator. There’s no AI here, no prompts, no diffusion models. Instead, it’s a delightful playground of pure image processing algorithms. Think: stippling, dithering, edge detection, cellular automata, and my personal favorite, a CRT filter that looks like it was plucked straight from a dusty arcade cabinet. The best part? Many of the effects can be exported as SVG, which makes this a surprisingly useful tool for web design. Whether you're crafting hero backgrounds, textures, or weird generative art, this one's worth bookmarking.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "shadcn/ui Theme Editor & Generator",
+      "url": "https://tweakcn.com/",
+      "description": "If you’ve been living under a rock (or just away from the React scene), **shadcn/ui** is the wildly popular component library that pairs beautifully with **Tailwind** and **Radix**. It’s clean, accessible, and ridiculously nice to work with. But lately, I can’t help noticing a certain… sameness creeping across the web. **Shadcn** is starting to feel a bit like the new **Bootstrap**. Every other site looks kinda the same. Now, I’m not here to bash it. I use it too and love it. But if you want your site to stand out just a little more, **Tweakcn** is your new best friend. It’s a visual theme editor for shadcn that lets you customize colors, fonts, radius, shadows, and more. No digging through config files. Just click, tweak, and copy your theme. A perfect way to stay in the ecosystem while giving your site a bit more personality.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How to Think About Time in Programming",
+      "url": "https://shanrauf.com/archive/how-to-think-about-time-in-programming",
+      "description": "Ah, time. The bane of every programmer's existence! Don’t tell me you’ve never been burned by a timezone bug or watched a test fail because of daylight saving. We’ve all been there, squinting at logs and wondering why “tomorrow” starts two hours early... or in the past. This piece is a thoughtful breakdown of why handling time is way messier than it looks. It challenges the usual advice like “just use UTC” and explains why you can’t make general assumptions about how civil time works. Timezone offsets can change at any moment, leap seconds throw off your long-term math, and every region plays by its own arbitrary rules. If you want to reason about time without losing sleep (literally), this guide offers the mental model you need. Clear, grounded, and full of insights that can save you from nasty surprises.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "We migrated our site to Eleventy and increased performance by 24%",
+      "url": "https://etch.co/blog/we-migrated-our-site-to-eleventy-and-increased-performance-by-24-percent",
+      "description": "You know me... I’m a sucker for static sites and static site generators. **Astro** has been my go-to lately, but **Eleventy** held the crown for a long time, and it still has a cozy little spot in my heart. It’s simple, powerful, and I still reach for it when I want something lightweight and no-fuss. If you're looking for a reason to give Eleventy a spin, this team’s migration story delivers. They moved their site from **Next.js** to Eleventy and saw a huge improvement in performance and maintainability... without removing a single feature! Their Lighthouse score jumped from 76 to 97, JavaScript payload shrank from over 2MB to just 11KB, and they dropped from 1,115 npm dependencies to only 13. If you care about speed, simplicity, and sanity, this one’s worth a read.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A Friendly Introduction to SVG",
+      "url": "https://joshwcomeau.com/svg/friendly-introduction-to-svg",
+      "description": "SVGs are hands down one of the most exciting technologies we have in the browser toolbox. You can use them for crisp illustrations, snappy animations, and interactive graphics, all sweetly packed into a compact, scalable format that looks great on any screen. This friendly guide is the perfect way to level up your SVG game. It walks you through the basics like shapes, lines, and polygons, then builds up to powerful techniques like animated strokes and presentational attributes. You’ll also learn how to make your SVGs truly scalable and visually sharp in any context.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Kigen Color Generator",
+      "url": "https://kigen.design/color",
+      "description": "If you’re into **Tailwind** (guilty as charged), you’re going to love this one. And even if you’re not, it’s still a pretty slick little tool. Kigen Color makes it super easy to build and tweak your own color palettes. It’s perfect if you want to create a custom Tailwind-compatible scale, but you can also export the colors however you like. I’ve been playing with it just for fun, and honestly, it’s kind of addictive. A great way to bring a bit more harmony (and personality) to your UIs.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Acing the System Design Interview",
+    "author": "Zhiyong Tan",
+    "description": "The system design interview is one of the hardest challenges you'll face in the software engineering hiring process. This practical book gives you the insights, the skills, and the hands-on practice you need to ace the toughest system design interview questions and land the job and salary you want.In Acing the System Design Interview you will master a structured and organized approach to present system design ideas like:",
+    "coverImageUrl": "./38fc8052a2cdf798f78e170cf99975eb733b08c8db3c6d3ce136023436bea275.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1633439100?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1633439100?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "1KB JS Numbers Station",
+      "url": "https://shkspr.mobi/blog/2025/07/1kb-js-numbers-station"
+    },
+    {
+      "title": "A Better Promise.all() — Utility Types and Functions",
+      "url": "https://spin.atomicobject.com/better-promise-all"
+    },
+    {
+      "title": "Artisanal Handcrafted Git Repositories",
+      "url": "https://drew.silcock.dev/blog/artisanal-git"
+    },
+    {
+      "title": "Algorithms for making interesting organic simulations",
+      "url": "https://bleuje.com/physarum-explanation"
+    }
+  ],
+  "sponsor": null
+}

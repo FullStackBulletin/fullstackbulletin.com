@@ -1,5 +1,44 @@
 # fullstackbulletin.com
 
-[![Build](https://github.com/FullStackBulletin/fullstackbulletin.com/actions/workflows/build.yml/badge.svg)](https://github.com/FullStackBulletin/fullstackbulletin.com/actions/workflows/build.yml)
+Static website for [FullStack Bulletin](https://fullstackbulletin.com), a weekly newsletter for full-stack developers. Built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
 
-The source code for [fullstackbulletin.com](https://fullstackbulletin.com) website.
+## Quick start
+
+```bash
+pnpm install
+pnpm dev       # Start dev server
+pnpm build     # Production build (outputs to dist/)
+pnpm preview   # Preview production build
+pnpm test      # Run Playwright tests
+```
+
+## Project structure
+
+```
+├── archive/          # Scraped newsletter data (committed)
+├── images/           # Deduplicated images by SHA-256 hash (committed)
+├── scripts/          # Utility scripts (scrape, extract, rename, deduplicate)
+├── src/              # Astro source (pages, components, layouts, lib)
+├── public/           # Static assets (logos, icons)
+├── tests/            # Playwright accessibility tests
+└── copy-archive-images.mjs  # Prebuild: copies images/ → public/archive-images/
+```
+
+## Scripts
+
+| Script | Description |
+|--------|-------------|
+| `scripts/scrape-archives.mjs` | Scrape newsletter archives from Buttondown |
+| `scripts/extract-metadata.mjs` | Extract structured metadata from scraped HTML |
+| `scripts/rename-archives.mjs` | Normalize archive folder names |
+| `scripts/deduplicate-images.mjs` | Deduplicate images by SHA-256 hash |
+| `scripts/fix-book-covers.mjs` | Fix missing book cover images |
+| `scripts/renumber-issues.mjs` | Renumber issue metadata |
+
+## Deployment
+
+GitHub Actions (`.github/workflows/build.yml`) builds and deploys to the `gh-pages` branch on push to `main`.
+
+## License
+
+[MIT](LICENSE)

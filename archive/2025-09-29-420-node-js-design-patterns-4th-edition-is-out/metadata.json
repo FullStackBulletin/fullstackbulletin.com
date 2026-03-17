@@ -1,0 +1,120 @@
+{
+  "issueNumber": 440,
+  "title": "Node.js Design Patterns 4th edition is out!",
+  "slug": "2025-09-29-420-node-js-design-patterns-4th-edition-is-out",
+  "date": "2025-09-29",
+  "templateType": "buttondown-markdown",
+  "intro": "Hello,\n\nLast week was truly special for me for TWO BIG REASONS.\n\nFirst, after a year of hard work, the new edition of [Node.js Design Patterns](https://nodejsdesignpatterns.com/) is finally out. I cannot wait to hear what you think. And, to make it worth your while, I left a small gift waiting for you, so start with the first piece below to find out more. 🎁\n\nSecond, on a very personal note, I became a dad. I will spare you the whirlwind of emotions, fears, and sense of responsibility I am going through right now, and I will just keep this editorial intro short... So, enjoy the fresh batch of hand picked full-stack reads waiting for you below!\n\nP.S. I have some paternity leave to enjoy now, so I might decide to skip next week's issue. I hope you will understand and forgive me... 😜\n\nSee you soon, space cowgirl/cowboy! 👋🤠 \n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "It's supposed to be automatic, but actually you have to push this button",
+    "author": "John Brunner",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_Brunner?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=440-nodejs-design-patterns-4th-ed-is-out"
+  },
+  "links": [
+    {
+      "title": "Node.js Design Patterns 4th edition is out!",
+      "url": "https://nodejsdesignpatterns.com/",
+      "description": "Quick heads up. this is a bit of personal prop since I am one of the authors, but it is absolutely relevant to the world of full stack development: the 4th edition of Node.js Design Patterns is out as of last week. The goal of this book has always been to help JavaScript developers master the intricacies of server side development so they can build reliable and efficient applications with confidence. In other words, we wanted to take readers on a journey so that they can feel real senior when working on Node projects. When the first edition arrived 11 years ago, Node felt like the new kid. Since then the ecosystem has grown up with us, we got async and await, a move to ESM, a stronger standard library, better tooling, and a culture that values testing, performance, and reliability. This new edition is our love letter to that evolution. To achieve that, we rebuilt the book from the ground up with modern JavaScript throughout, clearer guidance on scalability and distributed systems, practical patterns for resilience performance and security, and a full chapter on testing with the built in Node test runner plus Playwright for E2E. There is also a nice perk. an **entirely free chapter** on **streams** that you can grab from the website. It is about 80 pages of hands on insight that helps you write faster leaner and more scalable Node.js code. [**Check the website**](https://nodejsdesignpatterns.com/)",
+      "imageUrl": "./cba1bb8e2bf9499689d0ce39adc3eb120046489b1948787da8d9f0d6121e6a71.jpg",
+      "featured": true
+    },
+    {
+      "title": "What You Need to Know about Modern CSS (2025 Edition)",
+      "url": "https://frontendmasters.com/blog/what-you-need-to-know-about-modern-css-2025-edition",
+      "description": "If you thought 2024 was packed with amazing new CSS, you are right. But 2025 keeps the momentum and the payoff is bigger than pretty visuals. Modern CSS is changing the frontend game by letting us drop a lot of JavaScript we used to need for UI polish. Think container queries, subgrid, the has selector, view transitions, scroll driven animations, and richer color tools. These features cover layout, state based styling, and motion right in the stylesheet. This post gives quick examples you can scan and copy, plus sensible notes on when to reach for each feature. The result is a cleaner separation of concerns. HTML is for content, JavaScript is for interaction, CSS is for look and feel. Finally, this separation of concerns is starting to feel right!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Pulling strings at Ruby Central: forcing Bundler and RubyGems takeover",
+      "url": "https://joel.drapper.me/p/rubygems-takeover",
+      "description": "If Ruby is not your daily driver, a quick primer helps: **RubyGems** is the package manager and public registry for gems (libraries), and **Bundler** is the dependency manager that locks and installs exact versions for an app. If you work in JavaScript, think npm plus the npm registry. A command line tool plus a central service that hosts packages and metadata. The post alleges that Ruby Central, under financial pressure and sponsor scrutiny, moved to centralize control over the RubyGems and Bundler codebases by removing community maintainers and collapsing the boundary between the open source projects and the rubygems.org service. It frames this as governance overreach, with supply chain security offered as a later justification. Ruby Central’s public stance is that, as the nonprofit steward, it has a duty to tighten governance and production access. The organization presents these moves as part of a security minded restructuring and a clearer stewardship model. Why this matters is simple. RubyGems and Bundler sit at the heart of Ruby, much like npm does for Node.js. Questions about who controls the code versus who runs the hosted service cut to the core of open source legitimacy. Even if the goal is stronger security, how authority is asserted, and by whom, sets precedents for trust and transparency across the ecosystem. The situation is still evolving, so reading both the investigation and [Ruby Central’s statement](https://rubycentral.org/news/strengthening-the-stewardship-of-rubygems-and-bundler/) helps you form a balanced view.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Python-style kwargs in TypeScript",
+      "url": "https://xavd.id/blog/post/python-kwargs-in-typescript",
+      "description": "I often hit this point with TypeScript functions: once I cross three or four arguments, I prefer to pass a single well typed object with key and value pairs. It lets me provide parameters in any order, gives me clear labels at the call site, and makes optional arguments painless. It also gives me Python vibes making me think of `kwargs`: a Python feature that lets you pass arguments in any order as long as you provide them as key and value pairs. This post shows how to bring that spirit to TypeScript without losing type safety or autocomplete. You get object parameters with strong typing, sensible defaults, and tidy patterns that keep your intent obvious and your APIs easy to evolve.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "AI Is Redefining the Concept of a Programming Language's Popularity",
+      "url": "https://spectrum.ieee.org/top-programming-languages-2025",
+      "description": "IEEE Spectrum’s 2025 language rankings are out with a few clean takeaways. Python holds the top spot by far this year and also leads the Jobs view. SQL remains a hiring magnet. JavaScript slips to sixth in the main Spectrum list, which reflects shifting web work and the AI pull on tooling. One personal note. the ranking treats TypeScript and JavaScript as separate languages. That feels a little unfair. If you bundle them together they would easily land in the top three on every chart. The index blends signals from searches, Q&A sites, jobs, and repos, so treat it as directional not gospel. For full-stack folks the moves are practical. Python stays a safe bet for data and automation. SQL is still table stakes. If you are invested in the JS ecosystem this is still a very safe bet (IMHO), but you should consider that the industry seems to be moving to TypeScript by default, so if that is not your bread and butter you should consider exploring it and adopting it more to stay relevant.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Designing NotebookLM",
+      "url": "https://jasonspielman.com/notebooklm",
+      "description": "This one is going to be fun if you enjoy UX and UI and want a serious case study to chew on. Getting to see how top players approach a real product is always a goldmine for new lessons. NotebookLM is an AI powered research notebook from Google that builds a tailored model from your own sources so you can summarize, ask questions, and spin up outlines with context. The piece walks through the thinking behind NotebookLM with admirable clarity. you get problem framing, constraints, information architecture, prototyping, and how the team iterated toward something that feels simple over a complex AI core. It also touches the messy parts that full stack folks care about. component states, tokens, accessibility choices, performance trade offs, and how design and engineering synced during handoff. Read it to steal patterns for data heavy flows, to see how UX principles guide micro decisions, and to sharpen the way you explain design rationale to your team.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How AWS S3 serves 1 petabyte per second on top of slow HDDs",
+      "url": "https://bigdata.2minutestreaming.com/p/how-aws-s3-scales-with-tens-of-millions-of-hard-drives",
+      "description": "And let us close this issue with a piece dedicated to those of you who love to get their hands dirty in designing highly scalable architectures. This deep dive into how S3 operates at the scale of tens of millions of hard drives is packed with concrete lessons. Think failure as the default, strict limits on blast radius, erasure coding for durability, background repair and scrubbing, smart partition keys, and ruthless automation across the control plane and the data plane. You get a clear view of how requests are routed, how hot spots are avoided, how metadata is protected, and how the system heals itself while serving global traffic. Why it matters for full stack builders: the playbook is portable. Design for immutable writes where you can, pick partition schemes that spread load, build idempotent operations, measure everything and shed load early, and treat capacity and repair as first class features. Even if you never manage a fleet this large, the mindset will make your own services sturdier and kinder to your future self.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Node.js Secure Coding: Defending Against Command Injection Vulnerabilities",
+    "author": "Liran Tal",
+    "description": "Master Node.js security through hands-on learning and best practices. Learn secure coding conventions in Node.js by executing command injection attacks on real-world npm packages and analyzing vulnerable code. The book features 33 self-assessment yes-no, fill-the-blank, and multiple answer questions to help you evaluate and test your knowledge of Node.js secure coding. You'll analyze the code of 6 vulnerable npm packages found vulnerable via CVE reports to learn best practices on command injection vulnerabilities. With 6 additional references to vulnerable npm packages, you'll strengthen your skills in secure coding. This book takes an adventure-based approach to application security learning, where you will be playing detective who unravels the mysteries of common security vulnerabilities. Through these exercises you will learn about secure coding practices, and how to avoid security pitfalls that software developers and open-source maintainers get caught with. Senior software engineers often recite how one of the most critical skills you should have as an engineer is the ability to read code. The more you read, the easier it becomes for you to understand code and the more context you gain. This book focuses exactly on that - reading vulnerable code, so we can learn from it. This activity creates patterns that our brain learns to identify and that later quickly turn into red flags that we detect and apply in our day-to-day programming and code review routines. Through insecure coding practices found in vulnerable open-source npm packages, this book examines the security aspects affecting JavaScript and Node.js applications. Developers of other languages such as Python will find references to insecure code and best practices relatively easy to transfer to other server-side languages and software ecosystems. By completing this book, you gain:",
+    "coverImageUrl": "./2b3b3725282770834765e8607c18ebb0103d108093fcf0fe45cba35921e93e0d.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1446725057",
+    "amazonUk": "https://www.amazon.co.uk/dp/1446725057"
+  },
+  "additionalLinks": [
+    {
+      "title": "eslint-plugin-react-you-might-not-need-an-effect: Catch unnecessary React useEffect hooks to make your code simpler, faster, and safer",
+      "url": "https://github.com/NickvanDyke/eslint-plugin-react-you-might-not-need-an-effect"
+    },
+    {
+      "title": "You may be looking for a useSyncExternalStore",
+      "url": "https://swizec.com/blog/you-may-be-looking-for-a-useSyncExternalStore"
+    },
+    {
+      "title": "The nuances of base64 encoding strings in JavaScript | Articles",
+      "url": "https://web.dev/articles/base64-encoding"
+    },
+    {
+      "title": "TanStack Start v1 Release Candidate",
+      "url": "https://tanstack.com/blog/announcing-tanstack-start-v1"
+    },
+    {
+      "title": "Your Images Are (Probably) Oversized",
+      "url": "https://reasonunderpressure.com/blog/posts/your-images-are-probably-oversized"
+    },
+    {
+      "title": "Integrating CSS Cascade Layers To An Existing Project",
+      "url": "https://smashingmagazine.com/2025/09/integrating-css-cascade-layers-existing-project"
+    },
+    {
+      "title": "Bundler belongs to the Ruby community",
+      "url": "https://andre.arko.net/2025/09/25/bundler-belongs-to-the-ruby-community"
+    },
+    {
+      "title": "Self hosted Google Analytics alternatives and why you should use them",
+      "url": "https://daniel.es/blog/google-analytics-alternatives"
+    },
+    {
+      "title": "Migrating to TanStack Start",
+      "url": "https://catalins.tech/migrating-to-tanstack-start"
+    },
+    {
+      "title": "How to Use Rive App to Animate Your Web and Mobile Interfaces",
+      "url": "https://premieroctet.com/blog/comment-utiliser-rive-app-pour-animer-vos-interfaces-web-et-mobiles"
+    },
+    {
+      "title": "State in the url in React (the right way)",
+      "url": "https://medium.com/@meric.emmanuel/state-in-the-url-in-react-the-right-way-3b031a3b183a"
+    }
+  ],
+  "sponsor": null
+}

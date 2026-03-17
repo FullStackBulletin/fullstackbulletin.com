@@ -1,0 +1,120 @@
+{
+  "issueNumber": 411,
+  "title": "Expressive Code",
+  "slug": "2025-02-10-392-expressive-code",
+  "date": "2025-02-10",
+  "templateType": "mce-mailchimp",
+  "intro": "Whassup ?!\nSome personal news this week! As you might know, I'm co-authoring a book about Rust and Lambda functions with [James](https://jameseastham.co.uk/), and we're taking a pretty unique self-publishing approach: releasing it to readers as soon as possible! The idea is that you get it at a discounted price (it's not a complete book yet!), we get awesome feedback and suggestions, and you get access to all future versions and new chapters for free. It's a win-win! Well, last week [we released a new version packed with improvements](https://news.rust-lambda.com/p/crabby-lambda-book-back-with-cdk) (thanks to reader suggestions!) and a brand new appendix showcasing how to use [CDK](https://docs.aws.amazon.com/cdk/v2/guide/home.html) (as an alternative to SAM) to manage your infrastructure as code, including those rusty Lambda functions! If you're curious about this side project of mine (and intrigued by Lambda and Rust as much as I am), definitely check out [*Crafting Lambda Functions in Rust*](https://rust-lambda.com/)! 🦀\n\nNow, let's get into some awesome full-stack content. I think this week's selection is particularly juicy! I really like how the content selection came out... and don't forget to check out the extra links at the bottom! There was just so much good stuff this week that I couldn't fit it all into the top 7! Enjoy!\n\nYour passionate editor,\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "First learn computer science and all the theory. Next develop a programming style. Then forget all that and just hack“",
+    "author": "George Carrette",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/George_Charrette"
+  },
+  "links": [
+    {
+      "title": "Expressive Code",
+      "url": "https://expressive-code.com/",
+      "description": "Want to make your code snippets really pop on your blog or training site? Expressive Code is a web component that lets you showcase your code in visually stunning ways. One of the coolest features I've seen is the ability to use any VSCode theme (even with an automatic dark/light mode switcher!), while automatically adjusting the theme colors for optimal readability following accessibility standards. It's framework-agnostic, fully featured (syntax highlighting, code markers, etc.), and plugin-based. In fact, I'm planning to spend some time with it to see if I can easily embed it into my Astro site to replace the default renderer for markdown code blocks – that would give an extra lift to my personal blog!",
+      "imageUrl": "./2ac265b59e4de15cdfa26b9855aa981e773843bb40b80e5ee5ea80f735111834.png",
+      "featured": true
+    },
+    {
+      "title": "Oracle justified its JavaScript trademark",
+      "url": "https://deno.com/blog/deno-v-oracle2",
+      "description": "This week, Ryan Dahl (of Node.js and Deno) has written about the ongoing issue of Oracle's \"JavaScript\" trademark. It seems that Oracle continues to claim ownership despite having limited involvement with the language's development and evolution. It's certainly a situation that raises some questions about the role of trademarks in open source, and it questions who should control the future of JavaScript. To get the full details, I suggest you read his article and sign the open letter at [javascript.tm](https://javascript.tm/). I have already signed it myself, because this isn't just about a name, it's about what values we, as a community, want to stand for.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "CSS Easing Editor and Generator",
+      "url": "https://easingwizard.com/",
+      "description": "**Easing Wizard** is an interactive tool that makes crafting astonishing CSS easing functions a breeze! Visually design custom Bézier curves, experiment with realistic Spring physics, create playful Bounce effects, and add quirky Wiggle and Overshoot animations to your web projects. Plus, you can copy the code directly as plain CSS or Tailwind classes, drop them into your website items and see your animations come alive!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "CRA needs deprecation notices",
+      "url": "https://github.com/facebook/create-react-app/issues/17004",
+      "description": "React 19 has sparked a long-overdue discussion about deprecating Create React App (CRA) and this GitHub issue captures the complexities of it. As that discussion goes on, the question of whether to always adopt a meta-framework like Next.js or stick with React alone inevitably comes up. I personally believe there's still huge value in React by itself. Nothing wrong with Next.js, but I worry about it becoming the default recommendation when there are so many other great frameworks out there (Astro, TanStack, etc.)! What do you think? Do you like meta-frameworks? What are you using as a CRA alternative?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What Sits And What Fits",
+      "url": "https://cadienvan.github.io/blog/en/what-sits-and-what-fits",
+      "description": "There are textbook best practices... and then there's the unique, imperfect reality your project lives in. So what do we do with those best practices? This article dives into the crucial balance between established principles (\"sits\") and context-specific adaptations (\"fits\") in software architecture. It argues that knowing when to break the rules is as important as understanding them in the first place. It explores common examples (polymorphism, unit testing, event-driven architecture) and provides a pragmatic framework for decision-making. If you're a full-stack developer making architectural choices, this is a must-read for its approach to pragmatism over dogma, so you can apply the correct pattern to your project while being mindful of technical debt. It's a vital reminder that real-world development often requires nuance and trade-offs.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A \"section\" without an accessible name is nothing but a \"div\"",
+      "url": "https://stefanjudis.com/today-i-learned/section-accessible-name",
+      "description": "providing no semantic value for screen readers or other assistive technologies. As full-stack developers, it's important that we understand the practical implication of our code for all users of the web, not just some, and this article does a fantastic job to make us all more aware of such details!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "CSS nesting: use with caution",
+      "url": "https://piccalil.li/blog/css-nesting-use-with-caution",
+      "description": "Native CSS nesting is finally here... but is it actually a good thing? This article presents a contrarian view on the highly anticipated feature, explaining why native CSS nesting fills the author with \"dread.\" Drawing from 15+ years of CSS experience, the author dives into issues of complexity, specificity, and code maintainability.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Learn You a Haskell for Great Good!: A Beginner's Guide",
+    "author": "Miran Lipovaca",
+    "description": "It's all in the name: Learn You a Haskell for Great Good! is a hilarious, illustrated guide to this complex functional language. Packed with the author's original artwork, pop culture references, and most importantly, useful example code, this book teaches functional fundamentals in a way you never thought possible. You'll start with the kid stuff: basic syntax, recursion, types and type classes. Then once you've got the basics down, the real black belt master-class begins: you'll learn to use applicative functors, monads, zippers, and all the other mythical Haskell constructs you've only read about in storybooks.",
+    "coverImageUrl": "./5655f47df47ed8e3f6882bdef387d2799d0bc0434aa7b76d68259cda007ed3ab.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593272839?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593272839?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Building a QR Code HTML Web Component",
+      "url": "https://scottjehl.com/posts/q-r"
+    },
+    {
+      "title": "How to gif (2025 edition)",
+      "url": "https://fullystacked.net/how-to-gif-2025"
+    },
+    {
+      "title": "Pino: Node.js logger",
+      "url": "https://getpino.io/"
+    },
+    {
+      "title": "You should not use URLPattern to route HTTP requests on the server",
+      "url": "https://fullystacked.net/how-to-gif-2025"
+    },
+    {
+      "title": "Load the default OS font with CSS",
+      "url": "https://www.stefanjudis.com/blog/load-the-default-os-font-with-css/"
+    },
+    {
+      "title": "git-marge (not a typo 😜)",
+      "url": "https://github.com/mcdwayne/git-marge"
+    },
+    {
+      "title": "An alt (attribute) Decision Tree",
+      "url": "https://www.w3.org/WAI/tutorials/images/decision-tree/"
+    },
+    {
+      "title": "Build for the Web, Build on the Web, Build with the Web",
+      "url": "https://csswizardry.com/2025/01/build-for-the-web-build-on-the-web-build-with-the-web/"
+    },
+    {
+      "title": "Some Things You Might Not Know About Custom Counter Styles",
+      "url": "https://css-tricks.com/some-things-you-might-not-know-about-custom-counter-styles/"
+    },
+    {
+      "title": "Do JavaScript frameworks still need portals?",
+      "url": "https://fullystacked.net/portal/"
+    },
+    {
+      "title": "CSS margin-trim and line height units",
+      "url": "https://12daysofweb.dev/2024/css-margin-trim-line-height-units/"
+    }
+  ],
+  "sponsor": null
+}

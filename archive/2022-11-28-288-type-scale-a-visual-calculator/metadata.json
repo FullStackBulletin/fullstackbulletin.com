@@ -1,0 +1,75 @@
+{
+  "issueNumber": 301,
+  "title": "Type Scale - A Visual Calculator",
+  "slug": "2022-11-28-288-type-scale-a-visual-calculator",
+  "date": "2022-11-28",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "The difference between theory and practice is that in theory, there is no difference between theory and practice",
+    "author": "Richard Moore",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Richard_Moore"
+  },
+  "links": [
+    {
+      "title": "Type Scale - A Visual Calculator",
+      "url": "https://type-scale.com/",
+      "description": "Typography is hard (well at least for me)... but good typography makes a massive difference in every design. Good tools like this one can help to come up with designs that respect good typography principles like proportion between the size of titles and paragraphs. Check out Type Scale, I am sure you are going to love it!",
+      "imageUrl": "./07284efcc4fcf2f01e0e65435bf5fb274b324515c53e0d22c4d5b794edab551a.png",
+      "featured": true
+    },
+    {
+      "title": "An Interactive Guide to Flexbox",
+      "url": "https://joshwcomeau.com/css/interactive-guide-to-flexbox",
+      "description": "Our dear [Josh](https://www.joshwcomeau.com/) strikes again. This time with a beautiful interactive article that can teach us everything there's to know about Flexbox. When we truly learn the secrets of the Flexbox layout mode, we can build absolutely incredible things like truly fluid layouts that stretch and shrink without arbitrary breakpoints.",
+      "imageUrl": "./9a1c815d1224fa4cbcbdd5c6a7c53fa136faaaa635e73f9070886b3f43b72121.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using :has() as a CSS Parent Selector and much more",
+      "url": "https://webkit.org/blog/13096/css-has-pseudo-class",
+      "description": "It’s been a long-standing dream of front-end developers to have a way to apply CSS to an element based on what’s happening inside that element. The `:has()` pseudo-selector fulfills that dream, so let's find out its true power!",
+      "imageUrl": "./bca0538da516be710f6437358eefc4a75add6ae30fa4bdce6d3d1c95afaeca61.jpg",
+      "featured": false
+    },
+    {
+      "title": "What’s so great about functional programming anyway?",
+      "url": "https://jrsinclair.com/articles/2022/whats-so-great-about-functional-programming-anyway",
+      "description": "Sometimes I wonder if functional programming is overrated. Don't get me wrong, I actually like it a lot, but I also find that It can get a bit too clever and eventually hard to read... Is there a good tradeoff? I really like this article by [James Sinclair](https://jrsinclair.com/) where he presents tons of practical examples on how to apply functional programming pragmatically in a **JavaScript** project.",
+      "imageUrl": "./47834543c922cd959054896ff4a22b0372e8f8ec62ac74408767ac508ad704f1.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why you should never use px to set font-size in CSS",
+      "url": "https://joshcollinsworth.com/blog/never-use-px-for-font-size",
+      "description": "Many developers seem to believe there's no difference between px and other CSS units. Let's dispel that myth, for the sake of better accessibility.",
+      "imageUrl": "./05dda66849477ddabc48f156368be2500333775e40dae918f42e5e0d49f68345.jpg",
+      "featured": false
+    },
+    {
+      "title": "What Is the Open Web?",
+      "url": "https://prototypr.io/post/open-web",
+      "description": "A working definition of an Open Web and what we can strive for to building an open and sustainable internet.",
+      "imageUrl": "./f491edd390766c6e159e3fc7b85a2401b23e846e3a24242f6a3b45f6493d2477.jpg",
+      "featured": false
+    },
+    {
+      "title": "An open-source music player",
+      "url": "https://github.com/madzadev/audio-player",
+      "description": "Have you ever wondered what it takes to build an music players on the web? Yes, just HTML, CSS and JavaScript! If you are curious you can check out this open source implementation to get some ideas!",
+      "imageUrl": "./a8add18fb6f2040836c929eecfa12e70ae9ddd0e9ea5277d824f22c4c0617601.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elixir in Action",
+    "author": "Saša Jurić",
+    "description": "Elixir in Action teaches you to apply the new Elixir programming language to practical problems associated with scalability, concurrency, fault tolerance, and high availability. Elixir is a modern programming language that takes advantage of BEAM, the Erlang virtual machine, without the burden of Erlang's complex syntax and conventions. Elixir gives you Ruby-like elegance with the power to develop bulletproof distributed server systems that can handle massive numbers of simultaneous clients and run with almost no downtime.",
+    "coverImageUrl": "./490e43e003f0e552efa4caaeaf3601ab5225c857e806244ebb7a236234ac2ca7.jpg",
+    "amazonUs": "https://www.amazon.com/dp/161729201X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/161729201X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

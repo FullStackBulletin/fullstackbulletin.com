@@ -1,0 +1,75 @@
+{
+  "issueNumber": 126,
+  "title": "How to Build Good Software",
+  "slug": "2019-09-02-126-how-to-build-good-software",
+  "date": "2019-09-02",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #35, 2019",
+  "quote": {
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute",
+    "author": "Gerald Jay Sussman and Hal Abelson",
+    "authorTitle": "Computer Scientists and Authors",
+    "authorUrl": "https://en.wikipedia.org/wiki/Gerald_Jay_Sussman"
+  },
+  "links": [
+    {
+      "title": "How to Build Good Software",
+      "url": "https://www.csc.gov.sg/articles/how-to-build-good-software",
+      "description": "Software has characteristics that make it hard to build with traditional management techniques; effective development requires a different, more exploratory and iterative approach.",
+      "imageUrl": "./0b9d021eabd30aadec982bd29fb42b813bbb84d7d54bafc5eeeb2bc17033236c.jpg",
+      "featured": true
+    },
+    {
+      "title": "Color Tools For Designers 2019",
+      "url": "https://medium.muz.li/color-tools-for-designers-2019-6ebd77a94ab",
+      "description": "Designers are increasingly taking risks and using single bold colors to communicate their web design. No matter what color you need to work with to create a good color scheme, there are best practice examples all over the web.\nMoreover, when informed by color psychology, designers can make the best decisions for their color schemes that deliver emotional impact.",
+      "imageUrl": "./d9baa69669b725e8cb3fc43181341306d903c42c55e97e453bc1cc30fc2919a0.jpg",
+      "featured": false
+    },
+    {
+      "title": "All the New ES2019 Tips and Tricks",
+      "url": "https://css-tricks.com/all-the-new-es2019-tips-and-tricks",
+      "description": "The ECMAScript standard has been updated yet again with the addition of new features in ES2019. Now officially available in node, Chrome, Firefox, and Safari.",
+      "imageUrl": "./95f4c458da84363811e2ff37a6c8818f58a959ac1085def86275d47808c41f62.jpg",
+      "featured": false
+    },
+    {
+      "title": "Everything I Know About Style Guides, Design Systems, and Component Libraries",
+      "url": "https://leerob.io/blog/style-guides-component-libraries-design-systems",
+      "description": "A deep-dive on everything I've learned in the past year building style guides, design systems, component libraries, and their best practices.",
+      "imageUrl": "./434c999c1af4a5a97b7058ad662fae2a13bee6bfff2482e5d1010adc807f43be.jpg",
+      "featured": false
+    },
+    {
+      "title": "Variable Font Animation with CSS and Splitting JS",
+      "url": "https://css-irl.info/variable-font-animation-with-css-and-splitting-js",
+      "description": "A little while ago I made an animated variable font demo on Codepen. In this article I’ll explain what variable fonts are and how they can be used.",
+      "imageUrl": "./d84b733854af86346edbb1614a012f4077aa298d7a46e95875125ad4bbc2dc42.jpg",
+      "featured": false
+    },
+    {
+      "title": "React Layouts",
+      "url": "https://react-layouts.com/",
+      "description": "A collection of ready-made layouts that you can easily copy-paste into your next React project!",
+      "imageUrl": "./86184e050641e90ba883be0c4ac2fc0721fad73be220479b805e0dbf59a1d718.jpg",
+      "featured": false
+    },
+    {
+      "title": "Accessibility and web performance are not features, they’re the baseline",
+      "url": "https://css-tricks.com/accessibility-and-web-performance-are-not-features-theyre-the-baseline",
+      "description": "Why accessibility and performance should be a high priority characteristic of every web site and not just a nice-to-have feature!",
+      "imageUrl": "./e0ab120b9ce29f0c61775be3d0dd084b9c5b9eb3afbe06371b9f448df51848d2.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Building Microservices: Designing Fine-Grained Systems",
+    "author": "Sam Newman",
+    "description": "Distributed systems have become more fine-grained in the past 10 years, shifting from code-heavy monolithic applications to smaller, self-contained microservices. But developing these systems brings its own set of headaches. With lots of examples and practical advice, this book takes a holistic view of the topics that system architects and administrators must consider when building, managing, and evolving microservice architectures.",
+    "coverImageUrl": "./1575a11c0c5e3af091d32426cf1cdcb142f177a57d156a18bad7df292b50a78c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491950358/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491950358/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,108 @@
+{
+  "issueNumber": 381,
+  "title": "Reverse Engineering TicketMaster's Rotating Barcodes",
+  "slug": "2024-07-15-363-reverse-engineering-ticketmaster-s-rotating-barcodes",
+  "date": "2024-07-15",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #381!\nIn this issue, we have an excellent collection of curated full-stack content to keep you informed and inspired! The first article is fascinating to me since I also found myself trying to hack TicketMaster's new digital tickets. The first version was quite naive, you could just remove the floating bar from the DOM and take a screenshot of the barcode. Now the barcode is regenerated every 15 seconds and the author of the article needs to go into a much deeper rabbit hole to fully reverse engineer how the ticket works and how to avoid the invasive TicketMaster mobile app. It's a fascinating reading that will teach you about bar codes, bearer tokens, and OTP codes, so definitely recommended!\nI won't spoil the rest of the content here and let you discover it for yourself!\n— Your editor, [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Any sufficiently advanced technology is equivalent to magic“",
+    "author": "Arthur C. Clarke",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_C._Clarke"
+  },
+  "links": [
+    {
+      "title": "Reverse Engineering TicketMaster's Rotating Barcodes",
+      "url": "https://conduition.io/coding/ticketmaster/index.html",
+      "description": "“Screenshots won’t get you in”, but Chrome DevTools will (if you know where to look)! This article might look like a bit of off-topic, but I loved to read how the author used web technologies to reverse engineer how TicketMaster's new rotating barcode works. I personally hate as well how this new ticketing system tries to lock users down to one proprietary solution which does not help the users. If you are also into barcodes and content encoding you'll surely find this read quite fascinating.",
+      "imageUrl": "./c7fec1b132925d2de67a0403e658b5b1353313db563aabbf141af91f8a38ad47.jpg",
+      "featured": true
+    },
+    {
+      "title": "Exploring Randomness In JavaScript",
+      "url": "https://bennadel.com/blog/4669-exploring-randomness-in-javascript.htm",
+      "description": "How much random is a random number generation in JavaScript? Ben Nadel compares the randomness of `Math.random()` vs `crypto.getRandomValues()` in terms of randomness and performance.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "System Design: How to Scale a Database",
+      "url": "https://blog.algomaster.io/p/system-design-how-to-scale-a-database",
+      "description": "Have you ever wondered how big websites with hundreds of thousands of users scale their databases? This article discusses 8 different techniques commonly used to scale databases to insane levels!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Magic of Clip Path",
+      "url": "https://emilkowal.ski/ui/the-magic-of-clip-path",
+      "description": "`clip-path` is often used for trimming a DOM node into specific shapes, like triangles. But what if I told you that it's also great for animations?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Path To A Clean(er) React Architecture: Domain Logic",
+      "url": "https://profy.dev/article/react-architecture-domain-logic",
+      "description": "The unopinionated nature of React is a two-edged sword. On the one hand, you get freedom of choice. On the other hand, many projects end up with a custom and often messy architecture. This article is the seventh part of a series about software architecture and React apps where we take a code base with lots of bad practices and refactor it step by step. In this article, you will learn where to put all the small functions that often end up in utility files using the domain layer.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Exploring the challenges in creating an accessible sortable list (drag-and-drop)",
+      "url": "https://github.blog/2024-07-09-exploring-the-challenges-in-creating-an-accessible-sortable-list-drag-and-drop",
+      "description": "The Accessibility team at GitHub considers drag-and-drop a “high-risk pattern,” often leading to accessibility barriers and a lack of effective solutions in the industry. They developed a solution for a more accessible sortable list, which they refer to as \"one-dimensional drag-and-drop\".",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Batman-Comic.CSS",
+      "url": "https://alvaromontoro.com/blog/68056/batman-comic-css",
+      "description": "Move aside, TailwindCSS, the next best CSS utility-class library, is already here, and it's all about web development... and comics. Because the caped crusader makes everything better! Check out this awesome CSS library that allows you to make Batman comics! Why wouldn't you want to do that?!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Python Crash Course, 3rd Edition: A Hands-On, Project-Based Introduction to Programming",
+    "author": "Eric Matthes",
+    "description": "You'll start by learning basic programming concepts, such as variables, lists, classes, and loops, and practice writing clean code with exercises for each topic. You'll also learn how to make your programs interactive and test your code safely before adding it to a project. You'll put your new knowledge into practice by creating a Space Invaders-inspired arcade game, building a set of data visualizations with Python's handy libraries, and deploying a simple application online. As you work through the book, you'll learn how to:",
+    "coverImageUrl": "./7312b740a933a23e65baeab406eb5e840dd8839b45bc89d907104ac9b1956ed9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1718502702?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1718502702?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Rye: project and package management solution for Python",
+      "url": "https://rye.astral.sh/"
+    },
+    {
+      "title": "Script Integrity",
+      "url": "https://frontendmasters.com/blog/script-integrity"
+    },
+    {
+      "title": "Sneaky React Memory Leaks: How the React compiler won’t save you",
+      "url": "https://schiener.io/2024-07-07/react-closures-compiler"
+    },
+    {
+      "title": "Serverless AI Inference with Gemma 2 using Mozilla's llamafile on AWS Lambda",
+      "url": "https://unremarkable.ai/serverless-ai-inference-with-gemma-2-using-mozillas-llamafile-on-aws-lambda"
+    },
+    {
+      "title": "Flexbox Layouts",
+      "url": "https://codu.co/articles/flexbox-layouts-oki7h3br"
+    },
+    {
+      "title": "Moving from Express to Fastify",
+      "url": "https://blog.val.town/blog/fastify"
+    },
+    {
+      "title": "Learn Suspense by Building a Suspense-Enabled Library",
+      "url": "https://bbss.dev/posts/react-learn-suspense"
+    },
+    {
+      "title": "Which (AWS) load balancer should you use? (podcast)",
+      "url": "https://awsbites.com/127-load-balancers/"
+    }
+  ],
+  "sponsor": null
+}

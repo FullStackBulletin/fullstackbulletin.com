@@ -1,0 +1,75 @@
+{
+  "issueNumber": 89,
+  "title": "Introducing Imba",
+  "slug": "2018-11-26-089-introducing-imba",
+  "date": "2018-11-26",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #47, 2018",
+  "quote": {
+    "text": "The difference between theory and practice is that in theory, there is no difference between theory and practice",
+    "author": "Richard Moore",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Richard_Moore"
+  },
+  "links": [
+    {
+      "title": "Introducing Imba",
+      "url": "http://imba.io/",
+      "description": "**Create complex web apps with ease!**\n\nImba was born to make developing web applications fun again. It features a clean and readable syntax inspired by ruby, compiles to readable and performant JavaScript, and works inside the existing ecosystem.",
+      "imageUrl": "./edb6e745b6b7513133448aa6881c446f850cb8f952523ed029f941d5e11f7002.png",
+      "featured": true
+    },
+    {
+      "title": "Redesigning your product and website for dark mode",
+      "url": "https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode",
+      "description": "Some OSes and Browsers now offer a \"Dark appearance option\" in their preferences. If you enable that you will be able to request websites to render their \"dark-optimized version\" rather than their regular one. Of course, it's not magic and websites have to support this option. If you want to learn how to make your website \"dark-aware\", this fantastic article is for you!",
+      "imageUrl": "./bfc82a09b596b417992d971f2054f1974697f0d9e2929e1186b8ecd14bda9692.png",
+      "featured": false
+    },
+    {
+      "title": "These are the concepts you should know in React.js",
+      "url": "https://medium.freecodecamp.org/these-are-the-concepts-you-should-know-in-react-js-after-you-learn-the-basics-ee1d2f4b8030",
+      "description": "You’ve followed your first React.js tutorial and you’re feeling great. Now what? In this article, you will discover 5 concepts that you have to learn after you feel confident with React basics.",
+      "imageUrl": "./04b2c2a63a1673914892478438f140ae42da976e5a6c990a10d6b9a72d9725eb.jpg",
+      "featured": false
+    },
+    {
+      "title": "Implementing Smooth Scrolling in React",
+      "url": "http://scotch.io/tutorials/implementing-smooth-scrolling-in-react",
+      "description": "Smooth Scrolling, dont know what it is? Well, instead of clicking on a button and being instantly taken to a different part of the (same) page, the user is navigated there via a scroll animation.\n\nThis tutorial will show you how to implement this technique in React using the NPM package, react-scroll.",
+      "imageUrl": "./f954f993eafe1366506dc88cc0404342388372bceec6ee7c988a304dae121ced.jpg",
+      "featured": false
+    },
+    {
+      "title": "async_hooks in node.js, illustrated",
+      "url": "https://medium.com/the-node-js-collection/async-hooks-in-node-js-illustrated-b7ce1344111f",
+      "description": "If you have been active in Node.js you probably already heard of **async_hooks**, since they came out in Node.js 8. If you never digged deeper about this new feature, this article will go in great detail to show you when this API can be used an how.",
+      "imageUrl": "./757a1ded3ce6b800d87be84a456bbd0920dd5e933174cca840ec732296fe281e.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Writable Files API",
+      "url": "https://developers.google.com/web/updates/2018/11/writable-files",
+      "description": "The writable files API is designed to increase interoperability of web applications with native applications, making it possible for users to choose files or directories that a web app can interact with on the native file system, and without having to use a native wrapper like Electron to ship your web app.",
+      "imageUrl": "./67337487a3e95d6b84878aaa4215b190433e7b03c754130b7bf591b3a892d0cc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Inlining or Caching? Both Please!",
+      "url": "https://filamentgroup.com/lab/inlining-cache.html",
+      "description": "If you ever asked yourself “*I wonder if the new Service Worker and Caching APIs could enable caching for inline code*”, well you should know that \"*they can*\" and this article will go into great detail to show you how!",
+      "imageUrl": "./c2711fd629c6b2ecdf08bcbbae5e74477e0fda2934726c022ebf6b508c57f1c6.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elixir in Action",
+    "author": "Saša Jurić",
+    "description": "Elixir in Action teaches you to apply the new Elixir programming language to practical problems associated with scalability, concurrency, fault tolerance, and high availability. Elixir is a modern programming language that takes advantage of BEAM, the Erlang virtual machine, without the burden of Erlang's complex syntax and conventions. Elixir gives you Ruby-like elegance with the power to develop bulletproof distributed server systems that can handle massive numbers of simultaneous clients and run with almost no downtime.",
+    "coverImageUrl": "./490e43e003f0e552efa4caaeaf3601ab5225c857e806244ebb7a236234ac2ca7.jpg",
+    "amazonUs": "https://www.amazon.com/dp/161729201X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/161729201X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,96 @@
+{
+  "issueNumber": 377,
+  "title": "Translating React apps with i18next",
+  "slug": "2024-06-17-359-translating-react-apps-with-i18next",
+  "date": "2024-06-17",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #377. I am curating this issue from [beautiful Puglia](https://unsplash.com/s/photos/puglia) where I am right now to attending a wedding. Lots to do and see... and eat! And the sun is shining, so you can imagine that I don't have a lot of time to invest in trying to come up with a clever intro for this issue 😛\n\nWith that being said, I am pretty pleased with how this issue turned out, so I hope you'll enjoy the selection of content! So, without further ado, let's get better at full-stack web development together! That is... after I finish my [burrata](https://unsplash.com/photos/white-round-ceramic-plate-with-white-cream-MnHjM1XiTrc)! 🤤\n\n— Your editor, [Luciano](https://x.com/loige)",
+  "quote": {
+    "text": "Fight Features … The only way to make software secure, reliable, and fast is to make it small“",
+    "author": "Andrew S. Tanenbaum",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum"
+  },
+  "links": [
+    {
+      "title": "Translating React apps with i18next and testing them End-to-End with Playwright",
+      "url": "https://wanago.io/2024/05/13/react-internationalization-end-to-end-tests-playwright",
+      "description": "If you ever needed to build a React frontend that could support multiple languages, you probably bumped into the awesome `react-i18next` library. In this article, you don't just get a primer on how to use the library but also a rundown on how to test your views in different languages using Playwritght. Why is this important? Well, text in different languages can span over very different sizes and sometimes this can have unpredictable effects on the look and feel of your app!",
+      "imageUrl": "./b7f1fcbcf39ff3341fd28572331e11342681aeab58bc753e198235d1c8c8ae0a.png",
+      "featured": true
+    },
+    {
+      "title": "A modern approach to browser support",
+      "url": "https://clearleft.com/thinking/a-modern-approach-to-browser-support",
+      "description": "In this article, you can learn about the Clearleft browser support policy. This is a very relevant read if your work requires you to design and build websites for customers who might have very specific expectations about which browser versions will be supported. It also touches on the evergreen topic of progressive enhancement, so all over a great read!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Data Fetching Patterns in Single-Page Applications",
+      "url": "https://martinfowler.com/articles/data-fetch-spa.html",
+      "description": "This article presents five different patterns to help Single Page Applications (SPAs) fetch data from remote sources. Spoiler: fetching data in a dynamic frontend app is not as trivial as it might seem...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Promises From The Ground Up",
+      "url": "https://joshwcomeau.com/javascript/promises",
+      "description": "“Promises”: one of the coolest things in JavaScript and yet one of the most misunderstood and misused APIs that the language has to offer. But that's no one's fault. It is surprisingly tricky to understand and use promises correctly. Without the right context, it doesn’t make much sense at all! In this tutorial, you’ll build an intuition for how Promises work by getting a deeper understanding of JavaScript and its limitations.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "CSS Length Units",
+      "url": "https://css-tricks.com/css-length-units",
+      "description": "A comprehensive guide covering nine types of lengths that CSS uses to size elements in terms of dimensions, space, time, and even sound.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Lessons from starting, building, and exiting a devtools startup",
+      "url": "https://boristane.com/blog/learnings-from-starting-building-and-exiting-a-devtools-startup",
+      "description": "Our dear friend [Boris Tane](https://x.com/boristane) shares his key learnings from building Baselime, an awesome startup in the field of cloud observability, and how they eventually sold the company to CloudFlare. Not necessarily a full-stack heavy read, but some of the advice here is timeless and can be applied to any software project!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "In Praise Of The Basics",
+      "url": "https://smashingmagazine.com/2024/05/in-praise-of-the-basics",
+      "description": "What does it mean to learn the “basics”, or fundamentals, of front-end web development? Is starting with HTML and CSS still the best entry point to learn how to make websites and apps when we have a seemingly endless supply of frameworks? Geoff Graham thinks so and discusses why you might consider going “back to basics” to start or move forward in your career.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Complete Developer: Master the Full Stack with TypeScript, React, Next.js, MongoDB, and Docker",
+    "author": "Martin Krause",
+    "description": "A hands-on, beginner-friendly approach to developing complete web applications from the ground up, using JavaScript and its most popular frameworks, including Node.js and React.js.Whether you've been in the developer kitchen for decades or are just taking the plunge to do it yourself, The Complete Developer will show you how to build and implement every component of a modern stack—from scratch. You'll go from a React-driven frontend to a fully fleshed-out backend with Mongoose, MongoDB, and a complete set of REST and GraphQL APIs, and back again through the whole Next.js stack. The book's easy-to-follow, step-by-step recipes will teach you how to build a web server with Express.js, create custom API routes, deploy applications via self-contained microservices, and add a reactive, component-based UI. You'll leverage command line tools and full-stack frameworks to build an application whose no-effort user management rides on GitHub logins. Whether you're an experienced software engineer or new to DIY web development, The Complete Developer will teach you to succeed with the modern full stack. After all, control matters.",
+    "coverImageUrl": "./c56fe3e54ac88730fa2bee795fc36b3e4914a91c72743e077aef29dbb9e8e1e2.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1718503288?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1718503288?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "How Deep is Your DOM?",
+      "url": "https://frontendatscale.com/blog/how-deep-is-your-dom"
+    },
+    {
+      "title": "“Just” One Line",
+      "url": "https://blog.jim-nielsen.com/2024/just-one-line"
+    },
+    {
+      "title": "Type Fluidity",
+      "url": "https://wearerequired.github.io/fluidity"
+    },
+    {
+      "title": "How to write unit tests when using the AWS JavaScript SDK v3?",
+      "url": "https://cloudonaut.io/how-to-unit-test-aws-javascript-sdk-v3"
+    },
+    {
+      "title": "A first look at CloudFront Hosting Toolkit (podcast)",
+      "url": "https://awsbites.com/125-a-first-look-at-cloudfront-hosting-toolkit"
+    }
+  ],
+  "sponsor": null
+}

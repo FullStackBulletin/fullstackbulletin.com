@@ -1,0 +1,75 @@
+{
+  "issueNumber": 132,
+  "title": "Same app in React and Vue",
+  "slug": "2019-10-14-132-same-app-in-react-and-vue",
+  "date": "2019-10-14",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #41, 2019",
+  "quote": {
+    "text": "I think computer viruses should count as life.  I think it says something about human nature that the only form of life we have created so far is purely destructive.  We’ve created life in our own image",
+    "author": "Stephen Hawking",
+    "authorTitle": "Theoretical physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+  },
+  "links": [
+    {
+      "title": "Same app in React and Vue",
+      "url": "https://medium.com/javascript-in-plain-english/i-created-the-exact-same-app-in-react-and-vue-here-are-the-differences-2019-edition-42ba2cab9e56",
+      "description": "React vs Vue. Finally, a side-by-side code comparison between Vue and React (updated for 2019 with React Hooks).",
+      "imageUrl": "./ac395c32128d4b0644c605eb95638531c09e96e8b086164118f16b6e228b5249.jpg",
+      "featured": true
+    },
+    {
+      "title": "SQL queries don't start with SELECT",
+      "url": "https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select",
+      "description": "Well at least from the perspective of the execution engine... This article delves into a clear explanation of how SELECT queries are actually executed and what's the priority of the different statements that might be contained in it.",
+      "imageUrl": "./c56f16fdea775568720f4c19b2ffeec5563a9fd6bc34bd3888cceae252f287ac.jpg",
+      "featured": false
+    },
+    {
+      "title": "Timsort",
+      "url": "https://hackernoon.com/timsort-the-fastest-sorting-algorithm-youve-never-heard-of-36b28417f399",
+      "description": "Timsort is a very fast, O(n log n), stable sorting algorithm built for the real world  which powers the default behaviour of many programming languages. It's deemed to be one of the fastest algorithms in most real-life use cases!",
+      "imageUrl": "./987f53d13612197866163c4e0d18b5747943676b5676c5a3b6d073af9e064ce2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Design Systems for Developers",
+      "url": "https://learnstorybook.com/design-systems-for-developers",
+      "description": "Discover how to build and maintain real-life design systems using Storybook.",
+      "imageUrl": "./24fe6126b72874bb4e9fe427214850362769f673b27bc92c08aa091dcfa00d8e.jpg",
+      "featured": false
+    },
+    {
+      "title": "React Hook Form",
+      "url": "https://react-hook-form.com/",
+      "description": "A performant, flexible and extensible React (and React Native!) forms library with easy to use for validation.",
+      "imageUrl": "./7a8d5dbc31f5a44b75a91cfd5a6a4fdeca30cc127ec4526aa3e9c270c3022c8e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Build a PWA Using Only Vanilla JavaScript",
+      "url": "https://levelup.gitconnected.com/build-a-pwa-using-only-vanilla-javascript-bdf1eee6f37a",
+      "description": "You don't necessarily need fancy frameworks to build PWAs. This step-by-step articles shows you how to build a Progressive Web App by just using vanilla JavaScript. In the process you will learn many useful details about PWAs.",
+      "imageUrl": "./437888afa7c51295344bf3bd0792ea871df30cbaa6fa98fbc8ba2a038c6ee4fd.jpg",
+      "featured": false
+    },
+    {
+      "title": "Images done right: Web graphics, good to the last byte",
+      "url": "https://evilmartians.com/chronicles/images-done-right-web-graphics-good-to-the-last-byte-optimization-techniques",
+      "description": "Start taking graphics on the web seriously and boost your applications' performance by learning the essentials about digital image formats.",
+      "imageUrl": "./8e5ec81c7034acb0515d0856cf725aa23880ef982a0f6c5ed1d0bf968fe08664.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Cassandra: The Definitive Guide: Distributed Data at Web Scale",
+    "author": "Jeff Carpenter and Eben Hewitt",
+    "description": "Imagine what you could do if scalability wasn't a problem. With this hands-on guide, you’ll learn how the Cassandra database management system handles hundreds of terabytes of data while remaining highly available across multiple data centers. This expanded second edition—updated for Cassandra 3.0 provides the technical details and practical examples you need to put this database to work in a production environment. Authors Jeff Carpenter and Eben Hewitt demonstrate the advantages of Cassandra’s non-relational design, with special attention to data modeling.",
+    "coverImageUrl": "./10919e24e677765bb72655af277029f8dbb8ee40b9d66eeac77305bc7fd728c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491933666/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491933666/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

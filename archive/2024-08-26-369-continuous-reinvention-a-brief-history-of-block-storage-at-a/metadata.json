@@ -1,0 +1,108 @@
+{
+  "issueNumber": 387,
+  "title": "Continuous reinvention: A brief history of block storage at AWS",
+  "slug": "2024-08-26-369-continuous-reinvention-a-brief-history-of-block-storage-at-a",
+  "date": "2024-08-26",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, Welcome back to FullStack Bulletin!\n\nI've got a pretty eclectic mix for you this week. From cutting-edge **AWS** engineering and innovation to a thorough **TSConfig** guide, and even a new **Python** package manager, there's a little something for everyone. I hope this lineup keeps you both informed and inspired.\n\nOh, and before you dive in, just a heads-up: the live stream I did last week with the [BelieveInServerless community](https://www.believeinserverless.com/) about Rust and AWS Lambda is now [up on YouTube](https://www.youtube.com/watch?v=eqUehphXNvs). I think you'll find it pretty cool.\n\nP.S. I'm diving into **Nix** right now, and honestly, it's a bit overwhelming! If you’re into it and have any resources to share, I’d love to hear from you!\n\nCheers,\n[Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Humanity is acquiring all the right technology for all the wrong reasons“",
+    "author": "R. Buckminster Fuller",
+    "authorTitle": "Inventor",
+    "authorUrl": "https://en.wikipedia.org/wiki/R._Buckminster_Fuller"
+  },
+  "links": [
+    {
+      "title": "Continuous reinvention: A brief history of block storage at AWS",
+      "url": "https://allthingsdistributed.com/2024/08/continuous-reinvention-a-brief-history-of-block-storage-at-aws.html",
+      "description": "Marc Olson, a long-time Amazonian, discusses the evolution of EBS, highlighting hard-won lessons in queueing theory, the importance of comprehensive instrumentation, and the value of incrementalism versus radical changes. It's an insightful look at how one of AWS’s foundational services has evolved to meet the needs of our customers. This is possibly not your usual full-stack read, but it's absolutely interesting story of innovation and I am sure there are some learnings there even for full-stack devs!",
+      "imageUrl": "./600a7bb60653e5c0a8d494358486b8b8486bae5197cd1d6f6a25e27b603c38c8.jpg",
+      "featured": true
+    },
+    {
+      "title": "Good Refactoring vs Bad Refactoring",
+      "url": "https://builder.io/blog/good-vs-bad-refactoring",
+      "description": "Refactoring can make your code way better - or way worse. Here's how to avoid messing up your codebase when you refactor (JavaScript) code.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The TSConfig Cheat Sheet",
+      "url": "https://totaltypescript.com/tsconfig-cheat-sheet",
+      "description": "Matt Pocock shares his favourite `tsconfig.json` and explains what every setting is used for. This is an absolute wonder if you have ever been confused by the multitude of configuration options available and struggled to come up with something working!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "uv: Unified Python packaging",
+      "url": "https://astral.sh/blog/uv-unified-python-packaging",
+      "description": "`uv` is a new Python package manager that promises to revolutionise the way you manage packages and virtual environments. It's written in Rust and it comes from the same developers that have already innovated this space with the `ruff` linter and formatter. If you are into Python, you must check out this one!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "SIMD Matters",
+      "url": "https://box2d.org/posts/2024/08/simd-matters",
+      "description": "SIMD is the holy grail of CPU performance, often out of reach. The conventional wisdom is that it is difficult to achieve real gains from SIMD. It is tempting to build a math library around SIMD hoping to get some performance gains. However, it often has no proven benefit. It just feels good to be using something we know can improve performance. This article showcases how the author of Box2D (a famous physics simulation engine also used on the web) has managed to achieve great performance by using SIMD. It's an interesting read if you work on dynamic web applications like games or simulations or are just trying to add some dynamic elements to a web page.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Real-time mouse pointers",
+      "url": "https://canva.dev/blog/engineering/realtime-mouse-pointers",
+      "description": "The engineers at Canva share how the managed to implement a multiplayer-like collaborative mode that allows multiple people to edit designs collaboratively. The most interesting bit is how they managed to synchronise the position of mouse cursors!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Authentik",
+      "url": "https://goauthentik.io/",
+      "description": "Authentik is a new open source identity provider that promises to help you with managing user and logins for your web applications. It can be easily tried with Docker and it supports a variety of protocols including SAML, OAuth and OIDC. Worth a look if you are looking for a good self-hosted option.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+    "author": "Brian Christian, and Tom Griffiths",
+    "description": "A fascinating exploration of how computer algorithms can be applied to our everyday lives, helping to solve common decision-making problems and illuminate the workings of the human mind All our lives are constrained by limited space and time, limits that give rise to a particular set of problems. What should we do, or leave undone, in a day or a lifetime? How much messiness should we accept? What balance of new activities and familiar favourites is the most fulfilling? These may seem like uniquely human quandaries, but they are not: computers, too, face the same constraints, so computer scientists have been grappling with their version of such problems for decades. And the solutions they've found have much to teach us.",
+    "coverImageUrl": "./6544a0304e1050cedcbdeba4071fb1e1cbee71a854a66bc47a2adb0e21632b0a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0670068314?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0670068314?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Exactly-Once Payments At Airbnb",
+      "url": "https://news.alvaroduran.com/p/exactly-once-payments-at-airbnb"
+    },
+    {
+      "title": "srcbookdev/srcbook: TypeScript notebook for rapid prototyping",
+      "url": "https://github.com/srcbookdev/srcbook"
+    },
+    {
+      "title": "I Built an Event Scheduler in NodeJs using Google Calendar API",
+      "url": "https://dev.to/arindam_1729/i-built-an-event-scheduler-in-nodejs-using-google-calendar-api-4c5b"
+    },
+    {
+      "title": "dahlia/logtape: Simple logging library with zero dependencies for Deno, Node.js, Bun, browsers, and edge functions",
+      "url": "https://github.com/dahlia/logtape"
+    },
+    {
+      "title": "vercel/little-date: A friendly formatter to make date ranges small & sweet",
+      "url": "https://github.com/vercel/little-date"
+    },
+    {
+      "title": "Protobuf-ES 2.0 is now generally available",
+      "url": "https://buf.build/blog/protobuf-es-v2"
+    },
+    {
+      "title": "Creating S3 Signed URLs in Node.js",
+      "url": "https://codu.co/articles/creating-s3-signed-urls-in-node-js-qtxm0avg"
+    },
+    {
+      "title": "Lambda Provisioned Concurrency (podcast)",
+      "url": "https://awsbites.com/129-lambda-provisioned-concurrency/"
+    }
+  ],
+  "sponsor": null
+}

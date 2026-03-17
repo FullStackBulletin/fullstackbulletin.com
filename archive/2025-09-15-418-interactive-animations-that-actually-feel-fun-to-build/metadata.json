@@ -1,0 +1,120 @@
+{
+  "issueNumber": 438,
+  "title": "Interactive Animations That Actually Feel Fun to Build",
+  "slug": "2025-09-15-418-interactive-animations-that-actually-feel-fun-to-build",
+  "date": "2025-09-15",
+  "templateType": "buttondown-markdown",
+  "intro": "Welcome back,\n\nI promised myself to keep this intro short, mostly because I already spent too much time crafting the animation you will see below. I hope it makes you smile, and I hope the related picks keep that energy going.\n\nI also spent a bit of time refining the automation behind this newsletter. You should notice even more links than usual at the bottom. Take a minute to explore them all, I am pretty sure there is something for everyone.\n\nEnjoy, and happy coding! \n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "It's still magic even if you know how it's done",
+    "author": "Terry Pratchett",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Terry_Pratchett?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=438-interactive-animations"
+  },
+  "links": [
+    {
+      "title": "Interactive Animations That Actually Feel Fun to Build",
+      "url": "https://rive.app/use-cases/websites",
+      "description": "Last week I stumbled across this little gem called [Rive](https://rive.app/) and... I’m kind of hooked. It’s a design and animation tool that lets you create interactive animations and export them straight into your web pages (React, plain JS, Flutter, Unity, you name it). You can pass props into the animations, listen to events from them, and really treat them like proper interactive UI elements. Not just lifeless GIFs. In fact, the FullStackBulletin logo above was made with Rive, but the exported GIF sadly butchered the frame rate. So if you want to see it in its full buttery glory, check out [the real thing](https://rive.app/community/files/23586-44122-fullstack-bulletin-animated-logo/), you can also fork it and make it yours if you want! If you’ve used [Lottie](https://airbnb.io/lottie) before, Rive feels like its grown-up sibling. More refined, more capable, and just... more fun. My favorite use cases so far? Hero sections that react to user interaction in clever, delightful ways. And yes, while Rive is mostly open source, it does have a few commercial bits. This isn’t an ad. I just think it’s genuinely cool and worth a look. [**Check Out the Web Showcase**](https://rive.app/use-cases/websites)",
+      "imageUrl": "./55fa66d0939d4cbd684e4d87a2451dcd2491579c2699714690ad91f42c332d66.gif",
+      "featured": true
+    },
+    {
+      "title": "Compromised npm Packages: chalk, debug and More!",
+      "url": "https://aikido.dev/blog/npm-debug-and-chalk-packages-compromised",
+      "description": "We are switching to a less fun but absolutely important read. Multiple npm packages including `chalk` and `debug` briefly shipped malicious code that runs in the browser and silently intercepts wallet interactions, rewriting crypto transactions to attacker addresses. The breach began with a very convincing phishing email that pretended to be from npm support and triggered a two factor reset on a maintainer account. Since these packages see roughly 2 billion (with a *\"B\"*!) downloads per week, there is a real chance one of your projects pulled a bad release. So open the article and check the full list of affected packages and versions. Then verify the exact versions in your lock file, clean your npm cache, reinstall everything from a clean state, and make sure you are using a lock file with pinned versions going forward.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Gardenind Your Dependencies",
+      "url": "https://blog.val.town/gardening-dependencies",
+      "description": "Speaking of `package.json`, have you ever watched `node_modules` balloon into the heaviest object in the universe? You know [the meme](https://www.reddit.com/r/ProgrammerHumor/comments/6s0wov/heaviest_objects_in_the_universe/). This piece shares practical tactics to map what you actually use, prune stowaways, prefer built in Node.js and Web APIs, swap bulky toolkits for smaller focused ones, and set guardrails with pinned versions and regular reviews. The advice comes from a complex real-world codebase, so you get honest lessons learned. If dependency drift and slow installs are wearing you down, this read can be a satisfying reset.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Writing Code Is Easy. Reading It Is Hard!",
+      "url": "https://idiallo.com/blog/writing-code-is-easy-reading-is-hard",
+      "description": "Wow. How did we get this far without talking about AI? Quick reality check. This opinion piece argues that writing code is not the hard part anymore. Reading and changing it is where the real cost lives. The analogies land, the point is clear, and the timing feels perfect. If you are hyped about AI models that can spray out dozens of functions in seconds, this will nudge you back toward the work that actually matters: clarity of intent, naming, structure, and the patience to write less code so your future self and your teammates can read it without pain. A short read that might make you want to refactor something today.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "mdream: Make your docs AI friendly",
+      "url": "https://github.com/harlan-zw/mdream",
+      "description": "I found a neat helper for maintainers who want AI to use their libraries correctly. `mdream` (clever name, BTW!) converts any site into clean Markdown and into an `llms.txt` guide, which boosts AI discoverability and gives users a simple way to generate fresh context for your project. It runs as a CLI and has a crawler which includes a custom HTML to Markdown converter tuned for LLMs that often cuts tokens by about fifty percent, outputs minimal GitHub Flavored Markdown with frontmatter and nested and HTML markup support. You do not need to be an open source maintainer to benefit. If a site or project you rely on does not publish an `llms.txt` yet, this is a quick way to generate more effective AI documentation and context. [**Check Repo**](https://github.com/harlan-zw/mdream)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Liquid Glass in CSS and SVG",
+      "url": "https://kube.io/blog/liquid-glass-css-svg",
+      "description": "Are you one of those people who got hyped for last week’s iPhone launch? No judgment. I peeked too, and Apple’s marketing tricks still impress me. But I digress, because what I really want to talk about is *Liquid Glass*. I have not used it yet on any of my devices, but I keep seeing folks try to recreate the effect on the web and it is genuinely impressive. This article is a standout. it walks through the actual physics behind the look, then ties it to practical CSS and SVG with beautiful interactive visuals that make everything crystal clear. If you are into graphics, this one is a treat.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Continuous accessibility checks",
+      "url": "https://github.com/be-lenka/be-a11y",
+      "description": "Here is another delightful and useful open source CLI. How do you know if your websites are accessible? Sure, there are plenty of tools that give you a one off report, but `be-a11y` is one that fits in your CI and checks every page on every build. Open a pull request, get a merge check, and stop accessibility from regressing before it ships. I plan to use it on my site and a few static sites I maintain. [**Check Repo**](https://github.com/be-lenka/be-a11y)",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Rust Atomics and Locks: Low-Level Concurrency in Practice",
+    "author": "Mara Bos",
+    "description": "The Rust programming language is extremely well suited for concurrency, and its ecosystem has many libraries that include lots of concurrent data structures, locks, and more. But implementing those structures correctly can be very difficult. Even in the most well-used libraries, memory ordering bugs are not uncommon. In this practical book, Mara Bos, leader of the Rust library team, helps Rust programmers of all levels gain a clear understanding of low-level concurrency. You'll learn everything about atomics and memory ordering and how they're combined with basic operating system APIs to build common primitives like mutexes and condition variables. Once you're done, you'll have a firm grasp of how Rust's memory model, the processor, and the role of the operating system all fit together. With this guide, you'll learn:",
+    "coverImageUrl": "./1566045a33c77ea1ce7eca0115427209e37bdbeb7506b863d34c3ec98a6978e7.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1098119444",
+    "amazonUk": "https://www.amazon.co.uk/dp/1098119444"
+  },
+  "additionalLinks": [
+    {
+      "title": "Engineering an AI App",
+      "url": "https://resend.com/blog/engineering-an-ai-app"
+    },
+    {
+      "title": "Physically Based Rendering From First Principles",
+      "url": "https://imadr.me/pbr"
+    },
+    {
+      "title": "YAML Quiz",
+      "url": "https://ohyaml.wtf/"
+    },
+    {
+      "title": "Visual Effect: Interactive Effect Playground",
+      "url": "https://effect.kitlangton.com/"
+    },
+    {
+      "title": "Lessons Learned From Building a Sync Engine and Reactivity System With SQLite",
+      "url": "https://finkelstein.fr/sqlite-sync-engine-with-reactivity"
+    },
+    {
+      "title": "“Your” vs “My” in User Interfaces",
+      "url": "https://adamsilver.io/blog/your-vs-my-in-user-interfaces"
+    },
+    {
+      "title": "The Fundamentals of CSS Alignment",
+      "url": "https://css-tip.com/explore/alignment"
+    },
+    {
+      "title": "TypeScript Coverage Report: Node Command Tool to Generate TypeScript Coverage Report",
+      "url": "https://github.com/alexcanessa/typescript-coverage-report"
+    },
+    {
+      "title": "React Form Builder: Drag and Drop Form Builder With JSON Schema",
+      "url": "https://builder.coltorapps.com/"
+    },
+    {
+      "title": "15 React Anti Patterns (and Fixes) You’ll Actually Use",
+      "url": "https://jsdev.space/react-anti-patterns-2025"
+    },
+    {
+      "title": "Feedsmith: Feed Parser and Generator Library",
+      "url": "https://feedsmith.dev/"
+    }
+  ],
+  "sponsor": null
+}

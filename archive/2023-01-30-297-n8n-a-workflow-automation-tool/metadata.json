@@ -1,0 +1,75 @@
+{
+  "issueNumber": 310,
+  "title": "n8n - a workflow automation tool",
+  "slug": "2023-01-30-297-n8n-a-workflow-automation-tool",
+  "date": "2023-01-30",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Just because something doesn’t do what you planned it to do doesn’t mean it’s useless",
+    "author": "Thomas Edison",
+    "authorTitle": "Inventor",
+    "authorUrl": "https://en.wikipedia.org/wiki/Thomas_Edison"
+  },
+  "links": [
+    {
+      "title": "n8n - a workflow automation tool",
+      "url": "https://n8n.io/",
+      "description": "n8n is a free and open-source **low-code** workflow automation tool. Imagine something similar to Zapier that allows you to connect several remote services easily, but that you can host and run yourself even in a local raspberry PI. It could be an interesting approach to save time and build integrations quickly. Want to give it a shot? Just run `**npx n8n run**`.",
+      "imageUrl": "./689f061cb7d093a9c778f6e2f2f3745ec0fa5f56835ff8a0f42d57af9182c3dd.png",
+      "featured": true
+    },
+    {
+      "title": "Merging vs. Rebasing",
+      "url": "https://atlassian.com/git/tutorials/merging-vs-rebasing",
+      "description": "Last week I did mess up (again) another git rebase attempt... For this reason, I thought it would be good to go back to the basics and review all the theories behind this git operation. Then I bumped into this great article that compares rebase and merge commits. Definitely recommended if you are like me and, at times, struggle with some more advanced git topics.",
+      "imageUrl": "./9888eeb02847fded2fc81fed8e224adbe52854308778788e9e0b57e1e3f99f6e.jpg",
+      "featured": false
+    },
+    {
+      "title": "The illustrated guide to S3 pre-signed URLs",
+      "url": "https://fourtheorem.com/the-illustrated-guide-to-s3-pre-signed-urls/",
+      "description": "A couple of weeks ago I tried to put black on white everything I know about S3 pre-signed URLs. If you build serverless architectures on AWS and are wondering how to implement file upload and download capabilities, this article is probably for you!",
+      "imageUrl": "./9f78da29ae263680d7a80efe5647fce87dab8602ba0f11cd91560ff619c5f042.png",
+      "featured": false
+    },
+    {
+      "title": "Gluon",
+      "url": "https://gluonjs.org/",
+      "description": "A framework for creating desktop apps from websites, using system-installed browsers and Node.js. Quite useful for all those web apps that you would prefer to use as desktop applications (and maybe add some custom workflow on top).",
+      "imageUrl": "./8f3809e653cb56551259b039b5defad0c23468a936c63885abf6dc52d4af690e.png",
+      "featured": false
+    },
+    {
+      "title": "Optimizing The Image Element LCP",
+      "url": "https://smashingmagazine.com/2023/01/optimizing-image-element-lcp",
+      "description": "Largest Contentful Paint (or LCP) is a major web performance KPI which is still a new concept for many web developers since it became a ranking factor just recently. In this article, Eloïse Martin provides an overview of the best practices for the integration and optimization of an LCP image.",
+      "imageUrl": "./f9de641a50a30c08677d57d2ef8baa3cfecf9e23926297bae3ace2e5e1a6f9eb.jpg",
+      "featured": false
+    },
+    {
+      "title": "History of Web Browser Engines from 1990 until today",
+      "url": "https://eylenburg.github.io/browser_engines.htm",
+      "description": "Once upon a time, we used to have tons of different browsers and rendering engines. Now everything is flattening and there are just a few serious contenders. This will certainly have an impact on the future of the web and on our work as full-stack web developers. So let's try to have a look at the history of Web Browser Engines since 1990, so we can speculate on what the future holds for us!",
+      "imageUrl": "./01b8c09b2f1f9f492f347f9fcddec49613f9cc4316d02a4ec8c17d37e2a6a23a.png",
+      "featured": false
+    },
+    {
+      "title": "A Node.js module that generates images from HTML",
+      "url": "https://github.com/frinyvonnick/node-html-to-image",
+      "description": "A Node.js module that generates images from HTML. It could be an interesting option if you want to generate complex images programmatically, for instance, the open graph image for your next blog post.",
+      "imageUrl": "./804fb3d0bb7873fa50fda187c3205ca5400b14c312e267574566d3317ae86b44.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Regular Expressions",
+    "author": "Jeffrey E. F. Friedl",
+    "description": "Regular expressions are an extremely powerful tool for manipulating text and data. They are now standard features in a wide range of languages and popular tools, including Perl, Python, Ruby, Java, VB.NET and C# (and any language using the .NET Framework), PHP, and MySQL.If you don't use regular expressions yet, you will discover in this book a whole new world of mastery over your data. If you already use them, you'll appreciate this book's unprecedented detail and breadth of coverage.",
+    "coverImageUrl": "./396d6f15a915700637c37f7d2fcde88b8839c4580fbc81d9acd6add805980fd3.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0596528124/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0596528124/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

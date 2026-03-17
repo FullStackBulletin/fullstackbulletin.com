@@ -1,0 +1,75 @@
+{
+  "issueNumber": 177,
+  "title": "Web Scraping without getting blocked",
+  "slug": "2020-08-31-177-web-scraping-without-getting-blocked",
+  "date": "2020-08-31",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #35, 2020",
+  "quote": {
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute",
+    "author": "Gerald Jay Sussman and Hal Abelson",
+    "authorTitle": "Computer Scientists and Authors",
+    "authorUrl": "https://en.wikipedia.org/wiki/Gerald_Jay_Sussman"
+  },
+  "links": [
+    {
+      "title": "Web Scraping without getting blocked",
+      "url": "https://scrapingbee.com/blog/web-scraping-without-getting-blocked",
+      "description": "Browser fingerprinting, TLS fingerprinting, Chrome headless, headers spoofing and more. Here is everything we know about how to scrape the web without getting blocked.",
+      "imageUrl": "./3e1b6ec856fc8e879bcde94131823450e8193daf7c83dec2bf6836fcaad95530.png",
+      "featured": true
+    },
+    {
+      "title": "Optimize SEO and Social Media Sharing in a Nuxt blog",
+      "url": "https://vuedose.tips/optimize-seo-and-social-media-sharing-in-a-nuxt-blog",
+      "description": "Do you want your blog to reach an audience? Then you should have SEO in your mind. Learn two techniques you can easily apply to your Nuxt blog.",
+      "imageUrl": "./7e729b8a1bcb31ee39083a550e9f0696544a18958101d718ab51af03408a4951.jpg",
+      "featured": false
+    },
+    {
+      "title": "Charca/bootbot",
+      "url": "https://github.com/Charca/bootbot",
+      "description": "An interesting Open source Facebook Messenger Bot Framework for Node.js. If you like Node.js and you are thinking to write a Facebook Bot, definitely have a look at this project :)",
+      "imageUrl": "./3dd32f7ef81b5624584f53446bf1e65db470b9fe0436d5ae9baa385218bc53bf.png",
+      "featured": false
+    },
+    {
+      "title": "An Introduction to Metrics, Monitoring, and Alerting",
+      "url": "https://digitalocean.com/community/tutorials/an-introduction-to-metrics-monitoring-and-alerting",
+      "description": "Understanding the state of your infrastructure and systems is essential for ensuring the reliability and stability of your services. In this guide, we will discuss what metrics, monitoring, and alerting are.",
+      "imageUrl": "./3a19aa62473dccf7fd11d03a117e86b0da507698be6c5089411a0a37135e4523.jpg",
+      "featured": false
+    },
+    {
+      "title": "RustConf 2020 recap",
+      "url": "https://github.com/poteto/rustconf-2020",
+      "description": "A repository that provides aggregation of links that summarize RustConf 2020. If you are into Rust (or learning Rust), this is an incredible resource to find amazing FREE content!",
+      "imageUrl": "./9fc392fb168754644fccf2aeaee11f9acbf291dc73dec76ce7e2330fc167d756.png",
+      "featured": false
+    },
+    {
+      "title": "A clean start for the web - macwright.com",
+      "url": "https://macwright.com/2020/08/22/clean-starts-for-the-web.html",
+      "description": "Daydreaming a post-HTML Utopia. An inspirational article for those who think that the web could have turned out to be much different than it is today!",
+      "imageUrl": "./e483df7bbaf36b53608ffd6c37213eb59f3b411b7fcaa036cffa0da3bbc86a9b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Security Best Practices for Node.js",
+      "url": "https://blog.appsignal.com/2020/08/12/security-best-practices-for-nodejs.html",
+      "description": "Let's go through the most critical security risks for Node.js web applications.",
+      "imageUrl": "./fee8da719578b0cc09c893b07b19d2cd5d66905427954b0c7229f782e96ceaca.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Building Microservices: Designing Fine-Grained Systems",
+    "author": "Sam Newman",
+    "description": "Distributed systems have become more fine-grained in the past 10 years, shifting from code-heavy monolithic applications to smaller, self-contained microservices. But developing these systems brings its own set of headaches. With lots of examples and practical advice, this book takes a holistic view of the topics that system architects and administrators must consider when building, managing, and evolving microservice architectures.",
+    "coverImageUrl": "./1575a11c0c5e3af091d32426cf1cdcb142f177a57d156a18bad7df292b50a78c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491950358/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491950358/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

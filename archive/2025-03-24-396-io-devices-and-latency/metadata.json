@@ -1,0 +1,108 @@
+{
+  "issueNumber": 415,
+  "title": "IO devices and latency",
+  "slug": "2025-03-24-396-io-devices-and-latency",
+  "date": "2025-03-24",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nThis week’s edition is a true full-stack buffet: we’ve got IO performance deep-dives, JavaScript/SQL puzzles to sharpen your skills, a spicy critique of Go’s `return (T, error)` pattern, and even a dead-simple GitHub Actions workflow for deploying static sites. Whether you’re debugging a legacy monolith or tinkering with greenfield code, there’s something here to fuel your next “aha!” moment.\n\nPS: I’ll be at [AWS Community Day Italy](https://www.awscommunityday.it/) in Milan on April 2nd! If you’re there, come say *Ciao*, I’d love to connect!\n\nStay curious & keep learning ✌️\n\n— Your editor, [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "A year spent in artificial intelligence is enough to make one believe in God.“",
+    "author": "Alan Perlis",
+    "authorTitle": null,
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Perlis"
+  },
+  "links": [
+    {
+      "title": "IO devices and latency",
+      "url": "https://planetscale.com/blog/io-devices-and-latency",
+      "description": "Damn! I love those articles with tons of interactive widgets that allow you to play around with the concepts that are being presented to you. This is one of those and it's an excellent one to understand different types of IO devices and their tradeoffs truly.  OK, this is maybe not out usual bread and butter as full-stack web devs, but I'd argue that understanding how storage works will make us more well-rounded software engineers, so I'd recommend having a peek at this one!",
+      "imageUrl": "./8c7196f68c5b62901c28c4c0ab72d3403bea453e5cce7a9ee2bc449745151d7f.png",
+      "featured": true
+    },
+    {
+      "title": "Design by Decision Fatigue",
+      "url": "https://questdb.com/blog/design-by-decision-fatigue",
+      "description": "Last week, I bumped into this article and really enjoyed it! The author unpacks how early technical choices (frameworks, code structure, etc.) in greenfield projects seed future tech debt. They share battle-tested strategies (prototyping, documenting decisions, leveraging opinionated tools, etc.) to combat decision fatigue. Full-stack devs juggle layered decisions daily; this is a playbook that can help you balance speed of delivery and long-term maintainability.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Rsdoctor hits v1.0",
+      "url": "https://rsdoctor.dev/",
+      "description": "Last week, the team behind **Rsdoctor** announce the release of their first stable version. If you never heard of Rsdoctor, it is a build analyzer for the Rspack/webpack ecosystems, that offers visualized build insights, bottleneck detection, and custom optimization rules to understand what happens behind the scenes of complex builds. You can think of it like a \"CT scan\" for your build process. It pinpoints slow plugins, debug Rspack’s built-in loaders, and auto-scan for warnings. As a bonus, being written in Rust (in case you didn't guess that from the name!), it's supposedly super fast!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A Perplexing Javascript Parsing Puzzle",
+      "url": "https://hillelwayne.com/post/javascript-puzzle",
+      "description": "OK, I admit that even with more than 15 years of JavaScript experience I failed at this one... So, are you ready for a little intriguing challenge? You'll need to look at some seemingly simple piece of JavaScript code and guess what is the value that the script is going to be evaluated to...  I'll give you just one spoiler: you'll be learning something new and unexpected about some legacy characteristics of the language. Also, I have a strong recommendation: please don't use this challenge in a technical interview!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Building and deploying a custom site using GitHub Actions and GitHub Pages",
+      "url": "https://til.simonwillison.net/github-actions/github-pages",
+      "description": "GitHub actions and GitHub pages are my favourite way to deploy static websites (and I have loads of them!) so I couldn't pass on this article :). This article showcases a minimal pattern for building a completely custom website using GitHub Actions and deploying the result to GitHub Pages. If you use something not custom (e.g. Next.js, VuePress, Docusaurus, or Astro) you can easily swap that `echo '<h1>Hello, world!</h1>' > _site/index.html` with your framework specific build step and off you go!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "SQL Squid Game",
+      "url": "https://datalemur.com/sql-game",
+      "description": "Here we go with another challenge. This is actually more than a single challenge. It's an entire game where you can test and improve your SQL skills while competing for rounds of Squid game (Yeah the same one of the TV Show). So, is your SQL good enough for you to survive through these challenges? A funny little way to get better a SQL. Check it out! [**Play the game**](https://datalemur.com/sql-game)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Were multiple return values Go's biggest mistake?",
+      "url": "https://herecomesthemoon.net/2025/03/multiple-return-values-in-go",
+      "description": "Whenever I use JavaScript, Python, C#, Java, or other exception-based languages I always find myself trying to avoid exceptions. There are many reasons for that and I should eventually write a blog post about it, but in short, it comes down to the \"action at distance\" problem. Your `catch` blocks often end up very far away from the exceptions you are handling, which is something that makes the code hard to read and maintain in the long term. That's why I have always appreciated different approaches based on plain value types like the ones adopted by Go and Rust. This article is actually a bit critical on some details of the Go implementation, but if you are a languages nerd like me, I am sure you'll enjoy this perspective.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Architecture Patterns with Python: Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices",
+    "author": "Harry Percival, and Bob Gregory",
+    "description": "As Python continues to grow in popularity, projects are becoming larger and more complex. Many Python developers are taking an interest in high-level software design patterns such as hexagonal/clean architecture, event-driven architecture, and the strategic patterns prescribed by domain-driven design (DDD). But translating those patterns into Python isn't always straightforward. With this hands-on guide, Harry Percival and Bob Gregory from MADE.com introduce proven architectural design patterns to help Python developers manage application complexity―and get the most value out of their test suites. Each pattern is illustrated with concrete examples in beautiful, idiomatic Python, avoiding some of the verbosity of Java and C# syntax",
+    "coverImageUrl": "./4ee9931f96171d4406198c8adde436c24b12f19c28feacfdea0d70b01c0df640.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492052205?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492052205?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Handling billions of invocations – best practices from AWS Lambda",
+      "url": "https://aws.amazon.com/blogs/compute/handling-billions-of-invocations-best-practices-from-aws-lambda"
+    },
+    {
+      "title": "Beyond React.memo: Smarter Ways to Optimize Performance",
+      "url": "https://cekrem.github.io/posts/beyond-react-memo-smarter-performance-optimization"
+    },
+    {
+      "title": "The JavaScript Oxidation Compiler",
+      "url": "https://github.com/oxc-project"
+    },
+    {
+      "title": "Next.js vs TanStack",
+      "url": "https://kylegill.com/essays/next-vs-tanstack"
+    },
+    {
+      "title": "Common React libraries architecture",
+      "url": "https://felgus.dev/blog/common-react-lib-architecture"
+    },
+    {
+      "title": "Writing static websites with Vite and React",
+      "url": "https://blog.carlosn.com.br/post/writing-static-websites-with-vite-and-react"
+    },
+    {
+      "title": "What Makes Code Hard To Read: Visual Patterns of Complexity",
+      "url": "https://seeinglogic.com/posts/visual-readability-patterns"
+    },
+    {
+      "title": "AWS Step Functions with JSONata and Variables (AWS Bites Podcast)",
+      "url": "https://awsbites.com/141-step-functions-with-jsonata-and-variables/"
+    }
+  ],
+  "sponsor": null
+}

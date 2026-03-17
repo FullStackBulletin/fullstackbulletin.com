@@ -1,0 +1,75 @@
+{
+  "issueNumber": 257,
+  "title": "JavaScript Rising Stars",
+  "slug": "2022-01-24-246-javascript-rising-stars",
+  "date": "2022-01-24",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "All of the biggest technological inventions created by man - the airplane, the automobile, the computer - says little about his intelligence, but speaks volumes about his laziness",
+    "author": "Mark Kennedy",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Mark_Kennedy"
+  },
+  "links": [
+    {
+      "title": "JavaScript Rising Stars",
+      "url": "https://risingstars.js.org/2021/en",
+      "description": "Let's have a look at the most successful and rising JavaScript project of 2021. What's getting more traction and what's worth learning? Our favourite picks: **Fastify**, **SWC**, **Slidev**, **Eleventy**, **Vanilla-extract** & **Vitest** but, trust us, there is a lot more to explore!",
+      "imageUrl": "./5331bc5bff9d2c824d0ad527d67cca0d5e3534d96e1d8afe024e44f4dfd56db2.jpg",
+      "featured": true
+    },
+    {
+      "title": "Slidev",
+      "url": "https://sli.dev/",
+      "description": "We liked this one so much that we wanted to put it in its own spotlight! Slidev is a super-simple yet powerful way to create technical slides by just using markdown! How cool is that? We can't wait to use this in our next talk!",
+      "imageUrl": "./a2c26addabbd0f92746ff7f2b7947a6c0e837964ad25c9ae854fc7d975b001ed.png",
+      "featured": false
+    },
+    {
+      "title": "SSH Bastion host best practices",
+      "url": "https://goteleport.com/blog/security-hardening-ssh-bastion-best-practices",
+      "description": "If you have been doing a little bit of networking and systems design you might have to build and provision your bastion host. Let's learn some best practices to build and deploy a security-hardened SSH bastion host based on OpenSSH server.",
+      "imageUrl": "./618e27e9e7cef3ea92103cd232af5407a99612f1467ed1ce72a5c4ee357a63f2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Writing a Lua VM in Rust",
+      "url": "https://notes.eatonphil.com/lua-in-rust.html",
+      "description": "Are you thinking to expand your webdev horizons a little bit? If you want to try something new you could follow this tutorial to get to play with Rust a little bit while learning how to write a minimal Lua implementation with a virtual machine from scratch!",
+      "imageUrl": "./beafbcc79b0f3bd276f2689761c6349e41b02a72398e5f8a17756181eae810ad.png",
+      "featured": false
+    },
+    {
+      "title": "TypeScript features to avoid",
+      "url": "https://executeprogram.com/blog/typescript-features-to-avoid",
+      "description": "**Enums**, **Namespaces**, **Decorators**, **Private** keyword: 4 TypeScript features that it's better to avoid for the author of this post. Are you curious to find out why? And most importantly, do you agree?",
+      "imageUrl": "./7cffb0387e6fc455a7ad35f70e10fd19a988a25436c904314af4830bb3ecc2a3.png",
+      "featured": false
+    },
+    {
+      "title": "The 60 Hottest Front-end Tools of 2021",
+      "url": "https://css-tricks.com/hottest-front-end-tools-in-2021",
+      "description": "A complete list of the most popular front-end tools in 2021, according to the Web Tools Weekly newsletter. See which resources made the list.",
+      "imageUrl": "./2a627830b9176f09a45b079fae2521da6911b6f2c9f4ef0c5e86a0a1c1e1f84d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Layout patterns",
+      "url": "https://web.dev/patterns/layout",
+      "description": "A collection of layout patterns built using modern CSS APIs that will help you build common interfaces such as cards, dynamic grid areas, and full-page layouts.",
+      "imageUrl": "./f4e3cc5108240bf731f243b3ae31fd00c80b9f209e037ec2bdecdd1adc815de7.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Designing Interfaces: Patterns for Effective Interaction Design",
+    "author": "Jenifer Tidwell",
+    "description": "Despite all of the UI toolkits available today, it's still not easy to design good application interfaces. This bestselling book is one of the few reliable sources to help you navigate through the maze of design options.",
+    "coverImageUrl": "./efd3a4879002fbb37a1b94c9c3a347059c5bfc0661f163c8e89164fe5c872c8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449379702/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449379702/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

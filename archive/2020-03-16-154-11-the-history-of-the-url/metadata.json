@@ -1,0 +1,75 @@
+{
+  "issueNumber": 154,
+  "title": "#154: The History of the URL",
+  "slug": "2020-03-16-154-11-the-history-of-the-url",
+  "date": "2020-03-16",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #11, 2020",
+  "quote": {
+    "text": "The great myth of our times is that technology is communication",
+    "author": "Libby Larsen",
+    "authorTitle": "Composer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Libby_Larsen"
+  },
+  "links": [
+    {
+      "title": "The History of the URL",
+      "url": "https://blog.cloudflare.com/the-history-of-the-url",
+      "description": "The wonderful story of how the URL came to life, from the good old times of **ARPAnet**, through the **DNS** protocol and finally the **World Wide Web** age... A must-read for every web developer!",
+      "imageUrl": "./77bf3659ad03f7c64ced2d9ee375bab78e8126a931819c52aefae3a24af2c6b6.jpg",
+      "featured": true
+    },
+    {
+      "title": "How I made a 3D game in only 2KB of JavaScript",
+      "url": "http://frankforce.com/?p=7427",
+      "description": "Who says that JavaScript is good only for web development? In this case study Frank Force, show his last JavaScript game creation ([Hue Jumper](https://killedbyapixel.itch.io/hue-jumper)) and tells the tricks he used to keep the source code hyper small. A really interesting read if you are a JavaScript aficionado or an aspiring game maker.",
+      "imageUrl": "./914fab06c44b0f6f187c72deca2acf193fb0ffff2dcc459f43ac586d4644d6f6.jpg",
+      "featured": false
+    },
+    {
+      "title": "How a 2 person startup already uses 28 other tools",
+      "url": "https://acrossapp.com/blog/how-a-2-person-startup-already-uses-28-other-tools",
+      "description": "Today we rely on tools and SaaS services more than ever. In this case study, you can see how a small startup uses 28 different tools in their day to day operations. Do you use as many tools as well?",
+      "imageUrl": "./0d46b3b98d0fcb216b7f9b173ce3e9e41246d26e6c483364f5b645da7495c4e7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Introduction to D3",
+      "url": "https://observablehq.com/@mitvis/introduction-to-d3",
+      "description": "An interactive notebook that will guide you to understand **D3**, the most famous JavaScript visualization library.",
+      "imageUrl": "./af61a3eda9fa361892383f2bbb0a1aea3959a6ce6228e2794195f5373c768e4c.jpg",
+      "featured": false
+    },
+    {
+      "title": "feltcoop/why-svelte",
+      "url": "https://github.com/feltcoop/why-svelte",
+      "description": "A GitHub repository that illustrates why the **Svelte framework** was chosen for a big project in 2020.",
+      "imageUrl": "./023c37fc108ba49a07c18949514c86a330910ef3886492622fe1b75c2f56e115.jpg",
+      "featured": false
+    },
+    {
+      "title": "Cross-Cultural Design",
+      "url": "https://alistapart.com/article/cross-cultural-design",
+      "description": "How much consideration have you given to how the text of your site is rendered when it’s localized? Do you consider whether your webfonts load in China? How dense your paragraphs appear in Korean?",
+      "imageUrl": "./a9a0a38b7ab5d6a879e1591f3bab3e7dd6afc996fdade72a2fc8c3f355c4ac3a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Stryker Mutator",
+      "url": "https://stryker-mutator.io/",
+      "description": "Stryker is a testing framework for JavaScript, C# and Scala. But Stryker is not your common testing framework, in fact, it doesn't test your code, instead, it**tests your tests**! Stryker helps you to build mutation tests: bugs are automatically inserted in your code to see if your testing suite can catch them! 😱",
+      "imageUrl": "./3a5878538dfdaec816687fb7259e8a882d5553ff596772fc284d32afcc6ea1a8.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "UX Strategy: How to Devise Innovative Digital Products that People Want",
+    "author": "Jaime Levy",
+    "description": "User experience (UX) strategy requires a careful blend of business strategy and UX design, but until now, there hasn’t been an easy-to-apply framework for executing it. This hands-on guide introduces lightweight strategy tools and techniques to help you and your team craft innovative multi-device products that people want to use. Whether you’re an entrepreneur, UX/UI designer, product manager, or part of an intrapreneurial team, this book teaches simple-to-advanced strategies that you can use in your work right away.",
+    "coverImageUrl": "./fb5bfe56ce390883cd7e92437fbc707fe0ce9062ff82c591ed2eba65ee4daa8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372864/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372864/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

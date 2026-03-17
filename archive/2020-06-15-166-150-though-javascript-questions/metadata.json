@@ -1,0 +1,75 @@
+{
+  "issueNumber": 166,
+  "title": "150+ though JavaScript questions 💪",
+  "slug": "2020-06-15-166-150-though-javascript-questions",
+  "date": "2020-06-15",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #24, 2020",
+  "quote": {
+    "text": "First learn computer science and all the theory.  Next develop a programming style.  Then forget all that and just hack",
+    "author": "George Carrette",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/George_Charrette"
+  },
+  "links": [
+    {
+      "title": "150+ though JavaScript questions 💪",
+      "url": "https://github.com/lydiahallie/javascript-questions",
+      "description": "If you consider yourself a JavaScript guru, this is a great resource to test your knowledge. If you are learning JavaScript, well, this is an even better resource as it will guide you through some classic misconceptions about many important JavaScript concepts.",
+      "imageUrl": "./85b1c8ab36d6a7f4fa3cf237ab42fa0fcd8cc6c9577b54bc6292dc041305a927.png",
+      "featured": true
+    },
+    {
+      "title": "Animate.css",
+      "url": "https://animate.style/",
+      "description": "Animate.css is a library of ready-to-use, cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and attention-guiding hints.",
+      "imageUrl": "./a709be851e88151f71b9dbd51a7b8e0c69794914e5be0276c10ff9957748feef.png",
+      "featured": false
+    },
+    {
+      "title": "CSS :is() and :where()",
+      "url": "https://webplatform.news/issues/2020-06-04",
+      "description": "CSS :is() and :where() pseudo-classes are now supported in the preview versions of both Safari (Tech Preview 106) and Firefox (version 78). Do you know what those new CSS pseudo-classes can be useful for?",
+      "imageUrl": "./ceb9332fb3321a82b76764a6a724b4044adacdaaff81701865ca1def21e9e1a9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Let's make a Teeny Tiny compiler",
+      "url": "http://web.eecs.utk.edu/~azh/blog/teenytinycompiler1.html",
+      "description": "A fantastic tutorial that teaches you how to create a compiler for a BASIC-like language using only 500 lines of Python!",
+      "imageUrl": "./de722b9926d76d90e70f6704bf3be98eb66e9414715867b99ea0925b7ffe88bc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Grid for layout, Flexbox for components",
+      "url": "http://ishadeed.com/article/grid-layout-flexbox-components",
+      "description": "Do you know when it's best to use CSS Grid vs Flexbox? It's not an easy answer and, depending on who you ask, you will probably get very different answers. With this wonderfully illustrated article, you can get an interesting perspective from A. Shadeed!",
+      "imageUrl": "./a97b41227663b792066d32bdd52e3c10afaaf7b8ba6ccdd79b571bc89b8f9fbc.jpg",
+      "featured": false
+    },
+    {
+      "title": "TitleRun",
+      "url": "https://titlerun.xyz/",
+      "description": "TitleRun is probably one of the simplest, yet most original games we have seen on the web in the last few years! Definitely worth giving it a go and checking out its source code!",
+      "imageUrl": "./fa456862f8306b1ad10ae5356b18c7fc152dc142073f777b15fdcbb99382dfa5.png",
+      "featured": false
+    },
+    {
+      "title": "Rust, Zero To Production",
+      "url": "https://lpalmieri.com/posts/2020-06-06-zero-to-production-1-setup-toolchain-ides-ci",
+      "description": "If you have been looking for resources to learn Rust, this series of articles (from which the author is creating a book!) is a great place to start. In the first issue, you will learn about the Rust ecosystem, including Setup - Toolchain, IDEs, CI.",
+      "imageUrl": "./eeefec8ad0aef5d1f73956b2c1b70fa144abb89b29bdc7bb56736854177b6b21.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Self-Taught Programmer: The Definitive Guide to Programming Professionally",
+    "author": "Cory Althoff",
+    "description": "This book is not just about learning to program; although you will learn to code. If you want to program professionally, it is not enough to learn to code; that is why, in addition to helping you learn to program, it also covers the rest of the things you need to know to program professionally that classes and books don't teach you.",
+    "coverImageUrl": "./0d26611bf9dd58f18784b3d3fcf7f9dc3df28576b928cd220faae5debef9813e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01M01YDQA/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01M01YDQA/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

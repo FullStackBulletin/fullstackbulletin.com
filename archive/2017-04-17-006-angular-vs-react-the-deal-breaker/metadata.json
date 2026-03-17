@@ -1,0 +1,68 @@
+{
+  "issueNumber": 6,
+  "title": "Angular vs React — the DEAL BREAKER",
+  "slug": "2017-04-17-006-angular-vs-react-the-deal-breaker",
+  "date": "2017-04-17",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #15, 2017",
+  "quote": {
+    "text": "This is the whole point of technology.  It creates an appetite for immortality on the one hand.  It threatens universal extinction on the other. Technology is lust removed from nature",
+    "author": "Don DeLillo",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Don_DeLillo"
+  },
+  "links": [
+    {
+      "title": "Angular vs React: the deal breaker",
+      "url": "https://hackernoon.com/angular-vs-react-the-deal-breaker-7d76c04496bc",
+      "description": "A REAL, EXTREME framework comparison",
+      "imageUrl": "./74f39607962caace4ac104ef735012e45bc30b8170e775600d81e13a412d828c.jpg",
+      "featured": true
+    },
+    {
+      "title": "How to Learn ES6",
+      "url": "https://medium.com/javascript-scene/how-to-learn-es6-47d9a1ac2620",
+      "description": "We ran a survey at about the time the standard became official in June 2015 to see how many people were using ES6. Nearly half of…",
+      "imageUrl": "./5257e4aa07d530051bee036fe5a09f6f6acfec7549b43b059070b0da2d455319.jpg",
+      "featured": false
+    },
+    {
+      "title": "Botpress - Create bots in JS",
+      "url": "https://botpress.io/",
+      "description": "An open-source ecosystem for developers to create, manage and extend bots written in Javascript. It is powered by a rich set of open-source modules built by the community.",
+      "imageUrl": "./eab9e0e0a148415c38aa9e773d143c8b175fd0da8ee9ada749788d2e65f05e8c.jpg",
+      "featured": false
+    },
+    {
+      "title": "The magic of microcopy",
+      "url": "https://uxdesign.cc/the-magic-of-microcopy-a56c5decbe1f",
+      "description": "In design, one detail that often gets overlooked is microcopy — the little bits of text that guide us through an experience. In apps and websites, microcopy includes things like button labels, hint text, and error messages.",
+      "imageUrl": "./05e03b1b0b6a2fa600160c1b075c090d65959aa01b08bc623abd1866f06da58c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Functional setState is the future of React",
+      "url": "https://medium.freecodecamp.com/functional-setstate-is-the-future-of-react-374f30401b6b",
+      "description": "React has popularized functional programming in JavaScript. This has led to giant frameworks adopting the Component-based UI pattern that…",
+      "imageUrl": "./dc7b101c8cee63965eb9d8e8f035b93007ef7d9439115965268ae9b49aa520dc.jpg",
+      "featured": false
+    },
+    {
+      "title": "I invented the web. Here are three things we need to change to save it",
+      "url": "http://theguardian.com/technology/2017/mar/11/tim-berners-lee-web-inventor-save-internet",
+      "description": "It has taken all of us to build the web we have, and now it is up to all of us to build the web we want – for everyone!",
+      "imageUrl": "./3627926f72187c76518709db86e67ca20546b17db351ecec51949251d7601063.jpg",
+      "featured": false
+    },
+    {
+      "title": "Docker Compose v3.1 & Secrets Management",
+      "url": "http://collabnix.com/archives/2565",
+      "description": "Docker Engine 1.13.1 went GA last week and introduced one of the most awaited features called Secrets Management.",
+      "imageUrl": "./62f9eb2efa5e519d674492fb2648ab810e45922b3bf1368cdac8917de0228232.jpg",
+      "featured": false
+    }
+  ],
+  "book": null,
+  "additionalLinks": null,
+  "sponsor": null
+}

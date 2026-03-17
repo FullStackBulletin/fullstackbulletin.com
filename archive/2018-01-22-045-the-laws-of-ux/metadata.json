@@ -1,0 +1,75 @@
+{
+  "issueNumber": 45,
+  "title": "The laws of UX",
+  "slug": "2018-01-22-045-the-laws-of-ux",
+  "date": "2018-01-22",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #3, 2018",
+  "quote": {
+    "text": "All of the biggest technological inventions created by man - the airplane, the automobile, the computer - says little about his intelligence, but speaks volumes about his laziness",
+    "author": "Mark Kennedy",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Mark_Kennedy"
+  },
+  "links": [
+    {
+      "title": "The laws of UX",
+      "url": "https://lawsofux.com/",
+      "description": "A beautiful collection of the key maxims that designers and developers must consider when building user interfaces.",
+      "imageUrl": "./627698355e43bf557571a7cf3861ba6365af35bfadceb4fb5b1f4fa0036104d3.jpg",
+      "featured": true
+    },
+    {
+      "title": "Building Secure PHP Software",
+      "url": "https://paragonie.com/blog/2017/12/2018-guide-building-secure-php-software",
+      "description": "Everything a developer needs to know to build secure software in the PHP programming language in the year 2018",
+      "imageUrl": "./819f0dc5cc308b4d9b849986abc6702610243e158ea19e5e9580ee81a4a96666.png",
+      "featured": false
+    },
+    {
+      "title": "Node.js + face-recognition.js",
+      "url": "https://medium.com/@muehler.v/node-js-face-recognition-js-simple-and-robust-face-recognition-using-deep-learning-ea5ba8e852",
+      "description": "Face-recognition.js is n npm package for JavaScript applications that need face recognition capabilities.",
+      "imageUrl": "./f8f6b6ecd0ed59a63a204f33ab0c6ed9784a7d503ecca712527e3b09de74b0d6.jpg",
+      "featured": false
+    },
+    {
+      "title": "PHP-PM",
+      "url": "https://laravel-news.com/php-pm",
+      "description": "PHP-PM is an open-source process manager, supercharger, and load balancer for PHP applications. PPM uses ReactPHP to achieve event-driven, non-blocking I/O with PHP.",
+      "imageUrl": "./b8dca9df211c0b9564dbee6845f8c1a68009fbf3ceb0ff97e923c81b51daf755.jpg",
+      "featured": false
+    },
+    {
+      "title": "Meet the New HTML Dialog Element",
+      "url": "https://keithjgrant.com/posts/2018/meet-the-new-dialog-element",
+      "description": "HTML 5.2 has introduced a new element for native modal dialog boxes. At first glance, it seems fairly straightforward but some nice features that might be easy to miss.",
+      "imageUrl": "./cff5ff6a4da3e91fc3ff684d89aec8f5af829ca41b8a7b70710291a6fc398f8b.png",
+      "featured": false
+    },
+    {
+      "title": "gif.js",
+      "url": "http://jnordberg.github.io/gif.js",
+      "description": "Full-featured JavaScript GIF encoder that runs in your browser.",
+      "imageUrl": "./813fd8d193419cdf7389f9223f04a1f924ec23c73d34b89ae2e8e7198851124e.png",
+      "featured": false
+    },
+    {
+      "title": "Building a Serverless REST API with Node.js and MongoDB",
+      "url": "https://hackernoon.com/building-a-serverless-rest-api-with-node-js-and-mongodb-2e0ed0638f47",
+      "description": "A tutorial that will show you how to build a REST API using Serverless, Node.js and MongoDB.",
+      "imageUrl": "./78becfdbda367ddff3fa4c502c351c11280edc0866d6e796c0c3f1bf18482097.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Designing Interfaces: Patterns for Effective Interaction Design",
+    "author": "Jenifer Tidwell",
+    "description": "Despite all of the UI toolkits available today, it's still not easy to design good application interfaces. This bestselling book is one of the few reliable sources to help you navigate through the maze of design options.",
+    "coverImageUrl": "./efd3a4879002fbb37a1b94c9c3a347059c5bfc0661f163c8e89164fe5c872c8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449379702/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449379702/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

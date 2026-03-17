@@ -1,0 +1,75 @@
+{
+  "issueNumber": 125,
+  "title": "5 Interesting Uses of JavaScript Destructuring",
+  "slug": "2019-08-26-125-5-interesting-uses-of-javascript-destructuring",
+  "date": "2019-08-26",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #34, 2019",
+  "quote": {
+    "text": "Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important",
+    "author": "Bill Gates",
+    "authorTitle": "Software Developer and Microsoft co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Bill_Gates"
+  },
+  "links": [
+    {
+      "title": "5 Interesting Uses of JavaScript Destructuring",
+      "url": "https://dmitripavlutin.com/5-interesting-uses-javascript-destructuring",
+      "description": "A list of interesting and helpful applications of destructing assignments in JavaScript.",
+      "imageUrl": "./14747e0abadd9bd704d4a55b7fdf4223f28ffe5a583f4d6da255bf144751a581.jpg",
+      "featured": true
+    },
+    {
+      "title": "Functional Programming Jargon in Rust",
+      "url": "https://functional.works-hub.com/learn/functional-programming-jargon-in-rust-1b555",
+      "description": "Functional programming (FP) provides many advantages, and its popularity has been increasing as a result. However, each programming paradigm comes with its own unique jargon and FP is no exception. By providing a glossary, we hope to make learning FP easier.",
+      "imageUrl": "./7356b30b845569feba346c912458fa4cef165d8342195cd976317e62a1fdeb00.jpg",
+      "featured": false
+    },
+    {
+      "title": "Serverless Functions With WebAssembly Modules",
+      "url": "https://dev.to/ibmdeveloper/serverless-functions-with-webassembly-modules-343e",
+      "description": "Improving performance in serverless functions using WebAssembly. Use C, C++ or Rust code compiled to Wasm modules from Node.js serverless functions.",
+      "imageUrl": "./1ba71d17bf7ef68b7ad9789d39fcc503a937b93169c97d4ba6834cb2df69b6d8.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to Schedule Any Task with AWS Lambda",
+      "url": "https://dev.to/byrro/how-to-schedule-any-task-with-aws-lambda-3617",
+      "description": "Learn how to build different task schedulers with AWS Lambda",
+      "imageUrl": "./ff49adae927871b10c523ddc7bc696a08ef2793e7d91537e2d65e7ce5f168783.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building a GraphQL server on the edge with Cloudflare Workers",
+      "url": "https://blog.cloudflare.com/building-a-graphql-server-on-the-edge-with-cloudflare-workers",
+      "description": "workers-graphql-server is a batteries-included Apollo GraphQL server, designed to get you up and running quickly with GraphQL on Cloudflare Workers platform.",
+      "imageUrl": "./0835199a0d5e96afbc50393272ad001933a0a3667d79c61f1d725e7c5add6e61.jpg",
+      "featured": false
+    },
+    {
+      "title": "Zebu",
+      "url": "https://github.com/modernserf/zebu",
+      "description": "Zebu is a JavaScript library for building  little languages with tagged template literals.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Promises and Static Values",
+      "url": "https://davidwalsh.name/promises-and-static-values",
+      "description": "Async can throw a real wrench into the cogs of our programming workflows, all despite the fact that async is the modern JavaScript pattern. While async/await helps, there's sometimes confusion about the way to have a single function that returns a value whether it exists or needs a Promise to retrieve.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Eloquent JavaScript: A Modern Introduction to Programming",
+    "author": "Marijn Haverbeke",
+    "description": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications. Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.",
+    "coverImageUrl": "./500a13f688abaf7a9f0324159c3adba6009fb65130dcfb670d2da0b1ef93b65f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593275846/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593275846/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

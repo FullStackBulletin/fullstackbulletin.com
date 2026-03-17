@@ -1,0 +1,75 @@
+{
+  "issueNumber": 103,
+  "title": "\udf08🍻 #103: A Brief History of Computer Vision",
+  "slug": "2019-03-18-103-11-a-brief-history-of-computer-vision",
+  "date": "2019-03-18",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #11, 2019",
+  "quote": {
+    "text": "The great myth of our times is that technology is communication",
+    "author": "Libby Larsen",
+    "authorTitle": "Composer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Libby_Larsen"
+  },
+  "links": [
+    {
+      "title": "A Brief History of Computer Vision",
+      "url": "https://hackernoon.com/a-brief-history-of-computer-vision-and-convolutional-neural-networks-8fe8aacc79f3",
+      "description": "Although Computer Vision has only exploded recently, computer scientists have been trying to find ways to make machines extract meaning from visual data for about 60 years now, and the history of CV is deeply fascinating. In this article, you will learn how modern CV systems, powered primarily by convolutional neural networks, came to be.",
+      "imageUrl": "./54c869339f8d47446fcb17b8032dcacd082206074b76e907b6c7693bd110008d.jpg",
+      "featured": true
+    },
+    {
+      "title": "A Complete Guide to useEffect",
+      "url": "https://overreacted.io/a-complete-guide-to-useeffect",
+      "description": "Sometimes when you the *useEffect* hook in your React components, the pieces don’t quite fit together. You have a nagging feeling that you’re missing something. It seems similar to class lifecycles… but is it really?",
+      "imageUrl": "./6c5144e2e857da25cc361619dbb651778fdb31bb1327154cb632a9ae3aa918fe.png",
+      "featured": false
+    },
+    {
+      "title": "Understand, Design, Build: A Framework for Problem-Solving",
+      "url": "https://lob.com/blog/understand-design-build-a-framework-for-problem-solving",
+      "description": "There’s a common misconception among new software professionals that the best engineers are the best at writing code. In other words, if we get really, really good at writing code, we’ll become really, really good software engineers. But is it code the only thing that matters?",
+      "imageUrl": "./54d56b3193a0a1ba8f6b34ecca876bc28c4b8381720e9adb4b60d7cfb6af3e32.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript Symbols: But Why?",
+      "url": "https://medium.com/intrinsic/javascript-symbols-but-why-6b02768f4a5c",
+      "description": "Symbols, the newest JavaScript primitive, bring a few benefits to the language and are particularly useful when used as object properties.",
+      "imageUrl": "./2ee2af751a464ac88d3efc7230031b29af323f123752cbe4fee72a7c3cebb3d6.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript Performance Pitfalls in V8",
+      "url": "https://ponyfoo.com/articles/javascript-performance-pitfalls-v8",
+      "description": "Benedikt shows how V8 compiles your JavaScript programs, and explains a few tricks you can use to avoid draining application performance down the sink.",
+      "imageUrl": "./23746817379ad354cd3d679174c1406915aa1f48b42b7545de3ce7defb6692e4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Lesser-known CSS properties in GIFs",
+      "url": "https://medium.com/@PavelLaptev/lesser-known-css-properties-in-gifs-966a143497ba",
+      "description": "A lot of developers afraid to implement some effects because they will demand JS which could be heavy and complicated, but CSS can do many many things, so maybe you don't always need fancy JS scripts...",
+      "imageUrl": "./4fa1144c3c7f67ca38c00ffdeba7fc189df81669e99593c73ff81f528d7dd1c4.jpg",
+      "featured": false
+    },
+    {
+      "title": "A gentle introduction to multithreading",
+      "url": "http://internalpointers.com/post/gentle-introduction-multithreading",
+      "description": "Approaching the world of concurrency, one step at a time.",
+      "imageUrl": "./e5593a078bfdf705c282a3e71f51fef2ae14910afb8c3a91b6bf72c6e1cfff9a.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "UX Strategy: How to Devise Innovative Digital Products that People Want",
+    "author": "Jaime Levy",
+    "description": "User experience (UX) strategy requires a careful blend of business strategy and UX design, but until now, there hasn’t been an easy-to-apply framework for executing it. This hands-on guide introduces lightweight strategy tools and techniques to help you and your team craft innovative multi-device products that people want to use. Whether you’re an entrepreneur, UX/UI designer, product manager, or part of an intrapreneurial team, this book teaches simple-to-advanced strategies that you can use in your work right away.",
+    "coverImageUrl": "./fb5bfe56ce390883cd7e92437fbc707fe0ce9062ff82c591ed2eba65ee4daa8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372864/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372864/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

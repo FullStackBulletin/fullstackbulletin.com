@@ -1,0 +1,75 @@
+{
+  "issueNumber": 264,
+  "title": "#264: A Proposal For Type Syntax in JavaScript",
+  "slug": "2022-03-14-251-264-a-proposal-for-type-syntax-in-javascript",
+  "date": "2022-03-14",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "The human spirit must prevail over technology",
+    "author": "Albert Einstein",
+    "authorTitle": "Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "links": [
+    {
+      "title": "A Proposal For Type Syntax in JavaScript",
+      "url": "https://devblogs.microsoft.com/typescript/a-proposal-for-type-syntax-in-javascript",
+      "description": "If you know us, you probably know we are not big fans of TypeScript, not because it's not useful but because of the added complexity. We also said we wished JavaScript would get optional typings built in the language like PHP, Python and Ruby did in the last few years. Well this new proposal goes exactly in this direction and we are very curious to see where it's going to go!",
+      "imageUrl": "./6d4269ad253d95e69fa5164fe3483b74c366fe45bf1aa61935c509b870b257d1.jpg",
+      "featured": true
+    },
+    {
+      "title": "TypeScript Exercises",
+      "url": "https://typescript-exercises.github.io/",
+      "description": "Speaking of typings and TypeScript, what if you want to get better at these topics? Well, check out this amazing website! TypeScript exercises will give you a bunch of interactive challenges (yes, you can write code directly in the browser) that you can solve by fixing TypeScript definitions in an existing codebase. We had a lot of fun going through this last week!",
+      "imageUrl": "./f51e0808e80dd97297cb16ed36d326ee934164767da37cbf2e477c96ddd72835.jpg",
+      "featured": false
+    },
+    {
+      "title": "Four tricky JavaScript concepts in one line of code",
+      "url": "https://dev.to/perenstrom/four-tricky-javascript-concepts-in-one-line-of-code-3i3p",
+      "description": "Sometimes a single line of JavaScript code might look really clever and expressive to one person and unintelligible to another! Why? Because modern JavaScript packs a lot of syntactic sugars and if you combine a few of them together, well... You might get a lot done with very little code, but also newcomers might easily get lost while reading it. This article provides a great example...",
+      "imageUrl": "./2ee32cc5aac09dba4e3c3c02d88d4be9c8588ddf3a8c11281937ac5df12d719c.jpg",
+      "featured": false
+    },
+    {
+      "title": "It's Prisma Time",
+      "url": "https://dev.to/this-is-learning/its-prisma-time-introduction-3a3h",
+      "description": "Luca del Puppo, engineer at Flowing, has compiled a wonderful series of articles to introduce you to Prisma, one of the most promising ORM libraries currently available in the Node.js ecosystem. Check it out!",
+      "imageUrl": "./652065f90ad991931e76d3d4de384433bfc98c72764f010ee97bb2b4656bf87c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Doodle icons",
+      "url": "https://khushmeen.com/icons.html",
+      "description": "We never have enough royalty free illustrations and icons for our web projects, so here's a newcomer to this space! Doodle icons can bring a fresh and cartoonish style to your next project, so it's definitely worth a look if that's the kind of feeling you want to convey!",
+      "imageUrl": "./ba8e8c360191c688ca0fe22fe87c5ab1778400fc7b8fadbc46ad76f66827285e.png",
+      "featured": false
+    },
+    {
+      "title": "More Awesome Git Aliases",
+      "url": "https://davidwalsh.name/more-awesome-git-aliases",
+      "description": "We use git everyday and we need to be proficient with it. So if you are looking for new tips and trick and new cool aliases to make your git experience better, make sure to check out this article!",
+      "imageUrl": "./601330fd00c1ccd41dc6cbe724f863462c63202c655f126bc5e7557d06e8fe68.jpg",
+      "featured": false
+    },
+    {
+      "title": "WebGPU — All of the cores, none of the canvas",
+      "url": "https://surma.dev/things/webgpu",
+      "description": "WebGPU is an upcoming Web API that gives you low-level, general-purpose access GPUs. What can you do with it? A bunch of exciting things, check it out!",
+      "imageUrl": "./8936839f99b71cb86355cb5d4a12cd404c086b87ad72c25fd9ee434a87ae9c98.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Test Driven Development: By Example",
+    "author": "Kent Beck",
+    "description": "Developers face complex programming challenges every day, yet they are not always readily prepared to determine the best solution. More often than not, such difficult projects generate a great deal of stress and bad code. To garner the strength and courage needed to surmount seemingly Herculean tasks, programmers should look to test-driven development (TDD), a proven set of techniques that encourage simple designs and test suites that inspire confidence.",
+    "coverImageUrl": "./ef72fdfbf05d98a13cd8c799cb261327f791b8743ab00f96b9dc0c4c1fb91ed1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321146530/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321146530/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

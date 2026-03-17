@@ -1,0 +1,75 @@
+{
+  "issueNumber": 84,
+  "title": "Create React App 2.0",
+  "slug": "2018-10-15-084-create-react-app-2-0",
+  "date": "2018-10-15",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #41, 2018",
+  "quote": {
+    "text": "I think computer viruses should count as life.  I think it says something about human nature that the only form of life we have created so far is purely destructive.  We’ve created life in our own image",
+    "author": "Stephen Hawking",
+    "authorTitle": "Theoretical physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+  },
+  "links": [
+    {
+      "title": "Create React App 2.0",
+      "url": "https://reactjs.org/blog/2018/10/01/create-react-app-v2.html",
+      "description": "Create React App 2.0 has been released and it brings a year’s worth of improvements in a single dependency update. While React itself doesn’t require any build dependencies, it can be challenging to write a complex app without a fast test runner, a production minifier, etc. This new version of the tool ensures that you'll get the most up to date scaffolding when starting your new react app.",
+      "imageUrl": "./3ee92dc54995046f1ddf396b6d7d1f9dc7e0c08e8af183e2634970a7438dccad.png",
+      "featured": true
+    },
+    {
+      "title": "Plans for the Next Iteration of Vue.js",
+      "url": "https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf",
+      "description": "This post provides an in-depth plan for the next major release of Vue.js, directly from its author Evan You.",
+      "imageUrl": "./03c231c0699101a782808d10b3b5186862089f1b67375270725a0a8af7894ca2.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Beginner's Guide to JavaScript's Prototype",
+      "url": "https://tylermcginnis.com/beginners-guide-to-javascript-prototype",
+      "description": "You can't get very far in JavaScript without dealing with objects. They're foundational to almost every aspect of the JavaScript programming language. In this post you'll learn about a variety of patterns for instantiating new objects and in doing so, you'll be gradually led to understanding JavaScript prototypes.",
+      "imageUrl": "./caa79f5b26c80eea93be0545128ba2234e1c878a7c568ef6cc8fb94e6f4032d2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Tiptap is a Rich Text Editor Framework for Vue.js",
+      "url": "https://laravel-news.com/tiptap-rich-text-editor-framework-for-vue-js",
+      "description": "Tiptap by Philipp Kühn is a renderless and extendable rich-text editor for Vue.js.  Where React has slate.js, Tiptap aims to be that style of a framework for Vue.js. Learn more about this project and how you can integrate a highly customizable rich text editor in your Vue.js projects.",
+      "imageUrl": "./ab6a7fd49f6d602e68239219729997c4a0226f95283a34b63ae36510ad474304.jpg",
+      "featured": false
+    },
+    {
+      "title": "Start Performance Budgeting",
+      "url": "https://medium.com/@addyosmani/start-performance-budgeting-dabde04cf6a3",
+      "description": "If you’re building a web experience and want to stay fast, a performance budget can be critical. For success, embrace performance budgets as a technique to effectively benchmark your app and make sure it is always performing as expected.",
+      "imageUrl": "./a103ecdd232cdf5925d0039b859001b0e40b5793cb804c0d80709cfad8133748.jpg",
+      "featured": false
+    },
+    {
+      "title": "How To Build A News Application With Angular 6 And Material Design",
+      "url": "https://smashingmagazine.com/2018/10/news-application-with-angular-and-material-design",
+      "description": "In this article, we’re going to build a news application using Angular 6 and Google’s material design in combination, which will help you to make your future applications with Angular look great in web browsers and mobile devices.",
+      "imageUrl": "./85da99da429e84c1da9a7e2b04191f767c382877a18697eee2137231d6313e6b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Go Concurrency Patterns: Pipelines and cancellation",
+      "url": "https://blog.golang.org/pipelines",
+      "description": "Go's concurrency primitives make it easy to construct streaming data pipelines that make efficient use of I/O and multiple CPUs. This article presents examples of such pipelines, highlights subtleties that arise when operations fail, and introduces techniques for dealing with failures cleanly.",
+      "imageUrl": "./80f262f90199d2f90ff79f652ccf5a8a978b1c1ca6ee699495abf094ad3f75f1.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Cassandra: The Definitive Guide: Distributed Data at Web Scale",
+    "author": "Jeff Carpenter and Eben Hewitt",
+    "description": "Imagine what you could do if scalability wasn't a problem. With this hands-on guide, you’ll learn how the Cassandra database management system handles hundreds of terabytes of data while remaining highly available across multiple data centers. This expanded second edition—updated for Cassandra 3.0 provides the technical details and practical examples you need to put this database to work in a production environment. Authors Jeff Carpenter and Eben Hewitt demonstrate the advantages of Cassandra’s non-relational design, with special attention to data modeling.",
+    "coverImageUrl": "./10919e24e677765bb72655af277029f8dbb8ee40b9d66eeac77305bc7fd728c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491933666/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491933666/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

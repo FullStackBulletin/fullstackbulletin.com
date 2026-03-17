@@ -1,0 +1,112 @@
+{
+  "issueNumber": 407,
+  "title": "TailwindCSS Motion",
+  "slug": "2025-01-13-388-tailwindcss-motion",
+  "date": "2025-01-13",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nAs we kick off 2025, it's a natural time to reflect on the past year and set our sights on what we want to accomplish in the year ahead. I always find this period of reflection to be very useful, giving me a clear vision of what's next.\n\nIt’s also a perfect moment to take stock of the constantly evolving landscape of tools and technologies we rely on daily. What new skills do we need to learn? What trends should we be preparing for? This issue is designed with that in mind. You'll find content aimed to help you form a vision for what you can achieve in 2025. I'm confident that you have the potential to achieve some incredible things this year!\n\nSo, what's one accomplishment you're particularly proud of from 2024? And what do you hope to achieve in 2025? I'm genuinely curious—hit reply and let me know!\n\nLet’s make 2025 a year of growth and impact!\n\nYour editor,\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "I do not fear computers. I fear lack of them“",
+    "author": "Isaac Asimov",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Isaac_Asimov"
+  },
+  "links": [
+    {
+      "title": "Tailwind CSS Motion",
+      "url": "https://rombo.co/tailwind/",
+      "description": "a new library that makes adding stunning, performant animations to your Tailwind projects a breeze. With its intuitive syntax and a ton of built-in presets (fade, slide, pop, confetti, and more!), you'll be animating like a pro in minutes. Plus, check out the [Rombo Extension](https://www.google.com/url?sa=E&q=https%3A%2F%2Frombo.co%2Ftailwind%2F) for visual animation building and exporting.",
+      "imageUrl": "./7dea5fd3b7b879595009a071d8b080b87a54452baed7702d99e3014027812470.png",
+      "featured": true
+    },
+    {
+      "title": "An Operating System in 1,000 Lines",
+      "url": "https://operating-system-in-1000-lines.vercel.app/en",
+      "description": "This resource walks you through building a miniature OS in C, exploring core concepts like context switching and device drivers, all within a manageable 1,000 lines of code. Now, I know this might seem a bit off-topic for our usual discussions, but if you're feeling adventurous, I'm sure you'll enjoy stepping out of your comfort zone. Even if you're not planning to build an OS professionally, the insights you'll gain are invaluable, and who knows? They might just come in handy the next time you're shipping an app to a production server somewhere!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Things we learned about LLMs in 2024",
+      "url": "https://simonwillison.net/2024/Dec/31/llms-in-2024",
+      "description": "As a full-stack developer, you're likely already using LLMs to boost your productivity (and if not, you probably should!). That's why this comprehensive recap of the most important developments in Large Language Models in 2024 is crucial. It's not just theory – this article covers real changes that directly impact your workflow, from local model deployment and cheaper inference to exciting new multimodal features. Learn what's now possible and plan your development strategies accordingly to prepare for the innovation coming in 2025.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Gradienty - Tailwind CSS Gradient Generator",
+      "url": "https://gradienty.com/",
+      "description": "Here's another juicy Tailwind-related resource... Say goodbye to tedious gradient configurations! This new tool allows you to effortlessly create stunning gradients with a visual interface, perfect for your Tailwind-powered websites.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "jsontr.ee: visualize JSON as a dynamic tree",
+      "url": "https://github.com/xzitlou/jsontr.ee",
+      "description": "If you've ever been lost in a sea of nested braces and brackets, a tool like this might come in handy. [jsontr.ee](https://jsontr.ee/) is a JavaScript library that takes the pain out of exploring complex JSON. It generates clear, interactive tree diagrams from your JSON data, letting you easily visualize the structure and contents. Perfect for debugging APIs and large data sets.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "2024 JavaScript Rising Stars",
+      "url": "https://risingstars.js.org/2024/en",
+      "description": "What are the projects that are making a buzz in the JS world? JavaScript Rising Stars 2024 is here to reveal the answer. This year's list shows the top projects that gained the most GitHub stars, and it's a great resource for keeping your finger on the pulse. I've been keeping a close eye on [Bruno](https://www.usebruno.com/), [Hono](https://hono.dev/), [NocoDB](https://nocodb.com/), [PgLite](https://pglite.dev/), [Astro](https://astro.build/), [Tailwind](https://tailwindcss.com/), [Biome](https://biomejs.dev/), [MagicUI](https://magicui.design/), [Payload CMS](https://payloadcms.com/), and [Zod](https://zod.dev/) myself. See what else has taken off this year!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Node’s new built-in support for TypeScript",
+      "url": "https://2ality.com/2025/01/nodejs-strip-type.html",
+      "description": "Node.js can now run TypeScript files directly, and this is huge! While it sounds amazing (and it is), there are important things you need to know. Dr. Axel Rauschmayer's excellent article digs into the specifics, explaining how it's implemented, the current limitations, and crucial details developers should be aware of. This is not a \"drop-in replacement,\" so be sure to read this before jumping in head first!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Docker in Action, Second Edition",
+    "author": "Jeff Nickoloff, and Stephen Kuenzli",
+    "description": "Docker in Action, Second Edition teaches you the skills and knowledge you need to create, deploy, and manage applications hosted in Docker containers. This bestseller has been fully updated with new examples, best practices, and a number of entirely new chapters.",
+    "coverImageUrl": "./8b0a4a7d5eab753658354495cf548b141db95146276f85433924c153a5607132.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617294764?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617294764?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Flexoki: inky color scheme",
+      "url": "https://stephango.com/flexoki"
+    },
+    {
+      "title": "TypeScript without Build Tools",
+      "url": "https://frontendmasters.com/blog/typescript-without-build-tools"
+    },
+    {
+      "title": "ECMAScript feature: import attributes",
+      "url": "https://2ality.com/2025/01/import-attributes.html"
+    },
+    {
+      "title": "How to Choose the Right Database in a System Design interview",
+      "url": "https://swequiz.com/blog/how-to-choose-the-right-database-in-a-system-design-interview"
+    },
+    {
+      "title": "You don't need Next.js",
+      "url": "https://comfydeploy.com/blog/you-dont-need-nextjs"
+    },
+    {
+      "title": "Enhance TypeScript with String Literals",
+      "url": "https://benmarshall.me/improve-typescript-suggestions-using-string-literals"
+    },
+    {
+      "title": "Eleventy Image optimization library",
+      "url": "https://11ty.dev/docs/plugins/image"
+    },
+    {
+      "title": "37 Tips from a Senior Frontend Developer",
+      "url": "https://dev.to/_ndeyefatoudiop/37-tips-from-a-senior-frontend-developer-251b"
+    },
+    {
+      "title": "How Do You Become A Cloud Architect? (podcast)",
+      "url": "https://awsbites.com/138-how-do-you-become-a-cloud-architect/"
+    }
+  ],
+  "sponsor": null
+}

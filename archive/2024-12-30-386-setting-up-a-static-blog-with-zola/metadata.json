@@ -1,0 +1,92 @@
+{
+  "issueNumber": 405,
+  "title": "Setting up a static blog with Zola",
+  "slug": "2024-12-30-386-setting-up-a-static-blog-with-zola",
+  "date": "2024-12-30",
+  "templateType": "mce-mailchimp",
+  "intro": "Ciao, <<First Name>> 👋\n\nHappy festivities (if you celebrate)! 🥳\n\nI’m writing to you after indulging in way too much [panettone](https://it.wikipedia.org/wiki/Panettone) and finally taking a breather from work and my usual busy life. But of course, I couldn’t resist editing another issue of FSB, so here we are!\n\nThis week’s selection might feel a bit all over the place. Why? Because my research has been delightfully random too! Without any specific projects guiding me, I’ve been surfing the web, stumbling upon fascinating articles, videos, and ideas. It’s a bit like an internet treasure hunt, and I hope this issue gives you that same sense of discovery.\n\nSo, grab a cozy drink, dive in, and enjoy! As always, I’d love to hear your thoughts... what do you think of this more eclectic approach? Just hit reply and let me know.\n\nYour editor,\n— Luciano\n\nPS: Panettone, [Pandoro](https://it.wikipedia.org/wiki/Pandoro), [Barmbrack](https://it.wikipedia.org/wiki/Barmbrack), a flaming [Christmas pudding](https://it.wikipedia.org/wiki/Christmas_pudding), or something else? I feel like this could be the debate of the season. Which team are you on? Send me a picture of your favorite holiday season sweet!",
+  "quote": {
+    "text": "That's been one of my mantras — focus and simplicity. Simple can be harder than complex; you have to work hard to get your thinking clean to make it simple“",
+    "author": "Steve Jobs",
+    "authorTitle": "Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Jobs"
+  },
+  "links": [
+    {
+      "title": "Setting up a static blog with Zola",
+      "url": "https://blog.orhun.dev/setting-up-this-blog/",
+      "description": "If you're a fan of static sites like I am, you'll love this! Orhun Parmaksız shares his journey of building a minimalist, terminal-inspired blog using Zola, a static site generator written in Rust. From customizing themes for a unique aesthetic to adding interactive features like GitHub-based comments and applause buttons, this piece is packed with inspiration and practical tips. I enjoyed this one, and I hope you will too!",
+      "imageUrl": "./572519a6f30077dd1489f2d68c4515708a9745acd8d42b3f78736beb7e995fd4.png",
+      "featured": true
+    },
+    {
+      "title": "Server-Sent Events (SSE) Are Underrated",
+      "url": "https://igorstechnoclub.com/server-sent-events-sse-are-underrated",
+      "description": "I found Igor Wiwchar's article on Server-Sent Events (SSE) insightful and practical. He highlights how SSE offers a simpler alternative to WebSockets for real-time updates, seamlessly integrating with existing HTTP infrastructure. Igor also addresses potential limitations, such as browser connection limits when not using HTTP/2, and guides on implementing SSE effectively.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Node.js Now Supports TypeScript By Default",
+      "url": "https://totaltypescript.com/typescript-is-coming-to-node-23",
+      "description": "I’ve been waiting for this for a long time, and I was thrilled to learn that Node.js 23 now supports running TypeScript files without extra configuration! Huge thanks to [Marco Ippolito](https://github.com/marco-ippolito) for being the main driver behind making this happen within the Node.js working group. It’s great to see this progress come relatively quickly, as more and more Node.js projects adopt TypeScript. This means you can execute .ts files directly with Node.js, streamlining development by removing the need for separate build steps. While Node.js won’t perform type checking at runtime, integrating `tsc --watch` into your workflow ensures code quality. This has the potential to be a big boost in the quality of life for backend developers, making the process more efficient and enjoyable.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Lua is so underrated",
+      "url": "https://nflatrea.bearblog.dev/lua-is-so-underrated",
+      "description": "You know what else is underrated? Lua! I’ll admit, I’m not exactly a big fan (though to be fair, my experience with it has mostly been limited to Nginx scripting). That said, this article made some excellent points that got me to reconsider Lua from a fresh perspective. It highlights the language's clean design, minimalistic syntax, and support for multiple programming paradigms, making it a fantastic choice for embedding in applications. Yet, despite all these strengths, Lua tends to fly under the radar compared to more heavily marketed languages.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A new learning experience on MDN",
+      "url": "https://developer.mozilla.org/en-US/blog/curriculum-learn-web-development",
+      "description": "MDN has recently revamped its \"[Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn_web_development)\" section, merging the MDN Curriculum into a unified learning pathway. This update offers a structured guide for beginners, emphasizing essential skills and best practices in front-end development. The curriculum covers topics such as web standards, environment setup, and core web technologies, aiming to take learners from \"beginner to comfortable.\" By consolidating resources, MDN provides a clearer and more efficient learning experience for aspiring web developers.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Full Stack Development: Complete Guide 2024",
+      "url": "https://daily.dev/blog/full-stack-development-complete-guide-2024",
+      "description": "If you’ve been looking for a solid take on what the full-stack developer path should look like or searching for resources to sharpen your skills, this article is a fantastic place to start. It defines full-stack development as covering front-end, back-end, and database management while highlighting the versatility that makes full-stack developers highly sought after. The guide outlines key technologies, from HTML, CSS, and JavaScript to React, Node.js, Python, and even DevOps tools like Docker and Jenkins. It also includes a practical learning path and addresses the challenges of staying updated with ever-evolving tech.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How to create a simple agent for your Gmail inbox with Ollama and JS",
+      "url": "https://dev.to/alagrede/how-to-create-a-simple-agent-for-your-gmail-inbox-with-ollama-and-js-4oh",
+      "description": "I’m not sure if AI falls under the umbrella of full-stack development (a debate worth having!), but it’s becoming knowledge we can’t ignore. This article provides a step-by-step guide to creating an email agent using JavaScript and [Ollama](https://ollama.com/). You’ll learn to enable the Gmail API, set up OAuth credentials, and leverage Ollama’s local Large Language Models (like Llama 3.3 and Phi 3) to categorize emails, create labels, and update them dynamically.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Art of Scalability, The: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise",
+    "author": "Martin Abbott, and Michael Fisher",
+    "description": "The Comprehensive, Proven Approach to IT Scalability-Updated with New Strategies, Technologies, and Case Studies In The Art of Scalability, Second Edition, leading scalability consultants Martin L. Abbott and Michael T. Fisher cover everything you need to know to smoothly scale products and services for any requirement. This extensively revised edition reflects new technologies, strategies, and lessons, as well as new case studies from the authors' pioneering consulting practice, AKF Partners. Writing for technical and nontechnical decision-makers, Abbott and Fisher cover everything that impacts scalability, including architecture, process, people, organization, and technology. Their insights and recommendations reflect more than thirty years of experience at companies ranging from eBay to Visa, and Salesforce.com to Apple. You'll find updated strategies for structuring organizations to maximize agility and scalability, as well as new insights into the cloud (IaaS/PaaS) transition, NoSQL, DevOps, business metrics, and more. Using this guide's tools and advice, you can systematically clear away obstacles to scalability-and achieve unprecedented IT and business performance.",
+    "coverImageUrl": "./f99465fdc79ff642c9ce3b619f4dfb52a83bd9938db017e47ec382c79041e05e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134032802?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134032802?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "How I've been trying to improve mocking with Zod",
+      "url": "https://dev.to/crbroughton/how-ive-been-trying-to-improve-mocking-with-zod-4j1a"
+    },
+    {
+      "title": "39 Awesome CSS Animation Examples with Demos + Live Code",
+      "url": "https://prismic.io/blog/css-animation-examples"
+    },
+    {
+      "title": "The CAP Theorem of Clustering: Why Every Algorithm Must Sacrifice Something",
+      "url": "https://blog.codingconfessions.com/p/the-cap-theorem-of-clustering"
+    },
+    {
+      "title": "A Tour of WebAuthn",
+      "url": "https://www.imperialviolet.org/tourofwebauthn/tourofwebauthn.html"
+    }
+  ],
+  "sponsor": null
+}

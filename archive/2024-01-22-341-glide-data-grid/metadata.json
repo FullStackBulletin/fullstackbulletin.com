@@ -1,0 +1,104 @@
+{
+  "issueNumber": 356,
+  "title": "Glide Data Grid",
+  "slug": "2024-01-22-341-glide-data-grid",
+  "date": "2024-01-22",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nWelcome to issue #356,\n\nAre you ready for another issue packed with awesome full-stack content? I certainly enjoyed this week's content... oh, and there are some quirky ones!\n\nI spent a good amount of time last week playing with APIs for generative AI, particularly Amazon Bedrock (I also made a [live stream](https://www.youtube.com/watch?v=at9T7IanZX8&t=8s) with my friend [Roberto](https://twitter.com/gbinside) showcasing some blogging experiments). I also discovered [krea.ai](https://www.krea.ai/), an incredible online tool that allows you to do real-time image-to-image generation and image enhancement. Finally, I [spoke with Eoin](https://awsbites.com/110-why-should-you-use-lambda-for-machine-learning/) about how to run AI models within AWS Lambda and why.\n\nIf you are into AI stuff, you might enjoy this extra content, if not, let's jump into the full-stack stuff! Enjoy!\n\n— Luciano",
+  "quote": {
+    "text": "When I am working on a problem, I never think about beauty. I think only of how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong“",
+    "author": "R. Buckminster Fuller",
+    "authorTitle": "Inventor",
+    "authorUrl": "https://en.wikipedia.org/wiki/R._Buckminster_Fuller"
+  },
+  "links": [
+    {
+      "title": "Glide Data Grid",
+      "url": "http://grid.glideapps.com/",
+      "description": "If you ever need to build a web application that needs to manage complex tables with tons of records, you might really like this React project. Glide data grid is a React grid component that is fully typed in TypeScript and supports advanced features such as custom cells and virtual scrolling. [**Visit website**](http://grid.glideapps.com/)",
+      "imageUrl": "./3a54d25d614612118c5aa08a5eaa8e227ef0b758e85840600560dad193ebd6da.png",
+      "featured": true
+    },
+    {
+      "title": "Designing better target sizes",
+      "url": "https://ishadeed.com/article/target-size",
+      "description": "How \"clickable\" are your websites on mobile? This is an easy one to fail on... more often than not we don't think that our buttons might be too small on mobile, so what do we do? Is there a practical and simple solution? Well, test your websites on mobile, for one! But also check out this article that provides some ideas on how you can increase the area of interactivity on mobile and make sure to provide an optimal UX.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "npm in Review: A 2023 Retrospective on Growth, Security, and Quirky Facts",
+      "url": "https://socket.dev/blog/2023-npm-retrospective",
+      "description": "In 2023, with **2.5 million live packages**, npm had **184 billion monthly downloads**! This is astonishing and it comes with some challenges. This article addresses npm's security challenges, including the identification of over five thousand malware packages and the management of supply chain attacks and spam campaigns throughout the year. It also provides some other quirky bits, like what's the package with the longest name! Definitely worth a read.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Introducing fsx: A modern filesystem API for JavaScript",
+      "url": "https://humanwhocodes.com/blog/2024/01/fsx-modern-filesystem-api-javascript",
+      "description": "Filesystem APIs in JavaScript runtimes haven't been great for a long time, but this library tries to bring a fresh approach to the table. One that is focused on making common cases easier, and errors rarer and more manageable. It also pays quite a bit of attention to observability and testing. Worth checking it out if you have been frustrated by the existing state of filesystem modules.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Complex But Awesome CSS border-image Property",
+      "url": "https://smashingmagazine.com/2024/01/css-border-image-property",
+      "description": "The CSS `border-image` property is one of those properties you undoubtedly know exists but may not have ever reached for. This article demonstrates different approaches for using `border-image` to create clever decorative accents and shapes.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Findings From the Monotype & Neurons Typography Report",
+      "url": "https://printmag.com/type-tuesday/monotype-neurons-culture-typography-report",
+      "description": "This is a bit of an off-topic, but if you are into fonts and typography you'll certainly love it. Monotype and Neurons, an applied neuroscience company, has released the first results of an ongoing study, revealing the emotional impact of different typefaces across eight countries…",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Transcribe audio on Cloudflare Workers with AssemblyAI, Node.js, and TypeScript",
+      "url": "https://assemblyai.com/blog/transcribe-audio-cloudflare-workers-assemblyai-nodejs-typescript",
+      "description": "In this tutorial, you'll learn how to create an application that transcribes the audio files (and video files) to text. You'll create a TypeScript backend on top of Cloudflare Workers and use the AssemblyAI APIs to transcribe the audio.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices",
+    "author": "Viktor Farcic",
+    "description": "This book is about different techniques that help us architect software in a better and more efficient way with microservices packed as immutable containers, tested and deployed continuously to servers that are automatically provisioned with configuration management tools. It's about fast, reliable and continuous deployments with zero-downtime and ability to roll-back. It's about scaling to any number of servers, design of self-healing systems capable of recuperation from both hardware and software failures and about centralized logging and monitoring of the cluster.",
+    "coverImageUrl": "./541c1dd09cac26ae06429687c2601da19e8cb4c7894063854cb3ae1c65eb6db9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/152391744X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/152391744X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Pa11y: your automated accessibility testing pal",
+      "url": "https://github.com/pa11y/pa11y"
+    },
+    {
+      "title": "Platane/snk: Generates a snake game from a GitHub user contributions graph",
+      "url": "https://github.com/Platane/snk"
+    },
+    {
+      "title": "alexanderson1993/svg-icons-cli: create SVG spirte sheets and render them with a React Icon component",
+      "url": "https://github.com/alexanderson1993/svg-icons-cli"
+    },
+    {
+      "title": "Learn SVG by drawing an arrow",
+      "url": "https://blog.shalvah.me/posts/learn-svg-by-drawing-an-arrow"
+    },
+    {
+      "title": "Tailwind templates in pure HTML",
+      "url": "https://tailplates.com/"
+    },
+    {
+      "title": "A Practical Introduction to Scroll-Driven Animations with CSS scroll() and view()",
+      "url": "https://tympanus.net/codrops/2024/01/17/a-practical-introduction-to-scroll-driven-animations-with-css-scroll-and-view"
+    },
+    {
+      "title": "Money Talks! Formatting Currency in Web Content",
+      "url": "https://tpgi.com/money-talks-formatting-currency-in-web-content"
+    }
+  ],
+  "sponsor": null
+}

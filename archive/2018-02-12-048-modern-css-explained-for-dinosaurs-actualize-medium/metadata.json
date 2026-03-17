@@ -1,0 +1,75 @@
+{
+  "issueNumber": 48,
+  "title": "Modern CSS Explained For Dinosaurs – Actualize – Medium",
+  "slug": "2018-02-12-048-modern-css-explained-for-dinosaurs-actualize-medium",
+  "date": "2018-02-12",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #6, 2018",
+  "quote": {
+    "text": "One machine can do the work of fifty ordinary men.  No machine can do the work of one extraordinary man",
+    "author": "Elbert Hubbard",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Elbert_Hubbard"
+  },
+  "links": [
+    {
+      "title": "Modern CSS For Dinosaurs",
+      "url": "https://medium.com/actualize-network/modern-css-explained-for-dinosaurs-5226febe3525",
+      "description": "CSS is strangely considered both one of the easiest and one of the hardest languages to learn as a web developer. It’s certainly easy…",
+      "imageUrl": "./33c412703b96ac64f867a9ae671870eabb4b938970afbc0e1097ddff8d8cace1.jpg",
+      "featured": true
+    },
+    {
+      "title": "The building blocks of Web Workers",
+      "url": "https://blog.sessionstack.com/how-javascript-works-the-building-blocks-of-web-workers-5-cases-when-you-should-use-them-a547c0757f6a",
+      "description": "This article offers an overview of web workers, it discusses the different types of workers, how their building components come to play together, and what advantages and limitations they offer in different scenarios.",
+      "imageUrl": "./f8a8d127252d30a1b01adc6c6c51edb65f847098715a903a6a6999d0cade53c3.jpg",
+      "featured": false
+    },
+    {
+      "title": "thejameskyle/the-super-tiny-compiler",
+      "url": "https://github.com/thejameskyle/the-super-tiny-compiler",
+      "description": "Most people don't really have to think about compilers in their day jobs. However, compilers are all around you, tons of the tools you use are based on concepts borrowed from compilers. This repository will show you how to build a super simple compiler and you will learn a ton about compilers this way...",
+      "imageUrl": "./4268b8ef0a87f4a42fae9ad13f8be0497591d6a8697e1c733e34a703e4ab97aa.png",
+      "featured": false
+    },
+    {
+      "title": "ECMAScript 2018: the final feature set",
+      "url": "http://2ality.com/2017/02/ecmascript-2018.html",
+      "description": "The feature set of ECMAScript 2018 was finalized during the latest TC39 meeting (23-25 January 2018). This blog post describes it.",
+      "imageUrl": "./d8a13364300a11d8d3580234bf685a6e643d9f1d0927ad5f3d2a5db3649bbc19.jpg",
+      "featured": false
+    },
+    {
+      "title": "Make me think!",
+      "url": "https://blog.prototypr.io/make-me-think-90b46aa50513",
+      "description": "Designers and engineers simply burdened the users with this increase in complexity. Fortunately, UX (User eXperience) designers have found ways to design beautiful interfaces that are easy to use. This article explores these topics trying discussing ways to deal with complex problems and usable solutions.",
+      "imageUrl": "./f045dd41cea794209e7117e623b251486d38162abdf646747285bfd545106430.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using Media Queries For Responsive Design In 2018",
+      "url": "https://smashingmagazine.com/2018/02/media-queries-responsive-design-2018",
+      "description": "This article will take a look at the use of media queries for responsive design today, how they work alongside Flexbox and Grid Layout, and also have a look at what is coming in the future.",
+      "imageUrl": "./6a30c473321b6de18e99bd1d6c19920c1221ee98ea34854eda3aab26f83ef0a8.png",
+      "featured": false
+    },
+    {
+      "title": "Sketching in the Browser",
+      "url": "https://medium.com/seek-blog/sketching-in-the-browser-33a7b7aa0526",
+      "description": "How to automatically generate a Sketch library for designers from our living style guide, based on a real use case.",
+      "imageUrl": "./b1196cba9aaf777a1b8c414ee893599a467a0ced8083639d9db069a599d78844.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "E. Gamma, R. Helm, R. Johnson, J. Vlissides",
+    "description": "Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems. Previously undocumented, these 23 patterns allow designers to create more flexible, elegant, and ultimately reusable designs without having to rediscover the design solutions themselves.",
+    "coverImageUrl": "./3d2f9c2ee1c817b2dcd3443fbb6f71d7fcb0499b00de983a9ffe8f8c6058fa29.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0201633612/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0201633612/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

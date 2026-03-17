@@ -1,0 +1,75 @@
+{
+  "issueNumber": 64,
+  "title": "The most sophisticated piece of software ever written",
+  "slug": "2018-05-28-064-the-most-sophisticated-piece-of-software-ever-written",
+  "date": "2018-05-28",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #21, 2018",
+  "quote": {
+    "text": "Imagination is the Discovering Faculty, pre-eminently. It is that which penetrates into the unseen worlds around us, the worlds of Science",
+    "author": "Ada Lovelace",
+    "authorTitle": "Mathematician",
+    "authorUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+  },
+  "links": [
+    {
+      "title": "The most sophisticated piece of software ever written",
+      "url": "https://quora.com/What-is-the-most-sophisticated-piece-of-software-code-ever-written",
+      "description": "The most sophisticated software in history was written by a team of people whose names we do not know. It’s a computer worm. You should be curious to read this incredible story, it's definitely worth your time!",
+      "imageUrl": "./f468afb84fac60348ab0075b4cce8a57072937bfa99cdff0cf2114aec9503d00.png",
+      "featured": true
+    },
+    {
+      "title": "What if JavaScript wins?",
+      "url": "https://medium.com/@anildash/what-if-javascript-wins-84898e5341a",
+      "description": "JavaScript is now part of the toolkit of most working developers. What if network effects push it into being the first-ever truly dominant programming language?",
+      "imageUrl": "./7c59993438b5070ec19b3ee7657c03d06dc7af8bcd95e6eaced4aa9c32b1d8fd.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using trampolines to manage large recursive loops in JavaScript",
+      "url": "https://blog.logrocket.com/using-trampolines-to-manage-large-recursive-loops-in-javascript-d8c9db095ae3",
+      "description": "If you're trying to adopt a functional style in JavaScript, having trampolines is a must.",
+      "imageUrl": "./cd3d08f1988fb7db6def779002faa9a8f9d7d13555ff9545e7ebabeec5a66c19.jpg",
+      "featured": false
+    },
+    {
+      "title": "Dark theme in a day",
+      "url": "https://medium.com/@mwichary/dark-theme-in-a-day-3518dde2955a",
+      "description": "Using a bunch of modern CSS to create a night mode for an app.",
+      "imageUrl": "./fad6d85125ca49630758b1cb83388b0431bb4c2980720c7fd4f8904a321bc203.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Hitchhiker's Guide to Elm",
+      "url": "http://azer.bike/journal/elm",
+      "description": "Practical handbook for learning the Elm programming language and how to build apps with it.",
+      "imageUrl": "./b8417ab08cc5d8ca125ecefe7484a8d0ee78973611d6d1bea0a4be21a5701d26.jpg",
+      "featured": false
+    },
+    {
+      "title": "First Look: Angular Ivy",
+      "url": "https://telerik.com/blogs/first-look-angular-ivy",
+      "description": "Ivy is the upcoming render engine for Angular. This article takes a closer look at Ivy, how it works, and what it means to you.",
+      "imageUrl": "./a10f45980920d474be23349245a63028029f85b6d1faa8e4c6aac35de4628f32.jpg",
+      "featured": false
+    },
+    {
+      "title": "Is This ES6 or React?",
+      "url": "https://zendev.com/2018/05/15/learning-react-is-this-es6-or-react.html",
+      "description": "In a recent blog post about his struggle to learn React, Brad Frost highlighted an issue that I've heard from developer after developer: What’s coming from React? What’s just ES6 JavaScript?",
+      "imageUrl": "./d3e75db4c9fb4fb3a0712588e98d45d24447f664819d6188c464a8880db3af86.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "You Don't Know JS: ES6 & Beyond",
+    "author": "Kyle Simpson",
+    "description": "As part of the \"You Don’t Know JS\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built. Learn new ES6 syntax that eases the pain points of common programming idioms. Organize code with iterators, generators, modules, and classes. Express async flow control with Promises combined with generators. Use collections to work more efficiently with data in structured waysLeverage new API helpers, including Array, Object, Math, Number, and String. Extend your program’s capabilities through meta programming.",
+    "coverImageUrl": "./dc82d3e22d7d2516883c5adc587d3a8817d011c764cda892712040ff1b3ea3e1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491904240/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491904240/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

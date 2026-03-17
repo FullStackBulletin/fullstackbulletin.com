@@ -1,0 +1,75 @@
+{
+  "issueNumber": 162,
+  "title": "JavaScript one-liners",
+  "slug": "2020-05-18-162-javascript-one-liners",
+  "date": "2020-05-18",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #20, 2020",
+  "quote": {
+    "text": "The science of today is the technology of tomorrow",
+    "author": "Edward Teller",
+    "authorTitle": "Theoretical physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Edward_Teller"
+  },
+  "links": [
+    {
+      "title": "JavaScript one-liners",
+      "url": "https://1loc.dev/",
+      "description": "An incredible collection of JavaScript utilities made up by a single line of code! Do you need to flatten an array, get a random item from it or split it into chunks? This collection is here to help!",
+      "imageUrl": "./28c9c48f21aac5db7b450fd9427dbe274641f666b6f4e4bd418be3e6f63f05e3.jpg",
+      "featured": true
+    },
+    {
+      "title": "ES2015+ cheatsheet",
+      "url": "https://devhints.io/es6",
+      "description": "One-page guide to ES2015+: usage, examples, and more. A quick overview of new JavaScript features in ES2015, ES2016, ES2017, ES2018 and beyond.",
+      "imageUrl": "./f73d61e53b909c1630a83614c868d9da6bd695d5108bd246dcc06d0a4fc3fb6b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Deno 1.0: what do you need to know",
+      "url": "https://blog.logrocket.com/deno-1-0-what-you-need-to-know",
+      "description": "Whether you think that Deno is a good idea or not, this article will help you to understand what is the idea behind this project and how it is different from Node.js.",
+      "imageUrl": "./51285504a4ef8ca310bf2dfbf5d939c31badc710adf52413467d107a68d31b85.jpg",
+      "featured": false
+    },
+    {
+      "title": "Create diagrams with python code",
+      "url": "https://diagrams.mingrammer.com/",
+      "description": "**Diagram**, is a very expressive Python library that allows you to define diagrams by writing Python code. The idea behind this library is actually easier to explain with a code snippet than with words. Go check out some of the examples!",
+      "imageUrl": "./3a548f19e0f4cd140e6de765d9d9187989a83a5ee505f740b63c68b869eca96b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Avoiding Memory Leaks in NodeJS",
+      "url": "https://blog.appsignal.com/2020/05/06/avoiding-memory-leaks-in-nodejs-best-practices-for-performance.html",
+      "description": "An interesting article that will help you to discover what memory leaks are and how to avoid them in your NodeJS application.",
+      "imageUrl": "./d2179b4e37b2557abb465fde29d2f1e48a68bcd26c274208bf48cddb218c8088.jpg",
+      "featured": false
+    },
+    {
+      "title": "What the heck is React Fast Refresh",
+      "url": "https://mariosfakiolas.com/blog/what-the-heck-is-react-fast-refresh",
+      "description": "**React Fast Refresh** is the successor of **React Hot Loader**. It was initially released for React Native and soon it will be included in Create React App as an experimental feature.",
+      "imageUrl": "./08dd25e26a39135764af9ed23bd552613c4bd25f9545b596c8f1348e52337f9a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Wonder Blocks: the Khan Academy’s Design System",
+      "url": "https://designsystems.com/about-wonder-blocks-khan-academys-design-system-and-the-story-behind-it",
+      "description": "An incredible case study from Khan Academy (a not-for-profit with a mission to provide a free, world-class education) illustrating how they came up with their new design system and what kind of unique challenges they had to face with this project.",
+      "imageUrl": "./e4cf2f97428ead0240e27b2324e9d73837cb8610b0a0a6bc43c8506cc2672f9d.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Pragmatic Programmer: From Journeyman to Master",
+    "author": "Andrew Hunt",
+    "description": "he Pragmatic Programmer cuts through the increasing specialization and technicalities of modern software development to examine the core process-taking a requirement and producing working, maintainable code that delights its users. It covers topics ranging from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse.",
+    "coverImageUrl": "./2ffb12a41f490125695aeff2d4c3ea84a96f4f6c7298432191fdc3c1a104af4b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/020161622X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/020161622X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

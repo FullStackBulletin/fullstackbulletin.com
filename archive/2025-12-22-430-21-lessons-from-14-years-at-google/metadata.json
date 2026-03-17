@@ -1,0 +1,106 @@
+{
+  "issueNumber": 450,
+  "title": "21 Lessons from 14 Years at Google",
+  "slug": "2025-12-22-430-21-lessons-from-14-years-at-google",
+  "date": "2025-12-22",
+  "templateType": "buttondown-markdown",
+  "intro": "Hello,\n\nThis issue is a little love letter to curiosity. From long careers at big companies to silly side projects that spiral into real engineering, from new tools to old ideas seen in a new light, everything here is an invitation to keep poking at the world, asking questions, and learning one small thing at a time. Skills compound when you let yourself explore, and I hope at least one link here sends you down a fun rabbit hole.\n\nThis might also be the last issue of the year. I expect a busy Christmas period ahead and I am not fully sure I will find the time and energy for more issues. I might or I might not, let us see how it goes. If you do not hear from me, have a great Christmas if you celebrate it and an even better start to the new year.\n\nKeep building. The future is compounding!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter",
+    "author": "Eric S. Raymond",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Eric_S._Raymond?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=450-21-lessons-from-14-years-at-google"
+  },
+  "links": [
+    {
+      "title": "21 Lessons from 14 Years at Google",
+      "url": "https://addyo.substack.com/p/21-lessons-from-14-years-at-google",
+      "description": "[Last week](https://buttondown.com/fullstackbulletin/archive/449-ai-cant-do-your-job/) we featured [patterns.dev](https://www.patterns.dev/), another brilliant creation from Addy Osmani. This week I stumbled onto a more personal side of his work, a piece I read recently and genuinely enjoyed. In it Addy shares 21 lessons from his long and still ongoing career at Google, touching on craft, collaboration, impact, and how to keep growing inside a huge company without losing your curiosity. My favorite line is a simple one that hits very close to home: *“Writing forces clarity. The fastest way to learn something better is to try teaching it.”* I have been lucky enough to teach in different ways over the years, from workshops to books and blog articles and even through mentoring, and every single time I feel like I walk away more enriched than the people I was supposed to help. If you care about being not just a better engineer but a clearer thinker, this is a very rewarding read.",
+      "imageUrl": "./a2a45ef4b1ffe3a252d3dcb382ba739e46961f8ef6ac131ef046a631efe13c2c.png",
+      "featured": true
+    },
+    {
+      "title": "Using TypeScript to Obtain One of the Rarest License Plates",
+      "url": "https://jack.bio/blog/licenseplate",
+      "description": "If the title of this post was not already enough to make you smash that link, I am honestly not sure anything I say here will do the trick. But let us try anyway. This is one of those gloriously unhinged side projects that starts with a silly idea and somehow ends up flexing serious fullstack skills, plenty of clever tricks, and way more polish than anyone would expect from something that began with basically “what if I just tried this for fun.” This is perhaps another demonstration that knowing how to code can come in handy to solve some real life problems. Well, maybe this was not really *a problem*, but still... you know what I mean! :D",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "ty: An extremely fast Python type checker and language server",
+      "url": "https://astral.sh/blog/ty",
+      "description": "If you write a lot of Python in big projects, you have probably developed a real appreciation for how a well typed codebase can quietly save your future self. Fewer bugs, easier refactors, clearer intent, less fear every time you touch that scary folder called \"legacy\". With Python there are now quite a few flavors of type checkers, and recently a very promising new one stepped onto the stage: `ty`, from the Astral team, aims to be an extremely fast type checker and language server that you can actually lean on in large codebases without growing old while it runs. This post walks through what makes ty interesting as an alternative to tools like `mypy` or `Pyright`, especially if you care about fast feedback loops and working productively in bigger Python systems. It also comes from the same folks who built `uv`, a Python package manager and toolkit I have been personally really enjoying, so even if I have not yet had the chance to try `ty` myself, my expectations are pretty high.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What Actually Makes You Senior",
+      "url": "https://terriblesoftware.org/2025/11/25/what-actually-makes-you-senior",
+      "description": "I have a lot of opinions about this topic. I have written a few [articles](https://loige.co/the-senior-dev/) on it and even delivered a couple of [talks](https://lmammino.github.io/the-senior-dev/) about what it really means to be a senior engineer. This article hits many of the same nerves. It argues that seniority is not about how many years you have been around or how fancy your title sounds. It is about your ability to take messy, ambiguous problems and turn them into clear plans that a team can actually execute. It digs into the unsexy parts of the job, like managing expectations, noticing risks before they blow up, and quietly filling ownership gaps that no one officially assigned to you. It is the sort of article you read nodding along, thinking of teammates who are secretly the glue of the whole system, whether their title says senior or not.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Just F***ing Use Tailwind",
+      "url": "https://justfuckingusetailwind.com/",
+      "description": "This one was a really fun read for me. I love Tailwind, but I would not advocate for it quite as fiercely as this piece does, so take it with a little grain of salt. It is clearly written with a bit of irony, yet I still find myself nodding along with most of the points about why utility first CSS can keep your UI codebase more consistent, easier to evolve, and frankly more pleasant to work on. If you do not mind a few swear words and you are even a tiny bit Tailwind curious, this might be the push that finally convinces you to give it a try. And if you are still convinced Tailwind (and utility classes in general) are not for you, that is totally fine, but I would say you might still have a little fun reading this one.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "JSDoc is TypeScript",
+      "url": "https://culi.bearblog.dev/jsdoc-is-typescript",
+      "description": "Back to talking about adding types to untyped languages... This time it is JavaScript. Or, since we are talking about its typed twin brother, maybe I should say TypeScript. This piece explores a neat middle ground where you stay in JavaScript land, but use JSDoc for type annotations. The *aha* moment for me was realizing that even if you just use JSDoc, the TypeScript language service is still quietly powering everything, from IntelliSense governed by a tsconfig file to type checking a project that only has `.js` files. When you do this you are already using TypeScript, even if you keep telling everyone you are still writing plain old JS. It is a really nice option if you want type safety and better tooling for an existing codebase without a huge migration. And the best part is that this kind of migration keeps things simple for everyone, even those who are still skeptical about TypeScript and hate having to deal with a transpilation step before running their code.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Logging sucks... And here's how to make it better.",
+      "url": "https://loggingsucks.com/",
+      "description": "A friend of mine shared this article with me and I really enjoyed reading it. It starts from a feeling many of us know too well, staring at walls of logs at three in the morning and learning absolutely nothing useful about what actually went wrong. Then it walks through why traditional logging can be such a bad fit for modern distributed systems and argues for treating logs as rich structured records of what happened to a request, with concepts like wide events and canonical log lines. My favorite line is *“OTel is just plumbing. You decide what flows through it.”* which perfectly captures the idea that tooling itself will never fix your observability problems. You still have to be deliberate about what you record, which signals matter for you, and all the context future you will need when things go sideways. If you have ever felt that your logs are lying to you, this is a very satisfying rethink of how observability can actually work in practice.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Go ahead, self-host Postgres",
+      "url": "https://pierce.dev/notes/go-ahead-self-host-postgres",
+      "description": "This was a great read for me, mostly because it triggered a bit of an inner conflict. As a cloud expert and consultant I tend to reach for managed services first, since they keep things simple and let the team focus on what matters most, the product rather than the underlying infrastructure. I am absolutely one of those people who will say *\"undifferentiated heavy lifting\"* without blinking, and before this I did not even know that phrase is credited to *Jeff* (yes, *that* Jeff). The conflict comes from how convincingly this piece argues that running your own Postgres is not as scary as cloud providers like to make it sound. I suspect the truth is somewhere in the middle, and the best position you can be in is knowing how to self host, then deciding case by case when that effort is worth it and when you would rather lean on a fully managed service. Am I turning into a cloud misbeliever? I do not think so, but time will tell...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Node.js Design Patterns: Fourth Edition is out!",
+      "url": "https://loige.co/nodejs-design-patterns-fourth-edition",
+      "description": "I left this one for last because I do not want you to think I am doing too much self promotion. If you do, please tell me and keep me honest... Anyway, It took me a while, but I finally managed to write my own official blog post about the new edition of Node.js Design Patterns. The fourth edition of Node.js Design Patterns is here, and in this post I share why we decided to write a new edition in the first place, what is new this time around, and some of my thoughts on where Node.js is heading next. If you have been using Node.js for a while or you are just curious about how to build more robust backends with it, I hope you will find this a useful behind the scenes look at the book and the ecosystem around it.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Fluent React: Build Fast, Performant, and Intuitive Web Applications",
+    "author": "Tejas Kumar",
+    "description": "When it comes to building user interfaces on the web, React enables web developers to unlock a new world of possibilities. This practical book helps you take a deep dive into fundamental concepts of this JavaScript library, including JSX syntax and advanced patterns, the virtual DOM, React reconciliation, and advanced optimization techniques. By becoming fluent in React, you'll quickly learn how to build better web applications.\nAuthor Tejas Kumar helps you explore the depths of React in plain English, without the typical software engineering jargon, so you can more easily understand how this JavaScript library works. You'll learn how to write intuitive React code that fully understands the nuances and layers of React, unlocking a whole new level of fluency.\nYou will:",
+    "coverImageUrl": "./f1d43db92bec955ba9f57985647a6e66a1850d78090f8803c5fc826bb19025b8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1098138716",
+    "amazonUk": "https://www.amazon.co.uk/dp/1098138716"
+  },
+  "additionalLinks": [
+    {
+      "title": "Debugging AWS API Gateway HTTP with OIDC-JWT authorizers",
+      "url": "https://loige.co/debugging-api-gateway-http-oidc-jwt-authorizer"
+    },
+    {
+      "title": "How to load CSS (fast)",
+      "url": "https://calendar.perfplanet.com/2025/how-to-load-css-fast"
+    },
+    {
+      "title": "A modern guide to SQL JOINs",
+      "url": "https://kb.databasedesignbook.com/posts/sql-joins"
+    },
+    {
+      "title": "Directional CSS with scroll-state(scrolled)",
+      "url": "https://una.im/scroll-state-scrolled"
+    }
+  ],
+  "sponsor": null
+}

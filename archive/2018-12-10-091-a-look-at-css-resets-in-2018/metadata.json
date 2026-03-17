@@ -1,0 +1,75 @@
+{
+  "issueNumber": 91,
+  "title": "A look at CSS Resets in 2018",
+  "slug": "2018-12-10-091-a-look-at-css-resets-in-2018",
+  "date": "2018-12-10",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #49, 2018",
+  "quote": {
+    "text": "Computers are like Old Testament gods; lots of rules and no mercy",
+    "author": "Joseph Campbell",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Campbell"
+  },
+  "links": [
+    {
+      "title": "A look at CSS Resets in 2018",
+      "url": "https://bitsofco.de/a-look-at-css-resets-in-2018/",
+      "description": "All browsers ship with a set of default styles that are applied to every web page in what is called the “user agent stylesheet”. A lot of styles, however, are inconsistent between the user agent stylesheets. In order to deal with the inconsistencies between user agent stylesheets, CSS resets were born.",
+      "imageUrl": "./46e2f108a4a3e0b50f58d01c25da2c1d55b0f05be6ed1f50a0e2f01f9636da21.png",
+      "featured": true
+    },
+    {
+      "title": "Fast Google Fonts with Cloudflare Workers",
+      "url": "https://blog.cloudflare.com/fast-google-fonts-with-cloudflare-workers",
+      "description": "Code walkthrough on using Cloudflare workers to improve the performance of sites using Google Fonts. The improvements can be quite dramatic and the sample provides a real-world use case of doing streaming HTML modification in a Cloudflare Worker.",
+      "imageUrl": "./10b9b8f58e2a6381867532a39ef1811eaeb810ef0bb7b0af0b9202ca5372a42e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Immutable Web Apps",
+      "url": "https://immutablewebapps.org/",
+      "description": "Immutable Web Applications is a framework-agnostic methodology for building and deploying static single-page applications that: minimizes risk and complexity, simplifies and maximizes caching, minimizes the need for servers and administration of runtime environments, enables continuous delivery through simple, flexible, atomic deployments.",
+      "imageUrl": "./e5320f919f232e6a27e972ea97f07aeb11727d87075edb4db876d7d9873ad1d7.png",
+      "featured": false
+    },
+    {
+      "title": "Reliable Webhooks Using Serverless",
+      "url": "https://medium.com/square-corner-blog/reliable-webhooks-using-serverless-architecture-e009a2096732",
+      "description": "A great use case for serverless: how to build a reliable webhook system using SQS and Lambda.",
+      "imageUrl": "./eb8be1dd0af2af747a2159ee661fab3b2ca10733df553a4bda0b8d05827a9118.jpg",
+      "featured": false
+    },
+    {
+      "title": "React setState() in 10 minutes",
+      "url": "https://medium.freecodecamp.org/get-pro-with-react-setstate-in-10-minutes-d38251d1c781",
+      "description": "This article is aimed at people who have already had their first approach to React, and who, as beginners, have doubts about how setState should be used.",
+      "imageUrl": "./6344c77f9ab045345f73120578dafad406f1712a146a9d31616f7d6001bb590e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Under the hood of React’s hooks system",
+      "url": "https://medium.com/the-guild/under-the-hood-of-reacts-hooks-system-eb59638c9dba",
+      "description": "Looking at the implementation and getting to know it inside out how React hooks actually work. Hooks are a powerful abstraction, but it can be very important to understand what lies behind these abstractions to be able to use hooks effectively.",
+      "imageUrl": "./e07745a1eb6c6f167e9acfab3f23d0b77b4ab200af92817201d1389998b3480e.jpg",
+      "featured": false
+    },
+    {
+      "title": "The 101 course on 404 Pages",
+      "url": "https://medium.muz.li/the-101-course-on-crafting-404-pages-93382461b0af",
+      "description": "A 404 page should do more than apologize for poor navigation on behalf of your website. A properly designed 404 page could better your website’s chances of people coming back despite the inconvenience.",
+      "imageUrl": "./fd929db60699774a0b513bb7085091cd90e736a401f83794aa10c699c7a2f1ee.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Development with Node and Express: Leveraging the JavaScript Stack",
+    "author": "Ethan Brown",
+    "description": "Learn how to build dynamic web applications with Express, a key component of the Node/JavaScript development stack. In this hands-on guide, author Ethan Brown teaches you the fundamentals through the development of a fictional application that exposes a public website and a RESTful API. You’ll also learn web architecture best practices to help you build single-page, multi-page, and hybrid web apps with Express.",
+    "coverImageUrl": "./fa50d6bec7065a557f93ff1ccee308384e327bc7bdc62dab9513ef493759a11f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491949309/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491949309/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

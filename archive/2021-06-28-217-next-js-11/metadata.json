@@ -1,0 +1,75 @@
+{
+  "issueNumber": 217,
+  "title": "Next.js 11",
+  "slug": "2021-06-28-217-next-js-11",
+  "date": "2021-06-28",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "There are two ways to write error-free programs; only the third one works",
+    "author": "Alan J. Perlis",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_J._Perlis"
+  },
+  "links": [
+    {
+      "title": "Next.js 11",
+      "url": "https://nextjs.org/blog/next-11",
+      "description": "The famous React-based web framework Next.js 11 has just released a new major version and it's pumped with interesting features and improvements. Check it out!",
+      "imageUrl": "./fe50839e4fc9afea9a1346543d8d426465e2e5ea25d0c645f79386ca9962a9a3.jpg",
+      "featured": true
+    },
+    {
+      "title": "Will `.at()` be something useful?",
+      "url": "https://dev.to/edo78/will-at-be-something-useful-3fcf",
+      "description": "An interesting opinion about the new .at() method of JavaScript arrays. Is this new functionality really useful? Let's find out!",
+      "imageUrl": "./0bfb0c850ce9a6c516dd1b6a890a673631efe4e3d329d72751f4f1875efb045d.jpg",
+      "featured": false
+    },
+    {
+      "title": "AWS Step Functions Workflow Studio",
+      "url": "https://aws.amazon.com/blogs/aws/new-aws-step-functions-workflow-studio-a-low-code-visual-tool-for-building-state-machines",
+      "description": "AWS Step Functions allow you to build scalable, distributed applications using state machines. Until today, building workflows on Step Functions required you to learn and understand Amazon State Language (ASL). Today, you can use Workflow Studio, a low-code visual tool.",
+      "imageUrl": "./c63cf8081b3b3dee75bfb6108e22dce0a2dd5f3bb332830348d61b0fa38eee4e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Beginner's Guide to Running Rust on AWS Lambda",
+      "url": "https://dev.to/nicholaschiasson/beginner-s-guide-to-running-rust-on-aws-lambda-277n",
+      "description": "A start-to-finish tutorial demonstrating how to build a simple AWS Lambda written in Rust and manage its deployment with AWS CDK.",
+      "imageUrl": "./7ea9e826bd40c5b64d03cc372122555f26c1c3448b390193f3cfa3a74645b300.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building a 3D Cheeseburger Drum Kit",
+      "url": "https://youtube.com/watch?v=VtmsuVT7BGI",
+      "description": "I think that, with a title like this, you just need to click the link and watch the video... Seriously, it is a lot of fun... no need for spoilers!",
+      "imageUrl": "./46c24711838069b1d687647dab9dbebae71b9666e624c77769ff1f62bdce79df.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Beginner's Guide To The File System Module In Node.js",
+      "url": "https://catalins.tech/a-beginners-guide-to-the-file-system-module-in-nodejs",
+      "description": "The fs module is one of the most useful modules in Node.js. It allows you to interact with the filesystem in a number of ways: read and write files, list directories, create directories, etc. In this article, you can learn almost everything that there's to know about it!",
+      "imageUrl": "./dac813658f4b4716e37493bf187e60021eba660fa239e870f7d26f501ad17360.jpg",
+      "featured": false
+    },
+    {
+      "title": "How To Add Animations to React Apps with React-Lottie",
+      "url": "https://digitalocean.com/community/tutorials/how-to-add-animations-to-react-apps-with-react-lottie",
+      "description": "Lottie is a program developed by Airbnb Design that allows you to use After Effects animations in real-time in a lightweight and flexible format. Lottie takes JSON data from an After Effects extension called Bodymovin and turns it into a usable animation that you can easily include in many contexts, including React applications.",
+      "imageUrl": "./b8b5aea4555dd7879ecd112a578e8847316d2bbf45432eebe3e70fd4a9238355.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Rust in action",
+    "author": "Tim McNamara",
+    "description": "Rust in action is probably one of our favourite books to learn Rust. It has been in the works for a good number of years and it's finally ready for the press. The reason why we enjoyed this book so much is that it takes a very practical stance. Rust concepts are taught by building interesting projects such as your own floating-point number implementation, a CPU emulator, a custom file format, a key-value store database, etc.\n\nWith this book, you won't be learning only about the Rust programming language, but also an additional number of concepts and ideas that are useful for every software engineer.",
+    "coverImageUrl": "./19bb7e0216973850839c0c300aec616cbc4ec4bcc6e6c197c5dec7bbfa02c233.jpeg",
+    "amazonUs": null,
+    "amazonUk": null
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

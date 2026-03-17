@@ -1,0 +1,75 @@
+{
+  "issueNumber": 81,
+  "title": "CSS Variables with JavaScript",
+  "slug": "2018-09-24-081-css-variables-with-javascript",
+  "date": "2018-09-24",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #38, 2018",
+  "quote": {
+    "text": "The best way to predict the future is to implement it",
+    "author": "David Heinemeier Hansson",
+    "authorTitle": "Software Developer and Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/David_Heinemeier_Hansson"
+  },
+  "links": [
+    {
+      "title": "CSS Variables with JavaScript",
+      "url": "https://css-tricks.com/updating-a-css-variable-with-javascript",
+      "description": "Did you know you can control CSS variables from JavaScript? This short article will take a very practical approach to show you how to do so by connecting a box positioned with CSS absolute positioning and mouse movements tracked in JavaScript.",
+      "imageUrl": "./ae73db8b4e3b777030f95189d3532d6bdfd6900444edaa5c5996c351c9698848.jpg",
+      "featured": true
+    },
+    {
+      "title": "Cache your React event listeners to improve performance.",
+      "url": "https://medium.com/@Charles_Stover/cache-your-react-event-listeners-to-improve-performance-14f635a62e15",
+      "description": "An under-appreciated concept in JavaScript is how objects and functions are references, and that directly impacts React performance.",
+      "imageUrl": "./fb137f85b933518e0a1cfdea318f23bcddc3969d4503d71c87eb6e586b2da6d8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Next Generation Package Management",
+      "url": "https://blog.npmjs.org/post/178027064160/next-generation-package-management",
+      "description": "What if installs were so fast they could happen in the background, just by using Node? What if every file in your dependencies could be guaranteed to be bit-by-bit identical to what’s on the registry?",
+      "imageUrl": "./cd752b539a6ec346f3ea8633e0bae6b452b01a79133ffd7da662a4e7b229fbda.png",
+      "featured": false
+    },
+    {
+      "title": "Inside look at modern web browser",
+      "url": "https://developers.google.com/web/updates/2018/09/inside-browser-part1",
+      "description": "Learn how browser turn your code into functional website from high-level architecture to the specifics of the rendering pipeline.",
+      "imageUrl": "./67337487a3e95d6b84878aaa4215b190433e7b03c754130b7bf591b3a892d0cc.jpg",
+      "featured": false
+    },
+    {
+      "title": "10 years of Speed in Chrome",
+      "url": "https://blog.chromium.org/2018/09/10-years-of-speed-in-chrome_11.html",
+      "description": "Speed has been one of Chrome’s four core principles, since it was first launched ten years ago.",
+      "imageUrl": "./9f5f12c6aa422cf3be1b2365ef13f09a4c55a56eb1a4cde6ee8a8f56f762a0b4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Git Cheatsheet",
+      "url": "https://ndpsoftware.com/git-cheatsheet.html",
+      "description": "Interactive Git Cheatsheet, categorizing commands based on what they affect.",
+      "imageUrl": "./cfd6bfa00e80f085c43d63923016f31b04b9a96b49d36fe4a55969c84c54e43d.png",
+      "featured": false
+    },
+    {
+      "title": "Flexbox: How Big Is That Flexible Box?",
+      "url": "https://smashingmagazine.com/2018/09/flexbox-sizing-flexible-box",
+      "description": "This article explores the often confusing issue of sizing in Flexbox. How does Flexbox decide how big things should be?",
+      "imageUrl": "./8c74c535228c27b91f3c15af1b249588150e023baa2400057add2aa666dcb7de.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "ReactJS by Example- Building Modern Web Applications with React",
+    "author": "Vipul A M",
+    "description": "tarting with a project on Open Library API, you will be introduced to React and JSX before moving on to learning about the life cycle of a React component. In the second project, building a multi-step wizard form, you will learn about composite dynamic components and perform DOM actions. You will also learn about building a fast search engine by exploring server-side rendering in the third project on a search engine application. Next, you will build a simple frontpage for an e-commerce app in the fourth project by using data models and React add-ons. In the final project you will develop a complete social media tracker by using the flux way of defining React apps and know about the best practices and use cases with the help of ES6 and redux.",
+    "coverImageUrl": "./a4e0dee4571c84ad4a0d244e4ef6cdb129bb9185a1fdb2fc5e8eecb99c12e3c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785289640/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785289640/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

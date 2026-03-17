@@ -1,0 +1,75 @@
+{
+  "issueNumber": 33,
+  "title": "Taking PHP Seriously",
+  "slug": "2017-10-30-033-taking-php-seriously",
+  "date": "2017-10-30",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #43, 2017",
+  "quote": {
+    "text": "Companies spend millions of dollars on firewalls, encryption and secure access devices, and it’s money wasted, because none of these measures address the weakest link in the security chain",
+    "author": "Kevin Mitnick",
+    "authorTitle": "Auhor and Security Consultant",
+    "authorUrl": "https://en.wikipedia.org/wiki/Kevin_Mitnick"
+  },
+  "links": [
+    {
+      "title": "Taking PHP Seriously",
+      "url": "https://slack.engineering/taking-php-seriously-cf7a60065329",
+      "description": "Keith Adams from Slack Engineering illustrates the pros and cons of PHP and explains why, even though it doesn't have the best reputation, it's still a great language to build complex applications.",
+      "imageUrl": "./0f4a1c85dda57db976a7feba663d6308d51d558b24157d4792050317b80217dd.jpg",
+      "featured": true
+    },
+    {
+      "title": "Saying Goodbye to Firebug",
+      "url": "https://hacks.mozilla.org/2017/10/saying-goodbye-to-firebug",
+      "description": "When it came out in 2005, Firebug was the first tool to let programmers inspect, edit, and debug code right in the Firefox browser. Over its 12-year lifespan, the open source tool developed a near cult following among web developers. Today we have to say goodbye to it...",
+      "imageUrl": "./96435a6ffa7616feb558ae1471e22ee8df150bcf1af3c5a305a45ca5222cbeb1.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building Better Interfaces with SVG",
+      "url": "http://slides.com/sarasoueidan/building-better-interfaces-with-svg",
+      "description": "A fantastic presentation by Sara Soueidan about the capabilities of SVG and why you should use this technology when developing your web interfaces.",
+      "imageUrl": "./a27e01eae3c03b4078aab703cea34b3fc349c7fee0d94d04810cd8acdcdf7094.jpg",
+      "featured": false
+    },
+    {
+      "title": "Modern JavaScript Explained For Dinosaurs",
+      "url": "https://medium.com/@peterxjang/modern-javascript-explained-for-dinosaurs-f695e9747b70",
+      "description": "Learning modern JavaScript is tough if you haven’t been there since the beginning. This article illustrates why in a funny and thought-challenging way!",
+      "imageUrl": "./d2e46c15fa057d3f16d3b8849b0eb22d3b38ac58520755ac200c05b6c2ad834b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Google and the Resurgence of Italian Design",
+      "url": "https://blog.prototypr.io/google-and-the-resurgence-of-italian-design-e9234cf3d073",
+      "description": "Once upon a time, we had products that were colorful, in shapes that were quirky, whimsical, and expressive. Interesting! And then, almost every tech product became white, silver, gray, black, flat, square, round, and minimalist. Boring.\nBut there are hints that this is changing. And one of the leaders of this change is, somewhat improbably, Google.",
+      "imageUrl": "./b962c6a79507463014f20e1f8e5613a00be3d0e7d7b63b20a6075bd7fd172fc3.jpg",
+      "featured": false
+    },
+    {
+      "title": "Event loop and async programming in JavaScript",
+      "url": "https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5",
+      "description": "An interesting article about the internals of JavaScript and its single-threaded environment. The article illustrates pros and cons of this model and it also provides 5 tips on how to write cleaner code with async/await.",
+      "imageUrl": "./d6fbf2a051a3c1008ed0166ff6605f6d3f79ba90f8561d6d84e98eb5212e0e74.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript Guessing Game",
+      "url": "https://javascript-game.firebaseapp.com/",
+      "description": "You know there are too many JS libraries when there is a game for it. Can you guess the library from its logo? If you do you definitely are a JavaScript master!",
+      "imageUrl": "./b4df6e24e471e26cbdbb8b24e1a1232b85a8a8591323572a7c99aed9fb79cb4b.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Linux Pocket Guide: Essential Commands",
+    "author": "Daniel J. Barrett",
+    "description": "If you use Linux in your day-to-day work, this popular pocket guide is the perfect on-the-job reference. The third edition features new commands for processing image files and audio files, running and killing programs, reading and modifying the system clipboard, and manipulating PDF files, as well as other commands requested by readers. You’ll also find powerful command-line idioms you might not be familiar with, such as process substitution and piping into bash. Linux Pocket Guide provides an organized learning path to help you gain mastery of the most useful and important commands. Whether you’re a novice who needs to get up to speed on Linux or an experienced user who wants a concise and functional reference, this guide provides quick answers. Selected topics include:The filesystem and shell, File creation and editing, Text manipulation and pipelines, Backups and remote storage, Viewing and controlling processes, User account management, Becoming the superuser, Network connections, Audio and video, Installing softwar, Programming with shell scripts.",
+    "coverImageUrl": "./fcd1dd45a11d838bd7fffe901365729615e97b5a211cd1a7b7ef779c02fffe5d.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491927577/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491927577/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 52,
+  "title": "Ancient Maths to enrich your design",
+  "slug": "2018-03-12-052-ancient-maths-to-enrich-your-design",
+  "date": "2018-03-12",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #10, 2018",
+  "quote": {
+    "text": "The human spirit must prevail over technology",
+    "author": "Albert Einstein",
+    "authorTitle": "Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "links": [
+    {
+      "title": "Ancient Maths to enrich your design",
+      "url": "https://medium.freecodecamp.org/using-ancient-mathematics-to-enrich-your-design-skills-ac360a83d297",
+      "description": "This fantastic article showcases how ancient mathematics can enrich your design skills. Basic geometries can be combined to define the structure of your design. And you'll be surprised, this tecnique is thousands of years old!",
+      "imageUrl": "./04f793391c884ad75514505fda0b2d109d7b78f84022ef4af31103e5ae52aeb7.png",
+      "featured": true
+    },
+    {
+      "title": "Fastify 1.0.0 is here!",
+      "url": "https://medium.com/@fastifyjs/fastify-goes-lts-with-1-0-0-911112c64752",
+      "description": "After a year and a half of very active development with 1562 commits by 67 individuals through 75 releases, Fastify is graduating to 1.0.0! It's time for you to start to use this amazing web framework in production!",
+      "imageUrl": "./948ffeed496267e09cd7ca027f91568e4685b53c799e39ae0ba1865a312598cc.png",
+      "featured": false
+    },
+    {
+      "title": "30 Seconds of CSS",
+      "url": "https://atomiks.github.io/30-seconds-of-css",
+      "description": "A curated collection of useful CSS snippets you can understand in 30 seconds or less. From foundational elements such as clearfix to gradient text color and gradient cursor tracking to CSS easing and far beyond.",
+      "imageUrl": "./1ff6eb7ef5e693e3928c92256490b78935b6aba8acfd278ba4af5bca920c46ff.png",
+      "featured": false
+    },
+    {
+      "title": "CSS Puns",
+      "url": "https://saijogeorge.com/css-puns",
+      "description": "This website incarnates the idea of \"what if you could tell jokes only using CSS\". We know it sounds somewhat creepy, but if you are a full stack developer, trust us, it is actually funny!",
+      "imageUrl": "./71154c7d07d2b74ef973e3c7ee7b3edcd4e222e89bd23f4f017b7337999e500e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building a Component Library from Scratch",
+      "url": "https://medium.com/oscar-tech/building-a-component-library-from-scratch-ba6421074d6a",
+      "description": "The interesting story of Oscar and how he used React and CSS Modules to build a flexible component library for its many front-ends.",
+      "imageUrl": "./2b330d89748a43ab9aeb303f532d81b7d3c8f6571b217a656c168a5150ddd413.gif",
+      "featured": false
+    },
+    {
+      "title": "GDPR - A Practical Guide",
+      "url": "https://techblog.bozho.net/gdpr-practical-guide-developers",
+      "description": "You’ve probably heard about GDPR. The new European data protection regulation that applies practically to everyone. Especially if you are working in a big company, it’s most likely that there’sContinue reading",
+      "imageUrl": "./5419fd1f602f4a2869d42eb45453cb1b68ecac13bcc3dcc3a3ef73f216408f97.jpg",
+      "featured": false
+    },
+    {
+      "title": "Webpack 4 released",
+      "url": "https://medium.com/webpack/webpack-4-released-today-6cdb994702d4",
+      "description": "Webpack 4 (Codename: Legato) has been released and this release brings an incredible number of new features with it: improved performance, devel/production modes, web assembly support, etc. Read the release announcement to discover all of them!",
+      "imageUrl": "./b7ea41bd2189d05f7c7babc1c3f3bea7ae0c06f34e96b6495f9046a79df36782.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Test Driven Development: By Example",
+    "author": "Kent Beck",
+    "description": "Developers face complex programming challenges every day, yet they are not always readily prepared to determine the best solution. More often than not, such difficult projects generate a great deal of stress and bad code. To garner the strength and courage needed to surmount seemingly Herculean tasks, programmers should look to test-driven development (TDD), a proven set of techniques that encourage simple designs and test suites that inspire confidence.",
+    "coverImageUrl": "./ef72fdfbf05d98a13cd8c799cb261327f791b8743ab00f96b9dc0c4c1fb91ed1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321146530/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321146530/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

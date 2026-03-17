@@ -1,0 +1,75 @@
+{
+  "issueNumber": 76,
+  "title": "Foreshadow explained in 3 minutes",
+  "slug": "2018-08-20-076-foreshadow-explained-in-3-minutes",
+  "date": "2018-08-20",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #33, 2018",
+  "quote": {
+    "text": "Errors using inadequate data are much less than those using no data at all",
+    "author": "Charles Babbage",
+    "authorTitle": "Mathematician",
+    "authorUrl": "https://en.wikipedia.org/wiki/Charles_Babbage"
+  },
+  "links": [
+    {
+      "title": "Foreshadow (Cloud vulnerability) explained in 3 minutes",
+      "url": "https://youtu.be/kBOsVt0iXE4",
+      "description": "This vulnerability takes advantage of the way Intel processors handle page tables (the maps that translate between physical and virtual memory resources). Like Spectre and Meltdown in early 2018, L1TF allows unauthorized users to access data from speculative operations. It is a serious threat to all Cloud environments, so take few minutes to understand how it might impact you and your apps.",
+      "imageUrl": "./8865ef8bea9c720341cebb9f03b70f5209b3dbc7f8e14bb088172d72b395a6b6.png",
+      "featured": true
+    },
+    {
+      "title": "GLB: GitHub’s open source load balancer",
+      "url": "https://githubengineering.com/glb-director-open-source-load-balancer",
+      "description": "GitHub serves tens of thousands of requests every second, operating on GitHub’s metal cloud. This article presents GLB, an open source scalable load balancing solution for bare metal datacenters, which powers the majority of GitHub’s public web and git traffic.",
+      "imageUrl": "./cba04937186c94635d8896375dde6a7dfdd23fafb8708c46249c7bd1d80062f1.png",
+      "featured": false
+    },
+    {
+      "title": "Serverless Docker Beta",
+      "url": "https://zeit.co/blog/serverless-docker",
+      "description": "Zeit now finally supports serverless through docker. The offering is very interesting and supports Instant cold boots, predictable horizontal scalability, tunable resources and limits and much more.",
+      "imageUrl": "./6440871dae3eb6ba0636d1efd91f7ee89e5a7628a6df53035cfe1576915bb8c1.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Friendly Introduction to Flexbox for Beginners",
+      "url": "https://sitepoint.com/flexbox-css-flexible-box-layout",
+      "description": "Christian Krammer walks you through the basics of Flexbox, showing how you can use flexbox to lay out specific page elements, and also how flexbox can serve as a handy fallback method in browsers that don't yet support CSS Grids.",
+      "imageUrl": "./598258cb84d744ba8b4f2ea0345e36feb662dcb9fb14b4e972ac9bd1b6ba7b18.jpg",
+      "featured": false
+    },
+    {
+      "title": "Browser painting and considerations for web performance",
+      "url": "https://css-tricks.com/browser-painting-and-considerations-for-web-performance",
+      "description": "The process of a web browser turning HTML, CSS, and JavaScript into a finished visual representation is quite complex and involves a good bit of magic.",
+      "imageUrl": "./adc78e6b13bc66f710cb84724ce99a55395f0c4b773da89dc4ae23a8c3b97c89.png",
+      "featured": false
+    },
+    {
+      "title": "Introduction to OCaml",
+      "url": "https://blog.baturin.org/introduction-to-ocaml.html",
+      "description": "A very friendly introduction to OCaml, a general purpose programming language with an emphasis on expressiveness and safety that has been developed for more than 20 years.",
+      "imageUrl": "./60ef0f00967939dadcf3e7e355cca09914a3c6daf9cdac33256c0eb3ddf6e11b.png",
+      "featured": false
+    },
+    {
+      "title": "UNIX Syscalls",
+      "url": "https://john-millikin.com/unix-syscalls",
+      "description": "On UNIX-like operating systems, userland processes invoke kernel procedures using the “syscall” feature. Each syscall is identified by a “syscall number” and has a short list of parameters, which both can vary betwen operating systems, hardware platforms, and configuration options.",
+      "imageUrl": "./d7dc5c418a26e48c0c212a5f4c93b83528010c64051b945d38e157de9d790c63.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "description": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code. Considered the JavaScript expert by many people in the development community, author Douglas Crockford identifies the abundance of good ideas that make JavaScript an outstanding object-oriented programming language-ideas such as functions, loose typing, dynamic objects, and an expressive object literal notation.",
+    "coverImageUrl": "./b4beb220d7fc9561d1a7ac83cc89192fb78f862d089424d2a5ef352069ce6e33.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0596517742/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0596517742/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

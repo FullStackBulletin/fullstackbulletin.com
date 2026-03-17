@@ -1,0 +1,75 @@
+{
+  "issueNumber": 60,
+  "title": "Cross-Site Request Forgery is dead!",
+  "slug": "2018-05-07-060-cross-site-request-forgery-is-dead",
+  "date": "2018-05-07",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #18, 2018",
+  "quote": {
+    "text": "The art challenges the technology, and the technology inspires the art",
+    "author": "John Lasseter",
+    "authorTitle": "Director",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_Lasseter"
+  },
+  "links": [
+    {
+      "title": "Cross-Site Request Forgery is dead!",
+      "url": "https://scotthelme.co.uk/csrf-is-dead",
+      "description": "After toiling with Cross-Site Request Forgery on the web for, well forever really, we finally have a proper solution, it's Same-Site Cookies.",
+      "imageUrl": "./93ac6591d65aa1724f8e1acabd16417593be90adf406e9aa8c3cc146464e6223.png",
+      "featured": true
+    },
+    {
+      "title": "TOAST UI",
+      "url": "https://ui.toast.com/",
+      "description": "The TOAST UI Is a Free and Open-source JavaScript UI Libraries that offers very elaborate and useful components like a calendar, a text editor and charts.",
+      "imageUrl": "./3460d4474acc6bf97d959098fde18caf43d3178f53a6135c5e9bae292422d9e3.png",
+      "featured": false
+    },
+    {
+      "title": "Node v10 is Here",
+      "url": "https://blog.risingstack.com/node-js-10-lts-feature-breakdown",
+      "description": "Let's take a look at the new features of Node.js v10, such as: HTTP2, ESM Modules, Error Codes, Fs Promises, the N-API & V8 6.6",
+      "imageUrl": "./6c6a4ae7e074f999818f6585199e8ce8cc806cf68154c6d06905662174ea0af4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Switching from cluster module to PM2 & RabbitMQ in Node.js",
+      "url": "https://medium.com/the-node-js-collection/switching-from-cluster-module-to-pm2-rabbitmq-in-node-js-d0cce5eb96f4",
+      "description": "If you have been using Node.js for sometime, you should know that it is single threaded. This is why you can’t take full advantage of multiple core machines unless you use the cluster module or a process manager like PM2.",
+      "imageUrl": "./3af8316f698fc4bcbd3051db18dda9d658ae3160b079ecf1fc85bda06d0502bd.jpg",
+      "featured": false
+    },
+    {
+      "title": "BigInt: arbitrary-precision integers in JavaScript",
+      "url": "https://developers.google.com/web/updates/2018/05/bigint",
+      "description": "BigInts are a new numeric primitive in JavaScript that can represent integers with arbitrary precision. This article walks through some use cases and explains the new functionality in Chrome 67 by comparing BigInts to Numbers in JavaScript.",
+      "imageUrl": "./67337487a3e95d6b84878aaa4215b190433e7b03c754130b7bf591b3a892d0cc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Easing Linear Gradients",
+      "url": "https://css-tricks.com/easing-linear-gradients",
+      "description": "Linear gradients are easy to create in CSS and are extremely useful. As we'll go through in this article, we can make them visually much smoother by creating them with non-linear gradients. Well, non-linear in the easing sense, anyway!",
+      "imageUrl": "./7334cc576d24423bd771cd041574124bf38a5cf2602db6ae96ac5b050c57d556.jpg",
+      "featured": false
+    },
+    {
+      "title": "Finger-friendly numerical inputs with `inputmode`",
+      "url": "https://css-tricks.com/finger-friendly-numerical-inputs-with-inputmode",
+      "description": "Forms are often a nightmare on mobile. We can make the process as pain-free as possible by reacting to context. Input fields that expect numerical values should have a numerical UI. Bringing up a numeric keyboard on small screens is easy on most platforms.",
+      "imageUrl": "./b3eed93c426f548941df113099ff15a5bffb66ba6e687def4946a882869e4058.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Go Programming Language",
+    "author": "Alan A. A. Donovan",
+    "description": "The Go Programming Language   is the authoritative resource for any programmer who wants to learn Go. It shows how to write clear and idiomatic Go to solve real-world problems. The book does not assume prior knowledge of Go nor experience with any specific language, so you’ll find it accessible whether you’re most comfortable with JavaScript, Ruby, Python, Java, or C++.",
+    "coverImageUrl": "./be6ca3847c1c5e1bb60721ca2947bb788e506e371357a6e933bcac0b448d6a7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134190440/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134190440/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 127,
+  "title": "Humans Don’t Realize How Biased They Are Until AI Reproduces the Same Bias",
+  "slug": "2019-09-09-127-humans-don-t-realize-how-biased-they-are-until-ai-reproduces",
+  "date": "2019-09-09",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #36, 2019",
+  "quote": {
+    "text": "Code generation, like drinking alcohol, is good in moderation",
+    "author": "Alex Lowe",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alex_Lowe"
+  },
+  "links": [
+    {
+      "title": "Humans Don’t Realize How Biased They Are Until AI Reproduces the Same Bias",
+      "url": "https://medium.com/syncedreview/humans-dont-realize-how-biased-they-are-until-ai-reproduces-the-same-bias-says-unesco-ai-chair-9968bb1f5da8",
+      "description": "A fantastic interview with Prof. Shawe-Taylor, UNESCO Chair for Artificial Intelligence. Among other topics related to AI, Prof. Shawe-Taylor shows how humans are generally biased in their decisions, but they don't realize that until an AI model based on historic data shows the same bias.",
+      "imageUrl": "./09a796fe97985942fa902dcec0f5d6a91c6defe94248d13e6bc1a4f64601a48c.jpg",
+      "featured": true
+    },
+    {
+      "title": "How JavaScript Grew Up and Became a Real Language",
+      "url": "https://medium.com/young-coder/how-javascript-grew-up-and-became-a-real-language-17a0b948b77f",
+      "description": "Few imagined that the one-time toy language would become one of the most widely adopted professional development platforms.",
+      "imageUrl": "./3d1f82f807418be62b423e586d015d3bd2c9f6c298598607e3250f15daa32c10.jpg",
+      "featured": false
+    },
+    {
+      "title": "Async IO in Python: A Complete Walkthrough",
+      "url": "https://realpython.com/async-io-python",
+      "description": "This tutorial will give you a firm grasp of Python’s approach to async IO, which is a concurrent programming design that has received dedicated support in Python, evolving rapidly from Python 3.4 through 3.7 (and probably beyond).",
+      "imageUrl": "./e5ee1112c97c04469aebe9a1455ee407ffde26899c4a2270552973496a2f8d64.jpg",
+      "featured": false
+    },
+    {
+      "title": "Feross Open Source `funding` experiment",
+      "url": "https://feross.org/funding-experiment-recap",
+      "description": "Feross Aboukhadijeh, a very prominent name in the Node.js and JavaScript Open Source ecosystem, attempted a new experiment to make open source development more sustainable and, this article recaps the results of this latest adventure. Pretty interesting read if you care about Open Source (as you should!)",
+      "imageUrl": "./aebf82547b23e982758402fa6580053d40bae789b05cd9d6db5f8c7ec34008dc.png",
+      "featured": false
+    },
+    {
+      "title": "Should you be using Web Workers? (hint: probably not)",
+      "url": "https://medium.com/@david.gilbertson/should-you-should-be-using-web-workers-hint-probably-not-9b6d26dc8c6a",
+      "description": "This engaging article describes what web workers are, but also show us that you shouldn't be using them to do everything.",
+      "imageUrl": "./2f73070d7c4682adb7d858b15836903710ba997237352af1c9738ce83e626062.jpg",
+      "featured": false
+    },
+    {
+      "title": "How Web Content Can Affect Power Usage",
+      "url": "https://webkit.org/blog/8970/how-web-content-can-affect-power-usage",
+      "description": "Users spend a large proportion of their online time on mobile devices, and a significant fraction of the rest is users on untethered laptop computers.",
+      "imageUrl": "./489a06fd0fa54feec4beb0c913d6e06ecb4d590c49bd2e9e0be746a2253b2535.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why every SaaS is rebranding and using illustrations",
+      "url": "https://unbounce.com/design/branding-cartoon-illustration-design-trend",
+      "description": "Recently, hundreds of SaaS websites have started using similar-looking illustrations in their branding. How did this trend catch fire? And is it bad for marketers to follow these types of design trends?",
+      "imageUrl": "./e8e2d424769affe109bd39d1c857697e9d0e9ca0d869d25a27f01815d3bc479f.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "MongoDB: The Definitive Guide: Powerful and Scalable Data Storage",
+    "author": "Kristina Chodorow",
+    "description": "Manage the huMONGOus amount of data collected through your web application with MongoDB. This authoritative introduction—written by a core contributor to the project—shows you the many advantages of using document-oriented databases, and demonstrates how this reliable, high-performance system allows for almost infinite horizontal scalability. This book provides guidance for database developers, advanced configuration for system administrators, and an overview of the concepts and use cases for other people on your project.",
+    "coverImageUrl": "./d98bc829eaad931cbbfe76cf5cddb28b6b469caa0a8f6f508749d164568b6f11.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449344682/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449344682/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

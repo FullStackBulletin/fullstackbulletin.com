@@ -1,0 +1,138 @@
+{
+  "issueNumber": 441,
+  "title": "Reading and Writing Files in Node.js (The Complete Modern Guide)",
+  "slug": "2025-10-13-421-reading-and-writing-files-in-node-js-the-complete-modern-gui",
+  "date": "2025-10-13",
+  "templateType": "buttondown-markdown",
+  "intro": "Hey there,\n\nAfter a tiny break last week we are back in full swing: caffeinated, curious, and ready to ship. To make up for the pause I brought not one but two extra feature picks: one of them is a 45 minute in depth guide I wrote on reading and writing files in Node.js the modern way (promises, top level await, ESM, streams). I packed this issue with pieces to sharpen your craft and spark ideas: I hope you enjoy the ride and keep staying inspired and curious!\n\nHappy reading and coding!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Technology is best when it brings people together",
+    "author": "Matt Mullenweg",
+    "authorTitle": "Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/Matt_Mullenweg?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=441-reading-and-writing-files-in-node"
+  },
+  "links": [
+    {
+      "title": "Reading and Writing Files in Node.js (The Complete Modern Guide)",
+      "url": "https://nodejsdesignpatterns.com/blog/reading-writing-files-nodejs/",
+      "description": "I wrote this one because the same Node.js question kept popping up: *how do you read and write files in Node.js without old baggage?* Many guides skip modern JavaScript, so I leaned into async and await, top level await, and ESM, then built a friendly walkthrough that starts simple and ramps up with purpose. We begin exploring `node:fs/promises`: `readFile()` and `writeFile()` for text. Then we jump into binary by hand: we generate a tiny WAV file from a plain Node.js script with zero dependencies, and we parse its header to see what is really going on. From there we shift to real world speed: read many files at once, write many at once, work with directories, and resolve paths relative to your script without guesswork. I also explain when async beats sync and why. Next we tackle large files and memory, then move to file handles for incremental writes: open files, keep them around, and understand why this API feels low level and when that is a good thing. We close with Streams, my favorite Node.js feature: how to read, how to write, how to compose tidy pipelines, and when they are the right tool. I finish with best practices and a short FAQ that covers the usual suspects: sync or async, handling big files, streams versus promises, the error codes that matter, top level await, and safe concurrency. I wrote it to be concise, current, and example driven: hit reply and tell me what you think and what you would like me to explore next.",
+      "imageUrl": "./d3205201cc638a379a2351b95b9e8031a6694c7cfef7355ff8e955658c0b984e.jpeg",
+      "featured": true
+    },
+    {
+      "title": "Vite: The Documentary",
+      "url": "https://www.youtube.com/watch?v=bmWQqAKLgT4%3Futm_source%3Dfullstackbulletin.com",
+      "description": "Vite is one of my favorite web technologies of the last few years: it has supercharged productivity for everyday web devs and for the folks who build frameworks. It still blows my mind to say this out loud: almost every major framework ships with Vite out of the box today, with Next.js as the big exception. This documentary is a joyful origin story: you watch Vite grow from spark to staple through the eyes of Evan You (also the creator of Vue), alongside core contributors and familiar community voices. You see the pain points that started it, the design bets that made feedback instant, and the moment the ecosystem rallied around speed and simplicity. Here is what makes it even more compelling to me: Vite is still evolving fast and expanding its reach. I honestly feel we are at the very beginning of what Vite will mean for the future of web development, which makes this story even more exciting in my eyes. I loved watching it: if you care about fast feedback, great ergonomics, and how the best tools come to life, I think you will enjoy it too!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Introducing the React Foundation",
+      "url": "https://react.dev/blog/2025/10/07/introducing-the-react-foundation",
+      "description": "Huge news for open source: the React team just announced a new React Foundation and a shift to independent technical governance. React and React Native will move out of Meta into a neutral home under the Linux Foundation, with the goal of widening stewardship and supporting the whole ecosystem, not just one company’s priorities. Why I like this move right now: React has been taking plenty of criticism lately, and this feels like a timely way to make React even more of a community tool than a corporate flagship. The foundation will handle core infrastructure and community programs like React Conf, while technical direction is set by maintainers across companies, with early founding members including Amazon, Callstack, Expo, Meta, Microsoft, Software Mansion, and Vercel. That is a strong signal of shared ownership and long term health. Big picture: this is a win for developers who want React to keep evolving in the open with transparent governance and durable support. I am excited to see where it goes next.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "React 19.2 is out!",
+      "url": "https://react.dev/blog/2025/10/01/react-19-2",
+      "description": "Another big one for React: 19.2 lands with real features and real polish. You get `<Activity />` (which we covered a few weeks ago!) to hide or keep parts of the UI warm for instant switches, `useEffectEvent` to separate event logic from effects so you stop fighting reruns, and `cacheSignal` for server components to abort or clean up work when cached renders no longer matter. Debugging gets nicer too: new React Performance Tracks show Scheduler and Components activity right inside Chrome profiles.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How to detect Safari and iOS versions with ease in 2025",
+      "url": "https://evilmartians.com/chronicles/how-to-detect-safari-and-ios-versions-with-ease",
+      "description": "I wish the web were perfect and we never had to detect browsers or operating systems again like the Internet Explorer 6 days: yet every now and then reality taps you on the shoulder and you need a precise check. This guide shows a sane way to detect Safari and iOS versions without playing guess the user agent: lean on WebKit feature checks and tiny behavior tests, then use user agent hints only when you truly must. On iPhone and iPad the Safari version maps to the iOS major version, so once you confirm the Safari build you can infer the OS and gate features with confidence. The piece walks through practical moves with clear examples: narrow to Safari with engine signals, detect release specific features with CSS supports, combine presence and absence to isolate tricky cases, and test on real devices because strings lie and even Firefox on iPad can masquerade as Safari. It is current, pragmatic, and immediately useful: if Safari quirks have ever bitten you, this one belongs in your toolkit.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Size Matters - Fluid Type Scale Generator",
+      "url": "https://sizematters.netlify.app/",
+      "description": "If you struggle to generate responsive type scales for your web projects, you might really enjoy this one: a small tool that helps you build a scale that fits your design and configure it to your needs. Pick a base size and a ratio, set the min and max viewport you care about, preview headings and paragraphs across sizes, then copy the CSS it produces. It turns typography math into a friendly workflow, and the result is a consistent rhythm without trial and error.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Coinbase Design System",
+      "url": "https://cds.coinbase.com/",
+      "description": "Last week Coinbase opened up its design system as open source: a sizable set of React and React Native components, patterns, hooks, and docs with accessibility and theming baked in. That is great to see, and it gives us one more solid reference to study and borrow from for our own projects. If you want to break free from the usual Bootstrap and maybe try something different from Shadcn, this is worth a look.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Development gets better with Age",
+      "url": "https://allthingsdistributed.com/2025/10/better-with-age.html",
+      "description": "An inspiration piece from Werner Vogels, CTO at Amazon: a short and uplifting reminder that experience really does sharpen builders. He talks about the value of battle scars, pattern recognition, and a healthy dose of skepticism in a moment where generative AI hype can drown out clear thinking. The takeaway is simple and powerful: pause the FOMO, understand real customer problems first, then pick the right tools, which might include gen AI when it truly fits. I found it grounded and energizing. I think you will too.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What's new in view transitions",
+      "url": "https://developer.chrome.com/blog/view-transitions-in-2025",
+      "description": "View Transitions keep maturing: broader cross browser support, nicer DevTools, and nested groups that fix clipping and 3D transform quirks. Frameworks are moving support forward, and more is on the way: scoped transitions, document.activeViewTransition, and a waitUntil method to control when a transition finishes. If you care about polished UI, this is a great moment to try them and start baking them into your design system.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Software Engineering at Google: Lessons Learned from Programming Over Time",
+    "author": "Titus Winters, Tom Manshreck, and Hyrum Wright",
+    "description": "Today, software engineers need to know not only how to program effectively but also how to develop proper engineering practices to make their codebase sustainable and healthy. This book emphasizes this difference between programming and software engineering.\nHow can software engineers manage a living codebase that evolves and responds to changing requirements and demands over the length of its life? Based on their experience at Google, software engineers Titus Winters and Hyrum Wright, along with technical writer Tom Manshreck, present a candid and insightful look at how some of the world's leading practitioners construct and maintain software. This book covers Google's unique engineering culture, processes, and tools and how these aspects contribute to the effectiveness of an engineering organization.\nYou'll explore three fundamental principles that software organizations should keep in mind when designing, architecting, writing, and maintaining code:",
+    "coverImageUrl": "./0838555b72ae57f88c0eecc9e3fef9fca26d88f2b59865afb1f073409aff4f26.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492082791",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492082791"
+  },
+  "additionalLinks": [
+    {
+      "title": "11ty Hacks for Fun and Performance",
+      "url": "https://infrequently.org/2025/10/11ty-hacks-for-fun-and-performance"
+    },
+    {
+      "title": "Cap'n Web: A new RPC system for browsers and web servers",
+      "url": "https://blog.cloudflare.com/capnweb-javascript-rpc-library"
+    },
+    {
+      "title": "I want to intercept Boolean Coercion for Objects in JavaScript",
+      "url": "https://zachleat.com/web/boolean-coercion"
+    },
+    {
+      "title": "e18e (Ecosystem Performance) - Best Practices on Publishing npm Packages",
+      "url": "https://e18e.dev/docs/publishing.html"
+    },
+    {
+      "title": "itty - Ultra-small, powerful tools for modern web development",
+      "url": "https://itty.dev/"
+    },
+    {
+      "title": "The least amount of CSS for a decent looking site",
+      "url": "https://thecascade.dev/article/least-amount-of-css"
+    },
+    {
+      "title": "Harmonizer Web Palette Generator",
+      "url": "https://harmonizer.evilmartians.com/"
+    },
+    {
+      "title": "How to Optimize Viewport for Mobile for Faster Interactions",
+      "url": "https://debugbear.com/blog/optimize-viewport-for-mobile"
+    },
+    {
+      "title": "A pragmatic guide to modern CSS colours",
+      "url": "https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one"
+    },
+    {
+      "title": "The History of Core Web Vitals",
+      "url": "https://addyosmani.com/blog/core-web-vitals"
+    },
+    {
+      "title": "Nine HTTP Edge Cases Every API Developer Should Understand",
+      "url": "https://dochia.dev/blog/http_edge_cases"
+    },
+    {
+      "title": "Building My New Website with Astro, GitHub Copilot, and AWS Amplify",
+      "url": "https://www.emanuelebartolesi.com/blog/building-my-new-website-with-astro-github-copilot-and-aws-amplify-3eoc"
+    }
+  ],
+  "sponsor": null
+}

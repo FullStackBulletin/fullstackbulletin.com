@@ -1,0 +1,75 @@
+{
+  "issueNumber": 82,
+  "title": "Flocking algorithms in JavaScript",
+  "slug": "2018-10-01-082-flocking-algorithms-in-javascript",
+  "date": "2018-10-01",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #39, 2018",
+  "quote": {
+    "text": "UNIX is simple.  It just takes a genius to understand its simplicity",
+    "author": "Dennis Ritchie",
+    "authorTitle": "Computer scientist and inventor of the C language",
+    "authorUrl": "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+  },
+  "links": [
+    {
+      "title": "Flocking algorithms in JavaScript",
+      "url": "https://www.blog.drewcutchins.com/blog/2018-8-16-flocking",
+      "description": "Have you ever watched a school of fish, a flock of birds, or even a crowd of people and watched how they move? Moving together, yet without a leader, they are exhibiting a behaviour known as \"flocking\". In this fantastic article, you will learn how to code different flocking simulation algorithms in plain JavaScript!",
+      "imageUrl": "./222678542f255edcaaf4b787bd1456ba3e3d05cc630f5250256a756a0292a293.png",
+      "featured": true
+    },
+    {
+      "title": "Tying a React SPA to WordPress as a Backend",
+      "url": "https://snipcart.com/blog/reactjs-wordpress-rest-api-example",
+      "description": "Combining WordPress and React is a powerful way to build web applications. Read this intro to the WP REST API and step-by-step tutorial for a neat React SPA with WordPress as a backend.",
+      "imageUrl": "./4957ee1f9f0543c66ff1cc0c5b4e5531c68aa4c5acc5647f27dd8ff78914feb3.jpg",
+      "featured": false
+    },
+    {
+      "title": "How we rolled out one of the largest Python 3 migrations ever",
+      "url": "https://blogs.dropbox.com/tech/2018/09/how-we-rolled-out-one-of-the-largest-python-3-migrations-ever",
+      "description": "Dropbox is one of the most popular desktop applications in the world: You can install it today on Windows, macOS, and some flavours of Linux. What you may not know is that much of the application is written using Python and that the codebase underwent a huge migration to move from Python 2 to Python 3.",
+      "imageUrl": "./16449eeb44ead19aa7bc36062a3ef143b7f1c9f645b165473082cfbad88811ee.jpg",
+      "featured": false
+    },
+    {
+      "title": "The 12 Things You Need to Consider When Evaluating Any New JavaScript Library",
+      "url": "https://medium.freecodecamp.org/the-12-things-you-need-to-consider-when-evaluating-any-new-javascript-library-3908c4ed3f49",
+      "description": "How do you know if a new technology is worth investing time into or if it is good to use within the specific requirements of your current project? This article suggests 12 practical rules to evaluate any new JavaScript library.",
+      "imageUrl": "./67c77ba5720bd5f458c3cb95268ce1747ad554c82b8c9e1aa9614329c7bba117.jpg",
+      "featured": false
+    },
+    {
+      "title": "Timsort - an efficient sorting algorithm",
+      "url": "https://en.wikipedia.org/wiki/Timsort",
+      "description": "Recently introduced in V8 to speed up Array.prototype.sort, Timsort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data.",
+      "imageUrl": "./1b49b7fbb279d271d195131ed7035b370ba2177e49fd78cbad41226d75bb4135.png",
+      "featured": false
+    },
+    {
+      "title": "The making of Underrun",
+      "url": "https://phoboslab.org/log/2018/09/underrun-making-of",
+      "description": "Underrun is a wonderful WebGL game playable in the browser that, believe it or not, is made only of 13kb of assets (JavaScript and images). This article describes some of the design techniques used to keep the asset size so small without penalizing style and gameplay.",
+      "imageUrl": "./70fd9d26670c4bc11785f3d6faac4f9273349cee2a294af1dd6028a1d41823d0.png",
+      "featured": false
+    },
+    {
+      "title": "What’s the difference between an integer and a pointer?",
+      "url": "https://blog.regehr.org/archives/1621",
+      "description": "In an assembly language we typically don’t have to worry very much about the distinction between pointers and integers. Some instructions happen to generate addresses whereas others behave arithmetically, but underneath there’s a single data type: bitvectors.",
+      "imageUrl": "./b989fd46e2454e8cbf62b3320f008807f15e0b6f78fd6ca2c528ae10b969eb96.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Agile Web Development with Rails 5",
+    "author": "Sam Ruby",
+    "description": "Rails 5 and Ruby 2.2 bring many improvements, including new APIs and substantial performance enhancements, and the fifth edition of this award-winning classic is now updated! If you're new to Rails, you'll get step-by-step guidance. If you're an experienced developer, this book will give you the comprehensive, insider information you need for the latest version of Ruby on Rails.",
+    "coverImageUrl": "./8ce7511fb3c8594f256f41ec4168254572d3e762c632005637323efef4d09ba0.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501712/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501712/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

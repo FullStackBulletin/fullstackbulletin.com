@@ -1,0 +1,75 @@
+{
+  "issueNumber": 42,
+  "title": "Free Interactive Python Tutorial",
+  "slug": "2018-01-01-042-free-interactive-python-tutorial",
+  "date": "2018-01-01",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #52, 2017",
+  "quote": {
+    "text": "The use of COBOL cripples the mind; its teaching should therefore be regarded as a criminal offense",
+    "author": "E.W. Dijkstra",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/E._W._Dijkstra"
+  },
+  "links": [
+    {
+      "title": "Free Interactive Python Tutorial",
+      "url": "http://learnpython.org/",
+      "description": "LearnPython.org is a free interactive Python tutorial for people who want to learn Python, fast.",
+      "imageUrl": "./dd0fc1405ebd7ad8f0ddd99346321147c5306f1945593c6d81de4cc79ffa7981.jpg",
+      "featured": true
+    },
+    {
+      "title": "You Might Not Need JavaScript",
+      "url": "http://youmightnotneedjs.com/",
+      "description": "Examples of common UI elements and interactions with HTML and CSS alone.",
+      "imageUrl": "./b7e148139bcc42309f22afacea8ef2ca54e4480c64313940b42a6064452ac99f.jpg",
+      "featured": false
+    },
+    {
+      "title": "The frontend checklist",
+      "url": "https://frontendchecklist.io/",
+      "description": "An application that helps meticulous developers to build perfect websites! Follow the rules and deliver the best of your work in a generated report!",
+      "imageUrl": "./9427076902f2bec9d5a38fa805ef0e3f3ea3d37d0d4f43166ba04a680676a60a.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Vanilla JavaScript Repository",
+      "url": "https://plainjs.com/",
+      "description": "PlainJS is a Vanilla JavaScript repository for writing powerful web applications without jQuery or other JavaScript libraries.",
+      "imageUrl": "./3f2ed37660ecd57543bb413f04b6e688ebcea086a6ff7557f395b4568fc79124.jpg",
+      "featured": false
+    },
+    {
+      "title": "SQL Injection Wiki",
+      "url": "https://sqlwiki.netspi.com/",
+      "description": "This wiki's mission is to be a one-stop resource for fully identifying, exploiting, and escalating SQL injection vulnerabilities across various Database Management Systems.",
+      "imageUrl": "./5f5c70281079f2200d7af0850ea850740ab448c38845b2de0c976ab9380404a1.jpg",
+      "featured": false
+    },
+    {
+      "title": "Gif without the GIF",
+      "url": "https://calendar.perfplanet.com/2017/animated-gif-without-the-gif",
+      "description": "GIFs are awesome but terrible for quality and performance. Replacing GIFs with movies\n\nis better but has performance drawbacks: not preloaded, uses range requests, etc. Now you can use an image and set an mp4 as source in Safari Technology Preview. This article illustrates this approach and its results.",
+      "imageUrl": "./5e6c43ce5513b73b2962c79615a8c523dad29857ad69e217ae664330adb80930.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building Better UI Designs With Layout Grids",
+      "url": "https://smashingmagazine.com/2017/12/building-better-ui-designs-layout-grids",
+      "description": "Designing for multiple screens has become integral to businesses. Learn how grids can help you build better web designs.",
+      "imageUrl": "./1dae42a20b5742cc7e9527d4c955e5531b27e290b30fdb630e905f73fa559c44.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "RESTful API Design",
+    "author": "Matthias Biehl",
+    "description": "this book is packed with best practices on many technical aspects of RESTful API Design, such as the correct use of resources, URIs, representations, content types, data formats, parameters, HTTP status codes and HTTP methods. You want to design and develop APIs like a Pro? Use API description languages to both design APIs and develop APIs efficiently. The book introduces the two most common API description languages RAML and OpenAPI/Swagger",
+    "coverImageUrl": "./28aacc6a13ca1347c15c3795f8d6bcb239721dbccca6de24ceed1765e89588ee.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1514735164/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1514735164/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

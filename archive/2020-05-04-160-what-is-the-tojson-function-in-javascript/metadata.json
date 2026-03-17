@@ -1,0 +1,75 @@
+{
+  "issueNumber": 160,
+  "title": "What is the `toJSON()` Function in JavaScript?",
+  "slug": "2020-05-04-160-what-is-the-tojson-function-in-javascript",
+  "date": "2020-05-04",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #18, 2020",
+  "quote": {
+    "text": "The art challenges the technology, and the technology inspires the art",
+    "author": "John Lasseter",
+    "authorTitle": "Director",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_Lasseter"
+  },
+  "links": [
+    {
+      "title": "What is the `toJSON()` Function in JavaScript?",
+      "url": "http://thecodebarbarian.com/what-is-the-tojson-function-in-javascript",
+      "description": "The `toJSON()` function is a handy hook that tells `JSON.stringify()` how to represent a given object in JSON. Here's what you need to know.",
+      "imageUrl": "./0741addeffdb52ab5e664f2eeb8e48243fd328ed72e448d82a8d847e42952773.jpg",
+      "featured": true
+    },
+    {
+      "title": "A visual guide to React Mental models",
+      "url": "https://obedparla.com/code/a-visual-guide-to-react-mental-models",
+      "description": "React helps us build interactive UIs. It also encourages us to write code in a certain way, guiding us to create apps that are simpler to navigate and understand. In order to become proficient with React, you have to have a good mental model of the library and this article can guide you to build the right one!",
+      "imageUrl": "./4bc4e13d080dcc25b8f74696c60be0283c9da6e181f16291f2b6ba3a0e0d08db.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rust and Node.js: A match made in heaven",
+      "url": "https://blog.logrocket.com/rust-and-node-js-a-match-made-in-heaven",
+      "description": "Worker threads are great, but they're not available in all supported versions of Node. Fortunately, you can use Rust to build a native add-on for Node.js.",
+      "imageUrl": "./0f98b66a9b30b55ba55d30e7c87bb74ce49535f3443365e3920939e3c1a9b81b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Middy 1.0 is here",
+      "url": "https://loige.co/middy-1-is-here",
+      "description": "Middy’s aim is to make writing serverless functions (hosted on AWS Lambda) easier by providing a familiar middleware abstraction to Node developers. Version 1.0.0 is finally here and this article illustrates the main changes and why you might be interested in this framework.",
+      "imageUrl": "./d65499ad91612554fc53b305fa8ce2040228680fc4fe279c7b724f611b0621d8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building a Playful WebGL Experience",
+      "url": "https://medium.com/@Jam3/how-we-built-a-playful-webgl-experience-for-100-fwa-wins-12262265548d",
+      "description": "An astonishing demonstration of what you can achieve today with web technologies. A case study worth checking out if you are into 3D graphics and want to learn more about WebGL.",
+      "imageUrl": "./9587c39b8dc025551318a5994992cdd07aade3e2c8a7427abb2202da4cd77e18.jpg",
+      "featured": false
+    },
+    {
+      "title": "Deploy web apps (+NGINX) to ECS with Docker",
+      "url": "https://medium.com/@stefanofrancavilla/deploy-web-apps-nginx-to-ecs-with-docker-580c6af827e8",
+      "description": "An interesting case study showing how to dockerize web apps (in this case a Ruby on Rails app) and how to run them in AWS Elastic Container Service. A great resource if you still struggling to adopt Docker and infrastructure as code in production.",
+      "imageUrl": "./2a45bb47123842454b6bde71df2eb710e29e43d09d32dc824b1765c84dd0dd67.jpg",
+      "featured": false
+    },
+    {
+      "title": "Free Interactive tutorial on Svelte",
+      "url": "https://scrimba.com/p/pG6X6UG/cPkPvvCD",
+      "description": "The folks at Scrimba are at it again with another fantastic FREE resource. This time an incredible interactive guide to learn the basis of Svelte, the new frontend framework that is taking the web by the storm!",
+      "imageUrl": "./6206b6da3675427a776ce6ee4a05c8e55df8e46f3a7205128568f920cd019543.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Go Programming Language",
+    "author": "Alan A. A. Donovan",
+    "description": "The Go Programming Language   is the authoritative resource for any programmer who wants to learn Go. It shows how to write clear and idiomatic Go to solve real-world problems. The book does not assume prior knowledge of Go nor experience with any specific language, so you’ll find it accessible whether you’re most comfortable with JavaScript, Ruby, Python, Java, or C++.",
+    "coverImageUrl": "./be6ca3847c1c5e1bb60721ca2947bb788e506e371357a6e933bcac0b448d6a7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134190440/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134190440/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

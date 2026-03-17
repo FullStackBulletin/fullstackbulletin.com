@@ -1,0 +1,92 @@
+{
+  "issueNumber": 380,
+  "title": "Towards Qwik 2.0: Lighter, Faster, Better",
+  "slug": "2024-07-08-362-towards-qwik-2-0-lighter-faster-better",
+  "date": "2024-07-08",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #380! As always, we’ve curated a selection of insightful and inspiring content to keep you at the forefront of full-stack web development.\nIn this issue, we’re excited to delve into the upcoming Qwik 2.0 release, exploring the innovative features that are set to make this framework lighter, faster, and better. For those of you interested in broadening your programming horizons, we have a fantastic talk on learning Rust in an easy and accessible way. It’s perfect for anyone who has been hesitant to dive into this powerful language.\nWe also have a deep dive into solving Node.js event loop lag, a must-read for anyone working on large-scale Node.js applications. If you're curious about WebAssembly, don’t miss our guide on integrating a Go library into a JavaScript webpage, unlocking new cross-language possibilities.\nOther highlights include a tutorial on canceling JavaScript promises, a hands-on project building a data compression utility in Haskell, and a nostalgic look at the evolution of responsive web design.There's something for everyone, so dive in and enjoy the read!\nBest,\n— Your editor, [Luciano](https://x.com/loige)",
+  "quote": {
+    "text": "Technology is anything that wasn't around when you were born“",
+    "author": "Alan Kay",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Kay"
+  },
+  "links": [
+    {
+      "title": "Towards Qwik 2.0: Lighter, Faster, Better",
+      "url": "https://builder.io/blog/qwik-2-coming-soon",
+      "description": "**Qwik** it's an extremely promising framework. In my humble opinion, it's one of the very few recent frameworks that is trying to bring some real innovation in the frontend world. In this article, you can discover what's in store for the upcoming Qwik 2.0.",
+      "imageUrl": null,
+      "featured": true
+    },
+    {
+      "title": "Easy Mode Rust",
+      "url": "https://youtube.com/watch?v=33FG6O3qejM",
+      "description": "**Rust** is often considered a hard-to-learn language. And it's hard to disagree with this statement. But, in this talk, [Andre](https://llogiq.github.io/) makes the case for a subset of Rust that is actually quite easy to learn and use and it's still going to give you some amazing benefits! So if you have been meaning to learn Rust for a while and you were afraid by its perceived complexity, this is a great place to start from! And there's even an [article](https://llogiq.github.io/2024/03/28/easy.html) version if you prefer to read rather than watch a video.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How we tamed Node.js event loop lag: a deepdive",
+      "url": "https://trigger.dev/blog/event-loop-lag",
+      "description": "An interesting tale of how the folks at trigger.dev discovered and fixed various reliability and performance issues in our Node.js application that were caused by Node.js event loop lag. If you plan to do any Node.js at a serious scale, this is a must read!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Integrate Go Library into a JavaScript Webpage with WebAssembly",
+      "url": "https://tderflinger.com/en/how-to-integrate-go-library-js-webpage-webassembly",
+      "description": "With **WebAssembly** you can integrate different programming languages together. This opens up new possibilities to use great libraries written in one language in another different platform. In this article, you will learn how to integrate a Go library for sentence tokenization in a JavaScript webpage. Normally, you cannot run Go code in a web browser, but with WebAssembly, you can.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How to Annul Promises in JavaScript",
+      "url": "https://webdeveloper.beehiiv.com/p/cancel-promises-javascript",
+      "description": "In JavaScript, a Promise is an object that is used to represent a computation that is being performed asynchronously and it allows you to track the state of that computation. That can be an HTTP request, reading a file from the filesystem, etc. But what if you want to cancel this operation while it is still in progress? This article showcases a few different methods for canceling promises.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Building a data compression utility in Haskell using Huffman codes",
+      "url": "https://lazamar.github.io/haskell-data-compression-with-huffman-codes/",
+      "description": "In this post we will implement a data compression program in about 150 lines of Haskell. It will use Huffman coding and handle arbitrary binary files using constant memory for encoding and decoding. A fascinating read that will teach you some cool stuff about algorithms, data structures, compression and, why not, a little bit of Haskell! The best part, IMHO, are the interactive visualizations! Enjoy it!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How websites learned to fit everywhere",
+      "url": "https://youtube.com/watch?v=ckEdTprbQas",
+      "description": "Let's travel back in time and learn about the history of responsive design, all the way from 1990s to 2020s. A wonderful video by one of my favourite web design YouTube channels: [Juxtopposed](https://www.youtube.com/@juxtopposed).",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Road to GraphQL: Your journey to master pragmatic GraphQL in JavaScript with React.js and Node.js",
+    "author": "Robin Wieruch",
+    "description": "The Road to GraphQL is your personal journey to master pragmatic GraphQL in JavaScript. The book is full with applications you are going to build along the way with React.js and Node.js. Afterward, you will be able to implement full-stack JavaScript applications. I wrote the The Road to GraphQL over the last year, while building several GraphQL applications for my clients and for myself. During this time, I came to understand the practical genius of GraphQL, and how it dramatically improves communication in client-server architectures. Not only does it improve the interface between the client and the server, it also enhances client-side state management by eliminating remote data management. Sophisticated GraphQL libraries like Apollo Client provide powerful features like caching, optimistic UI, and data prefetching for free. This book covers the fundamentals of GraphQL itself, as well as its ecosystem.",
+    "coverImageUrl": "./5c82e67d5ee02a27844209622e8d54da6a26ab1bc9b21ecf670bf3e713208256.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1730853935?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1730853935?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Profiling Node.js Applications",
+      "url": "https://betterstack.com/community/guides/scaling-nodejs/profiling-nodejs-applications"
+    },
+    {
+      "title": "Getting Started with CSS Selectors",
+      "url": "https://codu.co/articles/getting-started-with-css-selectors-c7ji-3m?ref=newsletter"
+    },
+    {
+      "title": "Node.js, Deno, and Bun",
+      "url": "https://ckarchive.com/b/lmuehmh08vwdxid7kkm78cdoo5v00hg"
+    },
+    {
+      "title": "Crafting Lambda Functions in Rust (e-book)",
+      "url": "https://rust-lambda.com/"
+    }
+  ],
+  "sponsor": null
+}

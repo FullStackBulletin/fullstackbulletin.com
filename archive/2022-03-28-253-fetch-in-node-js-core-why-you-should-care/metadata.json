@@ -1,0 +1,75 @@
+{
+  "issueNumber": 266,
+  "title": "fetch() In Node.js Core: Why You Should Care",
+  "slug": "2022-03-28-253-fetch-in-node-js-core-why-you-should-care",
+  "date": "2022-03-28",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponsored by: \n\n\n\n\n\nDesign systems? [Yes please!](https://www.belkadigital.com/migrating-design-system-sketch-figma-subito)",
+  "quote": {
+    "text": "You cannot endow even the best machine with initiative; the jolliest steamroller will not plant flowers",
+    "author": "Walter Lippmann",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Walter_Lippmann"
+  },
+  "links": [
+    {
+      "title": "fetch() In Node.js Core: Why You Should Care",
+      "url": "https://fusebit.io/blog/node-fetch",
+      "description": "Node.js v17.5 introduces support for `fetch()`, a cross-platform HTTP client API that works in browsers and Web/Service Workers – as an experimental core feature. This is another huge step forward for the Node.js ecosystem and another bit of progress in reducing the gap between Node.js and the web platform. But there's more to it, so let's find out with this article why fetch matters!",
+      "imageUrl": "./73d52afeb25a8ea3b70397ab4cbf050c575d56a9ee10ee0354d49b2f9493e2b2.jpg",
+      "featured": true
+    },
+    {
+      "title": "The Code Review Pyramid",
+      "url": "https://morling.dev/blog/the-code-review-pyramid",
+      "description": "When it comes to code reviews, it’s common to put a lot of focus on long-winded discussions around aspects like code formatting and style, whereas important aspects (does the code do what it is supposed to do, is it performant, is it backwards-compatible, etc) tend to be overlooked. This article can help us to focus more on what matters during a code review!",
+      "imageUrl": "./2432e71b158010419ad582b6de913e494931003b0765ac8d0d705b6b180d18ec.png",
+      "featured": false
+    },
+    {
+      "title": "Learning Rust: My 6 Key Moments",
+      "url": "https://apollolabsblog.hashnode.dev/learning-rust-my-6-key-moments",
+      "description": "If you’ve tried learning Rust or looked into it at least, you might have read somewhere how it has a steep learning curve. This article dispels 6 key concepts that can make Rust look more intuitive and familiar!",
+      "imageUrl": "./d2b131bda6268a275beee506910c3a0cee573888dc8693810330cf11c13f85f6.jpeg",
+      "featured": false
+    },
+    {
+      "title": "What can you do with EventBridge?",
+      "url": "https://www.fourtheorem.com/blog/what-can-you-do-with-eventbridge",
+      "description": "EventBridge is one of the newest and most promising event services available in AWS. With EventBridge you can easily distribute custom events between domains in a micro-service architecture or you can react to AWS events in your account (a new file is created in S3, a container is stopped, etc.). But there is a lot more to EventBridge, so let's find out with this comprehensive article.",
+      "imageUrl": "./4e295058dd3f370e9dcf9751f441803575e778c1c65f6854ca633ec07e427408.png",
+      "featured": false
+    },
+    {
+      "title": "React arborist 🌲",
+      "url": "https://github.com/brimdata/react-arborist",
+      "description": "React arborist is a sortable, virtual, customizable tree component for React. Did you ever have the need to display hierarchical data in an interactive way? It's a quite common problem and now there is a great open source solution for this! Check out the repo...",
+      "imageUrl": "./9cbcf499e8846c2cb4ff4c1adaf1b0a69d7b68e3e6e0ff1fa296ea69beb00e43.png",
+      "featured": false
+    },
+    {
+      "title": "Migrating a big design system from Sketch to Figma",
+      "url": "https://www.belkadigital.com/migrating-design-system-sketch-figma-subito",
+      "description": "When the global pandemic hit, Subito’s designers moved to work from home. Sketch had served them well since that day, but the new setup started causing serious bottlenecks. Something had to be done. With more than 11m active monthly users, this was kind of a big deal. sponsored",
+      "imageUrl": "./3462efecc0ae9d3995d6d69f81528817639737e8d04fd4e27bdbbce85671f2c2.gif",
+      "featured": false
+    },
+    {
+      "title": "Regexes are Cool and Good",
+      "url": "https://buttondown.email/hillelwayne/archive/regexes-are-cool-and-good",
+      "description": "A common joke in our industry is that if you solve a problem using Regular Expressions, now you have a new problem! What if instead we can use regexes and actually solve our problems?",
+      "imageUrl": "./b86aa9a248e6f4ea18fc00af60500d83f350e9923d58d1a614544c5b86988c4e.gif",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Build APIs You Won't Hate: Everyone and their dog wants an API, so you should probably learn how to build them",
+    "author": "Phil Sturgeon",
+    "description": "API development is becoming increasingly common for server-side developers thanks to the rise of front-end JavaScript frameworks, iPhone applications, and API-centric architectures. It might seem like grabbing stuff from a data source and shoving it out as JSON would be easy, but surviving changes in business logic, database schema updates, new features, or deprecated endpoints can be a nightmare. After finding many of the existing resources for API development to be lacking, Phil learned a lot of things the hard way through years of trial and error. This book aims to condense that experience, taking examples and explanations further than the trivial apples and pears nonsense tutorials often provide. By passing on some best practices and general good advice you can hit the ground running with API development, combined with some horror stories and how they were overcome/avoided/averted.",
+    "coverImageUrl": "./546c5cf136073615afda5cab173feff341171a26a848cf7ce09bb8bd8b07ce89.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0692232699/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0692232699/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

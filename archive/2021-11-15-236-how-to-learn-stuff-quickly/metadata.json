@@ -1,0 +1,75 @@
+{
+  "issueNumber": 236,
+  "title": "How To Learn Stuff Quickly",
+  "slug": "2021-11-15-236-how-to-learn-stuff-quickly",
+  "date": "2021-11-15",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #45, 2021",
+  "quote": {
+    "text": "Technology feeds on itself. Technology makes more technology possible",
+    "author": "Alvin Toffler",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alvin_Toffler"
+  },
+  "links": [
+    {
+      "title": "How To Learn Stuff Quickly",
+      "url": "https://joshwcomeau.com/blog/how-to-learn-stuff-quickly",
+      "description": "As software developers, we're always learning new things; it's practically the whole gig! If we can learn to quickly pick up new languages/frameworks/tools, we'll become so much more effective at our job. It's sort of a superpower.",
+      "imageUrl": "./a34696e07d563530f7d69e3a7901a43363111b0a12e5bcdab08367c21e505a34.jpg",
+      "featured": true
+    },
+    {
+      "title": "React Aria",
+      "url": "https://react-spectrum.adobe.com/react-aria/index.html",
+      "description": "A library of React Hooks that provides accessible UI primitives for your design system.",
+      "imageUrl": "./16f9b8ce7a0de868079879b3d6debdb2a6407e821a40df4545841940fd86d80c.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to integrate MongoDB in your Fastify application",
+      "url": "https://backend.cafe/how-to-use-fastify-and-mongodb",
+      "description": "Learn step by step how to connect your Fastify application to MongoDB and create a CRUD REST-API to manage a to-do list service",
+      "imageUrl": "./b32528faa23f1e2c6072c64a26c36d9566b7463bff8a7e6655ca00566f7c0e82.jpg",
+      "featured": false
+    },
+    {
+      "title": "Favicons: How to Make Sure Browsers Only Download the SVG Version",
+      "url": "https://css-tricks.com/favicons-how-to-make-sure-browsers-only-download-the-svg-version",
+      "description": "A small trick that can save you thousands of requests (and even keep your access logs cleaner!). Check it out if you are already serving your favicons in png format!",
+      "imageUrl": "./321b730655ec31afe53656acf553ade0e5456fe27b39917fb9e9f2ee5810a9ba.jpg",
+      "featured": false
+    },
+    {
+      "title": "Does the Next Generation of Static Site Generators Make Building Sites Better?",
+      "url": "https://css-tricks.com/does-the-next-generation-of-static-site-generators-make-building-sites-better",
+      "description": "What is the future of static site generators? It seems that they are increasingly doing more and more by supporting one or more frontend frameworks and server side rendering. But is this what the web needs?",
+      "imageUrl": "./04d8c4b004f44cd67d80dc8150c796397bbe2e78545a053b670b936d30711ac9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Improving overconstrained Rust library APIs",
+      "url": "https://blog.logrocket.com/improving-overconstrained-rust-library-apis",
+      "description": "In this guide, we’ll demonstrate how to make Rust library APIs more lenient without losing any functionality. If you are learning Rust, this is definitely a great read!",
+      "imageUrl": "./4e292b59a18193be58eee0395c404280d35dada184d11739bf0b3e98a19e7afc.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to get started with AWS",
+      "url": "https://www.youtube.com/watch?v=M6KAb1RQh9E",
+      "description": "AWS Bites is a new weekly podcast started by Eoin Shanaghy and Luciano Mammino and it tries to answer interesting AWS questions in about 5 minutes. A great resource if you want to have a bite sized approach to learning more about AWS! In this episode, you can learn how to get started with AWS!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Node.js Design Patterns - Third Edition",
+    "author": "Mario Casciaro and Luciano Mammino",
+    "description": "Get the best out of Node.js by mastering  its most powerful components and patterns to create modular and scalable applications with ease. Create reusable patterns and modules by leveraging the new features of Node.js. Understand  the asynchronous single thread design of node and grasp all its features and patterns to take advantage of various functions. This unique guide will help you get the most out of Node.js and its ecosystem.",
+    "coverImageUrl": "./c43f4eab2ae5c2f9e708d07e695dc5aa745b0027fdf14ba4a1f426c13a06105f.png",
+    "amazonUs": "https://www.amazon.com/dp/1785885588/?tag=fullstackbulletin-20",
+    "amazonUk": null
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

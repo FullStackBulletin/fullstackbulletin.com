@@ -1,0 +1,75 @@
+{
+  "issueNumber": 23,
+  "title": "What happens when you type Google.com",
+  "slug": "2017-08-14-023-what-happens-when-you-type-google-com",
+  "date": "2017-08-14",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #32, 2017",
+  "quote": {
+    "text": "Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway",
+    "author": "Andrew S. Tanenbaum",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum"
+  },
+  "links": [
+    {
+      "title": "What happens when you type Google.com",
+      "url": "https://github.com/alex/what-happens-when",
+      "description": "A repository that attempts to answer (in a very detailed manner) the age old interview question \"What happens when you type google.com into your browser and press enter?\"",
+      "imageUrl": "./c3e7acaecc83d22728f685a5f7d5d68473c5c9a79af111106b87cccd2b9619f1.jpg",
+      "featured": true
+    },
+    {
+      "title": "coolHue - Coolest Gradient Hues",
+      "url": "https://webkul.github.io/coolhue",
+      "description": "Coolest hand picked Gradient Hues and Swatches for your next super amazing stuff. Select the gradients you like and easily export them to CSS3 code or to Photoshop or Sketch palettes.",
+      "imageUrl": "./a6f355a8fd730a57f94aef5af5357d1b0ff55a775798e7c0c184f48e1b919924.jpg",
+      "featured": false
+    },
+    {
+      "title": "W.T.F. JS",
+      "url": "https://github.com/denysdovhan/wtfjs",
+      "description": "A repository that collects a list of funny, tricky and rather misleading JavaScript examples. If you are into JavaScript or Node.js, be sure to check this out, you might learn a lot!",
+      "imageUrl": "./81719f2dd66adecebc559ff878fdfcf84dca8eb4b21639b0b0a31e6e225d7d07.jpg",
+      "featured": false
+    },
+    {
+      "title": "Chromeless",
+      "url": "https://github.com/graphcool/chromeless",
+      "description": "A Node.js library that allows you to easily control Chrome (headless) to achieve complex browser-based automation. It can run locally or even on AWS Lambda.",
+      "imageUrl": "./96207a3a42d18f16a8190ebb49488136c639fc2c2c99354d8b73e0d25e6a4f85.jpg",
+      "featured": false
+    },
+    {
+      "title": "Apple’s refuses to support Progressive Web Apps",
+      "url": "https://m.phillydevshop.com/apples-refusal-to-support-progressive-web-apps-is-a-serious-detriment-to-future-of-the-web-e81b2be29676",
+      "description": "Progressive Web Applications (PWAs) are one of the most exciting and innovative things happening in web development right now and Apple's refusal to support Progressive Web Apps is a detriment to future of the web. Read here to know more about what we can expect from the future of PWAs.",
+      "imageUrl": "./e4ad40fb68895d8611f6f4a987e7c97ca791e5ae6542a11e188e50bc5151d423.jpg",
+      "featured": false
+    },
+    {
+      "title": "A petition to open source Flash",
+      "url": "https://github.com/pakastin/open-source-flash",
+      "description": "Flash is an important piece of Internet history and killing Flash means future generations can't access the past. Games, experiments and websites would be forgotten.Open sourcing Flash would be a good solution to keep Flash projects alive safely for archive reasons.\nIf you appreciate the effort, contribute yourself to this petition that has been already signed by more than **6.000 people** on GitHub",
+      "imageUrl": "./66c84398086515762000953e047910a2d0bb937d72c43fae7c2a06ec4e6e6363.jpg",
+      "featured": false
+    },
+    {
+      "title": "Introducing Monogram",
+      "url": "http://thecodebarbarian.com/introducing-monogram-the-anti-odm-for-mongodb-nodejs",
+      "description": "Monogram is a new library defined as \"the Anti-ODM for Node.js and MongoDB\". If you use Node.js and MongoDB this library based on Observables and RX patterns might become one of your best companions.",
+      "imageUrl": "./dca8ac6f25133c3f953e6a3b362573ff4ebc87312b1d5b95a7e9f6ea3311a930.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices",
+    "author": "Viktor Farcic",
+    "description": "This book is about different techniques that help us architect software in a better and more efficient way with microservices packed as immutable containers, tested and deployed continuously to servers that are automatically provisioned with configuration management tools. It's about fast, reliable and continuous deployments with zero-downtime and ability to roll-back. It's about scaling to any number of servers, design of self-healing systems capable of recuperation from both hardware and software failures and about centralized logging and monitoring of the cluster.",
+    "coverImageUrl": "./541c1dd09cac26ae06429687c2601da19e8cb4c7894063854cb3ae1c65eb6db9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/152391744X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/152391744X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

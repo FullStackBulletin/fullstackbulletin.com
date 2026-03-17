@@ -1,0 +1,75 @@
+{
+  "issueNumber": 308,
+  "title": "2022 JavaScript Rising Stars",
+  "slug": "2023-01-16-295-2022-javascript-rising-stars",
+  "date": "2023-01-16",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Any sufficiently advanced technology is equivalent to magic",
+    "author": "Arthur C. Clarke",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_C._Clarke"
+  },
+  "links": [
+    {
+      "title": "2022 JavaScript Rising Stars",
+      "url": "https://risingstars.js.org/2022/en",
+      "description": "To understand where JavaScript is headed in 2023 we need to take a step back and have a look at the emerging and established JavaScript projects of 2022! JavaScript Rising Stars is the perfect resource to do that and have a complete overview of frontend trends, full-stack and Node.js frameworks, React and Vue.js ecosystems, build tools, state management, etc.",
+      "imageUrl": "./776c9c396c99d57453fe2c914fb6b46eee13655d0a10bd1b9cc62ac9db7986e0.jpg",
+      "featured": true
+    },
+    {
+      "title": "The Illustrated Stable Diffusion",
+      "url": "https://jalammar.github.io/illustrated-stable-diffusion",
+      "description": "If you have used text-to-picture tools such as Stable Diffusion you might have thought that they are magic: an AI that has developed some sort of artistic conscience... Of course, that's not the case, so how does this incredible technology works behind the scenes? This articles explains in a very visual way the principles behind Stable Diffusion. It doesn't make it any less amazing, but certainly it's going to feel less magic!",
+      "imageUrl": "./4fa99f3b2f990c191c46f09dc5d9c5e45376353cc1f95907cc8ad2d3af619135.png",
+      "featured": false
+    },
+    {
+      "title": "2022 Year In Review for Vue",
+      "url": "https://blog.vuejs.org/posts/2022-year-in-review.html",
+      "description": "If you are a fan of Vue.js you should check out this end-of-the-year post by Vue's creator Evan You. In this post, Evan recaps what were the major achievements of the Vue community in 2022 and explores what we should expect for Vue and its ecosystem in 2023! I am quite excited to see that the whole ecosystem is growing with a myriad of more generic JavaScript supporting tools, such as **Vite**.",
+      "imageUrl": "./7424794dcfb3e4546d74a2fe41e3b3c071cb8cdc4d0562a9d735bdc35e569007.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript Frameworks - Heading into 2023",
+      "url": "https://dev.to/this-is-learning/javascript-frameworks-heading-into-2023-nln",
+      "description": "If you are not sick of inspirational posts for what's coming in 2023 for the JavaScript ecosystem, this one is a take by **Ryan Carniato**, creator of Solid.js. In this article, you can discover what Ryan thinks will be the biggest innovations we will see in 2023! Spoiler: there is a section about **WASM**!",
+      "imageUrl": "./2b0072de0bc7d513cb49c48f0dead937877b6de880771683bff4ed9729d111d0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Serverless Production Readiness Checklist (AWS)",
+      "url": "https://ranthebuilder.cloud/post/serverless-application-productiozation-check-list",
+      "description": "If you are building a serverless application for the first time you might be wondering whether your setup is good enough or if you are missing something important... Before going to production, you should go through this checklist which covers security, backups, crisis recovery, CI/CD, and support readiness for Serverless applications on AWS.",
+      "imageUrl": "./31c3e11e8e2403be7b6741e71cd89dbfb59a6d000dc4ef6168f9532e6badf3fd.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Guide To Getting Data Visualization Right",
+      "url": "https://smashingmagazine.com/2023/01/guide-getting-data-visualization-right",
+      "description": "In this article, Sara Dholakia presents a guide on how to choose just the right type of data visualization, with guidelines and things to keep in mind. If you are working on dashboards or reports, this might be a life-saver!",
+      "imageUrl": "./c6ffdc5bf92613b215ce1ecfdd4fce7eb995dde9db23a4fdfa4fee4af6db49fa.jpg",
+      "featured": false
+    },
+    {
+      "title": "Getting started with serverless Rust in AWS Lambda",
+      "url": "https://blog.scanner.dev/getting-started-with-serverless-rust-in-aws-lambda/",
+      "description": "People talk a lot about Rust and from time to time we also hear about it in the context of Lambda. But there aren't many tutorials or resources on how to get started out there, so I was really happy to read this fantastic getting started article which also made me discover the awesome [cargo-lambda](https://www.cargo-lambda.info/).",
+      "imageUrl": "./048cd7004aac76ec57fb0df775c019927349aedb13fe27cbe1aa711d570c1db7.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Fluent Python: Clear, Concise, and Effective Programming",
+    "author": "Luciano Ramalho",
+    "description": "Python’s simplicity lets you become productive quickly, but this often means you aren’t using everything it has to offer.  With this hands-on guide, you’ll learn how to write effective, idiomatic Python code by leveraging its best—and possibly most neglected—features.",
+    "coverImageUrl": "./30290ce19e65a7fffc72aab6893578a1fc0008018337e91d311736d9b587c8fe.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491946008/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491946008/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

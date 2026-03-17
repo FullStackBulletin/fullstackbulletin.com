@@ -1,0 +1,75 @@
+{
+  "issueNumber": 26,
+  "title": "A super fast CSS engine",
+  "slug": "2017-09-04-026-a-super-fast-css-engine",
+  "date": "2017-09-04",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #35, 2017",
+  "quote": {
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute",
+    "author": "Gerald Jay Sussman and Hal Abelson",
+    "authorTitle": "Computer Scientists and Authors",
+    "authorUrl": "https://en.wikipedia.org/wiki/Gerald_Jay_Sussman"
+  },
+  "links": [
+    {
+      "title": "A super fast CSS engine",
+      "url": "https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo",
+      "description": "Project Quantum is a major rewrite of Firefox’s internals to make Firefox fast. This article provides a very detailed, yet enjoyable, description of how Project Quantum works and why it is faster than its predecessor.",
+      "imageUrl": "./d5cdf3685ad412fbf4b5986e290466e25dda5fa6528eb30a559bcff68fac3c26.jpg",
+      "featured": true
+    },
+    {
+      "title": "150 animated Chrome DevTools tips",
+      "url": "https://medium.com/dev-channel/increase-your-web-development-skill-set-150-animated-tips-on-chrome-devtools-4a30155e6b8e",
+      "description": "Over 150 animated gifs which showcase how to use Chrome DevTools. Beware, this collection of tips & tricks might quickly turn you into an extremely productive web developer! :)",
+      "imageUrl": "./29a7bbd907f8a60aa8db7b96716780c54f4fe4d4f4c48291625907163ea3b76c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Trending Developer Skills",
+      "url": "https://medium.freecodecamp.org/trending-developer-skills-based-on-my-analysis-of-ask-hn-whos-hiring-26c02a3ca1fd",
+      "description": "For people learning to code and for experienced software developers alike, change is constant. Betting on guessing (and learning) what would the next thing be might be the key to land your next awesome job.",
+      "imageUrl": "./c8eafa55619019e7c763a87529fcbd613af477d0b42d53543278700c631f2ca2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Async/Await Will Make Your Code Simpler",
+      "url": "http://blog.patricktriest.com/what-is-async-await-why-should-you-care",
+      "description": "Or How I Learned to Stop Writing Callback Functions and Love Javascript ES8.",
+      "imageUrl": "./22226dbf7812a6d4e8a1d395c5b72754c03d92684f7e52824a64962512c316f7.jpg",
+      "featured": false
+    },
+    {
+      "title": "GoogleChrome/puppeteer",
+      "url": "https://github.com/GoogleChrome/puppeteer",
+      "description": "A Node.js library coming directly from the Chrome team that allows you to easily control a headless instance of Google Chrome.",
+      "imageUrl": "./306022361b1f1c0b39a21a0db7d59c3bfede159f5d458a7e7f358e80f3b42397.jpg",
+      "featured": false
+    },
+    {
+      "title": "Integrating Animation into a Design System",
+      "url": "https://alistapart.com/article/integrating-animation-into-a-design-system",
+      "description": "A cohesive animation system can help express a product’s personality and make the interface feel connected and whole. Learn how to include animations directly into your design system.",
+      "imageUrl": "./6580c64dc6eb99f99bc580a0a8c701910847f9957572e6bda1112a81fe68b1ff.png",
+      "featured": false
+    },
+    {
+      "title": "zeeshanu/learn-regex",
+      "url": "https://github.com/zeeshanu/learn-regex",
+      "description": "A fantastic GitHub repository that attempts to offer an easy way to finally understand and learn regular expressions.",
+      "imageUrl": "./92e64a8a58de5645662b2e26f68cfd0eeed47d3b6ddcdbddcc585c6b9e88992e.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Building Microservices: Designing Fine-Grained Systems",
+    "author": "Sam Newman",
+    "description": "Distributed systems have become more fine-grained in the past 10 years, shifting from code-heavy monolithic applications to smaller, self-contained microservices. But developing these systems brings its own set of headaches. With lots of examples and practical advice, this book takes a holistic view of the topics that system architects and administrators must consider when building, managing, and evolving microservice architectures.",
+    "coverImageUrl": "./1575a11c0c5e3af091d32426cf1cdcb142f177a57d156a18bad7df292b50a78c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491950358/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491950358/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 117,
+  "title": "Git Immersion",
+  "slug": "2019-07-01-117-git-immersion",
+  "date": "2019-07-01",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #26, 2019",
+  "quote": {
+    "text": "That’s been one of my mantras — focus and simplicity. Simple can be harder than complex; you have to work hard to get your thinking clean to make it simple",
+    "author": "Steve Jobs",
+    "authorTitle": "Apple co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Jobs"
+  },
+  "links": [
+    {
+      "title": "Git Immersion",
+      "url": "http://gitimmersion.com/",
+      "description": "A guided tour that walks through the fundamentals of Git",
+      "imageUrl": "./747e3af716ef814b1651d0c03fc355d4f8b5d0d26430e08cb9714d97822862f8.jpg",
+      "featured": true
+    },
+    {
+      "title": "Building Micro Frontends with React, Vue, and Single-spa",
+      "url": "https://dev.to/dabit3/building-micro-frontends-with-react-vue-and-single-spa-52op",
+      "description": "How to use multiple JavaScript frameworks in a single-page application.",
+      "imageUrl": "./74c07c6848f0563bd7943304bb48b1220e99d04a82ff9198cd76c66785d73b29.jpg",
+      "featured": false
+    },
+    {
+      "title": "Understanding Worker Threads in Node.js",
+      "url": "http://nodesource.com/blog/worker-threads-nodejs",
+      "description": "In this blog post you can understand Worker Threads, how Node.js is structured and some examples on how to use it.",
+      "imageUrl": "./d60da1599085dd1ebe8719f68ac568c8ef6ae192e2424b2ca1e672b965384dcc.jpg",
+      "featured": false
+    },
+    {
+      "title": "A complete guide to iconography",
+      "url": "https://designsystems.com/iconography-guide",
+      "description": "A deep-dive guide on how to create, organize, name, and use icons within a design system.",
+      "imageUrl": "./7863aeca78ea93d26c00127dc0d8d3d39c77c83bc7e59366577e9deb30b41ff0.jpg",
+      "featured": false
+    },
+    {
+      "title": "9 Free Machine Learning Courses",
+      "url": "https://datahod.com/free-machine-learning-courses",
+      "description": "Hands-on learning is the best way to gain real-world experience to learn Machine Learning. Here's a list of some of the most interesting free Machine Learning Courses.",
+      "imageUrl": "./1fb34e10eed41f17473ba84b546fd653e941f373caad4cdfeeeec53b44e4d340.jpg",
+      "featured": false
+    },
+    {
+      "title": "Monoliths vs microservices: Cognitive load is what matters",
+      "url": "https://techbeacon.com/app-dev-testing/forget-monoliths-vs-microservices-cognitive-load-what-matters",
+      "description": "For innovative software organizations, managing the overall cognitive load on their teams is a guiding development and operational principle and often times this is more important than solving the debate \"Monolith vs Micro-services\".",
+      "imageUrl": "./c2cd478f81e99e04965b9acae9e94bf7e1d5b510eb0c67289d1d421bd6e8276f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Improving Browser Performance 10x",
+      "url": "https://engineering.universe.com/improving-browser-performance-10x-f9551927dcff",
+      "description": "Universe.com improved the browser performance for their homepage by more than 10 times. Let’s explore the techniques they used to achieve this astonishing result.",
+      "imageUrl": "./b31f8cb811d75f5e9a9e5e15e76e0699f1642fd36419ddafce6a42f26c3121f6.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Graph Databases: New Opportunities for Connected Data",
+    "author": "Ian Robinson",
+    "description": "Discover how graph databases can help you manage and query highly connected data. With this practical book, you’ll learn how to design and implement a graph database that brings the power of graphs to bear on a broad range of problem domains. Whether you want to speed up your response to user queries or build a database that can adapt as your business evolves, this book shows you how to apply the schema-free graph model to real-world problems.",
+    "coverImageUrl": "./5688bd18a6677e59e5b8c680c2848ab320dd4d4d28db65515d0e83fccec1d924.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491930896/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491930896/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

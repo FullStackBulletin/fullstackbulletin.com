@@ -1,0 +1,75 @@
+{
+  "issueNumber": 88,
+  "title": "Cloud Computing without Containers",
+  "slug": "2018-11-19-088-cloud-computing-without-containers",
+  "date": "2018-11-19",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #46, 2018",
+  "quote": {
+    "text": "To err is human, but to really foul things up you need a computer",
+    "author": "Paul Ehrlich",
+    "authorTitle": "Physician and scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Paul_Ehrlich"
+  },
+  "links": [
+    {
+      "title": "Cloud Computing without Containers",
+      "url": "https://blog.cloudflare.com/cloud-computing-without-containers",
+      "description": "The interesting case of Cloudflare that is running a serverless infrastructure without containers. The trick lies in a feature of V8 called isolates. This article goes in great details explaining how this solution works and why it's more performant than container-based isolation.",
+      "imageUrl": "./9f97d54f413ebc2f9c71f2b4deeb8694fc822629c8808ec8251f29db95109ef3.png",
+      "featured": true
+    },
+    {
+      "title": "CSS and Network Performance",
+      "url": "https://csswizardry.com/2018/11/css-and-network-performance/",
+      "description": "CSS is critical to rendering a page—a browser will not begin rendering until all CSS has been found, downloaded, and parsed—so it is imperative that we get it onto a user’s device as fast as we possibly can. Any delays on the Critical Path affect our Start Render and leave users looking at a blank screen.",
+      "imageUrl": "./b230638e5b0a0245663f6a77c2974dbff7989817c06d4c279ebc524f8e08aa65.png",
+      "featured": false
+    },
+    {
+      "title": "Beyond Passwords: 2FA, U2F and Google Advanced Protection",
+      "url": "https://troyhunt.com/beyond-passwords-2fa-u2f-and-google-advanced-protection",
+      "description": "An interesting piece on passwords and what's next in the MFA landscape. not just any old 2FA but U2F and in particular, Google's Advanced Protection Program. This post will be partly about 2FA in general, but also specifically about Google's program because of the masses of people dependent on them for Gmail.",
+      "imageUrl": "./8ecebf22462b7cd92de05c47b42aa01069b9763b87a03ff1a09c94e43bedac04.jpg",
+      "featured": false
+    },
+    {
+      "title": "Faster async functions and promises",
+      "url": "https://v8.dev/blog/fast-async",
+      "description": "Faster and easier-to-debug async functions and promises are coming to V8 v7.2 / Chrome 72.",
+      "imageUrl": "./b623345e6b33d67d46b8821b758fe49945b580ef0360aea114d5064e7ddab73c.png",
+      "featured": false
+    },
+    {
+      "title": "Taming this In JavaScript With Bind Operator",
+      "url": "https://smashingmagazine.com/2018/10/taming-this-javascript-bind-operator",
+      "description": "Dealing with this in JavaScript can be tricky. But what if instead of fight against it we could leverage on it to achieve nice stuff like function composition with virtual methods? This is what we are going to explore in this article about one of the potential upcoming JavaScript features: The Bind Operator.",
+      "imageUrl": "./0ca642f7d4969dd4df9b2b67c527f5d8d09905754b0e79586c1d48dcc53ab443.jpg",
+      "featured": false
+    },
+    {
+      "title": "Copying objects in Javascript",
+      "url": "https://smalldata.tech/blog/2018/11/01/copying-objects-in-javascript",
+      "description": "In this article we will look at the various ways an object can be copied in Javascript. We will take a look at both shallow and deep copying. While shallow copying is rather straightforward, deep copying is more tricky.",
+      "imageUrl": "./4d464f394b368631d9ac6e28b9ffd76a6fdd51102446a2b453f0d8ebfcf098bc.png",
+      "featured": false
+    },
+    {
+      "title": "How to handle monetary value in JavaScript",
+      "url": "https://frontstuff.io/how-to-handle-monetary-values-in-javascript",
+      "description": "Money is everywhere. Banking apps, e-commerce websites, stock exchange platforms, we interact with money daily. The interaction in our code is not that obvious and it's very easy to do some common mistakes.",
+      "imageUrl": "./df69e6b4f3b21715d251fd8393eff8572ca3793e2440c20f747f7f1f22ea3463.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Mastery",
+    "author": "Andy Budd",
+    "description": "Fully updated to the latest CSS modules, make the journey to CSS mastery as simple and painless as possible. This book dives into advanced aspects of CSS-based design, such as responsive design, modular CSS, and CSS typography. Through a series of easy-to-follow tutorials, you will learn practical CSS techniques you can immediately start using in your daily work.",
+    "coverImageUrl": "./513cab7982483119d4449542560da5b139ad8ff61b1c9e3b7d2904bd9a602db5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1430258632/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1430258632/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

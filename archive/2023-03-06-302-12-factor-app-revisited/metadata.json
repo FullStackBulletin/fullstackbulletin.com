@@ -1,0 +1,75 @@
+{
+  "issueNumber": 315,
+  "title": "12 Factor App Revisited",
+  "slug": "2023-03-06-302-12-factor-app-revisited",
+  "date": "2023-03-06",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "I think that novels that leave out technology misrepresent life as badly as Victorians misrepresented life by leaving out sex",
+    "author": "Kurt Vonnegut",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Kurt_Vonnegut"
+  },
+  "links": [
+    {
+      "title": "12 Factor App Revisited",
+      "url": "https://architecturenotes.co/12-factor-app-revisited",
+      "description": "The Twelve-Factor App methodology is a methodology for building software-as-a-service applications by Adam Wiggins (founder of Heroku). The first version of this paper was written about 12 years ago, so what has changed in all this time? This article covers how 12-factor has evolved and shows why it is still a very relevant practice today!",
+      "imageUrl": "./573697cfbefd5fd02910ad60542fd6b17439ecf19a4706ba5d0d465c8a37939d.jpg",
+      "featured": true
+    },
+    {
+      "title": "Do we need CSS flex-wrap detection?",
+      "url": "http://ishadeed.com/article/flex-wrap-detect",
+      "description": "If you have been struggling with responsive design and specifically with the lack of control on flex-wrap and you wish to know about some alternative approaches, you should definitely have a look at this new article by [Ahmad Shadeed](https://ishadeed.com/).",
+      "imageUrl": "./5d01f05ee9dfb2c8aa09fbfe3fb8cdc31f5ea9993ec68d13c10c2ebe9b9ae873.jpg",
+      "featured": false
+    },
+    {
+      "title": "Last baseline alignment",
+      "url": "https://web.dev/last-baseline",
+      "description": "Alignment using the first and last keywords is now available in all major engines. This means that we can use last baseline alignment as another option when aligning groups of flex or grid items.",
+      "imageUrl": "./5556a35fd2696cc0216245b1b02185666a20a88e8247fce2db7f8678c7e9595c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using JavaScript in a WebC Component",
+      "url": "https://raymondcamden.com/2023/02/03/using-javascript-in-a-webc-component",
+      "description": "[WebC](https://www.11ty.dev/docs/languages/webc/) is a new web-component-based JavaScript framework by the same author of our beloved [Eleventy](https://www.11ty.dev/). In this article, [Raymond Camden](https://www.raymondcamden.com/) shows how you can take advantage of the WebC components syntax and add dynamic behaviors to your components using JavaScript. A really interesting read if you are into static websites and are looking forward to exploring WebC.",
+      "imageUrl": "./d7a00b5e6e4c074d48fa76f20eeab1c0c1692f4cccd4147709060307b91a6b13.jpg",
+      "featured": false
+    },
+    {
+      "title": "AWS Lambdas - Python vs Rust",
+      "url": "https://confessionsofadataguy.com/aws-lambdas-python-vs-rust-performance-and-cost-savings",
+      "description": "Save money, save money! This article from a \"data guy\" showcases how migrating a Lambda-based project from Python to Rust lead to major performance improvements and cost savings. If you are curious to find out more, the article provides some nice benchmarks and graphs, but make sure to read the comments too because, as we known, benchmarks are never perfect!",
+      "imageUrl": "./72fce383afdba0fae1abe20bc126a26ec7eeb14a0462e185ab4e3b18d1cdc885.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to create a video and audio recorder in React",
+      "url": "https://blog.logrocket.com/how-to-create-video-audio-recorder-react",
+      "description": "Can you record audio and video from a web app? Of course, you can! You can do pretty much anything on the web these days! So let's learn how to build a custom audio and video recorder in React using the native HTML **MediaRecorder API** and **MediaStream API**.",
+      "imageUrl": "./2ae252856548cedc3ca3ae7f71ac74dce88e0e8278a504b5a2597571d75d1d38.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using Focal Points, Aspect Ratio & Object-Fit To Crop Images Correctly",
+      "url": "https://henry.codes/writing/pure-css-focal-points",
+      "description": "This article showcases an interesting technique to crop and object-fit images on web pages without losing quality or messing up with proportions. Worth checking out if you are working with many images using the most disparate sizes and aspect ratios.",
+      "imageUrl": "./ae049e4bbb30e4e21e63fed07c1b1ab1ff50ad811b79d2989427b4331e3436e5.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "RESTful Web APIs: Services for a Changing World",
+    "author": "Leonard Richardson",
+    "description": "The popularity of REST in recent years has led to tremendous growth in almost-RESTful APIs that don’t include many of the architecture’s benefits. With this practical guide, you’ll learn what it takes to design usable REST APIs that evolve over time.",
+    "coverImageUrl": "./9c4219f67796409cdc3651baaeb21d2190a783120c0f90db3533777479bc62a9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358063/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449358063/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

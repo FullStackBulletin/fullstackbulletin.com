@@ -1,0 +1,120 @@
+{
+  "issueNumber": 451,
+  "title": "4 CSS Features To Know In 2026",
+  "slug": "2026-01-12-431-4-css-features-to-know-in-2026",
+  "date": "2026-01-12",
+  "templateType": "buttondown-markdown",
+  "intro": "Hey there,\n\nWelcome to the first issue of 2026! I know, I know, the wider world feels pretty fragile right now. The geopolitical climate has rarely looked more worrying in my lifetime. That is real, and it can be heavy. At the same time I want this little corner of your inbox to stay focused on what we love: **learning**, **building**, **experimenting**, **making useful, fun and beautiful things for other humans**, and **growing together** in a way that actually makes life a bit better. These may be small gestures, but if enough of us care and keep showing up with curiosity and kindness, I genuinely believe they can add up to a long lasting impact in our communities. ❤️\n\nAs a quick aside, I closed out my 2025 with one of my favorite personal traditions: writing [a long blog post to look back on the year](https://loige.co/2025-a-year-in-review/). Taking the time to list wins, experiments, and even the weird detours made me realize that 2025 was actually pretty good, and that I managed to achieve more than I had given myself credit for. That reflection left me excited and hopeful for what we can all build and learn together this year.\n\nSo I am curious about you. **What was your proudest achievement of 2025?** It can be anything, shipping a feature, learning a new skill, mentoring someone, or finally starting that tiny side project. Do not be shy! **Hit reply or reach out on socials** and tell me about it. I would genuinely love to hear from you and get to know you better.\n\nHappy reading and coding!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Controlling complexity is the essence of computer programming",
+    "author": "Brian Kernighan",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Brian_Kernighan?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=451-4-css-features-to-know-in-2026"
+  },
+  "links": [
+    {
+      "title": "4 CSS Features To Know In 2026",
+      "url": "https://nerdy.dev/4-css-features-every-front-end-developer-should-know-in-2026",
+      "description": "What better way to welcome 2026 than by picking up the CSS tricks that are about to show up everywhere in real interfaces? This piece tours four features that feel like cheating in the best way: `sibling-index()` and `sibling-count()` for effortless staggered animations, `@container scroll-state()` to react to sticky and scroll snap states without JavaScript, `text-box` for surgically clean typography alignment, and typed `attr()` to pull validated values straight from HTML into your styles. Read it, steal one idea, and your next UI will quietly feel smarter.",
+      "imageUrl": "./0650d591acb8949d60f9e376cde91e442389611db349e29eebe6cfa69e67f20e.jpg",
+      "featured": true
+    },
+    {
+      "title": "The Next Two Years of Software Engineering",
+      "url": "https://addyosmani.com/blog/next-two-years",
+      "description": "We wrapped up our latest 2025 issue with [a beautiful piece by Addy Osmani](https://buttondown.com/fullstackbulletin/archive/450-21-lessons-from-14-years-at-google/) and it stuck with me for days. Now Addy did it again with this piece: a genuinely inspiring, clear headed guide to what we should expect, and be ready for, as software engineers. He frames the future as five big questions (not hot takes), gives two realistic scenarios for each, then closes with practical moves you can make right now. That junior developer question is something I have been thinking about a lot myself. I still could not find a wildly positive solution, but I really like his pragmatic take on how juniors and seniors can adapt without pretending the market is sunshine and rainbows.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "It's Hover!",
+      "url": "https://itshover.com/",
+      "description": "I discovered this icon set last week, and I fell in love with the name almost immediately. The animated icons are incredibly pleasant to see, with motion that feels intentional instead of decorative. Even better, they work seamlessly with shadcn components via the shadcn CLI, so if you already use shadcn, you can drop them into your next project and modernize the UI with very little effort. [**Check resource**](https://itshover.com/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Software Is Culture",
+      "url": "https://figma.com/blog/software-is-culture",
+      "description": "Another inspirational read that zooms out and reminds you that software is not just tooling. It is culture. It traces how the web, and even more so mobile experiences, shaped our shared habits through interactions that feel totally normal now. Think pinch to zoom, then pull to refresh. Both are so baked into muscle memory that it is easy to forget they were invented, shipped, copied, and eventually turned into part of how we experience the world. And yet 20 years ago these gestures meant nothing to everyone.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Streaming JSON in just 200 lines of JavaScript",
+      "url": "https://krasimirtsonev.com/blog/article/streaming-json-in-just-200-lines-of-javascript",
+      "description": "This follows up on [a great piece by Dan Abramov showing how to build progressive JSON](https://overreacted.io/progressive-json/). This one shows how to actually build it in about 200 lines of JavaScript: stream a JSON shaped payload early, use placeholders for the parts that are not ready yet, then progressively fill them in as chunks arrive. It is the same family of ideas that makes React Server Components, and `<Suspense>` streaming rendering, feel so fast even when the data is slow.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Web development is fun again",
+      "url": "https://ma.ttias.be/web-development-is-fun-again",
+      "description": "I felt this article in my bones, because I was there too, slicing layouts into tiny images and stacking table elements inside table elements until something that looked like a website finally appeared. Even if you never lived through those years, the heart of the story is the same. building for the web was fun then, and even though the tools, knowledge, and expectations are completely different now, it can still be fun today. I read this as a love letter to the web and to everyone who enjoys creating for it, a reminder that our craft is allowed to feel playful and inspiring again, not just overwhelming. Let it be a little push to rediscover why you started building for the web in the first place.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "OnceMap: Rust Pattern for Running Concurrent Work Exactly Once",
+      "url": "https://codepointer.substack.com/p/uv-oncemap-rust-pattern-for-running",
+      "description": "This one is for the nerds. If you get a little rush from the words performance, concurrency, data structures, or Rust, you are absolutely in the target audience here. The post walks through uv’s OnceMap pattern, which is a neat little trick for making sure expensive async work only runs once per unique input while everyone else just waits for the result. It is not strictly webdev territory, more like the deep plumbing that makes fast tools and servers possible. I loved this piece, and I hope you will find it just as fascinating. Even if you do not write Rust every day, it is a great mental workout in how to think about coordination, contention, and correctness when lots of things are happening in parallel.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "AWS Cookbook: Recipes for Success on AWS",
+    "author": "John Culkin, and Mike Zazon",
+    "description": "This practical guide provides over 70 self-contained recipes to help you creatively solve common AWS challenges you'll encounter on your cloud journey. If you're comfortable with rudimentary scripting and general cloud concepts, this cookbook provides what you need to address foundational tasks and create high-level capabilities.\nAuthors John Culkin and Mike Zazon share real-world examples that incorporate best practices. Each recipe includes a diagram to visualize the components. Code is provided so that you can safely execute in an AWS account to ensure solutions work as described. From there, you can customize the code to help construct an application or fix an existing problem. Each recipe also includes a discussion to provide context, explain the approach, and challenge you to explore the possibilities further.\nGo beyond theory and learn the details you need to successfully build on AWS. The recipes help you:",
+    "coverImageUrl": "./cee234b144c23196ee148f31cb229014c54be02a691356103f854a980bf2d794.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492092606",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492092606"
+  },
+  "additionalLinks": [
+    {
+      "title": "Stop Forwarding Errors, Start Designing Them",
+      "url": "https://fast.github.io/blog/stop-forwarding-errors-start-designing-them"
+    },
+    {
+      "title": "require(esm) in Node.js: from experiment to stability",
+      "url": "https://joyeecheung.github.io/blog/2025/12/30/require-esm-in-node-js-from-experiment-to-stability/index.html"
+    },
+    {
+      "title": "Fixing TypeScript Performance Problems: A Case Study",
+      "url": "https://viget.com/articles/fixing-typescript-performance-problems"
+    },
+    {
+      "title": "Automatically load .env files in Node.js scripts",
+      "url": "https://stefanjudis.com/today-i-learned/load-env-files-in-node-js-scripts"
+    },
+    {
+      "title": "How to compile JavaScript to C with Static Hermes",
+      "url": "https://devongovett.me/blog/static-hermes.html"
+    },
+    {
+      "title": "The 8 trends that will define web development in 2026",
+      "url": "https://blog.logrocket.com/8-trends-web-dev-2026"
+    },
+    {
+      "title": "Useful patterns for building HTML tools",
+      "url": "https://simonwillison.net/2025/Dec/10/html-tools"
+    },
+    {
+      "title": "A Minimal CSS Starter",
+      "url": "https://meiert.com/blog/a-minimal-css-starter"
+    },
+    {
+      "title": "Markdown-UI: Turn LLM responses into real interactive UIs",
+      "url": "https://markdown-ui.blueprintlab.io/"
+    },
+    {
+      "title": "ExposedByDefault: What Your Browser Reveals About You",
+      "url": "https://neberej.github.io/exposedbydefault"
+    },
+    {
+      "title": "What Happened To WebAssembly?",
+      "url": "https://emnudge.dev/blog/what-happened-to-webassembly"
+    }
+  ],
+  "sponsor": null
+}

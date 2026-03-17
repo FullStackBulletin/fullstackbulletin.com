@@ -1,0 +1,136 @@
+{
+  "issueNumber": 429,
+  "title": "RSS is Not Dead",
+  "slug": "2025-07-07-409-rss-is-not-dead",
+  "date": "2025-07-07",
+  "templateType": "mce-mailchimp",
+  "intro": "Hey there, \nThis week’s collection ended up orbiting around one of my favorite fullstack themes: rediscovery. Not just discovering new tools or frameworks (though there’s plenty of that), but rediscovering old, brilliant ideas and looking at them with fresh eyes.\n\nRSS is a perfect example. It’s been around forever, quietly doing its thing in the background. But lately, I’ve been seeing developers breathe new life into it, turning it into something more personal, more expressive, even more community-driven. Like using RSS to share a reading list instead of just your own blog. Or mixing in a static site generator to build your own lightweight feed reader. It's a reminder that the web is full of foundational ideas that still have so much to give... if we’re willing to look again and reimagine.\n\nI think that’s the real magic of fullstack work. It's not always about chasing the newest thing. Sometimes it’s about pulling an old thread and seeing where it leads you.\n\nEnjoy this week’s picks. I hope something in here sparks a bit of that same curiosity for you.\n\nKeep exploring,\n—Luciano",
+  "quote": {
+    "text": "It would appear that we have reached the limits of what it is possible to achieve with computer technology, although one should be careful with such statements, as they tend to sound pretty silly in 5 years“",
+    "author": "John Von Neumann",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_von_Neumann"
+  },
+  "links": [
+    {
+      "title": "RSS Server Side Reader",
+      "url": "https://matklad.github.io/2025/06/26/rssssr.html",
+      "description": "I friggin love the idea of the **RSS format**. It's simple, open, and honestly kind of beautiful. But we’ve been neglecting it. That needs to change. Every site that publishes content should support RSS. No excuses. Quick aside. Did you know **Aaron Swartz** helped define the RSS spec? And he was just a teenager at the time. If you don’t know his story, go watch The [Internet’s Own Boy](https://www.youtube.com/watch?v=9vz06QO3UkQ). It’s sad but inspiring and absolutely worth your time. Now back to the piece. What really got me excited is how the author uses RSS in a new way. Not just to share their own posts but to publish a public reading list of all the blogs they follow. It brings back the vibe of those old *blog circles* or *blog rolls* that made the early web feel like a real community. And the implementation? Super clean. The feed aggregation happens server-side during a nightly build. No CORS headaches. Just a rolling list of fresh content from around the blogosphere in a simple static page! PS. If you’re into this kind of thing, check out [JSON Feed](https://www.jsonfeed.org/) too. It’s like RSS with a modern twist.",
+      "imageUrl": "./142790b0c01906a18d84fe767a9b5203654433f760bfed2dcf78aceeca353f33.jpg",
+      "featured": true
+    },
+    {
+      "title": "Tuono: a fullstack React/Rust web framework",
+      "url": "https://tuono.dev/",
+      "description": "Who doesn't need a new fullstack web framework, right? Jokes aside, this one actually looks promising. Not just because we desperately need an alternative to Next.js, but because it takes a bold and very different approach. It mixes TypeScript on the frontend with Rust on the backend. This isn't your typical fullstack JS or TS framework. It's trying something new. It leans hard into performance and stability, and if you’re the kind of dev who enjoys both React and Rust, this might hit a sweet spot you didn’t know you were missing. Definitely worth a look.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Kelp: a new UI library",
+      "url": "https://kelpui.com/",
+      "description": "Kelp is a UI library for people who love HTML. It’s powered by modern CSS and Web Components, with zero build step, vanilla JavaScript, and easy customization. No dependencies. No fuss. Just clean, expressive markup. Lately, I’ve been deep-diving into how to organize CSS colors in a more semantic way. I’m not a big fan of Tailwind-style class names like `text-red-500` or `text-blue-600`. I prefer something more abstract and flexible like `text-primary` or `text-accent`, so I can swap out themes like light and dark without hunting down color values scattered across my markup. While researching options, I looked into [DaisyUI](https://daisyui.com/) (which is also great), and that’s when I stumbled across Kelp. And wow, they really nailed the color story, IMHO. Kelp promotes a thoughtful, semantic approach to theming and even includes a [built-in theme builder](https://kelpui.com/docs/tools/theme-builder/) to play around with your palette. It’s still early days for the project, but it’s already full of smart ideas. If you love HTML and want a lightweight, semantic-first UI toolkit, Kelp is worth checking out.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Running a million-board chess MMO in a single process",
+      "url": "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process",
+      "description": "This one blew my mind. A million real-time chess boards running in a single backend process. Yes, you read that right. **One. Million.**It’s an absolutely wild scale, and the author walks through exactly how it’s done. The secret sauce? A backend written in Go, tuned for extreme performance. No magic. Just smart use of memory, concurrency, and a language that doesn’t get in your way when every millisecond counts. If you're into backend engineering or just love seeing real-world performance pushed to the edge, this is a must-read. It’s also a perfect reminder that choosing the right language and architecture can make all the difference. Oh, and as a fun bonus, this article introduced me to the fascinating world of [Rollback netcode](https://en.wikipedia.org/wiki/Netcode#Rollback): a clever networking technique from the gaming world that’s totally worth learning about.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Give footnotes the boot",
+      "url": "https://jakearchibald.com/2025/give-footnotes-the-boot",
+      "description": "I’ve always found footnotes on web pages a bit weird. I get why they exist in books. Print needs a place to stash those extra thoughts. But on the web? We’ve got better tools. Why make readers scroll up and down just to read a side note? This piece puts that frustration into words beautifully. It argues that traditional footnotes just don’t belong in modern web content. Instead, we can use interactive patterns that make the experience smoother and less jarring. Think hover popovers, inline reveals, and smarter mobile behavior. It’s a short read, but it’ll absolutely make you rethink how you handle footnotes in your own digital writing.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Gap Strikes Back: Now Stylable",
+      "url": "https://css-tricks.com/the-gap-strikes-back-now-stylable",
+      "description": "From time to time I see this debate pop up. Should components include margins by default? It never felt quite right to me, but I hadn’t landed on a good alternative until I came across [this piece](https://kyleshevlin.com/prefer-gaps-to-margins) last week. The idea is simple but powerful. Instead of scattering margins across components, treat spacing as the parent’s job and use gap instead. It keeps components cleaner and more reusable. Works great with flex and grid layouts... And now there’s even more reason to do it: because CSS is making gaps stylable. Yep, that means you can draw actual lines between columns or rows using the gap itself. You get cleaner layout control, better theming, and a much more flexible way to design space and structure.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What's new in ECMAScript 2025",
+      "url": "https://pawelgrzybek.com/whats-new-in-ecmascript-2025",
+      "description": "Keeping up with JavaScript’s evolution can feel like a full-time job, but I always enjoy these deep dives into what’s new in ECMAScript. This roundup of ECMAScript 2025 changes is clear, well-organized, and super practical. You’ll find some neat additions like **Duplicate named capturing groups**, **Set methods**, **Import Attributes**, **RegExp pattern modifiers**, and **`Promise.try()`**. But my personal favorite? The new **Iterator Helpers**. I often ended up creating my own helpers, and now I look forward to having a standard toolkit available by default. If you’re curious about how iterators and generators actually work under the hood, I also have a [free GitHub workshop on JavaScript iteration protocols](https://github.com/lmammino/iteration-protocols-workshop). Check it out!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "WebAssembly: The Definitive Guide",
+    "author": "Brian Sletten",
+    "description": "WebAssembly: The Definitive Guide is a thorough and accessible introduction to one of the most transformative technologies hitting our industry. What started as a way to use languages other than JavaScript in the browser has evolved into a comprehensive path toward portability, performance, increased security, and greater code reuse across an impressive collection of deployment targets. Author Brian Sletten introduces elements of this technology incrementally while building to several concrete, code-driven examples of practical, cutting-edge WebAssembly uses. Whether you work with enterprise software or embedded systems, or in entertainment, scientific computing, or startup environments, you'll learn how WebAssembly can have a positive impact on the way you develop software.",
+    "coverImageUrl": "./a43876aec27571b23a44a7fad53f8d087bb85e49f0f43cb0a4135dc5d0c90093.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492089842?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492089842?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "JavaScript™ Trademark Update",
+      "url": "https://deno.com/blog/deno-v-oracle4"
+    },
+    {
+      "title": "js1024: Annual JavaScript Golfing Competition",
+      "url": "https://js1024.fun/"
+    },
+    {
+      "title": "Build Your Own Color Search Engine",
+      "url": "https://lui.ie/guides/semantic-search-colors"
+    },
+    {
+      "title": "Building a Lightweight Reactive State Manager with JavaScript Proxies",
+      "url": "http://lorenstew.art/blog/reactive-state-manager-with-proxies"
+    },
+    {
+      "title": "Spectral.js: a paint like color mixing library utilizing the Kubelka-Munk theory",
+      "url": "https://github.com/rvanwijnen/spectral.js"
+    },
+    {
+      "title": "4 Untranslatable Words Behind Patreon’s Internationalization Overhaul",
+      "url": "https://www.patreon.com/posts/133137028"
+    },
+    {
+      "title": "Can Good UX Protect Older Users From Digital Scams?",
+      "url": "https://www.smashingmagazine.com/2025/06/can-good-ux-protect-older-users-digital-scams/"
+    },
+    {
+      "title": "Why I Choose Rust to Build a Full-Stack Admin System",
+      "url": "https://idaibin-blog.vercel.app/blog/why-rust-admin"
+    },
+    {
+      "title": "Study guide: Data fetching in React",
+      "url": "https://reactpractice.dev/articles/study-guide-data-fetching-in-react/"
+    },
+    {
+      "title": "Reactylon: Build Immersive XR Experiences with React and Babylon.js",
+      "url": "https://github.com/simonedevit/reactylon"
+    },
+    {
+      "title": "Take Screenshots of Your Statically Exported Next.js Site in a GitHub Actions Workflow",
+      "url": "https://www.nico.fyi/blog/how-to-take-screenshots-in-github-actions-workflow"
+    },
+    {
+      "title": "React Still Feels Insane And No One Is Talking About It",
+      "url": "https://mbrizic.com/blog/react-is-insane/"
+    },
+    {
+      "title": "A simple website",
+      "url": "https://simplesite.ayra.ch/"
+    },
+    {
+      "title": "12 Factor Agents",
+      "url": "https://github.com/humanlayer/12-factor-agents"
+    },
+    {
+      "title": "How People Jailbreak AI – and How Developers Are Fighting Back",
+      "url": "https://blog.risingstack.com/ai-jailbreak/"
+    }
+  ],
+  "sponsor": null
+}

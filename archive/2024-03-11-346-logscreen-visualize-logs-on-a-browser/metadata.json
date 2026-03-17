@@ -1,0 +1,108 @@
+{
+  "issueNumber": 363,
+  "title": "logScreen: visualize logs on a browser",
+  "slug": "2024-03-11-346-logscreen-visualize-logs-on-a-browser",
+  "date": "2024-03-11",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nWelcome to issue #363!\n\nLast week has been a very intense one! If you know me, you probably know that I am not only about full-stack web development but that I also enjoy programming in general and cloud architectures! So I was busy delivering [a talk about nom, an interesting parser combinator library for Rust,](https://www.youtube.com/watch?v=1atZzA3e3Kg&t=973s) and writing the first article of a series about [how to manage AWS accounts effectively for both personal and corporate use cases](https://fourtheorem.com/managing-aws-accounts-part-1/)!\n\nBut... if you don't care about this kind of stuff, don't worry! We have plenty of amazing full-stack content curated here for you!\n\nSo let's jump into it and let's learn something new!\n\n— [Luciano](https://twitter.com/loige)",
+  "quote": {
+    "text": "The designer of a new kind of system must participate fully in the implementation“",
+    "author": "Donald Knuth",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Donald_Knuth"
+  },
+  "links": [
+    {
+      "title": "logScreen: visualize logs on a browser",
+      "url": "https://github.com/soorajshankar/logScreen",
+      "description": "Loglines can be messy, especially when you have lots of them and they contain structured information such as JSON values. It might be very challenging to consume this information in your terminal... so here's an idea! Actually, here's a viable project: logScreen, which allows you to read your logs (from any command!) nicely formatted in your browser. Just run `command | npx logscreen`.",
+      "imageUrl": "./81396bc8f2538078ea198885fb39af8365a59ef096da227cdc8b10ba31e59631.jpg",
+      "featured": true
+    },
+    {
+      "title": "Top 8 Recent V8 in Node Updates",
+      "url": "https://blog.appsignal.com/2024/02/28/top-8-recent-v8-in-node-updates.html",
+      "description": "V8 is the most popular JavaScript engine out there. And it keeps getting better! This article explores the top 8 most recent V8 updates which we will be soon able to use in the browser and Node.js.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Plotly",
+      "url": "https://plotly.com/javascript",
+      "description": "Built on top of **d3.js** and **stack.gl**, Plotly.js is a high-level, declarative charting library with over 40 chart types, including 3D charts, statistical graphs, and SVG maps. The best part is that plotly.js is free and open source, so it might be the perfect candidate for one of your next projects, especially if you don't have a huge budget!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A native HTML Switch Control",
+      "url": "https://webkit.org/blog/15054/an-html-switch-control",
+      "description": "It's finally happening! No more fiddling with the style of checkbox components just to emulate an interactive switch control component in the style of iOS. Safari is actually introducing this component into HTML and it looks super easy to use. It builds on the existing checkbox input type (unsurprisingly), but this makes it so that there's a nice and functional fallback for browsers that don't have support for it.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "HTMX vs React: A Complete Comparison",
+      "url": "https://semaphoreci.com/blog/htmx-react",
+      "description": "This guide compares HTMX and React, covering origins, features, performance, community, and functionality differences. If you have been puzzled about which one to learn or to use for a new project, this is a quite comprehensive and objective resource.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Mountaineer: batteries-included web framework for Python and React",
+      "url": "https://github.com/piercefreeman/mountaineer",
+      "description": "Mountaineer is a batteries-included web framework for Python and React. It can be ideal if you like to use Python for your backend development and React for the frontend. It even supports server rendering and various ways to exchange information (including types) between the server and the client!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Announcing Jco 1.0",
+      "url": "https://bytecodealliance.org/articles/jco-1.0",
+      "description": "Jco is a native Javascript WebAssembly toolchain and runtime built for WebAssembly Components and WASI0.2. This means that Jco cannatively run Wasm Components making it easy to take libraries written in different programming languages and execute them using the Node.js runtime.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Agile Web Development with Rails 5",
+    "author": "Sam Ruby",
+    "description": "Rails 5 and Ruby 2.2 bring many improvements, including new APIs and substantial performance enhancements, and the fifth edition of this award-winning classic is now updated! If you're new to Rails, you'll get step-by-step guidance. If you're an experienced developer, this book will give you the comprehensive, insider information you need for the latest version of Ruby on Rails.",
+    "coverImageUrl": "./8ce7511fb3c8594f256f41ec4168254572d3e762c632005637323efef4d09ba0.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501712/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501712/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Ultimate Guide to Visual Testing with Playwright",
+      "url": "https://browsercat.com/post/ultimate-guide-visual-testing-playwright"
+    },
+    {
+      "title": "UVCanvas: open source React.js component library for beautifully shaded canvas",
+      "url": "https://uvcanvas.com/"
+    },
+    {
+      "title": "The End Of My Gatsby Journey",
+      "url": "https://smashingmagazine.com/2024/03/end-of-gatsby-journey"
+    },
+    {
+      "title": "JSR: What We Know So Far About Deno’s New JavaScript Package Registry",
+      "url": "https://socket.dev/blog/jsr-new-javascript-package-registry"
+    },
+    {
+      "title": "The State of Jamstack: Developers Want Return to Simplicity",
+      "url": "https://thenewstack.io/the-state-of-jamstack-developers-want-return-to-simplicity"
+    },
+    {
+      "title": "Coroutines and web components",
+      "url": "https://lorenzofox.dev/posts/component-as-infinite-loop"
+    },
+    {
+      "title": "CSS-only bottom-anchored scrolling area",
+      "url": "https://kittygiraudel.com/2024/02/26/css-only-bottom-anchored-scrolling-area"
+    },
+    {
+      "title": "What do EBS and a jellyfish have in common? (podcast)",
+      "url": "https://awsbites.com/117-what-do-ebs-and-a-jellyfish-have-in-common/"
+    }
+  ],
+  "sponsor": null
+}

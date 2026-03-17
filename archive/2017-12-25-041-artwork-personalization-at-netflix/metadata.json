@@ -1,0 +1,75 @@
+{
+  "issueNumber": 41,
+  "title": "Artwork Personalization at Netflix",
+  "slug": "2017-12-25-041-artwork-personalization-at-netflix",
+  "date": "2017-12-25",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #51, 2017",
+  "quote": {
+    "text": "It's still magic even if you know how it's done",
+    "author": "Terry Pratchett",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Terry_Pratchett"
+  },
+  "links": [
+    {
+      "title": "Artwork Personalization at Netflix",
+      "url": "https://medium.com/netflix-techblog/artwork-personalization-c589f074ad76",
+      "description": "Netflix started a new personalization experiment. Every user now sees different movie artworks, based on their movies preference. In this engineering article, Netflix explains how this customisation is achieved and how the results are measured.",
+      "imageUrl": "./d910610b6d9cfea6ead8e40afc27108ba6349a1b33a8b86dcdee5edf646794e7.jpg",
+      "featured": true
+    },
+    {
+      "title": "Learned Index Structures",
+      "url": "https://arxiv-vanity.com/papers/1712.01208v1",
+      "description": "A B-Tree-Index is a model to map a key to the position of a record within a sorted array, a Hash-Index as a model to map a key to a position of a record within an unsorted array, and a BitMap-Index as a model to indicate if a data record exists or not. In this exploratory research paper by MIT and Google, this premise is used to hypothesize the possibility to create an indexing model that can find it's own optimal internal representation using deep learning.",
+      "imageUrl": "./3477978133d80e3df103420183411371d9d62436573e8839291f3e9f09116d11.png",
+      "featured": false
+    },
+    {
+      "title": "19 web design trends for 2018",
+      "url": "https://webflow.com/blog/19-web-design-trends-for-2018",
+      "description": "Discover the web design trends, techniques, and tools that will define website and digital product design in 2018 — and beyond.",
+      "imageUrl": "./72cecd8ae41938019779bd8d3d4d4a4672a2b1c17fe98b8b7845c161e2dd90b9.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Guide to Learning CSS Grid Layout",
+      "url": "http://learncssgrid.com/",
+      "description": "A comprehensive guide to help you understand and learn CSS Grid Layout, by Jonathan Suh.",
+      "imageUrl": "./c244f4326849dafc60fb20d137168b444f29a18651dfa6dbff39453fc6071609.jpg",
+      "featured": false
+    },
+    {
+      "title": "📦 Parcel",
+      "url": "https://parceljs.org/",
+      "description": "Blazing fast, zero configuration web application bundler. An interesting alternative to Webpack.",
+      "imageUrl": "./047a747f3593823358aab7681c6a40c45888dc45198d13b68c5ca250142aa854.jpg",
+      "featured": false
+    },
+    {
+      "title": "React Fundamentals and Advanced Patterns",
+      "url": "https://blog.kentcdodds.com/learn-react-fundamentals-and-advanced-patterns-eac90341c9db",
+      "description": "Two and a half hours of beginner and advanced React material available for FREE on egghead.",
+      "imageUrl": "./24159f12f526b3c9e770a1a465d83991885dac7aaa3ed1d76cbcef4feb834ae7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Learn Redis the hard way (in production)",
+      "url": "http://tech.trivago.com/2017/01/25/learn-redis-the-hard-way-in-production",
+      "description": "Trivago adopts Redis a lot for their cloud infrastructure. The use cases vary: Caching, temporary storage of data before moving those into another storage or a typical database for hotel metadata including persistence. In this article, they describe their experience with Redis and how they learned to use it at best after a number of failures in production.",
+      "imageUrl": "./52417e79be6321e87e4ac13a93d526b7d608a1729d7d37f93280b22d611de432.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "SQL Pocket Guide: A Guide to SQL Usage",
+    "author": "Jonathan Gennick",
+    "description": "If you're a programmer or database administrator who uses SQL in your day-to-day work, this popular pocket guide is the ideal on-the-job reference. You'll find many examples that address the language's complexity, along with key aspects of SQL used in IBM DB2 Release 9.7, MySQL 5.1, Oracle Database 11g Release 2, PostgreSQL 9.0, and Microsoft SQL Server 2008 Release 2. SQL Pocket Guide describes how these database systems implement SQL syntax for querying, managing transactions, and making changes to data. It also shows how the systems use SQL functions, regular expression syntax, and type conversion functions and formats.",
+    "coverImageUrl": "./35a5ca46259353653af886e2e2f8fc5d46ab2919392341b928656ba9804d943e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449394094/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449394094/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

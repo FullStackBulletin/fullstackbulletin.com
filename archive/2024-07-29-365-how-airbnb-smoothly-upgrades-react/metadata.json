@@ -1,0 +1,108 @@
+{
+  "issueNumber": 383,
+  "title": "How Airbnb Smoothly Upgrades React",
+  "slug": "2024-07-29-365-how-airbnb-smoothly-upgrades-react",
+  "date": "2024-07-29",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #383!\n\nLast week I was uber happy to discover an awesome [video review of my book Node.js Design Patterns](https://www.youtube.com/watch?v=9OoaK3UBjMo)! So let me officially thank Alfonso here for that! Make sure to check out his [YouTube channel](https://www.youtube.com/@alfonsograziano/videos) for some cool videos about web development!\n\nNow let's get into some cool handcrafted and handpicked full-stack content! Happy full-stack week! 😍\n\nYour editor, [Luciano](https://loige.co/).",
+  "quote": {
+    "text": "Just because something doesn't do what you planned it to do doesn't mean it's useless“",
+    "author": "Thomas Edison",
+    "authorTitle": "Inventor",
+    "authorUrl": "https://en.wikipedia.org/wiki/Thomas_Edison"
+  },
+  "links": [
+    {
+      "title": "How Airbnb Smoothly Upgrades React",
+      "url": "https://medium.com/airbnb-engineering/how-airbnb-smoothly-upgrades-react-b1d772a565fd",
+      "description": "Learn how AirBnB ncrementally modernizes their frontend infrastructure to roll out the latest React features without downgrades.",
+      "imageUrl": "./97d878e764c7fc7b6901b0354d4f71c261218ba8088868423bbf7181503c8765.jpg",
+      "featured": true
+    },
+    {
+      "title": "CSS Grid Areas",
+      "url": "https://ishadeed.com/article/css-grid-area",
+      "description": "A fresh look at the CSS grid template areas and how to take advantage of its full potential today.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Design GUI - Browser Extension for managing colors in CSS Variables",
+      "url": "https://designgui.io/",
+      "description": "Design GUI is a very interesting browser extension for managing colors in CSS Variables. One of the most interesting features is its AI-generated color palette, but there's also accessibility testing and support for shadcn/ui and daisyUI (with more coming soon).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How not to use box shadows",
+      "url": "https://dgerrells.com/blog/how-not-to-use-box-shadows",
+      "description": "*\"So you think you know box shadows huh? I bet you didn't know they could do this!\"* ... When an article starts like this, how can you not read it?!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Tailwind CSS Gradients - Collection of gradients for Tailwind",
+      "url": "https://tailscan.com/gradients",
+      "description": "This free collection contains lots of different gradients, ready to use in your Tailwind project. Get inspired, mix and match or use them directly.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How to choose the best rendering strategy for your app",
+      "url": "https://vercel.com/blog/how-to-choose-the-best-rendering-strategy-for-your-app",
+      "description": "Demystify Next.js rendering strategies: SSG, SSR, CSR, ISR, and PPR. Optimize your web apps for performance, SEO, and user experience. Learn when and how to use each approach with real-world examples and practical tips for modern web development.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Engineering Principles for Building Financial Systems",
+      "url": "https://substack.wasteman.codes/p/engineering-principles-and-best-practices",
+      "description": "Best practices and principles to create accurate and reliable software-based financial systems.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Python for Data Analysis: Data Wrangling with pandas, NumPy, and Jupyter",
+    "author": "Wes McKinney",
+    "description": "Get the definitive handbook for manipulating, processing, cleaning, and crunching datasets in Python. Updated for Python 3.10 and pandas 1.4, the third edition of this hands-on guide is packed with practical case studies that show you how to solve a broad set of data analysis problems effectively. You'll learn the latest versions of pandas, NumPy, and Jupyter in the process. Written by Wes McKinney, the creator of the Python pandas project, this book is a practical, modern introduction to data science tools in Python. It's ideal for analysts new to Python and for Python programmers new to data science and scientific computing. Data files and related material are available on GitHub.",
+    "coverImageUrl": "./4633f8fcd71121a39def2e23e8f53cb7fc07b67b4153577ba9ff76b704910489.jpg",
+    "amazonUs": "https://www.amazon.com/dp/109810403X?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/109810403X?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Ruby methods are colorless",
+      "url": "https://jpcamara.com/2024/07/15/ruby-methods-are.html"
+    },
+    {
+      "title": "Slashing our AWS Bill at Levels.fyi",
+      "url": "https://levels.fyi/blog/slashing-aws-bill.html"
+    },
+    {
+      "title": "nho: 📌 1KB Web Component Abstraction",
+      "url": "https://github.com/anh-ld/nho"
+    },
+    {
+      "title": "tailwindcss-intersect: Tailwind CSS with Intersection Observer variants",
+      "url": "https://github.com/heidkaemper/tailwindcss-intersect"
+    },
+    {
+      "title": "Button Stealer (Browser extension)",
+      "url": "https://anatolyzenkov.com/stolen-buttons/button-stealer"
+    },
+    {
+      "title": "When Objects Are Not Enough",
+      "url": "https://tonysm.com/when-objects-are-not-enough"
+    },
+    {
+      "title": "How Canva collects 25 billion events per day",
+      "url": "https://canva.dev/blog/engineering/product-analytics-event-collection"
+    },
+    {
+      "title": "Writing a book about Rust and AWS Lambda (AWS Bites Podcast)",
+      "url": "https://awsbites.com/128-writing-a-book-about-rust-and-lambda/"
+    }
+  ],
+  "sponsor": null
+}

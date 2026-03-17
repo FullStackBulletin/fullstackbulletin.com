@@ -1,0 +1,75 @@
+{
+  "issueNumber": 274,
+  "title": "The Modern JavaScript Tutorial",
+  "slug": "2022-05-23-261-the-modern-javascript-tutorial",
+  "date": "2022-05-23",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "The science of today is the technology of tomorrow",
+    "author": "Edward Teller",
+    "authorTitle": "Theoretical physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Edward_Teller"
+  },
+  "links": [
+    {
+      "title": "The Modern JavaScript Tutorial",
+      "url": "https://javascript.info/",
+      "description": "Modern JavaScript Tutorial is a simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more. Everything you need to know to be able to write modern JavaScript code!",
+      "imageUrl": "./4d84ca344d3b8ec00190a45b1a319be0fdc56f04bd338d5c550d55765c61ac80.jpg",
+      "featured": true
+    },
+    {
+      "title": "Web Applications 101",
+      "url": "https://robinwieruch.de/web-applications",
+      "description": "Robin Wieruch has recently published a fantastic article that goes into great length about everything you need to know about web applications in modern web development. It's not JavaScript specific and it covers the idea of **traditional websites**, **full-stack web applications**, **client-side** and **server-side rendering/routing**, **single-page applications**, **code splitting**, **APIs**, **microservices**, **static site generation** and more!",
+      "imageUrl": "./440281e38da005dd815bcded51766e6f4dabea80b24d9ab574919f3f226f6f27.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Surprising Truth About Pixels and Accessibility",
+      "url": "https://joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility",
+      "description": "“Should I use pixels or rems?”. In this comprehensive blog post, Josh Comeau answers this question once and for all. You'll learn about the accessibility implications, and how to determine the best unit to use in any scenario.",
+      "imageUrl": "./e4bc56e6609dbf5ebe90d696785cc1aa9eb2b6b3f2f143121a80feda23781915.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to Use the GitHub Pulls API to Manage Pull Requests",
+      "url": "https://fusebit.io/blog/github-pulls-api-manage-prs",
+      "description": "The GitHub API is powerful, but getting started might be frustrating. In this post, we'll walk you through a GitHub API pull request.",
+      "imageUrl": "./a7cae23ea39bf79d325c691e82a1e5b45db9032d0d3c09b122edf6b658019fa7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Web Performance case study",
+      "url": "https://eman.hashnode.dev/web-performance-renderlands-saga-book-1",
+      "description": "An interesting case study by Renderland showcasing their journey with web performance optimisations. This article covers client and server side rendering, time to first byte, first paint, and other interesting web performance metrics.",
+      "imageUrl": "./b9325a606ef5d139935900dbc4b5ffe3150fc0e305e0e4cd6db4ca4ee0352320.png",
+      "featured": false
+    },
+    {
+      "title": "How to Design Better APIs",
+      "url": "https://quastor.substack.com/p/how-to-design-better-apis",
+      "description": "Designing good programmatic API is not easy. This article looks into how Database Storage Engines work: Log Structured vs. Page Oriented. It's a bit of an advanced use case but there is definitely a lot to learn about how to think in terms of APIs for these systems.",
+      "imageUrl": "./613e0ed68c1778174f34c701ae844e9daeb787e7f2c96dd640db34267af4e561.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript iteration protocols workshop",
+      "url": "https://github.com/lmammino/iteration-protocols-workshop",
+      "description": "I have been busy in the last couple of weeks designing an open source workshop that covers iteration in JavaScript and Node.js. It explores **generator functions** and **sync/async iteration protocols** and offers tons of **examples** and **exercises**. I hope you will enjoy it!",
+      "imageUrl": "./b2004dbdef8cff2073fc2e572ad7734c08e7ff372dacde6c2e1c30ecdfe785d3.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Pragmatic Programmer: From Journeyman to Master",
+    "author": "Andrew Hunt",
+    "description": "he Pragmatic Programmer cuts through the increasing specialization and technicalities of modern software development to examine the core process-taking a requirement and producing working, maintainable code that delights its users. It covers topics ranging from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse.",
+    "coverImageUrl": "./2ffb12a41f490125695aeff2d4c3ea84a96f4f6c7298432191fdc3c1a104af4b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/020161622X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/020161622X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

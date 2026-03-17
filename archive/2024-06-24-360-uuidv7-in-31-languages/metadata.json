@@ -1,0 +1,104 @@
+{
+  "issueNumber": 378,
+  "title": "UUIDv7 in 31 languages",
+  "slug": "2024-06-24-360-uuidv7-in-31-languages",
+  "date": "2024-06-24",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #378!\n\nLast week I had the pleasure of talking about Rust and AWS Lambda (and t[he book that I am writing](https://rust-lambda.com/)) at the RustShip podcast by [Marco Ieni](https://ieni.dev/). If you think this can be an interesting topic for you, you can check out the [live recording](https://www.youtube.com/live/Qx0XIP4LnYU?si=xLcQzAv5vP2Hbs8k). A more polished version should come out soon as a podcast, so watch out all the [RustShip channels](https://open.spotify.com/show/3tLnLLWcvJyYTwMSi67zEA).\n\nNow let's get into some cool full-stack content. This week we have a great and varied selection of articles and libraries that will inspire you and that will help you to raise the bar of your full-stack game!\n\nEnjoy!\n\n— Your crazy editor, [Luciano](https://x.com/loige)",
+  "quote": {
+    "text": "The nice thing about standards is that you have so many to choose from“",
+    "author": "Andrew S. Tanenbaum",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum"
+  },
+  "links": [
+    {
+      "title": "UUIDv7 in 31 languages",
+      "url": "https://antonz.org/uuidv7",
+      "description": "Programmatically generated unique IDs such as UUID are fascinating. What else is fascinating if you ask me? Programming languages! So here's a crazy idea: let's implement UUIDv7 in 31 different programming languages! What does this have to do with full-stack web development you ask? Well you probably use UUID here and there, here's a great excuse to know in depth how they work and when they can be convenient (not always, really!)",
+      "imageUrl": "./32e8f316770dfe5c77236cdb938bdab60085b705d3bf35ce438407c871af7c12.jpg",
+      "featured": true
+    },
+    {
+      "title": "Layer Cake",
+      "url": "https://layercake.graphics/",
+      "description": "If you love Svelte an data visualisation you will certainly love Layer Cake: a framework for mostly-reusable graphics with Svelte.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "uikit: User interfaces for react-three-fiber",
+      "url": "https://github.com/pmndrs/uikit",
+      "description": "User interfaces for react-three-fiber. If you are building interactive 3D experiences for the web and want to provide UI elements (e.g. clickable buttons, resizable panes, etc), this library can help you.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "React 19 and Suspense - A Drama in 3 Acts",
+      "url": "https://tkdodo.eu/blog/react-19-and-suspense-a-drama-in-3-acts",
+      "description": "React 19 is a very promising release - but there's something not quite right yet with suspense... and this drama unfolded right during React Summit, the biggest React conferences out there! Are you curious to learn more about this?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Flow Charts with CSS Anchor Positioning",
+      "url": "https://coryrylan.com/blog/flow-charts-with-css-anchor-positioning",
+      "description": "With the introduction of the CSS Anchor Position API in Chrome 125, it's never been easier to position an element relative to another element. This is a great way to manage complex positioning use cases like popovers and tooltips. However, CSS Anchor Posititioning can be used for more than just popovers and tooltips, it can be used to create basic flow chart diagrams. In this post we will learn how to use CSS Anchor Positioning to create flow charts and diagram with just CSS.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Dual Publishing ESM and CJS Modules with tsup and Are the Types Wrong?",
+      "url": "https://johnnyreilly.com/dual-publishing-esm-cjs-modules-with-tsup-and-are-the-types-wrong",
+      "description": "Learn how to publish a package that supports both ECMAScript modules (ESM) and CommonJS modules (CJS) using `tsup` and `Are the Types Wrong?`",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Bridging React Native and Rust via JSI",
+      "url": "https://ditto.live/blog/bridging-react-native-and-rust-via-jsi",
+      "description": "Ditto is a company that provides an SDK to perform synchronization of data between devices even when they don't have access to the internet. They recently had to integrate their solution with React Native and they had to use Rust as a mechanism to re-use their existing code and bring it into the React Native ecosystem. This is a bit of an off-topic, but still, a fascinating read if you want to learn how the world of the web can fade into the world of mobile and systems programming.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Learn React with TypeScript - Second Edition: A beginner's guide to reactive web development with React 18 and TypeScript",
+    "author": "Carl Rippon",
+    "description": "Reading, navigating, and debugging a large frontend codebase is a major issue faced by frontend developers. This book is designed to help web developers like you learn about ReactJS and TypeScript, both of which power large-scale apps for many organizations. This second edition of Learn React with TypeScript is updated, enhanced, and improved to cover new features of React 18 including hooks, state management libraries, and features of TypeScript 4. The book will enable you to create well-structured and reusable React components that are easy to read and maintain, leveraging modern design patterns. You'll be able to ensure that all your components are type-safe, making the most of TypeScript features, including some advanced types. You'll also learn how to manage complex states using Redux and how to interact with a GraphQL web API. Finally, you'll discover how to write robust unit tests for React components using Jest. This book is for experienced frontend developers looking to build large scale web applications using React and TypeScript. Intermediate knowledge of JavaScript, HTML and CSS is a prerequisite.",
+    "coverImageUrl": "./7d472758205c220bcc13eca289fc9dea0b2d1556ce032f9d554707cf708c7818.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1804614203?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1804614203?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Pic Smaller: Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently",
+      "url": "https://github.com/joye61/pic-smaller"
+    },
+    {
+      "title": "CRUD/Authorization Node.js framework",
+      "url": "https://eicrud.com/"
+    },
+    {
+      "title": "Best practices for accelerating development with serverless blueprints",
+      "url": "https://aws.amazon.com/blogs/infrastructure-and-automation/best-practices-for-accelerating-development-with-serverless-blueprints"
+    },
+    {
+      "title": "The Powerful Conversational AI JavaScript Library",
+      "url": "https://docs.nlkit.com/nlux"
+    },
+    {
+      "title": "Reassure: Performance testing companion for React and React Native",
+      "url": "https://github.com/callstack/reassure"
+    },
+    {
+      "title": "React-tag-autocomplete: A simple, accessible, tagging component ready to drop into your React projects (new repo)",
+      "url": "https://github.com/i-like-robots/react-tag-autocomplete"
+    },
+    {
+      "title": "How To Use Google Sheets as a Database With React via Next.js",
+      "url": "https://thenewstack.io/how-to-use-google-sheets-as-a-database-with-react-and-ssr"
+    }
+  ],
+  "sponsor": null
+}

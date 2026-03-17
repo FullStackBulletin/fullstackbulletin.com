@@ -1,0 +1,75 @@
+{
+  "issueNumber": 74,
+  "title": "Detecting the use of \"curl | bash\"",
+  "slug": "2018-08-06-074-detecting-the-use-of-curl-bash",
+  "date": "2018-08-06",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #31, 2018",
+  "quote": {
+    "text": "Computers are good at following instructions, but not at reading your mind",
+    "author": "Donald Knuth",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Donald_Knuth"
+  },
+  "links": [
+    {
+      "title": "Detecting the use of \"curl | bash\"",
+      "url": "https://idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side",
+      "description": "Executing a curl from a URL and piping the result into bash is a very common yet inherently insecure practice. To discourage the use of this practice you can detect when this is happening from the server side and return an alternative message to stop the user from doing this.",
+      "imageUrl": "./62383aa0ae915a4e7b7ca256ac3ba407e134b690ebd89dbfb75c99f717e192f8.png",
+      "featured": true
+    },
+    {
+      "title": "Why Discord is Sticking with React Native",
+      "url": "https://blog.discordapp.com/why-discord-is-sticking-with-react-native-ccc34be0d427",
+      "description": "React Native has been at the centre of the mobile development landscape after Airbnb decided to move away from it. Here's an interesting use case of a company that is sticking with React Native and supporting this technology.",
+      "imageUrl": "./83b17b999cad0249bf6314715d023a48d7a050b96867e95ea8471d90ca1d80bf.jpg",
+      "featured": false
+    },
+    {
+      "title": "7 Basic Design Principles We Forget About",
+      "url": "https://uxplanet.org/7-basic-design-principles-we-forget-about-8f5c15d4b527",
+      "description": "Clarity. Actionable interfaces. Opinionated design. Gather feedback. Use metaphors. Provide context over consistency. Use defensive design. These are 7 design principles that you shouldn't forget while developing your next great project.",
+      "imageUrl": "./a4b7bbe05faaad8974c4e72fc21e1e9894291c438f9725df2d503a1420d2bd83.jpg",
+      "featured": false
+    },
+    {
+      "title": "The trick to viewport units on mobile",
+      "url": "https://css-tricks.com/the-trick-to-viewport-units-on-mobile",
+      "description": "Viewport units have always been controversial and some of that is because of how mobile browsers have made things more complicated by having their own opinions about how to implement them.",
+      "imageUrl": "./bed34253908471cef6edbb77a17892afdbb53016cf5850764410fe8fc08ed1a6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Build a state management system with vanilla JavaScript",
+      "url": "https://css-tricks.com/build-a-state-management-system-with-vanilla-javascript",
+      "description": "Managing state is not a new thing in software, but it’s still relatively new for building software in JavaScript. Traditionally, we’d keep state within the DOM itself or even assign it to a global object in the window. Now though, we’re spoiled with choices for libraries and frameworks to help us with this. Libraries like Redux, MobX and Vuex make managing cross-component state almost trivial.",
+      "imageUrl": "./80833ff5f618279d5fe5ce12046b0232e8a5e53ba4544c9d231efac58b79cbb3.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why the New V8 is so Damn Fast",
+      "url": "http://nodesource.com/blog/why-the-new-v8-is-so-damn-fast",
+      "description": "The entire V8 compiler pipeline was overhauled and shipped with Node.js version 8. This post investigates what speed improvements we can expect as a result.",
+      "imageUrl": "./65aad17f92e36ce7784f5d46b8fe1062e3dd3250b1a5f7584b9d152515fea618.jpg",
+      "featured": false
+    },
+    {
+      "title": "Logical Styling Based on the Number of Given Elements",
+      "url": "https://css-tricks.com/solved-with-css-logical-styling-based-on-the-number-of-given-elements",
+      "description": "Did you know that CSS is Turing complete? Did you know that you can use it to do some pretty serious logical styling? Well you can! You don’t have to set all of your logic-based styling rules in JavaScript, or even have to use JavaScript to set classes you are styling against.",
+      "imageUrl": "./02310047c49dfd491ab581eb74c7c9264a1ed9df20b06e410ef9ba50e244ef1c.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Rails, Angular, Postgres, and Bootstrap: Powerful, Effective, and Efficient Full-Stack Web Development",
+    "author": "David B. Copeland",
+    "description": "As a Rails developer, you care about user experience and performance, but you also want simple and maintainable code. Achieve all that by embracing the full stack of web development, from styling with Bootstrap, building an interactive user interface with AngularJS, to storing data quickly and reliably in PostgreSQL. Take a holistic view of full-stack development to create usable, high-performing applications, and learn to use these technologies effectively in a Ruby on Rails environment.",
+    "coverImageUrl": "./916a92b54ef122132c9c594e8eb8d9182649599a02cfe38f79d2f203037b008c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501267/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501267/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

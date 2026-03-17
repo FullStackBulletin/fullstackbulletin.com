@@ -1,0 +1,75 @@
+{
+  "issueNumber": 234,
+  "title": "Photoshop's journey to the web",
+  "slug": "2021-11-01-234-photoshop-s-journey-to-the-web",
+  "date": "2021-11-01",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #43, 2021",
+  "quote": {
+    "text": "Companies spend millions of dollars on firewalls, encryption and secure access devices, and it’s money wasted, because none of these measures address the weakest link in the security chain",
+    "author": "Kevin Mitnick",
+    "authorTitle": "Auhor and Security Consultant",
+    "authorUrl": "https://en.wikipedia.org/wiki/Kevin_Mitnick"
+  },
+  "links": [
+    {
+      "title": "Photoshop's journey to the web",
+      "url": "https://web.dev/ps-on-the-web",
+      "description": "Over the last three years, Chrome has been working to empower web applications that want to push the boundaries of what's possible in the browser. One such web application has been Photoshop. The idea of running software as complex as Photoshop directly in the browser clearly shows us what are the capabilities that we can get from modern web apps!",
+      "imageUrl": "./829859f976a9a169499cb422c3ac2c44d297e0a3831198bc0d94dcc935e18612.png",
+      "featured": true
+    },
+    {
+      "title": "How I built a modern website in 2021",
+      "url": "https://kentcdodds.com/blog/how-i-built-a-modern-website-in-2021",
+      "description": "Kent C. Dodds shares with us how he rebuilt his personal website using a bunch of new tech including **React** (of course!), **Remix**, **XState** and **Prisma**! But there is a lot (seriously a lot) more in this post!",
+      "imageUrl": "./cbaaf856779941c46e7f903cea2eaac46ce7aa0ebda7c03b9efd0d499ae5c6e3.jpg",
+      "featured": false
+    },
+    {
+      "title": "React's new documentation (beta)",
+      "url": "https://beta.reactjs.org/learn",
+      "description": "The React team has been working for a while on a new version of the documentation website and it is finally available in beta. This new version seems much more interactive (with interactive snippets you can edit directly on the website) so it promises a much friendlier learning experience!",
+      "imageUrl": "./18bd9063ca176bdaee31e75c4dd029557ac51a1146af12bde0ceba59bec76865.png",
+      "featured": false
+    },
+    {
+      "title": "Local Testing A Serverless API",
+      "url": "https://smashingmagazine.com/2021/10/local-testing-serverless-api-gateway-lambda",
+      "description": "Have you ever struggled with testing cloud services locally? Specifically, have you ever struggled with locally testing an API that uses API Gateway and Lambda, with the Serverless framework, on AWS? In this article, you can learn a few tricks that might make your life easier!",
+      "imageUrl": "./e4cc8a005d2757fe6b5d8d5f0d3143f9df0f8c0c036d4e5d32e7204adae9a3c0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Lets create a screen recorder with JS",
+      "url": "https://dev.to/0shuvo0/lets-create-a-screen-recorder-with-js-3leb",
+      "description": "Did you know that JavaScript on the browser has the capability of screen recording? Well, in this tutorial you can actually use this capability to create your own web based screen recording tool!",
+      "imageUrl": "./900710452f0edc9ecbd322160ee523f10cd53a651cc6658f68935e1347195e58.jpg",
+      "featured": false
+    },
+    {
+      "title": "HTML with Superpowers",
+      "url": "https://daverupert.com/2021/10/html-with-superpowers",
+      "description": "If you were using Web Components before 2020 you were an early adopter and you probably have some scars to show for it. But in 2021, now that all modern browsers support Web Components, they’re worth investigating and using more. Find out more in this amazing talk by Dave Rupert.",
+      "imageUrl": "./3b4f473807890daa9b5afdb3e5fa46afa97660cdcd4c606c1f45ba33d8f1b1db.jpg",
+      "featured": false
+    },
+    {
+      "title": "Serverless WebSockets on AWS",
+      "url": "https://dev.to/aws-builders/serverless-websockets-on-aws-3nm9",
+      "description": "With AWS, developers have multiple choices on how to implement real-time communication. Let us go through some of the options.",
+      "imageUrl": "./e1b2312fe3d023dad7e61ca97858f957ff8827a1149a3dea3818014b02d9526f.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Linux Pocket Guide: Essential Commands",
+    "author": "Daniel J. Barrett",
+    "description": "If you use Linux in your day-to-day work, this popular pocket guide is the perfect on-the-job reference. The third edition features new commands for processing image files and audio files, running and killing programs, reading and modifying the system clipboard, and manipulating PDF files, as well as other commands requested by readers. You’ll also find powerful command-line idioms you might not be familiar with, such as process substitution and piping into bash. Linux Pocket Guide provides an organized learning path to help you gain mastery of the most useful and important commands. Whether you’re a novice who needs to get up to speed on Linux or an experienced user who wants a concise and functional reference, this guide provides quick answers. Selected topics include:The filesystem and shell, File creation and editing, Text manipulation and pipelines, Backups and remote storage, Viewing and controlling processes, User account management, Becoming the superuser, Network connections, Audio and video, Installing softwar, Programming with shell scripts.",
+    "coverImageUrl": "./fcd1dd45a11d838bd7fffe901365729615e97b5a211cd1a7b7ef779c02fffe5d.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491927577/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491927577/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

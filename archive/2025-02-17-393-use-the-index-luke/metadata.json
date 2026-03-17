@@ -1,0 +1,132 @@
+{
+  "issueNumber": 412,
+  "title": "Use the Index, Luke",
+  "slug": "2025-02-17-393-use-the-index-luke",
+  "date": "2025-02-17",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nSome personal news first: after two and a half months (yes, really!), I finally managed to carve out the time to write my [annual year-end reflection post](https://loige.co/2024-a-year-in-review/)! If you're curious about what I've been up to professionally and personally (and what I'll be focusing on this year) you can [check it out](https://loige.co/2024-a-year-in-review/).\n\nAlso, this week, I'll be in London for [Rust Global](https://www.eventbrite.com/e/rust-global-2025-london-tickets-1106701787839), where I'm looking forward to delivering a keynote on why I believe serverless is the perfect use case for Rust. If you're around, give me a shout... I'd love to meet you!\n\nNow, let's dive into the content for this newsletter! This week is a big one. There was so much interesting stuff that it massively overflowed the usual 7 featured pieces, so be sure to check all the extra links at the bottom if you want more!\n\nYour editor,\n— [Luciano](https://loige.co/)\n\nP.S. Full Stack Bulletin is currently looking for sponsors (yep, we also have bills to pay). If you have a product that could appeal to a wide, international audience of full-stack developers, [give me a shout](mailto:luciano@fullstackbulletin.com)! I even have a slide deck ready with most of the questions you'd probably want to ask me 🙂",
+  "quote": {
+    "text": "There are two ways to write error-free programs; only the third one works“",
+    "author": "Alan J. Perlis",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_J._Perlis"
+  },
+  "links": [
+    {
+      "title": "Use The Index, Luke",
+      "url": "https://use-the-index-luke.com/",
+      "description": "The main pick of this week is for those who truly want to understand how relational databases work and master the art of fine-tuning them. It's a big one! *'Use The Index, Luke'* is a free e-book and website that explains SQL indexing from the ground up, focusing on what developers need to know – no database admin jargon here. You'll learn about everything from the anatomy of an index and how to optimize `WHERE` clauses to understanding the impact of indexing on `INSERT`, `DELETE`, and `UPDATE` statements. It cuts through the noise and dives straight into practical techniques, going far beyond basic ORM usage. If you're looking to get serious about SQL performance, this is an invaluable resource. And if you like what you see here, please consider supporting the author by buying a copy of the book in print or PDF format! [**Read the Book**](https://use-the-index-luke.com/)",
+      "imageUrl": "./eb37a27acba1f946d93447ecd9a0d1120df164661f6e6ecbb52b6c0f9561949b.png",
+      "featured": true
+    },
+    {
+      "title": "Dexie.js - Minimalistic IndexedDB Wrapper",
+      "url": "https://dexie.org/",
+      "description": "And speaking of databases, here's Dexie.js, a minimalistic wrapper for IndexedDB that helps with client-side data management directly in the browser. It provides a clean, intuitive API for building local-first web applications and idiomatic framework-specific wrappers for React, Svelte, Vue, and Angular. [**Check out the project**](https://dexie.org/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Transitioning Top-Layer Entries And The Display Property In CSS",
+      "url": "https://smashingmagazine.com/2025/01/transitioning-top-layer-entries-display-property-css",
+      "description": "This article dives into two new CSS features – `transition-behavior: allow-discrete` and `@starting-style` and shows you how to use them for smooth transitions when working with the display property and the top layer. With these techniques, you'll be able to improve accessibility and create more engaging user experiences. So if you have a user interface, a dialog or popover to animate, or if you just want to add subtle, smooth animations to your projects, keep on reading!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Move on to ESM-only",
+      "url": "https://antfu.me/posts/move-on-to-esm-only",
+      "description": "Should JavaScript packages finally ditch CommonJS (CJS) and embrace ESM-only? This article, by Anthony Fu (of Vite, Vitest, Vue, and Nuxt fame), makes a compelling case for why the time has come. More than just an opinion piece, it takes a very practical stance, providing clear insights and even a tool – [node-modules-inspector](https://node-modules.dev/) – to help you decide whether you should transition your projects to ESM or not. The author explores the ecosystem's evolution, highlights the power of modern tools, and dives into the challenges of maintaining dual CJS/ESM formats. If you're a full-stack JavaScript developer, you've likely wrestled with module formats at some point. This article is an excellent summary of the issues, as well as a must read piece of content to get an overview of the javascript ecosystem.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Ohm: a user-friendly parsing toolkit for JavaScript",
+      "url": "https://ohmjs.org/",
+      "description": "Want to build your own language or easily parse complex data formats? Ohm is a JavaScript library and DSL that lets you create parsers, interpreters, and compilers with ease. It provides a powerful grammar language with full support for left recursion and object-oriented grammar extension. Plus, its modular semantic actions and [online editor](https://ohmjs.org/editor/) make it a breeze to experiment and debug.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Building an easy web application",
+      "url": "https://rudyfaile.com/2020/07/06/building-an-easy-web-application",
+      "description": "I don't necessarily agree with everything in this blog post (especially the author's, let's say passionate, feelings about Node.js and JavaScript 😅), but they definitely have a point about the dangers of over-engineering! This article is a hilarious account of one developer's quest to build an 'easy' web app that went hilariously wrong. What started as a 30-minute PHP script quickly spiraled into a three-day odyssey involving Python, Flask, Bottle, JavaScript, CORS, Node.js, and a REST API... Read it with light-hearted expectations, but be ready to be surprised – some of the ideas and frustrations might really resonate with you!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Quicky - Self host Next.js websites",
+      "url": "https://quicky.dev/",
+      "description": "Lately, on a decently sized Next.js project, I've found the Vercel experience a bit too constrained. It feels like a very opinionated approach that doesn't always play nicely with more complex architectures where you might be hosting bits and pieces on AWS and integrating external systems. So, during my search for self-hosting alternatives, I stumbled upon Quicky: a CLI tool designed to streamline the entire process, from initialization and GitHub integration to automated domain configuration and SSL certificates. I haven't had a chance to try it yet, so I'm not endorsing it, but it looks well-documented and is worth a look if you're also aiming to break free from Vercel.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Learn Python the Hard Way: A Very Simple Introduction to the Terrifyingly Beautiful World of Computers and Code (Zed Shaw's Hard Way Series)",
+    "author": "Zed Shaw",
+    "description": "You Will Learn Python! Zed Shaw has perfected the world's best system for learning Python. Follow it and you will succeed-just like the hundreds of thousands of beginners Zed has taught to date! You bring the discipline, commitment, and persistence; the author supplies everything else. In Learn Python the Hard Way, Third Edition, you'll learn Python by working through 52 brilliantly crafted exercises. Read them. Type their code precisely. (No copying and pasting!) Fix your mistakes. Watch the programs run. As you do, you'll learn how software works; what good programs look like; how to read, write, and think about code; and how to find and fix your mistakes using tricks professional programmers use.",
+    "coverImageUrl": "./e7a1c7c52a446f8a9386894c88a9acd8ab18b1a04a7236bf3a730fcc06c664fe.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321884914?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321884914?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "There are a lot of ways to break up long tasks in JavaScript.",
+      "url": "https://macarthur.me/posts/long-tasks"
+    },
+    {
+      "title": "Which rich text editor framework should you choose in 2025?",
+      "url": "https://liveblocks.io/blog/which-rich-text-editor-framework-should-you-choose-in-2025"
+    },
+    {
+      "title": "Publishing ESM-based npm packages with TypeScript",
+      "url": "https://2ality.com/2025/02/typescript-esm-packages.html"
+    },
+    {
+      "title": "The Popover API is now Baseline Newly available",
+      "url": "https://web.dev/blog/popover-baseline"
+    },
+    {
+      "title": "How to Create Wavy Boxes Using CSS",
+      "url": "https://verpex.com/blog/website-tips/how-to-create-wavy-boxes-using-css"
+    },
+    {
+      "title": "How to declare your page’s language",
+      "url": "https://blog.pope.tech/2025/02/05/how-to-declare-your-pages-language"
+    },
+    {
+      "title": "daviddarnes/share-button: A Web Component to share web pages using the native OS sharing options",
+      "url": "https://github.com/daviddarnes/share-button"
+    },
+    {
+      "title": "The Art of Making Websites",
+      "url": "https://blog.jim-nielsen.com/2025/the-art-of-making-websites/"
+    },
+    {
+      "title": "Reimagining Fluid Typography",
+      "url": "https://www.oddbird.net/2025/02/12/fluid-type/"
+    },
+    {
+      "title": "nodejs/import-in-the-middle: module loading interceptor",
+      "url": "https://github.com/nodejs/import-in-the-middle"
+    },
+    {
+      "title": "Hyperlegible™ Fonts",
+      "url": "https://www.brailleinstitute.org/freefont/"
+    },
+    {
+      "title": "Fluid Triangle (impressive canvas rendering demo)",
+      "url": "https://github.com/javierbyte/fluid-triangle"
+    },
+    {
+      "title": "Kubb: The ultimate toolkit for working with APIs",
+      "url": "https://kubb.dev/"
+    },
+    {
+      "title": "The ultimate guide to Rust newtypes",
+      "url": "https://www.howtocodeit.com/articles/ultimate-guide-rust-newtypes"
+    }
+  ],
+  "sponsor": null
+}

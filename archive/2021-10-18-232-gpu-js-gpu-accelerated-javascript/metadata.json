@@ -1,0 +1,75 @@
+{
+  "issueNumber": 232,
+  "title": "GPU.js - GPU accelerated Javascript",
+  "slug": "2021-10-18-232-gpu-js-gpu-accelerated-javascript",
+  "date": "2021-10-18",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "I think computer viruses should count as life.  I think it says something about human nature that the only form of life we have created so far is purely destructive.  We’ve created life in our own image",
+    "author": "Stephen Hawking",
+    "authorTitle": "Theoretical physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+  },
+  "links": [
+    {
+      "title": "GPU.js - GPU accelerated Javascript",
+      "url": "https://gpu.rocks/",
+      "description": "A powerful JavaScript library that allows you to perform massively parallel GPGPU computations using GPU. It works in Node.js too!",
+      "imageUrl": "./fd8a811bdd2df5798cae69ea8b930f0f5d44bd67b53c371bbc765b6d08023cbf.png",
+      "featured": true
+    },
+    {
+      "title": "Clean Conventional Commits",
+      "url": "https://dev.to/sublimegeek/clean-conventional-commits-40l8",
+      "description": "Did you know that if you are diligent enough with your commit messages you can fully automate the release versioning? Conventional commits is a standard way of writing commit messages that, among other things, allows you to specify when a change is a breaking change and requires a new major release!",
+      "imageUrl": "./ecce16b050c373d1d2fd280e685208ea3dd23b9ee88f32ad0868c682a3b97e15.jpg",
+      "featured": false
+    },
+    {
+      "title": "Most popular mistake to ruin Webpack bundle optimization",
+      "url": "https://codecrumbs.io/library/most-popular-mistake-webpack",
+      "description": "Building huge applications means putting together hundreds of different modules, packing, bundling and shipping that towards user. Control of bundle size becomes critical at this point, one module, one bad apple, can just ruin everything. Let's talk about that in this post.",
+      "imageUrl": "./09c49b9435854ac8d870cdf944fae0b6be9356542f73c389364ae5672467bd9b.jpg",
+      "featured": false
+    },
+    {
+      "title": "The very first Eleventy 1.0 Beta Release",
+      "url": "https://www.11ty.dev/blog/eleventy-v1-beta/",
+      "description": "Eleventy, one of the fastest growing static site generators, is close to a version 1.0! This first beta release comes with some interesting new features. At the top of the list there's Eleventy Serverless:  a fantastic way to do dynamic server side rendering on request or lazily via Distributed Persistent Rendering. Find out all the new features in this blog post.",
+      "imageUrl": "./013fc2d4b284e9a60f31fce15287686b84fa0f912fe8766bc77ff774e447b213.jpg",
+      "featured": false
+    },
+    {
+      "title": "Web Streams Everywhere (and Fetch for Node.js)",
+      "url": "https://css-tricks.com/web-streams-everywhere-and-fetch-for-node-js",
+      "description": "Chrome developer advocate Jake Archibald called 2016 \"the year of web streams.\" Clearly, his prediction was somewhat premature. The Streams Standard was announced back in 2014. It’s taken a while, but there’s now a consistent streaming API implemented in modern browsers (still waiting on Firefox…) and in Node (and Deno).",
+      "imageUrl": "./5b1226e0f81b21e2bdde94e03160833789d77296a2384b4f63076d0c21967a89.jpg",
+      "featured": false
+    },
+    {
+      "title": "Lin Clark on the WebAssembly Component Model",
+      "url": "https://infoq.com/podcasts/web-assembly-component-model",
+      "description": "Using the metaphor of lego blocks, Lin Clark (a Senior Principal Software Engineer at Fastly) discusses WebAssembly Component model with Wes Reisz, including the background, roadmap, and design goals.",
+      "imageUrl": "./60aa3b96c33284b94f1ce9ec7f05ed7bcb12b398d9d54877053c71593d9a9eba.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Discord app with Fastify!",
+      "url": "https://dev.to/eomm/a-discord-app-with-fastify-3h8c",
+      "description": "A tutorial showing you how to builf a simple demo application using Fastify. In this tutorial you will learn how to implement login with Discord (using OAUTH2), how to secure the web application, test and deploy to Heroku.",
+      "imageUrl": "./e3df4214e1838ff7caef0317f197fb1e04c50f1689b6edfa9f22e0d105742795.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Cassandra: The Definitive Guide: Distributed Data at Web Scale",
+    "author": "Jeff Carpenter and Eben Hewitt",
+    "description": "Imagine what you could do if scalability wasn't a problem. With this hands-on guide, you’ll learn how the Cassandra database management system handles hundreds of terabytes of data while remaining highly available across multiple data centers. This expanded second edition—updated for Cassandra 3.0 provides the technical details and practical examples you need to put this database to work in a production environment. Authors Jeff Carpenter and Eben Hewitt demonstrate the advantages of Cassandra’s non-relational design, with special attention to data modeling.",
+    "coverImageUrl": "./10919e24e677765bb72655af277029f8dbb8ee40b9d66eeac77305bc7fd728c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491933666/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491933666/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

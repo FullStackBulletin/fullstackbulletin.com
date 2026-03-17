@@ -1,0 +1,75 @@
+{
+  "issueNumber": 97,
+  "title": "Portable Node.js",
+  "slug": "2019-01-28-097-portable-node-js",
+  "date": "2019-01-28",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #4, 2019",
+  "quote": {
+    "text": "Just because something doesn’t do what you planned it to do doesn’t mean it’s useless",
+    "author": "Thomas Edison",
+    "authorTitle": "Inventor",
+    "authorUrl": "https://en.wikipedia.org/wiki/Thomas_Edison"
+  },
+  "links": [
+    {
+      "title": "Portable Node.js",
+      "url": "https://github.com/ehmicky/portable-node-guide",
+      "description": "A very practical guide on how to write Node.js applications that can run seamlessly in WIndows, Mac OSx and Linux.",
+      "imageUrl": "./02b45313faa4ab91e86882b7c450f59635d1dd67ac04641a5385615aab5bdcd5.png",
+      "featured": true
+    },
+    {
+      "title": "Why we built CockroachDB on top of RocksDB",
+      "url": "https://cockroachlabs.com/blog/cockroachdb-on-rocksd",
+      "description": "CockroachDB uses RocksDB for its storage engine because of RocksDB's rich feature set, which is necessary for a complex product like a distributed SQL database.",
+      "imageUrl": "./477bc741ba448426f79df490a5336d0c29ab620ad50ad1c168c16dd619ddc968.jpg",
+      "featured": false
+    },
+    {
+      "title": "Who is @horse_js?",
+      "url": "https://whoishorsejs.com/",
+      "description": "A data science project to uncover the true identity of the notorious JavaScript parody account.",
+      "imageUrl": "./dad5cdac17a0852aea763ff810658e8ea470a67aafb91d3709dfdfa680547ffe.jpg",
+      "featured": false
+    },
+    {
+      "title": "What if we could verify npm packages?",
+      "url": "https://hackernoon.com/what-if-we-could-verify-npm-packages-c2a319cff758",
+      "description": "Reproducible steps for identifying unwanted and malicious code in your dependencies.",
+      "imageUrl": "./f97a8ee6a1b2e260adad2328c04cbad69861726867c4d52f5ef4d761e98ae961.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript iterator patterns",
+      "url": "https://loige.co/javascript-iterator-patterns",
+      "description": "In this article we will explore different ways to create iterators and iterable values in Javascript, specifically functions, iterators, iterables and generators.",
+      "imageUrl": "./e493ef286922f25ee69535e95345dc84692b55f074e403cd25a143cada56cc08.jpg",
+      "featured": false
+    },
+    {
+      "title": "Common API mistakes and how to avoid them",
+      "url": "https://blog.logrocket.com/common-api-mistakes-and-how-to-avoid-them-804fbcb9cc4b",
+      "description": "A collection of 8 common mistakes that you might do while building your next API in Node.js and how to avoid them.",
+      "imageUrl": "./87d23a804db66748bcaddbe2da2e4dfea6c9b78df3121384e6ab318a2813e461.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using Story Structure For Better Engagement",
+      "url": "https://medium.muz.li/once-upon-a-time-using-story-structure-for-better-engagement-971286a2cd3c",
+      "description": "From campfires to books to advertisements to film, stories have a power over us that no other human invention can wield. This article will explain you the basic principles to propose your narrative by using well know storytelling techniques. Warning: your next slides presentation or technical article might become more exciting!",
+      "imageUrl": "./1d09f36f9744e2a1a9fefbb3a99f381c37dec656194b04492929b751ce778b95.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Regular Expressions",
+    "author": "Jeffrey E. F. Friedl",
+    "description": "Regular expressions are an extremely powerful tool for manipulating text and data. They are now standard features in a wide range of languages and popular tools, including Perl, Python, Ruby, Java, VB.NET and C# (and any language using the .NET Framework), PHP, and MySQL.If you don't use regular expressions yet, you will discover in this book a whole new world of mastery over your data. If you already use them, you'll appreciate this book's unprecedented detail and breadth of coverage.",
+    "coverImageUrl": "./396d6f15a915700637c37f7d2fcde88b8839c4580fbc81d9acd6add805980fd3.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0596528124/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0596528124/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 155,
+  "title": "A Practical Overview Of CSS Houdini",
+  "slug": "2020-03-30-155-a-practical-overview-of-css-houdini",
+  "date": "2020-03-30",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #13, 2020",
+  "quote": {
+    "text": "We are stuck with technology when what we really want is just stuff that works",
+    "author": "Douglas Adams",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Douglas_Adams"
+  },
+  "links": [
+    {
+      "title": "A Practical Overview Of CSS Houdini",
+      "url": "https://smashingmagazine.com/2020/03/practical-overview-css-houdini",
+      "description": "In this article, we take a look at each part of Houdini, its current browser support, and see how they can be used today using progressive enhancement.",
+      "imageUrl": "./d86dee8cc4e9796292cc2a26012ec9203b886d855f541b28f3bfaa41a45ec24a.jpg",
+      "featured": true
+    },
+    {
+      "title": "Working remotely: the good, the bad, and the unexpected",
+      "url": "https://webflow.com/blog/working-remotely",
+      "description": "With the recent rise in working from home, this article shares some interesting insights about the challenges and solutions for remote work.",
+      "imageUrl": "./6d71f227d5a63fca73f3e6b8af2e639dd5a7896b29a14fc80893be5aa788a63d.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS: Flexible Repeating SVG Masks",
+      "url": "https://tylergaw.com/articles/css-repeating-svg-masks",
+      "description": "A CSS technique for using SVG as repeating masks. A simple trick that can unlock new opportunities for web design.",
+      "imageUrl": "./0ec4b86c740edf20bf686f352d06173d2c02860d0f6d375170f924191c37972c.jpg",
+      "featured": false
+    },
+    {
+      "title": "gqless: a query-less GraphQL client",
+      "url": "https://gqless.dev/",
+      "description": "A GraphQL client without queries. Yes, you got it right! This client will infer the GrapQL queries you need based on the data you are using in your components! 😱",
+      "imageUrl": "./362e7ac0d4faa40aae39e28f12af0f4a99553ee2ad2f9ab789e91196b8b1dd4a.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to Micro Frontend with React",
+      "url": "https://robinwieruch.de/react-micro-frontend",
+      "description": "Microfronteds are the new rage and this tutorial shows a practical example about how to create a micro frontend architecture for React with Webpack.",
+      "imageUrl": "./e69ce990e6004c39689399d6887056ab5710c2bd53cdc89730e76475d3f5f5d7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Javascript Proxies : Real World Use Cases",
+      "url": "https://arbazsiddiqui.me/javascript-proxies-real-world-use-cases",
+      "description": "You might have heard of JavaScript ES2015 Proxy. While it's a cool concept, it is actualy hard to find real use cases for it? Is it though? In this article you will discover some real and useful applications for Proxy programming in JavaScript.",
+      "imageUrl": "./5340b9198bc03a57c9ff176a3c9f1c1083a38e238cd47a46d992d4bad65fc41f.jpg",
+      "featured": false
+    },
+    {
+      "title": "AWS Lambda Destination Support",
+      "url": "https://serverless.com/blog/lambda-destinations",
+      "description": "The Serverless Framework now supports the recently released Lambda Event Destinations. In this article, you will see how this new feature can be leveraged to achieve higher serverless composability!",
+      "imageUrl": "./4f28da02399501dbfa9320088ffab9dd81585b007c0c5be01adf1f9bd83b81b2.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence",
+    "author": "Pramod J. Sadalage",
+    "description": "The need to handle increasingly larger data volumes is one factor driving the adoption of a new class of nonrelational “NoSQL” databases. Advocates of NoSQL databases claim they can be used to build systems that are more performant, scale better, and are easier to program.",
+    "coverImageUrl": "./96f077a648367bca955163aa3692e65c5704f3d7a7c6557690997e5ffeea975b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321826620/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321826620/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,100 @@
+{
+  "issueNumber": 422,
+  "title": "Supercharged and Ready: Node.js 24 is Here!",
+  "slug": "2025-05-12-403-supercharged-and-ready-node-js-24-is-here",
+  "date": "2025-05-12",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nI’ve been writing JavaScript for nearly two decades, and I’ve used all kinds of languages on the backend. When Node.js first came out, I remember thinking, *“This is it. I can finally write full-stack JavaScript applications.”* A dream come true.\n\nAlmost 15 years later, while there are still some practical differences between client-side and server-side JavaScript, one thing is certain: Node.js keeps improving with every release, and the whole JavaScript ecosystem continues to grow with it. That’s why I was especially excited last week to see the release of Node.js 24, another big milestone for the web platform.\n\nOf course, this newsletter doesn’t stop at Node. As always, I’ve curated a mix of articles, tools, and ideas that I found genuinely inspiring. Some are hands-on and practical, others are a bit more philosophical, but all of them reminded me why I love working in tech.\n\nIn a field where everything moves fast and we’re constantly catching up, the only way to thrive is to stay curious. If we don’t enjoy learning and experimenting, this can easily become one of the most frustrating jobs out there. So let’s keep it fun, and let’s keep learning together.\n\nIf you’ve discovered something interesting lately, [hit reply](mailto:luciano@fullstackbulletin.com?subject=Something%20cool%20I%20learned%20recently) and tell me about it. I always love hearing from readers.\n\nEnjoy this week’s picks,\n— Luciano",
+  "quote": {
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute“",
+    "author": "Gerald Jay Sussman",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Gerald_Jay_Sussman"
+  },
+  "links": [
+    {
+      "title": "Supercharged and Ready: Node.js 24 is Here",
+      "url": "https://nodejs.org/en/blog/release/v24.0.0",
+      "description": "I’m genuinely excited about this one. Node.js 24 just dropped, and it’s packed with features that make full-stack dev feel faster, smoother, safer, and more modern. First off, it brings the latest V8 engine, unlocking goodies like [**explicit resource management**](https://github.com/tc39/proposal-explicit-resource-management) with the new `using` keyword. Also, you can now use emojis in your regexes... Because of course you should be able to! But what really stands out is the new [**stable permission model**](https://nodejs.org/api/permissions.html). For now you can only control access to the filesystem, but I am sure this will be expanded to other system resources such as network access. That is a big win for security-minded developers. There are other nice quality-of-life improvements too, so it is worth checking out the full announcement. I cannot wait to see this version to land as a managed runtime in AWS Lambda too.",
+      "imageUrl": "./b3ce2046f73e81bb33c05f732acbbdc66621d5d53ba19723956793026f8be0e8.png",
+      "featured": true
+    },
+    {
+      "title": "Passkeys Explained Like You’re a Normal Human",
+      "url": "https://troyhunt.com/passkeys-for-normal-people",
+      "description": "I have so much appreciation for the work Troy Hunt does to make security not just understandable, but actually useful for real people. In this post, he demystifies passkeys by walking through how phishing attacks actually work. He shows how even with typical OTP two-factor authentication (those pesky six-digit codes we have to type), you are still vulnerable. Passkeys, on the other hand, would stop these attacks cold. Once you understand how passkeys work, wouldn’t it be fun to take the challenge and implement support for them in one of your projects? 😏",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What Do Garlic and Design Systems Have in Common? Bias!",
+      "url": "https://bencallahan.com/bias-in-design-systems",
+      "description": "This article talks about... garlic. Yes, you read that right. Garlic. But it doesn't stop there (thankfully). Garlic is used to introduce the concept of bias, in a surprisingly powerful way, and how it shows up in the design systems we build and maintain. The author dives into the invisible decisions baked into every component library. Things like spacing, color, typography, even the names we give components. Behind each of those choices is a team, and behind each team are assumptions that may or may not work for the next team using the system. It is a thoughtful read that will have you rethinking what it means to build \"neutral\" or \"flexible\" systems. And it might just make you hungry for better defaults (and maybe a little pasta).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Tiny Details That Make UI Animations Feel Great",
+      "url": "https://emilkowal.ski/ui/good-vs-great-animations",
+      "description": "This post is quick, but it hits hard. The author walks through subtle component-level animations. Not the flashy stuff you see on landing pages, but the tiny motions that happen when you open a popup, switch tabs, or expand a menu. These are the kinds of details that make a UI feel natural and pleasant to use, when done right. What’s amazing is how clearly the article makes this point. With just a few interactive widgets, it shows how small changes in easing, timing, and movement can turn a clunky interface into something that feels effortless. It is the kind of read that only takes a minute but will change how you think about every interaction in your app.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Goodbye Prettier and ESLint, Hello Biome",
+      "url": "https://blog.appsignal.com/2025/05/07/migrating-a-javascript-project-from-prettier-and-eslint-to-biomejs.html",
+      "description": "[Biome](https://biomejs.dev/) is becoming my default. I never liked having two tools (ESLint and Prettier) for linting and formatting. For a long time I tried to do everything with ESLint, but it never really felt great, and it was slow on big projects. Now Biome has changed the rules of the game, and seeing it grow rapidly in features and adoption makes me really happy. If you want to make the switch like I did, this article is a great starting point. The team at AppSignal walks through how they migrated a JavaScript project from Prettier and ESLint to Biome. They cover the reasoning behind the move, the migration steps, and how it felt to work with Biome day to day.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "When JavaScript Breaks the Web but It Might Be Actually Useful",
+      "url": "https://dbushell.com/2025/05/02/progressive-dehancement",
+      "description": "You know how we all say we’re building progressively enhanced websites? Turns out, a lot of us are unintentionally doing the opposite. This tongue-in-cheek post introduces the idea of progressive dehancement, where JavaScript ends up removing basic functionality instead of enhancing it. The author shares a clever real-world example involving his contact form. He set up two different behaviors: one for the basic version of the form and one for the enhanced, JavaScript-powered version. Since the enhanced version is mostly used by real humans, he uses that difference to help flag and categorize incoming messages. It is a smart trick with real benefits. It is a fun read with a serious takeaway. If you care about robustness, accessibility, or just not breaking the web for users with flaky scripts, this one is worth your time. And while you are there, take a look around the blog. There are some real gems tucked away.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Finally Understanding React Server Components (Thanks to Astro)",
+      "url": "https://overreacted.io/rsc-for-astro-developers",
+      "description": "If you ask me to explain the difference between React client components and server components, sorry but I will give you some half-assed vague answer. And I am sure I am not alone in that. Then ask me about the difference between Astro components and client islands and I promise you, I will ace that question (I love Astro, BTW). This is exactly the point of this article. And fun fact, it is written by one of the most influential folks in React-land: **Dan Abramov**. But more importantly, it is a genuinely great article that helped me fully grasp the concepts behind React Server Components by comparing them to something I already understood well. If you have been struggling to build a solid mental model for how RSCs work, this is the kind of read that will make things finally click. And if you want more, you should also check out [Functional HTML](https://overreacted.io/functional-html/) and [Static as a Server](https://overreacted.io/static-as-a-server/) from the same author.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "JavaScript for impatient programmers",
+    "author": "Dr. Axel Rauschmayer",
+    "description": "This book makes JavaScript less challenging to learn for newcomers, by offering a modern view that is as consistent as possible. Highlights:",
+    "coverImageUrl": "./67c53ec7d9f570f760b2ed64aecfa613b5162f44c336e6545272a53ad23a0c32.jpg",
+    "amazonUs": null,
+    "amazonUk": null
+  },
+  "additionalLinks": [
+    {
+      "title": "When You Might Need to Override the Defaults in TanStack Query",
+      "url": "https://kxlaa.com/articles/when-you-might-need-to-override-the-defaults-in-tanstack-query"
+    },
+    {
+      "title": "Understanding and implementing Base64",
+      "url": "https://sunshine2k.de/articles/coding/base64/understanding_base64.html"
+    },
+    {
+      "title": "Robust Data Fetching Architecture For Complex React/Next.js Apps",
+      "url": "https://trevorlasn.com/blog/fetching-data-for-complex-next-and-react-apps"
+    },
+    {
+      "title": "A command-line utility to explore and visualize all routes in your Next.js application",
+      "url": "https://github.com/pablolizardo/next-list"
+    },
+    {
+      "title": "Learn the Rust programming language in 1 FREE video (Course for beginners)",
+      "url": "https://youtube.com/watch?v=gAX3Zj-JGE0"
+    },
+    {
+      "title": "Is App Runner better than Fargate? (AWS Bites podcast)",
+      "url": "https://awsbites.com/143-is-app-runner-better-than-fargate"
+    }
+  ],
+  "sponsor": null
+}

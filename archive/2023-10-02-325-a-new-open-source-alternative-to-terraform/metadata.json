@@ -1,0 +1,104 @@
+{
+  "issueNumber": 340,
+  "title": "A New Open Source Alternative to Terraform",
+  "slug": "2023-10-02-325-a-new-open-source-alternative-to-terraform",
+  "date": "2023-10-02",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nWelcome to issue #340.\n\nOn a personal front, this week has been very busy. I have been traveling and speaking to Manchester first where [I talked about S3 pre-signed URLs](https://fth.link/sign-before) and then to the beautiful Desenzano (Lake Garda, northern Italy) where [I talked about JavaScript iteration protocols](https://loige.link/iter-garda). Now, I'm enjoying a spritz 🥃 on the like side as I edit this issue.\n\nIn this issue, we cover a variety of full stack-related topics, but we also cover some cloud stuff. Have you heard of **OpenTofu** already!? The name makes me laugh a little, but it's actually really serious and cool stuff if you do any infrastructure as code...\n\nI hope you'll enjoy it!",
+  "quote": {
+    "text": "Computer Science is no more about computers than astronomy is about telescopes“",
+    "author": "Richard E. Pattis",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Richard_E._Pattis"
+  },
+  "links": [
+    {
+      "title": "A New Open Source Alternative to Terraform",
+      "url": "https://linuxfoundation.org/press/announcing-opentofu",
+      "description": null,
+      "imageUrl": "./f3e37327de72cc59e761d40b2c31ce1834dfd1499fc80c83bd7ed5c75f85097d.png",
+      "featured": true
+    },
+    {
+      "title": "Bun hype. How we learned nothing from Yarn",
+      "url": "https://dev.to/thejaredwilcurt/bun-hype-how-we-learned-nothing-from-yarn-2n3j",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Responsive type scales with composable CSS utilities",
+      "url": "https://tobiasahlin.com/blog/responsive-fluid-css-type-scales",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How to write better Django code",
+      "url": "https://klemenstrajhar.substack.com/p/how-to-write-better-django-code",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "af/envalid: Environment variable validation for Node.js",
+      "url": "https://github.com/af/envalid",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Design System Ecosystem",
+      "url": "https://bradfrost.com/blog/post/the-design-system-ecosystem",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Speeding up the JavaScript ecosystem - Polyfills gone rogue",
+      "url": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-6",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Scraping with Python: Collecting Data from the Modern Web",
+    "author": "Ryan Mitchell",
+    "description": "Learn web scraping and crawling techniques to access unlimited data from any web source in any format. With this practical guide, you’ll learn how to use Python scripts and web APIs to gather and process data from thousands—or even millions—of web pages at once. Ideal for programmers, security professionals, and web administrators familiar with Python, this book not only teaches basic web scraping mechanics, but also delves into more advanced topics, such as analyzing raw data or using scrapers for frontend website testing.",
+    "coverImageUrl": "./3b1c651ba95d78b7e56b9d061b654489f967bb664b283d5be64ac9f029b88bec.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B00ZJNH0G0/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B00ZJNH0G0/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Mastering React Design Patterns: Creating a Tabs Component",
+      "url": "https://dev.to/josephciullo/mastering-react-design-patterns-creating-a-tabs-component-1lem"
+    },
+    {
+      "title": "Your Cache Headers Could Probably be More Aggressive",
+      "url": "https://macarthur.me/posts/more-aggressive-cache-headers"
+    },
+    {
+      "title": "The Path To Awesome CSS Easing With The linear() Function",
+      "url": "https://smashingmagazine.com/2023/09/path-css-easing-linear-function"
+    },
+    {
+      "title": "Token based authentication with Fastify, JWT, and Typescript",
+      "url": "https://thatarif.in/posts/token-based-authentication-with-fastify-jwt"
+    },
+    {
+      "title": "NODE_ENV Considered Harmful",
+      "url": "https://cjihrig.com/node_env_considered_harmful"
+    },
+    {
+      "title": "8 more micro tips for remarkably better typography",
+      "url": "https://betterwebtype.com/8-more-tips-for-remarkably-better-typography"
+    },
+    {
+      "title": "Why HTTP/3 is eating the world",
+      "url": "https://blog.apnic.net/2023/09/25/why-http-3-is-eating-the-world"
+    }
+  ],
+  "sponsor": null
+}

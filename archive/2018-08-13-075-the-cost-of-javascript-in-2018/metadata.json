@@ -1,0 +1,75 @@
+{
+  "issueNumber": 75,
+  "title": "The Cost Of JavaScript In 2018 💵 💷 💶",
+  "slug": "2018-08-13-075-the-cost-of-javascript-in-2018",
+  "date": "2018-08-13",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #32, 2018",
+  "quote": {
+    "text": "Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway",
+    "author": "Andrew S. Tanenbaum",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum"
+  },
+  "links": [
+    {
+      "title": "The Cost Of JavaScript In 2018",
+      "url": "https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4",
+      "description": "Building interactive sites can involve sending JavaScript to your users. Often, too much of it. Have you been on a mobile page that looked like it had loaded only to tap on a link or tried to scroll and *nothing* happens?",
+      "imageUrl": "./0dd0a881170ec5d534da828ffbc2e59cb82243a45e699a6c950f3e27f2157364.png",
+      "featured": true
+    },
+    {
+      "title": "How we scaled nginx and saved the world 54 years every day",
+      "url": "https://blog.cloudflare.com/how-we-scaled-nginx-and-saved-the-world-54-years-every-day",
+      "description": "10 million websites, apps and APIs use Cloudflare to give their users a speed boost. At peak we serve more than 10 million requests a second across our 151 data centers. Over the years we’ve made many modifications to our version of NGINX to handle our growth. This is blog post is about one of them.",
+      "imageUrl": "./c741d5e7297fe77f908319ea2e6cfa25351e277031bd403f2aa8cbe2ef65209a.jpg",
+      "featured": false
+    },
+    {
+      "title": "11 Ways (Not) to Get Hacked with Kubernetes",
+      "url": "https://kubernetes.io/blog/2018/07/18/11-ways-not-to-get-hacked",
+      "description": "Kubernetes security has come a long way since the project's inception, but still contains some gotchas. Starting with the control plane, building up through workload and network security, and finishing with a projection into the future of security, here is a list of handy tips to help harden your clusters and increase their resilience if compromised.",
+      "imageUrl": "./11c3e0f5b9ea4ab1067f0594250865fad8a9ce69f684a470b88b15867f6f7477.png",
+      "featured": false
+    },
+    {
+      "title": "We're under attack! 23 Node.js security best practices",
+      "url": "https://medium.com/@nodepractices/were-under-attack-23-node-js-security-best-practices-e33c146cb87d",
+      "description": "A curated list of 23 node security best practices with code examples and quotes from the top ranked blogs.",
+      "imageUrl": "./410e9e8794bef7fd928d3d27a27770f8a8d70e1498aff329dfefe462bfef600d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building a progressive web app (PWA): No React, no Angular, no Vue",
+      "url": "https://blog.logrocket.com/building-a-progressive-web-app-pwa-no-react-no-angular-no-vue-aefdded3b5e",
+      "description": "Just direct DOM manipulation with some more recent APIs and JS specs.",
+      "imageUrl": "./d1a029c71823ff0737e76b237100ce75f0b80a1ed4f9c36642d50b3fc6ab0412.jpg",
+      "featured": false
+    },
+    {
+      "title": "What Happens When You Create A Flexbox Flex Container?",
+      "url": "https://smashingmagazine.com/2018/08/flexbox-display-flex-container",
+      "description": "In this article, the beginning of a series on Flexbox, we will take a detailed look at what actually happens when you add `display: flex` to your stylesheet.",
+      "imageUrl": "./71a6c7b418131761def3bcf52d0d26d807cb9802bde0758e0af90293934fa995.png",
+      "featured": false
+    },
+    {
+      "title": "CSS Scan - Instantly check or copy computed CSS from any element on the internet",
+      "url": "https://guivr.github.io/cssscan/?ref=fb",
+      "description": "Inspect Element on steroids: study how things are made on the web in real-time and copy computed styles with no hassle (neither longhand styles).",
+      "imageUrl": "./430af2c244947b71e2dd51e0cfd6242c90c761a392cb2aa27fe092d6d0531601.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices",
+    "author": "Viktor Farcic",
+    "description": "This book is about different techniques that help us architect software in a better and more efficient way with microservices packed as immutable containers, tested and deployed continuously to servers that are automatically provisioned with configuration management tools. It's about fast, reliable and continuous deployments with zero-downtime and ability to roll-back. It's about scaling to any number of servers, design of self-healing systems capable of recuperation from both hardware and software failures and about centralized logging and monitoring of the cluster.",
+    "coverImageUrl": "./541c1dd09cac26ae06429687c2601da19e8cb4c7894063854cb3ae1c65eb6db9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/152391744X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/152391744X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,1294 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en"
+      >
+    <head>
+        
+        
+
+
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Language" content="en">
+<meta name="google" content="notranslate" />
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+<meta name="generator" content="Buttondown" />
+<link rel="webmention" href="https://buttondown.com/webmentions/register">
+
+    <meta name="theme-color" content="#06b6d4" />
+    
+
+
+    <link rel="shortcut icon" href="54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+    <link rel="apple-touch-icon" href="54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+        
+    
+
+
+
+
+    <title>🤓 FullstackBulletin issue 7: React and D3 together • Buttondown</title>
+
+
+    
+<meta name="description" content="The Web 3.0, 	JS for the Web, Remoteur, 	Rekit Studio, JS Testing in 2018, 	Eloquent JavaScript, Big Data" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+<meta name="twitter:site" content="@buttondown" />
+<meta name="twitter:title" content="🤓 FullstackBulletin issue 7: React and D3 together" />
+<meta name="twitter:description" content="The Web 3.0, 	JS for the Web, Remoteur, 	Rekit Studio, JS Testing in 2018, 	Eloquent JavaScript, Big Data" />
+
+    
+        <link rel="alternate"
+              type="application/rss+xml"
+              title="RSS Feed for 🤓 FullstackBulletin issue 7: React and D3 together"
+              href="/fullstackbulletin/rss" />
+    
+
+<link rel="me" href="https://fullstackbulletin.com" />
+
+    <link rel="sitemap"
+          type="application/xml"
+          title="Sitemap"
+          href="/fullstackbulletin/sitemap.xml" />
+
+<meta property="og:title" content="🤓 FullstackBulletin issue 7: React and D3 together" />
+<meta property="og:description" content="The Web 3.0, 	JS for the Web, Remoteur, 	Rekit Studio, JS Testing in 2018, 	Eloquent JavaScript, Big Data" />
+<meta property="og:type" content="website" />
+
+    <meta name="twitter:image" content="2754c50a-ae84-4434-8b29-7e2e9caba8ec.png" />
+    <meta property="og:image" content="2754c50a-ae84-4434-8b29-7e2e9caba8ec.png" />
+
+
+    
+    <meta property="og:url" content="https://buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-7-react-and-d3-together/" />
+    <link rel="alternate"
+          type="application/json+oembed"
+          href="https://buttondown.com/embed?url=https://buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-7-react-and-d3-together/"
+          title="🤓 FullstackBulletin issue 7: React and D3 together / oEmbed" />
+
+<link rel="canonical" href="https://buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-7-react-and-d3-together/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "url": "https://buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-7-react-and-d3-together/", "mainEntityOfPage": "https://buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-7-react-and-d3-together/", "headline": "\ud83e\udd13 FullstackBulletin issue 7: React and D3 together", "description": "The Web 3.0,\u00a0\tJS for the Web,\u00a0Remoteur,\u00a0\tRekit Studio, JS Testing in 2018,\u00a0\tEloquent JavaScript,\u00a0Big Data", "image": [], "datePublished": "2018-02-19T17:00:00+00:00", "dateModified": "2025-08-16T15:51:36.458415+00:00", "isAccessibleForFree": true, "author": [{"@type": "Person", "name": "FullStack Bulletin", "url": "https://buttondown.com/fullstackbulletin", "identifier": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": {"@type": "ImageObject", "contentUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "thumbnailUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png"}}], "publisher": {"@type": "Organization", "name": "FullStack Bulletin", "url": "https://buttondown.com/fullstackbulletin", "description": "FullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.", "identifier": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": {"@type": "ImageObject", "contentUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "thumbnailUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png"}}}</script>
+
+
+        
+        
+        <script type="module" crossorigin="" src="https://static-assets.buttondown.com/subscriber_facing_fonts-DU3ilTNG.js"></script>
+<link href="https://static-assets.buttondown.com/preload-helper-HIQHktoD.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/_sentry-release-injection-file-DRmiww3Y.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+        
+        
+            <link rel="stylesheet" href="https://static-assets.buttondown.com/subscriber_facing_modern_css-CaffE7Di.css">
+        
+        
+        <style>
+            :root {
+                --tint-color: #06b6d4;
+                
+                    
+                
+            }
+        </style>
+        
+            <script nonce="R6CZ3zRoWqKXy0m2Ac3h3Q">
+                var VARIANT = "archive_page";
+                
+                
+            </script>
+        
+        
+            <style>article img {
+  max-width: 100%;
+}</style>
+        
+    </head>
+    <body class="route--email">
+        
+
+
+
+        <div class="app-container">
+            <div class="header-navigation-container">
+                <div class="header-navigation">
+                    
+                        <img class="header-brand-icon"
+                             src="54ba1d29-fdc4-4e32-9470-dd844c9be037.png"
+                             alt="FullStack Bulletin logo"
+                             width="24"
+                             height="24" />
+                    
+                    <div class="header-navigation-content">
+                        <h1>
+                            <a class="header-brand" href="https://buttondown.com/fullstackbulletin">
+                                <span class="header-brand-name">FullStack Bulletin</span>
+                            </a>
+                        </h1>
+                        <button class="header-navigation-toggle"
+                                type="button"
+                                aria-label="Toggle navigation menu"
+                                aria-expanded="false">
+                            <svg class="header-navigation-toggle-icon"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <line x1="3" y1="6" x2="21" y2="6"></line>
+    <line x1="3" y1="12" x2="21" y2="12"></line>
+    <line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+                            <svg class="header-navigation-toggle-icon header-navigation-toggle-icon--close"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line>
+    <line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+                        </button>
+                        <div class="header-navigation-overlay" aria-hidden="true"></div>
+                        <nav class="header-navigation-nav" aria-expanded="false">
+                            <div class="header-navigation-nav-handle"></div>
+                            
+                                <a class="header-navigation-link"
+                                   href="/fullstackbulletin/archive/">
+                                    <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" data-slot="icon" class="w-4 h-4">
+    <path d="M7.25 3.688a8.035 8.035 0 0 0-4.872-.523A.48.48 0 0 0 2 3.64v7.994c0 .345.342.588.679.512a6.02 6.02 0 0 1 4.571.81V3.688ZM8.75 12.956a6.02 6.02 0 0 1 4.571-.81c.337.075.679-.167.679-.512V3.64a.48.48 0 0 0-.378-.475 8.034 8.034 0 0 0-4.872.523v9.268Z" />
+</svg>
+
+                                    <div>Archives</div>
+                                </a>
+                            
+                            
+                            
+                            
+                            
+                                <button class="header-navigation-link archive-search-trigger"
+                                        type="button"
+                                        aria-label="Search...">
+                                    <svg width="16"
+     height="16"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="1.5"
+     xmlns="http://www.w3.org/2000/svg">
+    <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+    <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+</svg>
+
+                                    <div>Search...</div>
+                                </button>
+                            
+                            
+                            
+                                <button class="header-navigation-link header-navigation-link--subscribe subscribe-modal-trigger"
+                                        type="button">
+                                    <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" data-slot="icon" class="w-4 h-4">
+    <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+    <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+</svg>
+
+                                    <div>Subscribe</div>
+                                </button>
+                            
+                            
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+    
+
+
+    <div class="email-body-container">
+        <article class="email-body">
+            
+                
+
+
+    <date>
+    
+        February 19, 2018
+    
+    </date>
+
+<h1 class="subject">🤓 FullstackBulletin issue 7: React and D3 together</h1>
+<h2 class="description">The Web 3.0, 	JS for the Web, Remoteur, 	Rekit Studio, JS Testing in 2018, 	Eloquent JavaScript, Big Data</h2>
+
+                
+
+
+<div class="email-body-content ">
+    
+        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;margin: 0 auto !important;padding: 0 !important;height: 100% !important;width: 100% !important;" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<head style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><meta content="https://gallery.mailchimp.com/b015626aa6028495fe77c75ea/images/d29453f3-9f86-4614-8c9d-9cf64dba59f0.png" name="twitter:image:src"/><meta content="React and D3 together, The Web 3.0, JS for the Web, Remoteur, Rekit Studio, JS Testing in 2018,  Eloquent JavaScript, Big Data." name="twitter:description"/><meta content="Fullstack Bulletin: Best 7 links of week #7, 2018" name="twitter:title"/><meta content="summary_large_image" name="twitter:card"/><meta content="article" property="og:type"/><meta content="React and D3 together, The Web 3.0, JS for the Web, Remoteur, Rekit Studio, JS Testing in 2018,  Eloquent JavaScript, Big Data." property="og:description"/><meta content="https://gallery.mailchimp.com/b015626aa6028495fe77c75ea/images/d29453f3-9f86-4614-8c9d-9cf64dba59f0.png" property="og:image"/><meta content="Fullstack Bulletin: Best 7 links of week #7, 2018" property="og:title"/><meta content="http://eepurl.com/dk9WYX" property="og:url"/>
+<meta charset="utf-8" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<!-- utf-8 works for most cases -->
+<meta content="width=device-width" name="viewport" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<!-- Forcing initial-scale shouldn't be necessary -->
+<meta content="IE=edge" http-equiv="x-ua-compatible" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<!-- Use the latest (edge) version of IE rendering engine -->
+<meta name="x-apple-disable-message-reformatting" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<!-- Disable auto-scale in iOS 10 Mail entirely -->
+<title style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Fullstack bulletin: 
+    </title>
+<!-- The title tag shows in email notifications, like Android 4.4. -->
+<!-- Web Font / @font-face : BEGIN -->
+<!-- NOTE: If web fonts are not required, lines 10 - 27 can be safely removed. -->
+<!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
+<!--[if mso]>
+    <style>
+      * {
+      font-family:sans-serif !important;
+      }
+    </style>
+    <![endif]-->
+<!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
+<!--[if !mso]><!-->
+<!-- insert web font reference, eg: <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css"> -->
+<!--<![endif]-->
+<!-- Web Font / @font-face : END -->
+<!-- CSS Reset -->
+<!-- Progressive Enhancements -->
+<style style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" type="text/css">
+		html,body{
+			margin:0 auto !important;
+			padding:0 !important;
+			height:100% !important;
+			width:100% !important;
+		}
+		*{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		a{
+			color:#222222;
+		}
+		div[style*=margin: 16px 0]{
+			margin:0 !important;
+		}
+		table,td{
+			mso-table-lspace:0 !important;
+			mso-table-rspace:0 !important;
+		}
+		table{
+			border-spacing:0 !important;
+			border-collapse:collapse !important;
+			table-layout:fixed !important;
+			margin:0 auto !important;
+		}
+		table table table{
+			table-layout:auto;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+		}
+		.x-gmail-data-detectors,.x-gmail-data-detectors *,.aBn{
+			border-bottom:0 !important;
+			cursor:default !important;
+		}
+		.a6S{
+			display:none !important;
+			opacity:.01 !important;
+		}
+		img.g-img+div{
+			display:none !important;
+		}
+		.button-link{
+			text-decoration:none !important;
+		}
+		.buy-buttons{
+			margin:1em 0 0;
+		}
+		.book-description{
+			padding:0 1em 0 0;
+			text-align:justify;
+		}
+		.buy-buttons a{
+			display:inline-block;
+			padding:.5em;
+			margin:0 0 1em;
+			background:#ffa500;
+			border-radius:6px;
+			color:#000;
+			text-decoration:none;
+		}
+		.buy-buttons a:hover{
+			background:#f88700;
+		}
+	@media only screen and (min-device-width: 375px) and (max-device-width: 413px){
+		.email-container{
+			min-width:375px !important;
+		}
+
+}		.button-td,.button-a{
+			transition:all 100ms ease-in;
+		}
+		.button-td:hover,.button-a:hover{
+			background:#555555 !important;
+			border-color:#555555 !important;
+		}
+	@media screen and (max-width: 600px){
+		.email-container{
+			width:100% !important;
+			margin:auto !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.fluid{
+			max-width:100% !important;
+			height:auto !important;
+			margin-left:auto !important;
+			margin-right:auto !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.stack-column,.stack-column-center{
+			display:block !important;
+			width:100% !important;
+			max-width:100% !important;
+			direction:ltr !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.stack-column-center{
+			text-align:center !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.center-on-narrow{
+			text-align:center !important;
+			display:block !important;
+			margin-left:auto !important;
+			margin-right:auto !important;
+			float:none !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		table.center-on-narrow{
+			display:inline-block !important;
+		}
+
+}</style></head>
+<body bgcolor="#ffd300" style="margin: 0 auto !important;mso-line-height-rule: exactly;border-top: 8px solid #ffd300;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding: 0 !important;height: 100% !important;width: 100% !important;" width="100%"><div itemscope="" itemtype="http://schema.org/EmailMessage"><div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization"><meta content="" itemprop="name"/><link content="*|LIST:URL|*" itemprop="url"/></div><div itemprop="about" itemscope="" itemtype="http://schema.org/Offer"><link href="https://gallery.mailchimp.com/b015626aa6028495fe77c75ea/images/d29453f3-9f86-4614-8c9d-9cf64dba59f0.png" itemprop="image"/></div></div>
+<center style="width: 100%;background: #ffffff;text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="email-container" style="margin: auto;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;" width="600">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="padding-top: 20px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<!--[if mso]>
+            <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+              <tr>
+                <![endif]-->
+<!--[if mso]>
+            <td valign="top" width="390" style="width:390px;">
+              <![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 390px;border-collapse: collapse;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;table-layout: fixed !important;margin: 0 auto !important;" width="100%">
+<tbody style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="padding-top: 0;padding-left: 18px;padding-bottom: 9px;padding-right: 18px;color: #656565;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">React and D3 together</span>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+          </td>
+          <![endif]-->
+<!--[if mso]>
+            <td valign="top" width="210" style="width:210px;">
+              <![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 210px;border-collapse: collapse;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;table-layout: fixed !important;margin: 0 auto !important;" width="100%">
+<tbody style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="padding-top: 0;padding-left: 18px;padding-bottom: 9px;padding-right: 18px;color: #656565;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<a href="" style="color: #656565;font-weight: normal;text-decoration: underline;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank">
+                      View this email in your browser
+                    </a>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+          </td>
+          <![endif]-->
+<!--[if mso]>
+          </tr>
+        </table>
+        <![endif]-->
+</td>
+</tr>
+</table>
+<!-- Email Header : BEGIN -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="email-container" style="margin: auto;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;" width="600">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="padding: 40px 20px;text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<img alt="alt_text" border="0" height sizes src="2754c50a-ae84-4434-8b29-7e2e9caba8ec.png" srcset style width/>
+</td>
+</tr>
+</table>
+<!-- Email Header : END -->
+<!-- Email Body : BEGIN -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="email-container" style="margin: auto;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;" width="600">
+<!-- Background Image with Text : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<!-- Bulletproof Background Images c/o https://backgrounds.cm -->
+<td bgcolor="#fee775" style="text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<!--[if gte mso 9]>
+            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:135px;">
+              <v:textbox>
+                <![endif]-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="text-align: center;padding: 20px 15px 0;font-family: sans-serif;font-size: 15px;line-height: 20px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+                  "<em style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Technology is a word that describes something that doesn’t work yet</span></em>"
+                </td>
+</tr>
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="padding: 10px 15px 20px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+                  — 
+                  <strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://en.wikipedia.org/wiki/Douglas_Adams" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank">Douglas Adams</a></span></strong>,
+                    <span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Author</span>
+</td>
+</tr>
+</table>
+<!--[if gte mso 9]>
+            </v:textbox>
+          </v:rect>
+          <![endif]-->
+</td>
+</tr>
+<!-- Background Image with Text : END -->
+<!-- Email Share : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="display: block;margin: 0;padding: 20px 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<table style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" style="padding-left: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle" width="24">
+<a href="http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank">
+<img alt="outline-dark-facebook-48.png" height sizes src="outline-dark-facebook-48.png" srcset style width/></a>
+</td>
+<td align="left" style="padding-left: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<a href="http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">Share</a>
+</td>
+<td align="center" style="padding-left: 8px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle" width="24">
+<a href="http://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*:%20*|URL:ARCHIVE_LINK_SHORT|*" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank">
+<img alt="outline-dark-twitter-48.png" height sizes src="outline-dark-twitter-48.png" srcset style width/></a>
+</td>
+<td align="left" style="padding-left: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<a href="http://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*:%20*|URL:ARCHIVE_LINK_SHORT|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank">Tweet</a>
+</td>
+<td align="center" style="padding-left: 8px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle" width="24">
+<a href="http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><img alt="outline-dark-linkedin-48.png" height sizes src="outline-dark-linkedin-48.png" srcset style width/></a>
+</td>
+<td align="left" style="padding-left: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<a href="http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank">Share</a>
+</td>
+<td align="center" style="padding-left: 8px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle" width="24">
+<a href="*|FORWARD|*" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><img alt="outline-dark-forwardtofriend-48.png" height sizes src="outline-dark-forwardtofriend-48.png" srcset style width/></a>
+</td>
+<td align="left" style="padding-left: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<a href="*|FORWARD|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">Forward</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Email Share : END -->
+<!-- Newsletter Title: START -->
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;" width="100%">
+<tbody style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<h1 style="text-align: center;display: block;margin: 0;padding: 40px 0 0;font-size: 26px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Best 7 links of week #7, 2018</span>
+</h1>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Newsletter Title: END -->
+<!-- Thumbnail Left, Text Right : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" bgcolor="#ffffff" dir="ltr" style="padding: 20px 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top" width="100%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="33%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td dir="ltr" style="padding: 0 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://www.youtube.com/watch?v=SVbTTUpCLfo&amp;utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=image" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;"><img alt="https://www.youtube.com/watch?vfh5_jdR-kBg" class="mcnImage" data-file-id="816339" height sizes src="f3a4f99f-2ecd-4642-9dc5-048341023dd7.jpg" srcset style width/></a></span>
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="66%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="center-on-narrow" dir="ltr" style="font-family: sans-serif;font-size: 15px;line-height: 20px;color: #555555;padding: 10px;text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<h2 style="color: #111111;font-size: 20px;margin: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://www.youtube.com/watch?v=SVbTTUpCLfo&amp;utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=title" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank">React and D3 together</a></span></strong>
+</h2>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<div style="text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">D3 and React, who should control the DOM? In this amazing talk from ReactiveConf 2017, you will learn when React should have ownership of the DOM, and when D3 should instead.</div>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<!-- Button : Begin -->
+<table border="0" cellpadding="0" cellspacing="0" class="center-on-narrow" style="float: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="button-td" style="border-radius: 3px;background: #222222;text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a class="button-a" href="https://www.youtube.com/watch?v=SVbTTUpCLfo&amp;utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=description" style="background: #222222;border: 15px solid #222222;font-family: sans-serif;font-size: 13px;line-height: 1.1;text-align: center;text-decoration: none;display: block;border-radius: 3px;font-weight: bold;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><span class="button-link" style="color: #ffffff;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: none !important;">    Watch video    </span> </a></span>
+</td>
+</tr>
+</table>
+<!-- Button : END -->
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+</tr>
+</table>
+</td>
+</tr>
+<!-- Thumbnail Left, Text Right : END -->
+<!-- Thumbnail Left, Text Right : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" bgcolor="#ffffff" dir="ltr" style="padding: 20px 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top" width="100%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="33%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td dir="ltr" style="padding: 0 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://medium.com/@matteozago/why-the-web-3-0-matters-and-you-should-know-about-it-a5851d63c949?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=image" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><img alt="Why the Web 3.0 Matters and you should know about it" class="mcnImage" height sizes src="bcbfbbbb3e2c4fd83eb25e19900af522.jpg" srcset style width/></a></span>
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="66%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="center-on-narrow" dir="ltr" style="font-family: sans-serif;font-size: 15px;line-height: 20px;color: #555555;padding: 10px;text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<h2 style="color: #111111;font-size: 20px;margin: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://medium.com/@matteozago/why-the-web-3-0-matters-and-you-should-know-about-it-a5851d63c949?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=title" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank">The Web 3.0</a></span></strong>
+</h2>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<div style="text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">What is the Web 3.0 and why it matters? This article illustrates what the future web should be and why we should start to plan for it and take advantages from new tech on the web.</div>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<!-- Button : Begin -->
+<table border="0" cellpadding="0" cellspacing="0" class="center-on-narrow" style="float: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="button-td" style="border-radius: 3px;background: #222222;text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<a class="button-a" href="https://medium.com/@matteozago/why-the-web-3-0-matters-and-you-should-know-about-it-a5851d63c949?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=description" style="background: #222222;border: 15px solid #222222;font-family: sans-serif;font-size: 13px;line-height: 1.1;text-align: center;text-decoration: none;display: block;border-radius: 3px;font-weight: bold;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;">
+<span class="button-link" style="color: #ffffff;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: none !important;">    Read article    </span>
+</a>
+</span>
+</td>
+</tr>
+</table>
+<!-- Button : END -->
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+</tr>
+</table>
+</td>
+</tr>
+<!-- Thumbnail Left, Text Right : END -->
+<!-- Thumbnail Left, Text Right : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" bgcolor="#ffffff" dir="ltr" style="padding: 20px 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top" width="100%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="33%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td dir="ltr" style="padding: 0 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://sabe.io/classes/javascript?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=image" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><img alt="JavaScript for the Web - Sabe.io" class="mcnImage" height sizes src="162d6fcfbf36875de6779f77ed9699ec.jpg" srcset style width/></a></span>
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="66%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="center-on-narrow" dir="ltr" style="font-family: sans-serif;font-size: 15px;line-height: 20px;color: #555555;padding: 10px;text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<h2 style="color: #111111;font-size: 20px;margin: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://sabe.io/classes/javascript?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=title" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank">JavaScript for the Web</a></span></strong>
+</h2>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<div style="text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">An amazing and FREE class for beginners to learn how to work with DOM elements, make AJAX calls, work with cookies, and much more!</div>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<!-- Button : Begin -->
+<table border="0" cellpadding="0" cellspacing="0" class="center-on-narrow" style="float: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="button-td" style="border-radius: 3px;background: #222222;text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<a class="button-a" href="https://sabe.io/classes/javascript?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=description" style="background: #222222;border: 15px solid #222222;font-family: sans-serif;font-size: 13px;line-height: 1.1;text-align: center;text-decoration: none;display: block;border-radius: 3px;font-weight: bold;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;">
+<span class="button-link" style="color: #ffffff;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: none !important;">    Read article    </span>
+</a>
+</span>
+</td>
+</tr>
+</table>
+<!-- Button : END -->
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+</tr>
+</table>
+</td>
+</tr>
+<!-- Thumbnail Left, Text Right : END -->
+<!-- Thumbnail Left, Text Right : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" bgcolor="#ffffff" dir="ltr" style="padding: 20px 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top" width="100%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="33%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td dir="ltr" style="padding: 0 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="http://www.remoteur.com/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=image" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;"><img alt="Sabe - Supercharged Web Development" class="mcnImage" data-file-id="816347" height sizes src="129b935f-a7ee-4cef-bfbb-babeba12c3a7.png" srcset style width/></a></span>
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="66%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="center-on-narrow" dir="ltr" style="font-family: sans-serif;font-size: 15px;line-height: 20px;color: #555555;padding: 10px;text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<h2 style="color: #111111;font-size: 20px;margin: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="http://www.remoteur.com/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=title" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank">Remoteur</a></span></strong>
+</h2>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<div style="text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><div style="text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="color: #DAA520;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="font-size: 12px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">⭐️SPONSORED</strong></span></span></div>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+A fantastic newsletter dedicated to Remote jobs in Europe delivered to your inbox bi-weekly.</div>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<!-- Button : Begin -->
+<table border="0" cellpadding="0" cellspacing="0" class="center-on-narrow" style="float: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="button-td" style="border-radius: 3px;background: #222222;text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a class="button-a" href="http://www.remoteur.com/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=description" style="background: #222222;border: 15px solid #222222;font-family: sans-serif;font-size: 13px;line-height: 1.1;text-align: center;text-decoration: none;display: block;border-radius: 3px;font-weight: bold;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><span class="button-link" style="color: #ffffff;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: none !important;">    Subscribe    </span> </a></span>
+</td>
+</tr>
+</table>
+<!-- Button : END -->
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+</tr>
+</table>
+</td>
+</tr>
+<!-- Thumbnail Left, Text Right : END -->
+<!-- Thumbnail Left, Text Right : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" bgcolor="#ffffff" dir="ltr" style="padding: 20px 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top" width="100%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="33%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td dir="ltr" style="padding: 0 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://medium.freecodecamp.org/introducing-rekit-studio-a-real-ide-for-react-and-redux-development-baf0c99cb542?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=image" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><img alt="Introducing Rekit Studio: a real IDE for React and Redux development" class="mcnImage" height sizes src="ec17dd574ed3219099ae74c81d9db447.jpg" srcset style width/></a></span>
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="66%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="center-on-narrow" dir="ltr" style="font-family: sans-serif;font-size: 15px;line-height: 20px;color: #555555;padding: 10px;text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<h2 style="color: #111111;font-size: 20px;margin: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://medium.freecodecamp.org/introducing-rekit-studio-a-real-ide-for-react-and-redux-development-baf0c99cb542?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=title" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank">Rekit Studio</a></span></strong>
+</h2>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<div style="text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Introducing Rekit Studio, a complete IDE for React, Redux and React Router development!</div>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<!-- Button : Begin -->
+<table border="0" cellpadding="0" cellspacing="0" class="center-on-narrow" style="float: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="button-td" style="border-radius: 3px;background: #222222;text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<a class="button-a" href="https://medium.freecodecamp.org/introducing-rekit-studio-a-real-ide-for-react-and-redux-development-baf0c99cb542?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=description" style="background: #222222;border: 15px solid #222222;font-family: sans-serif;font-size: 13px;line-height: 1.1;text-align: center;text-decoration: none;display: block;border-radius: 3px;font-weight: bold;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;">
+<span class="button-link" style="color: #ffffff;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: none !important;">    Read article    </span>
+</a>
+</span>
+</td>
+</tr>
+</table>
+<!-- Button : END -->
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+</tr>
+</table>
+</td>
+</tr>
+<!-- Thumbnail Left, Text Right : END -->
+<!-- Thumbnail Left, Text Right : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" bgcolor="#ffffff" dir="ltr" style="padding: 20px 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top" width="100%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="33%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td dir="ltr" style="padding: 0 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=image" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><img alt="An Overview of JavaScript Testing in 2018 – welldone-software – Medium" class="mcnImage" height sizes src="b61377700cc2633072bc61062131f5dd.jpg" srcset style width/></a></span>
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="66%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="center-on-narrow" dir="ltr" style="font-family: sans-serif;font-size: 15px;line-height: 20px;color: #555555;padding: 10px;text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<h2 style="color: #111111;font-size: 20px;margin: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=title" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank">JavaScript Testing in 2018</a></span></strong>
+</h2>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<div style="text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">This guide is intended to catch you up with the most important reasoning, terms, tools, and approaches to JavaScript testing in 2018.</div>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<!-- Button : Begin -->
+<table border="0" cellpadding="0" cellspacing="0" class="center-on-narrow" style="float: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="button-td" style="border-radius: 3px;background: #222222;text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<a class="button-a" href="https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=description" style="background: #222222;border: 15px solid #222222;font-family: sans-serif;font-size: 13px;line-height: 1.1;text-align: center;text-decoration: none;display: block;border-radius: 3px;font-weight: bold;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;">
+<span class="button-link" style="color: #ffffff;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: none !important;">    Read article    </span>
+</a>
+</span>
+</td>
+</tr>
+</table>
+<!-- Button : END -->
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+</tr>
+</table>
+</td>
+</tr>
+<!-- Thumbnail Left, Text Right : END -->
+<!-- Thumbnail Left, Text Right : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" bgcolor="#ffffff" dir="ltr" style="padding: 20px 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top" width="100%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="33%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td dir="ltr" style="padding: 0 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://eloquentjavascript.net/3rd_edition?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=image" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;"><img alt="Eloquent JavaScript" class="mcnImage" data-file-id="816359" height sizes src="3fb9328a-1b17-4352-a161-03cedccac432.jpg" srcset style width/></a></span>
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+<!-- Column : BEGIN -->
+<td class="stack-column-center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" width="66%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="center-on-narrow" dir="ltr" style="font-family: sans-serif;font-size: 15px;line-height: 20px;color: #555555;padding: 10px;text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<h2 style="color: #111111;font-size: 20px;margin: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://eloquentjavascript.net/3rd_edition?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=title" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank">Eloquent JavaScript, 3rd ed.</a></span></strong>
+</h2>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<div style="text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">This is one of the best books about JavaScript, programming, and the wonders of the digital. You can read the new edition online for FREE or get your own paperback copy to support the amazing work of Marijn Haverbeke.</div>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<!-- Button : Begin -->
+<table border="0" cellpadding="0" cellspacing="0" class="center-on-narrow" style="float: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;margin: 0 auto !important;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="button-td" style="border-radius: 3px;background: #222222;text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a class="button-a" href="https://eloquentjavascript.net/3rd_edition?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-7-2018&amp;utm_content=description" style="background: #222222;border: 15px solid #222222;font-family: sans-serif;font-size: 13px;line-height: 1.1;text-align: center;text-decoration: none;display: block;border-radius: 3px;font-weight: bold;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;"><span class="button-link" style="color: #ffffff;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-decoration: none !important;">    Read online    </span> </a></span>
+</td>
+</tr>
+</table>
+<!-- Button : END -->
+</td>
+</tr>
+</table>
+</td>
+<!-- Column : END -->
+</tr>
+</table>
+</td>
+</tr>
+<!-- Thumbnail Left, Text Right : END -->
+<!-- Clear Spacer : BEGIN -->
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td height="40" style="font-size: 0;line-height: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+                                 
+                              </td>
+</tr>
+<!-- Clear Spacer : END -->
+</table>
+<!-- Email Body : END -->
+<!-- Book: START -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="email-container" style="margin: auto;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;" width="600">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<!-- Bulletproof Background Images c/o https://backgrounds.cm -->
+<td bgcolor="#fee775" style="text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<!--[if gte mso 9]>
+                                <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:135px;">
+                                  <v:textbox>
+                                    <![endif]-->
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;" width="100%">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="padding: 30px 15px 15px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<h2 style="display: block;margin: 0;color: #202020;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: center;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Book of the week</span>
+</h2>
+</td>
+</tr>
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="padding: 15px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://www.amazon.com/dp/1617290343/?tag=fullstackbulletin-20" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><img alt="book cover" class="mcnImage" height sizes src="51Bd93AGuOL.jpg" srcset style width/></a></span>
+</td>
+</tr>
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="padding: 15px;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Big Data: Principles and best practices of scalable realtime data systems</span></strong>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+                                        by <em style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Nathan Marz</span></em>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"/>
+<div class="book-description" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;padding: 0 1em 0 0;text-align: justify;">Big Data teaches you to build big data systems using an architecture that takes advantage of clustered hardware along with new tools designed specifically to capture and analyze web-scale data. It describes a scalable, easy-to-understand approach to big data systems that can be built and run by a small team.</div>
+<div class="buy-buttons" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;margin: 1em 0 0;">
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://www.amazon.com/dp/1617290343/?tag=fullstackbulletin-20" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000;display: inline-block;padding: .5em;margin: 0 0 1em;background: #ffa500;border-radius: 6px;text-decoration: none;" target="_blank">Buy on Amazon.com</a></span>
+<span style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><a href="https://www.amazon.co.uk/dp/1617290343/?tag=fullstackbulletin-21" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000;display: inline-block;padding: .5em;margin: 0 0 1em;background: #ffa500;border-radius: 6px;text-decoration: none;" target="_blank">Buy on Amazon.co.uk</a></span>
+</div>
+</td>
+</tr>
+</table>
+<!--[if gte mso 9]>
+                                </v:textbox>
+                              </v:rect>
+                              <![endif]-->
+</td>
+</tr>
+</table>
+<!-- Book: END -->
+<!-- Email Share : BEGIN -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="email-container" style="margin: auto;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;" width="600">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td style="display: block;margin: 0;padding: 20px 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;">
+<table style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;">
+<tbody style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" style="padding-left: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle" width="24">
+<a href="http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank">
+<img alt="outline-dark-facebook-48.png" height sizes src="outline-dark-facebook-48.png" srcset style width/></a>
+</td>
+<td align="left" style="padding-left: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<a href="http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">Share</a>
+</td>
+<td align="center" style="padding-left: 8px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle" width="24">
+<a href="http://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*:%20*|URL:ARCHIVE_LINK_SHORT|*" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank">
+<img alt="outline-dark-twitter-48.png" height sizes src="outline-dark-twitter-48.png" srcset style width/></a>
+</td>
+<td align="left" style="padding-left: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<a href="http://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*:%20*|URL:ARCHIVE_LINK_SHORT|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank">Tweet</a>
+</td>
+<td align="center" style="padding-left: 8px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle" width="24">
+<a href="http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><img alt="outline-dark-linkedin-48.png" height sizes src="outline-dark-linkedin-48.png" srcset style width/></a>
+</td>
+<td align="left" style="padding-left: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<a href="http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank">Share</a>
+</td>
+<td align="center" style="padding-left: 8px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle" width="24">
+<a href="*|FORWARD|*" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><img alt="outline-dark-forwardtofriend-48.png" height sizes src="outline-dark-forwardtofriend-48.png" srcset style width/></a>
+</td>
+<td align="left" style="padding-left: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<a href="*|FORWARD|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">Forward</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<!-- Email Share : END -->
+<!-- Email See you: START -->
+<table style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;margin: 0 auto !important;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" style="padding: 40px 0 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="top">
+<p style="margin: 10px;font-size: 20px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">Remember to share if you enjoyed this issue!</strong>
+</p>
+<p style="margin: 10px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">See you next week</p>
+</td>
+</tr>
+</table>
+<!-- Email See you: END -->
+<!-- Email authors: START -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="email-container" style="margin: auto;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;" width="600">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" class="mcnSeeYouBlockInner" style="padding: 9px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<div style="padding: 0 0 30px 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<a href="https://twitter.com/andreaman87" style="padding-right: 1em;display: inline-block;font-style: italic;color: #000;text-decoration: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<img alt="56a252501ea7d706ef189cbf6451d23a?s=100" height sizes src="https://assets.buttondown.email/56a252501ea7d706ef189cbf6451d23a?s=100" srcset style width/> — Andrea
+                                      </a>
+<a href="https://twitter.com/loige" style="padding-right: 1em;display: inline-block;font-style: italic;color: #000;text-decoration: none;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<img alt="e18d2c2510d828bc95bde6817e6e9ce2?s=100" height sizes src="https://assets.buttondown.email/e18d2c2510d828bc95bde6817e6e9ce2?s=100" srcset style width/> — Luciano
+                                      </a>
+</div>
+</td>
+</tr>
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 9px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<table align="center" border="0" cellpadding="2" cellspacing="0" style="border-collapse: collapse;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;table-layout: fixed !important;margin: 0 auto !important;">
+<tbody style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" class="mcnFollowIconContent" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle" width="24">
+<a href="https://fullstackbulletin.com" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><img alt="color-link-48.png" height sizes src="color-link-48.png" srcset style width/></a>
+</td>
+<td align="left" class="mcnFollowTextContent" style="padding-left: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<a href="https://fullstackbulletin.com" style="font-family: Helvetica;font-size: 12px;text-decoration: none;color: #656565;font-weight: bold;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">fullstackbulletin.com</a>
+</td>
+</tr>
+<tr style="margin-top: .5em;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td align="center" class="mcnFollowIconContent" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle" width="24">
+<a href="https://twitter.com/fstackbulletin" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;" target="_blank"><img alt="color-twitter-48.png" height sizes src="color-twitter-48.png" srcset style width/></a>
+</td>
+<td align="left" class="mcnFollowTextContent" style="padding-left: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;" valign="middle">
+<a href="https://twitter.com/fstackbulletin" style="font-family: Helvetica;font-size: 12px;text-decoration: none;color: #656565;font-weight: bold;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">@fstackbulletin</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<!-- Email authors: END -->
+<!-- Email Footer : BEGIN -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="email-container" style="margin: auto;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-spacing: 0 !important;border-collapse: collapse !important;table-layout: fixed !important;" width="600">
+<tr style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<td class="x-gmail-data-detectors" style="padding: 40px 10px;width: 100%;font-size: 12px;font-family: sans-serif;line-height: 18px;text-align: center;color: #888888;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;mso-table-lspace: 0 !important;mso-table-rspace: 0 !important;border-bottom: 0 !important;cursor: default !important;">
+<em style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-bottom: 0 !important;cursor: default !important;">Copyright © 2024 , All rights reserved.</em>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-bottom: 0 !important;cursor: default !important;"/>*|IFNOT:ARCHIVE_PAGE|* 
+                                    <br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-bottom: 0 !important;cursor: default !important;"/>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-bottom: 0 !important;cursor: default !important;"/><strong style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-bottom: 0 !important;cursor: default !important;">Our mailing address is:</strong>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-bottom: 0 !important;cursor: default !important;"/>*|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
+                                    <br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-bottom: 0 !important;cursor: default !important;"/>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-bottom: 0 !important;cursor: default !important;"/> Want to change how you receive these emails?
+                                    <br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-bottom: 0 !important;cursor: default !important;"/> You can <a href="" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;border-bottom: 0 !important;cursor: default !important;">update your preferences</a> or <a href="" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #222222;border-bottom: 0 !important;cursor: default !important;">unsubscribe from this list</a>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-bottom: 0 !important;cursor: default !important;"/>
+<br style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-bottom: 0 !important;cursor: default !important;"/>*|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+                                  </td>
+</tr>
+</table>
+<!-- Email Footer : END -->
+</center>
+</body>
+</html>
+    
+</div>
+
+
+                
+
+
+
+                
+
+
+                <div class="card-container">
+                    <div class="card-container-header">
+                        
+                            Don't miss what's next. Subscribe to FullStack Bulletin:
+                        
+                    </div>
+                    
+<div id="subscribe-form">
+    <div class="card subscription-form-fallback">
+        <form method="post"
+              action="/api/emails/embed-subscribe/fullstackbulletin">
+            
+            <label for="sfi-email" class="sr-only">Email address (required)</label>
+            <input id="sfi-email"
+                   name="email"
+                   required=""
+                   type="email"
+                   placeholder="Your email (you@example.com)"
+                   autocomplete="email" />
+            <button class="button tinted blue" id="submit" type="submit">
+                <div style="flex: 1 1 0%; text-align: center;">Subscribe</div>
+            </button>
+        </form>
+    </div>
+</div>
+<script id="newsletter" type="application/json">{"absolute_url": "https://buttondown.com/fullstackbulletin", "account": "c0c89dde-4f8d-4f6b-bb46-917fb74d7239", "address": "", "archive_navigation_links": [], "archive_redirect_url": "", "archive_theme": "modern", "automatically_remind_unconfirmed_subscribers": true, "autonomy_fields": [], "bluesky_username": null, "body_template": "", "buysellads_url": null, "cached_analytics_data": {"open_rate": 40.93, "retention": 57.446808510638306, "click_rate": 6.33, "created_subscribers": 2699.0}, "css": "body {\n  width: 100% !important;\n  max-width: 600px !important;\n  display: block;\n  margin: 0 auto;\n  box-sizing: border-box;\n  border: 1em solid transparent;\n}\n\nimg {\n  max-width: 100%;\n}\n\n", "theme_configuration": {}, "custom_archive_template": "", "custom_archives_template": "", "custom_email_template": "", "custom_expired_trial_notification_body": "", "custom_expired_trial_notification_subject": "", "custom_expired_trial_notification_template": null, "custom_gift_subscription_email_body": "", "custom_gift_subscription_email_subject": "", "custom_gift_subscription_email_template": null, "custom_preamble": "", "custom_premium_confirmation_email_body": "", "custom_premium_confirmation_email_subject": "", "custom_premium_confirmation_email_template": null, "custom_subscription_confirmation_email_subject": "", "custom_subscription_confirmation_email_template": null, "custom_subscription_confirmation_email_text": "", "custom_subscription_confirmation_reminder_email_subject": "", "custom_subscription_confirmation_reminder_email_template": null, "custom_subscription_confirmation_reminder_email_text": "", "custom_subscription_confirmed_email_subject": "", "custom_subscription_confirmed_email_template": null, "custom_subscription_confirmed_email_text": "", "default_behavior_for_subscriber_imports": "append", "description": "\u003C!-- buttondown-editor-mode: fancy --\u003E\u003Cp\u003EFullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.\u003C/p\u003E", "disablement_reason": null, "domain": "archive.fullstackbulletin.com", "email_address": "luciano@fullstackbulletin.com", "email_domain": "fullstackbulletin.com", "enabled_features": ["comments", "portal", "referrals", "archives", "automations", "tags", "api", "metadata", "css"], "effective_locale": "en-US", "fathom_code": null, "fathom_subscribe_code": null, "footer": "", "from_name": "FullStack Bulletin", "google_tag_manager_code": null, "h2_redirect_url": "", "header": "", "hidden_settings": [], "icon": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "id": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": "", "indexing_mode": "enabled", "is_archive_searchable": true, "is_custom_archive_template_enabled": false, "is_custom_archives_template_enabled": false, "is_paid_subscription_free_trials_enabled": false, "is_sponsorship_enabled": false, "is_using_plausible": false, "locale": "en", "memberful_username": null, "meta_pixel_id": null, "metadata": {}, "metadata_keys": {"email": ["id"], "subscriber": ["first_name", "last_name", "name"]}, "name": "FullStack Bulletin", "paid_subscription_free_trial_duration": 0, "paid_subscriptions_status": "inactive", "prices": [], "publicly_visible_analytics": ["confirmed_subscribers"], "reddit_code": null, "reply_to_address": "", "seline_code": null, "sharing_networks": ["linkedin", "twitter", "reddit", "hacker_news", "mastodon", "bluesky"], "shopify_url": null, "should_add_utm_sources": true, "should_be_private": false, "should_disable_non_premium_subscriptions": false, "should_expose_rss": true, "should_hide_issue_numbers": false, "should_hide_social_media": false, "should_immediately_show_payment_element": false, "should_noindex_archive_page": false, "should_noindex_subscribe_page": false, "should_require_double_optin": true, "should_send_latest_email_to_new_subscribers": false, "should_send_subscription_confirmation_email": true, "simple_analytics_enabled": false, "tinylytics_code": null, "socials": [{"url": "https://fullstackbulletin.com", "type": "generic", "label": null}], "sponsorship_text": null, "status": "active", "stripe_account": "", "subscription_button_text": "", "subscription_confirmation_redirect_url": "", "subscription_form_text": "", "subscription_redirect_url": "", "template": "classic", "thank_you_text": "", "tint_color": "#06b6d4", "timezone": "Europe/Dublin", "umami_website_id": null, "unsubscription_reasons": [], "upgrade_text": "", "username": "fullstackbulletin", "web_css": "article img {\n  max-width: 100%;\n}", "web_footer": "", "web_header": ""}</script>
+<script id="subscriber_facing_authentication" type="application/json">{"status": "unauthenticated", "email_address": null, "account_id": null, "subscribers": []}</script>
+
+    <script id="referring_subscriber_id" type="application/json">null</script>
+
+<script id="referer" type="application/json">""</script>
+
+<script nonce="R6CZ3zRoWqKXy0m2Ac3h3Q">
+    var NEWSLETTER = JSON.parse(document.getElementById('newsletter').textContent);
+    var SUBSCRIBER_FACING_AUTHENTICATION = JSON.parse(document.getElementById('subscriber_facing_authentication').textContent);
+    var REFERRING_SUBSCRIBER_ID = JSON.parse(document.getElementById('referring_subscriber_id').textContent);
+    
+    var STRIPE_LIVE_PUBLIC_KEY = null;
+    
+
+    var TINT_COLOR = NEWSLETTER.tint_color || '#0069FF';
+    document.documentElement.style.setProperty("--tint-color", TINT_COLOR);
+    var referer = JSON.parse(document.getElementById('referer').textContent);
+    var account = null;
+
+    
+    var VARIANT = "archive_page";
+    
+</script>
+
+                    
+                        
+                            
+                        
+                    
+                </div>
+                
+
+
+  
+    <section class="card-container" aria-labelledby="comments-heading">
+      
+      <div class="archive__comments-container">
+        
+        <div id="comment-form" class="archive__comment-form-wrapper">
+          <h4 class="card-container-header">Add a comment:</h4>
+          <form method="post" action="comment" class="comment-input card">
+            <input type="hidden" name="csrfmiddlewaretoken" value="YTwfpnvKrfePfPmGGLExu1hEWwrjyZp8QuR0RbjZUFBCqsdfqU3yfm7tZeIw8A86">
+            
+              
+
+
+
+<fieldset class="comment-input__fields">
+    <div class="comment-input__field comment-input__field--textarea">
+        <textarea id="body" name="body" class="comment-input__textarea" placeholder="What do you think?"></textarea>
+    </div>
+
+    <input type="hidden" name="email" value="fac3e496-4f3e-43cf-99fa-91696991eafb">
+    <input type="hidden" name="parent" value="">
+
+    <div class="comment-input__field comment-input__user-info">
+        
+            <input type="text" name="name" class="comment-input__input" placeholder="Your name"
+                value="">
+        
+
+        
+            <input type="email" id="email_address" name="email_address" class="comment-input__input" placeholder="Your email address"
+                value="">
+        
+    </div>
+</fieldset>
+
+<div class="comment-input__actions">
+    
+        <button type="submit" class="archive__button">
+            
+                Comment and Subscribe
+            
+        </button>
+    
+</div> 
+            
+          </form>
+        </div>
+      </div>
+    </section>
+  
+
+
+                <div class="card-container">
+                    
+
+
+    
+        
+            <div class="card-container">
+                <div class="card-container-header">Share this email:</div>
+                <div class="archive__social-share-link-container">
+                    
+                        
+                        
+                            <a href="https://twitter.com/intent/tweet?text=%F0%9F%A4%93%20FullstackBulletin%20issue%207%3A%20React%20and%20D3%20together&url=https%3A//buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-7-react-and-d3-together/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Twitter
+                            </a>
+                        
+                        
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-7-react-and-d3-together/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on LinkedIn
+                            </a>
+                        
+                        
+                            <a href="https://share.bingo/hn?url=https%3A//buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-7-react-and-d3-together/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Hacker News
+                            </a>
+                        
+                        
+                        
+                            <a href="https://share.bingo/reddit?url=https%3A//buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-7-react-and-d3-together/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Reddit
+                            </a>
+                        
+                        
+                        
+                            <a href="https://toot.kytta.dev/?text=%F0%9F%A4%93%20FullstackBulletin%20issue%207%3A%20React%20and%20D3%20together%0A%0Ahttps%3A//buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-7-react-and-d3-together/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Mastodon
+                            </a>
+                        
+                        
+                            <a href="https://share.bingo/bluesky?url=https%3A//buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-7-react-and-d3-together/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Bluesky
+                            </a>
+                        
+                    
+                </div>
+            </div>
+        
+    
+
+
+                </div>
+            
+        </article>
+    </div>
+
+        </div>
+        
+
+        
+            <div class="footer">
+                
+                    
+
+
+<div class="social-networks archive__social-links-inner">
+    
+        <div class="archive__social-links-item">
+            <a href="https://fullstackbulletin.com" class="archive__social-links-link"><img width='16' height='16' src='favicons.png' alt='fullstackbulletin.com' /></a>
+        </div>
+    
+</div>
+
+                
+                
+                    <div>Powered by <a href="https://buttondown.com/refer/fullstackbulletin">Buttondown</a>, the easiest way to start and grow your newsletter.</div>
+                
+            </div>
+        
+        
+            <div id="archive-search-modal-container"
+                 data-archive-url="/fullstackbulletin/archive/"
+                 data-placeholder="Search..."
+                 data-title="Search..."
+                 data-search-param="q"
+                 data-username="fullstackbulletin"></div>
+        
+        <script id="newsletter" type="application/json">{"absolute_url": "https://buttondown.com/fullstackbulletin", "account": "c0c89dde-4f8d-4f6b-bb46-917fb74d7239", "address": "", "archive_navigation_links": [], "archive_redirect_url": "", "archive_theme": "modern", "automatically_remind_unconfirmed_subscribers": true, "autonomy_fields": [], "bluesky_username": null, "body_template": "", "buysellads_url": null, "cached_analytics_data": {"open_rate": 40.93, "retention": 57.446808510638306, "click_rate": 6.33, "created_subscribers": 2699.0}, "css": "body {\n  width: 100% !important;\n  max-width: 600px !important;\n  display: block;\n  margin: 0 auto;\n  box-sizing: border-box;\n  border: 1em solid transparent;\n}\n\nimg {\n  max-width: 100%;\n}\n\n", "theme_configuration": {}, "custom_archive_template": "", "custom_archives_template": "", "custom_email_template": "", "custom_expired_trial_notification_body": "", "custom_expired_trial_notification_subject": "", "custom_expired_trial_notification_template": null, "custom_gift_subscription_email_body": "", "custom_gift_subscription_email_subject": "", "custom_gift_subscription_email_template": null, "custom_preamble": "", "custom_premium_confirmation_email_body": "", "custom_premium_confirmation_email_subject": "", "custom_premium_confirmation_email_template": null, "custom_subscription_confirmation_email_subject": "", "custom_subscription_confirmation_email_template": null, "custom_subscription_confirmation_email_text": "", "custom_subscription_confirmation_reminder_email_subject": "", "custom_subscription_confirmation_reminder_email_template": null, "custom_subscription_confirmation_reminder_email_text": "", "custom_subscription_confirmed_email_subject": "", "custom_subscription_confirmed_email_template": null, "custom_subscription_confirmed_email_text": "", "default_behavior_for_subscriber_imports": "append", "description": "\u003C!-- buttondown-editor-mode: fancy --\u003E\u003Cp\u003EFullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.\u003C/p\u003E", "disablement_reason": null, "domain": "archive.fullstackbulletin.com", "email_address": "luciano@fullstackbulletin.com", "email_domain": "fullstackbulletin.com", "enabled_features": ["comments", "portal", "referrals", "archives", "automations", "tags", "api", "metadata", "css"], "effective_locale": "en-US", "fathom_code": null, "fathom_subscribe_code": null, "footer": "", "from_name": "FullStack Bulletin", "google_tag_manager_code": null, "h2_redirect_url": "", "header": "", "hidden_settings": [], "icon": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "id": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": "", "indexing_mode": "enabled", "is_archive_searchable": true, "is_custom_archive_template_enabled": false, "is_custom_archives_template_enabled": false, "is_paid_subscription_free_trials_enabled": false, "is_sponsorship_enabled": false, "is_using_plausible": false, "locale": "en", "memberful_username": null, "meta_pixel_id": null, "metadata": {}, "metadata_keys": {"email": ["id"], "subscriber": ["first_name", "last_name", "name"]}, "name": "FullStack Bulletin", "paid_subscription_free_trial_duration": 0, "paid_subscriptions_status": "inactive", "prices": [], "publicly_visible_analytics": ["confirmed_subscribers"], "reddit_code": null, "reply_to_address": "", "seline_code": null, "sharing_networks": ["linkedin", "twitter", "reddit", "hacker_news", "mastodon", "bluesky"], "shopify_url": null, "should_add_utm_sources": true, "should_be_private": false, "should_disable_non_premium_subscriptions": false, "should_expose_rss": true, "should_hide_issue_numbers": false, "should_hide_social_media": false, "should_immediately_show_payment_element": false, "should_noindex_archive_page": false, "should_noindex_subscribe_page": false, "should_require_double_optin": true, "should_send_latest_email_to_new_subscribers": false, "should_send_subscription_confirmation_email": true, "simple_analytics_enabled": false, "tinylytics_code": null, "socials": [{"url": "https://fullstackbulletin.com", "type": "generic", "label": null}], "sponsorship_text": null, "status": "active", "stripe_account": "", "subscription_button_text": "", "subscription_confirmation_redirect_url": "", "subscription_form_text": "", "subscription_redirect_url": "", "template": "classic", "thank_you_text": "", "tint_color": "#06b6d4", "timezone": "Europe/Dublin", "umami_website_id": null, "unsubscription_reasons": [], "upgrade_text": "", "username": "fullstackbulletin", "web_css": "article img {\n  max-width: 100%;\n}", "web_footer": "", "web_header": ""}</script>
+        
+            <script id="subscriber_facing_authentication" type="application/json">{"status": "unauthenticated", "email_address": null, "account_id": null, "subscribers": []}</script>
+        
+        
+        <div id="subscriber-facing-app"></div>
+        <link  rel="stylesheet" href="https://static-assets.buttondown.com/event-listener-C4a0MggJ.css" />
+<link  rel="stylesheet" href="https://static-assets.buttondown.com/subscriber_facing_app-CMddTf0D.css" />
+<script type="module" crossorigin="" src="https://static-assets.buttondown.com/subscriber_facing_app-DIYFgv7W.js"></script>
+<link href="https://static-assets.buttondown.com/modulepreload-polyfill-C5-T9T-W.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/vueQueryPlugin-BD6xQQsM.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/event-listener-5QAwhQxM.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/_sentry-release-injection-file-DRmiww3Y.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/preload-helper-HIQHktoD.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/PendingIndicator.vue_vue_type_script_setup_true_lang-9IrbzFdh.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+        
+    </body>
+</html>

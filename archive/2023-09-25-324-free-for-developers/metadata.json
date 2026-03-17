@@ -1,0 +1,100 @@
+{
+  "issueNumber": 339,
+  "title": "Free for Developers",
+  "slug": "2023-09-25-324-free-for-developers",
+  "date": "2023-09-25",
+  "templateType": "mce-mailchimp",
+  "intro": "What's up, *|LIST:NAME|*\nThis is issue #339 and, spoiler alert: it's great! Not just because we start with a **pizza**-related quote 🍕, but because we have another issue packed with interesting resources. And as a bit of a meta-resource, the first one is a collection of resources that can help you to **save a lot of money** on day-to-day tools. Then we deep dive into topics such as **animations**, **sustainability**, **reactivity**, **observability**, and more. Have fun and make sure to check out our kind sponsors. They have a very cool product and they help us to make Fullstack Bulletin happen. ❤️\n\nThis issue is kindly sponsored by:**Feature flags** for **teams**.\n\nCreated by developers for developers with ❤️\n[Try without signing up](https://app.configcat.com/auth/startnow/)!",
+  "quote": {
+    "text": "Programming languages, like pizza, come in only two sizes: too big and too small“",
+    "author": "Eric S. Raymond",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Eric_S._Raymond"
+  },
+  "links": [
+    {
+      "title": "Free for Developers",
+      "url": "https://free-for.dev/",
+      "description": null,
+      "imageUrl": "./4c2e8eda64550199965a1f07e40d4e5bc9e6d37e390a9dfb9fa0bfc48f5b81e2.png",
+      "featured": true
+    },
+    {
+      "title": "Theatre.js - animation toolbox for the web",
+      "url": "https://theatrejs.com/",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Web Sustainability Guidelines (WSG) 1.0",
+      "url": "https://w3c.github.io/sustyweb",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Patterns for Reactivity with Modern Vanilla JavaScript",
+      "url": "https://frontendmasters.com/blog/vanilla-javascript-reactivity",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The never-ending JavaScript divide",
+      "url": "https://youtube.com/watch?v=6_JNPmjSevo",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "hyperdx: An open-source observability platform",
+      "url": "https://github.com/hyperdxio/hyperdx",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "JS minification benchmarks",
+      "url": "https://github.com/privatenumber/minification-benchmarks",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Reactive Programming with RxJava: Creating Asynchronous, Event-Based Applications",
+    "author": "Tomasz Nurkiewicz",
+    "description": "In today’s app-driven era, when programs are asynchronous and responsiveness is so vital, reactive programming can help you write code that’s more reliable, easier to scale, and better-performing. With this practical book, Java developers will first learn how to view problems in the reactive way, and then build programs that leverage the best features of this exciting new programming paradigm.",
+    "coverImageUrl": "./bfc89b612724cc827df12cd74bfda688fa86774c756e46d104dc6fce54b5ba7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491931655/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491931655/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Islands & Server Components & Resumability, Oh My!",
+      "url": "https://dev.to/this-is-learning/islands-server-components-resumability-oh-my-319d"
+    },
+    {
+      "title": "Creating a text typing effect with React",
+      "url": "https://julienthibeaut.xyz/"
+    },
+    {
+      "title": "Counting Ghosts",
+      "url": "https://pcmaffey.com/counting-ghosts"
+    },
+    {
+      "title": "Plotteus: The JavaScript library for data storytelling",
+      "url": "https://plotteus.dev/"
+    },
+    {
+      "title": "Web Apps Are Better Than No Apps",
+      "url": "https://molodtsov.me/2023/08/web-apps-are-better-than-no-apps"
+    },
+    {
+      "title": "Web Components Accessibility FAQ",
+      "url": "https://matuzo.at/blog/2023/web-components-accessibility-faq"
+    }
+  ],
+  "sponsor": null
+}

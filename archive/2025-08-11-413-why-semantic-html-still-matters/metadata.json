@@ -1,0 +1,104 @@
+{
+  "issueNumber": 433,
+  "title": "Why semantic HTML still matters",
+  "slug": "2025-08-11-413-why-semantic-html-still-matters",
+  "date": "2025-08-11",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nReady to dive into some hand-picked full-stack goodness? I thought so. But before we get there, I have a bit of personal news to share. As some of you know, I have been working on a new edition of [Node.js Design Patterns](https://www.nodejsdesignpatterns.com/) over the past year. It has been a huge amount of work, but we are almost there. Our publisher, Packt, will soon release a preview of the new edition with a few chapters available completely free. If you are interested, just [fill out this form](https://forms.office.com/e/c2TRRWyZJy). I would really value your feedback once you have had a read.\n\nNow, let’s jump into this week’s selection of full-stack gems. I hope you enjoy them as much as I did picking them.\n\nCheers,\n— Luciano",
+  "quote": {
+    "text": "To err is human, but to really foul things up you need a computer“",
+    "author": "Paul Ehrlich",
+    "authorTitle": "Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Paul_Ehrlich"
+  },
+  "links": [
+    {
+      "title": "Why semantic HTML still matters",
+      "url": "https://jonoalderson.com/conjecture/why-semantic-html-still-matters",
+      "description": "I still remember when HTML5 became mainstream around 2014 and everyone was buzzing about semantic markup. We swapped out walls of meaningless `<div>`s for shiny new `<nav>`, `<main>`, and `<section>` tags. Some folks even slapped the bright orange “[HTML5 badge](https://commons.wikimedia.org/wiki/File:HTML5_Badge.svg)” on their sites like it was a superhero emblem. But here we are in 2025, and I find myself wondering... do we still care? Should we still care? The answer is a resounding yes, and this article lays out some excellent, concrete reasons why semantic HTML is just as important today as it was back then.",
+      "imageUrl": "./d08571af3db03ce58d29646b343a50a94c8e468cf2b4dda968f8098db00ee1d9.png",
+      "featured": true
+    },
+    {
+      "title": "I Know When You're Vibe Coding",
+      "url": "https://alexkondov.com/i-know-when-youre-vibe-coding",
+      "description": "I vibe code, you vibe code, your friends are vibe coding, everyone is vibe coding! No… it’s not quite like everyone is on cocaine, but it’s not exactly healthy either. This short piece explores the idea that while vibe coding can be great for moving fast and riding the momentum, it also tempts us to switch off our brains, hit “accept” without thinking, and lose sight of what makes our work ours. The real takeaway? Speed is fine, but keep your critical thinking (and above all your creativity) in the mix, because coding should still be a craft shaped with art and love.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Bluefish: The missing diagramming framework",
+      "url": "https://bluefishjs.org/",
+      "description": "I’m pretty excited about this one. I’ve used tools like Mermaid to make diagramming faster and more standardized, but honestly, I always end up struggling to learn and remember their syntax. What should be a speed boost often turns into a time sink, and when I want to generate diagrams programmatically, the last thing I want is to build yet another Mermaid compiler. That’s why Bluefish caught my attention. It takes a programmatic approach to creating diagrams and strikes a nice balance between simplicity and control. It’s written in TypeScript, works with vanilla JS, and (drum roll) even supports SolidJS, which makes it even more exciting for me. I haven’t used it in anger yet, but it looks promising. Give it a try!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Writing a good design document",
+      "url": "https://grantslatton.com/how-to-design-document",
+      "description": "OK… documentation! Raise your hand if you like writing it… no hands? What a surprise! Nobody loves writing docs, and to be fair, it’s hard work. Writing design docs is even harder. A design document is a technical report that explains the implementation strategy for a system, framed around trade-offs and constraints. We often forget about them, yet they’re among the most important documents a project can have. If you want to get better at writing docs (and you should), this article offers a solid strategy for crafting clear and genuinely useful design docs. PS: remember the AI documentation tool we mentioned [last week](https://us15.campaign-archive.com/?u=b015626aa6028495fe77c75ea&id=a46ec69e32)? You could combine the two ideas for an AI-assisted workflow. Just don’t let the AI take the wheel… you’re still the driver! :)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Unlocking Web Workers with React",
+      "url": "https://rahuljuliato.com/posts/react-workers",
+      "description": "You thought you’d get away with a FullStack Bulletin issue that didn’t mention React? WRONG! OK… bear with me, because this one is both nerdy and exciting. It combines the still underappreciated power of Web Workers with React. So if you ever need to run a CPU-heavy task in the UI, you’ll know exactly how to hand it off to a worker thread, keeping your interface smooth and your users happy... because freezing the UI is the last thing you want!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "I tried React Compiler today, and guess what...",
+      "url": "https://developerway.com/posts/i-tried-react-compiler",
+      "description": "OK… one more React piece :) I’ll admit it, I like SolidJS more than React. YES, I said it! But React is so widespread that you can’t just ignore it and move everything to SolidJS. I’d love to, but that’s simply not realistic. So I’ve kept React as my go-to for most serious or commercial projects, quietly hoping it would start picking up some of SolidJS’s best ideas. And now it is, with the newly announced React Compiler. But is it all good news? Let’s see what the author of this piece has to say!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What’s New in ViteLand: July 2025 Recap",
+      "url": "https://voidzero.dev/posts/whats-new-jul-2025",
+      "description": "Let’s stick to frontend-land and talk about Vite, one of my favorite frontend technologies of the last few years (and yes, I don’t miss Webpack). This piece rounds up the latest advancements in Vite and its growing ecosystem of tools. My favorite part? All the Rust-powered magic happening with Rolldown and Oxc that’s set to make builds much faster. But that’s just one highlight, so check it out if you want a glimpse of what Vite could look like in the years ahead!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations",
+    "author": "Gene Kim, Jez Humble, Patrick Debois, John Willis, and Nicole Forsgren",
+    "description": "This award-winning and bestselling business handbook for digital transformation is now fully updated and expanded with the latest research and new case studies! “[The DevOps Handbook] remains a must-read for any organization seeking to scale up its IT capability and expand DevOps practices across multiple departments or lines of business.” ―Mike Perrow, TechBeacon For years, The DevOps Handbook has been the definitive guide for taking the successes laid out in the bestselling The Phoenix Project and applying them in any organization. Now, with this fully updated and expanded edition, it's time to take DevOps out of the IT department and apply it across the full business. Technology is now at the core of every company, no matter the business model or product. The theories and practices laid out in The DevOps Handbook are tools to be used by anyone from across the organization to create joy and succeed in the marketplace.",
+    "coverImageUrl": "./14920457583ff6df9cc24a78e77b4f2ab4fb187f779a523cfcf43040ea54dfec.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1950508404?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1950508404?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "What we learned from creating PostCSS",
+      "url": "https://evilmartians.com/chronicles/what-we-learned-from-creating-postcss"
+    },
+    {
+      "title": "Building a typed fetch in TypeScript with conditional types and infer",
+      "url": "https://piccalil.li/blog/building-a-typed-fetch-in-typescript-with-conditional-types-and-infer"
+    },
+    {
+      "title": "It’s incredible how many bad user experiences are still out there in 2025",
+      "url": "https://uxdesign.cc/its-incredible-how-many-bad-user-experiences-are-still-out-there-in-2025-212b0e7e8d3c"
+    },
+    {
+      "title": "We Are Still the Web",
+      "url": "https://thehistoryoftheweb.com/we-are-still-the-web"
+    },
+    {
+      "title": "React Query Selectors, Supercharged",
+      "url": "https://tkdodo.eu/blog/react-query-selectors-supercharged"
+    },
+    {
+      "title": "ilamy Calendar: Interactive React Calendar Component",
+      "url": "https://calendar.ilamy.io/"
+    },
+    {
+      "title": "Thinking Deeply About Theming and Color Naming",
+      "url": "https://css-tricks.com/thinking-deeply-about-theming-and-color-naming"
+    }
+  ],
+  "sponsor": null
+}

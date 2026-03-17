@@ -1,0 +1,75 @@
+{
+  "issueNumber": 79,
+  "title": "What’s New in PHP 7.3",
+  "slug": "2018-09-10-079-what-s-new-in-php-7-3",
+  "date": "2018-09-10",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #36, 2018",
+  "quote": {
+    "text": "Code generation, like drinking alcohol, is good in moderation",
+    "author": "Alex Lowe",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alex_Lowe"
+  },
+  "links": [
+    {
+      "title": "What’s New in PHP 7.3",
+      "url": "https://kinsta.com/blog/php-7-3",
+      "description": "PHP 7.3 is knocking on our door and with it comes new features, deprecations, and bug fixes. Check this in-depth overview of what's new in PHP 7.3!",
+      "imageUrl": "./7a31fbba229fcb72fdf6fb4befc434ba71c682207d0ff316c97f3fd955eac9b8.jpg",
+      "featured": true
+    },
+    {
+      "title": "Design for People, Use People Language",
+      "url": "https://medium.com/@joulee/design-for-people-use-people-language-41efcf5203b1",
+      "description": "The first rule of building a valuable product is that it should be valuable for someone and it should be adopting the language that they use.",
+      "imageUrl": "./bc897dc4413745472dea43b0de301e10b9e0cc12aacb95897c7da7bea620665e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Pose - A declarative animation library for React, HTML, and SVG",
+      "url": "https://popmotion.io/pose",
+      "description": "Declarative motion system for React, React Native, and vanilla JS.",
+      "imageUrl": "./60d1562e22f931b00b35d2c7b5e2a64a354a3209f3f6cb09d9dfec7a7045efd4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Take A New Look At CSS Shapes",
+      "url": "https://smashingmagazine.com/2018/09/css-shapes",
+      "description": "This article takes a look at CSS Shapes and how to create non-rectangular shapes using images, gradients, and basic shapes. It also covers how the new tools in Firefox make editing shapes easier.",
+      "imageUrl": "./9d3e75a3151fff2e0bc1f57bbe3f2217014200442713b4600a35c03747a17b9a.png",
+      "featured": false
+    },
+    {
+      "title": "p5.js Web Editor",
+      "url": "https://editor.p5js.org/",
+      "description": "A web editor for p5.js, a JavaScript library with the goal of making coding accessible to artists, designers, educators, and beginners.",
+      "imageUrl": "./d10d7d9039fda1d7dda81338059b57d3bb196118c03366b0744fcd18ead0cac7.png",
+      "featured": false
+    },
+    {
+      "title": "Reduce JavaScript Payloads with Code Splitting",
+      "url": "https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting",
+      "description": "Modern sites often contain a lot of JavaScript. These scripts are often sent down in large, monolithic bundles which can take a long time to download and process. Code-splitting encourages breaking up these scripts so you only send what a user needs when they need it.",
+      "imageUrl": "./67337487a3e95d6b84878aaa4215b190433e7b03c754130b7bf591b3a892d0cc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building A Recipe Book In React",
+      "url": "https://levelup.gitconnected.com/building-a-recipe-book-in-react-part-1-c05b3e53cbb1",
+      "description": "A fantastic Tutorial For React Beginners, that will guide you through building a recipe book.",
+      "imageUrl": "./56461a3a3c73e5962ebce69e951ef21eb1da75cf9ca83bb42d9a67e944730cff.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "MongoDB: The Definitive Guide: Powerful and Scalable Data Storage",
+    "author": "Kristina Chodorow",
+    "description": "Manage the huMONGOus amount of data collected through your web application with MongoDB. This authoritative introduction—written by a core contributor to the project—shows you the many advantages of using document-oriented databases, and demonstrates how this reliable, high-performance system allows for almost infinite horizontal scalability. This book provides guidance for database developers, advanced configuration for system administrators, and an overview of the concepts and use cases for other people on your project.",
+    "coverImageUrl": "./d98bc829eaad931cbbfe76cf5cddb28b6b469caa0a8f6f508749d164568b6f11.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449344682/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449344682/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

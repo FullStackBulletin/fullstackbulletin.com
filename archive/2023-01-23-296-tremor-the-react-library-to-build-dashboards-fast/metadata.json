@@ -1,0 +1,75 @@
+{
+  "issueNumber": 309,
+  "title": "Tremor – The React library to build dashboards fast",
+  "slug": "2023-01-23-296-tremor-the-react-library-to-build-dashboards-fast",
+  "date": "2023-01-23",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "All of the biggest technological inventions created by man - the airplane, the automobile, the computer - says little about his intelligence, but speaks volumes about his laziness",
+    "author": "Mark Kennedy",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Mark_Kennedy"
+  },
+  "links": [
+    {
+      "title": "Tremor – The React library to build dashboards fast",
+      "url": "https://tremor.so/",
+      "description": "If you are using React and you find yourself spending a lot of time hand-crafting nice-looking dashboard views, you might want to check out Tremor, a React library and design system specially built for creating dashboards.",
+      "imageUrl": "./8b549b40327a7fe582529bd8396d63561c32308f3395b3d10df8e816c1e965b4.jpg",
+      "featured": true
+    },
+    {
+      "title": "Node.js Retro 2022",
+      "url": "http://nodesource.com/blog/Nodejs-Retro-2022",
+      "description": "It's still January 2023, so we are still in time to make a retrospective on 2022 and understand where to go in this new year. In this article, [Marian Villa](https://twitter.com/Marianvilla), makes a retrospective of what happened in 2022 in the Node.js ecosystem and she tries to gives us food for though on what to expect for Node.js in '23.",
+      "imageUrl": "./edda5588606569bfe72d68b6dd0c350f953428133abb5bc9ee292f9f5b0c67fb.jpg",
+      "featured": false
+    },
+    {
+      "title": "Zustand vs Signals — Comparing React State Management Options",
+      "url": "https://betterprogramming.pub/zustand-vs-signals-e664bff2ce4a",
+      "description": "**Zustand** is a relatively new state management library (with an awesome mascotte) that is taking a lot of traction in the React world. On the other hand, we have **Signals** which have been heavily promoted by Solid.js but have recently also been adopted by other libraries including Preact. So how does the Zustand model compares to Signals and which one suits your needs best?",
+      "imageUrl": "./78c09c7dfd08218c8d7312fd0ee1e8c99bb2346ded2345b10b345deb2754c9d0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Remix vs Next.js",
+      "url": "https://bejamas.io/blog/[slug]",
+      "description": "Remix, an edge-first, React-based full-stack framework created by the original team behind React-router, was recently open-sourced - and Next.js just got itself a strong new opponent. So what are the differences between these two React meta-frameworks and which one should you use next? Yes, that's another VS type of article, which we always love! :D",
+      "imageUrl": "./4f9e38d1fd6d1f4bcd4a93410a77cca660dc377d1f05efe25e9884f0bc203b49.jpg",
+      "featured": false
+    },
+    {
+      "title": "Data Binding in React",
+      "url": "https://joshwcomeau.com/react/data-binding",
+      "description": "As developers, we don't like working with forms, but they're a critical part of most web applications! In this tutorial, you'll learn exactly how to wire up all of the different form controls in React. Never forget how to data-bind a checkbox or radio button again!",
+      "imageUrl": "./86adc966eba79d37d1ff4fd97d41516d99fb8b492fba93df90ce5ae1465a6ce3.jpg",
+      "featured": false
+    },
+    {
+      "title": "Short, friendly base32 slugs from timestamps",
+      "url": "https://brandur.org/fragments/base32-slugs",
+      "description": "I bumped into this short article and I was blown away by this idea. 4 lines of Go to produce succinct and sortable URL-friendly slugs based on timestamps. Something you could use to generate your own short URLs, or any other kind of id, where time-based-sortability could be a useful feat!",
+      "imageUrl": "./893969d58e398248c94d70164fac412b975c776f5035acf2a73e63ad1492ceb3.png",
+      "featured": false
+    },
+    {
+      "title": "Fixing a Memory Leak in a Production Node.js App",
+      "url": "https://kentcdodds.com/blog/fixing-a-memory-leak-in-a-production-node-js-app",
+      "description": "[Matteo Collina](https://twitter.com/matteocollina) helps [Kent C. Dodds](https://twitter.com/kentcdodds) fix a memory leak on his website. This was done in a live stream and the article comes with the video recording too. There's definitely a lot to learn from this case study if you care about JavaScript performance and you want to learn a few clever tricks to spot potential memory leaks.",
+      "imageUrl": "./148680e2f537849a35ad9ca67705bd45824bb74ab1a6af23963b396b7d7c7b52.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Designing Interfaces: Patterns for Effective Interaction Design",
+    "author": "Jenifer Tidwell",
+    "description": "Despite all of the UI toolkits available today, it's still not easy to design good application interfaces. This bestselling book is one of the few reliable sources to help you navigate through the maze of design options.",
+    "coverImageUrl": "./efd3a4879002fbb37a1b94c9c3a347059c5bfc0661f163c8e89164fe5c872c8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449379702/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449379702/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

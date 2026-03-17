@@ -1,0 +1,75 @@
+{
+  "issueNumber": 190,
+  "title": "The Atkinson Hyperlegible Font",
+  "slug": "2020-11-30-190-the-atkinson-hyperlegible-font",
+  "date": "2020-11-30",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #48, 2020",
+  "quote": {
+    "text": "Computers are useless.  They can only give you answers",
+    "author": "Pablo Picasso",
+    "authorTitle": "Artist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Pablo_Picasso"
+  },
+  "links": [
+    {
+      "title": "The Atkinson Hyperlegible Font",
+      "url": "https://brailleinstitute.org/freefont",
+      "description": "Atkinson Hyperlegible is a new typeface optimized for legibility and readability for low vision readers. This font is named after Braille Institute founder, J. Robert Atkinson.  What makes it different from traditional typography design is that it focuses on letterform distinction to increase character recognition.",
+      "imageUrl": "./36e53f548ae86a2b8f02ea3058374422f3c263b4c50bb4c09afef73adf90c19b.png",
+      "featured": true
+    },
+    {
+      "title": "A Complete Guide to CSS Gradients",
+      "url": "https://css-tricks.com/a-complete-guide-to-css-gradients",
+      "description": "Like how you can use the background-color property in CSS to declare a solid color background, you can use the background-image property not only to declare image files as backgrounds but gradients as well. Using CSS gradients is better for control and performance than using an actual image (of a gradient) file.",
+      "imageUrl": "./eec0cdfbffaf09fbae7451146e3b44720f42be349910d7f2c0eb42ba0448f577.jpg",
+      "featured": false
+    },
+    {
+      "title": "Exploring How Computers Work",
+      "url": "https://youtube.com/watch?v=QZwneRb-zqA",
+      "description": "A little exploration of some of the fundamentals of how computers work. Logic gates, binary, two's complement; all that good stuff in a wonderful short video! A must-see for every software engineer and for everyone else that might be wondering how computers actually work! **Spoiler: kittens seem to like it too! 😻**",
+      "imageUrl": "./d34135e295804d33faebddfd387ef91c2e9f11b5afa2181023585159d3eff6e0.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Cleanest Trick for Autogrowing Textareas",
+      "url": "https://css-tricks.com/the-cleanest-trick-for-autogrowing-textareas",
+      "description": "This article introduces an interesting tecnique to make textareas auto-growable by replicating the content of the `<textarea>` in an element that *can* auto expand height, and match its sizing! Pure genius!",
+      "imageUrl": "./52a1d263122ba176941757eb404f0c08caa00e8134e5ceaa400fee08770070a0.png",
+      "featured": false
+    },
+    {
+      "title": "Lightsail Containers: An Easy Way to Run your Containers in the Cloud",
+      "url": "https://aws.amazon.com/blogs/aws/lightsail-containers-an-easy-way-to-run-your-containers-in-the-cloud",
+      "description": "Lightsail is an interesting services from AWS that aims to make it even easier to launch containerized workloads and applications in the cloud!",
+      "imageUrl": "./a5f35de88234481f546c4eb4534957c95e83e831de013ced65ae9ba5663a9ea4.jpg",
+      "featured": false
+    },
+    {
+      "title": "From JavaScript to WebAssembly in three steps",
+      "url": "https://engineering.q42.nl/webassembly",
+      "description": "A journey of improving the performance of an ultra-resolution storytelling tool called Micrio by upgrading the JavaScript-only client to WebAssembly.",
+      "imageUrl": "./97bc1c6cafd7d3702ebcd10f6842b7c958dc2bf3aea6803ffde1d59044a50230.jpg",
+      "featured": false
+    },
+    {
+      "title": "9 Companies That Use Rust in Production",
+      "url": "https://serokell.io/blog/rust-companies",
+      "description": "Who uses Rust, and what are the benefits of choosing this programming language for your stack? Find out the answer in stories from 9 successful companies.",
+      "imageUrl": "./5fa0c6a2e94fc34be36208e90ce58deec7c45281416431b7d87c59173618d814.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Modern PHP: New Features and Good Practices",
+    "author": "Josh Lockhart",
+    "description": "PHP is experiencing a renaissance, though it may be difficult to tell with all of the outdated PHP tutorials online. With this practical guide, you’ll learn how PHP has become a full-featured, mature language with object-orientation, namespaces, and a growing collection of reusable component libraries. Author Josh Lockhart—creator of PHP The Right Way, a popular initiative to encourage PHP best practices—reveals these new language features in action. You’ll learn best practices for application architecture and planning, databases, security, testing, debugging, and deployment.",
+    "coverImageUrl": "./418bba906f21b114b5c7dcb0d9e0d7c44a714c727d1cf0edbb7f097a7406b2d5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491905018/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491905018/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

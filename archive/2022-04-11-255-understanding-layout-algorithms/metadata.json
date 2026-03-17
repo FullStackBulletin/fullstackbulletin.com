@@ -1,0 +1,75 @@
+{
+  "issueNumber": 268,
+  "title": "Understanding Layout Algorithms",
+  "slug": "2022-04-11-255-understanding-layout-algorithms",
+  "date": "2022-04-11",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Technology made large populations possible; large populations now make technology indispensable",
+    "author": "Joseph Krutch",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Krutch"
+  },
+  "links": [
+    {
+      "title": "Understanding Layout Algorithms",
+      "url": "https://joshwcomeau.com/css/understanding-layout-algorithms",
+      "description": "As front-end developers, we often learn CSS by focusing on individual properties. Instead, we should focus on how the language uses those properties to calculate layouts. In this blog post, we'll pop the hood on CSS and see how the language is structured, and how to learn it effectively.",
+      "imageUrl": "./8df88ab52157860b920e0fbb719c54f3c1c0717909d0001449a918b8a614d858.jpg",
+      "featured": true
+    },
+    {
+      "title": "Those HTML Attributes You Never Use",
+      "url": "https://smashingmagazine.com/2022/03/html-attributes-you-never-use",
+      "description": "In this article, Louis Lazaris describes and demonstrates some interesting HTML attributes that you may or may not have heard of and perhaps find useful enough to personally use in one of your projects.",
+      "imageUrl": "./b6ecd6142318845ba6166db100606007d7d38ebc89004875a1df42a2541af032.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to use Props in React",
+      "url": "https://robinwieruch.de/react-pass-props-to-component",
+      "description": "Everything you need to know about props in React. How to pass props to components, how to set default props, how to know the difference between props and state, and how to pass components or functions as props!",
+      "imageUrl": "./9dc8778496addc74491419c3a5f9539b3d7fcdf986c1883eb552f19b92433d6f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Deep dive into the CSS :where() function",
+      "url": "https://blog.logrocket.com/deep-dive-css-where-function",
+      "description": "Learn about the :where() pseudo-class function and show how it can be used in production. See some specific use cases.",
+      "imageUrl": "./415a3a2b2311086303e1428298a02896405f430f750b3a7e07e56adaa68fd6af.jpg",
+      "featured": false
+    },
+    {
+      "title": "Optimising Largest Contentful Paint",
+      "url": "https://csswizardry.com/2022/03/optimising-largest-contentful-paint",
+      "description": "Largest Contentful Paint (LCP) is an important, user-centric metric for measuring perceived load speed because it marks the point in the page load timeline when the page's main content has likely loaded—a fast LCP helps reassure the user that the page is useful. In this article we can learn a few ways to optimise our LCP.",
+      "imageUrl": "./7424794dcfb3e4546d74a2fe41e3b3c071cb8cdc4d0562a9d735bdc35e569007.jpg",
+      "featured": false
+    },
+    {
+      "title": "Build Serverless APIs with Node.js and AWS Lambda",
+      "url": "https://blog.appsignal.com/2022/03/23/build-serverless-apis-with-nodejs-and-aws-lambda.html",
+      "description": "Serverless and Lambda are among our favourite pieces of tech (this whole neswletter [is built with Serverless and Lambda](https://github.com/FullStackBulletin/sls-create-newsletter-issue)!). In this article, you can learn how to create and deploy Lambda functions with Node.js and AWS SAM in this introduction to AWS Lambda.",
+      "imageUrl": "./e870cefb2f53cde840ed756ffa58d5e4b5edca91081d6ef2fa47b44e04d81de2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Conquering JavaScript Hydration",
+      "url": "https://dev.to/this-is-learning/conquering-javascript-hydration-a9f",
+      "description": "When you build Single Page Applications (SPAs), most often you have ways to pre-render the content of a page for the server and then, once the page is loaded in the browser, the client side application will walk the DOM and add all the interactive bits and pieces. This process is called hydration and it is much more complicated than it seems. Many frameworks have tried to tackle this problem correctly for years and in this article you can get a good summary about what works and what doesn't!",
+      "imageUrl": "./4f36a97c698ddbb1d911ce39cd99abf502710dc3c3bb3a4b029b056007cc0b12.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5",
+    "author": "Robin Nixon",
+    "description": "The fully revised, updated and extended 4th edition of the hugely popular web development book - includes CSS, HTML5, jQuery and the mysqli extension. Build interactive, data-driven websites with the potent combination of open-source technologies and web standards, even if you only have basic HTML knowledge. With this popular hands-on guide, you'll tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript, jQuery, CSS, and HTML5.",
+    "coverImageUrl": "./4dd383a9368aaa6ed632aede9e478cdc0678ed0fe58e1cd4ac7a53fa88dfa423.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491918667/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491918667/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

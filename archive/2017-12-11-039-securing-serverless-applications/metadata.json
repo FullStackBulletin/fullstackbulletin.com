@@ -1,0 +1,75 @@
+{
+  "issueNumber": 39,
+  "title": "Securing Serverless Applications",
+  "slug": "2017-12-11-039-securing-serverless-applications",
+  "date": "2017-12-11",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #49, 2017",
+  "quote": {
+    "text": "Computers are like Old Testament gods; lots of rules and no mercy",
+    "author": "Joseph Campbell",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Campbell"
+  },
+  "links": [
+    {
+      "title": "Securing Serverless Applications",
+      "url": "https://youtube.com/watch?v=B3j4xql7we0",
+      "description": "You need a new approach to security for serverless applications. Classic approaches just don’t make sense, because tools and process can only take you so far. This video from the latest AWS re:Invent will guide you step by step to securing your serverless applications.",
+      "imageUrl": "./a8d1f4668bb79bd41e867cb976e3de47b3259485fe5354c46f5273fb9ae90b89.jpg",
+      "featured": true
+    },
+    {
+      "title": "Video Guide to AWS ECS and Docker",
+      "url": "http://awsdevops.io/courses/190849",
+      "description": "A Conceptual Exploration of Deploying Docker-based Apps and Services to AWS EC2 Container Service. A video course made \"For Humans\".",
+      "imageUrl": "./cc5a12be87e40d63cd51ad9062b2807c900bc70981b77ecce93a260da79e5596.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Deep Dive into InfluxDB",
+      "url": "https://blog.codeship.com/a-deep-dive-into-influxdb/",
+      "description": "This article focus on InfluxDB, a database optimized to store and run time-series data.\n\nInflux can help us to gather metrics and understand how our applications are performing. If you are interested in these kind of topics, this article is worth checking it out.",
+      "imageUrl": "./486fa7d2c1a213b97f76cdbb58f712750b3e8903337e776cf591ef6241ba2a9c.png",
+      "featured": false
+    },
+    {
+      "title": "Why CSS Grid is better than Bootstrap for creating layouts",
+      "url": "https://hackernoon.com/how-css-grid-beats-bootstrap-85d5881cf163",
+      "description": "CSS Grid is a new way of creating layouts on the web. For the first time ever we have a proper layout system available natively in the browser.",
+      "imageUrl": "./d603ee8c95d5d4d93762160ba1e4139c74720a660a44ed9a1c84c0f7f5a9a91b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Turbo: 5x faster than Yarn & NPM",
+      "url": "https://medium.com/@ericsimons/introducing-turbo-5x-faster-than-yarn-npm-and-runs-natively-in-browser-cc2c39715403",
+      "description": "A NEW alternative to yarn and NPM to install dependencies in JavaScript. Turbo claims to be 5 times faster than its competitors and it also runs natively in the browser!",
+      "imageUrl": "./af35adfd827187d204aad0594b48b37b987a6962e5f61300defd90a8d8433e63.jpg",
+      "featured": false
+    },
+    {
+      "title": "React v16.2.0: Improved Support for Fragments",
+      "url": "https://reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html",
+      "description": "React 16.2 is now available! The biggest addition is improved support for returning multiple children from a component’s render method. We call this feature fragments : Fragments look like empty JSX tags. They let you group a list of children without adding extra nodes to the DOM.",
+      "imageUrl": "./d2cb3ad4505d54a3fdff0b1ab312e32017b8d9c86f2130e0130122118491da07.jpg",
+      "featured": false
+    },
+    {
+      "title": "SMS Notifications with AWS Lambda, JavaScript and Twilio",
+      "url": "https://www.twilio.com/blog/2017/12/automated-sms-notifications-aws-lambda-javascript-twilio-sms-apis.html",
+      "description": "A beginners tutorial on how to use AWS Lambda and Twilio SMS API to build a little application that can keep us informed on the current exchange rate for a given set of currencies.",
+      "imageUrl": "./729d78395b051ade17e686f1d1096b86bbde8409e928b817a6a66fa046080c3e.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Development with Node and Express: Leveraging the JavaScript Stack",
+    "author": "Ethan Brown",
+    "description": "Learn how to build dynamic web applications with Express, a key component of the Node/JavaScript development stack. In this hands-on guide, author Ethan Brown teaches you the fundamentals through the development of a fictional application that exposes a public website and a RESTful API. You’ll also learn web architecture best practices to help you build single-page, multi-page, and hybrid web apps with Express.",
+    "coverImageUrl": "./fa50d6bec7065a557f93ff1ccee308384e327bc7bdc62dab9513ef493759a11f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491949309/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491949309/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

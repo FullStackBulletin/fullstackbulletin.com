@@ -1,0 +1,100 @@
+{
+  "issueNumber": 400,
+  "title": "Ten years of Let’s Encrypt",
+  "slug": "2024-11-25-382-ten-years-of-let-s-encrypt",
+  "date": "2024-11-25",
+  "templateType": "mce-mailchimp",
+  "intro": "Howdy, \nDo you know what Let's Encrypt is? If you've ever browsed a website with that little padlock icon in the address bar in the last 10 years, chances are it’s thanks to Let's Encrypt. This free, automated, and open certificate authority has made it simple for websites to adopt HTTPS, ensuring secure connections for users everywhere.  \n\nExactly 10 years ago today, Let's Encrypt made its debut, introducing a game-changing idea that forever altered the web's security landscape. I still remember the days before Let's Encrypt (I am old!) and how this initiative democratized access to SSL and TLS certificates, which were once cumbersome, expensive, and out of reach for most website owners. For years, the prohibitive costs and technical hurdles made securing websites a luxury rather than a standard practice—something that, in hindsight, feels unjustifiable.  \n\nIMHO Let’s Encrypt not only made HTTPS accessible but also sparked a movement that raised the bar for internet safety, making the web a better place for all of us. It’s a shining example of how technology, when wielded with purpose, can create sweeping, positive change.  \n\nAs we celebrate this milestone, let’s also take a moment to honor [Peter Eckersley](https://en.wikipedia.org/wiki/Peter_Eckersley_(computer_scientist)), one of Let’s Encrypt’s co-founders, whose vision and efforts helped make this possible. Peter passed away in 2022, but his contributions live on, securing millions of websites worldwide.  \n\nHere’s to the kind of bold ideas that make technology a force for good, reminding us that a brighter, safer web is within reach when innovation meets generosity. I hope the rest of the curated content in this newsletter will keep you informed and inspired. Mastering the world of full-stack development and staying up-to-date with the infinite news in web development can feel daunting, but let’s tackle it together—with passion and purpose.\n\nYour editor, [Luciano](https://loige.co/) (who is also on [Bluesky](https://bsky.app/profile/loige.co), BTW)\n\nPS: one of my favourite [Programmer Humor jokes](https://www.reddit.com/r/ProgrammerHumor/comments/7x2ugb/lets_encrypt/) is relevant here! 🤣",
+  "quote": {
+    "text": "Imagination is the Discovering Faculty, pre-eminently. It is that which penetrates into the unseen worlds around us, the worlds of Science“",
+    "author": "Ada Lovelace",
+    "authorTitle": "Mathematician",
+    "authorUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+  },
+  "links": [
+    {
+      "title": "10 years of Let’s Encrypt",
+      "url": "https://letsencrypt.org/2014/11/18/announcing-lets-encrypt",
+      "description": "If you are curious to see the post that, exactly 10 years ago, marked the debut of Let's Encrypt, here you have it!",
+      "imageUrl": "./b8e39815016e0d2f55c6a79a778204c027473a95e9724d3b3cfcee54646467c5.png",
+      "featured": true
+    },
+    {
+      "title": "Revamping a Five-Year Old Node.js Project",
+      "url": "https://dongdongzhang.me/blog/post-revamping-a-five-year-old-nodejs-project/",
+      "description": "Last week, we featured this article on revamping a five-year-old Node.js project, but unfortunately, the link was broken—sorry about that! Big thanks to [David](https://bsky.app/profile/rootothez.bsky.social) for pointing it out. This time, it should work! The article dives into how small, focused updates and smart decisions can breathe new life into an aging codebase. You'll find some valuable insights here if you're currently wrestling with technical debt or modernizing old projects.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "CSS Gets a New Logo",
+      "url": "https://michaelcharl.es/aubrey/en/code/new-rebeccapurple-css-logo",
+      "description": "If you're a fan of subtle yet meaningful design in tech, you’ll love Michael Charles' exploration of the new CSS logo inspired by the **rebeccapurple** color. This beautiful tribute to the late Eric Meyer’s daughter Rebecca goes beyond aesthetics—it’s a reminder of the human connections behind the technologies we use every day. The article unpacks the thought process behind the design, what \"rebeccapurple\" represents in the web community, and how logos can embody more than just branding.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What I Wish Someone Told Me About Postgres",
+      "url": "https://challahscript.com/what_i_wish_someone_told_me_about_postgres",
+      "description": "PostgreSQL has become my favorite SQL database—it’s powerful, versatile, and full of rewarding “aha” moments. This article dives into what the author wishes they had known sooner. Think secrets unlocked with `EXPLAIN`, the quirks of `jsonb` vs. `json`, and why embracing constraints can save you big headaches. If you’re working with Postgres, there’s a lot to like here.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "AWS Lambda turns 10",
+      "url": "https://aws.amazon.com/blogs/aws/aws-lambda-turns-ten-the-first-decade-of-serverless-innovation",
+      "description": "And guess what?! We have another 10th birthday: **happy birthday, AWS Lambda**! Lambda has been one of my favorite technologies ever since I started using it back in 2016. Its ability to simplify serverless development and scale effortlessly still amazes me today—and now, I’m even [writing a book about it](https://rust-lambda.com/)! This post from AWS reflects on a decade of serverless innovation, exploring how Lambda has transformed application design and opened up new possibilities for developers everywhere. It’s a great read if you want to dive into how far serverless has come and where it’s headed next. BTW, there's also a [lovely celebration video](https://www.youtube.com/watch?v=oubk8Au4o7c) interviewing some serverless heroes and experts that is also worth a watch!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Ordinary Puzzles",
+      "url": "https://github.com/mmazzarolo/ordinary-puzzles-app",
+      "description": "Last week, I stumbled across this gem: [Ordinary Puzzles](https://ordinarypuzzles.com/). It’s a fantastic, simple, yet very entertaining puzzle game built with React Native and fully open source. You can play it on your mobile or right in your browser—I tried a few sessions on the web, and it's very sleek... though fair warning, it’s a bit addictive 😄. The code is beautifully written and well-documented, making it a great source of inspiration if you’ve been thinking about using your web dev skills to build a game.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "7 Bit Encoding (Parody Music Video)",
+      "url": "https://youtube.com/watch?v=gVeYtlk7IXc",
+      "description": "The entertainment isn’t over! Last week, I stumbled upon this awesome song by the incredible [Dylan Beattie](https://www.youtube.com/@DylanBeattie)—basically Seven Nation Army reimagined for tech nerds. It’s clever, catchy, and the perfect way to unwind for five minutes. If you need a little break or just want to enjoy some tech-themed musical brilliance, you’ve got to check this out! 🎸",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+    "author": "Lea Verou",
+    "description": "In this practical guide, CSS expert Lea Verou provides 47 undocumented techniques and tips to help intermediate-to advanced CSS developers devise elegant solutions to a wide range of everyday web design problems. Rather than focus on design, CSS Secrets shows you how to solve problems with code. You'll learn how to apply Lea's analytical approach to practically every CSS problem you face to attain DRY, maintainable, flexible, lightweight, and standards-compliant results.",
+    "coverImageUrl": "./eb4eb48d11278709a229f070c8e01db1c013344399b2b7a0839c0353af8c0c0f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372635?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372635?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "High-Performance Serverless with Rust",
+      "url": "https://infoq.com/news/2024/11/high-performance-serverless-rust"
+    },
+    {
+      "title": "Making AWS News stupid fast with smart caching",
+      "url": "https://lucvandonkersgoed.com/2024/11/16/making-aws-news-stupid-fast-with-smart-caching"
+    },
+    {
+      "title": "Write collaborative web apps with Hocuspocus",
+      "url": "https://tiptap.dev/docs/hocuspocus/introduction"
+    },
+    {
+      "title": "Refactoring barrel files with codemods",
+      "url": "https://mmazzarolo.com/blog/2024-11-10-removing-barrel-file-references-with-a-codemod"
+    },
+    {
+      "title": "Dependencies vs. devDependencies for JavaScript apps",
+      "url": "https://angelika.me/2024/11/11/dependencies-vs-dev-dependencies-javascript-apps"
+    },
+    {
+      "title": "Managing Timezones in JavaScript Apps",
+      "url": "https://nikgraf.com/blog/managing-timezones-in-javascript-apps"
+    }
+  ],
+  "sponsor": null
+}

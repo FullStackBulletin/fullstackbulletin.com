@@ -1,0 +1,75 @@
+{
+  "issueNumber": 72,
+  "title": "Unix VS Linux",
+  "slug": "2018-07-23-072-unix-vs-linux",
+  "date": "2018-07-23",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #29, 2018",
+  "quote": {
+    "text": "Standards are always out of date.  That’s what makes them standards",
+    "author": "Alan Bennett",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Bennett"
+  },
+  "links": [
+    {
+      "title": "Unix VS Linux",
+      "url": "https://youtu.be/jowCUo_UGts",
+      "description": "Unix was started by Ken Thompson, Dennis Ritchie and some other engineers including Brian Kernighan back in the early 1970s. It has a long and illustrious history. But then Linux came along and things changed. How is Linux different to Unix? Are they the same thing?",
+      "imageUrl": "./ec3c91321cc80f4cd7b935e51f5bbba8b04d6f5a38c37b2f4eb85d8c5329c742.png",
+      "featured": true
+    },
+    {
+      "title": "Web Architecture 101",
+      "url": "https://engineering.videoblocks.com/web-architecture-101-a3224e126947",
+      "description": "The basic architecture concepts I wish I knew when I was getting started as a web developer",
+      "imageUrl": "./1c210704e92685b8b98b68211c67bcd3888439686180af61ead50f480661a60d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building the Google Photos Web UI",
+      "url": "https://medium.com/google-design/google-photos-45b714dfbed1",
+      "description": "A technical write up about how Google solved the challenges of designing a web app to visualize and manage large photo collections. A real peek under the hood of how the web version of Google Photos works.",
+      "imageUrl": "./e944d9d635ad26fd2f7fbf321337e364dba70173fee3a22bffa68980827cda88.jpg",
+      "featured": false
+    },
+    {
+      "title": "React Native: A retrospective",
+      "url": "https://engineering.udacity.com/react-native-a-retrospective-from-the-mobile-engineering-team-at-udacity-89975d6a8102",
+      "description": "The mobile team at Udacity recently removed the last features in our apps using React Native. Here's what worked and what didn't.",
+      "imageUrl": "./7831dce5fcd30a5a3e294f6c789295b1438c1f556201edd3539313560ee8b4fc.jpg",
+      "featured": false
+    },
+    {
+      "title": "15 HTML element methods you’ve potentially never heard of",
+      "url": "https://hackernoon.com/15-html-element-methods-youve-potentially-never-heard-of-fc6863e41b2a",
+      "description": "15 HTML element methods you can use to inspect and manipulate the DOM that you probably didn't know. Very interesting to improve your knowledge of how the web actually works.",
+      "imageUrl": "./85f087185400dbdb1e62aef640265c2fbbf0ff83df7e60b37b5dbfe7cb49c012.jpg",
+      "featured": false
+    },
+    {
+      "title": "Pattern Library First: An Approach For Managing CSS",
+      "url": "https://smashingmagazine.com/2018/07/pattern-library-first-css",
+      "description": "CSS can be hard to manage across a project, especially when you need to include media queries for various breakpoints and fallbacks for older browsers. In this article, we will take a look at using Fractal to manage components which use CSS Grid.",
+      "imageUrl": "./bdf9c4d820e242cc0a6aff07fa67e71b3943453adb1edf98c23cf80ab3fe1b1c.png",
+      "featured": false
+    },
+    {
+      "title": "The CSS Paint API",
+      "url": "https://css-tricks.com/the-css-paint-api",
+      "description": "The CSS Paint API is extremely exciting, not only for what it is, but what it represents, which is the beginning of a very exciting time for CSS.",
+      "imageUrl": "./b198eeebbe7ee3aa91ec51d72c5424905d228e97bb8da6ebe349811434e62487.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Irresistible APIs: Designing web APIs that developers will love",
+    "author": "Kirsten Hunter",
+    "description": "Well-designed APIs feel like a natural extension of the application, rather than just a new interface into the backend database. Designing Web APIs based on use cases allows an organization to develop irresistible APIs, which developers can consume easily and which support the business values of that organization.",
+    "coverImageUrl": "./30b0a33a50dce31e700a6e019b8e0d6136b4e6d656592cb23358dc5b945f4c2a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617292559/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617292559/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 14,
+  "title": "A Beginner’s Guide to Website Speed",
+  "slug": "2017-06-12-014-a-beginner-s-guide-to-website-speed",
+  "date": "2017-06-12",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #23, 2017",
+  "quote": {
+    "text": "Good programmers use their brains, but good guidelines save us having to think out every case",
+    "author": null,
+    "authorTitle": "Author",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "A Beginner’s Guide to Website Speed Optimization",
+      "url": "https://kinsta.com/learn/page-speed",
+      "description": "In-depth website speed optimization guide that shows you how important it is to have a snappy website. DIY instructions and tricks to improve load times.",
+      "imageUrl": "./79072666a6952e4d9c9a1d5d41ad6eddaa1c147b7e83441087ab2d95c590f3a4.jpg",
+      "featured": true
+    },
+    {
+      "title": "Will PHP die out in 2017?",
+      "url": "https://quora.com/Will-PHP-die-out-in-2017",
+      "description": "Stack Overflow just published their Stack Overflow Developer Survey 2017 to see where the trends are leading. PHP is still holding a respectable slot. In this Quora question, you will have some opinion about the future of (still) the most common language on the web.",
+      "imageUrl": "./3208f9e7c5f5089fc40c171f1ebbb3fe796d23db604f7dc52928875c19db5ce9.png",
+      "featured": false
+    },
+    {
+      "title": "Enough with the microservices",
+      "url": "https://aadrake.com/posts/2017-05-20-enough-with-the-microservices.html",
+      "description": "Don’t even consider microservices unless you have a system that’s too complex to manage as a monolith. The majority of software systems should be built as a single monolithic application. Do pay attention to good modularity within that monolith, but don’t try to separate it into separate services.",
+      "imageUrl": "./c69adb16b9ab56e0710baad2415e7eebf09e20c119a8b0ec0d345c61bbb46747.jpg",
+      "featured": false
+    },
+    {
+      "title": "Best Practices For Hero Images",
+      "url": "https://blogs.adobe.com/creativecloud/best-practices-for-hero-images/",
+      "description": "When users come to your page, they’ll feel some kind of reaction. Whether it’s positive or negative, that reaction is determined in large part by what they see. A hero image is one of the fastest ways to grab the user’s attention. In this article, you'll learn few tips on using hero images effectively.",
+      "imageUrl": "./7aa18ab49f3c7022228637462467b5445abaa694e24b759c44b53c5ec619f208.jpg",
+      "featured": false
+    },
+    {
+      "title": "Creating Better, Faster And More Optimized WordPress Websites",
+      "url": "https://www.smashingmagazine.com/2017/06/better-faster-optimized-wordpress-websites/",
+      "description": "A list of bad web practices and recommendations on what not to do on your Wordpress site. Some of these range from beginner mistakes to more complex issues. A lot of these can be the difference between having a successful WordPress site and a failure.",
+      "imageUrl": "./f68d2ca7cd301b613ba1e9a2cf7338f745caca9510f9720b23733f65637d8e3b.png",
+      "featured": false
+    },
+    {
+      "title": "slap-editor/slap",
+      "url": "https://github.com/slap-editor/slap",
+      "description": "A new terminal text editor that aims to be as simple and friendly as Sublime. And there's more... It's written in JavaScript!",
+      "imageUrl": "./034de390e4a3d1c89ec517c5df6a5bdcb84e30de651f37605f24a0cc4d5788fc.png",
+      "featured": false
+    },
+    {
+      "title": "The Modern Javascript Tutorial",
+      "url": "http://javascript.info/",
+      "description": "The modern JavaScript tutorial is a website that provides simple, but detailed explanations with examples and tasks, including: closures, document and events, object oriented programming and more.",
+      "imageUrl": "./3b29fc200bfa7e89946c4b0b822be5c297975479528edfce4c6dc702ac624c9c.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Getting Started with hapi.js",
+    "author": "John Brett",
+    "description": "This book will introduce hapi.js and walk you through the creation of your first working application using the out-of-the-box features hapi.js provides. Packed with real-world problems and examples, this book introduces some of the basic concepts of hapi.js and Node.js and takes you through the typical journey you'll face when developing an application. Starting with easier concepts such as routing requests, building APIs serving JSON, using templates to build websites and applications, and connecting databases, we then move on to more complex problems such as authentication, model validation, caching, and techniques for structuring your codebase to scale gracefully.",
+    "coverImageUrl": "./d31bcb4e84d816e5d5fcc91de57a73e2d10b8c811815001c4ed2997d6b526a79.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785888188/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785888188/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

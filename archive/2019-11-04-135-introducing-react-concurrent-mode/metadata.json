@@ -1,0 +1,75 @@
+{
+  "issueNumber": 135,
+  "title": "Introducing React Concurrent Mode",
+  "slug": "2019-11-04-135-introducing-react-concurrent-mode",
+  "date": "2019-11-04",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #44, 2019",
+  "quote": {
+    "text": "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human",
+    "author": "Alan Turing",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Turing"
+  },
+  "links": [
+    {
+      "title": "Introducing React Concurrent Mode",
+      "url": "https://reactjs.org/docs/concurrent-mode-intro.html",
+      "description": "The React team recently announced Concurrent Mode, a set of experimental features that help React apps stay responsive and gracefully adjust to the user’s device capabilities and network speed.",
+      "imageUrl": "./747e3af716ef814b1651d0c03fc355d4f8b5d0d26430e08cb9714d97822862f8.jpg",
+      "featured": true
+    },
+    {
+      "title": "GRID: A simple visual cheatsheet for CSS Grid Layout",
+      "url": "http://grid.malven.co/",
+      "description": "Learn all about the properties available in CSS Grid Layout through simple visual examples.",
+      "imageUrl": "./82bc9584f980187e244dedd1ed025b21e63ab7671e44a65ed85a346d22f0a401.jpg",
+      "featured": false
+    },
+    {
+      "title": "HTMHell - Markup from hell",
+      "url": "https://htmhell.dev/",
+      "description": "A collection of bad practices in HTML, copied from real websites. A very good throw back just after Halloween 🎃",
+      "imageUrl": "./ed2f1fe8433af9073ce67cc0ff068da17fb6be35f722af4bd8785441226e6215.jpg",
+      "featured": false
+    },
+    {
+      "title": "What Developers Should Actually Learn In College",
+      "url": "https://cdevn.com/what-developers-should-actually-learn-in-college",
+      "description": "Values of lines of code, good or bad languages, reading other people's code, perfect coding, upskilling at work and a bunch of other important things that your professor won't tell you.",
+      "imageUrl": "./00fd55a7ae9b4fd824e1293f6b790ab0c669bc07d2872de4d6aaaab92c4d209f.png",
+      "featured": false
+    },
+    {
+      "title": "SWR: React Hooks for Remote Data Fetching",
+      "url": "https://swr.now.sh/",
+      "description": "SWR is a React Hooks library for remote data fetching. SWR first returns the data from cache (stale), then sends the fetch request (revalidate), and finally comes with the up-to-date data again.",
+      "imageUrl": "./297bdcc443dac1320958f915d428deeccbb16e7ec995767e8a671dda3381c343.jpg",
+      "featured": false
+    },
+    {
+      "title": "Getting started with security keys",
+      "url": "https://paulstamatiou.com/getting-started-with-security-keys",
+      "description": "How to stay safe online and prevent phishing with FIDO2, WebAuthn and security keys. A look into YubiKeys, TOTP authenticator apps, passwordless and more.",
+      "imageUrl": "./2a5830486350a6c7660ac502cf6923b3cecbd15f63d1dd2db3259d5b70c5d190.jpg",
+      "featured": false
+    },
+    {
+      "title": "Migrate Your AWS Lambda Functions to Kubernetes with OpenFaaS",
+      "url": "https://openfaas.com/blog/lambda-to-openfaas",
+      "description": "Burton explains the steps for migrating an existing AWS Lambda function to OpenFaaS and Kubernetes to gain portability and additional functionality.",
+      "imageUrl": "./89b0ba391a61eb23cab9aace35d1478e4498a5bc5f212139c09c9c739a4dd06d.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise",
+    "author": "Martin L. Abbott and Michael T. Fisher",
+    "description": "Writing for technical and nontechnical decision-makers, Abbott and Fisher cover everything that impacts scalability, including architecture, process, people, organization, and technology. Their insights and recommendations reflect more than thirty years of experience at companies ranging from eBay to Visa, and Salesforce.com to Apple. You’ll find updated strategies for structuring organizations to maximize agility and scalability, as well as new insights into the cloud (IaaS/PaaS) transition, NoSQL, DevOps, business metrics, and more. Using this guide’s tools and advice, you can systematically clear away obstacles to scalability–and achieve unprecedented IT and business performance.",
+    "coverImageUrl": "./27758fc426f7d2d06617adef6757d946de680ad0276de90acaaf5ee4c6715d29.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134032802/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134032802/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

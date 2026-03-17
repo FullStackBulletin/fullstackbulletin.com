@@ -1,0 +1,75 @@
+{
+  "issueNumber": 96,
+  "title": "Security Checklist",
+  "slug": "2019-01-21-096-security-checklist",
+  "date": "2019-01-21",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #3, 2019",
+  "quote": {
+    "text": "All of the biggest technological inventions created by man - the airplane, the automobile, the computer - says little about his intelligence, but speaks volumes about his laziness",
+    "author": "Mark Kennedy",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Mark_Kennedy"
+  },
+  "links": [
+    {
+      "title": "Security Checklist",
+      "url": "https://securitycheckli.st/",
+      "description": "As a FullStack developer, you are probably more security conscious than the average web user. But security is never enough, so with this checklist you can make sure you are following a set of minimum security recommendations to be safe on the web. Share it also with your non-developer friends!",
+      "imageUrl": "./815b0b5ac4466762acf5709e6337a2670af1f5c7eb7e5346f720b2e2e177c19b.jpg",
+      "featured": true
+    },
+    {
+      "title": "anime.js",
+      "url": "https://animejs.com/",
+      "description": "*Anime.js* (`/ˈæn.ə.meɪ/`) is a lightweight JavaScript animation library with a simple, yet powerful API.\n\nIt works with CSS properties, SVG, DOM attributes and JavaScript Objects.",
+      "imageUrl": "./614cc6820b8eb2e87be8aa49bc3a5996680bf0358687bdcb4659fc29451d855c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Node.js & JavaScript Testing Best Practices",
+      "url": "https://medium.com/@me_37286/yoni-goldberg-javascript-nodejs-testing-best-practices-2b98924c9347",
+      "description": "30+ best practices for better Node JS & JavaScript testing, continuous integration (CI), and overall quality.",
+      "imageUrl": "./d32f767d03da3a06e6afe7d2697476ff7316678bf497e6eea192184aa71d5d5c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Aliasing module paths in Node JS",
+      "url": "https://arunmichaeldsouza.com/blog/aliasing-module-paths-in-node-js",
+      "description": "Typing out long and error-prone paths to your Node JS modules can be a daunting task! Even with code-completion features like IntelliSense in place (which is supported by almost every IDE or text editor), this can become more challenging as your codebase grows. This article explores a technique that can help you solving this problem.",
+      "imageUrl": "./6ea179782febd942b5c736018c4b4c42d096a619d1f24992bfdccb63b9afbae8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Front-End Performance Checklist 2019",
+      "url": "https://smashingmagazine.com/2019/01/front-end-performance-checklist-2019-pdf-pages",
+      "description": "Let’s make 2019 fast with a front-end performance checklist (PDF/Apple Pages/MS Word) that contains everything you need to know to create fast web experiences today.",
+      "imageUrl": "./ced2d1be3997b9998e70e36db4b87b1a19aba649cf17b5f1b874d90b4a97c54f.png",
+      "featured": false
+    },
+    {
+      "title": "8 Productivity Tips for GitHub",
+      "url": "https://dev.to/_darrenburns/8-productivity-tips-for-github-44kn",
+      "description": "A collection of tips and tricks that'll improve your GitHub productivity.",
+      "imageUrl": "./d74379f30d68b5f8808a83fa19ff55744bf1d77a2a2b8de44b5f5038659c8446.jpg",
+      "featured": false
+    },
+    {
+      "title": "GitExplorer",
+      "url": "https://gitexplorer.com/",
+      "description": "GitExplorer: Find the right git commands you need without digging through the web",
+      "imageUrl": "./bde126aaf6c5d80d668be46894b32685434f851ef7d91a40b6ddc2d41c87ae26.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Designing Interfaces: Patterns for Effective Interaction Design",
+    "author": "Jenifer Tidwell",
+    "description": "Despite all of the UI toolkits available today, it's still not easy to design good application interfaces. This bestselling book is one of the few reliable sources to help you navigate through the maze of design options.",
+    "coverImageUrl": "./efd3a4879002fbb37a1b94c9c3a347059c5bfc0661f163c8e89164fe5c872c8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449379702/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449379702/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

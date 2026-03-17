@@ -1,0 +1,116 @@
+{
+  "issueNumber": 345,
+  "title": "System Design Primer: Design large-scale systems",
+  "slug": "2023-11-06-330-system-design-primer-design-large-scale-systems",
+  "date": "2023-11-06",
+  "templateType": "mce-mailchimp",
+  "intro": "Howdy, *|LIST:NAME|*\n... and welcome back for issue #345!\n\nLast week has been quite intense for me! We had the great pleasure of interviewing [Jeremy Daly about all things serverles](https://awsbites.com/102-getting-ampt-with-jeremy-daly/)s at AWS Bites, I have been working on a new open-source project implementing a [custom OIDC authorizer for API Gateway](https://github.com/lmammino/oidc-authorizer) (please give me a star on GitHub), and I even wrote a article about what I learned [debugging custom APIGateway authorizers](https://loige.co/debugging-custom-apigateway-authorizers/).\n\nThis week I will have a lot of FOMO for missing the awesome NodeConfEU (probably the coolest Node.js conf in Europe), but let me console myself with some cool FullStack content, which, hopefully, you'll find interesting too!\n\nWithout further ado, let's get into it!",
+  "quote": {
+    "text": "Beware of bugs in the above code; I have only proved it correct, not tried it“",
+    "author": "Donald Knuth",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Donald_Knuth"
+  },
+  "links": [
+    {
+      "title": "System Design Primer: Design large-scale systems",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "description": "A fantastic GitHub repository that collects a huge amount of resources that can teach you how to design large-scale systems. This is something that can be extremely useful if you are looking for your next step in your FullStack career and you want to move to more architecture-oriented roles, or simply if you want to give more breadth to your engineering views and learn what it takes to build scalable systems.",
+      "imageUrl": "./be06ba6bf624ebb61104abe3793fd4afefff6384d8bdd134969005bdb35b57df.png",
+      "featured": true
+    },
+    {
+      "title": "Can Next.js Handle 5000 Pages?",
+      "url": "https://dev.to/codebeast/can-nextjs-handle-5000-pages-1ejn",
+      "description": "If you are a fan of Next.js you might enjoy this tutorial showing you how you can build a Next.js website with 5000 different pages and how to host that on AWS. In the process, you will also learn whether Next.js can scale to these numbers and why... I am not going to give you any spoilers, you'll have to go and read the article to find out 😛",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Announcing WinterJS",
+      "url": "https://wasmer.io/posts/announcing-winterjs-service-workers",
+      "description": "Who needs another JavaScript runtime? NOBODY! Oh wait, this one promises compatibility with the [WinterCG](https://wintercg.org/) specification, and it can be compiled into WebAssembly... so it's actually quite interesting! And I didn't even say that it uses SpiderMonkey and that it is written in Rust! OK, go check it out and see what you can build with it...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Use PHP code right within your React App. With \"use php\"",
+      "url": "https://github.com/bufferhead-code/nextjs-use-php",
+      "description": "Have you ever wanted to use PHP code right into your React components? NO! WHY NOT?! Come on! Okay, this is a bit of a prank project, but the crazy thing is that it actually works. Not kidding, you can really use PHP in your React components thanks to React server components' black magic! If you think this is crazy, you haven't seen the implementation for [C](https://github.com/elnardu/react-use-c) and [Rust](https://github.com/elnardu/react-use-rust) yet ...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Release: Yarn 4.0",
+      "url": "https://yarnpkg.com/blog/release/4.0",
+      "description": "After more than a year of work the Yarn team releases a stable version of the 4.x release line! This version comes with some interesting features. Perhaps the most interesting is the [constraint engine](https://yarnpkg.com/features/constraints) (written in a JavaScript Prolog!) which lets you define arbitrary rules for your workspaces. For instance, you could say that all projects in the workspace need to use the same version of a specific dependency. But that's not the only reason why you should consider upgrading if you use Yarn... Another good reason is that v4 is significantly faster than the previous versions...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Flappy Bird Implemented in Typescript types",
+      "url": "https://zackoverflow.dev/writing/flappy-bird-in-type-level-typescript",
+      "description": "TypeScript annotations are known to be quite powerful. In fact, they are a Turing-complete language, which means that you can technically build anything you want with them (it's not necessarily easy, but you still can!)... Now this brings people to do all sorts of crazy experiments, like building a fully-fledged Flappy Bird game just with TypeScript types... Before reading this article you couldn't even fathom how this would be possible, but now I can and maybe that's going to be useful to me, one day...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "WebAuthn.wtf",
+      "url": "https://webauthn.wtf/",
+      "description": "WebAuthn (short for Web Authentication) is an API specification that enables applications to use strong and secure authentication methods for user registration and login. It provides a way for end users to authenticate themselves using hardware- or software-based authenticators, such as USB security keys or secure hardware elements integrated with a laptop or mobile device, instead of relying solely on passwords. This is probably going to be the future of authentication on the web, and this website does a great job at teaching you everything you need to know about the standard and how you can integrate it today into your apps.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "You Don't Know JS: ES6 & Beyond",
+    "author": "Kyle Simpson",
+    "description": "As part of the \"You Don’t Know JS\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built. Learn new ES6 syntax that eases the pain points of common programming idioms. Organize code with iterators, generators, modules, and classes. Express async flow control with Promises combined with generators. Use collections to work more efficiently with data in structured waysLeverage new API helpers, including Array, Object, Math, Number, and String. Extend your program’s capabilities through meta programming.",
+    "coverImageUrl": "./dc82d3e22d7d2516883c5adc587d3a8817d011c764cda892712040ff1b3ea3e1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491904240/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491904240/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Goodbye, Node.js Buffer",
+      "url": "https://sindresorhus.com/blog/goodbye-nodejs-buffer"
+    },
+    {
+      "title": "Test Assertion Styles in JavaScript",
+      "url": "https://blog.izs.me/2023/09/software-testing-assertion-styles"
+    },
+    {
+      "title": "How the Wikimedia Foundation Balances Security and Open Information in Web Development",
+      "url": "https://openjsf.org/blog/2023/10/05/wikimedia-case-study"
+    },
+    {
+      "title": "Speeding up the JavaScript ecosystem - Tailwind CSS",
+      "url": "https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8"
+    },
+    {
+      "title": "Building a Generic RSS Parser Service with Cloudflare Workers",
+      "url": "https://raymondcamden.com/2023/10/31/building-a-generic-rss-parser-service-with-cloudflare-workers"
+    },
+    {
+      "title": "browser-window Web Component",
+      "url": "https://zachleat.com/web/browser-window"
+    },
+    {
+      "title": "Confusing git terminology",
+      "url": "https://jvns.ca/blog/2023/11/01/confusing-git-terminology"
+    },
+    {
+      "title": "Getting Ampt with Jeremy Daly",
+      "url": "https://awsbites.com/102-getting-ampt-with-jeremy-daly/"
+    },
+    {
+      "title": "Debugging custom ApiGateway authorizers",
+      "url": "https://loige.co/debugging-custom-apigateway-authorizers"
+    },
+    {
+      "title": "The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway",
+      "url": "https://www.alexdebrie.com/posts/lambda-custom-authorizers/"
+    }
+  ],
+  "sponsor": null
+}

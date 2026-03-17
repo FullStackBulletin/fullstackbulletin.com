@@ -1,0 +1,75 @@
+{
+  "issueNumber": 136,
+  "title": "htop explained",
+  "slug": "2019-11-11-136-htop-explained",
+  "date": "2019-11-11",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #45, 2019",
+  "quote": {
+    "text": "Technology feeds on itself. Technology makes more technology possible",
+    "author": "Alvin Toffler",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alvin_Toffler"
+  },
+  "links": [
+    {
+      "title": "htop explained",
+      "url": "https://peteris.rocks/blog/htop",
+      "description": "Explanation of everything you can see in htop/top on Linux",
+      "imageUrl": "./bc66adef568bd3e47c078b3b4a65edf609d0e0b18af6c27933447276342f431d.jpg",
+      "featured": true
+    },
+    {
+      "title": "SSH Handshake Explained",
+      "url": "https://gravitational.com/blog/ssh-handshake-explained",
+      "description": "Secure Shell (SSH) is a widely used Transport Layer Protocol to secure connections between clients and servers. In this article, we walk through how SSH really works.",
+      "imageUrl": "./75a66e6e37a9c576108dad2cd097fca06aa8fdb89e6d6b2ced52eff42cd0408a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Developing and deploying Node.js apps in Kubernetes",
+      "url": "https://learnk8s.io/nodejs-kubernetes-guide",
+      "description": "Learning how to design and architect applications that leverage Kubernetes is the most valuable skill that you could learn to be successful in deploying and scaling your traffic to millions of requests and beyond.",
+      "imageUrl": "./28fc98387c60c5e13ddd65fea2c090e1a019c9e9f14c20e1525408380ebfb053.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Svelte Handbook",
+      "url": "https://freecodecamp.org/news/the-svelte-handbook",
+      "description": "Quickly learn Svelte and get familiar with how it works.",
+      "imageUrl": "./2a2e9550cd93112e340ef0e3a2aa446d151afd8fdbcb86ff9ae32aa3c57881c5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Hacking JSON Web Tokens (JWTs)",
+      "url": "https://medium.com/swlh/hacking-json-web-tokens-jwts-9122efe91e4a",
+      "description": "Some of the ways attackers can forge JWT tokens to corrupt systems or log in as someone else.",
+      "imageUrl": "./ae6734a2966ccc4e630432f17c4b1772b2dcfae8d153bd4b7e42c1149c9c05d7.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript Promises: Zero To Hero",
+      "url": "https://medium.com/dailyjs/javascript-promises-zero-to-hero-plus-cheat-sheet-64d75051cffa",
+      "description": "Native JavaScript promises explained how I wish they were explained to me — plus a handy cheat sheet.",
+      "imageUrl": "./4b7d2a649d9b3165332d221942ff830647167d3410d5219c6402a0b584e4411c.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Five Senses of UX",
+      "url": "https://medium.com/hubspot-product/the-five-senses-of-ux-447968f62760",
+      "description": "We build better experiences when we’re more fully alive to how our users are feeling and engaging with the product we build.",
+      "imageUrl": "./f422899dcff08a43c545ce4ef6bf85ba46b8919f1f86c37a05adec9b455d38d2.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Node.js Design Patterns - Second Edition",
+    "author": "Mario Casciaro and Luciano Mammino",
+    "description": "Get the best out of Node.js by mastering  its most powerful components and patterns to create modular and scalable applications with ease. Create reusable patterns and modules by leveraging the new features of Node.js. Understand  the asynchronous single thread design of node and grasp all its features and patterns to take advantage of various functions. This unique guide will help you get the most out of Node.js and its ecosystem.",
+    "coverImageUrl": "./374eb1f17899892bde81fb2a441759d118834d10c4a0c7dbcac5aed5fa2cfa8f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785885588/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785885588/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,124 @@
+{
+  "issueNumber": 371,
+  "title": "React 19 Beta",
+  "slug": "2024-05-06-354-react-19-beta",
+  "date": "2024-05-06",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #371.\n\nIn this issue, we unveil the highly anticipated **React 19 Beta**and delve into the game-changing features of **Node.js 22**. But there's more, like an insightful article on software design principles, HTML attributes versus DOM properties, and innovative techniques to detect JavaScript support in CSS. So, Get ready to be inspired, informed, and empowered in your full-stack journey 🚀✨\n\n*P.S.* On a bit of personal news, this week I'll be speaking in Copenhagen at the [AWS Community Days Nordics](https://awscommunitynordics.org/communityday/). If you will be there or just around Copenhagen, let me know, I'd love to chat with you in person!\n\n— Your editor, [Luciano](https://twitter.com/loige)",
+  "quote": {
+    "text": "The great growling engine of change - technology“",
+    "author": "Alvin Toffler",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alvin_Toffler"
+  },
+  "links": [
+    {
+      "title": "React 19 Beta",
+      "url": "https://react.dev/blog/2024/04/25/react-19",
+      "description": "The first beta release of the highly anticipated React 19 is finally available on NPM. Why is this new release so exciting? It comes with some improvements and a few interesting new features such as **actions**, **transitions**, new **hooks**,  and a new generalised **`use()`** hook to handle resource loading. But there's more, so check out the docs if you are curious to start dipping your toes in this new version of React.",
+      "imageUrl": "./7fd3a76f4a0a34aed92f734bea5aec3c86b51b076bac4f05d17af3435e7c5685.png",
+      "featured": true
+    },
+    {
+      "title": "Node.js 22",
+      "url": "https://nodejs.org/en/blog/announcements/v22-release-announce",
+      "description": "OK, time for another big announcement for the JavaScript lovers. This time we go on the backend to talk about Node.js 22 which was released last week... and it's a biggie! IMHO, the most exciting thing in this release is the ability to be able to use require() with EcmaScript Modules (under certain constraints). This promises to reduce the burden when it comes to publishing new libraries and it's another step forward to the mass adoption of ESM. Other interesting things are: a new built-in WebSocket client, updates of the V8 JavaScript engine, and more!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "HTML attributes vs DOM properties",
+      "url": "https://jakearchibald.com/2024/attributes-vs-properties",
+      "description": "They're completely different, but often coupled. And that's why they can be a common source of confusion. In this great article, [Jake Archibald](https://twitter.com/jaffathecake) demystifies them for us providing a few interesting examples.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "4 Software Design Principles I Learned the Hard Way",
+      "url": "https://read.engineerscodex.com/p/4-software-design-principles-i-learned",
+      "description": "Last week I really enjoyed reading this piece by Engineering Codex about 4 software design principles that we should know and love: maintain one source of truth, repeat yourself (please!), don't abuse mocks, and minimise mutable state. A bit of a random collection, but nonetheless, something we should think about when building our ambitious full-stack projects!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Front End Developer Handbook 2024",
+      "url": "https://frontendmasters.com/books/front-end-handbook/2024",
+      "description": "We already featured this one a few months back but I keep finding myself coming over to this one and I thought it would deserve another shot in case you had missed it! This FREE handbook provides an in-depth overview of the skills, tools, and technologies necessary to excel as a front-end developer in 2024.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Detect JavaScript Support in CSS",
+      "url": "https://ryanmulligan.dev/blog/detect-js-support-in-css",
+      "description": "Why can't we use CSS media queries to detect if JavaScript is enabled in the user browser? Wait a sec... now we can! This article shows us what this new media query looks like and a few useful examples of when and how we could leverage this for our designs!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Native Support for CJS/ESM Interoperability Begins in Node.js 22",
+      "url": "https://zacharylee.substack.com/p/native-support-for-cjsesm-interoperability",
+      "description": "Now You Can `require(ESM)`. We already mentioned this in the Node.js 22 news. But this is such a cool thing that it deserves its spotlight and a dedicated article with more background and some code examples.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Node Cookbook: Discover solutions, techniques, and best practices for server-side web development with Node.js 14",
+    "author": "Bethany Griggs",
+    "description": "A key technology for building web applications and tooling, Node.js brings JavaScript to the server enabling full-stack development in a common language. This fourth edition of the Node Cookbook is updated with the latest Node.js features and the evolution of the Node.js framework ecosystems. This practical guide will help you to get started with creating, debugging, and deploying your Node.js applications and cover solutions to common problems, along with tips to avoid pitfalls. You'll become familiar with the Node.js development model by learning how to handle files and build simple web applications and then explore established and emerging Node.js web frameworks such as Express.js and Fastify. As you advance, you'll discover techniques for detecting problems in your applications, handling security concerns, and deploying your applications to the cloud. This recipe-based guide will help you to easily navigate through various core topics of server-side web application development with Node.js. By the end of this Node book, you'll be well-versed with core Node.js concepts and have gained the knowledge to start building performant and scalable Node.js applications.",
+    "coverImageUrl": "./dfe91f1334708f8c9f35515b9579fefa145d9435f1321829a47797334331a016.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1838558756?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1838558756?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "The problem with new URL(), and how URL.parse() fixes that",
+      "url": "https://kilianvalkhof.com/2024/javascript/the-problem-with-new-url-and-how-url-parse-fixes-that"
+    },
+    {
+      "title": "Bloom: component library for Elixir Phoenix",
+      "url": "https://bloom-ui.fly.dev/"
+    },
+    {
+      "title": "Secret LLama, run an LLM in the browser, offline!",
+      "url": "https://github.com/abi/secret-llama"
+    },
+    {
+      "title": "Figma’s journey to TypeScript: Compiling away our custom programming language",
+      "url": "https://www.figma.com/blog/figmas-journey-to-typescript-compiling-away-our-custom-programming-language/"
+    },
+    {
+      "title": "The Nature of Code: a book about interesting algorithms, freely readable online!",
+      "url": "https://natureofcode.com/"
+    },
+    {
+      "title": "A single DIV: a CSS drawing project",
+      "url": "https://a.singlediv.com/"
+    },
+    {
+      "title": "A year of publishing the MDN Blog",
+      "url": "https://developer.mozilla.org/en-US/blog/mdn-blog-one-year-on/"
+    },
+    {
+      "title": "How to use JSON Path",
+      "url": "https://bump.sh/blog/how-to-use-json-path"
+    },
+    {
+      "title": "The life and times of an Abstract Syntax Tree",
+      "url": "https://blog.trailofbits.com/2024/05/02/the-life-and-times-of-an-abstract-syntax-tree/"
+    },
+    {
+      "title": "Printing music with CSS Grid",
+      "url": "https://cruncher.ch/blog/printing-music-with-css-grid/"
+    },
+    {
+      "title": "Everything I wish I knew before moving 50,000 lines of code to React Server Components",
+      "url": "https://www.mux.com/blog/what-are-react-server-components"
+    },
+    {
+      "title": "Amazing Databases with Aurora (podcast)",
+      "url": "https://awsbites.com/122-amazing-databases-with-aurora"
+    }
+  ],
+  "sponsor": null
+}

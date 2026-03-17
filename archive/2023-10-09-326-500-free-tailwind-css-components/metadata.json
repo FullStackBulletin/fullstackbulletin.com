@@ -1,0 +1,104 @@
+{
+  "issueNumber": 341,
+  "title": "500+ free Tailwind CSS components",
+  "slug": "2023-10-09-326-500-free-tailwind-css-components",
+  "date": "2023-10-09",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nThis is issue #341 and we have curated for you a collection of awesome full stack content.\n\nBefore I leave you to it, let me just tell you that I am grateful to have you as a subscriber and I hope you keep enjoying this content. If you do, please consider sharing this project on socials and with your friends and colleagues!\n\nThanks ❤️\n\n— Luciano",
+  "quote": {
+    "text": "Languages that try to disallow idiocy become themselves idiotic“",
+    "author": "Rob Pike",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Rob_Pike"
+  },
+  "links": [
+    {
+      "title": "500+ free Tailwind CSS components",
+      "url": "https://tailwind-elements.com/",
+      "description": null,
+      "imageUrl": "./723b3d958895e6015f2a227269dc9db99fcaeb24db70fcfb48fafca2ddb76407.jpg",
+      "featured": true
+    },
+    {
+      "title": "Choose Postgres queue technology",
+      "url": "https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What you need to know about Unicode in 2023",
+      "url": "https://tonsky.me/blog/unicode",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Footer — The only footer gallery on earth.",
+      "url": "https://www.footer.design/",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Upgrading frontend dependencies with confidence",
+      "url": "https://docusaurus.io/blog/upgrading-frontend-dependencies-with-confidence-using-visual-regression-testing",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A Socket API that works across JavaScript runtimes",
+      "url": "http://blog.cloudflare.com/socket-api-works-javascript-runtimes-wintercg-polyfill-connect",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Solving the Engineering Strategy crisis",
+      "url": "https://lethain.com/solving-the-engineering-strategy-crisis",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Clean Coder: A Code of Conduct for Professional Programmers",
+    "author": "Robert C. Martin",
+    "description": "Programmers who endure and succeed amidst swirling uncertainty and nonstop pressure share a common attribute: They care deeply about the practice of creating software. They treat it as a craft. They are professionals. In this book, legendary software expert Robert C. Martin introduces the disciplines, techniques, tools, and practices of true software craftsmanship.",
+    "coverImageUrl": "./1f5196ee832f3707ad69a4dc5cf0c9b3ff01467d98852062955ad942b2ef0732.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0137081073/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0137081073/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Environment variables and configuration anti-patterns in Node.js applications",
+      "url": "https://lirantal.com/blog/environment-variables-configuration-anti-patterns-node-js-applications"
+    },
+    {
+      "title": "Managing the chaos of context-switching",
+      "url": "https://leaddev.com/process/managing-chaos-context-switching"
+    },
+    {
+      "title": "Best Practices for Securing Node.js Applications in Production",
+      "url": "https://semaphoreci.com/blog/securing-nodejs"
+    },
+    {
+      "title": "Why not React?",
+      "url": "https://dev.to/tigt/why-not-react-2f8l"
+    },
+    {
+      "title": "blazingmq: A modern high-performance open-source message queuing system",
+      "url": "https://github.com/bloomberg/blazingmq"
+    },
+    {
+      "title": "Fun with stroke-dasharray",
+      "url": "https://yuanchuan.dev/fun-with-stroke-dasharray"
+    },
+    {
+      "title": "The Uphill Battle of Memoization",
+      "url": "https://tkdodo.eu/blog/the-uphill-battle-of-memoization"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,538 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en"
+      >
+    <head>
+        
+        
+
+
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Language" content="en">
+<meta name="google" content="notranslate" />
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+<meta name="generator" content="Buttondown" />
+<link rel="webmention" href="https://buttondown.com/webmentions/register">
+
+    <meta name="theme-color" content="#06b6d4" />
+    
+
+
+    <link rel="shortcut icon" href="54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+    <link rel="apple-touch-icon" href="54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+        
+    
+
+
+
+
+    <title>🌅 Finding Mr TIFF — FullStack Bulletin #444 • Buttondown</title>
+
+
+    
+<meta name="description" content="Diving deep into the history of TIFF, exploring SSO pricing, writing an AI agent, hacking tooltips, and (a lot) more." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+<meta name="twitter:site" content="@buttondown" />
+<meta name="twitter:title" content="🌅 Finding Mr TIFF — FullStack Bulletin #444" />
+<meta name="twitter:description" content="Diving deep into the history of TIFF, exploring SSO pricing, writing an AI agent, hacking tooltips, and (a lot) more." />
+
+    
+        <link rel="alternate"
+              type="application/rss+xml"
+              title="RSS Feed for 🌅 Finding Mr TIFF — FullStack Bulletin #444"
+              href="/fullstackbulletin/rss" />
+    
+
+<link rel="me" href="https://fullstackbulletin.com" />
+
+    <link rel="sitemap"
+          type="application/xml"
+          title="Sitemap"
+          href="/fullstackbulletin/sitemap.xml" />
+
+<meta property="og:title" content="🌅 Finding Mr TIFF — FullStack Bulletin #444" />
+<meta property="og:description" content="Diving deep into the history of TIFF, exploring SSO pricing, writing an AI agent, hacking tooltips, and (a lot) more." />
+<meta property="og:type" content="website" />
+
+    <meta name="twitter:image" content="https://image-generator.buttondown.email/api/emphasize-subject?subject=%F0%9F%8C%85%20Finding%20Mr%20TIFF%20%E2%80%94%20FullStack%20Bulletin%20%23444&amp;author=FullStack%20Bulletin&amp;date=2025-11-10&amp;img=54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+    <meta property="og:image" content="https://image-generator.buttondown.email/api/emphasize-subject?subject=%F0%9F%8C%85%20Finding%20Mr%20TIFF%20%E2%80%94%20FullStack%20Bulletin%20%23444&amp;author=FullStack%20Bulletin&amp;date=2025-11-10&amp;img=54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+
+
+    
+    <meta property="og:url" content="https://buttondown.com/fullstackbulletin/archive/444-finding-mr-tiff/" />
+    <link rel="alternate"
+          type="application/json+oembed"
+          href="https://buttondown.com/embed?url=https://buttondown.com/fullstackbulletin/archive/444-finding-mr-tiff/"
+          title="🌅 Finding Mr TIFF — FullStack Bulletin #444 / oEmbed" />
+
+<link rel="canonical" href="https://buttondown.com/fullstackbulletin/archive/444-finding-mr-tiff/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "url": "https://buttondown.com/fullstackbulletin/archive/444-finding-mr-tiff/", "mainEntityOfPage": "https://buttondown.com/fullstackbulletin/archive/444-finding-mr-tiff/", "headline": "\ud83c\udf05 Finding Mr TIFF \u2014 FullStack Bulletin #444", "description": "Diving deep into the history of TIFF, exploring SSO pricing, writing an AI agent, hacking tooltips, and (a lot) more.", "image": [], "datePublished": "2025-11-10T17:00:00+00:00", "dateModified": "2025-11-10T17:00:09.750072+00:00", "isAccessibleForFree": true, "author": [{"@type": "Person", "name": "FullStack Bulletin", "url": "https://buttondown.com/fullstackbulletin", "identifier": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": {"@type": "ImageObject", "contentUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "thumbnailUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png"}}], "publisher": {"@type": "Organization", "name": "FullStack Bulletin", "url": "https://buttondown.com/fullstackbulletin", "description": "FullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.", "identifier": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": {"@type": "ImageObject", "contentUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "thumbnailUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png"}}}</script>
+
+
+        
+        
+        <script type="module" crossorigin="" src="https://static-assets.buttondown.com/subscriber_facing_fonts-DU3ilTNG.js"></script>
+<link href="https://static-assets.buttondown.com/preload-helper-HIQHktoD.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/_sentry-release-injection-file-DRmiww3Y.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+        
+        
+            <link rel="stylesheet" href="https://static-assets.buttondown.com/subscriber_facing_modern_css-CaffE7Di.css">
+        
+        
+        <style>
+            :root {
+                --tint-color: #06b6d4;
+                
+                    
+                
+            }
+        </style>
+        
+            <script nonce="gQkTmg3NpghrhSbzH2BqpQ">
+                var VARIANT = "archive_page";
+                
+                
+            </script>
+        
+        
+            <style>article img {
+  max-width: 100%;
+}</style>
+        
+    </head>
+    <body class="route--email">
+        
+
+
+
+        <div class="app-container">
+            <div class="header-navigation-container">
+                <div class="header-navigation">
+                    
+                        <img class="header-brand-icon"
+                             src="54ba1d29-fdc4-4e32-9470-dd844c9be037.png"
+                             alt="FullStack Bulletin logo"
+                             width="24"
+                             height="24" />
+                    
+                    <div class="header-navigation-content">
+                        <h1>
+                            <a class="header-brand" href="https://buttondown.com/fullstackbulletin">
+                                <span class="header-brand-name">FullStack Bulletin</span>
+                            </a>
+                        </h1>
+                        <button class="header-navigation-toggle"
+                                type="button"
+                                aria-label="Toggle navigation menu"
+                                aria-expanded="false">
+                            <svg class="header-navigation-toggle-icon"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <line x1="3" y1="6" x2="21" y2="6"></line>
+    <line x1="3" y1="12" x2="21" y2="12"></line>
+    <line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+                            <svg class="header-navigation-toggle-icon header-navigation-toggle-icon--close"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line>
+    <line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+                        </button>
+                        <div class="header-navigation-overlay" aria-hidden="true"></div>
+                        <nav class="header-navigation-nav" aria-expanded="false">
+                            <div class="header-navigation-nav-handle"></div>
+                            
+                                <a class="header-navigation-link"
+                                   href="/fullstackbulletin/archive/">
+                                    <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" data-slot="icon" class="w-4 h-4">
+    <path d="M7.25 3.688a8.035 8.035 0 0 0-4.872-.523A.48.48 0 0 0 2 3.64v7.994c0 .345.342.588.679.512a6.02 6.02 0 0 1 4.571.81V3.688ZM8.75 12.956a6.02 6.02 0 0 1 4.571-.81c.337.075.679-.167.679-.512V3.64a.48.48 0 0 0-.378-.475 8.034 8.034 0 0 0-4.872.523v9.268Z" />
+</svg>
+
+                                    <div>Archives</div>
+                                </a>
+                            
+                            
+                            
+                            
+                            
+                                <button class="header-navigation-link archive-search-trigger"
+                                        type="button"
+                                        aria-label="Search...">
+                                    <svg width="16"
+     height="16"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="1.5"
+     xmlns="http://www.w3.org/2000/svg">
+    <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+    <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+</svg>
+
+                                    <div>Search...</div>
+                                </button>
+                            
+                            
+                            
+                                <button class="header-navigation-link header-navigation-link--subscribe subscribe-modal-trigger"
+                                        type="button">
+                                    <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" data-slot="icon" class="w-4 h-4">
+    <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+    <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+</svg>
+
+                                    <div>Subscribe</div>
+                                </button>
+                            
+                            
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+    
+
+
+    <div class="email-body-container">
+        <article class="email-body">
+            
+                
+
+
+    <date>
+    
+        November 10, 2025
+    
+    </date>
+
+<h1 class="subject">🌅 Finding Mr TIFF — FullStack Bulletin #444</h1>
+<h2 class="description">Diving deep into the history of TIFF, exploring SSO pricing, writing an AI agent, hacking tooltips, and (a lot) more.</h2>
+
+                
+
+
+<div class="email-body-content ">
+    
+        <p>Howdy, </p>
+<p>This issue turned out more inspirational than I planned, which might be exactly what we all need. Thinking deeply and broadly often moves us further than learning the latest CSS or JavaScript trick. If you are here to stay inspired, you will love this one.</p>
+<p>Still, you will find a few practical pieces to keep you grounded and ready to build for the web. Do not forget to check the extra links at the end. I packed more than usual because I found some gems that were too good to skip.</p>
+<p>Let’s wander a little. Inspiration likes to be found off the path.  <br/>
+— <a href="https://loige.co?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=444-finding-mr-tiff" target="_blank">Luciano</a></p>
+<hr/>
+<blockquote>
+<p>"All of the biggest technological inventions created by man - the airplane, the automobile, the computer - says little about his intelligence, but speaks volumes about his laziness"<br/>
+—<a href="https://en.wikipedia.org/wiki/Mark_Kennedy?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=444-finding-mr-tiff" target="_blank">Mark Kennedy</a>, Author</p>
+</blockquote>
+<hr/>
+<p><a href="https://sso.tax/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=image" rel="noopener noreferrer" target="_blank"><img alt="Newsletter cover, flat-cartoon 16:9: a mysterious figure in a lab coat stands mid-torso in a dark retro computer workshop. Their face is hidden by a glowing question mark. Cyan CRTs cast rim light while several “TIFF” file icons—with folded corners and tiny checkerboard patches—orbit their hands with faint motion streaks. Clean negative space at the top for the title." draggable="false" src="https://assets.buttondown.email/images/89382702-1fc3-45f7-b011-eaee327779f2.jpg?w=960&amp;fit=max"/></a></p>
+<p><a href="https://inventingthefuture.ghost.io/mr-tiff?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank"><strong>Finding Mr TIFF</strong></a> — Have you ever heard of the <a href="https://en.wikipedia.org/wiki/TIFF?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=description" target="_blank"><strong>TIFF</strong> file format</a>? It stands for <em>Tagged Image File Format</em>. It stores high quality raster images with lossless options. It was introduced by Aldus with help from Microsoft in 1986, and is now stewarded by Adobe, which makes it almost four decades old. I used it a few times early in my career (funny to think this format is pretty much as old as me), but that is not the point here. The point, or the question should I say, is <em>who created this format?</em> It is a legit question, and we often forget to credit the people behind the tech that shapes how we work. I was mesmerized reading this story where the author is trying everything to unravel the mystery behind the person who actually created TIFF, which for years was credited to a company rather than a human. I will not spoil it. It is a fascinating and touching read. It sits a little outside our usual full stack beat, yet it is absolutely worth your time. I am sure you will enjoy it. <a href="https://inventingthefuture.ghost.io/mr-tiff?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://sso.tax/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank"><strong>The SSO Wall of Shame</strong></a> — Have you ever found yourself staring at the feature matrix on a SaaS pricing page and thinking <em>"why are some of these features so disproportionately expensive?"</em> Intuitively, the technical cost rarely lines up with the sticker price. Sometimes it feels like luxury pricing: it's expensive... just because they can and somebody is willing to pay for it just to make a problem go away!  SSO is the poster child here, and I have seen some truly wild workarounds inside teams just to dodge that extortion level fee for the feature. Ans SSO is one of those things that should be done right and should be a priority for any team with more than one person! That is why this site hit me right in the feels. <strong>SSO Tax</strong> tracks and calls out products that charge extra for single sign on, highlights companies that include it at no extra cost, gathers community reports, and even gives you a friendly email template to nudge vendors toward fair pricing. If you have been hit by the SSO tax before, I am sure this will resonate with you too. And if you are building a SaaS product, please do not make SSO expensive for no technical reason... Thanks! <a href="https://sso.tax/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://fly.io/blog/everyone-write-an-agent?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank"><strong>You Should Write An Agent</strong></a> — AI Agents are having a moment. This post makes a simple case: you should build one. Not for the hype, but because wiring a tiny LLM loop with a single tool is far easier than it looks, and the exercise teaches you a lot about context, tool design, and where the real engineering work still lives. It walks through a minimal Python loop, adds a small tool, then nudges you to think about context storage, security boundaries, and cost trade offs you will meet in the real world. It is opinionated, practical, and very buildable. It is a bit off topic for our usual full-stack beat, or perhaps not. Maybe the future of building for the web will have us shipping agents alongside our apps. Or maybe we'll write agents that collaborate to create websites on our behalf... Who knows? For now let's just enjoy the exercise and stay open minded. <a href="https://fly.io/blog/everyone-write-an-agent?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://notes.eatonphil.com/2025-02-15-from-web-developer-to-database-developer-in-10-years.html?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank"><strong>From web developer to database developer in 10 years</strong></a> — I have met some ridiculously talented systems engineers in my career, and a few of them quietly (well, sometimes not so quietly) believed that web development is easy, or at least not as worthy as their craft. Like web dev is for simple folks, who can't even fathom the complexity of <em>real</em> software development! Maybe there is a grain of truth in the sense that constraints and failure modes look different. Still, software is software. If you learn the fundamentals and you care deeply, you can cross borders. You do not have to limit yourself to the web craft. That is why this story hit home. It follows a developer who started with web pages in PHP, then kept pulling the thread until it led to writing databases in C and Rust. The journey is patient, curious, and very human. It shows that switching domains does not mean you will be mediocre at both. It can mean you become excellent at one by bringing lessons from the other. Do not let anyone tell you that you cannot go from the browser to the storage engine. Follow your curiosity. Follow your passion. You can do it, and you can be good at it too. <a href="https://notes.eatonphil.com/2025-02-15-from-web-developer-to-database-developer-in-10-years.html?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://frontendmasters.com/blog/perfectly-pointed-tooltips-a-foundation?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank"><strong>Perfectly Pointed Tooltips: A Foundation</strong></a> — I admit I started today's issue with a stack of pure inspiration. Loved every minute of it, and I hope you did too. But maybe you are itching for something practical that flips you into build mode fast. Here is one for the CSS lovers. This guide breaks down how to craft tooltips that actually point to what they are attached to. Clean positioning, a crisp little arrow that stays centered, sensible spacing, and graceful behavior when space gets tight. It leans on modern CSS, keeps JavaScript light, and does not forget accessibility with focus and keyboard in mind. The result is a reusable foundation you can drop into real apps without feeling hacky. If you want a quick win that sharpens your UI instincts, dive in and ship a better tooltip today. <a href="https://frontendmasters.com/blog/perfectly-pointed-tooltips-a-foundation?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://overreacted.io/how-to-fix-any-bug?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank"><strong>How to Fix Any Bug</strong></a> — Bugs do not care how senior you are. We all get stuck, we all spiral, and we all need a reliable way out. This piece lays out a calm recipe you can follow when your brain is fried and the logs look like hieroglyphs. Shrink the problem until you can hold it in your hand. Question every assumption. Change one thing at a time. Add probes and asserts that tell you what really happened, not what you hoped would happen. If you cannot reproduce it, you cannot fix it, so keep slicing until you can. One interesting detail: the author uses LLMs as a troubleshooting assistant, which is smart and time saving. The technique still holds even if you do everything by yourself, just like the good old times. When you are truly lost, step away, then come back and read the code like it was written by a stranger. It is simple, not easy, and it works across stacks. Frontend, backend, databases, you name it. Worth bookmarking for the next time a bug decides to live rent free in your day. <a href="https://overreacted.io/how-to-fix-any-bug?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://tanstack.com/blog/directives-and-the-platform-boundary?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank"><strong>Directives and the Platform Boundary</strong></a> — Maybe you have felt this too. In modern fullstack React projects with server side rendering, those top of file strings like <code>"use client"</code> and <code>"use server"</code> never quite sat right with me, but it was hard to say why. This piece finally clicks it into place. It argues for using <em>directives</em> carefully because they look like part of the platform even though they are not. That blurs the boundary between JavaScript and a framework. The confusion leaks into tooling, makes portability brittle, and nudges the ecosystem toward vendor dialects. The author’s core suggestion is simple: when a feature needs options, ownership, and evolution, prefer an explicit import and an API over a magic string. Treat HTML and the platform as the source of truth. Let libraries plug in through imports, and keep that boundary crisp. I like the caution here. We are drifting toward a style of JavaScript that abuses custom directives, and the near term ergonomics hide long term costs. If you value portability, clarity, and a healthier path to shared primitives, this is a timely read. <a href="https://tanstack.com/blog/directives-and-the-platform-boundary?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<hr/>
+<h1>📕 Book of the week!</h1>
+<p><a href="https://www.amazon.com/dp/1492097543?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=444-finding-mr-tiff" target="_blank"><strong>Building Evolutionary Architectures: Automated Software Governance</strong>, by Neal Ford, Rebecca Parsons, Patrick Kua, and Pramod Sadalage</a></p>
+<p><a href="https://www.amazon.com/dp/1492097543?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=444-finding-mr-tiff" target="_blank"><img alt="Building Evolutionary Architectures: Automated Software Governance" class="newsletter-image" src="building-evolutionary-architectures-2-neal-ford-rebecca-parsons-patrick-kua-pramod-sadalage.jpg"/></a></p>
+<p>The software development ecosystem is constantly changing, providing a constant stream of new tools, frameworks, techniques, and paradigms. Over the past few years, incremental developments in core engineering practices for software development have created the foundations for rethinking how architecture changes over time, along with ways to protect important architectural characteristics as it evolves. This practical guide ties those parts together with a new way to think about architecture and time.</p>
+<p><a href="https://www.amazon.com/dp/1492097543?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=444-finding-mr-tiff" target="_blank"><strong>Buy on Amazon.com</strong></a> - <a href="https://www.amazon.co.uk/dp/1492097543?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=444-finding-mr-tiff" target="_blank"><strong>Buy on Amazon.co.uk</strong></a></p>
+<hr/>
+<h3>Bonus content because we love you! ❤️</h3>
+<ul>
+<li><a href="https://dotcom.press/history-of-domains?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">History of Domains</a></li>
+<li><a href="https://ishadeed.com/article/field-sizing?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">Use Cases for Field Sizing</a></li>
+<li><a href="https://evanhahn.com/node-torrent-import?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">Requiring Node.js modules from BitTorrent</a></li>
+<li><a href="https://blog.pragmaticengineer.com/comparing-interviews-at-8-large-tech-companies?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">Comparing interviews at 8 large tech companies</a></li>
+<li><a href="https://aifoc.us/dead-framework-theory?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">The Dead framework theory</a></li>
+<li><a href="https://instances.datadoghq.com/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">Datadog Instance Explorer</a></li>
+<li><a href="https://css-tricks.com/the-most-hated-css-feature-tan?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">The "Most Hated" CSS Feature: <code>tan()</code></a></li>
+<li><a href="https://evilmartians.com/chronicles/why-startups-choose-react-and-when-you-should-not?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">Why startups choose React (and when you shouldn't)</a></li>
+<li><a href="https://youtube.com/watch?v=Sl3XUmg4LBk&amp;utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">The Origin Story of JavaScript (video)</a></li>
+<li><a href="https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">How We Saved $500,000 Per Year by Rolling Our Own “S3”</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Prototype_pollution?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">JavaScript prototype pollution</a></li>
+<li><a href="https://blacksheepcode.com/posts/encapsulate_as_much_state_as_possible?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">Encapsulate as much state as possible in your component</a></li>
+<li><a href="https://www.polarsignals.com/blog/posts/2025/11/04/javascript-source-maps-internals?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">The Inner Workings of JavaScript Source Maps</a></li>
+<li><a href="https://github.blog/developer-skills/programming-languages-and-frameworks/typescripts-rise-in-the-ai-era-insights-from-lead-architect-anders-hejlsberg/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">TypeScript’s rise in the AI era: Insights from Lead Architect, Anders Hejlsberg</a></li>
+<li><a href="https://andrews.substack.com/p/embedding-typescript?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-444&amp;utm_content=title" target="_blank">Embedding TypeScript</a></li>
+</ul>
+<hr/>
+<h2>Time to close the book! 📖</h2>
+<p>Thanks for joining us on this coding journey! Questions, comments, or cool discoveries? Hit that reply button – let's chat! 💬</p>
+    
+</div>
+
+
+                
+
+
+
+                
+
+
+                <div class="card-container">
+                    <div class="card-container-header">
+                        
+                            Don't miss what's next. Subscribe to FullStack Bulletin:
+                        
+                    </div>
+                    
+<div id="subscribe-form">
+    <div class="card subscription-form-fallback">
+        <form method="post"
+              action="/api/emails/embed-subscribe/fullstackbulletin">
+            
+            <label for="sfi-email" class="sr-only">Email address (required)</label>
+            <input id="sfi-email"
+                   name="email"
+                   required=""
+                   type="email"
+                   placeholder="Your email (you@example.com)"
+                   autocomplete="email" />
+            <button class="button tinted blue" id="submit" type="submit">
+                <div style="flex: 1 1 0%; text-align: center;">Subscribe</div>
+            </button>
+        </form>
+    </div>
+</div>
+<script id="newsletter" type="application/json">{"absolute_url": "https://buttondown.com/fullstackbulletin", "account": "c0c89dde-4f8d-4f6b-bb46-917fb74d7239", "address": "", "archive_navigation_links": [], "archive_redirect_url": "", "archive_theme": "modern", "automatically_remind_unconfirmed_subscribers": true, "autonomy_fields": [], "bluesky_username": null, "body_template": "", "buysellads_url": null, "cached_analytics_data": {"open_rate": 40.93, "retention": 57.446808510638306, "click_rate": 6.33, "created_subscribers": 2699.0}, "css": "body {\n  width: 100% !important;\n  max-width: 600px !important;\n  display: block;\n  margin: 0 auto;\n  box-sizing: border-box;\n  border: 1em solid transparent;\n}\n\nimg {\n  max-width: 100%;\n}\n\n", "theme_configuration": {}, "custom_archive_template": "", "custom_archives_template": "", "custom_email_template": "", "custom_expired_trial_notification_body": "", "custom_expired_trial_notification_subject": "", "custom_expired_trial_notification_template": null, "custom_gift_subscription_email_body": "", "custom_gift_subscription_email_subject": "", "custom_gift_subscription_email_template": null, "custom_preamble": "", "custom_premium_confirmation_email_body": "", "custom_premium_confirmation_email_subject": "", "custom_premium_confirmation_email_template": null, "custom_subscription_confirmation_email_subject": "", "custom_subscription_confirmation_email_template": null, "custom_subscription_confirmation_email_text": "", "custom_subscription_confirmation_reminder_email_subject": "", "custom_subscription_confirmation_reminder_email_template": null, "custom_subscription_confirmation_reminder_email_text": "", "custom_subscription_confirmed_email_subject": "", "custom_subscription_confirmed_email_template": null, "custom_subscription_confirmed_email_text": "", "default_behavior_for_subscriber_imports": "append", "description": "\u003C!-- buttondown-editor-mode: fancy --\u003E\u003Cp\u003EFullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.\u003C/p\u003E", "disablement_reason": null, "domain": "archive.fullstackbulletin.com", "email_address": "luciano@fullstackbulletin.com", "email_domain": "fullstackbulletin.com", "enabled_features": ["comments", "portal", "referrals", "archives", "automations", "tags", "api", "metadata", "css"], "effective_locale": "en-US", "fathom_code": null, "fathom_subscribe_code": null, "footer": "", "from_name": "FullStack Bulletin", "google_tag_manager_code": null, "h2_redirect_url": "", "header": "", "hidden_settings": [], "icon": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "id": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": "", "indexing_mode": "enabled", "is_archive_searchable": true, "is_custom_archive_template_enabled": false, "is_custom_archives_template_enabled": false, "is_paid_subscription_free_trials_enabled": false, "is_sponsorship_enabled": false, "is_using_plausible": false, "locale": "en", "memberful_username": null, "meta_pixel_id": null, "metadata": {}, "metadata_keys": {"email": ["id"], "subscriber": ["first_name", "last_name", "name"]}, "name": "FullStack Bulletin", "paid_subscription_free_trial_duration": 0, "paid_subscriptions_status": "inactive", "prices": [], "publicly_visible_analytics": ["confirmed_subscribers"], "reddit_code": null, "reply_to_address": "", "seline_code": null, "sharing_networks": ["linkedin", "twitter", "reddit", "hacker_news", "mastodon", "bluesky"], "shopify_url": null, "should_add_utm_sources": true, "should_be_private": false, "should_disable_non_premium_subscriptions": false, "should_expose_rss": true, "should_hide_issue_numbers": false, "should_hide_social_media": false, "should_immediately_show_payment_element": false, "should_noindex_archive_page": false, "should_noindex_subscribe_page": false, "should_require_double_optin": true, "should_send_latest_email_to_new_subscribers": false, "should_send_subscription_confirmation_email": true, "simple_analytics_enabled": false, "tinylytics_code": null, "socials": [{"url": "https://fullstackbulletin.com", "type": "generic", "label": null}], "sponsorship_text": null, "status": "active", "stripe_account": "", "subscription_button_text": "", "subscription_confirmation_redirect_url": "", "subscription_form_text": "", "subscription_redirect_url": "", "template": "classic", "thank_you_text": "", "tint_color": "#06b6d4", "timezone": "Europe/Dublin", "umami_website_id": null, "unsubscription_reasons": [], "upgrade_text": "", "username": "fullstackbulletin", "web_css": "article img {\n  max-width: 100%;\n}", "web_footer": "", "web_header": ""}</script>
+<script id="subscriber_facing_authentication" type="application/json">{"status": "unauthenticated", "email_address": null, "account_id": null, "subscribers": []}</script>
+
+    <script id="referring_subscriber_id" type="application/json">null</script>
+
+<script id="referer" type="application/json">""</script>
+
+<script nonce="gQkTmg3NpghrhSbzH2BqpQ">
+    var NEWSLETTER = JSON.parse(document.getElementById('newsletter').textContent);
+    var SUBSCRIBER_FACING_AUTHENTICATION = JSON.parse(document.getElementById('subscriber_facing_authentication').textContent);
+    var REFERRING_SUBSCRIBER_ID = JSON.parse(document.getElementById('referring_subscriber_id').textContent);
+    
+    var STRIPE_LIVE_PUBLIC_KEY = null;
+    
+
+    var TINT_COLOR = NEWSLETTER.tint_color || '#0069FF';
+    document.documentElement.style.setProperty("--tint-color", TINT_COLOR);
+    var referer = JSON.parse(document.getElementById('referer').textContent);
+    var account = null;
+
+    
+    var VARIANT = "archive_page";
+    
+</script>
+
+                    
+                        
+                            
+                        
+                    
+                </div>
+                
+
+
+  
+    <section class="card-container" aria-labelledby="comments-heading">
+      
+      <div class="archive__comments-container">
+        
+        <div id="comment-form" class="archive__comment-form-wrapper">
+          <h4 class="card-container-header">Add a comment:</h4>
+          <form method="post" action="comment" class="comment-input card">
+            <input type="hidden" name="csrfmiddlewaretoken" value="zewRrtZWv87jzXivGKSDxRBUiH7RUJW0tA4uTAIcTPwn68MO3j0x7KUbV1ztopgt">
+            
+              
+
+
+
+<fieldset class="comment-input__fields">
+    <div class="comment-input__field comment-input__field--textarea">
+        <textarea id="body" name="body" class="comment-input__textarea" placeholder="What do you think?"></textarea>
+    </div>
+
+    <input type="hidden" name="email" value="ed1b54e2-5015-4b7c-84eb-23401964b46c">
+    <input type="hidden" name="parent" value="">
+
+    <div class="comment-input__field comment-input__user-info">
+        
+            <input type="text" name="name" class="comment-input__input" placeholder="Your name"
+                value="">
+        
+
+        
+            <input type="email" id="email_address" name="email_address" class="comment-input__input" placeholder="Your email address"
+                value="">
+        
+    </div>
+</fieldset>
+
+<div class="comment-input__actions">
+    
+        <button type="submit" class="archive__button">
+            
+                Comment and Subscribe
+            
+        </button>
+    
+</div> 
+            
+          </form>
+        </div>
+      </div>
+    </section>
+  
+
+
+                <div class="card-container">
+                    
+
+
+    
+        
+            <div class="card-container">
+                <div class="card-container-header">Share this email:</div>
+                <div class="archive__social-share-link-container">
+                    
+                        
+                        
+                            <a href="https://twitter.com/intent/tweet?text=%F0%9F%8C%85%20Finding%20Mr%20TIFF%20%E2%80%94%20FullStack%20Bulletin%20%23444&url=https%3A//buttondown.com/fullstackbulletin/archive/444-finding-mr-tiff/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Twitter
+                            </a>
+                        
+                        
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//buttondown.com/fullstackbulletin/archive/444-finding-mr-tiff/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on LinkedIn
+                            </a>
+                        
+                        
+                            <a href="https://share.bingo/hn?url=https%3A//buttondown.com/fullstackbulletin/archive/444-finding-mr-tiff/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Hacker News
+                            </a>
+                        
+                        
+                        
+                            <a href="https://share.bingo/reddit?url=https%3A//buttondown.com/fullstackbulletin/archive/444-finding-mr-tiff/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Reddit
+                            </a>
+                        
+                        
+                        
+                            <a href="https://toot.kytta.dev/?text=%F0%9F%8C%85%20Finding%20Mr%20TIFF%20%E2%80%94%20FullStack%20Bulletin%20%23444%0A%0Ahttps%3A//buttondown.com/fullstackbulletin/archive/444-finding-mr-tiff/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Mastodon
+                            </a>
+                        
+                        
+                            <a href="https://share.bingo/bluesky?url=https%3A//buttondown.com/fullstackbulletin/archive/444-finding-mr-tiff/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Bluesky
+                            </a>
+                        
+                    
+                </div>
+            </div>
+        
+    
+
+
+                </div>
+            
+        </article>
+    </div>
+
+        </div>
+        
+
+        
+            <div class="footer">
+                
+                    
+
+
+<div class="social-networks archive__social-links-inner">
+    
+        <div class="archive__social-links-item">
+            <a href="https://fullstackbulletin.com" class="archive__social-links-link"><img width='16' height='16' src='favicons.png' alt='fullstackbulletin.com' /></a>
+        </div>
+    
+</div>
+
+                
+                
+                    <div>Powered by <a href="https://buttondown.com/refer/fullstackbulletin">Buttondown</a>, the easiest way to start and grow your newsletter.</div>
+                
+            </div>
+        
+        
+            <div id="archive-search-modal-container"
+                 data-archive-url="/fullstackbulletin/archive/"
+                 data-placeholder="Search..."
+                 data-title="Search..."
+                 data-search-param="q"
+                 data-username="fullstackbulletin"></div>
+        
+        <script id="newsletter" type="application/json">{"absolute_url": "https://buttondown.com/fullstackbulletin", "account": "c0c89dde-4f8d-4f6b-bb46-917fb74d7239", "address": "", "archive_navigation_links": [], "archive_redirect_url": "", "archive_theme": "modern", "automatically_remind_unconfirmed_subscribers": true, "autonomy_fields": [], "bluesky_username": null, "body_template": "", "buysellads_url": null, "cached_analytics_data": {"open_rate": 40.93, "retention": 57.446808510638306, "click_rate": 6.33, "created_subscribers": 2699.0}, "css": "body {\n  width: 100% !important;\n  max-width: 600px !important;\n  display: block;\n  margin: 0 auto;\n  box-sizing: border-box;\n  border: 1em solid transparent;\n}\n\nimg {\n  max-width: 100%;\n}\n\n", "theme_configuration": {}, "custom_archive_template": "", "custom_archives_template": "", "custom_email_template": "", "custom_expired_trial_notification_body": "", "custom_expired_trial_notification_subject": "", "custom_expired_trial_notification_template": null, "custom_gift_subscription_email_body": "", "custom_gift_subscription_email_subject": "", "custom_gift_subscription_email_template": null, "custom_preamble": "", "custom_premium_confirmation_email_body": "", "custom_premium_confirmation_email_subject": "", "custom_premium_confirmation_email_template": null, "custom_subscription_confirmation_email_subject": "", "custom_subscription_confirmation_email_template": null, "custom_subscription_confirmation_email_text": "", "custom_subscription_confirmation_reminder_email_subject": "", "custom_subscription_confirmation_reminder_email_template": null, "custom_subscription_confirmation_reminder_email_text": "", "custom_subscription_confirmed_email_subject": "", "custom_subscription_confirmed_email_template": null, "custom_subscription_confirmed_email_text": "", "default_behavior_for_subscriber_imports": "append", "description": "\u003C!-- buttondown-editor-mode: fancy --\u003E\u003Cp\u003EFullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.\u003C/p\u003E", "disablement_reason": null, "domain": "archive.fullstackbulletin.com", "email_address": "luciano@fullstackbulletin.com", "email_domain": "fullstackbulletin.com", "enabled_features": ["comments", "portal", "referrals", "archives", "automations", "tags", "api", "metadata", "css"], "effective_locale": "en-US", "fathom_code": null, "fathom_subscribe_code": null, "footer": "", "from_name": "FullStack Bulletin", "google_tag_manager_code": null, "h2_redirect_url": "", "header": "", "hidden_settings": [], "icon": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "id": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": "", "indexing_mode": "enabled", "is_archive_searchable": true, "is_custom_archive_template_enabled": false, "is_custom_archives_template_enabled": false, "is_paid_subscription_free_trials_enabled": false, "is_sponsorship_enabled": false, "is_using_plausible": false, "locale": "en", "memberful_username": null, "meta_pixel_id": null, "metadata": {}, "metadata_keys": {"email": ["id"], "subscriber": ["first_name", "last_name", "name"]}, "name": "FullStack Bulletin", "paid_subscription_free_trial_duration": 0, "paid_subscriptions_status": "inactive", "prices": [], "publicly_visible_analytics": ["confirmed_subscribers"], "reddit_code": null, "reply_to_address": "", "seline_code": null, "sharing_networks": ["linkedin", "twitter", "reddit", "hacker_news", "mastodon", "bluesky"], "shopify_url": null, "should_add_utm_sources": true, "should_be_private": false, "should_disable_non_premium_subscriptions": false, "should_expose_rss": true, "should_hide_issue_numbers": false, "should_hide_social_media": false, "should_immediately_show_payment_element": false, "should_noindex_archive_page": false, "should_noindex_subscribe_page": false, "should_require_double_optin": true, "should_send_latest_email_to_new_subscribers": false, "should_send_subscription_confirmation_email": true, "simple_analytics_enabled": false, "tinylytics_code": null, "socials": [{"url": "https://fullstackbulletin.com", "type": "generic", "label": null}], "sponsorship_text": null, "status": "active", "stripe_account": "", "subscription_button_text": "", "subscription_confirmation_redirect_url": "", "subscription_form_text": "", "subscription_redirect_url": "", "template": "classic", "thank_you_text": "", "tint_color": "#06b6d4", "timezone": "Europe/Dublin", "umami_website_id": null, "unsubscription_reasons": [], "upgrade_text": "", "username": "fullstackbulletin", "web_css": "article img {\n  max-width: 100%;\n}", "web_footer": "", "web_header": ""}</script>
+        
+            <script id="subscriber_facing_authentication" type="application/json">{"status": "unauthenticated", "email_address": null, "account_id": null, "subscribers": []}</script>
+        
+        
+        <div id="subscriber-facing-app"></div>
+        <link  rel="stylesheet" href="https://static-assets.buttondown.com/event-listener-C4a0MggJ.css" />
+<link  rel="stylesheet" href="https://static-assets.buttondown.com/subscriber_facing_app-CMddTf0D.css" />
+<script type="module" crossorigin="" src="https://static-assets.buttondown.com/subscriber_facing_app-DIYFgv7W.js"></script>
+<link href="https://static-assets.buttondown.com/modulepreload-polyfill-C5-T9T-W.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/vueQueryPlugin-BD6xQQsM.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/event-listener-5QAwhQxM.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/_sentry-release-injection-file-DRmiww3Y.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/preload-helper-HIQHktoD.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/PendingIndicator.vue_vue_type_script_setup_true_lang-9IrbzFdh.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+        
+    </body>
+</html>

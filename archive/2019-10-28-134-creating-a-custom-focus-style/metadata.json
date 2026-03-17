@@ -1,0 +1,75 @@
+{
+  "issueNumber": 134,
+  "title": "Creating a custom focus style",
+  "slug": "2019-10-28-134-creating-a-custom-focus-style",
+  "date": "2019-10-28",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #43, 2019",
+  "quote": {
+    "text": "Companies spend millions of dollars on firewalls, encryption and secure access devices, and it’s money wasted, because none of these measures address the weakest link in the security chain",
+    "author": "Kevin Mitnick",
+    "authorTitle": "Auhor and Security Consultant",
+    "authorUrl": "https://en.wikipedia.org/wiki/Kevin_Mitnick"
+  },
+  "links": [
+    {
+      "title": "Creating a custom focus style",
+      "url": "https://zellwk.com/",
+      "description": "How to create (and change) a focus style easily with CSS.",
+      "imageUrl": "./61400c5ebce3e2f4c13b9bda039a1d889db45c695c002669558ff25eed075ed6.jpg",
+      "featured": true
+    },
+    {
+      "title": "A cartoon intro to DNS over HTTPS",
+      "url": "https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https",
+      "description": "A very friendly explanation about how DNS and HTTP work and how Trusted Recursive Resolver (TRR) and DNS over HTTPS (DoH) can help to make the web more secure!",
+      "imageUrl": "./dac17252f5e26bb5bcbb1bd3cf94a503adfcb4d82d3db890980f489a21b0ca10.jpg",
+      "featured": false
+    },
+    {
+      "title": "Don't get locked up into avoiding lock-in",
+      "url": "https://martinfowler.com/articles/oss-lockin.html",
+      "description": "Lock-in is an important consideration. But, it's not a simple black-or-white affair, and minimizing isn't always best.",
+      "imageUrl": "./d073a2dd280d467739f99fe38329ba12ab840198b2c795fc13637862d29f912d.jpg",
+      "featured": false
+    },
+    {
+      "title": "An Illustrated Guide to OAuth and OpenID Connect",
+      "url": "https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc",
+      "description": "A very fun illustrated guide to explain OAuth and OpenID Connect!",
+      "imageUrl": "./5ee9c10ceed7738ba2bf61179ac96134a9b7e59453863bd73cc11c17bcd24eb5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Designing accessible color systems",
+      "url": "https://stripe.com/gb/blog/accessible-color-systems",
+      "description": "How Stripe designed a color system with hand-picked, vibrant colors that also met standards for accessibility and contrast.",
+      "imageUrl": "./c48bd1b8e3e80046756e75d926057f62f1337ca74742a45a0864be290f6c0409.jpg",
+      "featured": false
+    },
+    {
+      "title": "How Youtube is recommending your next video",
+      "url": "https://medium.com/vantageai/how-youtube-is-recommending-your-next-video-7e5f1a6bd6d9",
+      "description": "In a recent paper published by Google, they give some insight in how they recommend new videos on youtube.",
+      "imageUrl": "./88f1f5b82eac6294098431c005450a6187999adf1fa5d655327667296bdc1b29.jpg",
+      "featured": false
+    },
+    {
+      "title": "How Bash completion works",
+      "url": "https://tuzz.tech/blog/how-bash-completion-works",
+      "description": "Ever wondered how Bash completion works? In this first article on the topic, we’ll look at how it works under the hood.",
+      "imageUrl": "./f8636a6385afab5f099fa786cdb859ca25b3e850e5f0084c5ccbbb93416c7de8.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Linux Pocket Guide: Essential Commands",
+    "author": "Daniel J. Barrett",
+    "description": "If you use Linux in your day-to-day work, this popular pocket guide is the perfect on-the-job reference. The third edition features new commands for processing image files and audio files, running and killing programs, reading and modifying the system clipboard, and manipulating PDF files, as well as other commands requested by readers. You’ll also find powerful command-line idioms you might not be familiar with, such as process substitution and piping into bash. Linux Pocket Guide provides an organized learning path to help you gain mastery of the most useful and important commands. Whether you’re a novice who needs to get up to speed on Linux or an experienced user who wants a concise and functional reference, this guide provides quick answers. Selected topics include:The filesystem and shell, File creation and editing, Text manipulation and pipelines, Backups and remote storage, Viewing and controlling processes, User account management, Becoming the superuser, Network connections, Audio and video, Installing softwar, Programming with shell scripts.",
+    "coverImageUrl": "./fcd1dd45a11d838bd7fffe901365729615e97b5a211cd1a7b7ef779c02fffe5d.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491927577/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491927577/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 329,
+  "title": "act: Run your GitHub Actions locally 🚀",
+  "slug": "2023-07-17-315-act-run-your-github-actions-locally",
+  "date": "2023-07-17",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "I do not fear computers. I fear lack of them",
+    "author": "Isaac Asimov",
+    "authorTitle": "Author and Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Isaac_Asimov"
+  },
+  "links": [
+    {
+      "title": "act: Run your GitHub Actions locally 🚀",
+      "url": "https://github.com/nektos/act",
+      "description": "Change. Commit \"fix CI\". Push. Fail. Change.  Commit \"fix CI\". Push. Fail. Change. Commit \"fix CI\". Push. Fail. Commit \"fix CI\". Push. GREEN! ... How many times have you done this?! I surely have done it quite a lot 🥲\n\n**Act** promises to make our life better by allowing us to run GitHub actions locally, even before you commit and push (and fail!)... I am quite excited about this project and I'll certainly be using it!",
+      "imageUrl": "./90a7612ffb2db38263fe2aba3eff2aae923fb5e7828cd381b540948115268803.jpg",
+      "featured": true
+    },
+    {
+      "title": "Visual Studio Code Remote Development",
+      "url": "https://code.visualstudio.com/docs/devcontainers/containers",
+      "description": "One of the new standards to watch for is [devContainers (or development containers)](https://containers.dev/). It's a new standard that aims to leverage containers to create a reproducible development environment for teams. This article, explains how to use this idea inside Visual Studio Code. You can also do it to access remote environments!",
+      "imageUrl": "./b06d91dc564fed8386d29e29fe89f38d1270ed506249dbc2adbd1c744d7d0b83.jpg",
+      "featured": false
+    },
+    {
+      "title": "comiCSS",
+      "url": "https://comicss.art/",
+      "description": "There's always space for some nerdy tech humor! Last week I discovered this new website called comiCSS which gives you a massive collection of funny webcomics about CSS. The best part? It's coded in CSS, what did you expect?!",
+      "imageUrl": "./0c6114cfdbe06666c37b720b9e1097eb8082c330c640e1199a4f7e67aca2576b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Beyond Browsers: The Longterm Future of JavaScript Standards",
+      "url": "https://thenewstack.io/beyond-browsers-the-longterm-future-of-javascript-standards",
+      "description": "JavaScript/ECMAScript is an ever-evolving language. But how is the scope of ECMAScript is changing as JavaScript matures; and where the opportunities for adding new features are coming from? This article provides some interesting opinions to understand where the future of the language of the web might go!",
+      "imageUrl": "./3773ba6ab7cb03060839944df158c42ca656b3a6420b4ba9d961fdda801f608b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Understanding AWS Lambda Proactive Initialization",
+      "url": "https://aaronstuyvenberg.com/posts/understanding-proactive-initialization",
+      "description": "If you use **Lambda**, you know that cold starts is one of the most annoying things about it. It's not always a big deal, but when it is it's a complex one to fix. Recently AWS has started to introduce **Proactive Initialization**, a feature that observes the frequency of invocation of your lambdas and tries to pre-warm them before they get invoked. It's pretty neat and it might revolutionise serverless computing for good. Read this one if you are curious to find out more!",
+      "imageUrl": "./d966bed9739fa358d5fbf7f8f0795f54ab3683a77cef3a442aa0f2fd1a427595.jpg",
+      "featured": false
+    },
+    {
+      "title": "Node v20.4.0",
+      "url": "https://nodejs.org/en/blog/release/v20.4.0",
+      "description": "A new release of Node.js is out. This release isn't packed with a massive list of new features, but the one new thing that is there is pretty big IMHO: you can now write more reliable and predictable tests for time-dependent functionality. In fact, this new release includes **MockTimers** with the ability to mock **setTimeout**, **setInterval** from globals, **node:timers**, and **node:timers/promises**. Also worth calling out is that Node is adding support to the explicit resource management proposal to its resources allowing users of TypeScript/babel to use **using/await**.",
+      "imageUrl": "./e774c086de6aa0062ab792fc2d2cd26afa55a12764ece3e809a23ba2ec1ce6fe.jpg",
+      "featured": false
+    },
+    {
+      "title": "Remult",
+      "url": "https://remult.dev/",
+      "description": "If you are looking for a new backend web framework, Remult is a promising one. It is a CRUD framework for fullstack TypeScript which allows you to build end-to-end Type-safe CRUD Apps without much of the typical boilerplate.",
+      "imageUrl": "./754192105f5201e38a111ae6a0eb446d4e25fe8e90e99835bd61e8a28cc61fb0.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Angular 2 Cookbook",
+    "author": "Matt Frisbie",
+    "description": "This book covers all the most complicated Angular concepts and at the same time introduces the best practices with which to wield these powerful tools. It also covers in detail all the concepts you'll need to get you building applications faster. Often neglected topics such as testing and performance optimization are widely covered as well. A developer that reads through all the content in this book will have a broad and deep understanding of all the major topics in the Angular 2 universe.",
+    "coverImageUrl": "./b6885ee25caf4d2b67b01862d2a10f60300e0c6c69537686826de54524ca4ac3.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01JLBMC86/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01JLBMC86/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

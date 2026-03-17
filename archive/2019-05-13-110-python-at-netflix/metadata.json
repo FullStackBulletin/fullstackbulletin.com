@@ -1,0 +1,75 @@
+{
+  "issueNumber": 110,
+  "title": "Python at Netflix",
+  "slug": "2019-05-13-110-python-at-netflix",
+  "date": "2019-05-13",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #19, 2019",
+  "quote": {
+    "text": "Science and technology revolutionize our lives, but memory, tradition and myth frame our response",
+    "author": "Arthur Schlesinger",
+    "authorTitle": "Historian",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_Schlesinger"
+  },
+  "links": [
+    {
+      "title": "Python at Netflix",
+      "url": "https://medium.com/netflix-techblog/python-at-netflix-bba45dae649e",
+      "description": "Discover how a big company like Netflix uses Python across different departments: CDN, machine learning, devops, recommendation, etc.",
+      "imageUrl": "./b5da09e3e07b312da57db6df7b91374da1e1dd0eda2bba1439988a7c1bc7b3bf.jpg",
+      "featured": true
+    },
+    {
+      "title": "JS: Array.push X Array.concat",
+      "url": "https://dev.to/uilicious/javascript-array-push-is-945x-faster-than-array-concat-1oki",
+      "description": "An interesting overview of two common JavaScript array methods, *push* and *concat*, and why *concat* is much slower than *push*.",
+      "imageUrl": "./1207f5d9a2c59f186bec43b1a5821900ec5041d04bbe473d01d0f277db53a88f.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to Build a Multiplayer Web Game",
+      "url": "https://victorzhou.com/blog/build-an-io-game-part-1",
+      "description": "A wonderful series of articles to introduce you to the art of creating multiplayer browser-based games using mostly JavaScript, Node.js and websockets.",
+      "imageUrl": "./ddb2e04e84ea571486ddef9e3ad7865ba0b2534f3faa6f4e4bf48198b40fa5b6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Unraveling The JPEG",
+      "url": "https://parametric.press/issue-01/unraveling-the-jpeg",
+      "description": "JPEG images are everywhere in our digital lives, but behind the veil of familiarity lie algorithms that remove details that are imperceptible to the human eye. This produces the highest visual quality with the smallest file size—but what does that look like? Let's see what our eyes can't see!",
+      "imageUrl": "./3ce308c0b7dc6484d0f4bb4153de2608ed0248e6c4fa4da7449833b626158a34.jpg",
+      "featured": false
+    },
+    {
+      "title": "How Far Out is AWS Fargate?",
+      "url": "https://read.iopipe.com/how-far-out-is-aws-fargate-a2409d2f9bc7",
+      "description": "An interesting article for serverless lovers. It describes the current status of Fargate, the AWS Docker-based serverless runtime, and compares it with AWS Lambda and Kubernetes.",
+      "imageUrl": "./11060ebe3d1d8f45313db3185973b091338d6450820d354f3b5e31dd79dac64b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rust crash course (video)",
+      "url": "https://youtu.be/zF34dRivLOw",
+      "description": "Learn all the fundamentals of the Rust programming language in this excellent video. Really good if you have tried multiple times to get started with this language but you were discouraged by the sheer amount of new concepts to understand.",
+      "imageUrl": "./5a887254f474146954bf74e7fbd22a05d8e634c727e5fdccbce1be3d6e4ab388.png",
+      "featured": false
+    },
+    {
+      "title": "Using CloudWatch and Lambda to implement ad-hoc scheduling",
+      "url": "https://theburningmonk.com/2019/05/using-cloudwatch-and-lambda-to-implement-ad-hoc-scheduling",
+      "description": "A while back I wrote about using DynamoDB TTL to implement ad-hoc scheduling. It generated some healthy debate and a few of you have mentioned alternatives including using Step Functions. So let’s take a look at some of these alternatives, starting with the simplest – using a cron job.",
+      "imageUrl": "./f8bb1481056e42cf2b8e63766fdd16682d1bcccdd9591aa6b01f4d17e2bfd093.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Linux Command Line: A Complete Introduction",
+    "author": "William E. Shotts Jr.",
+    "description": "The Linux Command Line takes you from your very first terminal keystrokes to writing full programs in Bash, the most popular Linux shell. Along the way you'll learn the timeless skills handed down by generations of gray-bearded, mouse-shunning gurus: file navigation, environment configuration, command chaining, pattern matching with regular expressions, and more. In addition to that practical knowledge, author William Shotts reveals the philosophy behind these tools and the rich heritage that your desktop Linux machine has inherited from Unix supercomputers of yore.",
+    "coverImageUrl": "./998e4e84a48a026be41c01888d1d2f1a0e2c087213f327ada5f8a0f3467f1202.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593273894/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593273894/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

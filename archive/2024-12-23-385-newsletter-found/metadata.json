@@ -1,0 +1,92 @@
+{
+  "issueNumber": 404,
+  "title": "Newsletter Found!",
+  "slug": "2024-12-23-385-newsletter-found",
+  "date": "2024-12-23",
+  "templateType": "mce-mailchimp",
+  "intro": "Ciao,  👋\n\nBig news this week: we’ve hit issue **404**! A quirky milestone, right? Someone asked me if I had a surprise in store for this occasion, so I thought, “Why not?” I wrote an entire article about it in which you can learn more about the past, present and future of this newsletter... with some juicy technical details too! check out the featured piece in this issue to see what I came up with.\n\nOn a more personal note, I want to take a moment to thank you for being part of this journey. Whether you’ve been here since issue #1 or just joined recently, your presence means a lot to me. 🥰\n\nI’d love to hear your thoughts—what do you enjoy most about this newsletter? What could I improve? Got an idea for future content? Just hit reply and let me know. Your feedback is the fuel that keeps this going!\n\nNow, let’s dive into this week’s curated content, packed as always with ideas and inspiration.\n\n— Your editor, [Luciano](https://loige.co/)\n\nPS: The irony of a milestone named after an error isn’t lost on me... didn't get it? Here are some of my favorite error code images: [http.cat](https://http.cat/status/404), [http.dog](https://http.dog/404), [httpraccoons.com](https://httpraccoons.com/404)... 🤣",
+  "quote": {
+    "text": "There are two ways to write error-free programs; only the third one works“",
+    "author": "Alan J. Perlis",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_J._Perlis"
+  },
+  "links": [
+    {
+      "title": "#404: Newsletter found!",
+      "url": "https://loige.co/404-newsletter-found/",
+      "description": "We’ve reached a milestone that every nerdy heart can appreciate: 404 issues of FullStack Bulletin! To mark this delightfully serendipitous error code, I’ve put together a blog post exploring the origins of the newsletter, the tech that powers it, and what’s coming next. With the year drawing to a close, this feels like the perfect moment to celebrate. Check it out and join me in toasting this wonderfully geeky achievement! 🎉",
+      "imageUrl": null,
+      "featured": true
+    },
+    {
+      "title": "OpenAuth",
+      "url": "https://openauth.js.org/",
+      "description": "I’ve always been a big fan of authentication protocols and solutions. Over the years, I’ve had my share of fun with hosted services like Clerk, Auth0, Okta, and Microsoft Entra ID. Each has pros and cons, but I’ll admit I have a soft spot for open-source, self-hosted approaches. That’s why I’m particularly excited about OpenAuth—a fully serverless authentication solution you can self-host! Even better, it comes from the same brilliant minds behind [SST](https://sst.dev/). For those living and breathing serverless, this feels like a game-changer. It's still early, but definitely worth checking out!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Introducing TanStack Start",
+      "url": "https://frontendmasters.com/blog/introducing-tanstack-start",
+      "description": "I’ve had the pleasure of using [TanStack Query](https://tanstack.com/query/latest) (a.k.a. React Query), [TanStack Router](https://tanstack.com/router/latest), and [TanStack Form](https://tanstack.com/form/latest), each an excellent library in its own right. So, I’m thrilled to see the team behind these tools take things to the next level with an entirely new full-stack web development framework: [TanStack Start](https://tanstack.com/start/latest)! Currently, in beta, this framework is already shaping up to be something special that has the potential to dethrone the likes of Next.js! If you’re curious, this article offers a fantastic introduction and a chance to dive in and start experimenting. Would you use it? Let me know... I’d love to hear your thoughts!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Why TypeScript Doesn't Include a throws Keyword",
+      "url": "https://learningtypescript.com/articles/why-typescript-doesnt-include-a-throws-keyword",
+      "description": "Every time I find myself figuring out how to type functions that can throw errors in TypeScript, I can’t help but wonder if there’s a way to include exceptions in the type system. While this isn’t possible today, I came across a fantastic article last week that explains why. As for handling this limitation, I’m leaning more and more toward using something like [**neverthrow**](https://github.com/supermacro/neverthrow) (inspired by Rust’s error-handling approach), which focuses on returning error types rather than throwing exceptions. It’s no surprise I’m drawn to this method... 🦀",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A standard interface for TypeScript schema validation libraries",
+      "url": "https://github.com/standard-schema/standard-schema",
+      "description": "What happens when the creators of top validation libraries like [Zod](https://zod.dev/), [Valibot](https://valibot.dev/), and [ArkType](https://arktype.io/) join forces? They’re working on a common specification to make validation more interoperable—and the possibilities are incredibly exciting. While the current work in this repo already shows great promise, I can’t help but speculate: could this effort influence other areas, like OpenAPI integration, in the future? Just my wild guess, but it feels plausible!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "react-snow-overlay",
+      "url": "https://c-o-d-e-c-o-w-b-o-y.github.io/react-snow-overlay",
+      "description": "Want to give your site a festive vibe this season? Check out React Snow Overlay—it adds a stylish falling snow effect that’s perfect for this time of year! And here’s the cool part: it’s not just another React component. This library uses canvas and web workers to make the magic happen... Super efficient and super fun to explore, so make sure to look at the source code too, you might learn a trick or two!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Putting Performance in Relatable Terms",
+      "url": "https://calendar.perfplanet.com/2024/putting-performance-in-relatable-terms",
+      "description": "Putting performance in relatable terms\" is a fantastic article that tackles a common challenge in web optimization: making milliseconds feel meaningful. While a 300ms improvement might excite developers, it often falls flat with executives who don’t see its relevance. The article uses brilliant analogies, like Noah Lyles winning the 100m sprint by just 5ms, to show how relatable comparisons can bridge this gap. It’s a must-read for anyone who wants to communicate the real-world value of performance improvements effectively!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Cassandra: The Definitive Guide",
+    "author": "Jeff Carpenter, and Eben Hewitt",
+    "description": "Imagine what you could do if scalability wasn't a problem. With this hands-on guide, you'll learn how the Cassandra database management system handles hundreds of terabytes of data while remaining highly available across multiple data centers. This revised third edition--updated for Cassandra 4.0 and new developments in the Cassandra ecosystem, including deployments in Kubernetes with K8ssandra--provides technical details and practical examples to help you put this database to work in a production environment. Authors Jeff Carpenter and Eben Hewitt demonstrate the advantages of Cassandra's nonrelational design, with special attention to data modeling. Developers, DBAs, and application architects looking to solve a database scaling issue or future-proof an application will learn how to harness Cassandra's speed and flexibility.",
+    "coverImageUrl": "./10919e24e677765bb72655af277029f8dbb8ee40b9d66eeac77305bc7fd728c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492097144?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492097144?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "AWS Cloud Development Kit (CDK) Explained in 5 mins (video)",
+      "url": "https://www.youtube.com/watch?v=uo-sJN5xDB4"
+    },
+    {
+      "title": "I Redesigned the ENTIRE YouTube UI from Scratch (video)",
+      "url": "https://www.youtube.com/watch?v=OUM6XmhViN4"
+    },
+    {
+      "title": "Map of GitHub projects",
+      "url": "https://github.com/anvaka/map-of-github"
+    },
+    {
+      "title": "10 new Git commands you should start using today",
+      "url": "https://appwrite.io/blog/post/10-git-commands-you-should-start-using"
+    }
+  ],
+  "sponsor": null
+}

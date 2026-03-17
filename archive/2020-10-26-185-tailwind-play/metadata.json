@@ -1,0 +1,75 @@
+{
+  "issueNumber": 185,
+  "title": "Tailwind Play",
+  "slug": "2020-10-26-185-tailwind-play",
+  "date": "2020-10-26",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #43, 2020",
+  "quote": {
+    "text": "Companies spend millions of dollars on firewalls, encryption and secure access devices, and it’s money wasted, because none of these measures address the weakest link in the security chain",
+    "author": "Kevin Mitnick",
+    "authorTitle": "Auhor and Security Consultant",
+    "authorUrl": "https://en.wikipedia.org/wiki/Kevin_Mitnick"
+  },
+  "links": [
+    {
+      "title": "Tailwind Play",
+      "url": "https://play.tailwindcss.com/",
+      "description": "An advanced online playground for Tailwind CSS that lets you use all of Tailwind's build-time features directly in the browser.",
+      "imageUrl": "./a46db0cd06721493de39fa717649ddcc6e0264710bd58712b58e47d59f6a14a9.jpg",
+      "featured": true
+    },
+    {
+      "title": "Guide to WebAuthn",
+      "url": "https://webauthn.guide/",
+      "description": "An introduction to Web Authentication (WebAuthn), the new API that can replace passwords with strong asymmetric-key-based authentication.",
+      "imageUrl": "./cf6c30adac962db9da2c60b23f6229d007f35a295525ae981b2b4939275bc991.jpg",
+      "featured": false
+    },
+    {
+      "title": "iamkun/dayjs",
+      "url": "https://github.com/iamkun/dayjs",
+      "description": "⏰ Day.js 2KB immutable date-time library alternative to Moment.js with the same modern API",
+      "imageUrl": "./1c346fc62ae21d8e830e7fb5ad7b88994303a7f58bc617f5baee3326ac50d34a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Load balancing and scaling long-lived connections in Kubernetes",
+      "url": "https://learnk8s.io/kubernetes-long-lived-connections",
+      "description": "Kubernetes doesn't load balance long-lived connections, and some Pods might receive more requests than others. If you're using HTTP/2, gRPC, RSockets, AMQP or any other long-lived connection such as a database connection, you might want to consider client-side load balancing.",
+      "imageUrl": "./90a5d191cf52cf65f168e7bd783d000663811b544c50cdac32d865227813c8e9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Play the long game when learning to code",
+      "url": "https://stackoverflow.blog/2020/10/05/play-the-long-game-when-learning-to-code",
+      "description": "Aspiring coders tend to take one of two types of learning approaches. The first involves trying to learn syntax as fast as possible. The second emphasizes understanding above all. It may take longer, but I hope to show how it's better in the end.",
+      "imageUrl": "./7033b13a4d04a4cee48f7303e21fa1b19f2e47c8541fe1486007c7a051257101.jpg",
+      "featured": false
+    },
+    {
+      "title": "Hex Colors - HTML Color Codes",
+      "url": "https://hexcolor.co/",
+      "description": "hexcolor.co is a free color tool providing information about any color. Color Hex will also generate matching color schemes such as complementary, split complementary, analogous, triadic, tetradic and monochromatic colors.",
+      "imageUrl": "./82dd6c39ec60c11582545ba7f75ff2f486b2ff57f1b86e2a2d1a0bb3bda8f633.jpg",
+      "featured": false
+    },
+    {
+      "title": "World smallest office suite 📝",
+      "url": "https://zserge.com/posts/awfice",
+      "description": "Let's build a tiny browser-based office suite - a text editor, a speadsheet, a drawing app and a presentation maker - all in four lines of code.",
+      "imageUrl": "./eeefec8ad0aef5d1f73956b2c1b70fa144abb89b29bdc7bb56736854177b6b21.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Linux Pocket Guide: Essential Commands",
+    "author": "Daniel J. Barrett",
+    "description": "If you use Linux in your day-to-day work, this popular pocket guide is the perfect on-the-job reference. The third edition features new commands for processing image files and audio files, running and killing programs, reading and modifying the system clipboard, and manipulating PDF files, as well as other commands requested by readers. You’ll also find powerful command-line idioms you might not be familiar with, such as process substitution and piping into bash. Linux Pocket Guide provides an organized learning path to help you gain mastery of the most useful and important commands. Whether you’re a novice who needs to get up to speed on Linux or an experienced user who wants a concise and functional reference, this guide provides quick answers. Selected topics include:The filesystem and shell, File creation and editing, Text manipulation and pipelines, Backups and remote storage, Viewing and controlling processes, User account management, Becoming the superuser, Network connections, Audio and video, Installing softwar, Programming with shell scripts.",
+    "coverImageUrl": "./fcd1dd45a11d838bd7fffe901365729615e97b5a211cd1a7b7ef779c02fffe5d.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491927577/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491927577/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

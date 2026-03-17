@@ -1,0 +1,75 @@
+{
+  "issueNumber": 44,
+  "title": "Harvesting credit card numbers and passwords from your site",
+  "slug": "2018-01-15-044-harvesting-credit-card-numbers-and-passwords-from-your-site",
+  "date": "2018-01-15",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #2, 2018",
+  "quote": {
+    "text": "Any sufficiently advanced technology is equivalent to magic",
+    "author": "Arthur C. Clarke",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_C._Clarke"
+  },
+  "links": [
+    {
+      "title": "Harvesting credit card numbers and passwords from your site",
+      "url": "https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5",
+      "description": "The following is a true story. Or maybe it’s just based on a true story. Perhaps it’s not true at all.",
+      "imageUrl": "./70c1472fc3d57a62e3ba6601ae72b30ababc3aedf9209f5a565c51b9d1d3f4e0.jpg",
+      "featured": true
+    },
+    {
+      "title": "Front-end hacking cheatsheets",
+      "url": "https://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a",
+      "description": "It’s impossible to remember all the APIs by heart. This is when cheatsheets jump in! Here are the best front-end cheatsheets, all together!",
+      "imageUrl": "./768a0b8cfeae6b660245797b7b25fe171fd37c924580f68b5d9cad0ca3605627.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Practical Guide to SVGs",
+      "url": "https://svgontheweb.com/",
+      "description": "This guide aims to give a practical overview of how you can use SVGs on your websites — with some tips and tricks along the way to get the most out of them.",
+      "imageUrl": "./efd88f4687028b60cfde0cae52b41a5f7f1f33f44fb608ff780d4d2a0152171a.png",
+      "featured": false
+    },
+    {
+      "title": "What's new in HTML 5.2",
+      "url": "https://bitsofco.de/whats-new-in-html-5-2/",
+      "description": "This article illustrates the new features introduced by the latest specification of HTML, version 5.2, freshly published by W3C.",
+      "imageUrl": "./18aa30e22217c2c40b5169677c77f6a254ac67316f1f30262809c718e3048fe0.png",
+      "featured": false
+    },
+    {
+      "title": "11 Things I Learned Reading the CSS Grid Specification",
+      "url": "https://medium.freecodecamp.org/11-things-i-learned-reading-the-css-grid-specification-fb3983aa5e0",
+      "description": "While reading the spec, the author of this article learned some very subtle, but profound details and he is sharing them with you to make you a better CSS Grid user.",
+      "imageUrl": "./ceb09c0293eb98082fd81971cbca73a1e85ae8acb183da9c1fbdc7d27cd0645f.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS Cheat Sheet",
+      "url": "https://adam-marsden.co.uk/css-cheat-sheet",
+      "description": "CSS Cheat Sheet - A reference for CSS goodness.",
+      "imageUrl": "./7e214331abdb07ad93e3ae7b5828427080ed0f408b24d54a61a62467c5b476be.jpg",
+      "featured": false
+    },
+    {
+      "title": "Angular 5 - Free video course",
+      "url": "https://codecraft.tv/courses/angular",
+      "description": "A totally free video course on Angular 5 that is going to teach you: the latest features of ES6 JavaScript and TypeScript, the Angular CLI, RxJS and Observables, unit testing in Angular. All of this by building a complete application.",
+      "imageUrl": "./0a1bdd8a3a9ec1f80ddedcd3b1faa4bc458d0049015df434a67126eae505cf1a.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Fluent Python: Clear, Concise, and Effective Programming",
+    "author": "Luciano Ramalho",
+    "description": "Python’s simplicity lets you become productive quickly, but this often means you aren’t using everything it has to offer.  With this hands-on guide, you’ll learn how to write effective, idiomatic Python code by leveraging its best—and possibly most neglected—features.",
+    "coverImageUrl": "./30290ce19e65a7fffc72aab6893578a1fc0008018337e91d311736d9b587c8fe.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491946008/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491946008/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

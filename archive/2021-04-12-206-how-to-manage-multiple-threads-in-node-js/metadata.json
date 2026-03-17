@@ -1,0 +1,75 @@
+{
+  "issueNumber": 206,
+  "title": "How to Manage Multiple Threads in Node.js",
+  "slug": "2021-04-12-206-how-to-manage-multiple-threads-in-node-js",
+  "date": "2021-04-12",
+  "templateType": "old-mailchimp",
+  "intro": "Make the keys to everything you do online easier and safer. Stop resetting passwords and filling out forms. Try Dashlane on your first device for free [here](https://www.dashlane.com/fullstackbulletin).",
+  "quote": {
+    "text": "Technology made large populations possible; large populations now make technology indispensable",
+    "author": "Joseph Krutch",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Krutch"
+  },
+  "links": [
+    {
+      "title": "How to Manage Multiple Threads in Node.js",
+      "url": "https://dev.to/johnjardincodes/managing-multiple-threads-in-node-js-3mpc",
+      "description": "While it is true that Node.js is a single-threaded JavaScript runtime, it is possible to spin additional processes or threads on demand. This article explores few interesting techniques: **child processes**, the **cluster module** and **worker threads**.",
+      "imageUrl": "./23d9061dd863d010be324ef2518a952b49a08152f34d0b23285f158d64854bad.png",
+      "featured": true
+    },
+    {
+      "title": "Font size is useless... let’s fix it!",
+      "url": "https://tonsky.me/blog/font-size",
+      "description": "What happens when you set `fontSize: 32` in your favorite editor? If you expect that the size of a character should become `32px`, you'd better give this wonderful article a chance... you'll be surprised!",
+      "imageUrl": "./b63bfb7dd5aba7d1be8cd0ec5357f2aff4bd4366ae2fb76e2c4f37aa8cd28921.png",
+      "featured": false
+    },
+    {
+      "title": "New Attacks Targeting Remote Workers",
+      "url": "https://blog.dashlane.com/attacks-targeting-remote-workers-cisa-report/",
+      "description": "On January 13th, the Cybersecurity and Infrastructure Security Agency (CISA) published a report highlighting an increase in successful phishing attacks exploiting cybersecurity weaknesses of remote and distributed teams. Successful attacks gave hackers access to companies’ cloud services via both personal and corporate devices. sponsored",
+      "imageUrl": "./0f8be629b7a2bfef77c01d016a48997dc0ce2735f38e55c9a7d2f48418b96d0e.png",
+      "featured": false
+    },
+    {
+      "title": "Go for Node.js developers",
+      "url": "https://github.com/miguelmota/golang-for-nodejs-developers",
+      "description": "This GitHub repository presents and extensive collection of common Golang snippets compared to Node.js equivalents. A great resource for learning Go if you are coming from JavaScript/Node.js.",
+      "imageUrl": "./899da634c39d7e6e2a72560d6e5eb2d28df39adc2c1324afb49b3f17b08ba4b3.jpg",
+      "featured": false
+    },
+    {
+      "title": "Developing For Imperfect",
+      "url": "https://moderncss.dev/developing-for-imperfect-future-proofing-css-styles",
+      "description": "How do we plan future-proof styles in a world with an infinite degree of device and user ability variance? Let's explore how things can break and how modern CSS provides solutions.",
+      "imageUrl": "./0d10c532dc7e6a560133e8ee790faf42bedce611a69f2bc3a42b3e23042fa3f7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building a Magical 3D Button",
+      "url": "https://joshwcomeau.com/animation/3d-button",
+      "description": "Every action we take on the web starts with a button click, and yet most buttons are ho-hum and uninspired. In this tutorial, we'll build an animated 3D button with HTML and CSS that sparks joy.",
+      "imageUrl": "./7bad985f026c4590a1eb6cf5bde0c8f320ff1cb55814a42f842a7514df67710e.jpg",
+      "featured": false
+    },
+    {
+      "title": "React Context for Dependency Injection Not State Management",
+      "url": "https://blog.testdouble.com/posts/2021-03-19-react-context-for-dependency-injection-not-state",
+      "description": "Dive into the concept that React Context API is primarily a tool for injecting dependencies into a React tree and how we can use that to improve testability, reusability, and maintainability of our application (and not for state management).",
+      "imageUrl": "./234ef5ab9a43e7dacb58abd841948e83b6c008421c41849cf0c0f5a20bebd806.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5",
+    "author": "Robin Nixon",
+    "description": "The fully revised, updated and extended 4th edition of the hugely popular web development book - includes CSS, HTML5, jQuery and the mysqli extension. Build interactive, data-driven websites with the potent combination of open-source technologies and web standards, even if you only have basic HTML knowledge. With this popular hands-on guide, you'll tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript, jQuery, CSS, and HTML5.",
+    "coverImageUrl": "./4dd383a9368aaa6ed632aede9e478cdc0678ed0fe58e1cd4ac7a53fa88dfa423.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491918667/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491918667/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

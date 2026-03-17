@@ -1,0 +1,68 @@
+{
+  "issueNumber": 4,
+  "title": "HTML Reference",
+  "slug": "2017-04-03-004-html-reference",
+  "date": "2017-04-03",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #13, 2017",
+  "quote": {
+    "text": "We are stuck with technology when what we really want is just stuff that works",
+    "author": "Douglas Adams",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Douglas_Adams"
+  },
+  "links": [
+    {
+      "title": "HTML Reference",
+      "url": "http://htmlreference.io/",
+      "description": "A free guide to all HTML elements and attributes.",
+      "imageUrl": "./9ce2e37a2773bf57c650498e01bd8f95ac647d355289cc2de952deb8f9273a77.jpg",
+      "featured": true
+    },
+    {
+      "title": "Great Alternatives to Hamburger Menus",
+      "url": "https://uxplanet.org/great-alternatives-to-hamburger-menus-d4c76d9414dd",
+      "description": "How to make your navigation obvious and keep people engaged",
+      "imageUrl": "./a7fc912f049ea2ea8c9bcd960f8fa120152aa4212b527e49360dd4e9372943dd.jpg",
+      "featured": false
+    },
+    {
+      "title": "Creating Non-Rectangular Headers | CSS-Tricks",
+      "url": "https://css-tricks.com/creating-non-rectangular-headers",
+      "description": "Over at Medium, Jon Moore recently identified \"non-rectangular headers\" as a tiny trend. A la: it's not crazy popular yet, but just you wait, kiddo.  We're talking about headers (or, more generally, any container element) that have a non-rectangular shape. Such as trapezoids, complex geometric shape…",
+      "imageUrl": "./e0e8c90e36321e90f768aab39b193e6a13a748283194bc5c8574f5c0b47ad8d0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Web Maker, an Offline, Browser-based CodePen Alternative",
+      "url": "https://sitepoint.com/web-maker-an-offline-browser-based-codepen-alternative",
+      "description": "Kushagra Gour introduces Web Maker, a browser extension for front-end developers needing a blazing-fast, offline web playground.",
+      "imageUrl": "./fc5a5e81b2c8d03a21e94c1785eb87a3d947f80b640319b696e5ca4be321bbbd.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Google Analytics Setup I Use on Every Site I Build — Philip Walton",
+      "url": "https://philipwalton.com/articles/the-google-analytics-setup-i-use-on-every-site-i-build",
+      "description": "Thoughts on web development, open source, software architecture, and the future.",
+      "imageUrl": "./834c694babd5c9d434d5aa228ece5effe1ce61b4e91edfdb1eacb3e344b28767.jpg",
+      "featured": false
+    },
+    {
+      "title": "Evolution of Business Logic from Monoliths through Microservices, to Functions",
+      "url": "https://read.acloud.guru/evolution-of-business-logic-from-monoliths-through-microservices-to-functions-ff464b95a44d",
+      "description": "Underlying technology advancements are creating a shift to event driven functions and radical improvements in time to value",
+      "imageUrl": "./c0fb4b3c3983d243da722cf963839ba91f69ed96305309e46d820e6116e37c6f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Writing good code: how to reduce the cognitive load of your code",
+      "url": "https://chrismm.com/blog/writing-good-code-reduce-the-cognitive-load",
+      "description": "Low bug count, good performance, easy modification. Good code is high-impact, and is perhaps the main reason behind the existence of the proverbial 10x developer. And yet, despite it’s import…",
+      "imageUrl": "./8f68f971cd5223c2293b107a5595e9154540b606adb13f25947c780a60fdd7da.jpg",
+      "featured": false
+    }
+  ],
+  "book": null,
+  "additionalLinks": null,
+  "sponsor": null
+}

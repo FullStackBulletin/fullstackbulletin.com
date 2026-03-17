@@ -1,0 +1,108 @@
+{
+  "issueNumber": 423,
+  "title": "I thought I understood CSS height… for 15 years. I didn’t!",
+  "slug": "2025-05-19-404-i-thought-i-understood-css-height-for-15-years-i-didn-t",
+  "date": "2025-05-19",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nI’m still pretty excited about the recent Node.js 24 release, and you’ll probably notice that energy in some of this week’s picks. It’s always great to see meaningful improvements land in the platform, and this release in particular comes with a few additions that I think will make a real difference for day-to-day development.\n\nIf you care about Node.js and its future, there’s something else you should know: the Node.js team is running a survey to better understand who’s using the platform and what they need next. It only takes five minutes, and your input could genuinely help shape the priorities for upcoming releases. So take 5 minutes and fill the [Node.js Next 10 Survey - 2025](https://linuxfoundation.research.net/r/2025nodenext10)!\n\nAs always, this issue brings together a mix of practical tools, deep dives, and thoughtful reads that sparked my curiosity this week. I hope they do the same for you. Staying curious and always learning is still the best way I know to thrive in this fast-moving field.\n\nAnd hey, if you want to **support FullStackBulletin**, one simple thing you can do is **let me know what you like about it**. What topics or types of content do you enjoy most? That kind of feedback really helps me focus on what matters to you.\n\nYou know what else helps? **Sharing the newsletter with your friends and colleagues**. Help us reach more passionate full-stack web devs like you!\n\nThanks for being here.\n\nHappy reading and coding,\n— Luciano",
+  "quote": {
+    "text": "Code generation, like drinking alcohol, is good in moderation“",
+    "author": "Alex Lowe",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alex_Lowe"
+  },
+  "links": [
+    {
+      "title": "I thought I understood CSS height… for 15 years. I didn’t!",
+      "url": "https://www.joshwcomeau.com/css/height-enigma/",
+      "description": "Josh Comeau finally explained it in a way that made sense. This article breaks down why `height: 100%` so often seems broken, and how CSS layout actually works when it comes to parent-child height relationships. If you've ever piled on height rules out of desperation, this will feel painfully familiar, and incredibly clarifying. Trust me, this is the article I wish I’d read 15 years ago. You probably should read it too.",
+      "imageUrl": "./6e47ed4ef51ad874239ba3babedde530a7a46399fd647155ca40f02d0b9a4bd8.png",
+      "featured": true
+    },
+    {
+      "title": "Vibe Coding is not an excuse for low-quality work",
+      "url": "https://addyo.substack.com/p/vibe-coding-is-not-an-excuse-for",
+      "description": "Everyone is talking about \"vibe coding\". I know you might be sick of it, but this perspective is really important, IMHO. A lot of people think AI-assisted development is a magic bullet that will solve all your tech problems fast and cheap. But the truth is, it's just another tool. And like any tool, there are good and bad use cases. Either way, we have to use it responsibly. Addy Osmani puts it perfectly: AI is like having a very eager junior dev on your team. Fast, helpful, and wildly overconfident. This piece lays out exactly why blindly trusting AI code can lead to massive tech debt, brittle systems, and poor security. But it’s not all doom and gloom. Addy also shows how to actually integrate AI into your workflow with the care and discipline of real engineering.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Concurrent Optimistic Updates in React Query",
+      "url": "https://tkdodo.eu/blog/concurrent-optimistic-updates-in-react-query",
+      "description": "Optimistic rendering is a technique where the UI reflects changes immediately, before the server confirms them. It reduces perceived latency and creates a smoother experience, especially for actions that take time. But while it works well for simple cases, complexity grows fast when multiple updates interact or fail out of order. This post dives into concurrent optimistic updates in React Query, showing how to handle overlapping mutations without breaking your cache or confusing the user. It's a sharp, practical guide for anyone building high-interaction UIs. Also, this is post #29 in a massive React Query series. So even if this topic isn’t your focus today, the full collection is a treasure trove for anyone using React Query seriously.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Error.isError(): A Better Way to Check Error Types in JavaScript",
+      "url": "https://trevorlasn.com/blog/error-iserror-javascript",
+      "description": "When Node 24 dropped (which we covered [last issue](https://us15.campaign-archive.com/?u=b015626aa6028495fe77c75ea&id=d53b4db555)), I got curious about the new `Error.isError()` method. This article helped me see why it’s a big deal, especially if you’ve ever dealt with weird cross-context errors or unhelpful error checks. Unlike `instanceof`, which breaks when errors come from other realms (like iframes or separate VM modules), `Error.isError()` works reliably across contexts and even filters out “fake” error-like objects. It gives you a much more robust way to handle unknown exceptions. Even better: it’s already integrated with TypeScript. So when you wrap an unknown in an `if (Error.isError(e))` block, TypeScript knows e is a real `Error`, and you get full type safety right there.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Basecoat",
+      "url": "https://basecoatui.com/",
+      "description": "If you love the structure of shadcn/ui but don’t want to be tied to React, Basecoat is worth a look. It gives you clean, accessible UI components using simple Tailwind classes, without the usual mess of utility class soup. No React. No complex setup. Just drop it into whatever you're building, whether that's plain HTML, Rails, Flask, or something else. You get a real design system that stays readable and easy to maintain. It even supports shadcn-style theming and uses a small touch of Alpine.js for interactivity when needed. I'm excited to give this a shot in my next Astro project or the next time I'm working with Solid.js.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How V8 JavaScript Engine Works Behind the Scenes",
+      "url": "https://deepintodev.com/blog/how-v8-javascript-engine-works-behind-the-scenes",
+      "description": "We’ve been talking a lot about V8 lately, the JavaScript engine behind Chrome and Node.js, so if you’re curious about how it actually works, this is a great place to start. This article explains what V8 does behind the scenes when it runs your code. It walks through parsing, interpretation, compilation, and runtime optimization, touching on concepts like hidden classes and inline caching in a way that’s clear and approachable. You don’t need to be deep into compilers to get value from this. It’s written for developers who want to understand how JavaScript performance really works. If you’ve ever wondered why some patterns run faster than others, this will help you connect the dots.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "I think the ergonomics of generators is growing on me",
+      "url": "https://macarthur.me/posts/generators",
+      "description": "If JavaScript generators still feel a bit mysterious, this article is a great way to make them click. Generators let you pause and resume execution, making them perfect for building lazy, stateful, or incremental logic. BTW, I’m a big fan of iterators and generators in JavaScript, and I’ve even published a totally [free iterator protocols workshop on GitHub](https://github.com/lmammino/iteration-protocols-workshop) if you want to go deeper. This post is another great resource. It walks through how generators work with yield, why they matter, and how they fit into the bigger picture of JavaScript’s iteration protocol. It’s clear, practical, and might just convince you to use them more often in real projects.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Application Security: Exploitation and Countermeasures for Modern Web Applications",
+    "author": "Andrew Hoffman",
+    "description": "In the first edition of this critically acclaimed book, Andrew Hoffman defined the three pillars of application security: reconnaissance, offense, and defense. In this revised and updated second edition, he examines dozens of related topics, from the latest types of attacks and mitigations to threat modeling, the secure software development lifecycle (SSDL/SDLC), and more. Hoffman, senior staff security engineer at Ripple, also provides information regarding exploits and mitigations for several additional web application technologies such as GraphQL, cloud-based deployments, content delivery networks (CDN) and server-side rendering (SSR). Following the curriculum from the first book, this second edition is split into three distinct pillars comprising three separate skill sets:",
+    "coverImageUrl": "./2b56346aeb48fd20a324178798c739445e5379d724b406a52fbb825ce7a8982a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1098143930?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1098143930?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "AI Native Developer Tools Landscape",
+      "url": "https://landscape.ainativedev.io/"
+    },
+    {
+      "title": "No, react context is not causing too many renders",
+      "url": "https://blacksheepcode.com/posts/no_react_context_is_not_causing_too_many_renders"
+    },
+    {
+      "title": "ESLint plugin to catch unnecessary React useEffect hooks",
+      "url": "https://github.com/NickvanDyke/eslint-plugin-react-you-might-not-need-an-effect"
+    },
+    {
+      "title": "The power of the spread and rest syntax in JavaScript",
+      "url": "https://allthingssmitty.com/2025/05/05/the-power-of-spread-and-rest-patterns-in-javascript.md"
+    },
+    {
+      "title": "Getting to Staff Engineer",
+      "url": "https://medium.com/one-to-n/getting-to-staff-engineer-5af6ff3236a6"
+    },
+    {
+      "title": "Node.js 24 Is Here: What You Need to Know",
+      "url": "https://www.nodesource.com/blog/Node.js-version-24"
+    },
+    {
+      "title": "JavaScript's New Superpower: Explicit Resource Management",
+      "url": "https://v8.dev/features/explicit-resource-management"
+    },
+    {
+      "title": "Share your dev server (and more) over P2P",
+      "url": "https://malai.sh/"
+    }
+  ],
+  "sponsor": null
+}

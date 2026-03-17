@@ -1,0 +1,75 @@
+{
+  "issueNumber": 200,
+  "title": "rqlite - distributed SQLite",
+  "slug": "2021-02-08-200-rqlite-distributed-sqlite",
+  "date": "2021-02-08",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #6, 2021\n\n\n⭐️ FullStack Bulletin has outgrown its free plan! If you enjoy this newsletter, consider supporting us:\n\n\n[Donate on Patreon](https://patreon.com/lucianomammino) - [Discuss sponsorship](https://fstack.link/sponsor)",
+  "quote": {
+    "text": "It has become appallingly obvious that our technology has exceeded our humanity",
+    "author": "Albert Einstein",
+    "authorTitle": "Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "links": [
+    {
+      "title": "rqlite - distributed SQLite",
+      "url": "https://github.com/rqlite/rqlite",
+      "description": "rqlite is a lightweight, distributed relational database, which uses SQLite as its storage engine. Forming a cluster is very straightforward, it gracefully handles leader elections, and tolerates failures of machines, including the leader.",
+      "imageUrl": "./0176221f5881e4041765f5ba7035e98d8d7ff471181004b33e8b44d7b7ba40fa.png",
+      "featured": true
+    },
+    {
+      "title": "The Best Static Site Generator for 2021",
+      "url": "https://snipcart.com/blog/choose-best-static-site-generator",
+      "description": "If 2020 was the year of static websites and static website generators, which generator is the best one? This article explore the strength and weaknesses of the main contenders on the scene!",
+      "imageUrl": "./991232e7dec1890a0d465858680009fb32b30d079fcb2b1c18830b010e72463d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Understanding Rendering in React",
+      "url": "https://dev.to/teo_garcia/understanding-rendering-in-react-i5i",
+      "description": "A solid but quite approachable walkthrough about how rendering works with React. This article will go through concepts such as VirtualDOM, render lifecycle, reconciliation and commit phases.",
+      "imageUrl": "./cca67476c87c0044df8220c15b78ea9b4604c7cd8b2498eacf95b7f62f955a6a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Life with ESM",
+      "url": "https://css-tricks.com/life-with-esm",
+      "description": "ESM, meaning ES Modules, meaning JavaScript Modules. Like, `import`, `export` and friends. Browsers support it these days. There is plenty of nuance, but as long as you’ve dropped IE, the door is fairly open. This article explores the idea of dropping npm entirely by looking at new approaches and new tools.",
+      "imageUrl": "./b4ef428c6582ff88d301289695863f467c9c1bb26616abb1f674fdc2c0806233.png",
+      "featured": false
+    },
+    {
+      "title": "10 bad TypeScript habits to break this year",
+      "url": "http://startup-cto.net/10-bad-typescript-habits-to-break-this-year",
+      "description": "TypeScript and JavaScript have steadily evolved over the last years, and some of the habits we built over the last decades have become obsolete. Some might never have been meaningful. Here's a list of 10 habits that we all should break.",
+      "imageUrl": "./d1416da2d83f7c8470d41df9520d1e3565fda38cc36680ca29676c6badb644a6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Elm at Rakuten",
+      "url": "https://dev.to/lucamug/elm-6m8",
+      "description": "The story of adopting the Elm language in Rakuten. The lessons we learned, likes and dislikes.",
+      "imageUrl": "./d46eac6f950ad336a1c47f3433774ed7c774b11a51e9e7d71f0816bc7a9727c4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why React Context is Not a \"State Management\" Tool",
+      "url": "https://blog.isquaredsoftware.com/2021/01/context-redux-differences",
+      "description": "You probably heard already people complaining about the React Context API not being meant to be used as a state management alternative. This article provides some definitive answers and clarification on the purpose and use cases for Context and Redux.",
+      "imageUrl": "./6d5672f15354240d161ccb1f24f914a7d4981ad46626ae88f19e92b529ea36c7.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "PHP and MySQL Web Development (5th Edition) (Developer's Library)",
+    "author": "Luke Welling",
+    "description": "PHP and MySQL are popular open-source technologies that are ideal for quickly developing database-driven Web applications. PHP is a powerful scripting language designed to enable developers to create highly featured Web applications quickly, and MySQL is a fast, reliable database that integrates well with PHP and is suited for dynamic Internet-based applications",
+    "coverImageUrl": "./215552defe4b9e1ca9846aa5b85f2a20bdf3752b7580570be5a6d3bda1582bfa.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321833899/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321833899/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

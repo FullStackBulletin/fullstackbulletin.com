@@ -1,0 +1,75 @@
+{
+  "issueNumber": 239,
+  "title": "#239: Creating the Perfect Commit in Git",
+  "slug": "2021-12-06-239-49-creating-the-perfect-commit-in-git",
+  "date": "2021-12-06",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Computers are useless.  They can only give you answers",
+    "author": "Pablo Picasso",
+    "authorTitle": "Artist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Pablo_Picasso"
+  },
+  "links": [
+    {
+      "title": "Creating the Perfect Commit in Git",
+      "url": "https://css-tricks.com/creating-the-perfect-commit-in-git",
+      "description": "With a little bit of care, a commit message can be something that helps us stay on top of things. It can be a container for related changes that belong to one and only one topic, and thereby make it easier for us to understand what happened.\nIn this post, you'll learn what it takes to produce the latter type of commit or, in other words: the “perfect” commit.",
+      "imageUrl": "./aa101f656ee4759fedb359f355e45aee6c0f1781277326ed99c62990f6ce2a7a.jpg",
+      "featured": true
+    },
+    {
+      "title": "Open Props: sub-atomic styles",
+      "url": "https://open-props.style/",
+      "description": "Open source CSS custom properties to help accelerate adaptive and consistent design. Available from a CDN or NPM, as CSS or Javascript. In some ways, it reminds us of TailwindCSS but with a more standardise and lean approach to it.",
+      "imageUrl": "./e7c75a0f1675f337b54ea9ffbecbfa601612fd92ee69c679eacb5452dc6f09bb.jpg",
+      "featured": false
+    },
+    {
+      "title": "My Custom CSS Reset",
+      "url": "https://joshwcomeau.com/css/custom-css-reset",
+      "description": "In his latest article, Josh shares is own custom CSS Reset and, while you don't not necessarily  have to agree with everything inside it, you can still learn a trick or two by looking at it.",
+      "imageUrl": "./ba8660ae8c0bcc7c71278cd07eb81f14c149f6d3ff8946d8c405452e146b825f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Lighthouse user flows",
+      "url": "https://web.dev/lighthouse-user-flows",
+      "description": "Lighthouse has a new programmatic API that you can use with Puppeteer to measure performance and best practices throughout a particular user flow. With this API you can build tests to make sure that the most important user flow in your application are always performant!",
+      "imageUrl": "./9ed9214dc40ac3aee24f425c8c987f86ae33c2422547456c588afca2e821293a.png",
+      "featured": false
+    },
+    {
+      "title": "Engineering Fundamentals Checklist",
+      "url": "https://microsoft.github.io/code-with-engineering-playbook/ENG-FUNDAMENTALS-CHECKLIST",
+      "description": "An interesting checklist by Microsoft to help you with following the most recent best practices around managing code in a software project.",
+      "imageUrl": "./f1563c49009bf69d926fb3c6daa932d342da90309d615d5575e6cb0e62f2a4cc.png",
+      "featured": false
+    },
+    {
+      "title": "7 Ways to Improve Node.js Performance at Scale",
+      "url": "https://blog.appsignal.com/2021/11/24/7-ways-to-improve-nodejs-performance-at-scale.html",
+      "description": "Read some practical tips to help you scale your Node.js application to handle more traffic.",
+      "imageUrl": "./54fb790c9f40be30c37ea895656e5f7a1c0736dccf57aadcae01391fbd3ade78.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Showcase Of Lovely Little Websites",
+      "url": "https://smashingmagazine.com/2021/11/showcase-lovely-little-websites",
+      "description": "Instead of spending your coffee break scrolling through your social feeds, how about a lovely little website instead? We came across some fantastic ones that are just too good not to be shared. But be warned, your break might take a bit longer than intended.",
+      "imageUrl": "./2d652c1bbf0fcebdda8fee79129b0deefc8040f888fadb6779e962856f34be9d.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Modern PHP: New Features and Good Practices",
+    "author": "Josh Lockhart",
+    "description": "PHP is experiencing a renaissance, though it may be difficult to tell with all of the outdated PHP tutorials online. With this practical guide, you’ll learn how PHP has become a full-featured, mature language with object-orientation, namespaces, and a growing collection of reusable component libraries. Author Josh Lockhart—creator of PHP The Right Way, a popular initiative to encourage PHP best practices—reveals these new language features in action. You’ll learn best practices for application architecture and planning, databases, security, testing, debugging, and deployment.",
+    "coverImageUrl": "./418bba906f21b114b5c7dcb0d9e0d7c44a714c727d1cf0edbb7f097a7406b2d5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491905018/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491905018/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

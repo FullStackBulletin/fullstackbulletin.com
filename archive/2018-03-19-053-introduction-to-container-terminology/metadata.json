@@ -1,0 +1,75 @@
+{
+  "issueNumber": 53,
+  "title": "Introduction to container terminology",
+  "slug": "2018-03-19-053-introduction-to-container-terminology",
+  "date": "2018-03-19",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #11, 2018",
+  "quote": {
+    "text": "The great myth of our times is that technology is communication",
+    "author": "Libby Larsen",
+    "authorTitle": "Composer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Libby_Larsen"
+  },
+  "links": [
+    {
+      "title": "Introduction to container terminology",
+      "url": "https://developers.redhat.com/blog/2018/02/22/container-terminology-practical-introduction/",
+      "description": "Terms like containers and images are used interchangeably, but there are important conceptual differences. In the world of containers, repository has a different meaning than what you’d expect. Additionally, the landscape for container technologies is larger than just docker...",
+      "imageUrl": "./8a0817355eb3c4191bb9bd39660232b7944f50f5202b6273295f62798591aa5c.png",
+      "featured": true
+    },
+    {
+      "title": "Machine Learning Crash Course",
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "description": "A FREE self-study guide for aspiring machine learning practitioners by Google.",
+      "imageUrl": "./0588d34ac29c3fd5091d95c78c8413137f4832299bf58462ba0f23df3eb2059f.png",
+      "featured": false
+    },
+    {
+      "title": "PHP 5.6, 7.0, 7.1, 7.2 & HHVM Benchmarks (2018)",
+      "url": "https://kinsta.com/blog/php-7-hhvm-benchmarks",
+      "description": "Tested performance of 20+ platforms/configurations (WordPress, Drupal, Joomla!) on 5 different engines (PHP 5.6, 7.0, 7.1, HHVM) and PHP 7.2 took the gold in 14 of 20 tests. Check out these 2018 benchmarks.",
+      "imageUrl": "./6288fd72b7bbdc649d33e2636f54c741b70919def6351169bc6586ff4bb6721f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Lesser known CSS quirks & advanced tips",
+      "url": "https://medium.com/@peedutuisk/lesser-known-css-quirks-oddities-and-advanced-tips-css-is-awesome-8ee3d16295bb",
+      "description": "Lesser known CSS features, weirdest quirks and oddities. Along with advanced CSS tips and tricks for front-end developers.",
+      "imageUrl": "./5d86909860af31d1e7c4180fe30ebeba7c14b95d5642e5d611a3a06304580ab2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Understanding V8’s Bytecode",
+      "url": "https://medium.com/dailyjs/understanding-v8s-bytecode-317d46c94775",
+      "description": "V8 is Google’s open source JavaScript engine. Chrome, Node.js, and many other applications use V8. This article explains V8’s bytecode…",
+      "imageUrl": "./fd31a8e0a526ab5ba98f251a8d08cb928a65feb7205d1448cc1104ecf012da66.jpg",
+      "featured": false
+    },
+    {
+      "title": "10 Tips for Javascript Debugging",
+      "url": "https://medium.com/appsflyer/10-tips-for-javascript-debugging-like-a-pro-with-console-7140027eb5f6",
+      "description": "A series of useful tips on how you can use the console to ease your debugging needs with JavaScript applications.",
+      "imageUrl": "./2bd207913c0b4ded3bc1d587df1b09c32e68fb6fc0a2ac0d12ab7723de09ff7a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Designing The Perfect Date And Time Picker",
+      "url": "https://smashingmagazine.com/2017/07/designing-perfect-date-time-picker",
+      "description": "What could be so difficult about designing a **decent date picker**? Basically, we just need an input field and an icon that represents a calendar clearly enough, and once the user clicks on that icon, we pop up a little overlay with the days lined up in rows. Right?\nWell, not every date picker fits…",
+      "imageUrl": "./3a4c8f7ea821226957a81e2aedce8a49fa14b9963a08512e2c92dfc7d3bad06f.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "UX Strategy: How to Devise Innovative Digital Products that People Want",
+    "author": "Jaime Levy",
+    "description": "User experience (UX) strategy requires a careful blend of business strategy and UX design, but until now, there hasn’t been an easy-to-apply framework for executing it. This hands-on guide introduces lightweight strategy tools and techniques to help you and your team craft innovative multi-device products that people want to use. Whether you’re an entrepreneur, UX/UI designer, product manager, or part of an intrapreneurial team, this book teaches simple-to-advanced strategies that you can use in your work right away.",
+    "coverImageUrl": "./fb5bfe56ce390883cd7e92437fbc707fe0ce9062ff82c591ed2eba65ee4daa8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372864/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372864/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

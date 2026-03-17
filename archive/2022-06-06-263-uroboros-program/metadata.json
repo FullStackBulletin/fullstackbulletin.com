@@ -1,0 +1,75 @@
+{
+  "issueNumber": 276,
+  "title": "uroboros program",
+  "slug": "2022-06-06-263-uroboros-program",
+  "date": "2022-06-06",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #22, 2022",
+  "quote": {
+    "text": "Software is like sex: It’s better when it’s free",
+    "author": "Linus Torvalds",
+    "authorTitle": "Software developer and inventor of Linux",
+    "authorUrl": "https://en.wikipedia.org/wiki/Linus_Torvalds"
+  },
+  "links": [
+    {
+      "title": "uroboros program",
+      "url": "https://github.com/mame/quine-relay",
+      "description": "Here's a crazy thing: a ruby script that generates itself passing though generated code in 100+ programming languages. Is this useful? Definitely not, but it shows that there is really no limit to creativity in what you can do with code! ❤️",
+      "imageUrl": "./e8c291de1b4bbc93b7b33d078f78cb37bddf5a03d74ca59bcc3f8abf0eec2028.jpg",
+      "featured": true
+    },
+    {
+      "title": "UI Coach - Find Inspiration",
+      "url": "https://uicoach.io/",
+      "description": "UI Coach is an awesome website that generates challenges for you to test your design skills! You get a task, a palette and some other resources. Such a great way to improve your web design skills!",
+      "imageUrl": "./6fb95af70a4846f40556d42bb9a873288b87db7ed7e3e9caf0a5b4a9ed7494c0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Readability: The Optimal Line Length",
+      "url": "https://baymard.com/blog/line-length-readability",
+      "description": "The length of text lines substantially impacts their readability — yet this is often overlooked in e-commerce. Let's see some practical piece of advice on how to use line length to improve readability.",
+      "imageUrl": "./04dcfe85e33ac43ce618d2fb85c62cd5e0774b78a2024d399b46db38e393c374.jpg",
+      "featured": false
+    },
+    {
+      "title": "Interactive Typography Tutorial",
+      "url": "https://learnui.design/tools/typography-tutorial.html",
+      "description": "If you are looking for more design goodness, here is another great resource for you to learn the fundamentals of typography through this gamified walkthrough with real-time feedback and logic-based principles.",
+      "imageUrl": "./9c6e8fb26a439d3a6b7ae35aad86979449b1012375b34aafcd6ef9152d1d2f9b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Glide Data Grid",
+      "url": "http://grid.glideapps.com/",
+      "description": "Glide Data Grid is a no compromise, outrageously fast data grid for your React project, with rich rendering and TypeScript support.",
+      "imageUrl": "./560b8dc183d5a855e5a9eddb6bd06cd156b9339df9f1569b7560377633367cd8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Eva Icons",
+      "url": "https://akveo.github.io/eva-icons",
+      "description": "Eva Icons is a pack of 480 delightful icons available for free. Download Eva Icons to use them in your products for mobile and web apps. Available as SVG, PNG, Web Font and Sketch. Open Source, built by the Nebular team.",
+      "imageUrl": "./11307659581ed34bc11c4fb90f04ff0f1826a0935135448fc951cfef845b81a6.png",
+      "featured": false
+    },
+    {
+      "title": "Google CrUX for performance benchmarks",
+      "url": "https://smashingmagazine.com/2022/05/google-crux-analysis-comparison-performance-javascript-frameworks",
+      "description": "In this article, Dan Shappir analyzes the performance cost associated with various frameworks and explains the wide variety of framework and platform choices that are currently available to front-end and fullstack developers.",
+      "imageUrl": "./ff358fc6eff78878cd2002158d8345a430620a1264a217e73c55ec58d7a66665.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Mythical Man-Month: Essays on Software Engineering",
+    "author": "Frederick P. Brooks Jr.",
+    "description": "Few books on software project management have been as influential and timeless as The Mythical Man-Month. With a blend of software engineering facts and thought-provoking opinions, Fred Brooks offers insight for anyone managing complex projects. These essays draw from his experience as project manager for the IBM System/360 computer family and then for OS/360, its massive software system. Now, 20 years after the initial publication of his book, Brooks has revisited his original ideas and added new thoughts and advice, both for readers already familiar with his work and for readers discovering it for the first time.",
+    "coverImageUrl": "./f69ef92cce9e0ba56f14311a6fad691ee26f7ca2373cd8fe9049efc8accbb9c4.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0201835959/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0201835959/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

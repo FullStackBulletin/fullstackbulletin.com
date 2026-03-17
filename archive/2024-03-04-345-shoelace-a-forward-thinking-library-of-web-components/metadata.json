@@ -1,0 +1,104 @@
+{
+  "issueNumber": 362,
+  "title": "Shoelace: A forward-thinking library of web components",
+  "slug": "2024-03-04-345-shoelace-a-forward-thinking-library-of-web-components",
+  "date": "2024-03-04",
+  "templateType": "mce-mailchimp",
+  "intro": "Howdy dear *|LIST:NAME|*\n...and welcome to issue #362. This is yet another issue rich of lovely full-stack content and I hope you'll enjoy every single bit of it!\n\nI have only one service call for you this week. This Wednesday (6th of March), I'll be talking at the Rust Dublin Meetup. It will be a remote event and it will be live-streamed on YouTube, so, if you are interested in Rust and want to learn a thing or two about parsing, make sure to hit the notify button here: [An intro to nom, parsing made easy for Rustaceans](https://www.youtube.com/watch?v=1atZzA3e3Kg). I'd love to see you there! :)\n\n— Luciano",
+  "quote": {
+    "text": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight“",
+    "author": "Bill Gates",
+    "authorTitle": "Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/Bill_Gates"
+  },
+  "links": [
+    {
+      "title": "Shoelace: A forward-thinking library of web components",
+      "url": "https://shoelace.style/",
+      "description": "Last week, I was researching UI components libraries for a new project and I bumped into Shoelace, a component library based on custom elements but that also offers facades for React, Vue, and Angular. It seems very promising but it doesn't pass yet my personal litmus test in terms of components completeness: having a date-time picker component... Hopefully they'll add that soon!",
+      "imageUrl": "./1295578d200697ecdf7edd5ada15463941afb0a71b6bdd190aa7b1fc6b8229c1.jpg",
+      "featured": true
+    },
+    {
+      "title": "Waku: the minimal React framework",
+      "url": "https://waku.gg/",
+      "description": "During my research, I also bumped into Waku, which seems like a potentially interesting alternative to the myriad of react frameworks such as Next.js, Remix, Astro, etc. It tries to be different by taking a very minimalistic stance on focusing mostly on providing good support for server-side rendering. If you are only looking for a thin layer to do just that, Waku might really be worth a look.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "console.delight",
+      "url": "https://frontendmasters.com/blog/console-delight",
+      "description": "Everyone knows you can use `console.log()` to log text and variables to the console. Did you know you could also render (limited) CSS, SVGs, and even HTML in it?!? It might be convenient for some original Easter eggs...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Making SVG Loading Spinners: An Interactive Guide",
+      "url": "https://fffuel.co/svg-spinner/",
+      "description": "Our friends at **Fffuel** brought us this fantastic interactive article on how to create amazing SVG-based loading spinners. If you always wondered how to draw and animate arcs and circles with SVGs and a bit of CSS, you'll surely enjoy reading through this one! Your next loading screen is certainly not going to be boring! ☺️",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Dead Simple Sites — Minimal Website Inspiration",
+      "url": "https://deadsimplesites.com/",
+      "description": "Minimal Website Inspiration](https://deadsimplesites.com/) — If you are a lover of minimalist websites with a great focus on typography and care for whitespace but without many bells and whistles, this site is for you. A great gallery of \"Dead Simple Sites\" for you to find inspiration. Check it out!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "CSS :has() Interactive Guide",
+      "url": "https://ishadeed.com/article/css-has-guide",
+      "description": "Time for another interactive tutorial! This time with everything you need to know about the CSS `:has()` selector. What I really liked about this article is that it has tiny exercises that you can complete on the page itself to test your understanding. These king of things make articles like this so much more fun to go through!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "JSDoc as an alternative TypeScript syntax",
+      "url": "https://alexharri.com/blog/jsdoc-as-an-alternative-typescript-syntax",
+      "description": "This argument keeps popping up now and then. Should you use TypeScript and take the hit on extra setup and compilation time, or should you rather adopt type annotations in JSDoc? If you think the latter is a good tradeoff, this guide will give you some good tips on how to do that correctly.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "ReactJS by Example- Building Modern Web Applications with React",
+    "author": "Vipul A M",
+    "description": "tarting with a project on Open Library API, you will be introduced to React and JSX before moving on to learning about the life cycle of a React component. In the second project, building a multi-step wizard form, you will learn about composite dynamic components and perform DOM actions. You will also learn about building a fast search engine by exploring server-side rendering in the third project on a search engine application. Next, you will build a simple frontpage for an e-commerce app in the fourth project by using data models and React add-ons. In the final project you will develop a complete social media tracker by using the flux way of defining React apps and know about the best practices and use cases with the help of ES6 and redux.",
+    "coverImageUrl": "./a4e0dee4571c84ad4a0d244e4ef6cdb129bb9185a1fdb2fc5e8eecb99c12e3c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785289640/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785289640/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Bloom Filters",
+      "url": "https://samwho.dev/bloom-filters"
+    },
+    {
+      "title": "How to find the AWS Account ID of any S3 Bucket",
+      "url": "https://tracebit.com/blog/2024/02/finding-aws-account-id-of-any-s3-bucket"
+    },
+    {
+      "title": "Going beyond pixels and (r)ems in CSS - Container query length units",
+      "url": "https://techhub.iodigital.com/articles/going-beyond-pixels-and-rems-in-css/container-query-length-units"
+    },
+    {
+      "title": "A practical guide to using shadow DOM",
+      "url": "https://mayank.co/blog/declarative-shadow-dom-guide"
+    },
+    {
+      "title": "Playing with Infinity in CSS",
+      "url": "https://codersblock.com/blog/playing-with-infinity-in-css"
+    },
+    {
+      "title": "MDN Curriculum",
+      "url": "https://developer.mozilla.org/en-US/curriculum"
+    },
+    {
+      "title": "A Fun Line of Code",
+      "url": "https://dbushell.com/2024/02/27/a-fun-line-of-code"
+    }
+  ],
+  "sponsor": null
+}

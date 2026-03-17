@@ -1,0 +1,75 @@
+{
+  "issueNumber": 286,
+  "title": "Boost Your Web Performance",
+  "slug": "2022-08-15-273-boost-your-web-performance",
+  "date": "2022-08-15",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway",
+    "author": "Andrew S. Tanenbaum",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum"
+  },
+  "links": [
+    {
+      "title": "Boost Your Web Performance",
+      "url": "https://smashingmagazine.com/2022/08/core-web-vitals-tools-boost-performance",
+      "description": "Identify, compare, analyze and fix your Core Web Vitals scores to boost the web performance of your sites. This article proposes a collection of valuable tools to help you do exactly that.",
+      "imageUrl": "./7d529cabe5989c6d6349aad15e1f352291ba0a9b359ea0869a5af02565b2bc6e.jpg",
+      "featured": true
+    },
+    {
+      "title": "system.css",
+      "url": "https://sakofchit.github.io/system.css",
+      "description": "I believe retro-UIs are somewhat timelessly charming. In some previous editions we saw UI toolkits to build windows style websites (including windows 3.1!) Now it's time for a design system for building retro Apple interfaces! I am sure you are going to love it!",
+      "imageUrl": "./f9f68582f770b1aaf520d8b82d870de32050b0dd7cc6b05dbd20900c590d385b.png",
+      "featured": false
+    },
+    {
+      "title": "GDPR For Developers By Example",
+      "url": "https://blog.blether.chat/2022/08/03/gdpr-for-developers-by-example",
+      "description": "GDPR has been in place for years now, and we’re starting to learn more and more about how it’s going to be enforced and what it really means.This awesome article presents some learnings directly based on litigation and court decisions!",
+      "imageUrl": "./a0ff58b4dbbeaadd7a003a8524877343696ab6d9a18f56e04a37e7795c64ed62.png",
+      "featured": false
+    },
+    {
+      "title": "A deep dive into Rust iterators and closures",
+      "url": "https://blog.logrocket.com/rust-iterators-closures-deep-dive",
+      "description": "One of my favorite things in Rust is the support for iterators in the standard library! In this article, you can learn a lot about how iteration works, but also about closures, another hot Rust topic!",
+      "imageUrl": "./d809f9baa37cc0794e554a41156505ce730b1682ab08bb4e0b45a632d6cf67ed.jpg",
+      "featured": false
+    },
+    {
+      "title": "Checking if a JavaScript native function is monkey patched",
+      "url": "https://mmazzarolo.com/blog/2022-07-30-checking-if-a-javascript-native-function-was-monkey-patched",
+      "description": "Have you ever wondered how could you know if a given native JavaScript method has been monkey patched? The author of this article definitely did! In this article, you can deep dive into the available options to check if a JavaScript native function is still clean or has been monkey patched.",
+      "imageUrl": "./1058f4b490228b0b42b6b694ee7ff31f80155a23f5150f21f413bb7755db43a2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Committing CSS Crimes",
+      "url": "https://css-tricks.com/committing-css-crimes",
+      "description": "This article talks about CSS crimes... not really if you ask me! I think there are some really clever and original techniques being discussed here! But I will not spoil them: you can check them out yourself! :)",
+      "imageUrl": "./34cf0585015dfca154f1e3dea5b96e35a9f86663d1bfc910b3df16e53a9f7abe.jpg",
+      "featured": false
+    },
+    {
+      "title": "Astro 1.0",
+      "url": "https://astro.build/blog/astro-1",
+      "description": "The first stable release of Astro is out now! In case you missed it, Astro is one of the most promising static site generators that allows you to build fast, content-focused websites using the Island architectures and the frontend framework of your choice (among React, Vue, Svelte, and even SolidJS).",
+      "imageUrl": "./c5caf0a9fea95a4a76b6226e8bb012c295ca9685d8da6325a1050b30dfddcaf0.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices",
+    "author": "Viktor Farcic",
+    "description": "This book is about different techniques that help us architect software in a better and more efficient way with microservices packed as immutable containers, tested and deployed continuously to servers that are automatically provisioned with configuration management tools. It's about fast, reliable and continuous deployments with zero-downtime and ability to roll-back. It's about scaling to any number of servers, design of self-healing systems capable of recuperation from both hardware and software failures and about centralized logging and monitoring of the cluster.",
+    "coverImageUrl": "./541c1dd09cac26ae06429687c2601da19e8cb4c7894063854cb3ae1c65eb6db9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/152391744X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/152391744X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

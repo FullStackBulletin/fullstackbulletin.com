@@ -1,0 +1,128 @@
+{
+  "issueNumber": 445,
+  "title": "Your URL Is Your State",
+  "slug": "2025-11-17-425-your-url-is-your-state",
+  "date": "2025-11-17",
+  "templateType": "buttondown-markdown",
+  "intro": "If you have ever caught yourself talking to your laptop or secretly giving it a name, you are in good company. I recently got a new one, the one I am using right now to write these lines, and named it *Sideral*, which is why I found todays featured quote particularly hilarious.\n\nThis issue is an invitation to go through every single piece of content with curiosity. Each one has a story and a lesson, from URLs as state to colors as inclusion, from data and security to CSS quirks and visual types. I am pretty sure you will come out a little more inspired and a little more ready to build cool stuff. In the end, that is why we are here, to create awesome web experiences for ourselves and for our users.\n\nLearn by doing and sharing!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Once you get to naming your laptop, you know that you're really having a deep relationship with it",
+    "author": "Cory Doctorow",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Cory_Doctorow?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=445-your-url-is-your-state"
+  },
+  "links": [
+    {
+      "title": "Your URL Is Your State",
+      "url": "https://alfy.blog/2025/10/31/your-url-is-your-state.html",
+      "description": "Kind of wild to realise how much the whole web leans on this tiny thing we mostly ignore: the URL. Almost every experience we have online starts from one, and every hop between pages or sites goes through it. I honestly cannot picture the web existing without something like URLs, yet most of the time we treat them as a boring technical detail and never really ask whether we are using them to their full potential. This piece was a proper wake up call for me. It shows how flexible and well designed URLs actually are, and how much more we could lean on them to encode state, improve sharing, and craft better user experiences. Query params, hashes, path segments: they are all little building blocks we can combine to make our apps more understandable, more resilient, and easier to revisit. After reading it, you might find yourself looking at the address bar with a lot more respect.",
+      "imageUrl": "./d02b3c310c6ceb5e6a842947b037bd36d3cad5f95f2b518338b8ecd3386279d7.jpg",
+      "featured": true
+    },
+    {
+      "title": "InclusiveColors - Accessible color palette creator",
+      "url": "https://inclusivecolors.com/",
+      "description": "We talk a lot about accessibility in terms of components, patterns, and frameworks, but color choices quietly make or break a lot of real user experiences, especially for people with low vision or color blindness. Inclusive Colors is a very neat little power tool for building entire color palettes that are accessible from the start, not patched after the design is done. I love that you can start from your existing brand color, which makes it feel practical instead of theoretical, then tweak from there while seeing which combinations actually pass contrast checks. If you are working on a design system, theming, or just tired of guessing which shade of gray is safe, this is a great way to bake inclusion right into your tokens instead of bolting it on at the end. [**Check tool**](https://inclusivecolors.com/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "MockSpeed - 3D Mockup Editor",
+      "url": "https://mockspeed.io/",
+      "description": "If you ever need to share some cool looking mobile screenshots of your web apps, this is a very handy little helper. MockSpeed is a browser based studio for creating photo realistic 3D app mockups in just a few minutes, so you get shiny device renders without touching 3D software, begging a designer friend for help, or using AI and getting unpredictable results that are very hard to change. You drag your screens into different scenes, tweak angles, lighting, and backgrounds, then export clean visuals that actually make your app look as good as it feels to use. Perfect for indie hackers, landing pages, pitch decks, portfolios, or any other showcase of your craft. [**Check tool**](https://mockspeed.io/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "TanStack DB 0.5 comes with Query-Driven Sync",
+      "url": "https://tanstack.com/blog/tanstack-db-0.5-query-driven-sync",
+      "description": "TanStack DB is a library that lets your app treat remote data like a smart local store. Your components tell it what data they need, then it fetches everything for you, keeps it in sync, and lets you make optimistic updates so the UI reacts in milliseconds while it quietly talks to your backend in the background. It shines in dashboards, admin panels, search and filter heavy UIs, and any product where you want actions to feel instant even when there is a network in the middle. I am super excited about this library, but I still have not really had a chance to try it in a real project. This new version actually tackles some of the doubts I originally had. Is this only going to work for small scale apps? What if I have a lot of data? With query driven sync and the new sync modes aimed at large datasets, I am now even more excited to give this a go. Have you tried it already? Reply to this email and let me know what you think.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Official Node.js Security Best Practices",
+      "url": "https://nodejs.org/en/learn/getting-started/security-best-practices",
+      "description": "It is really nice to see the official Node.js site shipping more tutorials and guides, and especially that they are putting real emphasis on what you actually need for production ready deployments, not just hello world examples. This new page is all about security. it walks through a bunch of real world threats you might face when building Node.js backends, like denial of service attacks on your HTTP server, DNS rebinding, request smuggling, timing attacks, prototype pollution, and supply chain issues from malicious third party modules, then shows concrete ways to defend yourself. I will admit I did not even know a couple of these by name, so this is definitely not just fluffy introductory content. it is a well packed investment that takes only around 15 to 20 minutes to read. If you write any Node.js at all, this is one of those resources you really should read at least once.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Weird Parts of Sticky positioning",
+      "url": "https://frontendmasters.com/blog/the-weird-parts-of-position-sticky",
+      "description": "I always love a good piece about CSS. Do not ask me why, perhaps I am weird, but I hope that you share the same weird love for CSS. This one digs into `position: sticky`, which looks simple on the surface, then completely falls apart the moment you try something slightly fancy. The article walks through the classic sticky use cases, then shows the subtle reasons it can fail, like when your sticky element is taller than its scroll container or when flex and grid layout create a bounding context that is just too small. It is full of clear demos and practical fixes, so next time your sticky header behaves like a confused cat on a glass table, you will actually know where to look.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Visual Types",
+      "url": "https://types.kitlangton.com/",
+      "description": "If TypeScript types still feel a bit like wizard magic to you, this is a lovely way to peek behind the curtain. This site gives you a very visual intro to how the TypeScript type system works, with playful animations and clear, interactive explanations that show how unions, intersections, conditionals, and inference actually behave. It is the kind of resource you can casually click through in a few minutes, then suddenly realise your mental model of types just got a big upgrade.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Software Architecture Metrics: Case Studies to Improve the Quality of Your Architecture",
+    "author": "Christian Ciceri, Dave Farley, Neal Ford, Andrew Harmel-Law, Michael Keeling, Carola Lilienthal, João Rosa, Alexander von Zitzewitz, Rene Weiss, and Eoin Woods",
+    "description": "Software architecture metrics are key to the maintainability and architectural quality of a software project and they can warn you about dangerous accumulations of architectural and technical debt early in the process. In this practical book, leading hands-on software architects share case studies to introduce metrics that every software architect should know.\nThis isn't a book about theory. It's more about practice and implementation, about what has already been tried and worked. Detecting software architectural issues early is crucial for the success of your software: it helps mitigate the risk of poor performance and lowers the cost of repairing those issues. Written by practitioners for software architects and software developers eager to explore successful case studies, this guide will help you learn more about decision and measurement effectiveness.\nThrough contributions from 10 prominent practitioners, this book shares key software architecture metrics to help you set the right KPIs and measure the results. You'll learn how to:",
+    "coverImageUrl": "./fc76ff19f404e641c67a969c4f0335f8060c6b80e30160101e659d09e1ad9ac2.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1098112237",
+    "amazonUk": "https://www.amazon.co.uk/dp/1098112237"
+  },
+  "additionalLinks": [
+    {
+      "title": "Mantine DataTable - build awesome data-rich web applications",
+      "url": "https://icflorescu.github.io/mantine-datatable"
+    },
+    {
+      "title": "To Affinity and Beyond",
+      "url": "https://matthiasott.com/notes/to-affinity-and-beyond"
+    },
+    {
+      "title": "Gramio: Powerful, extensible and really type-safe Telegram Bot API framework",
+      "url": "https://github.com/gramiojs/gramio"
+    },
+    {
+      "title": "Range Syntax for Style Queries",
+      "url": "https://una.im/range-style-queries"
+    },
+    {
+      "title": "Simple One-Time Passcode Inputs",
+      "url": "https://cloudfour.com/thinks/simple-one-time-passcode-inputs"
+    },
+    {
+      "title": "Reimagine the Date Picker",
+      "url": "https://dbushell.com/2025/11/10/pikaday"
+    },
+    {
+      "title": "Payment form best coding practices that don't drop sales",
+      "url": "https://evilmartians.com/chronicles/payment-form-best-coding-practices-that-dont-drop-sales"
+    },
+    {
+      "title": "DNS Resolution Adds Up",
+      "url": "https://macarthur.me/posts/dns"
+    },
+    {
+      "title": "Some practical examples of view transitions to elevate your UI",
+      "url": "https://piccalil.li/blog/some-practical-examples-of-view-transitions-to-elevate-your-ui"
+    },
+    {
+      "title": "Metallic Text Effect Generator",
+      "url": "https://design.dev/tools/metallic-effect-generator"
+    },
+    {
+      "title": "You Need To Become A Full Stack Person",
+      "url": "https://den.dev/blog/full-stack-person"
+    },
+    {
+      "title": "Error chaining in JavaScript: cleaner debugging with Error.cause",
+      "url": "https://allthingssmitty.com/2025/11/10/error-chaining-in-javascript-cleaner-debugging-with-error-cause"
+    },
+    {
+      "title": "Effectively Monitoring Web Performance",
+      "url": "https://smashingmagazine.com/2025/11/effectively-monitoring-web-performance"
+    }
+  ],
+  "sponsor": null
+}

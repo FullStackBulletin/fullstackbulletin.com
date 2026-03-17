@@ -1,0 +1,112 @@
+{
+  "issueNumber": 361,
+  "title": "JSR first impressions",
+  "slug": "2024-02-26-344-jsr-first-impressions",
+  "date": "2024-02-26",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nWelcome to issue #361! What's going on, dear full stack dev?!\n\nIn this issue we have packed lots of interesting content. **JSR**, a potential game-changer in JavaScript development; **localStorage** insights; captivating **SVG flag** icons (I know this one is a bit weird, but I hope you'll like it nonetheless); mastering **Promise methods** and **effective A/B testing**; simplifying email template design with **JSXemail**; managing view transitions for fluid animations; harnessing **vector search** with SQLite, OpenAI, and Node.js.\n\nIs this enough to keep you inspired? I hope it is 😄\n\n— Luciano",
+  "quote": {
+    "text": "Working ten hour days allows you to fall behind twice as fast as you could working five hour days“",
+    "author": "Isaac Asimov",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Isaac_Asimov"
+  },
+  "links": [
+    {
+      "title": "JSR first impressions",
+      "url": "https://kitsonkelly.com/posts/jsr-first-impressions",
+      "description": "JSR is a new package repository being introduced by the team at Deno that aims to solve many problems in the Javascript ecosystem. In this article, [Kitson P. Kelly](https://kitsonkelly.com/), ex-Deno core contributor, gives an overview of their first look at JSR (currently invite-only). Let's find out what we can expect from this promising project.",
+      "imageUrl": "./4060971e370f133d3f6645b74dc091b390393f5b5c0148ab2392c8ff587be0b3.png",
+      "featured": true
+    },
+    {
+      "title": "Using localStorage in Modern Applications - A Comprehensive Guide",
+      "url": "https://rxdb.info/articles/localstorage.html",
+      "description": "This guide explores localStorage in JavaScript web apps, detailing its usage, limitations, and alternatives like IndexedDB and AsyncStorage. A modern tutorial on one of the most interesting browser capabilities of the last few years!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "SVG Flag Icons",
+      "url": "https://nucleoapp.com/svg-flag-icons",
+      "description": "I have to admit that this one is here just because since I was a kid I had a fixation on nation flags! So I couldn't resist featuring a fantastic collection of finely drawn SVG flag icons. Who knows, maybe you are planning to build a flag guessing game or something else that requires a vast collection of flags! Either way, I hope you'll enjoy this link!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Looking at the JavaScript Promise Collection Methods",
+      "url": "https://raymondcamden.com/2024/02/12/looking-at-the-javascript-promise-collection-methods",
+      "description": "A look at Promise methods such as `Promise.all()`, `Promise.allSettled()`, `Promise.any()`, and `Promise.race()`, all methods that work with an array of inputs. Do you know the differences and the pros and cons of all these methods? If not, this article provides a great summary with some nice examples!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Build Emails with a Delightful DX",
+      "url": "https://jsx.email/",
+      "description": "If you ever had to create email templates, you know what PITA that can be! Trust me, I know something based on the experience of this newsletter alone. I recently bumped into [JSXemail](https://jsx.email/), a recent fork or [react-email](https://react.email/), which promises to give you the best possible developer experience when it comes to designing email templates that work on all mail clients. [**Check project**](https://jsx.email/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "View transitions: Handling aspect ratio changes",
+      "url": "https://jakearchibald.com/2024/view-transitions-handling-aspect-ratio-changes",
+      "description": "If you try to animate something with a given aspect-ratio and you end up changing that ratio, your animation might not look great! This article provides a nice explanation of why that happens and a few tips and tricks (and examples) to get the transition you want.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Your Own Vector Search in 5 Minutes with SQLite, OpenAI Embeddings, and Node.js",
+      "url": "https://markus.oberlehner.net/blog/your-own-vector-search-in-5-minutes-with-sqlite-openai-embeddings-and-nodejs",
+      "description": "Learn how to build a powerful search experience using SQLite, OpenAI embeddings, and Node.js by understanding the concept of Vector Search and text embeddings. If you ever wondered what the hell is vector search and why everyone is talking about it, this article is a very practical way to learn more about it!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elasticsearch: The Definitive Guide: A Distributed Real-Time Search and Analytics Engine",
+    "author": "Clinton Gormley",
+    "description": "Whether you need full-text search or real-time analytics of structured data—or both—the Elasticsearch distributed search engine is an ideal way to put your data to work. This practical guide not only shows you how to search, analyze, and explore data with Elasticsearch, but also helps you deal with the complexities of human language, geolocation, and relationships. If you’re a newcomer to both search and distributed systems, you’ll quickly learn how to integrate Elasticsearch into your application.",
+    "coverImageUrl": "./2ddcf691a406ca14d2511a89ef30ae08a29fa1c50fa8de58d3b1506180ab6520.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358543/?tag=fullstackbulletin-20",
+    "amazonUk": null
+  },
+  "additionalLinks": [
+    {
+      "title": "AWS Lambda Request Timeline",
+      "url": "https://speedrun.nobackspacecrew.com/blog/2024/02/14/aws-lambda-request-timeline.html"
+    },
+    {
+      "title": "Setting up a Monorepo using PNPM workspaces with TypeScript and Tailwind",
+      "url": "https://blog.emmanuelisenah.com/setting-up-a-monorepo-using-pnpm-workspaces-with-typescript-and-tailwind"
+    },
+    {
+      "title": "React Trends in 2024",
+      "url": "https://robinwieruch.de/react-trends"
+    },
+    {
+      "title": "100 things you can do on your personal website",
+      "url": "https://jamesg.blog/2024/02/19/personal-website-ideas"
+    },
+    {
+      "title": "nextly-template: Landing Page Template built with Next.js & TailwindCSS",
+      "url": "https://github.com/web3templates/nextly-template"
+    },
+    {
+      "title": "Do literally anything",
+      "url": "https://aaronfrancis.com/2024/do-literally-anything"
+    },
+    {
+      "title": "Designing With Integrity: The Ethical Designer's Handbook On Dark Patterns",
+      "url": "https://raw.studio/blog/designing-with-integrity-the-ethical-designers-handbook-on-dark-patterns"
+    },
+    {
+      "title": "What can you do with Permissions Boundaries on AWS? (video podcast)",
+      "url": "https://awsbites.com/115-what-can-you-do-with-permissions-boundaries/"
+    },
+    {
+      "title": "What's up with LLRT, AWS' new Lambda Runtime? (video podcast)",
+      "url": "https://awsbites.com/114-what-s-up-with-llrt-aws-new-lambda-runtime/"
+    }
+  ],
+  "sponsor": null
+}

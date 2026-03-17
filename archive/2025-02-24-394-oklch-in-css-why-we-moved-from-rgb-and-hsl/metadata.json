@@ -1,0 +1,108 @@
+{
+  "issueNumber": 413,
+  "title": "OKLCH in CSS: why we moved from RGB and HSL",
+  "slug": "2025-02-24-394-oklch-in-css-why-we-moved-from-rgb-and-hsl",
+  "date": "2025-02-24",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nNot much to report on the personal front, except for one exciting bit: I was in London last week for Rust Global! James Eastham and I delivered a talk about adopting Rust and serverless – arguing why that combo can be a game-changer for companies looking to start using Rust. If you're curious about the slides, you can check out [my speaking page](https://loige.co/speaking) (and I'll add a link to the video as soon as it's available!).\n\nNow, enough about me! Let's dive into the cool full-stack (and more!) content that I've hand-picked for this week. I hope it keeps you informed, and – perhaps most importantly – inspired to keep walking this endless path of full-stack mastery!\n\nYour passionate editor,\n— Luciano",
+  "quote": {
+    "text": "That's been one of my mantras — focus and simplicity. Simple can be harder than complex; you have to work hard to get your thinking clean to make it simple“",
+    "author": "Steve Jobs",
+    "authorTitle": "Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Jobs"
+  },
+  "links": [
+    {
+      "title": "OKLCH in CSS: why we moved from RGB and HSL",
+      "url": "https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl",
+      "description": "Ready to ditch RGB and HSL? This article makes a strong case for adopting **OKLCH** as the go-to color notation in CSS. It explains why OKLCH is superior for readability, color modifications, accessibility, and wide-gamut (P3) colors and comes with its own [interactive tool](https://oklch.com/) to visualize the OKLCH color space! I also want to throw in the mix an extra resource: a crazy cool OKLCH [color palette](https://uchu.style/simple.html) that I discovered last week and that I am currently loving!",
+      "imageUrl": "./ea710a5d1105c1deed15931230a439b11bb107447e6e91db2196c519e15f7de2.png",
+      "featured": true
+    },
+    {
+      "title": "create-tsrouter-app",
+      "url": "https://github.com/TanStack/create-tsrouter-app",
+      "description": "Given the recent 'official' deprecation of the Create React App CLI tool, you might be looking for a replacement... **create-tsrouter-app** is a CLI tool that builds [TanStack Router](https://tanstack.com/router)-based SPA applications. It's designed as a drop-in replacement for CRA, making it easy to get started with a more flexible and powerful routing solution. With interactive setup, **TypeScript** support, and **Tailwind** CSS integration, it streamlines the creation of new React projects.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "My LLM codegen workflow atm",
+      "url": "https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm",
+      "description": "I admit, I'm starting to give AI a bit more credit than I used to when it comes to speeding up mundane programming tasks (and, to be fair, even the non-programming ones 😉). So, I'm becoming more receptive to content showcasing how other developers are leveraging AI... like this blog post, which offers a deep dive into Harper Reed's personal LLM-assisted workflow. It's a detailed account of his approach to both greenfield projects and legacy code, using tools like Claude, Aider, and Repomix. It's not just about the tools, but more about a new way of working as a software engineer. Will you try to use AI as much as possible to build your next website? I am personally starting to think I should give it a serious try!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "React Team Updates CRA Migration Guidance After Community Pushback",
+      "url": "https://socket.dev/blog/react-team-updates-cra-migration-guidance-after-community-pushback",
+      "description": "To continue our conversation on the deprecation of Create React App (CRA), the React team's decision to sunset CRA wasn't controversial, but their initial recommendation of frameworks over standalone build tools certainly was. To me, this felt a bit like someone saying they stopped producing the model of bicycle you really like but rather than offering you the option of a new model, they told you *\"F*** off and go buy a race car\"* 😅. This article explores the community's strong pushback, including Vue.js creator Evan You's critique and the React team's surprisingly quick response. It's honestly a fascinating example of community dialogue shaping the direction of a major ecosystem and ultimately I am really happy with how things turned out. What's your take?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How To Use Chrome's Developer Tools",
+      "url": "https://debugbear.com/blog/use-chrome-devtools",
+      "description": "I use the Chrome DevTools quite a bit during my daily job and my various side projects, but it's such a huge ecosystem of tools and features that I'm always wary of something important that I don't know about... If you're like me, you might enjoy this article, which provides a very comprehensive overview of Chrome DevTools. It covers everything from basic inspection and debugging to advanced features like performance profiling, memory analysis, and security auditing. It explains how to troubleshoot websites, test features, and find new opportunities to improve performance and accessibility.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Ruby on Rails on WebAssembly",
+      "url": "https://evilmartians.com/chronicles/ruby-on-rails-on-webassembly-a-guide-to-full-stack-in-browser-action",
+      "description": "Another crazy-good piece of content from Evil Martians! Now, I don't often feature Ruby content here (sorry, Rubyists! 😅) but this article is too cool to pass up. It explores the seemingly impossible: running a full-stack Ruby on Rails application entirely inside the browser using WebAssembly! It's an insane demonstration of how WebAssembly is opening up the frontend to much more than just JavaScript, breaking down all you need to know about such advanced topic. From running a monolithic server-side application within the browser sandbox to the opportunities that WebAssembly brings. Even if you don't write a line of Ruby, this will blow your mind and give you a glimpse into the future of web development.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Handwriting An SVG Heart, With Our Hearts",
+      "url": "https://css-tricks.com/handwriting-an-svg-heart-with-our-hearts",
+      "description": "This tutorial takes you on a charming journey of building an SVG heart from scratch. And seriously, if you have ever tried to figure out how SVG works, this article should be your gateway pill. The author teaches how you can come up with all sorts of cool shapes and designs with just XML (no fancy vector tools needed!). You'll learn about the <path> element, coordinates, strokes, and more. A fun, hands-on way to learn about SVG, so you can code the love into your websites... or maybe this will be the starting point for you to create crazy cool animated or interactive SVGs by just sprinkling a bit of clever JavaScript on top!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Think Python: How to Think Like a Computer Scientist",
+    "author": "Allen B. Downey",
+    "description": "Python is an excellent way to get started in programming, and this clear, concise guide walks you through Python a step at a time—beginning with basic programming concepts before moving on to functions, data structures, and object-oriented design. This revised third edition reflects the growing role of large language models (LLMs) in programming and includes exercises on effective LLM prompts, testing code, and debugging skills.",
+    "coverImageUrl": "./6942def41ec746c86529461f26dca74c3f9535ea9c0cf22e90d9b3b7c62df793.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1098155432?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1098155432?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Rethinking Find-in-Page Accessibility: Making Hidden Text Work for Everyone",
+      "url": "https://schepp.dev/posts/rethinking-find-in-page-accessibility-making-hidden-text-work-for-everyone"
+    },
+    {
+      "title": "False Promises of WebP Support",
+      "url": "https://cloudfour.com/thinks/false-promises-of-webp-support"
+    },
+    {
+      "title": "Lazy loading hidden images",
+      "url": "https://cloudfour.com/thinks/lazy-loading-hidden-images"
+    },
+    {
+      "title": "TypeScript in a Node.js Project",
+      "url": "https://robinwieruch.de/typescript-node-js"
+    },
+    {
+      "title": "Gradient borders in CSS",
+      "url": "https://fullystacked.net/gradient-borders"
+    },
+    {
+      "title": "Aspect Ratio Changes With CSS View Transitions",
+      "url": "https://blog.jim-nielsen.com/2025/aspect-ratio-in-css-view-transitions"
+    },
+    {
+      "title": "Developing Statically Typed Programming Language",
+      "url": "https://blog.mgechev.com/2017/08/05/typed-lambda-calculus-create-type-checker-transpiler-compiler-javascript"
+    },
+    {
+      "title": "DuckDB Meets AWS: A Match Made in Cloud (AWS Bites Podcast)",
+      "url": "https://awsbites.com/140-duckdb-meets-aws-a-match-made-in-cloud"
+    }
+  ],
+  "sponsor": null
+}

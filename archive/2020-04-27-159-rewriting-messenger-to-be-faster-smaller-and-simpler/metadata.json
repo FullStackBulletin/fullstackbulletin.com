@@ -1,0 +1,75 @@
+{
+  "issueNumber": 159,
+  "title": "Rewriting Messenger to be faster, smaller, and simpler",
+  "slug": "2020-04-27-159-rewriting-messenger-to-be-faster-smaller-and-simpler",
+  "date": "2020-04-27",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #17, 2020",
+  "quote": {
+    "text": "If we continue to develop our technology without wisdom or prudence, our servant may prove to be our executioner",
+    "author": "Omar Bradley",
+    "authorTitle": "US Army",
+    "authorUrl": "https://en.wikipedia.org/wiki/Omar_Bradley"
+  },
+  "links": [
+    {
+      "title": "Rewriting Messenger to be faster, smaller, and simpler",
+      "url": "https://engineering.fb.com/data-infrastructure/messenger",
+      "description": "To build this new version of Messenger, we needed to rebuild the architecture from the ground up and rewrite the entire codebase.",
+      "imageUrl": "./8e6adbc30bf13edd521bd814b110c8729df00b5ad838f613d1dfb43dde4a995f.jpg",
+      "featured": true
+    },
+    {
+      "title": "Things I Wished More Developers Knew About Databases",
+      "url": "https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78",
+      "description": "A large majority of computer systems have some state and are likely to depend on a storage system. But do you really know databases? Here's a collection of things you \"must\" know about databases!",
+      "imageUrl": "./e9565af663339d88d6feb74f21c418023467fb4696ec8bfeff2f5da886797cf4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Writing Python inside your Rust code",
+      "url": "https://blog.m-ou.se/writing-python-inside-rust-1",
+      "description": "inline-python is an incredible Rust crate which allows you to easily mix some Python into your Rust code using a python!{ .. } macro. This series of articles goes through the process of developing this crate from scratch.",
+      "imageUrl": "./c56f16fdea775568720f4c19b2ffeec5563a9fd6bc34bd3888cceae252f287ac.jpg",
+      "featured": false
+    },
+    {
+      "title": "Writing an Emulator in JavaScript",
+      "url": "https://taniarascia.com/writing-an-emulator-in-javascript-chip8",
+      "description": "A wonderful article that shows how emulators work and that will teach you to actually write an emulator using JavaScript. It's great fun, trust us!",
+      "imageUrl": "./0c4bb64c1ccaaeb4ef414e652bc32f003d1d1bac82181ee90354103601109d8f.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Ten Rules for Data Modeling with DynamoDB",
+      "url": "https://trek10.com/blog/the-ten-rules-for-data-modeling-with-dynamodb",
+      "description": "DynamoDB is one of the most powerful, fastest-growing databases in the world. Let's shed some light on using it right.",
+      "imageUrl": "./8263332e392b94331abbe16f98b38bd1e505a37689c815dfd84da54ef83440b9.jpg",
+      "featured": false
+    },
+    {
+      "title": "The OAuth Bible",
+      "url": "https://github.com/Kong/mashape-oauth/blob/master/FLOWS.md",
+      "description": "A very complete guide on the various OAuth versions out there and their authentication flow. A super interesting guide if you like security or if you are currently implementing one of these authentication flows in your application.",
+      "imageUrl": "./3ecf9be78b5b1558d0b493a79e3d1d036355344f33c728981cfad1f2b84cdc16.png",
+      "featured": false
+    },
+    {
+      "title": "Image Techniques On The Web",
+      "url": "http://ishadeed.com/article/image-techniques",
+      "description": "Images are still one of the heaviest assets on every web page. Optimizing images can yield incredible results in terms of page speed and user experience. In this article you will discover several techniques to get the best out of images on the web!",
+      "imageUrl": "./66ff8125f3df6e046dcd49514b2549d9e6a5ce98656b923e7f45efce7999f491.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Clean Coder: A Code of Conduct for Professional Programmers",
+    "author": "Robert C. Martin",
+    "description": "Programmers who endure and succeed amidst swirling uncertainty and nonstop pressure share a common attribute: They care deeply about the practice of creating software. They treat it as a craft. They are professionals. In this book, legendary software expert Robert C. Martin introduces the disciplines, techniques, tools, and practices of true software craftsmanship.",
+    "coverImageUrl": "./1f5196ee832f3707ad69a4dc5cf0c9b3ff01467d98852062955ad942b2ef0732.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0137081073/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0137081073/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

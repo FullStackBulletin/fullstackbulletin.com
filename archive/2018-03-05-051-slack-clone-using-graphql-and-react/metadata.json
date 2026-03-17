@@ -1,0 +1,75 @@
+{
+  "issueNumber": 51,
+  "title": "Slack Clone Using GraphQL and React",
+  "slug": "2018-03-05-051-slack-clone-using-graphql-and-react",
+  "date": "2018-03-05",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #9, 2018",
+  "quote": {
+    "text": "I think that novels that leave out technology misrepresent life as badly as Victorians misrepresented life by leaving out sex",
+    "author": "Kurt Vonnegut",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Kurt_Vonnegut"
+  },
+  "links": [
+    {
+      "title": "Slack Clone Using GraphQL and React",
+      "url": "https://www.youtube.com/playlist?list=PLN3n1USn4xlkdRlq3VZ1sT6SGW0-yajjL",
+      "description": "A fantastic series of video tutorials on YouTube that will guide you to build a complete Slack clone using GraphQL and React.",
+      "imageUrl": "./211bee9e42212404384009edf8be41dddddbfd231ce9773f90ffa1b1575fee19.png",
+      "featured": true
+    },
+    {
+      "title": "Python 3, with pleasure!",
+      "url": "https://github.com/arogozhnikov/python3_with_pleasure",
+      "description": "A series of tips n' tricks for developers and data scientists that want to migrate from Python2 to Python3.",
+      "imageUrl": "./c0478f58bc5d22374dc297a23f91daede1e287f2f8174cc10bba5b771c739bb4.png",
+      "featured": false
+    },
+    {
+      "title": "A Visual Introduction to Machine Learning",
+      "url": "http://r2d3.us/visual-intro-to-machine-learning-part-1",
+      "description": "What is machine learning? See how it works with our animated data visualization.",
+      "imageUrl": "./b2b258d7be737757eb61863da7762b907cf3c05656ba29e173480f8fea9ca848.jpg",
+      "featured": false
+    },
+    {
+      "title": "7 Practical Tips for Cheating at Design",
+      "url": "https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886",
+      "description": "Improving your designs with tactics instead of talent. Sometimes is convenient to have  a set of principles and guidelines and stick to them instead of reinventing the wheel all the time.",
+      "imageUrl": "./d1c47d108552c97c4dc29611bf68df0772755fcccabf69f20d6aa545564a7de0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Dropdown alternatives for better forms",
+      "url": "https://medium.com/@kollinz/dropdown-alternatives-for-better-mobile-forms-53e40d641b53",
+      "description": "Using a dropdown menu usually  seems a no-brainer but it’s also easy to misuse due to its limitations. You can do better.",
+      "imageUrl": "./2e2882b66e358d474d09b145acf18a5d4f9c8c624c2b644d17bd89aae284531f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Promise.prototype.finally in Node.js",
+      "url": "http://thecodebarbarian.com/using-promise-finally-in-node-js",
+      "description": "*Promise.prototype.finally()* reached stage 4 of the TC39 proposal process. This means the proposal was accepted and is now part of the latest draft of the ECMAScript spec, and it is only a matter of time before it lands in Node.js. This article will show you how to use *Promise.prototype.finally()* and how to write your own simplified polyfill.",
+      "imageUrl": "./7d6e0b2056709286b0db0aea96e736fac6f998c651f2074ceaec7e6938e91081.png",
+      "featured": false
+    },
+    {
+      "title": "Pwned Passwords V2",
+      "url": "https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/",
+      "description": "if someone is signing up to a service with a password that has previously appeared in a data breach, either it's the same person reusing their passwords (bad) or two different people who through mere coincidence, have chosen exactly the same password. With Pwned Passwords you will be able to warn your users if they are using one of those compromised passwords in your website.",
+      "imageUrl": "./531bd55d10a71bbb0d8b480fb5559a9ef37642865350bfeaba2e31b5e76231f7.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "RESTful Web APIs: Services for a Changing World",
+    "author": "Leonard Richardson",
+    "description": "The popularity of REST in recent years has led to tremendous growth in almost-RESTful APIs that don’t include many of the architecture’s benefits. With this practical guide, you’ll learn what it takes to design usable REST APIs that evolve over time.",
+    "coverImageUrl": "./9c4219f67796409cdc3651baaeb21d2190a783120c0f90db3533777479bc62a9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358063/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449358063/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

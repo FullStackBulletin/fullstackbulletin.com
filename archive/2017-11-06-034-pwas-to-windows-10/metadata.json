@@ -1,0 +1,75 @@
+{
+  "issueNumber": 34,
+  "title": "PWAs to Windows 10",
+  "slug": "2017-11-06-034-pwas-to-windows-10",
+  "date": "2017-11-06",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #44, 2017",
+  "quote": {
+    "text": "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human",
+    "author": "Alan Turing",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Turing"
+  },
+  "links": [
+    {
+      "title": "PWAs to Windows 10",
+      "url": "https://www.thurrott.com/windows/windows-10/142649/microsofts-bold-plan-bring-pwas-windows-10",
+      "description": "Microsoft has a bold plan to bring PWAs (Progressive Web Apps) to Windows 10 as an alternative to native Windows application. Discover more about the plan and why it can make the web even stronger.",
+      "imageUrl": "./797b96f193367d5e5cf607bbf1d15cac92802ae76b423e687c5b3eb84b8da918.png",
+      "featured": true
+    },
+    {
+      "title": "Sketching Interfaces",
+      "url": "https://airbnb.design/sketching-interfaces",
+      "description": "Discover how Airbnb engineers managed to create a computer vision tool that is able to generate functional code from low fidelity wireframes.",
+      "imageUrl": "./79577d7df63229574febb8931c00bf54f63aadeaafa758fabb30a2e5743cc4f4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Enhancing a blurred QRCode",
+      "url": "https://medium.freecodecamp.org/lets-enhance-how-we-found-rogerkver-s-1000-wallet-obfuscated-private-key-8514e74a5433",
+      "description": "The incredible story (with an incredible level of techy details) of a group of engineers who managed to recover a blurred QR Code that lead to $1000 in Bitcoin. If you wish to understand more about QR Codes and how they work this article is a precious gem.",
+      "imageUrl": "./a3bac4b6c033ff68bc22edacf2384a5acd2813210095ab4814c0d4f7962e5c9c.jpg",
+      "featured": false
+    },
+    {
+      "title": "HEML, markup for responsive emails",
+      "url": "https://heml.io/",
+      "description": "HEML is an open source markup language for building responsive email. It gives you the native power of HTML without having to deal with all of the email quirks. HEML makes building emails as easy as building websites.",
+      "imageUrl": "./d823f5f55f0c5f6ee4e9d8ae6b3cbc7cf5c884ccce34bbc4d0ce647b8b09dfe7.png",
+      "featured": false
+    },
+    {
+      "title": "Node.js 9 now \"Current\" and Node.js 8 new LTS",
+      "url": "https://medium.com/the-node-js-collection/news-node-js-8-moves-into-long-term-support-and-node-js-9-becomes-the-new-current-release-line-74cf754a10a0",
+      "description": "Node.js 8 is now ready for production as it transfers into the de facto Long-Term release, while Node.js 9 is now the new \"current\" release line.",
+      "imageUrl": "./256236f0e77514bc47cf21be5a9971ce076501aea00c816dccb243255ba7d64d.jpg",
+      "featured": false
+    },
+    {
+      "title": "A free guide to <head> elements",
+      "url": "http://gethead.info/",
+      "description": "A free and super friendly guide to <html> elements. The guide is very well structured and it provides different levels of details, from minimal websites with minimal markup to a full blow collection of things that you might want to have in your HTML page for achieving maximum integration with the rest of the internet!",
+      "imageUrl": "./46d3732c0f40765510f4b4bc1cb43799d9dc1237cea83cd13f6962ea176b9363.png",
+      "featured": false
+    },
+    {
+      "title": "I've seen heaven. And it's written in JavaScript.",
+      "url": "https://dev.to/bitario/the-beauty-of-react-native-920",
+      "description": "An opinionated but interesting piece that provides several reasons to back the claim \"React Native is the Future\".",
+      "imageUrl": "./eed23a054f07fb3283e2843d2b692f2496e527d430a622d4c2228b1342b11618.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise",
+    "author": "Martin L. Abbott and Michael T. Fisher",
+    "description": "Writing for technical and nontechnical decision-makers, Abbott and Fisher cover everything that impacts scalability, including architecture, process, people, organization, and technology. Their insights and recommendations reflect more than thirty years of experience at companies ranging from eBay to Visa, and Salesforce.com to Apple. You’ll find updated strategies for structuring organizations to maximize agility and scalability, as well as new insights into the cloud (IaaS/PaaS) transition, NoSQL, DevOps, business metrics, and more. Using this guide’s tools and advice, you can systematically clear away obstacles to scalability–and achieve unprecedented IT and business performance.",
+    "coverImageUrl": "./27758fc426f7d2d06617adef6757d946de680ad0276de90acaaf5ee4c6715d29.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134032802/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134032802/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 265,
+  "title": "pppalette: your friendly color palette generator",
+  "slug": "2022-03-23-252-pppalette-your-friendly-color-palette-generator",
+  "date": "2022-03-23",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #11, 2022",
+  "quote": {
+    "text": "The great myth of our times is that technology is communication",
+    "author": "Libby Larsen",
+    "authorTitle": "Composer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Libby_Larsen"
+  },
+  "links": [
+    {
+      "title": "pppalette: your friendly color palette generator",
+      "url": "https://fffuel.co/",
+      "description": "I personally find picking colors still a bit of an arcane art. For this reason I love tools such as pppalette that can automatically generate palettes with great color harmony. Another great tool to keep in mind for your next project!",
+      "imageUrl": "./776e6ea2db5b47fcde6e8c5b2498e73aa6afcbc573140abe50f509ac6471b69c.jpg",
+      "featured": true
+    },
+    {
+      "title": "Dive into Node.js Streams",
+      "url": "http://nodesource.com/blog/dive-into-NodeJs-streams",
+      "description": "Well, if you know me, you know I love Node.js. And what's my favourite thing about Node.js? Yes, Node.js streams! If you still have managed to avoid Node.js streams, make sure to check out this comprehensive article! Then, if you haven't had enough, you can also check [my free workshop material](https://github.com/lmammino/streams-workshop) and [an article I wrote recently](https://www.nodejsdesignpatterns.com/blog/node-js-stream-consumer/).",
+      "imageUrl": "./5b35d6733e814c3d51633724bf10636a26b5154d79c583c3006ee9925cfc539a.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Complete Guide To TypeScript’s Never Type",
+      "url": "https://www.zhenghao.io/posts/ts-never",
+      "description": "If you are hungry for more TypeScript knowledge, check out this awesome article by Zhenghao He explaining what is the TypeScript **never** type and how to use it! Spoiler alert, it is a much better alternative to the **any** type, but make sure to check out why!",
+      "imageUrl": "./72880ca3b2e10487b295d6b53d107b87e61e5957cc76578b5b265ab4cdbd111f.png",
+      "featured": false
+    },
+    {
+      "title": "HTML and CSS in Emails: What Works in 2022?",
+      "url": "https://designmodo.com/html-css-emails",
+      "description": "It's 2022 and we are all still writing tons of emails. And this is not going to change anytime soon! So what if you want to automate cool emails with great graphics? What HTML and CSS features work for email templates? Let's check it out!",
+      "imageUrl": "./083b11939c4c4d0977392e91f19996ef2ca2220647e3889a5ab720c1a243d51d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Making the world’s fastest website, and other mistakes",
+      "url": "https://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na",
+      "description": "An interesting case study about making an e-commerce website as fast as possible. Tons of lessons learned here that will make the performance addicted here very happy! Also, performance is proven to be correlated to e-commerce revenue, so... just one more reason to be interested in this topic!",
+      "imageUrl": "./560299c1c4c78ecec1dbcdb12f9068ec34ca2e684d763e63c4dd0846c5a62943.jpg",
+      "featured": false
+    },
+    {
+      "title": "Deno by Example",
+      "url": "https://examples.deno.land/",
+      "description": "You know I like Node.js more than anything else, but can't ignore Deno... The Deno developers recently shipped an interesting website that showcases some of Deno's capability with a series of examples.",
+      "imageUrl": "./eff71ea727f453cb5fb02d6d0ce8e851211cb68dbb2a09ba15baa4ec367846b2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Texture — Generative Snacks",
+      "url": "https://georgefrancis.dev/writing/texture-generative-snacks",
+      "description": "Geore Francis has done it again: another brilliant article on generative art applied to web development. In this last masterpiece you can learn how to bring your generative work to life with three simple textures inspired by the natural world.",
+      "imageUrl": "./1448c03690f366d8e8ae599b0866c69b2e3cc6e4dce4c9997b5e315c9261110e.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "UX Strategy: How to Devise Innovative Digital Products that People Want",
+    "author": "Jaime Levy",
+    "description": "User experience (UX) strategy requires a careful blend of business strategy and UX design, but until now, there hasn’t been an easy-to-apply framework for executing it. This hands-on guide introduces lightweight strategy tools and techniques to help you and your team craft innovative multi-device products that people want to use. Whether you’re an entrepreneur, UX/UI designer, product manager, or part of an intrapreneurial team, this book teaches simple-to-advanced strategies that you can use in your work right away.",
+    "coverImageUrl": "./fb5bfe56ce390883cd7e92437fbc707fe0ce9062ff82c591ed2eba65ee4daa8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372864/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372864/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

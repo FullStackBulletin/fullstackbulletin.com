@@ -1,0 +1,108 @@
+{
+  "issueNumber": 428,
+  "title": "Announcing Vite 7",
+  "slug": "2025-06-30-408-announcing-vite-7",
+  "date": "2025-06-30",
+  "templateType": "mce-mailchimp",
+  "intro": "Howdy, This week’s collection feels like a proper developer mixtape. We’ve got high-performance bundlers, noir-style SQL mysteries, clever logging tricks, and even a splash of Apple-style liquid glass with CSS... all stitched together with a healthy dose of curiosity and pragmatism.\n\nOne thing that struck me while putting this issue together is how full-stack development constantly dances between the very practical (like taming worker threads or dealing with spam bots) and the wildly creative (like making your UI ripple like a highly dynamic interface). It’s technical. It’s visual. It’s somewhat logical. It’s weird. And that’s what makes it such a fun space to work in... I am sure you can relate!\n\nI hope this issue gives you something new to play with, or at least think about differently.\n\nHappy coding and exploring,\n— [Luciano](https://loige.co/)\n\nP.S. If you end up solving a fake crime scene with SQL or adding chromatic aberration to your navbar this week, please reply to this email and let me know. Maybe even send me a screenshot... I live for that kind of stuff!",
+  "quote": {
+    "text": "I think computer viruses should count as life. I think it says something about human nature that the only form of life we have created so far is purely destructive. We've created life in our own image“",
+    "author": "Stephen Hawking",
+    "authorTitle": "Physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+  },
+  "links": [
+    {
+      "title": "Announcing Vite 7",
+      "url": "https://vite.dev/blog/announcing-vite7",
+      "description": "Last week we shared Vitest 3.2, and now the Vite ecosystem is back with another banger: Vite 7 is out and packed with exciting updates. Momentum is clearly growing, and Vite is reshaping how we build frontends in all the right ways. This release introduces early access to **Rolldown**, a new Rust-powered bundler built for speed and compatibility with Rollup. It’s designed to make even massive projects build insanely fast. You’ll also get shiny new DevTools and smarter, safer defaults across the board. Vitest already supports it too. There’s plenty more, so if you’re on team Vite, go check out the full announcement. I personally look forward to starting upgrading all my projects and giving Rolldown a spin!",
+      "imageUrl": "./f87b203029fd81668c624688755f3c2d1f171b02fd7bf514556e29ab9572178c.png",
+      "featured": true
+    },
+    {
+      "title": "Learn SQL by Solving Crimes",
+      "url": "https://sqlnoir.com/",
+      "description": "Lately I’ve been hopping between projects using MySQL, Postgres, and even the new Amazon DSQL. Different tech, same core: SQL is still the common language. And since I hadn’t written a proper SQL query in a while, I figured it was time to sharpen the old skills. That’s when I stumbled on **SQL Noir**: a free, browser-based game that turns SQL practice into a detective mystery. You play an investigator in a smoky, 1980s film-noir world solving crimes with… you guessed it, SQL. The first case? The Vanishing Briefcase. A man in a trench coat. A lounge called the Blue Note. A list of suspects and transcripts to sift through. If that doesn’t get your inner nerd fired up, I don’t know what will. And hey, if someone catches you mid-case at work, just say, *“Hey, I’m training. In SQL.”* Go solve some crimes and level up your queries! Oh, by the way, if you enjoy learning full-stack skills through games like this, I’ve put together a [whole repository full of games](https://github.com/lmammino/awesome-learn-by-playing). Have fun! [**Play the game**](https://sqlnoir.com/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "LogTape: a modern JavaScript logging library",
+      "url": "https://logtape.org/",
+      "description": "When it comes to logging in JavaScript, I’m usually all-in on **[Pino](https://getpino.io/)**. It’s fast, flexible, and has served me well across tons of projects. So what could possibly make room for yet another logger? Enter **LogTape**. What caught my eye is its truly universal design: it works everywhere: Node, Deno, Bun, the browser, you name it. That’s rare and super useful for modern full-stack or edge-first workflows. But the real hook for me is its clever use of hierarchical categories. Think [debug](https://www.npmjs.com/package/debug) module meets structured log levels. You define categories as arrays like `[\"my-app\", \"module\"]`, and logs cascade through matching parent categories. It gives you precise, contextual control over verbosity without the usual config headaches. Definitely worth a look! [**Check the project**](https://logtape.org/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Worker Threads in Node.js: A Complete Guide for Multithreading in JavaScript",
+      "url": "http://nodesource.com/blog/worker-threads-nodejs-multithreading-in-javascript",
+      "description": "Did you know JavaScript isn’t strictly single-threaded anymore? Yup, worker threads have been around for a while now... quietly giving Node.js real multithreading superpowers. But wait... isn’t async I/O already good enough? It is, for most things. That’s why the real question isn’t why use threads, but when. This article lays it out clearly, showing the strengths of worker threads in CPU-bound scenarios where async just doesn’t cut it. If you’ve ever been a bit fuzzy on where threads fit into the JavaScript picture, this is a great deep dive. It’ll help you decide when to go full async and when to spin up a worker instead.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Making regular expressions easier to use in JavaScript",
+      "url": "https://2ality.com/2025/06/javascript-regexp-tips.html",
+      "description": "I’ll admit it... I usually avoid regexes like the plague. As the old joke goes: *“Some people, when confronted with a problem, think ‘I know, I’ll use regular expressions.’ Now they have two problems.”* But sometimes, regex is exactly what you need. So how do you get the best out of it while avoiding the foot guns? This guide is a goldmine of practical tips. It walks through modern features like the `/v` flag, named capture groups, and even a trick to add inline comments. The syntax isn’t the cleanest, but it’s surprisingly helpful when your pattern gets hairy. Add in testing, clear formatting, and pattern reuse with template strings, and regex starts to feel almost… manageable.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A short history of web bots and bot detection techniques",
+      "url": "https://sinja.io/blog/bot-or-not",
+      "description": "In my last project, I had to wrestle with spam bots again, integrating **reCAPTCHA** and a **WAF** to protect a couple of forms. A few weeks ago, we also featured [Cap](https://capjs.js.org/), a slick proof-of-work captcha. So naturally, I’ve been thinking a lot about how we actually fight bots. Turns out, it’s always a bit of a best-effort game. This article is a brilliant recap of the cat-and-mouse history behind anti-bot tech. From simple tricks to more sophisticated verification methods, it traces what’s worked, what failed, and how we got here. If you're curious about the mechanics behind the madness, this one’s a fun and thoughtful read.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Liquid Glass, but in CSS",
+      "url": "https://atlaspuplabs.com/blog/liquid-glass-but-in-css",
+      "description": "Apple is always ahead when it comes to setting UI and UX trends. Whether liquid glass is actually a good UX trend... well, I’m still on the fence. But it sure looks amazing. Want that same slick, glossy vibe on your site? You can pull it off with a bit of CSS. OK, maybe not *just a bit* of CSS... but still, it’s all doable! This article walks you through the steps to recreate the liquid glass effect on the web. The clever twist? It uses SVG filters for ripple displacement, edge distortion, and chromatic aberration. These subtle touches make the whole thing feel surprisingly real.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Programming Phoenix 1.4: Productive |> Reliable |> Fast",
+    "author": "Chris McCord, Bruce Tate, and Jose Valim",
+    "description": "Don't accept the compromise between fast and beautiful: you can have it all. Phoenix creator Chris McCord, Elixir creator Jose Valim, and award-winning author Bruce Tate walk you through building an application that's fast and reliable. At every step, you'll learn from the Phoenix creators not just what to do, but why. Packed with insider insights and completely updated for Phoenix 1.3, this definitive guide will be your constant companion in your journey from Phoenix novice to expert, as you build the next generation of web applications. Phoenix is the long-awaited web framework based on Elixir, the highly concurrent language that combines a beautiful syntax with rich metaprogramming. The best way to learn Phoenix is to code, and you'll get to attack some interesting problems. Start working with controllers, views, and templates within the first few pages. Build an in-memory context, and then back it with an Ecto database layer, complete with changesets and constraints that keep readers informed and your database integrity intact. Craft your own interactive application based on the channels API for the real-time applications that this ecosystem made famous. Write your own authentication plugs, and use the OTP layer for supervised services. Organize code with modular umbrella projects.",
+    "coverImageUrl": "./24ba614da2f54bb7dd60d148a47d161b7e2957fa1da389105c33e80b14b3b75b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680502263?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680502263?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "tstyche: Everything You Need for Type Testing.",
+      "url": "https://github.com/tstyche/tstyche"
+    },
+    {
+      "title": "A guide to Scroll-driven Animations with just CSS",
+      "url": "https://webkit.org/blog/17101/a-guide-to-scroll-driven-animations-with-just-css"
+    },
+    {
+      "title": "<syntax-highlight> element",
+      "url": "https://andreruffert.github.io/syntax-highlight-element"
+    },
+    {
+      "title": "CSS Color Functions",
+      "url": "https://css-tricks.com/css-color-functions"
+    },
+    {
+      "title": "Inverse text-sizing based on text-length with attr()",
+      "url": "https://daverupert.com/2025/06/fittext-too-attr-boogaloo"
+    },
+    {
+      "title": "Prefer Gaps To Margins",
+      "url": "https://kyleshevlin.com/prefer-gaps-to-margins"
+    },
+    {
+      "title": "JSON evolution in Go: from v1 to v2",
+      "url": "https://antonz.org/go-json-v2"
+    },
+    {
+      "title": "We Tried Amazon DSQL So You Don’t Have To (podcast)",
+      "url": "https://awsbites.com/145-we-tried-amazon-dsql-so-you-don-t-have-to-but-you-might-want-to/"
+    }
+  ],
+  "sponsor": null
+}

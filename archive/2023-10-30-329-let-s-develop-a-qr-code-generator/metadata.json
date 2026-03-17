@@ -1,0 +1,104 @@
+{
+  "issueNumber": 344,
+  "title": "Let's develop a QR Code Generator",
+  "slug": "2023-10-30-329-let-s-develop-a-qr-code-generator",
+  "date": "2023-10-30",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nWelcome to spooky issue #344! 👻 Trick or full-stack-threat? 🍭\n\nLast week, I had the massive pleasure of attending [Codemotion](https://conferences.codemotion.com/milan2023-live/), the largest Italian tech conference and speaking about a topic I am passionate about: [Writing Lambda Functions in Rust](https://loige.link/lamb-rs).\n\nI met so many friends and made new ones (which always fills me with joy). And I want to give a special shout-out to 2 good friends: [Massimo Artizzu](https://twitter.com/MaxArt2501) and [Paolo Insogna](https://twitter.com/p_insogna). While talking with them during the speakers' dinner, we got nerd-sniped into discussing how beautiful and mysterious are **QR codes** and that's where I discovered that Massimo had written an entire series of articles to teach you how to create a QR code, literally from scratch, no libraries allowed!\n\nNow guess what's going to be the featured article of this issue... 😇",
+  "quote": {
+    "text": "There is nothing in the programming field more despicable than an undocumented program“",
+    "author": "Edward Yourdon",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Edward_Yourdon"
+  },
+  "links": [
+    {
+      "title": "Let's develop a QR Code Generator",
+      "url": "https://dev.to/maxart2501/let-s-develop-a-qr-code-generator-part-i-basic-concepts-510a",
+      "description": "The first article in a beautiful series where you get to learn everything there's to know about QR codes and, most importantly, you get to build your own QR code from scratch, using only goodwill, curiosity and... JavaScript, of course!",
+      "imageUrl": "./c2e988a025e23e65b765276bf9c24dfaa6a51e60b5d77eb4210a1b975723aab8.jpg",
+      "featured": true
+    },
+    {
+      "title": "What Every Developer Should Know About GPU Computing",
+      "url": "https://codeconfessions.substack.com/p/gpu-computing",
+      "description": "This article demystifies GPUs, showing why they're vital for deep learning. Learn their inner workings, like a tech wizard unveiling secrets. Time to explore GPU computing!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "imgly/background-removal-js",
+      "url": "https://github.com/imgly/background-removal-js",
+      "description": "A fantastic JavaScript library (actually 2!) that allows you to remove backgrounds from images directly in the browser and in Node.js. This is an ideal approach that can help you with automation and it will let you avoid making network requests and having to pay fees to third-party services.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "We're Bringing Responsive Video Back!",
+      "url": "https://scottjehl.com/posts/responsive-video",
+      "description": "Let's revisit responsive HTML video delivery and talk about when we can use it again and how close we are to cross-browser compatibility",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Material Design 3 (web)",
+      "url": "https://m3.material.io/develop/web",
+      "description": "Material Web is Google’s component library for building applications that work in any web framework. This new release comes with the addition of a web-based set of components that implement the design system. While still quite early, this release includes 19 different components, CSS theming, accessibility best practices baked in and more. Something to keep a close eye on, especially if you are a fan of Google's Material Design style.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Beer CSS 🍻 - Build material design interfaces in record time",
+      "url": "https://beercss.com/",
+      "description": "If you liked the previous post, you might want to explore the first CSS framework based on Material Design 3. It claims to be 10x smaller than other CSS frameworks based on Material Design and, most importantly, it has a very appealing and refreshing name!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Changing Colors in an SVG Element Using CSS and JavaScript",
+      "url": "https://kirupa.com/web/changing_colors_svg_css_javascript.htm",
+      "description": "Almost everything inside an inline SVG image is up for modification using CSS and JavaScript. That's the beauty of an SVG, its content is available in the DOM and therefore it's up for grabs! Let's have fun and let's change some colors!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Pragmatic Programmer: From Journeyman to Master",
+    "author": "Andrew Hunt",
+    "description": "The Pragmatic Programmer cuts through the increasing specialization and technicalities of modern software development to examine the core process-taking a requirement and producing working, maintainable code that delights its users. It covers topics ranging from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse.",
+    "coverImageUrl": "./2ffb12a41f490125695aeff2d4c3ea84a96f4f6c7298432191fdc3c1a104af4b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/020161622X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/020161622X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Storybook 7.5",
+      "url": "https://storybook.js.org/blog/storybook-7-5"
+    },
+    {
+      "title": "react-magic-motion: auto-animate your components",
+      "url": "https://react-magic-motion.com/"
+    },
+    {
+      "title": "Introduction to web sustainability",
+      "url": "https://developer.mozilla.org/en-US/blog/introduction-to-web-sustainability"
+    },
+    {
+      "title": "The nine best recommendations in the new React docs",
+      "url": "https://blog.testdouble.com/posts/2023-10-16-react-docs-recommendations"
+    },
+    {
+      "title": "How To Animate Along A Path In CSS",
+      "url": "https://smashingmagazine.com/2023/10/animate-along-path-css"
+    },
+    {
+      "title": "Video: A One-in-a-Million Game (fun way to learn about probability)",
+      "url": "https://youtu.be/PmWQmZXYd74?si=jE4jxrzljj-FsagZ%3Futm_source%3Dfullstackbulletin.com"
+    },
+    {
+      "title": "Package and Distribute Lambda Functions for fun and profit",
+      "url": "https://awsbites.com/101-package-and-distribute-lambda-functions-for-fun-and-profit/"
+    }
+  ],
+  "sponsor": null
+}

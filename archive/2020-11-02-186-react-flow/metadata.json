@@ -1,0 +1,75 @@
+{
+  "issueNumber": 186,
+  "title": "React Flow",
+  "slug": "2020-11-02-186-react-flow",
+  "date": "2020-11-02",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #44, 2020",
+  "quote": {
+    "text": "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human",
+    "author": "Alan Turing",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Turing"
+  },
+  "links": [
+    {
+      "title": "React Flow",
+      "url": "https://reactflow.dev/",
+      "description": "Highly customizable React.js library for building interactive node-based editors, flow charts and diagrams.",
+      "imageUrl": "./a17792cbca8259fdc1b3f3c5620020ec31f53912c625493d16221b6646633381.jpg",
+      "featured": true
+    },
+    {
+      "title": "Faster Web App Delivery with PRPL",
+      "url": "http://addyosmani.com/blog/the-prpl-pattern",
+      "description": "PRPL is a pattern for structuring and serving web applications and Progressive Web Apps with an emphasis on improved app delivery and launch performance.",
+      "imageUrl": "./47de25f408e8ba8634f572d18af121e761dd00d688cccff37796ed137fe7a7f3.jpg",
+      "featured": false
+    },
+    {
+      "title": "Interview with Armin Ronacher (creator of Flask)",
+      "url": "https://evrone.com/armin-ronacher-interview",
+      "description": "In an interview with Evrone Armin talks about his work at Sentry, shares his thoughts on handling errors in the backend, speaks about the differences between Rust and Python, the “gradual typing” approach, and, of course, the secrets of his work-life balance.",
+      "imageUrl": "./ee35b00be520155bd8ab194f6f95c9025fb3dcb3bdb5c36f56a9f7f564ae66f9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Fearless concurrency",
+      "url": "https://sites.google.com/a/athaydes.com/renato-athaydes/posts/fearlessconcurrencyhowclojurerustponyerlanganddartletyouachievethat",
+      "description": "How different languages including Clojure, Rust, Pony, Erlang and Dart let you achieve \"concurrency without fear\".",
+      "imageUrl": "./1433d6e10bd1f8d60389aaaf622c5f2408ed01b4f3204a13c0eeba66171b4d5d.png",
+      "featured": false
+    },
+    {
+      "title": "Pikaday/Pikaday",
+      "url": "https://github.com/Pikaday/Pikaday",
+      "description": "A refreshing JavaScript Datepicker — lightweight, no dependencies, modular CSS - Pikaday/Pikaday",
+      "imageUrl": "./a468e8d51c4ec75d23a2907efb72a404740d72d15eb4cf77ef401079271f1508.png",
+      "featured": false
+    },
+    {
+      "title": "fonoster/fonos",
+      "url": "https://github.com/fonoster/fonos",
+      "description": "🚀 Fonos: an open-source alternative to Twilio to automate messaging and phone calls.",
+      "imageUrl": "./059a8dbb35758d0cb5f8c654272893ed35524e13443f424f2458c55be565eded.jpg",
+      "featured": false
+    },
+    {
+      "title": "Piazzolla Type System",
+      "url": "https://piazzolla.huertatipografica.com/",
+      "description": "Piazzolla is a type family designed by Juan Pablo del Peral for Huerta Tipográfica and is somewhat special. If you like typography you will definitely appreciate the depth of this case study!",
+      "imageUrl": "./be48efdc047e9c482b193e9fde065e8dc42aff34765f244834b3caa3d46b4382.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise",
+    "author": "Martin L. Abbott and Michael T. Fisher",
+    "description": "Writing for technical and nontechnical decision-makers, Abbott and Fisher cover everything that impacts scalability, including architecture, process, people, organization, and technology. Their insights and recommendations reflect more than thirty years of experience at companies ranging from eBay to Visa, and Salesforce.com to Apple. You’ll find updated strategies for structuring organizations to maximize agility and scalability, as well as new insights into the cloud (IaaS/PaaS) transition, NoSQL, DevOps, business metrics, and more. Using this guide’s tools and advice, you can systematically clear away obstacles to scalability–and achieve unprecedented IT and business performance.",
+    "coverImageUrl": "./27758fc426f7d2d06617adef6757d946de680ad0276de90acaaf5ee4c6715d29.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134032802/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134032802/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

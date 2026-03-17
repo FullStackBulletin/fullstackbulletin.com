@@ -1,0 +1,75 @@
+{
+  "issueNumber": 243,
+  "title": "Papers with Code",
+  "slug": "2022-01-03-243-papers-with-code",
+  "date": "2022-01-03",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #52, 2021",
+  "quote": {
+    "text": "The use of COBOL cripples the mind; its teaching should therefore be regarded as a criminal offense",
+    "author": "E.W. Dijkstra",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/E._W._Dijkstra"
+  },
+  "links": [
+    {
+      "title": "Papers with Code",
+      "url": "https://paperswithcode.com/",
+      "description": "If in 2022, you are looking into expanding your horizons and start to dive into machine learning, \"Papers With Code\" is a great resource that highlights trending Machine Learning research and the code to implement it.",
+      "imageUrl": "./1c91bf919440004dcff7bf5d9560aee816f1ff4af636defadbfe672a93824129.jpg",
+      "featured": true
+    },
+    {
+      "title": "Modern Web App Design Patterns",
+      "url": "https://patterns.dev/",
+      "description": "Patterns.dev is a free book on design patterns and component patterns for building powerful web apps with vanilla JavaScript or React.",
+      "imageUrl": "./0c26c601b6dc1d1f08643ae97c75b729ac2ed0ebdb8cf9bfeb38fc686d2a0c72.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rust Is The Future of JavaScript Infrastructure",
+      "url": "https://leerob.io/blog/rust",
+      "description": "Why is Rust being used to replace parts of the JavaScript web ecosystem like minification (Terser), transpilation (Babel), formatting (Prettier), bundling (webpack), linting (ESLint), and more?",
+      "imageUrl": "./61f00976fcb7b8f924b9dbd97b378b6597c3d5a746d0df7915e7ca6bd2b7debe.jpg",
+      "featured": false
+    },
+    {
+      "title": "Processing billions of events in real time at Twitter",
+      "url": "https://blog.twitter.com/engineering/en_us/topics/infrastructure/2021/processing-billions-of-events-in-real-time-at-twitter-",
+      "description": "How the engineering team at Twitter architected a system to process large scale data in real time while reducing latency and improving accuracy.",
+      "imageUrl": "./c2532cc2ff6ded4472138adc5f7c0aceb0a18bdf0c525d742d73107d74320380.png",
+      "featured": false
+    },
+    {
+      "title": "free SVG generators, web design tools & modern HTML templates",
+      "url": "https://fffuel.co/",
+      "description": "A collection of free & fun SVG generators + other tools for web designers. Also, an upcoming collection of beautiful & modern HTML templates.",
+      "imageUrl": "./4a6a10d29cc05b9b7c7e77df4387f9a204996bf2add895b0532e9def6b551532.jpg",
+      "featured": false
+    },
+    {
+      "title": "Live Coder Jon Gjengset Gets into the Nitty-Gritty of Rust",
+      "url": "https://nostarch.com/blog/software-engineer-jon-gjengset-gets-nitty-gritty-rust",
+      "description": "We expect that Rust will become even more prominent in 2022. If want to get a perspective on why is that, you can check out this interesting interview with Jon Gjengset, author of the book Rust for Rustaceans.",
+      "imageUrl": "./6d8200d01b93b25b7ce82970bf06001ba8efa3f95c62eafabea0b4d3d7b8ffa4.png",
+      "featured": false
+    },
+    {
+      "title": "What’s new in Next.js 12",
+      "url": "https://blog.logrocket.com/whats-new-next-js-12",
+      "description": "Next.js has been one of the most successful web frameworks of 2021. During the year, version 12 came out bringing a bunch of intersting features and improvements.",
+      "imageUrl": "./98f014930a4eedf2935eb8bdb3d4bb11f7019771b728d7b2f8d2377dc3e191db.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "RESTful API Design",
+    "author": "Matthias Biehl",
+    "description": "this book is packed with best practices on many technical aspects of RESTful API Design, such as the correct use of resources, URIs, representations, content types, data formats, parameters, HTTP status codes and HTTP methods. You want to design and develop APIs like a Pro? Use API description languages to both design APIs and develop APIs efficiently. The book introduces the two most common API description languages RAML and OpenAPI/Swagger",
+    "coverImageUrl": "./28aacc6a13ca1347c15c3795f8d6bcb239721dbccca6de24ceed1765e89588ee.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1514735164/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1514735164/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 320,
+  "title": "The Ultimate Guide to Image Optimisation",
+  "slug": "2023-04-10-307-the-ultimate-guide-to-image-optimisation",
+  "date": "2023-04-10",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Technology made large populations possible; large populations now make technology indispensable",
+    "author": "Joseph Krutch",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Krutch"
+  },
+  "links": [
+    {
+      "title": "The Ultimate Guide to Image Optimisation",
+      "url": "https://calibreapp.com/blog/image-optimisation-guide",
+      "description": "Image optimisation is the web performance the lowest hanging fruit. If you don't optimise your images you are missing out big time on making your website experience fast and smooth. In this article, you can learn how to optimise images without sacrificing their final quality.",
+      "imageUrl": "./dc00da64243a6fe50850beaf200a582df2fee7d9f93ab2fbd0ec7e27f43bef51.jpg",
+      "featured": true
+    },
+    {
+      "title": "A Business Case for SvelteKit",
+      "url": "https://elliscs.hashnode.dev/a-business-case-for-sveltekit",
+      "description": "If you have been wondering what using Svelte and SvelteKit would be like, you might enjoy this case study by XtendOps, a company that recently moved their stack from ServerFul Svelte to SvelteKit.",
+      "imageUrl": "./85259d2b231c147432a09e85b688d8673f6118a8d1713971ab7289bdc1e453b6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Nano JSX",
+      "url": "https://nanojsx.io/",
+      "description": "Designed to build ultra fast Multi-Page Apps (MPAs), using isomorphic JavaScript. Written in TypeScript. Server Side first with partial hydration. Perfect for your next PWA. As small as Svelte (1kb!).",
+      "imageUrl": "./652600f22123d4cb7d5c3ca1770ee07a1cd310c5985ffa00fafdb520a578ec84.png",
+      "featured": false
+    },
+    {
+      "title": "CSS Masking",
+      "url": "http://ishadeed.com/article/css-masking",
+      "description": "In the design world, masking is a popular technique to achieve unique design effects. Interestingly enough, usage of masks in the web is still somewhat rare... and it feels like a lost opportunity for coming up with impressive and innovative designs. So let's deep dive on this awesome article full of some real-life examples!",
+      "imageUrl": "./4f37052a88d354e312cd391a2b4b866fd233a7b90bb9d1be42f3298651088136.jpg",
+      "featured": false
+    },
+    {
+      "title": "Improving CSS Shapes with Trigonometric Functions",
+      "url": "https://danielcwilson.com/posts/css-shapes-with-trig-functions",
+      "description": "Another deep dive into CSS features that we don't use enough. This time is about how to optimize CSS shapes, using... some cool Maths! Specifically, trigonometric functions, enable interesting options for CSS shapes, clip paths, and more.",
+      "imageUrl": "./15451a7ae7e518625355203277af14503674a5b53b17f33b7cef184d9bda4798.jpg",
+      "featured": false
+    },
+    {
+      "title": "Making Tanstack Table 1000x faster with a 1 line change",
+      "url": "https://jpcamara.com/2023/03/07/making-tanstack-table.html",
+      "description": "When you have to render large tables on the web, it's always a challenge. In this case study, the author was attempting to render a table with up to 50k rows of content Grouped by up to 3 columns Using react and virtualized rendering. Showing 50k rows was performing well enough, but there were some quite interesting opportunities for optimisation...",
+      "imageUrl": "./e416b6c6067f9af4cb6acf0063520e2d0463a5e0dfb4e00794a1f6b229a854ca.jpg",
+      "featured": false
+    },
+    {
+      "title": "julien040/gut: An easy-to-use git client",
+      "url": "https://github.com/julien040/gut",
+      "description": "OK, let me be straight. The number one reason why I like this alternative Git CLI tool is because I often misspell **git** into **gut**! 😅 So yeah, I can definitely see myself using this! Other than that, gut is an alternative approach to using git on the CLI. It focuses on DX for novice developers, trying to provide higher-level guided commands that should result to be friendlier when getting started with git!",
+      "imageUrl": "./b1a16b35f3c43e5b4b473527db100a215eed73316cb6caf20d102ebd40b6c695.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5",
+    "author": "Robin Nixon",
+    "description": "The fully revised, updated and extended 4th edition of the hugely popular web development book - includes CSS, HTML5, jQuery and the mysqli extension. Build interactive, data-driven websites with the potent combination of open-source technologies and web standards, even if you only have basic HTML knowledge. With this popular hands-on guide, you'll tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript, jQuery, CSS, and HTML5.",
+    "coverImageUrl": "./4dd383a9368aaa6ed632aede9e478cdc0678ed0fe58e1cd4ac7a53fa88dfa423.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491918667/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491918667/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

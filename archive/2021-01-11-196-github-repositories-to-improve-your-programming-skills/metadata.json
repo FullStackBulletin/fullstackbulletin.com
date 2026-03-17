@@ -1,0 +1,75 @@
+{
+  "issueNumber": 196,
+  "title": "GitHub repositories to improve your programming skills",
+  "slug": "2021-01-11-196-github-repositories-to-improve-your-programming-skills",
+  "date": "2021-01-11",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #2, 2021\n\n\n⭐️ FullStack Bulletin has outgrown its free plan! If you enjoy this newsletter, consider supporting us:\n\n\n[Donate on Patreon](https://patreon.com/lucianomammino) - [Discuss sponsorship](https://fstack.link/sponsor)",
+  "quote": {
+    "text": "Technology is anything that wasn’t around when you were born",
+    "author": "Alan Kay",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Kay"
+  },
+  "links": [
+    {
+      "title": "GitHub repositories to improve your programming skills",
+      "url": "https://denic.hashnode.dev/github-repositories",
+      "description": "A wonderful list of 15 different GitHub repositories aiming to help you to ramp up your coding skills in different areas: coding interview preparation, developer roadmap, public APIs, get better at Node.js, JavaScript or Python, etc...",
+      "imageUrl": "./1ab9e6d7abf89458153aeafb565b4661ed8cc4eca457b8d949c6a1de737c7c21.png",
+      "featured": true
+    },
+    {
+      "title": "How we built the GitHub globe",
+      "url": "https://github.blog/2020-12-21-how-we-built-the-github-globe",
+      "description": "The new GitHub home page presents a fantastic animation where a 3D globe is rendered and animated in real-time based on actual commits happening as you watch! Aren't you curious to find out how this was built?",
+      "imageUrl": "./4c377031e69fbacad34534be0dff35ad19871d23e6a2499f8d54b614dffd5be0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Front-end predictions for 2021",
+      "url": "https://www.browserlondon.com/blog/2021/01/04/front-end-predictions-2021/",
+      "description": "If 2020 has proven anything, it’s that predicting the future is a mug’s game. With that said, here are some interesting predictions for where front-end development is heading over the next 12 months!",
+      "imageUrl": "./cd192daf8f8a1215c26bc1f754432241225190a81eb487fdfc5bedf84aa7e7f4.png",
+      "featured": false
+    },
+    {
+      "title": "Get Started With TypeScript the Easy Way",
+      "url": "https://austingil.com/typescript-the-easy-way/",
+      "description": "This article is intended for JavaScript developers that have heard of TypeScript and are interested in getting started with it, or anyone that has already tried TypeScript and want to give it another perspective. It will focus on minimizing the technical requirements to follow along. We will get up and running with TypeScript without opening a terminal, installing dependencies, or even initializing an NPM project.",
+      "imageUrl": "./b254fa22a92d10f93c976ef893aa110a3520f5c4738db1aaa89f98bb3d5017b6.png",
+      "featured": false
+    },
+    {
+      "title": "Parametric Color Mixer",
+      "url": "https://colormixer.web.app/",
+      "description": "A color palette composer inspired by audio parametric equalizers. Create beautiful color palettes with a scientific precision.",
+      "imageUrl": "./b769e81e3fa186f8d5e44e2daf88c4d6fa3d8da1e54669eb31dbb43cb7d1b1ab.jpg",
+      "featured": false
+    },
+    {
+      "title": "We need tool support for keyset pagination",
+      "url": "https://use-the-index-luke.com/no-offset",
+      "description": "Pagination without OFFSET has many benefits but one problem: there is no tool support. Please help changing this.",
+      "imageUrl": "./c702e1415102fe5fddf3aa50a5c48d6ea0ec25a3bdda9c323955153c1cc79f58.jpg",
+      "featured": false
+    },
+    {
+      "title": "CandyMail - Email Automation for Node.js",
+      "url": "https://saasbase.dev/candymail",
+      "description": "CandyMail makes it easy to trigger and send multi-step email sequences in Node.js using a single JSON file. Built for bootstrappers, indie makers with special care.",
+      "imageUrl": "./ace26e4489ab3cfb59f4207e22aa3b520301ed6a5fe778218363ca0c8bbb8dab.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Algorithms to live by",
+    "author": "Brian Christian and Tom Griffiths",
+    "description": "A fascinating exploration of how computer algorithms can be applied to our everyday lives, helping to solve common decision-making problems and illuminate the workings of the human mindAll our lives are constrained by limited space and time, limits that give rise to a particular set of problems. What should we do, or leave undone, in a day or a lifetime? How much messiness should we accept? What balance of new activities and familiar favourites is the most fulfilling?",
+    "coverImageUrl": "./24438c07b3bd2a14108cd79d826105f246b331801bf6b194abd1244f7b8e66af.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0008166099/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0008166099/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

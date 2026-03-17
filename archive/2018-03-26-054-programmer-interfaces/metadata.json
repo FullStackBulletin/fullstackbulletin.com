@@ -1,0 +1,75 @@
+{
+  "issueNumber": 54,
+  "title": "Programmer interfaces",
+  "slug": "2018-03-26-054-programmer-interfaces",
+  "date": "2018-03-26",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #12, 2018",
+  "quote": {
+    "text": "You cannot endow even the best machine with initiative; the jolliest steamroller will not plant flowers",
+    "author": "Walter Lippmann",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Walter_Lippmann"
+  },
+  "links": [
+    {
+      "title": "Programmer interfaces",
+      "url": "https://docs.google.com/presentation/d/1MD-CgzODFWzdpnYXr8bEgysfDmb8PDV6iCAjH5JIvaI/preview",
+      "description": "A fascinating and inspiring gallery containing hundreds of screenshots from user interfaces of different programming and simulations tools appeared in the history of software.",
+      "imageUrl": "./20ca423804992b88f574afb78c36805ab75a6dc108ba8b1bd32073a0f747ccbe.png",
+      "featured": true
+    },
+    {
+      "title": "CSS Gradient",
+      "url": "https://cssgradient.io/",
+      "description": "CSS Gradient is a happy little website and free tool that lets you create gradients for the web. It's also chock-full of colorful content about gradients from technical articles to real life examples like Stripe and Instagram.",
+      "imageUrl": "./91e89f38457161bbc6fef326c33c1b99d7dc89335af9864be7067d66596dad6a.png",
+      "featured": false
+    },
+    {
+      "title": "Using HTTP Headers to Secure Your Site",
+      "url": "https://dev.to/heroku/using-http-headers-to-secure-your-site-2no0",
+      "description": "A detailed description of some HTTP headers that you could (and should) use to make your websites safer to visit.",
+      "imageUrl": "./b6bb12211f96005692b96332eef480b6999200f95f7a8204e6a45d54162c1551.jpg",
+      "featured": false
+    },
+    {
+      "title": "Replacing Redux with the new React context API",
+      "url": "https://medium.freecodecamp.org/replacing-redux-with-the-new-react-context-api-8f5d01a00e8c",
+      "description": "The new context API that comes with React 16.3 is pretty neat. In this article you will see some examples on how it can be used to replace Redux.",
+      "imageUrl": "./f67d1aff0d6c012b211c76c3f75b41ea754192d8a4d0a1b1448368c7d5db1857.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why Is SQLite Coded In C",
+      "url": "https://sqlite.org/whyc.html",
+      "description": "C was and continues to be the best language for implementing a software library like SQLite. There are no plans to recode SQLite in any other programming language anytime soon. If you are curious to know the reason why then this article is for you!",
+      "imageUrl": "./d5c96da061e5864bdc4dbb601a8ddded2225d53e03b6f4e1512b121a4045db59.gif",
+      "featured": false
+    },
+    {
+      "title": "React.js Frequently Faced Problems",
+      "url": "https://dev.to/samerbuna/reactjs-frequently-facedproblems--l5g",
+      "description": "A collection of common problems (and possible solutions) that are commonly faced when building complex applications with React.",
+      "imageUrl": "./5925a0fa90c2bf0e9d7030a3b69262a335565d869484374372c486ceed302a61.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to build a GitHub bot with PhantomJS, React, and Serverless framework",
+      "url": "https://medium.freecodecamp.org/how-to-build-a-github-bot-with-phantomjs-react-and-serverless-framework-7b66bb575616",
+      "description": "A tutorial about building a simple Serverless bot that returns a chart with top GitHub repository contributors for a selected period.",
+      "imageUrl": "./8ab611bf07052c6ebc73a8684ce24611631cc8999261da2d651a5c9d1b896183.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Build APIs You Won't Hate: Everyone and their dog wants an API, so you should probably learn how to build them",
+    "author": "Phil Sturgeon",
+    "description": "API development is becoming increasingly common for server-side developers thanks to the rise of front-end JavaScript frameworks, iPhone applications, and API-centric architectures. It might seem like grabbing stuff from a data source and shoving it out as JSON would be easy, but surviving changes in business logic, database schema updates, new features, or deprecated endpoints can be a nightmare. After finding many of the existing resources for API development to be lacking, Phil learned a lot of things the hard way through years of trial and error. This book aims to condense that experience, taking examples and explanations further than the trivial apples and pears nonsense tutorials often provide. By passing on some best practices and general good advice you can hit the ground running with API development, combined with some horror stories and how they were overcome/avoided/averted.",
+    "coverImageUrl": "./546c5cf136073615afda5cab173feff341171a26a848cf7ce09bb8bd8b07ce89.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0692232699/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0692232699/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

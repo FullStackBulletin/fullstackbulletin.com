@@ -1,0 +1,88 @@
+{
+  "issueNumber": 349,
+  "title": "Announcing TypeScript 5.3",
+  "slug": "2023-12-04-334-announcing-typescript-5-3",
+  "date": "2023-12-04",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nWelcome to issue #349.\n\nI am just back from Las Vegas where I attended **re:Invent**, the biggest AWS conference of the year and, with more that 60.000 participants, definitely the biggest conference I ever attended, and by far! It's not going to be surprising to see some announcements from re:Invent or things that I learned by speaking to awesome folks there in the selected content for this week. I hope you will enjoy it!",
+  "quote": {
+    "text": "In carpentry, you measure twice and cut once. In software development, you never measure and make cuts until you run out of time“",
+    "author": null,
+    "authorTitle": "Software Developer",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "Announcing TypeScript 5.3",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-3",
+      "description": "One of the biggest announcements of the last couple of weeks was the release of a new version of TypeScript which comes with many welcome improvements and additions. My favourite one is the `switch(true)` narrowing, but I'll let you figure out all the other juicy things packed in this release.",
+      "imageUrl": "./4f8dff1e466d3e4767f663f33fde597d60e7a6a9d1b21bddd382c34ba608ea42.jpg",
+      "featured": true
+    },
+    {
+      "title": "General availability of the AWS SDK for Rust",
+      "url": "https://aws.amazon.com/blogs/developer/announcing-general-availability-of-the-aws-sdk-for-rust",
+      "description": "I have been annoying everyone to death about [how cool it is to do Lambdas in Rust](https://loige.co/why-you-should-consider-rust-for-your-lambdas). So you can imagine how excited I was to hear at **re:Invent** that the AWS SDK for Rust is finally stable. Folks have no more excuses not to try to use Rust (at least in one tiny Lambda).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Web Components: Eliminate JavaScript Framework Lock-in",
+      "url": "https://jakelazaroff.com/words/web-components-eliminate-javascript-framework-lock-in",
+      "description": "Web components can dramatically loosen the coupling of JavaScript frameworks. This article does something crazy to prove this statement: it builds an app where every single component is written in a different JavaScript framework.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "aws-lite: Faster and lighter AWS SDK for Node.js",
+      "url": "https://aws-lite.org/",
+      "description": "At **re:Invent** I had the pleasure to meet [Brian LeRoux](https://brian.io/) in person. Brian is one of the masterminds behind aws-lite: A simple, fast, extensible, and community-driven AWS client. If you are trying to squeeze an extra inch of performance from your Node.js Lambdas, this one might be worth looking into!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Promises training",
+      "url": "https://github.com/henriqueinonhe/promises-training",
+      "description": "Practice working with promises through a curated collection of interactive challenges. This repository provides a platform to refine your skills, complete with automated tests to to give you instant feedback and validate your progress.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Biome formatter wins the Prettier challenge",
+      "url": "https://biomejs.dev/blog/biome-wins-prettier-challenge",
+      "description": "I am falling more and more in love with the Biome project. The ability to have very fast JavaScript/TypeScript formatting and lining in one project is amazing. On top of that, enabling Biome is super easy and it can be greatly configured to suit all your desperate needs. It was great to see that Biome won the prettier challenge. I am sure this will bring more trust and adoption to the project.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A Node + TypeScript + ts-node + ESM experience that works",
+      "url": "https://gist.github.com/khalidx/1c670478427cc0691bda00a80208c8cc",
+      "description": "How painful it is to configure TypeScript correctly to work with ESM in a Node.js project? Maybe it's easy enough for some people, but, if you ask me, I'd say it's definitely painful (and probably one of those killjoys when it comes to using TypeScript). This gist provides a ready-made solution that just works, so you might conveniently use it as a starting point for your next project.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The DynamoDB Book",
+    "author": "Alex DeBrie",
+    "description": "DynamoDB is exploding in popularity. It's fast, scalable, and fully-managed. But it's not your father's database. Data modeling in DynamoDB is different than the relational data model you're used to.Learn how to properly design your data model with DynamoDB to avoid problems later.",
+    "coverImageUrl": "./d679ae448a4d628ee2df2fb3800c00ba1e8a7752ad65e719073fc65c425ce937.png",
+    "amazonUs": null,
+    "amazonUk": null
+  },
+  "additionalLinks": [
+    {
+      "title": "AWS Lambda functions now scale 12 times faster when handling high-volume requests",
+      "url": "https://aws.amazon.com/blogs/aws/aws-lambda-functions-now-scale-12-times-faster-when-handling-high-volume-requests"
+    },
+    {
+      "title": "Track Frontend JavaScript exceptions with Playwright fixtures",
+      "url": "https://checklyhq.com/blog/track-frontend-javascript-exceptions-with-playwright"
+    },
+    {
+      "title": "AWS Bites Podcast: Luciano's re:Invent experience",
+      "url": "https://awsbites.com/106-luciano-s-reinvent-experience/"
+    }
+  ],
+  "sponsor": null
+}

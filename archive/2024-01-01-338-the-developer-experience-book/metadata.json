@@ -1,0 +1,104 @@
+{
+  "issueNumber": 353,
+  "title": "The Developer Experience Book",
+  "slug": "2024-01-01-338-the-developer-experience-book",
+  "date": "2024-01-01",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nWelcome to issue #353, which is the last issue I am editing in 2023 and the first one you'll get in 2024! So happy New Year, folks! I hope your 2024 will be amazing and rich with full-stack rewards! 😜\n\nBy the way, I wrote [a blog post with the summary of my 2023](https://loige.co/2023-a-year-in-review), it's boring, but in case you are *really really* curious...\n\nNow, let's enjoy a (hopefully good) selection of full-stack content.\n\nHave fun!",
+  "quote": {
+    "text": "Somebody finds the problem, and somebody else understands it. And I'll go on record as saying that finding it is the bigger challenge“",
+    "author": "Linus Torvalds",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Linus_Torvalds"
+  },
+  "links": [
+    {
+      "title": "The Developer Experience Book",
+      "url": "https://dx.addy.ie/",
+      "description": "Developer Experience (DX) is all about how easily and effectively developers can get things done. When done correctly, it's one of these things that can change the level of happiness of a development team. With this FREE book by [Addy Osmani](https://addyosmani.com/),  you can learn how to improve your DX and why it matters.",
+      "imageUrl": "./85d35e8d9550fb62668d4ec630a5e27dea936e7d4f5f5c9e615015a4751ebbf9.jpg",
+      "featured": true
+    },
+    {
+      "title": "First do it, then do it right, then do it better",
+      "url": "https://addyo.substack.com/p/first-do-it-then-do-it-right-then",
+      "description": "Another great piece of content by Addy Osmani. The gist of this post is that no one is going to do something perfect on the first try and this idea applies quite well to software development too. But no more spoilers, go check out the article.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "2024 Icon Design Trends: Unleash Creativity",
+      "url": "https://shakuro.com/blog/icon-design-trends-for-2024",
+      "description": "Icons are one of those things that can make a massive difference in the user experience that an online product can provide. In this article, you can discover the latest icon design trends for 2024 and level up your app’s interface.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Docs deserve more respect",
+      "url": "https://ramijames.com/thoughts/docs-deserve-more-respect",
+      "description": "Documentation for software projects is REALLY important. No one is going to argue that... But what makes technical documentation good? Let's find out!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Spotify Wrapped: 6 psychology principles that make it go viral every year",
+      "url": "https://growth.design/case-studies/spotify-wrapped-psychology",
+      "description": "Why is Spotify Wrapped always so successful? It turns out they use some very clever communication techniques (based on real psychology) to create one of the most anticipated yearly events in the music industry.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Evolving the infinite canvas",
+      "url": "https://wattenberger.com/thoughts/evolving-the-infinite-canvas",
+      "description": "In the digital world, especially on the web, we’re used to things being stacked vertically. Scrolling, scrolling, through boxes of content. But what about when thoughts are complex, unsorted, exploratory?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Why I use Astro",
+      "url": "https://flaviocopes.com/why-i-use-astro",
+      "description": "Astro is rapidly becoming one of the most used tools in the industry for developing all kinds of websites. Flavio Copes gives us his perspective on why he likes Astro so much. The gist of it? \"Simplicity\".",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Irresistible APIs: Designing web APIs that developers will love",
+    "author": "Kirsten Hunter",
+    "description": "Well-designed APIs feel like a natural extension of the application, rather than just a new interface into the backend database. Designing Web APIs based on use cases allows an organization to develop irresistible APIs, which developers can consume easily and which support the business values of that organization.",
+    "coverImageUrl": "./30b0a33a50dce31e700a6e019b8e0d6136b4e6d656592cb23358dc5b945f4c2a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617292559/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617292559/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Top UI/UX Design Trends of 2024",
+      "url": "https://shakuro.com/blog/ui-ux-design-trends-for-2024"
+    },
+    {
+      "title": "It's time to put REST to rest",
+      "url": "https://sollecitom.github.io/software-product-development-blog/posts/2023/2023-09-22-put-rest-to-rest"
+    },
+    {
+      "title": "Using date-based CSS to make old web pages *look* old",
+      "url": "https://shkspr.mobi/blog/2023/12/using-date-based-css-to-make-old-web-pages-look-old"
+    },
+    {
+      "title": "Responsive SVGs",
+      "url": "https://12daysofweb.dev/2023/responsive-svgs"
+    },
+    {
+      "title": "The devil is in the details: a look into a disclosure widget markup",
+      "url": "https://htmhell.dev/adventcalendar/2023/23"
+    },
+    {
+      "title": "Container Style Queries",
+      "url": "https://12daysofweb.dev/2023/container-style-queries"
+    },
+    {
+      "title": "AWS zero to hero: repo for devops engineers to learn AWS in 30 Days",
+      "url": "https://github.com/iam-veeramalla/aws-devops-zero-to-hero"
+    }
+  ],
+  "sponsor": null
+}

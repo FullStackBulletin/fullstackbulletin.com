@@ -1,0 +1,104 @@
+{
+  "issueNumber": 421,
+  "title": "Why Doesn’t HTML Have an <include> Tag?",
+  "slug": "2025-05-05-402-why-doesn-t-html-have-an-include-tag",
+  "date": "2025-05-05",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nThis week’s issue is a handpicked collection of the things that genuinely sparked my curiosity over the past few days. Some are deeply technical, some a bit philosophical, and a few just made me smile, but all of them reminded me why I love building for the web. From clever backend tricks to unexpectedly thoughtful takes on HTML and UI design, each piece in this issue has something that made me stop and think, “Huh, I hadn’t looked at it that way before.” That, to me, is the mark of truly good content. So whether you’re here to sharpen your tools, shift your perspective, or just enjoy the craft a little more, I hope you find something in this issue that lights a similar spark for you.\n\nThanks as always for reading, and feel free to reply if you want to share something cool, ask a question, or just say hi (I always reply to everyone!)\n\nHappy reading and coding\n—Your editor, [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important“",
+    "author": "Bill Gates",
+    "authorTitle": "Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/Bill_Gates"
+  },
+  "links": [
+    {
+      "title": "Why Doesn’t HTML Have an <include> Tag?",
+      "url": "https://frontendmasters.com/blog/seeking-an-answer-why-cant-html-alone-do-includes",
+      "description": "Ever wished you could just drop a `<include>` into your HTML and call it a day? Unfortunately, that tag doesn’t exist, and it never has. So why has HTML, after decades of evolution, still not added such a seemingly obvious feature? The author of this piece takes that innocent question and pulls the thread all the way back to the roots of how the web was designed. It's a surprisingly layered story: one that touches on simplicity versus power, content versus logic, and why HTML still insists on staying \"dumb.\" For full-stack devs juggling templates, build systems, and component-driven UIs, it's a compelling reminder that some of our daily workarounds aren't just technical gaps; they're philosophical choices baked into the web itself.",
+      "imageUrl": "./015d467eb40724a9577ac32de44ddb2093d52430417260532da783cf208bb8fd.jpg",
+      "featured": true
+    },
+    {
+      "title": "I use Zip Bombs to Protect my Server",
+      "url": "https://idiallo.com/blog/zipbomb-protection",
+      "description": "This one really caught my eye. It's a bit outside the usual full-stack territory, but it's a fascinating story: the author uses zip bombs (yes, those malicious files designed to crash systems) as a form of server defense. By handing these files to suspicious bots, the server essentially tricks them into self-destruction. It’s a clever use of a dangerous concept for a protective purpose, and a reminder of how creativity and a deep understanding of system behavior can lead to surprising solutions.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Canvas: use it for snow effects, not for text",
+      "url": "https://heydonworks.com/article/the-canvas-element",
+      "description": "Here’s some more HTML goodness, this time packaged in a hilarious and unique writing style (you can't expect anything less from the awesome Heydon Pickering). What starts as a roast of the `<canvas>` element quickly becomes a thoughtful reflection on semantics, accessibility, and the true purpose of HTML. The piece pokes fun at canvas-powered UIs and pixel-rendered text, all while making a solid case for sticking with semantic markup and scalable SVGs. For full-stack developers, it’s a refreshing reminder that good HTML still matters—and that `<canvas>` might be best reserved for animating snowflakes.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Motion-Primitives",
+      "url": "https://motion-primitives.com/",
+      "description": "Animating elements on the web is tough… or at least it is for me! And sometimes I find that having a finely crafted UI kit with lots of built-in effects can be a lifesaver. If you're like me, you might like Motion Primitives, an open source animation kit built with Framer Motion and Tailwind CSS, designed for developers who want slick, modern UI without the tedium. It’s packed with beautifully executed components like Text Scramble, Text Shimmer, Tilt, Image Comparison, and Morphing Dialog. All are easily customizable, and all just a copy-paste away. Whether you're prototyping, polishing, or trying to impress the team, this kit makes your UI feel premium with minimal effort. [**Read the docs**](https://motion-primitives.com/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Which useEffect runs first in a React component tree?",
+      "url": "https://frontendmasters.com/blog/react-internals-which-useeffect-runs-first",
+      "description": "Here’s one for the React lovers. If you’ve ever stacked up multiple `useEffect` hooks and found yourself wondering which one fires first, this article breaks it down with clarity. Spoiler: a child’s `useEffect` runs before its parent’s, thanks to React’s depth-first traversal during the commit phase. If `useEffect` has ever confused you (I admit it’s tripped me up more than once), this is a great opportunity to understand what’s really happening under the hood. And while you're at it, check out the official React docs’ excellent piece [\"You Might Not Need an Effect\"](https://react.dev/learn/you-might-not-need-an-effect). It gives some great tips on how to skip `useEffect` entirely by using simpler and more declarative patterns, and honestly, in a lot of cases that is the better move.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How JavaScript Works Behind the Scenes",
+      "url": "https://deepintodev.com/blog/how-javascript-works-behind-the-scenes",
+      "description": "Have you ever wondered how a scripting language like JavaScript can be so efficient in many real-life situations? It is single threaded, yet it can handle multiple tasks at once, which makes it a great fit for applications that deal with lots of I/O. But how does this magic actually work under the hood? This article breaks it all down in a clear and accessible way. You will learn how the call stack, event loop, task queues, and web APIs work together to make JavaScript feel asynchronous and responsive. Understanding these concepts is not just a nice to have, it is one of those key shifts that helps you move from junior to senior level when working with JavaScript.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Making a small JavaScript blog static site generator",
+      "url": "https://jan.miksovsky.com/posts/2025/04-23-async-tree.html",
+      "description": "If you have been following me for a while, you probably noticed how much I love static websites and even [static APIs](https://loige.link/static-a). So naturally, I was fascinated by this article, which explores a minimalist approach to building static sites using a JavaScript utility called [async-tree](https://www.npmjs.com/package/@weborigami/async-tree). The idea is simple but powerful: structure your site as an asynchronous tree of content and transformations. It makes tasks like reading markdown, generating pages, and organizing files feel way more intuitive, without the overhead of a full framework. If you enjoy tinkering with lightweight, fast static setups, this is well worth a read.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Full Stack Serverless: Modern Application Development with React, AWS, and GraphQL",
+    "author": "Nader Dabit",
+    "description": "Cloud computing is typically associated with backend development and DevOps. But with the rise of serverless technologies and a new generation of services and frameworks, frontend and mobile developers can build robust applications with production-ready features such as authentication and authorization, API gateways, chatbots, augmented reality scenes, and more. This hands-on guide shows you how.",
+    "coverImageUrl": "./6389aaf153818e165fc179563fd629c944cbabe8ddc94df00c542d3989bf4d51.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492059897?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492059897?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Polishing your typography with line height units",
+      "url": "https://webkit.org/blog/16831/line-height-units"
+    },
+    {
+      "title": "How to write error messages that actually help users rather than frustrate them",
+      "url": "https://piccalil.li/blog/how-to-write-error-messages-that-actually-help-users-rather-than-frustrate-them"
+    },
+    {
+      "title": "What is CSS Owl Selector (* + *)?",
+      "url": "https://youtube.com/watch?v=0O0ssm70g1g"
+    },
+    {
+      "title": "Blob shape with hover effect",
+      "url": "https://css-tip.com/blob-hover"
+    },
+    {
+      "title": "What Does \"use client\" Do?",
+      "url": "https://overreacted.io/what-does-use-client-do"
+    },
+    {
+      "title": "Refactoring Gone Wild: Avoiding code smells and cleaning up the mess",
+      "url": "https://techhub.iodigital.com/articles/refactoring-gone-wild-avoiding-code-smells-and-cleaning-up-the-mess"
+    },
+    {
+      "title": "srvx - Universal Server API",
+      "url": "https://srvx.h3.dev/"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 140,
+  "title": "Integrating Apache Kafka With Python Asyncio",
+  "slug": "2019-12-09-140-integrating-apache-kafka-with-python-asyncio",
+  "date": "2019-12-09",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #49, 2019",
+  "quote": {
+    "text": "Computers are like Old Testament gods; lots of rules and no mercy",
+    "author": "Joseph Campbell",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Campbell"
+  },
+  "links": [
+    {
+      "title": "Integrating Apache Kafka With Python Asyncio",
+      "url": "https://www.confluent.io/blog/kafka-python-asyncio-integration/",
+      "description": "Python web applications can benefit a lot from language features such as coroutines and async/await. Non blocking IO changes the way incoming requests are serviced, but it is also useful when integrating with other systems like Kafka. This article shows how to combine Python asyncio with Kafka.",
+      "imageUrl": "./dbdd02774b5c017f89d8be05118e56169e6831426ed98a66e9520e11b201bdce.png",
+      "featured": true
+    },
+    {
+      "title": "Webgl studio",
+      "url": "https://github.com/jagenjo/webglstudio.js",
+      "description": "webglstudio.js: A full open source 3D graphics editor in the browser, with scene editor, coding pad, graph editor, virtual file system, and many features more.",
+      "imageUrl": "./c2fb4dc76dd94bfcd8a6b646de92a99fe4f93bc0b7eb3d6695a2a443b8447fde.jpg",
+      "featured": false
+    },
+    {
+      "title": "5 Things I love about Strapi, a Node.js headless CMS",
+      "url": "https://jsmonday.dev/articles/44/5-things-i-love-about-strapi-a-node-js-headless-cms",
+      "description": "Building high quality REST and GraphQL APIs is hard. But there's an easy way to get started in a few minutes.",
+      "imageUrl": "./59f9eea002150ca851cca483b45c1e223abcb2a149da41543eab72dd6a617f2a.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Service Mesh",
+      "url": "https://servicemesh.io/",
+      "description": "From the author of Linkerd, one of the most used service mesh technologies, this article attempt to describe what every software engineer needs to know about the World's most over-hyped technology.",
+      "imageUrl": "./3b358040f0ca6983973574cb50f42038aa188c238804a4bce08ac5de2d9fbc66.jpg",
+      "featured": false
+    },
+    {
+      "title": "Understanding Streams in Node.js",
+      "url": "http://nodesource.com/blog/understanding-streams-in-nodejs",
+      "description": "Streams are one of the fundamental concepts that power Node.js applications. Check out this blog post to understand them!",
+      "imageUrl": "./4bbe70af7d18bf14fd6076f4ec61b8924ca5399d6bc411d4a6b56726643b00aa.jpg",
+      "featured": false
+    },
+    {
+      "title": "Creepyface",
+      "url": "https://creepyface.io/",
+      "description": "The Javascript library that makes your face follow the pointer. Trust us it will look amazing in your website or in your CV!",
+      "imageUrl": "./5db69f3489efd05627ff078b8950ea0e2d5719fd0883cc271de62fc5552027bd.jpg",
+      "featured": false
+    },
+    {
+      "title": "Promises From Scratch In A Post-Apocalyptic Future",
+      "url": "https://youtube.com/watch?v=4GpwM8FmVgQ",
+      "description": "In this installment of Low Level JavaScript we build a Promise implementation from scratch in order to understand exactly how asynchronous JavaScript code works and how promises make things easier to grasp.",
+      "imageUrl": "./0eb09d7ec5958d98ff9781e41af5ff99059b77c6d5f7504119f793da960215f7.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Development with Node and Express: Leveraging the JavaScript Stack",
+    "author": "Ethan Brown",
+    "description": "Learn how to build dynamic web applications with Express, a key component of the Node/JavaScript development stack. In this hands-on guide, author Ethan Brown teaches you the fundamentals through the development of a fictional application that exposes a public website and a RESTful API. You’ll also learn web architecture best practices to help you build single-page, multi-page, and hybrid web apps with Express.",
+    "coverImageUrl": "./fa50d6bec7065a557f93ff1ccee308384e327bc7bdc62dab9513ef493759a11f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491949309/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491949309/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

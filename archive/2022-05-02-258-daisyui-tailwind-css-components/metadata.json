@@ -1,0 +1,75 @@
+{
+  "issueNumber": 271,
+  "title": "daisyUI — Tailwind CSS Components",
+  "slug": "2022-05-02-258-daisyui-tailwind-css-components",
+  "date": "2022-05-02",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "If we continue to develop our technology without wisdom or prudence, our servant may prove to be our executioner",
+    "author": "Omar Bradley",
+    "authorTitle": "US Army",
+    "authorUrl": "https://en.wikipedia.org/wiki/Omar_Bradley"
+  },
+  "links": [
+    {
+      "title": "daisyUI — Tailwind CSS Components",
+      "url": "https://daisyui.com/",
+      "description": "Last week we discovered DaisyUI, which is a Tailwind-based components library (open and free). This can be a great resource if you enjoy using Tailwind and are looking for ways of speeding up frontend development while maintaining a consistent look-n-feel.",
+      "imageUrl": "./bde0c4b68bb92b401b4ead331c506716fc05fd9d5a6bcbd16eedff369c5c7b6c.jpg",
+      "featured": true
+    },
+    {
+      "title": "Loaders",
+      "url": "https://uiball.com/loaders",
+      "description": "MOAR FRONTEND GOODIES PLEAZE! 😛 We hear you!\n\nIf you also find annoying having to think about loading indicators, fear no more! With Loaders you can access a wide collection of free loaders & spinners for your next project. Built with HTML, CSS and SVG. Available for copy-pasta or as a tree-shakeable React component library!",
+      "imageUrl": "./77257d8510baa7ee942bb438b09409759632c1da14941fd817f75bffd411826d.jpg",
+      "featured": false
+    },
+    {
+      "title": "When To Use Generics in Go",
+      "url": "https://go.dev/blog/when-generics",
+      "description": "When to use generics when writing Go code, and when not to use them. If you are into Go, you probably heard that Generics all the new rage. But, as with anything, they are not a silver bullet that solves all the problems, so let's learn how to use them best (and when to avoid them).",
+      "imageUrl": "./f28ed3e04441f2f9c135fc7511e22034fe1c4c8943fb0eff9d12c6893377fe22.jpg",
+      "featured": false
+    },
+    {
+      "title": "Hydration is Pure Overhead",
+      "url": "https://builder.io/blog/hydration-is-pure-overhead",
+      "description": "A very interesting take on client side hydration (the process of making server-rendered pages interactive on the client side). Most modern frameworks like React consider hydration an integral and unavoidable part of their server-side rendering support. This article begs to differ and makes the point that hydration is not just unnecessary but also it makes your apps slow. But what should we do instead?",
+      "imageUrl": "./33c7f6fae8a064cab00a2b1febac8187bdad4cf73f9bfc305da4e488d7aa9a7d.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Ultimate Guide To Push Notifications For Developers",
+      "url": "https://smashingmagazine.com/2022/04/guide-push-notifications-developers",
+      "description": "What are the benefits of using push notifications and what can you use them for? In this article, Lee Munroe explains how to implement them and which practices are best to follow.",
+      "imageUrl": "./c777cfafab13ab4b5167cd91f9eda39a582b88c5a3f82a6596e7803c2cd9c467.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Front-End Developer's Guide to the Terminal",
+      "url": "https://joshwcomeau.com/javascript/terminal-for-js-devs",
+      "description": "If you want to learn a modern JavaScript framework like React or Angular, you better be familiar with the terminal! So many frameworks and tools assume that you're proficient with it, without ever explaining it. This blog post is your missing manual, covering all of the most important fundamentals.",
+      "imageUrl": "./9ed12bac83bce7959e6fdba21488e380d9cdfc3983db9f05da5eb9a7351806fc.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS Parent Selector",
+      "url": "http://ishadeed.com/article/css-has-parent-selector",
+      "description": "If you didn't have enough frontend material for this week, let's close this issue with a deep-dive into the CSS `:has` parent selector with some use-cases and examples.",
+      "imageUrl": "./ff4e388fe93b3a84359eb4106a1d65658d4de90b7ae07c36a904b405b27530ae.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Clean Coder: A Code of Conduct for Professional Programmers",
+    "author": "Robert C. Martin",
+    "description": "Programmers who endure and succeed amidst swirling uncertainty and nonstop pressure share a common attribute: They care deeply about the practice of creating software. They treat it as a craft. They are professionals. In this book, legendary software expert Robert C. Martin introduces the disciplines, techniques, tools, and practices of true software craftsmanship.",
+    "coverImageUrl": "./1f5196ee832f3707ad69a4dc5cf0c9b3ff01467d98852062955ad942b2ef0732.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0137081073/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0137081073/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

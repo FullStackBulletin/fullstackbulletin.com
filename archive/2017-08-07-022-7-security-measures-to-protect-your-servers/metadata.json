@@ -1,0 +1,75 @@
+{
+  "issueNumber": 22,
+  "title": "7 Security Measures to Protect your Servers",
+  "slug": "2017-08-07-022-7-security-measures-to-protect-your-servers",
+  "date": "2017-08-07",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #31, 2017",
+  "quote": {
+    "text": "Computers are good at following instructions, but not at reading your mind",
+    "author": "Donald Knuth",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Donald_Knuth"
+  },
+  "links": [
+    {
+      "title": "7 Security Measures to Protect your Servers",
+      "url": "https://digitalocean.com/community/tutorials/7-security-measures-to-protect-your-servers",
+      "description": "Making your applications to function correctly without addressing the security needs of your infrastructure could have devastating side effects. Be sure to follow these 7 rules to ensure you servers are secure enough for most of the use case out there.",
+      "imageUrl": "./4bfe7725ebeb8c4520096bb79a26ed4671d255801e7492f570e36a7fd4fb07ff.jpg",
+      "featured": true
+    },
+    {
+      "title": "Passwords Evolved: Authentication Guidance for the Modern Era",
+      "url": "https://troyhunt.com/passwords-evolved-authentication-guidance-for-the-modern-era",
+      "description": "In the beginning, things were simple: you had two strings (a username and a password) and if someone knew both of them, they could log in. Easy. But the ecosystem in which they were used was simple too... In this amazing article Troy Hunt discusses the history of passwords and proposes smarter ways to deal with them in today applications.",
+      "imageUrl": "./93c58741bc33a2ef5a852e286435fec3c4980292e2f82b4f36efcfa824b919b8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Product Design for Sustainability",
+      "url": "https://uxdesign.cc/product-design-for-sustainability-3fffbb2a7f0e",
+      "description": "How products we build today can make the world more sustainable tomorrow.",
+      "imageUrl": "./f9a7d9ec838303ee39dfbfe4d15cb52d704c59cbffeece4d27bbc8c2f5011286.jpg",
+      "featured": false
+    },
+    {
+      "title": "Postgres Query Plan Visualization",
+      "url": "http://tatiyants.com/postgres-query-plan-visualization",
+      "description": "Postgres Explain Visualizer (Pev) is a tool created to make EXPLAIN output easier to grok. It creates a graphical representation of the query plan.",
+      "imageUrl": "./c78e3132a827f66944527514aacb950c748b35e36b1942825ca2b3c0c50cba0a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Monospaced Programming Fonts with Ligatures",
+      "url": "https://hanselman.com/blog/MonospacedProgrammingFontsWithLigatures.aspx",
+      "description": "Typographic ligatures are when multiple characters appear to combine into a single character. They will make your editor and your code look beautiful.",
+      "imageUrl": "./30892b81dc4282d779e471c2ff2d2c5aa0d2314dc6ae922fdd99baf265835742.jpg",
+      "featured": false
+    },
+    {
+      "title": "Node.js Emerging as the Universal Development Framework",
+      "url": "https://hackernoon.com/node-js-emerging-as-the-universal-development-framework-for-a-diversity-of-applications-c2e788290f5f",
+      "description": "Node.js is emerging as a universal development framework for digital transformation with a broad diversity of applications. Read the results of this interesting survey involving more than 1.400 developers to understand what the future of IT might look like.",
+      "imageUrl": "./357b6c647da160fa2a30dc8887f8a31cecf60874afb0b8c28aba3902e7056e36.jpg",
+      "featured": false
+    },
+    {
+      "title": "Vue.js 2.0 In 60 Minutes",
+      "url": "https://youtube.com/watch?v=z6hQqgvGI4Y",
+      "description": "This FREE crash course will teach you all of the fundamentals of Vue.js 2.0 JavaScript framework. Vue-cli, Declarative, Rendering, Directives, Conditionals, etc.",
+      "imageUrl": "./947c40fdeebd9980e0138c64d6bd0dbcaa4964befa05fb995edc2f965373dd9c.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Rails, Angular, Postgres, and Bootstrap: Powerful, Effective, and Efficient Full-Stack Web Development",
+    "author": "David B. Copeland",
+    "description": "As a Rails developer, you care about user experience and performance, but you also want simple and maintainable code. Achieve all that by embracing the full stack of web development, from styling with Bootstrap, building an interactive user interface with AngularJS, to storing data quickly and reliably in PostgreSQL. Take a holistic view of full-stack development to create usable, high-performing applications, and learn to use these technologies effectively in a Ruby on Rails environment.",
+    "coverImageUrl": "./916a92b54ef122132c9c594e8eb8d9182649599a02cfe38f79d2f203037b008c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501267/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501267/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

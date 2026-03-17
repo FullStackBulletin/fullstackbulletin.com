@@ -1,0 +1,100 @@
+{
+  "issueNumber": 409,
+  "title": "React Admin",
+  "slug": "2025-01-27-390-react-admin",
+  "date": "2025-01-27",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nI'm still buzzing from last week's experience at [Coderful](https://www.coderful.io/) in [Catania](https://en.wikipedia.org/wiki/Catania)! Attending and speaking at this amazing event was an absolute pleasure. What made it even more special is that Catania is my hometown, and believe it or not, this was the first time I've ever participated in a tech conference there. I'm incredibly proud to see the hard work the organizers put in to create not just a great tech conference, but a genuinely human and welcoming experience. It was truly something special! Keep an eye on it for future editions!\n\nI had the opportunity to talk about Static APIs and even showcased some of the tech that powers this very newsletter. If you’re curious about static APIs, you can [check out my slides](https://loige.link/static-a). I'm always excited to share my perspective on this topic!\n\nBeyond my talk, I also had the pleasure of assisting my friend [Gabriele Santomaggio](https://www.linkedin.com/in/santomaggio/) with his fantastic workshop about networking and binary protocols. It was eye-opening, and I truly believe it's a topic we should all make an effort to understand better, even if we're primarily working at a higher level. If you're interested in diving deeper into networking, check out the [workshop material](https://github.com/Gsantomaggio/chat). Trust me, it's well worth your time!\n\nNow that I've shared some of my personal highlights, let's get into some inspiring full-stack content for this week. I hope you find this week's curated content as interesting as I do!\n\nYour passionate editor,\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "To iterate is human, to recurse divine“",
+    "author": "L. Peter Deutsch",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/L._Peter_Deutsch"
+  },
+  "links": [
+    {
+      "title": "React Admin",
+      "url": "https://marmelab.com/react-admin",
+      "description": "Let's be real, building admin panels and internal UIs is often a pain. We're usually under pressure to get them done fast, and that means cutting corners, which often leads to a not-so-great user experience. These types of projects can really eat up development time. So, I've been looking into React-admin. It's an open-source React framework that's specifically designed for building these types of interfaces. It says it can speed things up and give you a good base for B2B apps. I haven't tried it out myself yet, but it looks interesting. Have any of you used React-admin? If so, I'd like to know what you think.",
+      "imageUrl": "./a44146f1fa9bacdf28630e325ebc608d48273f33d259ff7688fcf8b181921207.png",
+      "featured": true
+    },
+    {
+      "title": "6 CSS Snippets Every Front-End Developer Should Know",
+      "url": "https://nerdy.dev/6-css-snippets-every-front-end-developer-should-know-in-2025",
+      "description": "Looking beyond basic CSS? [Adam Argyle](https://nerdy.dev/), a content creator I deeply admire for his visionary approach to web design and CSS, recently dropped a blog post that I found fascinating. It's all about 6 CSS snippets every front-end developer should have in their toolkit by 2025. Think advanced transitions, animation easing, and even typed custom properties, all designed to meet the UI/UX demands of the future. Forget AI shortcuts; these are the skills you need to level up.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Bun 1.2",
+      "url": "https://bun.sh/blog/bun-v1.2",
+      "description": "Despite my deep appreciation for Node.js, I always keep an eye on competing projects like Bun. They just released version 1.2, and it's a major update. Bun is a complete toolkit for JavaScript/TypeScript development and this release includes big improvements in Node.js compatibility, built-in S3 and Postgres support (this one is very intriguing!), and performance boosts. I firmly believe that this competition will benefit us all, so let's explore the latest developments.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Moving on from React, a Year Later",
+      "url": "https://kellysutton.com/2025/01/18/moving-on-from-react-a-year-later.html",
+      "description": "We all know the pain of maintaining complex JavaScript frontends. This post, shares one team's perspective of switching from React to a server-rendered Rails application using [Stimulus](https://stimulus.hotwired.dev/) and [Turbo](https://turbo.hotwired.dev/), and how that drastically impacted their testing experience. The results? A more testable system, faster development, and a leaner application overall. While I personally love React, Solid, and other frontend JavaScript frameworks, I think it's crucial to understand different teams' approaches, their constraints, and their decision-making processes. Technology is often about finding the right compromises, and this article offers a valuable perspective on that.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "TypeScript enums: use cases and alternatives",
+      "url": "https://2ality.com/2025/01/typescript-enum-patterns.html",
+      "description": "Need a better understanding of TypeScript enums? This article is a go-to guide, covering use cases, alternatives like object literals and string unions, and practical advice. My take: enums can be problematic because they don't disappear at compile time like other TS features. Instead, they add generated code, which can be an issue with tools like Node.js, where types are erased, not fully transpiled. Therefore, understanding when to use enums, and when to use their alternatives, is key.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Announcing ArkType 2.0",
+      "url": "https://arktype.io/docs/blog/2.0",
+      "description": "What if you could have the power of TypeScript at runtime? ArkType 2.0 delivers exactly that with a 100x faster validation than [Zod](https://zod.dev/), superior developer experience, and powerful features like deep introspectability and great errors. This release introduces a new approach to validating your JavaScript data, giving you type-level feedback directly in your editor. It's a glimpse into the future of runtime type safety, and it's available now. If you've been enjoying the likes of Zod or [Valibot](https://valibot.dev/), ArkType is definitely one to watch. I haven't tried it myself just yet (still finding Zod's larger ecosystem easier to leverage), but after skimming through the docs, I've been intrigued for a while, and this release makes me even more eager to take it for a spin.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Picking a state management library for a React app",
+      "url": "https://photoroom.com/inside-photoroom/picking-a-state-management-library-why-we-went-with-mobx-",
+      "description": "Been thinking about shaking up your React app's state management? I came across this really interesting article from the team at Photoroom where they share why they decided to switch to [MobX](https://mobx.js.org/), plus they explore the pros and cons of other popular options like [Redux](https://redux.js.org/) and [Zustand](https://zustand-demo.pmnd.rs/). They talk about how it made testing easier, state updates simpler, and their developers happier overall. It's a really valuable real-world look at how a team tackled complex state, and I thought you might find it insightful too.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Laravel: Up & Running; A Framework for Building Modern PHP Apps",
+    "author": "Matt Stauffer",
+    "description": "What sets Laravel apart from other PHP web frameworks? Speed and simplicity, for starters. This rapid application development framework and its ecosystem of tools let you quickly build new sites and applications with clean, readable code. Fully updated to include Laravel 10, the third edition of this practical guide provides the definitive introduction to one of today's most popular web frameworks.",
+    "coverImageUrl": "./00aa0d0b4a46031fae9d8982d0c4ee7745531fbcb2d891197f7efe62ca4a66bb.jpg",
+    "amazonUs": "https://www.amazon.com/dp/109815326X?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/109815326X?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "My website has been gaslighting you",
+      "url": "https://daverupert.com/2025/01/color-hue-rotating-gaslight"
+    },
+    {
+      "title": "Ryan Carniato (of Solid.js) had a band for 14 years! And you won't believe the name! 😱",
+      "url": "https://x.com/RyanCarniato/status/1881808643026485262"
+    },
+    {
+      "title": "React-in-HTML from a 21kb bundle",
+      "url": "https://ssreact.com/"
+    },
+    {
+      "title": "Styling with utility classes - Core concepts",
+      "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+    },
+    {
+      "title": "Avoiding `any`s with Linting and TypeScript | typescript-eslint",
+      "url": "https://typescript-eslint.io/blog/avoiding-anys"
+    },
+    {
+      "title": "JavaScript Temporal is coming",
+      "url": "https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 216,
+  "title": "#216: Learn Python with these Jypyter notebooks",
+  "slug": "2021-06-21-216-25-learn-python-with-these-jypyter-notebooks",
+  "date": "2021-06-21",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "First learn computer science and all the theory.  Next develop a programming style.  Then forget all that and just hack",
+    "author": "George Carrette",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/George_Charrette"
+  },
+  "links": [
+    {
+      "title": "Learn Python with these Jupyter notebooks",
+      "url": "https://github.com/norvig/pytudes",
+      "description": "An open source collection of Jupyter notebooks meant for those who are studying Python and are looking for some inspirational challenges (with solutions). You can even check out the notebooks online, no need for any installation!",
+      "imageUrl": "./705cb7f6d166314cf733554870b8cae77dae2cee6361abba3d9414de05f73839.jpg",
+      "featured": true
+    },
+    {
+      "title": "How To Fix Cumulative Layout Shift (CLS) Issues",
+      "url": "https://smashingmagazine.com/2021/06/how-to-fix-cumulative-layout-shift-issues",
+      "description": "Google’s Core Web Vitals initiative has taken the SEO and Web Performance worlds by storm and many sites are busy optimizing their Page Experience to maximize the ranking factor. The Cumulative Layout Shift metric is causing trouble to a lot of sites, so let’s have a look at ways of addressing any potential issue you might have with it!",
+      "imageUrl": "./6bd508858f2ecf09b19938f1827cd2b53f6e20c105c53269eb850db3d3586929.jpg",
+      "featured": false
+    },
+    {
+      "title": "Serverless Functions: The Secret to Ultra-Productive Front-End Teams",
+      "url": "https://css-tricks.com/serverless-functions-the-secret-to-ultra-productive-front-end-teams",
+      "description": "Modern apps put high demands on frontend devs. Use serverless functions to avoid complexity & helps your team ship more with less stress.",
+      "imageUrl": "./c1889353fd1e4019f3207e8f535064c2a29c779ba00c7a80f01c61996ea31f97.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Great Unbundling: JAMstack and the Future of the Web",
+      "url": "https://thenewstack.io/the-great-unbundling-jamstack-and-the-future-of-the-web",
+      "description": "The JAMstack is a philosophy, methodology, and set of tools for building web applications that are faster, more secure, and more scalable than applications built with traditional monolithic web architectures.",
+      "imageUrl": "./dbe136d2af9906609a9464a9666b692b984a40d402a4e519ff3c9311f93af4c7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Finding a Needle in a Haystack: How Facebook Serves Millions of Images per Second",
+      "url": "https://sayedalesawy.hashnode.dev/finding-a-needle-in-a-haystack-how-facebook-serves-millions-of-images-per-second",
+      "description": "A very interesting article exploring the distributed architecture that allows Facebook to serve millions of images per second. In this article you will learn about the architecture of SeaweedFS, a distributed storage system used by Facebook to address this particular challenge.",
+      "imageUrl": "./3fb9d08d715b1e5b7ea0bfb424570acf302d7dca6e2ce97db93aa3e5a3c5fa3c.png",
+      "featured": false
+    },
+    {
+      "title": "Cypress vs Other Test Runners",
+      "url": "https://glebbahmutov.com/blog/cypress-vs-other-test-runners/index.html",
+      "description": "How does Cypress compare with other end-to-end (E2E) test runners? In this article, you can explore what are the major benefits of using Cypress.",
+      "imageUrl": "./52153c64b630555a80ddaa53e9ab54000a2da8cb4e113d7ea278a3f52d0de8bf.jpg",
+      "featured": false
+    },
+    {
+      "title": "Configure ESlint and StandardJS",
+      "url": "https://loige.hashnode.dev/configure-eslint-and-standardjs",
+      "description": "A simple article that shows how easy it is to configure a new JavaScript project adopting ESLint and StandardJS.",
+      "imageUrl": "./106aa0c290c8c0c6bd06935b7101a9502cfb48846cba6ea7c3a372c1e093c96e.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Self-Taught Programmer: The Definitive Guide to Programming Professionally",
+    "author": "Cory Althoff",
+    "description": "This book is not just about learning to program; although you will learn to code. If you want to program professionally, it is not enough to learn to code; that is why, in addition to helping you learn to program, it also covers the rest of the things you need to know to program professionally that classes and books don't teach you.",
+    "coverImageUrl": "./0d26611bf9dd58f18784b3d3fcf7f9dc3df28576b928cd220faae5debef9813e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01M01YDQA/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01M01YDQA/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

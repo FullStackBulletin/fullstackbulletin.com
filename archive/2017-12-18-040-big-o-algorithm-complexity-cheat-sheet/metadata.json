@@ -1,0 +1,75 @@
+{
+  "issueNumber": 40,
+  "title": "Big-O Algorithm Complexity Cheat Sheet",
+  "slug": "2017-12-18-040-big-o-algorithm-complexity-cheat-sheet",
+  "date": "2017-12-18",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #50, 2017",
+  "quote": {
+    "text": "In C++ it’s harder to shoot yourself in the foot, but when you do, you blow off your whole leg",
+    "author": "Bjarne Stroustrup",
+    "authorTitle": "Computer scientist and C++ inventor",
+    "authorUrl": "https://en.wikipedia.org/wiki/Bjarne_Stroustrup"
+  },
+  "links": [
+    {
+      "title": "Big-O Algorithm Complexity Cheat Sheet",
+      "url": "http://bigocheatsheet.com/",
+      "description": "This webpage covers the space and time Big-O complexities of common algorithms used in Computer Science.  Extremely useful to understand these concepts better and to get ready for for your next technical interviews.",
+      "imageUrl": "./df4950d357f19a0cec848f7e2c02a90b735ce488a0b63e5eea8a26d0377967c4.png",
+      "featured": true
+    },
+    {
+      "title": "Why CSS Grid is better than Bootstrap",
+      "url": "https://hackernoon.com/how-css-grid-beats-bootstrap-85d5881cf163",
+      "description": "CSS Grid is a new way of creating layouts on the web. For the first time ever we have a proper layout system available natively in the browser and we don't have to rely on heavy and opinionated frameworks like Bootstrap.",
+      "imageUrl": "./d5dd132480cf8c499f12e0fb33a6b4a3871e89e802006b761044c624c65bde81.png",
+      "featured": false
+    },
+    {
+      "title": "How WebRender gets rid of jank",
+      "url": "https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank",
+      "description": "The Firefox Quantum release is getting close. It brings many performance improvements, including the super fast CSS engine that we brought over from Servo.",
+      "imageUrl": "./c42e5a4e22ab447ec7616a193d21ec28f9e73421a6537b494dfbdd1c1b539d3b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Database guide for Mobile App Developers",
+      "url": "https://www.simform.com/mobile-app-developers-database-selection/",
+      "description": "A lengthy but extremely digestible guide on the different database/storage systems and their characteristics, to help you select the right one based on your next mobile app requirements.",
+      "imageUrl": "./f39edd6597d9e903fb118f5413a433583de25ebbccd0d435056a2f12d48c4930.png",
+      "featured": false
+    },
+    {
+      "title": "Zigzag Image–Text Layouts Make Scanning Less Efficient",
+      "url": "https://nngroup.com/articles/zigzag-page-layout",
+      "description": "In two-column layouts, vertically aligned images support efficient scanning better than images that alternate placement with text.",
+      "imageUrl": "./53e1889b24ec6b5327d7b0992bfba905cece570fa6132b4534a22bc8f3037a6f.jpg",
+      "featured": false
+    },
+    {
+      "title": "State of JavaScript in 2017",
+      "url": "https://medium.freecodecamp.org/a-look-back-at-the-state-of-javascript-in-2017-a5b7f562e977",
+      "description": "In advance of the 2017 State of JS survey results, our panel of experts looks back on the past year",
+      "imageUrl": "./53e54a5e7f7d065da571f0571d4fce2bfe5f49dcd4540adba4f973f1791f69c9.jpg",
+      "featured": false
+    },
+    {
+      "title": "I just deployed a serverless app and I can’t code",
+      "url": "https://medium.freecodecamp.org/i-just-deployed-a-serverless-app-and-i-cant-code-here-s-how-i-did-it-94983d7b43bd",
+      "description": "A story of a non-developer that managed to deploy a real, working application adopting the serverless paradigma. An interesting use case to understand how software is moving towards a more approachable direction, even for not strongly technical people.",
+      "imageUrl": "./52837860f9914cc870f30ead6b747b758d0cabff2b728348459d8e6271bd3d5f.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Docker in Action",
+    "author": "Jeff Nickoloff",
+    "description": "After starting with a clear explanation of the Docker model, you will learn how to package applications in containers, including techniques for testing and distributing applications. You will also learn how to run programs securely and how to manage shared resources. Using carefully designed examples, the book teaches you how to orchestrate containers and applications from installation to removal. Along the way, you'll discover techniques for using Docker on systems ranging from dev-and-test machines to full-scale cloud deployments.",
+    "coverImageUrl": "./f7904cb457d00eac2148258f1c19521c542a8bdd85bebcf49fa71431fd10b07f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1633430235/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1633430235/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

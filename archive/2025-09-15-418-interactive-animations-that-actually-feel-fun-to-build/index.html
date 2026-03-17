@@ -1,0 +1,542 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en"
+      >
+    <head>
+        
+        
+
+
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Language" content="en">
+<meta name="google" content="notranslate" />
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+<meta name="generator" content="Buttondown" />
+<link rel="webmention" href="https://buttondown.com/webmentions/register">
+
+    <meta name="theme-color" content="#06b6d4" />
+    
+
+
+    <link rel="shortcut icon" href="54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+    <link rel="apple-touch-icon" href="54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+        
+    
+
+
+
+
+    <title>Interactive Animations That Actually Feel Fun to Build — FullStack Bulletin #438 • Buttondown</title>
+
+
+    
+<meta name="description" content="Create interactive Rive animations, stay safe after the npm compromise, garden dependencies, balance AI hype with code readability, make docs AI ready with mdream, and ship accessible sites." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+<meta name="twitter:site" content="@buttondown" />
+<meta name="twitter:title" content="Interactive Animations That Actually Feel Fun to Build — FullStack Bulletin #438" />
+<meta name="twitter:description" content="Create interactive Rive animations, stay safe after the npm compromise, garden dependencies, balance AI hype with code readability, make docs AI ready with mdream, and ship accessible sites." />
+
+    
+        <link rel="alternate"
+              type="application/rss+xml"
+              title="RSS Feed for Interactive Animations That Actually Feel Fun to Build — FullStack Bulletin #438"
+              href="/fullstackbulletin/rss" />
+    
+
+<link rel="me" href="https://fullstackbulletin.com" />
+
+    <link rel="sitemap"
+          type="application/xml"
+          title="Sitemap"
+          href="/fullstackbulletin/sitemap.xml" />
+
+<meta property="og:title" content="Interactive Animations That Actually Feel Fun to Build — FullStack Bulletin #438" />
+<meta property="og:description" content="Create interactive Rive animations, stay safe after the npm compromise, garden dependencies, balance AI hype with code readability, make docs AI ready with mdream, and ship accessible sites." />
+<meta property="og:type" content="website" />
+
+    <meta name="twitter:image" content="https://image-generator.buttondown.email/api/emphasize-subject?subject=Interactive%20Animations%20That%20Actually%20Feel%20Fun%20to%20Build%20%E2%80%94%20FullStack%20Bulletin%20%23438&amp;author=FullStack%20Bulletin&amp;date=2025-09-15&amp;img=54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+    <meta property="og:image" content="https://image-generator.buttondown.email/api/emphasize-subject?subject=Interactive%20Animations%20That%20Actually%20Feel%20Fun%20to%20Build%20%E2%80%94%20FullStack%20Bulletin%20%23438&amp;author=FullStack%20Bulletin&amp;date=2025-09-15&amp;img=54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+
+
+    
+    <meta property="og:url" content="https://buttondown.com/fullstackbulletin/archive/438-interactive-animations/" />
+    <link rel="alternate"
+          type="application/json+oembed"
+          href="https://buttondown.com/embed?url=https://buttondown.com/fullstackbulletin/archive/438-interactive-animations/"
+          title="Interactive Animations That Actually Feel Fun to Build — FullStack Bulletin #438 / oEmbed" />
+
+<link rel="canonical" href="https://buttondown.com/fullstackbulletin/archive/438-interactive-animations/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "url": "https://buttondown.com/fullstackbulletin/archive/438-interactive-animations/", "mainEntityOfPage": "https://buttondown.com/fullstackbulletin/archive/438-interactive-animations/", "headline": "Interactive Animations That Actually Feel Fun to Build \u2014 FullStack Bulletin #438", "description": "Create interactive Rive animations, stay safe after the npm compromise, garden dependencies, balance AI hype with code readability, make docs AI ready with mdream, and ship accessible sites.", "image": [], "datePublished": "2025-09-15T17:00:00+00:00", "dateModified": "2025-09-15T17:00:13.270765+00:00", "isAccessibleForFree": true, "author": [{"@type": "Person", "name": "FullStack Bulletin", "url": "https://buttondown.com/fullstackbulletin", "identifier": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": {"@type": "ImageObject", "contentUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "thumbnailUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png"}}], "publisher": {"@type": "Organization", "name": "FullStack Bulletin", "url": "https://buttondown.com/fullstackbulletin", "description": "FullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.", "identifier": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": {"@type": "ImageObject", "contentUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "thumbnailUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png"}}}</script>
+
+
+        
+        
+        <script type="module" crossorigin="" src="https://static-assets.buttondown.com/subscriber_facing_fonts-DU3ilTNG.js"></script>
+<link href="https://static-assets.buttondown.com/preload-helper-HIQHktoD.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/_sentry-release-injection-file-DRmiww3Y.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+        
+        
+            <link rel="stylesheet" href="https://static-assets.buttondown.com/subscriber_facing_modern_css-CaffE7Di.css">
+        
+        
+        <style>
+            :root {
+                --tint-color: #06b6d4;
+                
+                    
+                
+            }
+        </style>
+        
+            <script nonce="HcLZPJg7zMZLQHCUd24fRw">
+                var VARIANT = "archive_page";
+                
+                
+            </script>
+        
+        
+            <style>article img {
+  max-width: 100%;
+}</style>
+        
+    </head>
+    <body class="route--email">
+        
+
+
+
+        <div class="app-container">
+            <div class="header-navigation-container">
+                <div class="header-navigation">
+                    
+                        <img class="header-brand-icon"
+                             src="54ba1d29-fdc4-4e32-9470-dd844c9be037.png"
+                             alt="FullStack Bulletin logo"
+                             width="24"
+                             height="24" />
+                    
+                    <div class="header-navigation-content">
+                        <h1>
+                            <a class="header-brand" href="https://buttondown.com/fullstackbulletin">
+                                <span class="header-brand-name">FullStack Bulletin</span>
+                            </a>
+                        </h1>
+                        <button class="header-navigation-toggle"
+                                type="button"
+                                aria-label="Toggle navigation menu"
+                                aria-expanded="false">
+                            <svg class="header-navigation-toggle-icon"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <line x1="3" y1="6" x2="21" y2="6"></line>
+    <line x1="3" y1="12" x2="21" y2="12"></line>
+    <line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+                            <svg class="header-navigation-toggle-icon header-navigation-toggle-icon--close"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line>
+    <line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+                        </button>
+                        <div class="header-navigation-overlay" aria-hidden="true"></div>
+                        <nav class="header-navigation-nav" aria-expanded="false">
+                            <div class="header-navigation-nav-handle"></div>
+                            
+                                <a class="header-navigation-link"
+                                   href="/fullstackbulletin/archive/">
+                                    <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" data-slot="icon" class="w-4 h-4">
+    <path d="M7.25 3.688a8.035 8.035 0 0 0-4.872-.523A.48.48 0 0 0 2 3.64v7.994c0 .345.342.588.679.512a6.02 6.02 0 0 1 4.571.81V3.688ZM8.75 12.956a6.02 6.02 0 0 1 4.571-.81c.337.075.679-.167.679-.512V3.64a.48.48 0 0 0-.378-.475 8.034 8.034 0 0 0-4.872.523v9.268Z" />
+</svg>
+
+                                    <div>Archives</div>
+                                </a>
+                            
+                            
+                            
+                            
+                            
+                                <button class="header-navigation-link archive-search-trigger"
+                                        type="button"
+                                        aria-label="Search...">
+                                    <svg width="16"
+     height="16"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="1.5"
+     xmlns="http://www.w3.org/2000/svg">
+    <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+    <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+</svg>
+
+                                    <div>Search...</div>
+                                </button>
+                            
+                            
+                            
+                                <button class="header-navigation-link header-navigation-link--subscribe subscribe-modal-trigger"
+                                        type="button">
+                                    <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" data-slot="icon" class="w-4 h-4">
+    <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+    <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+</svg>
+
+                                    <div>Subscribe</div>
+                                </button>
+                            
+                            
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+    
+
+
+    <div class="email-body-container">
+        <article class="email-body">
+            
+                
+
+
+    <date>
+    
+        September 15, 2025
+    
+    </date>
+
+<h1 class="subject">Interactive Animations That Actually Feel Fun to Build — FullStack Bulletin #438</h1>
+<h2 class="description">Create interactive Rive animations, stay safe after the npm compromise, garden dependencies, balance AI hype with code readability, make docs AI ready with mdream, and ship accessible sites.</h2>
+
+                
+
+
+<div class="email-body-content ">
+    
+        <p>Welcome back, </p>
+<p>I promised myself to keep this intro short, mostly because I already spent too much time crafting the animation you will see below. I hope it makes you smile, and I hope the related picks keep that energy going.</p>
+<p>I also spent a bit of time refining the automation behind this newsletter. You should notice even more links than usual at the bottom. Take a minute to explore them all, I am pretty sure there is something for everyone.</p>
+<p>Enjoy, and happy coding! <br/>
+— <a href="https://loige.co?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=438-interactive-animations" target="_blank">Luciano</a></p>
+<hr/>
+<blockquote>
+<p>"It's still magic even if you know how it's done"<br/>
+— <a href="https://en.wikipedia.org/wiki/Terry_Pratchett?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=438-interactive-animations" target="_blank">Terry Pratchett</a>, Author</p>
+</blockquote>
+<hr/>
+<p><a href="https://rive.app/use-cases/websites?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=image" rel="noopener noreferrer" target="_blank"><img alt="A screenshot from the article Engineering an AI App" draggable="false" src="https://buttondown-attachments.s3.amazonaws.com/images/dad2193d-1079-4b51-8b82-2f1a9e38bc50.gif?w=960&amp;fit=max"/></a></p>
+<p><a href="https://rive.app/use-cases/websites?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank"><strong>Interactive Animations That Actually Feel Fun to Build</strong></a> — Last week I stumbled across this little gem called <a href="https://rive.app/?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=438-interactive-animations" target="_blank">Rive</a> and... I’m kind of hooked. It’s a design and animation tool that lets you create interactive animations and export them straight into your web pages (React, plain JS, Flutter, Unity, you name it). You can pass props into the animations, listen to events from them, and really treat them like proper interactive UI elements. Not just lifeless GIFs. In fact, the FullStackBulletin logo above was made with Rive, but the exported GIF sadly butchered the frame rate. So if you want to see it in its full buttery glory, check out <a href="https://rive.app/community/files/23586-44122-fullstack-bulletin-animated-logo/?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=438-interactive-animations" target="_blank">the real thing</a>, you can also fork it and make it yours if you want! If you’ve used <a href="https://airbnb.io/lottie?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=438-interactive-animations" target="_blank">Lottie</a> before, Rive feels like its grown-up sibling. More refined, more capable, and just... more fun. My favorite use cases so far? Hero sections that react to user interaction in clever, delightful ways. And yes, while Rive is mostly open source, it does have a few commercial bits. This isn’t an ad. I just think it’s genuinely cool and worth a look. <a href="https://rive.app/use-cases/websites?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=description" target="_blank"><strong>Check Out the Web Showcase</strong></a></p>
+<p><a href="https://aikido.dev/blog/npm-debug-and-chalk-packages-compromised?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank"><strong>Compromised npm Packages: <code>chalk</code>, <code>debug</code> and More!</strong></a> — We are switching to a less fun but absolutely important read. Multiple npm packages including <code>chalk</code> and <code>debug</code> briefly shipped malicious code that runs in the browser and silently intercepts wallet interactions, rewriting crypto transactions to attacker addresses. The breach began with a very convincing phishing email that pretended to be from npm support and triggered a two factor reset on a maintainer account. Since these packages see roughly 2 billion (with a <em>"B"</em>!) downloads per week, there is a real chance one of your projects pulled a bad release. So open the article and check the full list of affected packages and versions. Then verify the exact versions in your lock file, clean your npm cache, reinstall everything from a clean state, and make sure you are using a lock file with pinned versions going forward. <a href="https://aikido.dev/blog/npm-debug-and-chalk-packages-compromised?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://blog.val.town/gardening-dependencies?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank"><strong>Gardenind Your Dependencies</strong></a> — Speaking of <code>package.json</code>, have you ever watched <code>node_modules</code> balloon into the heaviest object in the universe? You know <a href="https://www.reddit.com/r/ProgrammerHumor/comments/6s0wov/heaviest_objects_in_the_universe/?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=438-interactive-animations" target="_blank">the meme</a>. This piece shares practical tactics to map what you actually use, prune stowaways, prefer built in Node.js and Web APIs, swap bulky toolkits for smaller focused ones, and set guardrails with pinned versions and regular reviews. The advice comes from a complex real-world codebase, so you get honest lessons learned. If dependency drift and slow installs are wearing you down, this read can be a satisfying reset. <a href="https://blog.val.town/gardening-dependencies?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://idiallo.com/blog/writing-code-is-easy-reading-is-hard?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank"><strong>Writing Code Is Easy. Reading It Is Hard!</strong></a> — Wow. How did we get this far without talking about AI? Quick reality check. This opinion piece argues that writing code is not the hard part anymore. Reading and changing it is where the real cost lives. The analogies land, the point is clear, and the timing feels perfect. If you are hyped about AI models that can spray out dozens of functions in seconds, this will nudge you back toward the work that actually matters: clarity of intent, naming, structure, and the patience to write less code so your future self and your teammates can read it without pain. A short read that might make you want to refactor something today. <a href="https://idiallo.com/blog/writing-code-is-easy-reading-is-hard?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://github.com/harlan-zw/mdream?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank"><strong><code>mdream</code>: Make your docs AI friendly</strong></a> — I found a neat helper for maintainers who want AI to use their libraries correctly. <code>mdream</code> (clever name, BTW!) converts any site into clean Markdown and into an <code>llms.txt</code> guide, which boosts AI discoverability and gives users a simple way to generate fresh context for your project. It runs as a CLI and has a crawler which includes a custom HTML to Markdown converter tuned for LLMs that often cuts tokens by about fifty percent, outputs minimal GitHub Flavored Markdown with frontmatter and nested and HTML markup support. You do not need to be an open source maintainer to benefit. If a site or project you rely on does not publish an <code>llms.txt</code> yet, this is a quick way to generate more effective AI documentation and context. <a href="https://github.com/harlan-zw/mdream?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=description" target="_blank"><strong>Check Repo</strong></a></p>
+<p><a href="https://kube.io/blog/liquid-glass-css-svg?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank"><strong>Liquid Glass in CSS and SVG</strong></a> — Are you one of those people who got hyped for last week’s iPhone launch? No judgment. I peeked too, and Apple’s marketing tricks still impress me. But I digress, because what I really want to talk about is <em>Liquid Glass</em>. I have not used it yet on any of my devices, but I keep seeing folks try to recreate the effect on the web and it is genuinely impressive. This article is a standout. it walks through the actual physics behind the look, then ties it to practical CSS and SVG with beautiful interactive visuals that make everything crystal clear. If you are into graphics, this one is a treat. <a href="https://kube.io/blog/liquid-glass-css-svg?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://github.com/be-lenka/be-a11y?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank"><strong>Continuous accessibility checks</strong></a> — Here is another delightful and useful open source CLI. How do you know if your websites are accessible? Sure, there are plenty of tools that give you a one off report, but <code>be-a11y</code> is one that fits in your CI and checks every page on every build. Open a pull request, get a merge check, and stop accessibility from regressing before it ships. I plan to use it on my site and a few static sites I maintain. <a href="https://github.com/be-lenka/be-a11y?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=description" target="_blank"><strong>Check Repo</strong></a></p>
+<hr/>
+<h1>📕 Book of the week!</h1>
+<p><a href="https://www.amazon.com/dp/1098119444?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=438-interactive-animations" target="_blank"><strong>Rust Atomics and Locks: Low-Level Concurrency in Practice</strong>, by Mara Bos</a></p>
+<p><a href="https://www.amazon.com/dp/1098119444?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=438-interactive-animations" target="_blank"><img alt="Rust Atomics and Locks: Low-Level Concurrency in Practice" class="newsletter-image" src="rust-atomics-and-locks-1-mara-bos.jpg"/></a></p>
+<p>The Rust programming language is extremely well suited for concurrency, and its ecosystem has many libraries that include lots of concurrent data structures, locks, and more. But implementing those structures correctly can be very difficult. Even in the most well-used libraries, memory ordering bugs are not uncommon. In this practical book, Mara Bos, leader of the Rust library team, helps Rust programmers of all levels gain a clear understanding of low-level concurrency. You'll learn everything about atomics and memory ordering and how they're combined with basic operating system APIs to build common primitives like mutexes and condition variables. Once you're done, you'll have a firm grasp of how Rust's memory model, the processor, and the role of the operating system all fit together. With this guide, you'll learn:</p>
+<ul>
+<li>How Rust's type system works exceptionally well for programming concurrency correctly</li>
+<li>All about mutexes, condition variables, atomics, and memory ordering</li>
+<li>What happens in practice with atomic operations on Intel and ARM processors</li>
+<li>How locks are implemented with support from the operating system</li>
+<li>How to write correct code that includes concurrency, atomics, and locks</li>
+<li>How to build your own locking and synchronization primitives correctly</li>
+</ul>
+<p><a href="https://www.amazon.com/dp/1098119444?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=438-interactive-animations" target="_blank"><strong>Buy on Amazon.com</strong></a> - <a href="https://www.amazon.co.uk/dp/1098119444?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=438-interactive-animations" target="_blank"><strong>Buy on Amazon.co.uk</strong></a></p>
+<hr/>
+<h3>Supplementary reads worth your time! ⏰</h3>
+<ul>
+<li><a href="https://resend.com/blog/engineering-an-ai-app?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank">Engineering an AI App</a></li>
+<li><a href="https://imadr.me/pbr?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank">Physically Based Rendering From First Principles</a></li>
+<li><a href="https://ohyaml.wtf/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank">YAML Quiz</a></li>
+<li><a href="https://effect.kitlangton.com/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank">Visual Effect: Interactive Effect Playground</a></li>
+<li><a href="https://finkelstein.fr/sqlite-sync-engine-with-reactivity?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank">Lessons Learned From Building a Sync Engine and Reactivity System With SQLite</a></li>
+<li><a href="https://adamsilver.io/blog/your-vs-my-in-user-interfaces?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank">“Your” vs “My” in User Interfaces</a></li>
+<li><a href="https://css-tip.com/explore/alignment?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank">The Fundamentals of CSS Alignment</a></li>
+<li><a href="https://github.com/alexcanessa/typescript-coverage-report?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank">TypeScript Coverage Report: Node Command Tool to Generate TypeScript Coverage Report</a></li>
+<li><a href="https://builder.coltorapps.com/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank">React Form Builder: Drag and Drop Form Builder With JSON Schema</a></li>
+<li><a href="https://jsdev.space/react-anti-patterns-2025?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank">15 React Anti Patterns (and Fixes) You’ll Actually Use</a></li>
+<li><a href="https://feedsmith.dev/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-438&amp;utm_content=title" target="_blank">Feedsmith: Feed Parser and Generator Library</a></li>
+</ul>
+<hr/>
+<h2>Show's over, folks! 🎭</h2>
+<p>Credits are rolling! If this issue sparked joy or ideas, don't be shy – reply and tell us all about it! ✨</p>
+    
+</div>
+
+
+                
+
+
+
+                
+
+
+                <div class="card-container">
+                    <div class="card-container-header">
+                        
+                            Don't miss what's next. Subscribe to FullStack Bulletin:
+                        
+                    </div>
+                    
+<div id="subscribe-form">
+    <div class="card subscription-form-fallback">
+        <form method="post"
+              action="/api/emails/embed-subscribe/fullstackbulletin">
+            
+            <label for="sfi-email" class="sr-only">Email address (required)</label>
+            <input id="sfi-email"
+                   name="email"
+                   required=""
+                   type="email"
+                   placeholder="Your email (you@example.com)"
+                   autocomplete="email" />
+            <button class="button tinted blue" id="submit" type="submit">
+                <div style="flex: 1 1 0%; text-align: center;">Subscribe</div>
+            </button>
+        </form>
+    </div>
+</div>
+<script id="newsletter" type="application/json">{"absolute_url": "https://buttondown.com/fullstackbulletin", "account": "c0c89dde-4f8d-4f6b-bb46-917fb74d7239", "address": "", "archive_navigation_links": [], "archive_redirect_url": "", "archive_theme": "modern", "automatically_remind_unconfirmed_subscribers": true, "autonomy_fields": [], "bluesky_username": null, "body_template": "", "buysellads_url": null, "cached_analytics_data": {"open_rate": 40.93, "retention": 57.446808510638306, "click_rate": 6.33, "created_subscribers": 2699.0}, "css": "body {\n  width: 100% !important;\n  max-width: 600px !important;\n  display: block;\n  margin: 0 auto;\n  box-sizing: border-box;\n  border: 1em solid transparent;\n}\n\nimg {\n  max-width: 100%;\n}\n\n", "theme_configuration": {}, "custom_archive_template": "", "custom_archives_template": "", "custom_email_template": "", "custom_expired_trial_notification_body": "", "custom_expired_trial_notification_subject": "", "custom_expired_trial_notification_template": null, "custom_gift_subscription_email_body": "", "custom_gift_subscription_email_subject": "", "custom_gift_subscription_email_template": null, "custom_preamble": "", "custom_premium_confirmation_email_body": "", "custom_premium_confirmation_email_subject": "", "custom_premium_confirmation_email_template": null, "custom_subscription_confirmation_email_subject": "", "custom_subscription_confirmation_email_template": null, "custom_subscription_confirmation_email_text": "", "custom_subscription_confirmation_reminder_email_subject": "", "custom_subscription_confirmation_reminder_email_template": null, "custom_subscription_confirmation_reminder_email_text": "", "custom_subscription_confirmed_email_subject": "", "custom_subscription_confirmed_email_template": null, "custom_subscription_confirmed_email_text": "", "default_behavior_for_subscriber_imports": "append", "description": "\u003C!-- buttondown-editor-mode: fancy --\u003E\u003Cp\u003EFullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.\u003C/p\u003E", "disablement_reason": null, "domain": "archive.fullstackbulletin.com", "email_address": "luciano@fullstackbulletin.com", "email_domain": "fullstackbulletin.com", "enabled_features": ["comments", "portal", "referrals", "archives", "automations", "tags", "api", "metadata", "css"], "effective_locale": "en-US", "fathom_code": null, "fathom_subscribe_code": null, "footer": "", "from_name": "FullStack Bulletin", "google_tag_manager_code": null, "h2_redirect_url": "", "header": "", "hidden_settings": [], "icon": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "id": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": "", "indexing_mode": "enabled", "is_archive_searchable": true, "is_custom_archive_template_enabled": false, "is_custom_archives_template_enabled": false, "is_paid_subscription_free_trials_enabled": false, "is_sponsorship_enabled": false, "is_using_plausible": false, "locale": "en", "memberful_username": null, "meta_pixel_id": null, "metadata": {}, "metadata_keys": {"email": ["id"], "subscriber": ["first_name", "last_name", "name"]}, "name": "FullStack Bulletin", "paid_subscription_free_trial_duration": 0, "paid_subscriptions_status": "inactive", "prices": [], "publicly_visible_analytics": ["confirmed_subscribers"], "reddit_code": null, "reply_to_address": "", "seline_code": null, "sharing_networks": ["linkedin", "twitter", "reddit", "hacker_news", "mastodon", "bluesky"], "shopify_url": null, "should_add_utm_sources": true, "should_be_private": false, "should_disable_non_premium_subscriptions": false, "should_expose_rss": true, "should_hide_issue_numbers": false, "should_hide_social_media": false, "should_immediately_show_payment_element": false, "should_noindex_archive_page": false, "should_noindex_subscribe_page": false, "should_require_double_optin": true, "should_send_latest_email_to_new_subscribers": false, "should_send_subscription_confirmation_email": true, "simple_analytics_enabled": false, "tinylytics_code": null, "socials": [{"url": "https://fullstackbulletin.com", "type": "generic", "label": null}], "sponsorship_text": null, "status": "active", "stripe_account": "", "subscription_button_text": "", "subscription_confirmation_redirect_url": "", "subscription_form_text": "", "subscription_redirect_url": "", "template": "classic", "thank_you_text": "", "tint_color": "#06b6d4", "timezone": "Europe/Dublin", "umami_website_id": null, "unsubscription_reasons": [], "upgrade_text": "", "username": "fullstackbulletin", "web_css": "article img {\n  max-width: 100%;\n}", "web_footer": "", "web_header": ""}</script>
+<script id="subscriber_facing_authentication" type="application/json">{"status": "unauthenticated", "email_address": null, "account_id": null, "subscribers": []}</script>
+
+    <script id="referring_subscriber_id" type="application/json">null</script>
+
+<script id="referer" type="application/json">""</script>
+
+<script nonce="HcLZPJg7zMZLQHCUd24fRw">
+    var NEWSLETTER = JSON.parse(document.getElementById('newsletter').textContent);
+    var SUBSCRIBER_FACING_AUTHENTICATION = JSON.parse(document.getElementById('subscriber_facing_authentication').textContent);
+    var REFERRING_SUBSCRIBER_ID = JSON.parse(document.getElementById('referring_subscriber_id').textContent);
+    
+    var STRIPE_LIVE_PUBLIC_KEY = null;
+    
+
+    var TINT_COLOR = NEWSLETTER.tint_color || '#0069FF';
+    document.documentElement.style.setProperty("--tint-color", TINT_COLOR);
+    var referer = JSON.parse(document.getElementById('referer').textContent);
+    var account = null;
+
+    
+    var VARIANT = "archive_page";
+    
+</script>
+
+                    
+                        
+                            
+                        
+                    
+                </div>
+                
+
+
+  
+    <section class="card-container" aria-labelledby="comments-heading">
+      
+      <div class="archive__comments-container">
+        
+        <div id="comment-form" class="archive__comment-form-wrapper">
+          <h4 class="card-container-header">Add a comment:</h4>
+          <form method="post" action="comment" class="comment-input card">
+            <input type="hidden" name="csrfmiddlewaretoken" value="aFCt5mHDMtFx9Tm68aLfv7xu2YtaxcY6dZGC7kemHJScPtHRMLCRUkpUBbaUD0YH">
+            
+              
+
+
+
+<fieldset class="comment-input__fields">
+    <div class="comment-input__field comment-input__field--textarea">
+        <textarea id="body" name="body" class="comment-input__textarea" placeholder="What do you think?"></textarea>
+    </div>
+
+    <input type="hidden" name="email" value="1f3fbc4a-da29-4d2f-8fc8-6bd7675869c9">
+    <input type="hidden" name="parent" value="">
+
+    <div class="comment-input__field comment-input__user-info">
+        
+            <input type="text" name="name" class="comment-input__input" placeholder="Your name"
+                value="">
+        
+
+        
+            <input type="email" id="email_address" name="email_address" class="comment-input__input" placeholder="Your email address"
+                value="">
+        
+    </div>
+</fieldset>
+
+<div class="comment-input__actions">
+    
+        <button type="submit" class="archive__button">
+            
+                Comment and Subscribe
+            
+        </button>
+    
+</div> 
+            
+          </form>
+        </div>
+      </div>
+    </section>
+  
+
+
+                <div class="card-container">
+                    
+
+
+    
+        
+            <div class="card-container">
+                <div class="card-container-header">Share this email:</div>
+                <div class="archive__social-share-link-container">
+                    
+                        
+                        
+                            <a href="https://twitter.com/intent/tweet?text=Interactive%20Animations%20That%20Actually%20Feel%20Fun%20to%20Build%20%E2%80%94%20FullStack%20Bulletin%20%23438&url=https%3A//buttondown.com/fullstackbulletin/archive/438-interactive-animations/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Twitter
+                            </a>
+                        
+                        
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//buttondown.com/fullstackbulletin/archive/438-interactive-animations/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on LinkedIn
+                            </a>
+                        
+                        
+                            <a href="https://share.bingo/hn?url=https%3A//buttondown.com/fullstackbulletin/archive/438-interactive-animations/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Hacker News
+                            </a>
+                        
+                        
+                        
+                            <a href="https://share.bingo/reddit?url=https%3A//buttondown.com/fullstackbulletin/archive/438-interactive-animations/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Reddit
+                            </a>
+                        
+                        
+                        
+                            <a href="https://toot.kytta.dev/?text=Interactive%20Animations%20That%20Actually%20Feel%20Fun%20to%20Build%20%E2%80%94%20FullStack%20Bulletin%20%23438%0A%0Ahttps%3A//buttondown.com/fullstackbulletin/archive/438-interactive-animations/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Mastodon
+                            </a>
+                        
+                        
+                            <a href="https://share.bingo/bluesky?url=https%3A//buttondown.com/fullstackbulletin/archive/438-interactive-animations/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Bluesky
+                            </a>
+                        
+                    
+                </div>
+            </div>
+        
+    
+
+
+                </div>
+            
+        </article>
+    </div>
+
+        </div>
+        
+
+        
+            <div class="footer">
+                
+                    
+
+
+<div class="social-networks archive__social-links-inner">
+    
+        <div class="archive__social-links-item">
+            <a href="https://fullstackbulletin.com" class="archive__social-links-link"><img width='16' height='16' src='favicons.png' alt='fullstackbulletin.com' /></a>
+        </div>
+    
+</div>
+
+                
+                
+                    <div>Powered by <a href="https://buttondown.com/refer/fullstackbulletin">Buttondown</a>, the easiest way to start and grow your newsletter.</div>
+                
+            </div>
+        
+        
+            <div id="archive-search-modal-container"
+                 data-archive-url="/fullstackbulletin/archive/"
+                 data-placeholder="Search..."
+                 data-title="Search..."
+                 data-search-param="q"
+                 data-username="fullstackbulletin"></div>
+        
+        <script id="newsletter" type="application/json">{"absolute_url": "https://buttondown.com/fullstackbulletin", "account": "c0c89dde-4f8d-4f6b-bb46-917fb74d7239", "address": "", "archive_navigation_links": [], "archive_redirect_url": "", "archive_theme": "modern", "automatically_remind_unconfirmed_subscribers": true, "autonomy_fields": [], "bluesky_username": null, "body_template": "", "buysellads_url": null, "cached_analytics_data": {"open_rate": 40.93, "retention": 57.446808510638306, "click_rate": 6.33, "created_subscribers": 2699.0}, "css": "body {\n  width: 100% !important;\n  max-width: 600px !important;\n  display: block;\n  margin: 0 auto;\n  box-sizing: border-box;\n  border: 1em solid transparent;\n}\n\nimg {\n  max-width: 100%;\n}\n\n", "theme_configuration": {}, "custom_archive_template": "", "custom_archives_template": "", "custom_email_template": "", "custom_expired_trial_notification_body": "", "custom_expired_trial_notification_subject": "", "custom_expired_trial_notification_template": null, "custom_gift_subscription_email_body": "", "custom_gift_subscription_email_subject": "", "custom_gift_subscription_email_template": null, "custom_preamble": "", "custom_premium_confirmation_email_body": "", "custom_premium_confirmation_email_subject": "", "custom_premium_confirmation_email_template": null, "custom_subscription_confirmation_email_subject": "", "custom_subscription_confirmation_email_template": null, "custom_subscription_confirmation_email_text": "", "custom_subscription_confirmation_reminder_email_subject": "", "custom_subscription_confirmation_reminder_email_template": null, "custom_subscription_confirmation_reminder_email_text": "", "custom_subscription_confirmed_email_subject": "", "custom_subscription_confirmed_email_template": null, "custom_subscription_confirmed_email_text": "", "default_behavior_for_subscriber_imports": "append", "description": "\u003C!-- buttondown-editor-mode: fancy --\u003E\u003Cp\u003EFullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.\u003C/p\u003E", "disablement_reason": null, "domain": "archive.fullstackbulletin.com", "email_address": "luciano@fullstackbulletin.com", "email_domain": "fullstackbulletin.com", "enabled_features": ["comments", "portal", "referrals", "archives", "automations", "tags", "api", "metadata", "css"], "effective_locale": "en-US", "fathom_code": null, "fathom_subscribe_code": null, "footer": "", "from_name": "FullStack Bulletin", "google_tag_manager_code": null, "h2_redirect_url": "", "header": "", "hidden_settings": [], "icon": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "id": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": "", "indexing_mode": "enabled", "is_archive_searchable": true, "is_custom_archive_template_enabled": false, "is_custom_archives_template_enabled": false, "is_paid_subscription_free_trials_enabled": false, "is_sponsorship_enabled": false, "is_using_plausible": false, "locale": "en", "memberful_username": null, "meta_pixel_id": null, "metadata": {}, "metadata_keys": {"email": ["id"], "subscriber": ["first_name", "last_name", "name"]}, "name": "FullStack Bulletin", "paid_subscription_free_trial_duration": 0, "paid_subscriptions_status": "inactive", "prices": [], "publicly_visible_analytics": ["confirmed_subscribers"], "reddit_code": null, "reply_to_address": "", "seline_code": null, "sharing_networks": ["linkedin", "twitter", "reddit", "hacker_news", "mastodon", "bluesky"], "shopify_url": null, "should_add_utm_sources": true, "should_be_private": false, "should_disable_non_premium_subscriptions": false, "should_expose_rss": true, "should_hide_issue_numbers": false, "should_hide_social_media": false, "should_immediately_show_payment_element": false, "should_noindex_archive_page": false, "should_noindex_subscribe_page": false, "should_require_double_optin": true, "should_send_latest_email_to_new_subscribers": false, "should_send_subscription_confirmation_email": true, "simple_analytics_enabled": false, "tinylytics_code": null, "socials": [{"url": "https://fullstackbulletin.com", "type": "generic", "label": null}], "sponsorship_text": null, "status": "active", "stripe_account": "", "subscription_button_text": "", "subscription_confirmation_redirect_url": "", "subscription_form_text": "", "subscription_redirect_url": "", "template": "classic", "thank_you_text": "", "tint_color": "#06b6d4", "timezone": "Europe/Dublin", "umami_website_id": null, "unsubscription_reasons": [], "upgrade_text": "", "username": "fullstackbulletin", "web_css": "article img {\n  max-width: 100%;\n}", "web_footer": "", "web_header": ""}</script>
+        
+            <script id="subscriber_facing_authentication" type="application/json">{"status": "unauthenticated", "email_address": null, "account_id": null, "subscribers": []}</script>
+        
+        
+        <div id="subscriber-facing-app"></div>
+        <link  rel="stylesheet" href="https://static-assets.buttondown.com/event-listener-C4a0MggJ.css" />
+<link  rel="stylesheet" href="https://static-assets.buttondown.com/subscriber_facing_app-CMddTf0D.css" />
+<script type="module" crossorigin="" src="https://static-assets.buttondown.com/subscriber_facing_app-DIYFgv7W.js"></script>
+<link href="https://static-assets.buttondown.com/modulepreload-polyfill-C5-T9T-W.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/vueQueryPlugin-BD6xQQsM.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/event-listener-5QAwhQxM.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/_sentry-release-injection-file-DRmiww3Y.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/preload-helper-HIQHktoD.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/PendingIndicator.vue_vue_type_script_setup_true_lang-9IrbzFdh.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+        
+    </body>
+</html>

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 281,
+  "title": "Bun is a fast all-in-one JavaScript runtime",
+  "slug": "2022-07-11-268-bun-is-a-fast-all-in-one-javascript-runtime",
+  "date": "2022-07-11",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "The function of good software is to make the complex appear to be simple",
+    "author": "Grady Booch",
+    "authorTitle": "Software engineer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Grady_Booch"
+  },
+  "links": [
+    {
+      "title": "Bun is a fast all-in-one JavaScript runtime",
+      "url": "https://bun.sh/",
+      "description": "Another day in JS land, another big news! This is the time of Bun, an ambitious new project that iams to be a new all-in-one tool to bundle, transpile, install and run JavaScript & TypeScript projects. Bun is promising also for its performance characteristic and for using the Webkit Core JavaScript engine (rather than V8) while trying to be as compatible as possible with Node.js and Npm. Give it a spin if you are curious!",
+      "imageUrl": "./3778a050ed9b8ee3f88a3f1dbb91d76c0d8a52c4640a5bb08b927d7011e1c22f.jpg",
+      "featured": true
+    },
+    {
+      "title": "Things You Should Know About Databases",
+      "url": "https://architecturenotes.co/things-you-should-know-about-databases",
+      "description": "As software engineers we use databases all the time, but often we don't go to deep in understanding how they really work. With this article you could appreciate some of technical details that every engineer should now about DBs like indexes and transactions. Bonus feat: all beautifully illustrated!",
+      "imageUrl": "./25401aff965c315838f1bdd8873e0b3bf06f08a3198199a6c0def0afbc62e121.jpg",
+      "featured": false
+    },
+    {
+      "title": "ES2022 features list",
+      "url": "https://h3manth.com/ES2022",
+      "description": "ES2022 is here and it comes with some new interesting features. This page offers a great practical summary of all the new things you can now do with JavaScript by virtue of EcmaScript2022!",
+      "imageUrl": "./45d76feab71d2c02c15a68303ef2ac7e6646f940f93980c6c87948ce0e198489.jpg",
+      "featured": false
+    },
+    {
+      "title": "Better scrolling through modern CSS",
+      "url": "https://blog.mayank.co/better-scrolling-through-modern-css",
+      "description": "There's more to scrollbars than you might expect! This article looks at some of the things we can do in 2022 to improve the scrolling experience for our users. Spoiler: finally browsers are giving us more standard access into scrollbars and customisation options, so we can stop creating custom scrollbars!",
+      "imageUrl": "./d290db97d20d5e01414a9160ed83b5d99a90b9be19eba93bec5e2bb9d4fec936.png",
+      "featured": false
+    },
+    {
+      "title": "create-rust-app",
+      "url": "https://github.com/Wulf/create-rust-app",
+      "description": "Are you enjoying using Rust in the backend and React in the frontend? Well, if yes, this project is for you! Like **create-react-app**, but it also scaffolds an entire rust backend for you!",
+      "imageUrl": "./731c6afdec8dae73ebd00c113a1f9c16e4be55a00a82ea95c3b6bc2181806213.jpg",
+      "featured": false
+    },
+    {
+      "title": "Serverless VS PHP shared hosting.",
+      "url": "https://blog.hulacorn.com/2022/06/25/serverless-vs-php-shared-hosting/",
+      "description": "This is a short rant on what is the promise of Serverless and how does it compare to the old days of running PHP on a shared hosting. Whether you agree with Roberto's perspective or not, it is definitely worth asking ourselves \"*Is technology really evolving, or are we just re-inventing the wheel in a slightly different fashion every time?*\"",
+      "imageUrl": "./7846faf6f7bfe792b87b4a9447f8ab2c2f5604c8b34ba4397c71cd91c7d119ce.jpeg",
+      "featured": false
+    },
+    {
+      "title": "The Guide To Windows High Contrast Mode",
+      "url": "https://smashingmagazine.com/2022/06/guide-windows-high-contrast-mode",
+      "description": "In this article, we’ll see how to make our sites friendly for Windows High Contrast Mode by using a good set of practices, including the media query `forced-colors` and its toolset.",
+      "imageUrl": "./60d7e505fbcdfad6fb919b77bcc6dafdb19476fbe8b8b085ce77c96698145a2b.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+    "author": "Lea Verou",
+    "description": "In this practical guide, CSS expert Lea Verou provides 47 undocumented techniques and tips to help intermediate-to advanced CSS developers devise elegant solutions to a wide range of everyday web design problems. Rather than focus on design, CSS Secrets shows you how to solve problems with code. You'll learn how to apply Lea's analytical approach to practically every CSS problem you face to attain DRY, maintainable, flexible, lightweight, and standards-compliant results.",
+    "coverImageUrl": "./e20c35997e3e8a6a408d0165643e9832e92142192a5c4b89e0e684f372fe7735.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372635/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372635/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

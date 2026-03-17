@@ -1,0 +1,75 @@
+{
+  "issueNumber": 143,
+  "title": "Modern makefiles used the right way in 2020",
+  "slug": "2019-12-30-143-modern-makefiles-used-the-right-way-in-2020",
+  "date": "2019-12-30",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #52, 2019",
+  "quote": {
+    "text": "The use of COBOL cripples the mind; its teaching should therefore be regarded as a criminal offense",
+    "author": "E.W. Dijkstra",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/E._W._Dijkstra"
+  },
+  "links": [
+    {
+      "title": "Modern makefiles used the right way in 2020",
+      "url": "https://medium.com/stack-me-up/using-makefiles-the-right-way-a82091286950",
+      "description": "Makefiles the right way: why they are still relevant in 2020 and how you should take advantage of them!",
+      "imageUrl": "./b804a6547475f528b8919eca1574fd83830cbaca84448095a9426812fe66ce5e.png",
+      "featured": true
+    },
+    {
+      "title": "Node.js multithreading",
+      "url": "https://blog.logrocket.com/node-js-multithreading-what-are-worker-threads-and-why-do-they-matter-48ab102f8b10",
+      "description": "Since the release of Node.js v10.5, multithreading has never been easier thanks to Worker Threads. In this article you will learn what exactly the worker thread module is and when you can take advantage of it.",
+      "imageUrl": "./571813701f56d6a12ecbb2c3dd9432f0d461d6126dda44d22c49911f2b351ffd.jpg",
+      "featured": false
+    },
+    {
+      "title": "What Is JavaScript Made Of?",
+      "url": "https://overreacted.io/what-is-javascript-made-of",
+      "description": "This article delves into the lower level ideas of the JavaScript language: values, variables, objects, functions, closures, prototypes, etc. A very good guide to understand JavaScript a little bit better!",
+      "imageUrl": "./362e7ac0d4faa40aae39e28f12af0f4a99553ee2ad2f9ab789e91196b8b1dd4a.jpg",
+      "featured": false
+    },
+    {
+      "title": "How tracking pixels work",
+      "url": "https://jvns.ca/blog/how-tracking-pixels-work",
+      "description": "How advertisers track people on the internet? You’re looking at a product online, and a day later see an ad for the same boots or whatever that you were looking at. This is called re-targeting and it is possible thanks to techniques such as tracking pixels.",
+      "imageUrl": "./86184e050641e90ba883be0c4ac2fc0721fad73be220479b805e0dbf59a1d718.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why npm lockfiles can be a security blindspot for injecting malicious modules",
+      "url": "https://snyk.io/blog/why-npm-lockfiles-can-be-a-security-blindspot-for-injecting-malicious-modules",
+      "description": "NPM lockfile are hard to review and they can be used to specify where the package source code is actually coming from. This is very dangerous and this article describes exactly how and what can you do to protect your project.",
+      "imageUrl": "./6f80fefc042a94bfe576dd25f9e9fad622c892bae39b30df9252209e163e0bd9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Progressive React",
+      "url": "https://houssein.me/progressive-react",
+      "description": "A checklist to improve React projects performance strep by step.",
+      "imageUrl": "./33aa492be8076ea0ffbcb1acaf03668530fea0106eae2480cfd70917d2dcc092.jpg",
+      "featured": false
+    },
+    {
+      "title": "AWS permission escalation techniques",
+      "url": "https://know.bishopfox.com/research/privilege-escalation-in-aws",
+      "description": "Guide for security professionals performing AWS cloud security reviews or pen tests. These methods can be used in practice and explained clearly to clients.",
+      "imageUrl": "./d963a94dbcd7cd3b7c2c014937a9f925c6e109ac2b9c13bedd1bd86dc53ffac2.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "RESTful API Design",
+    "author": "Matthias Biehl",
+    "description": "this book is packed with best practices on many technical aspects of RESTful API Design, such as the correct use of resources, URIs, representations, content types, data formats, parameters, HTTP status codes and HTTP methods. You want to design and develop APIs like a Pro? Use API description languages to both design APIs and develop APIs efficiently. The book introduces the two most common API description languages RAML and OpenAPI/Swagger",
+    "coverImageUrl": "./28aacc6a13ca1347c15c3795f8d6bcb239721dbccca6de24ceed1765e89588ee.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1514735164/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1514735164/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

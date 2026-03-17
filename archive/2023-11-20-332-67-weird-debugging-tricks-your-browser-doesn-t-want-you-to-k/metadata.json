@@ -1,0 +1,104 @@
+{
+  "issueNumber": 347,
+  "title": "67 Weird Debugging Tricks Your Browser Doesn't Want You to Know",
+  "slug": "2023-11-20-332-67-weird-debugging-tricks-your-browser-doesn-t-want-you-to-k",
+  "date": "2023-11-20",
+  "templateType": "mce-mailchimp",
+  "intro": "Howdy howdy, *|LIST:NAME|*and welcome to issue #347.\n\nAnother busy week here for me! Among other things, we [released Middy v5](https://twitter.com/loige/status/1724888512116265092) and published a new exciting episode of AWS Bites Podcast where [we literally dissect how Lambda runtimes work](https://awsbites.com/104-explaining-lambda-runtimes/) (and I am quite proud of the episode artwork).\n\nCheck them out if you are into AWS and serverless, but if you are here only for the full-stack goodies, well, there's plenty of it down here, so enjoy this issue!",
+  "quote": {
+    "text": "In carpentry, you measure twice and cut once. In software development, you never measure and make cuts until you run out of time“",
+    "author": null,
+    "authorTitle": "Software Developer",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "67 Weird Debugging Tricks Your Browser Doesn't Want You to Know",
+      "url": "https://alan.norbauer.com/articles/browser-debugging-tricks",
+      "description": "One of the best collections of advanced browser debugging tips and tricks that I have ever seen. If you ever find yourself looking at a website and wondering *\"How the heck does this thing work?\"* then you can probably find here lots of ideas on how you could find the answer... or maybe you just need to debug your own app, because, you know, we create bugs all the time and someone has to take care of them... eventually...",
+      "imageUrl": "./d1b9c0e49d948883b02a2a33a357cef1515d2acae07020bc130210d12e0b61f3.png",
+      "featured": true
+    },
+    {
+      "title": "How to Use Timeouts in Node.js",
+      "url": "https://blog.appsignal.com/2023/11/08/how-to-use-timeouts-in-nodejs.html",
+      "description": "No we are not talking about `setTimeout` or `setInterval`... we are talking about how to deal with timeouts when implementing HTTP servers and clients. If you have never put too much thought into this topic, you should check out this article for some practical insights and examples including some popular libraries.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Magic of Details: How UX Microinteractions Transform Products",
+      "url": "https://dribbble.com/stories/2023/11/14/the-magic-of-details-how-ux-microinteractions-transform-products",
+      "description": "Have you ever used an app or a website and found that it's simple and yet incredibly pleasant to use? You might have not noticed it, but sometimes this is thanks to a lot of time and care spent on designing the so-called \"*micro-interactions*\". If you are building an ambitious consumer-facing project, you should probably consider incorporating some of these ideas into your product.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Kafka is dead, long live Kafka",
+      "url": "https://warpstream.com/blog/kafka-is-dead-long-live-kafka",
+      "description": "I am personally not a big fan of Kafka. Don't get me wrong, I do really like stream processing and I recognise that Kafka has been revolutionising modern architectures, and yet it's a bit of a beast to use, configure correctly, deploy, and scale! This article explores WarpStream, an alternative solution that aims to solve some of the problems that exist with Kafka. If you are a Kafka user, or simply if you like learning about systems architectures and their tradeoffs, you might enjoy this one.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Learn Web Performance",
+      "url": "https://web.dev/learn/performance",
+      "description": "A fantastic (and totally FREE) course by Google designed for those new to web performance, a vital aspect of the user experience. It covers key web performance concepts and techniques for improving performance like optimizing images, videos, fonts, how to split code and apply lazy loading, and tons more.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Moving back to React",
+      "url": "https://daily.dev/blog/moving-back-to-react",
+      "description": "Discover the story behind daily.dev's transition from **React** to **Preact** for front-end development. This post explores the challenges, solutions, and benefits of migrating to Preact, enhancing our web app's performance and development experience. But the fun bit is that now the team is moving back to React and you might be especially curious to find out why and how they are doing that...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Unlocking the power of Node.js",
+      "url": "https://blog.platformatic.dev/unlocking-the-power-of-nodejs",
+      "description": "How do you get the best out of Node.js? There are so many powerful patterns (trust me, [I know something about that](https://nodejsdesignpatterns.com/)) but this brilliant article by [Matteo Collina](https://twitter.com/matteocollina) focuses on module management and packages. It also covers the drawbacks of the singleton design pattern for holding state variables and explores the topic of dependency injection.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Full Stack Development with Spring Boot 3 and React",
+    "author": null,
+    "description": "If you’re an existing Java developer who wants to go full stack or pick up another frontend framework, this book is your concise introduction to React. Written by a software development lecturer with over 17 years of industry experience, it is designed to get you up and running quickly with the Spring Boot 3 and React stack.\nThis latest edition walks you through building, securing, testing, and deploying a full-stack application, linking together a robust Spring Boot REST API and a dynamic React user interface. Along the way, you’ll explore modern libraries and tools, such as Gradle, Vite, Vitest, and React Query. For the first time ever, it also covers React development with the in-demand TypeScript.",
+    "coverImageUrl": "./6db86951e1f00278df4c6e1b553bcfe4489dfcb40c7009a06562252a30033b79.jpg",
+    "amazonUs": null,
+    "amazonUk": null
+  },
+  "additionalLinks": [
+    {
+      "title": "HTML Web Components",
+      "url": "https://blog.jim-nielsen.com/2023/html-web-components"
+    },
+    {
+      "title": "A faster web in 2024",
+      "url": "https://rviscomi.dev/2023/11/a-faster-web-in-2024"
+    },
+    {
+      "title": "The effects of not maintaining consistency with DynamoDB",
+      "url": "https://advancedweb.hu/the-effects-of-not-maintaining-consistency-with-dynamodb"
+    },
+    {
+      "title": "git rebase: what can go wrong?",
+      "url": "https://jvns.ca/blog/2023/11/06/rebasing-what-can-go-wrong-"
+    },
+    {
+      "title": "Designing Web Design Documentation",
+      "url": "https://smashingmagazine.com/2023/11/designing-web-design-documentation"
+    },
+    {
+      "title": "Using Selectlist in React",
+      "url": "https://polypane.app/blog/using-selectlist-in-react"
+    },
+    {
+      "title": "ESM Loaders: Enhancing Module Loading in Node.js (video)",
+      "url": "https://www.youtube.com/watch?v=RYdEYikYEQ4%3Futm_source%3Dfullstackbulletin.com"
+    }
+  ],
+  "sponsor": null
+}

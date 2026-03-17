@@ -1,0 +1,75 @@
+{
+  "issueNumber": 178,
+  "title": "Same Stats, Different Graphs",
+  "slug": "2020-09-07-178-same-stats-different-graphs",
+  "date": "2020-09-07",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #36, 2020",
+  "quote": {
+    "text": "Code generation, like drinking alcohol, is good in moderation",
+    "author": "Alex Lowe",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alex_Lowe"
+  },
+  "links": [
+    {
+      "title": "Same Stats, Different Graphs",
+      "url": "https://autodeskresearch.com/publications/samestats",
+      "description": "It can be difficult to demonstrate the importance of data visualization. Some people are of the impression that charts are simply \"*pretty pictures*\", while all of the important information can be divined through statistical analysis. Recently, Alberto Cairo created the Datasaurus dataset which urges people to \"*never trust summary statistics alone; always visualize your data*\".",
+      "imageUrl": "./4085c121514d6872dcda27ede37e266bd81764c89ca781fd65bd69382a3bf9b1.gif",
+      "featured": true
+    },
+    {
+      "title": "FREE Web security course from Stanford (CS253)",
+      "url": "https://web.stanford.edu/class/cs253",
+      "description": "Thought by **Feross Aboukhadijeh**, a prominent voice in Open Source Software, this course is a comprehensive overview of web security. The goal is to build an understanding of the most common web attacks and their countermeasures.",
+      "imageUrl": "./c299d1b2bd5f7d3bf2196f2876168943ff664fec016d6e6f5703795bff884420.png",
+      "featured": false
+    },
+    {
+      "title": "Optimal Peanut Butter and Banana Sandwiches",
+      "url": "https://www.ethanrosenthal.com/2020/08/25/optimal-peanut-butter-and-banana-sandwiches/",
+      "description": "Did you ever think you could use computer vision to calculate the optimal way to slice a banana to fit nicely within the size of your bread? Well, we certainly didn't, but Ethan Rosenthal did and his article describing this experiment is amazing!",
+      "imageUrl": "./392119f247ba4aca37fcca0fd4fa092db9532ffdae8c6c580dacb425ff2a326f.png",
+      "featured": false
+    },
+    {
+      "title": "AVIF: The New Next-Gen Image Compression Format",
+      "url": "https://reachlightspeed.com/blog/using-the-new-high-performance-avif-image-format-on-the-web-today",
+      "description": "Start using next-gen .avif images today progressively with the  element. The format is ~50% smaller in size compared to JPEG, and ~20% smaller than WebP.",
+      "imageUrl": "./daa93e52c355a87bafcc914032892f20a1a16ba13caf84844db3acf21c485f60.jpg",
+      "featured": false
+    },
+    {
+      "title": "Full Stack Serverless",
+      "url": "https://dev.to/dabit3/full-stack-serverless-building-a-real-time-chat-app-with-graphql-cdk-appsync-and-react-1dbb",
+      "description": "How to build a full stack chat app on **AWS** with **GraphQL**, **React**, AWS **CDK**, AWS **AppSync**, Amazon **DynamoDB**, and Amazon **Cognito**.",
+      "imageUrl": "./6bc867190426587a93bcfda2dad80da93955f8f27247c4bdff2bfb57cf3bb503.jpg",
+      "featured": false
+    },
+    {
+      "title": "Introducing Danfo.js, a Pandas-like Library in JavaScript",
+      "url": "https://blog.tensorflow.org/2020/08/introducing-danfo-js-pandas-like-library-in-javascript.html",
+      "description": "Danfo.js is an open-source, JavaScript library that provides high-performance, intuitive, and easy-to-use data structures for manipulating and processing structured data.",
+      "imageUrl": "./6fd10166fff033d4c7c1ab7cbf7cd8262b5b27cdfa244c2d0baac39d6030c629.png",
+      "featured": false
+    },
+    {
+      "title": "How Shopify Reduced Storefront Response Times with a Rewrite",
+      "url": "https://engineering.shopify.com/blogs/engineering/how-shopify-reduced-storefront-response-times-rewrite",
+      "description": "In January 2019, we set out to rewrite the critical software that powers all online storefronts on Shopify’s platform to offer the fastest online shopping experience possible, entirely from scratch and without downtime.",
+      "imageUrl": "./75e852cf78ff376a85dc7f5c6814464d0c47af1b5234ef41b1b64d1887dd2916.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "MongoDB: The Definitive Guide: Powerful and Scalable Data Storage",
+    "author": "Kristina Chodorow",
+    "description": "Manage the huMONGOus amount of data collected through your web application with MongoDB. This authoritative introduction—written by a core contributor to the project—shows you the many advantages of using document-oriented databases, and demonstrates how this reliable, high-performance system allows for almost infinite horizontal scalability. This book provides guidance for database developers, advanced configuration for system administrators, and an overview of the concepts and use cases for other people on your project.",
+    "coverImageUrl": "./d98bc829eaad931cbbfe76cf5cddb28b6b469caa0a8f6f508749d164568b6f11.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449344682/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449344682/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

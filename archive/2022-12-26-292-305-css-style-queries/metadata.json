@@ -1,0 +1,75 @@
+{
+  "issueNumber": 305,
+  "title": "‍🎄 #305: CSS Style Queries",
+  "slug": "2022-12-26-292-305-css-style-queries",
+  "date": "2022-12-26",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "It's still magic even if you know how it's done",
+    "author": "Terry Pratchett",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Terry_Pratchett"
+  },
+  "links": [
+    {
+      "title": "CSS Style Queries",
+      "url": "http://ishadeed.com/article/css-container-style-queries",
+      "description": "Recently, the Chrome team released experimental support for a new proposed CSS spec, style queries. In short, they let us query the style of a container, rather than the size only. This can be helpful in cases where querying the container size isn’t enough.",
+      "imageUrl": "./b667065ccd1fb0c15ec15c494b038012b762f93481786149c8a089653a60aba1.jpg",
+      "featured": true
+    },
+    {
+      "title": "7 Website Performance Metrics to Track for Better UX",
+      "url": "https://calibreapp.com/blog/performance-metrics-to-track",
+      "description": "With near-limitless number of ways you could measure web performance, are you choosing the most reliable metrics?",
+      "imageUrl": "./e603509f7c1bd4e87dc96e7f0f16e2f74709dadf7e0262412e0b4b01c7c6f5e2.jpg",
+      "featured": false
+    },
+    {
+      "title": "8 best practices for optimizing Lambda functions",
+      "url": "https://cloudash.dev/blog/best-practices-for-optimizing-lambda-functions",
+      "description": "Learn how to optimize and get the most out of your serverless functions with these 8 tips by [Tomasz Łakomy](https://twitter.com/tlakomy).",
+      "imageUrl": "./83ec0eb3b6b535547c2d6aedd832d426b7b7518ad277a3a836120ee96a705229.jpg",
+      "featured": false
+    },
+    {
+      "title": "Fastest Runtime For AWS Lambda Functions",
+      "url": "https://blog.thundra.io/fastest-runtime-for-aws-lambda-functions",
+      "description": "The performance comparison of Lambda functions written in Java, NodeJS, Python, .Net, and Go languages.",
+      "imageUrl": "./5d0b6bc8ac259fba977d89528b1504d80db1a8b7f4ff6d5dc009c4840b8b32d4.jpg",
+      "featured": false
+    },
+    {
+      "title": "How We Sped Up Our TypeScript Serverless Builds 10x",
+      "url": "https://medium.com/@arsenyyankovski/how-we-sped-up-our-typescript-serverless-builds-ten-times-70-lambdas-under-1-minute-f79a925dfe4c",
+      "description": "An interesting case study about how an engineering team changed their build process for serverless functions and managed to reduce the build time by a factor of 10.",
+      "imageUrl": "./8ecfa8d3987033de4ecea600248266279de7db758624020f89b8211e533540c2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rendering emails with Svelte",
+      "url": "https://escape.tech/blog/sveltemails",
+      "description": "Did you ever think you could design emails using a frontend framework such as Svelte? This article explores this idea with a practical use case.",
+      "imageUrl": "./747f042eec8f004bf753e01c87185fc86c61f7bc787096265ab8f20a5535d1da.jpg",
+      "featured": false
+    },
+    {
+      "title": "Cypress V12 Is A Big Deal",
+      "url": "https://glebbahmutov.com/blog/cypress-v12/index.html",
+      "description": "Cypress is one of the coolest and most used end to end testing tools for frontend applications. Our friend [Gleb Bahmutov](https://twitter.com/bahmutov) shows us why the latest release of Cypress is actually quite a big deal!",
+      "imageUrl": "./fa2eacb082e93a7db9d073fc8ec35f2d235fa243aa18919500b896dd6548bc54.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "SQL Pocket Guide: A Guide to SQL Usage",
+    "author": "Jonathan Gennick",
+    "description": "If you're a programmer or database administrator who uses SQL in your day-to-day work, this popular pocket guide is the ideal on-the-job reference. You'll find many examples that address the language's complexity, along with key aspects of SQL used in IBM DB2 Release 9.7, MySQL 5.1, Oracle Database 11g Release 2, PostgreSQL 9.0, and Microsoft SQL Server 2008 Release 2. SQL Pocket Guide describes how these database systems implement SQL syntax for querying, managing transactions, and making changes to data. It also shows how the systems use SQL functions, regular expression syntax, and type conversion functions and formats.",
+    "coverImageUrl": "./35a5ca46259353653af886e2e2f8fc5d46ab2919392341b928656ba9804d943e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449394094/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449394094/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

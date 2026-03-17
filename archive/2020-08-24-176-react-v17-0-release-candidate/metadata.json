@@ -1,0 +1,75 @@
+{
+  "issueNumber": 176,
+  "title": "React v17.0 Release Candidate",
+  "slug": "2020-08-24-176-react-v17-0-release-candidate",
+  "date": "2020-08-24",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #34, 2020",
+  "quote": {
+    "text": "Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important",
+    "author": "Bill Gates",
+    "authorTitle": "Software Developer and Microsoft co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Bill_Gates"
+  },
+  "links": [
+    {
+      "title": "React v17.0 Release Candidate",
+      "url": "https://reactjs.org/blog/2020/08/10/react-v17-rc.html",
+      "description": "After almost 2 years a new major release of React is ready. This is an interesting one, because it does not come with a hell of a lot of new featured, but it's more focused on making React easier to extends and integrate. Find out more about this upcoming release!",
+      "imageUrl": "./eab28b4cb123d5a9b6ac4b48c908fe17fdd77002cdfa9b67248a632b13d28983.jpg",
+      "featured": true
+    },
+    {
+      "title": "Pysa: Open Source static analysis for Python",
+      "url": "https://engineering.fb.com/security/pysa",
+      "description": "Pysa is an open-source static analysis tool built by Facebook Engineering to detect and prevent security and privacy issues in Python code.",
+      "imageUrl": "./562208ca829450f1eb817bf4e214dc328c06655eb286a9f14bea299ceda38105.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Languages Which Almost Became CSS",
+      "url": "https://eager.io/blog/the-languages-which-almost-were-css",
+      "description": "Before CSS, well... there were other ideas! If you are curious about what kind of things could have happened instead of CSS, this is the history of all the languages which almost became CSS!",
+      "imageUrl": "./678f453e42189990157da91c62245f8945b9a6527106765c7618e7e40ab5f53c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Single Page Applications using Rust",
+      "url": "http://sheshbabu.com/posts/rust-wasm-yew-single-page-application",
+      "description": "This is really happening: WebAssembly finally allows languages other than JavaScript to be used as FullStack web languages! In this article, you can find out how to build a SPA using Rust, WebAssembly and Yew.",
+      "imageUrl": "./9cda6fd78d01cad1280d9f2249165c5e8dce4dc690321d6a13f7c1a53e7b321f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Breaking into Web Dev – Git & GitHub",
+      "url": "https://dev.to/lauracharvey/breaking-into-web-dev-the-no-jargon-guide-article-1-git-git-hub-igg",
+      "description": "A no-jargon guide on Git and Github for beginners. A great guide if you are doing your first steps in the field of software engineering or simply if you want to make sure you know all the basics of Git and GitHub.",
+      "imageUrl": "./47f43d3cc1640447960203564952e43e33b1d36cc6732034fe3767a65ecf6221.jpg",
+      "featured": false
+    },
+    {
+      "title": "Vertical text alignment in buttons and inputs",
+      "url": "https://codyhouse.co/blog/post/vertical-text-alignment-in-buttons-and-inputs",
+      "description": "How to center text vertically in buttons and input elements using the padding and line-height CSS properties. Yes, vertical-alignment on the web is always fun!",
+      "imageUrl": "./dfac7730dd4e1e225e18ab82af319173c8418dd87d6c0d7aa4acd06dc4fa9688.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Practical Introduction to Using Redux with React",
+      "url": "https://dev.to/ddmytro/a-practical-introduction-to-using-redux-with-react-1a0m",
+      "description": "What is Redux? What is the State? How to Modify the State? A new revamped guide on how to get started with Redux and get the best out of it!",
+      "imageUrl": "./f8dcbe4a49d2fac7c9a2efc309f39c19a9e4e2811d8d0636abb7e3e1866bee1e.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Eloquent JavaScript: A Modern Introduction to Programming",
+    "author": "Marijn Haverbeke",
+    "description": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications. Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.",
+    "coverImageUrl": "./500a13f688abaf7a9f0324159c3adba6009fb65130dcfb670d2da0b1ef93b65f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593275846/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593275846/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 193,
+  "title": "How to Make Your Code Reviewer Fall in Love with You",
+  "slug": "2020-12-21-193-how-to-make-your-code-reviewer-fall-in-love-with-you",
+  "date": "2020-12-21",
+  "templateType": "old-mailchimp",
+  "intro": "🎅🏻 Best 7 links of week #51, 2020\n\n\n⭐️ FullStack Bulletin has outgrown its free plan! If you enjoy this newsletter, consider supporting us:\n\n\n[Donate on Patreon](https://patreon.com/lucianomammino) - [Discuss sponsorship](https://fstack.link/sponsor)",
+  "quote": {
+    "text": "It's still magic even if you know how it's done",
+    "author": "Terry Pratchett",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Terry_Pratchett"
+  },
+  "links": [
+    {
+      "title": "How to Make Your Code Reviewer Fall in Love with You",
+      "url": "https://mtlynch.io/code-review-love",
+      "description": "Submitting Pull Requests is such a fundamental part of our job these days. Whether is for a work project or an open-source project, chances are that every time you are adding new functionality or fixing a bug you will submit a PR. Communication around PRs can be tricky and sometimes it might lead to conflict. This beautiful article will provide you with some of the best practices for code review when you're the author.",
+      "imageUrl": "./4461621b68fc2d4ae6302f32a913cb83aff5c919596157f1a445e81504eee9e6.jpg",
+      "featured": true
+    },
+    {
+      "title": "The Import On Interaction Pattern",
+      "url": "https://addyosmani.com/blog/import-on-interaction",
+      "description": "A new interesting UI pattern that suggests to \"lazy-load\" non-critical resources when a user interacts with the piece of UI that requires it. This approach will make sure that your main application bundle will be as minimal as possible and the user will get additional functionalities incrementally as needed.",
+      "imageUrl": "./4acfb4f42d93e011b92db939d46093974adbe2b66127167472def6e4007a149e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Command Line Interface Guidelines",
+      "url": "https://clig.dev/",
+      "description": "An open-source guide to help you write better command-line programs, taking traditional UNIX principles and updating them for the modern day.",
+      "imageUrl": "./099f640e20cfe27a79d69d64869f791e221769c286c4574e1413448b8c8f725b.jpg",
+      "featured": false
+    },
+    {
+      "title": "mkirchner/linked-list-good-taste",
+      "url": "https://github.com/mkirchner/linked-list-good-taste",
+      "description": "Linus Torvalds' linked list argument for good taste, explained - mkirchner/linked-list-good-taste",
+      "imageUrl": "./6b2e95632ef221680dcaa8ad8c2d3ddb60ce61ef3c472b8974f5852464427491.jpg",
+      "featured": false
+    },
+    {
+      "title": "From Callback Hell to Callback Heaven",
+      "url": "https://dev.to/loreanvictor/from-callback-hell-to-callback-heaven-4i0c",
+      "description": "Remember the time when a lot of \"callback-driven\" JavaScript code looked like a pyramid of doom? Thankfully today we have async/await to help us keeping things nice and tidy... But was it really a callback issue? Can we write nice and readable code by only using callbacks? Spoiler alert: YES WE CAN!",
+      "imageUrl": "./919ae11b2d56a5704956472f5e8d2c89728f3c73fc3399b050a6e407ca1e5705.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Rules of Margin Collapse",
+      "url": "https://joshwcomeau.com/css/rules-of-margin-collapse",
+      "description": "“Margin collapse” has a dastardly reputation, one of the trickier parts of CSS. Fortunately, it gets a lot easier once you learn a few rules! In this tutorial, we take a deep dive into the governing principles, and learn how to use them to our advantage.",
+      "imageUrl": "./2a5828cacb9e19a3c69e3848165c85b47bc95257e29e0761e33d4ea9ee096928.jpg",
+      "featured": false
+    },
+    {
+      "title": "Swizec/useAuth",
+      "url": "https://github.com/Swizec/useAuth",
+      "description": "A simple way to add authentication to your React app using a convenient hook. It supports various providers such as Auth0 and Netlify Identity.",
+      "imageUrl": "./14fda5ca16a0a7707729420c7ec209b6c04540a4463115b3dbd2168da17f2942.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "SQL Pocket Guide: A Guide to SQL Usage",
+    "author": "Jonathan Gennick",
+    "description": "If you're a programmer or database administrator who uses SQL in your day-to-day work, this popular pocket guide is the ideal on-the-job reference. You'll find many examples that address the language's complexity, along with key aspects of SQL used in IBM DB2 Release 9.7, MySQL 5.1, Oracle Database 11g Release 2, PostgreSQL 9.0, and Microsoft SQL Server 2008 Release 2. SQL Pocket Guide describes how these database systems implement SQL syntax for querying, managing transactions, and making changes to data. It also shows how the systems use SQL functions, regular expression syntax, and type conversion functions and formats.",
+    "coverImageUrl": "./35a5ca46259353653af886e2e2f8fc5d46ab2919392341b928656ba9804d943e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449394094/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449394094/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 86,
+  "title": "33 JavaScript concepts you should know",
+  "slug": "2018-10-29-086-33-javascript-concepts-you-should-know",
+  "date": "2018-10-29",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #43, 2018",
+  "quote": {
+    "text": "Companies spend millions of dollars on firewalls, encryption and secure access devices, and it’s money wasted, because none of these measures address the weakest link in the security chain",
+    "author": "Kevin Mitnick",
+    "authorTitle": "Auhor and Security Consultant",
+    "authorUrl": "https://en.wikipedia.org/wiki/Kevin_Mitnick"
+  },
+  "links": [
+    {
+      "title": "33 JavaScript concepts you should know",
+      "url": "https://github.com/leonardomso/33-js-concepts",
+      "description": "A wonderful collection of resources that will guide you to learn 33 of the most fundamental concepts that you have to know if you want to master the art of programming, with a specific focus on JavaScript.",
+      "imageUrl": "./600ead94e601917136bc84bc08f1f99a2808f1c47534ec1360f35ef563b28ce6.jpg",
+      "featured": true
+    },
+    {
+      "title": "Magenta = ML * (music + art)",
+      "url": "https://magenta.tensorflow.org/",
+      "description": "Magenta is a project devoted to music and art generation with machine intelligence. It is part of TensorFlow, an open source machine learning library.",
+      "imageUrl": "./4efb0b9f8855b29a5b97f56750f90b92490e454cdc740f1115c75fae5ec938e6.png",
+      "featured": false
+    },
+    {
+      "title": "Stop the console.log(), embrace the debugger",
+      "url": "https://medium.com/datadriveninvestor/stopping-using-console-log-and-start-using-your-browsers-debugger-62bc893d93ff",
+      "description": "Debug more efficiently by stop using**console.log()**and start using your browser’s debugger.",
+      "imageUrl": "./6f1dd5d46110b516a21f88112f4e08ad12f0e573cb7c8c4a6f47710f6a10d7a7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rhythm in Web Typography",
+      "url": "http://betterwebtype.com/rhythm-in-web-typography",
+      "description": "Horizontal rhythm mostly impacts the legibility, while vertical rhythm impacts the readability of the text and establishes a sense of visual hierarchy.",
+      "imageUrl": "./38c4bcab3096bbd7d42795ba52ef238ecdc026227b69b98723e60feb96237c32.jpg",
+      "featured": false
+    },
+    {
+      "title": "WebAssembly’s future",
+      "url": "https://hacks.mozilla.org/2018/10/webassemblys-post-mvp-future",
+      "description": "A fantastic article full of beautiful cartoons that describes what the future holds for WebAssemply. What we have today might be considered just an MVP, there's a lot more to come and the future is bright!",
+      "imageUrl": "./b1a0f1b449d2da264fa33b4a6355199eddf98361d7541cf1470defd20048a117.jpg",
+      "featured": false
+    },
+    {
+      "title": "npm and the future of JavaScript",
+      "url": "https://slides.com/seldo/npm-future-of-javascript",
+      "description": "A presentation by Laurie Voss (a.k.a. @seldo), co-founder of npm, that describes npm perspective for the future of package management and JavaScript itself. The statistics disclosed here are phenomenal if you work on the web and want to figure out what's going to happen for developers in the next few years.",
+      "imageUrl": "./9cb498ea6c4191954b22ae0682124f957d53366824cf93cca6127ade38cb1de0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Microservice Architecture at Medium",
+      "url": "https://medium.engineering/microservice-architecture-at-medium-9c33805eb74f",
+      "description": "Medium engineering team shared their experience with moving to microservice architecture effectively and avoiding “microservice syndromes”.",
+      "imageUrl": "./abff6b0b63c0ac0c64388ea47f4da2c95ae2333d86cf4bee2c59ce7151be8b4d.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Linux Pocket Guide: Essential Commands",
+    "author": "Daniel J. Barrett",
+    "description": "If you use Linux in your day-to-day work, this popular pocket guide is the perfect on-the-job reference. The third edition features new commands for processing image files and audio files, running and killing programs, reading and modifying the system clipboard, and manipulating PDF files, as well as other commands requested by readers. You’ll also find powerful command-line idioms you might not be familiar with, such as process substitution and piping into bash. Linux Pocket Guide provides an organized learning path to help you gain mastery of the most useful and important commands. Whether you’re a novice who needs to get up to speed on Linux or an experienced user who wants a concise and functional reference, this guide provides quick answers. Selected topics include:The filesystem and shell, File creation and editing, Text manipulation and pipelines, Backups and remote storage, Viewing and controlling processes, User account management, Becoming the superuser, Network connections, Audio and video, Installing softwar, Programming with shell scripts.",
+    "coverImageUrl": "./fcd1dd45a11d838bd7fffe901365729615e97b5a211cd1a7b7ef779c02fffe5d.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491927577/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491927577/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

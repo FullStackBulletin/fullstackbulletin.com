@@ -1,0 +1,75 @@
+{
+  "issueNumber": 9,
+  "title": "Reactide, IDE for React Web Applications",
+  "slug": "2017-05-08-009-reactide-ide-for-react-web-applications",
+  "date": "2017-05-08",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #18, 2017",
+  "quote": {
+    "text": "The art challenges the technology, and the technology inspires the art",
+    "author": "John Lasseter",
+    "authorTitle": "Director",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_Lasseter"
+  },
+  "links": [
+    {
+      "title": "Reactide",
+      "url": "http://reactide.io/",
+      "description": "The first dedicated IDE for React web application development.",
+      "imageUrl": "./6da371c9bc1f5b1f497c931dba338d25bd1bfb54a6159eaf4db9bf0e2cc58fe1.png",
+      "featured": true
+    },
+    {
+      "title": "TypeScript at Slack",
+      "url": "https://slack.engineering/typescript-at-slack-a81307fa288d",
+      "description": "Or, How I Learned to Stop Worrying & Trust the Compiler",
+      "imageUrl": "./9f2bcd1cb0978145910ac31e8ec55e030d7844563244835d1f333f6ecb84db38.jpg",
+      "featured": false
+    },
+    {
+      "title": "Semantic UI",
+      "url": "https://semantic-ui.com/",
+      "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
+      "imageUrl": "./92edd053e07137b3d69cf2876283d79b2ecbe2eba59bf7dac1484b468cf61b21.png",
+      "featured": false
+    },
+    {
+      "title": "Storybook - UI dev environment you'll love to use",
+      "url": "https://getstorybook.io/",
+      "description": "React Storybook is a UI development environment for your React components. With it, you can visualize different states of your UI components and develop them interactively.",
+      "imageUrl": "./3070037cc39d89dcaf92e8231cb237d470f0d0689b955a4dd2f79b50684a12e2.png",
+      "featured": false
+    },
+    {
+      "title": "How To Secure Your Web App With HTTP Headers",
+      "url": "https://smashingmagazine.com/2017/04/secure-web-app-http-headers",
+      "description": "This article reviews key security-related HTTP headers and demonstrates their use in mitigating security vulnerabilities and cyber-attacks.",
+      "imageUrl": "./7b854de283ff8c60b52cc9a5663ab1cf2b5b8ebb8456a77243eef83eda71fff6.jpg",
+      "featured": false
+    },
+    {
+      "title": "ProxySQL",
+      "url": "http://proxysql.com/",
+      "description": "ProxySQL: high-performance, GPL licensed MySQL proxy. It supports hundreds of thousands of concurrent connections and can be multiplexed to hundreds of servers.",
+      "imageUrl": "./aa51c1f4456c8891b5463f96d026793dcf353ad9ff8f3614542e879807707283.jpg",
+      "featured": false
+    },
+    {
+      "title": "Popper.js",
+      "url": "https://popper.js.org/",
+      "description": "A kickass library used to manage poppers in web applicationsNow much more powerful!",
+      "imageUrl": "./6175acbb6945b2a99945b78519ba188d7051e864f0e8a82231df86206a38c72a.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Go Programming Language",
+    "author": "Alan A. A. Donovan",
+    "description": "The Go Programming Language   is the authoritative resource for any programmer who wants to learn Go. It shows how to write clear and idiomatic Go to solve real-world problems. The book does not assume prior knowledge of Go nor experience with any specific language, so you’ll find it accessible whether you’re most comfortable with JavaScript, Ruby, Python, Java, or C++.",
+    "coverImageUrl": "./be6ca3847c1c5e1bb60721ca2947bb788e506e371357a6e933bcac0b448d6a7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134190440/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134190440/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

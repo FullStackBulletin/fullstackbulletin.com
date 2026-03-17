@@ -1,0 +1,112 @@
+{
+  "issueNumber": 379,
+  "title": "The last 6 decades of AI — and what comes next",
+  "slug": "2024-07-01-361-the-last-6-decades-of-ai-and-what-comes-next",
+  "date": "2024-07-01",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #379. FullStack Bulletin is the newsletter that curates interesting content to keep all the full-stack developers out there inspired. And in this issue, there's a lot to be inspired from!\n\nBefore leaving you to the content, I have 2 quick shoutouts. The first one is that the recordings of my talk [Your Lambdas, In Rust](https://www.youtube.com/watch?v=npqrTU2vK9c) from AWS Community Nordics is finally available. The second one is a big thanks to [Giuseppe Morelli](https://www.giuseppemorelli.net/) for spotting a bug in the footer of this newsletter which has been lingering there for quite a while! Thanks for reporting it, we now have a working link to [our Mastodon profile](https://mastodon.social/@fstackbulletin)! 😅\n\n— Your editor, Luciano",
+  "quote": {
+    "text": "Half of the battle of building performant software is caring enough to look“",
+    "author": null,
+    "authorTitle": "Engineer",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "The last 6 decades of AI — and what comes next",
+      "url": "https://ted.com/talks/ray_kurzweil_the_last_6_decades_of_ai_and_what_comes_next",
+      "description": "and what comes next](https://ted.com/talks/ray_kurzweil_the_last_6_decades_of_ai_and_what_comes_next) —  Last week, my friend [Chico](https://chicocharlesworth.com/) sent me this awesome TED talk by [Ray Kurzweil](https://en.wikipedia.org/wiki/Ray_Kurzweil).  I admit I was not familiar with Ray, although he is (and has been for quite a while) a prominent figure in Artificial Intelligence. We are talking of about decades of commitment to the subject, so we could consider him a founding father of AI in many ways. In this talk, Ray gives his prediction on what AI will look like in the near future and it's quite mindblowing. I know it's a bit of an off-topic, but any innovation in AI will surely change the way we build full-stack web applications, so definitely worth some of your time, IMHO! I hope you'll enjoy it!",
+      "imageUrl": "./b75d037640d7a602f46d92a18460db4e329f063c4446fe54c31f6d273fe80e3c.jpg",
+      "featured": true
+    },
+    {
+      "title": "React 19 – New Hooks Explained with Examples",
+      "url": "https://freecodecamp.org/news/react-19-new-hooks-explained-with-examples",
+      "description": "New Hooks Explained with Examples](https://freecodecamp.org/news/react-19-new-hooks-explained-with-examples) — **React 19** is going to revolutionize quite a bit the way we write React. We have already talked about the new compiler in previous issues, but another major change is going to be about hooks. New hooks such as `use`, `useOptimistic`, `useActionState`, and `useFormStatus` are worth checking out. This article shows us how these new hooks work with some useful examples.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "ChattyUI - your private AI chat for running LLMs in the browser",
+      "url": "https://github.com/addyosmani/chatty",
+      "description": "An open-source project by the prolific [Addy Osmani](https://addyosmani.com/). This project is a web application that showcases a chat UI that you can use to chat with a local LLM. Something great to use in case you are privacy conscious (you should be!). The cool thing is that this is a Next.js app, so if you need to build a chat-bot like app with Next.js you can use this a starter template!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How to debug Docker image intermediate layers",
+      "url": "https://shippingbytes.com/2024/06/04/docker-debug-intermediate-image-layer/",
+      "description": "My friend [Gianluca](https://gianarb.it/) (Docker Captain) has recently started **ShippingBytes**, a blog/newsletter where he shares lessons learned from the world of DevOps. This short article is one of my favourite so far and it shows you how you can debug Docker builds with [`buildg`](https://github.com/ktock/buildg) (a tool I never heard about before!). Worth a quick look if you use Docker a lot!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How To Hack Your Google Lighthouse Scores In 2024",
+      "url": "https://smashingmagazine.com/2024/06/how-hack-google-lighthouse-scores-2024",
+      "description": "Do perfect Lighthouse scores mean the performance of your website is perfect? As it turns out, Lighthouse is influenced by several things that can be manipulated and bent to make sites seem more performant than they really are, as [Salma Alam-Naylor](https://whitep4nth3r.com/) demonstrates in several experiments.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Using Node.js's test runner",
+      "url": "https://nodejs.org/en/learn/test-runner/using-test-runner",
+      "description": "An official guide from the new Node.js website showcasing how to take advantage of the built-in test runner. A great starting point if you are curious to start using it for your next projects.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Generating ZIP Files with Javascript",
+      "url": "https://cjoshmartin.com/blog/creating-zip-files-with-javascript",
+      "description": "If you ever needed to generate a ZIP file programmatically you might have found out that it's not as easy as you might expect. Lots of corner cases to be managed. In case you need to do that from Node.js or the browser, you can leverage [JSZip](https://stuk.github.io/jszip/) as clearly illustrated in this article.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Hacking the System Design Interview: Real Big Tech Interview Questions and In-depth Solutions",
+    "author": "Stanley Chiang",
+    "description": "Written by a software engineer at Google, this book will teach you how to ace the system design interview. This book includes real interview questions based on hundreds of interviews conducted at big tech companies, and their detailed solutions. Learn software and system fundamentals in clear and engaging lessons, distilled from 15+ years of experience.",
+    "coverImageUrl": "./b67b4e3b6478973b1c49f58faed83e034cbbeb509cd4562c4f6fcaaf1c74ebdb.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B0B7QHRK5Q?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B0B7QHRK5Q?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Sonner: An opinionated toast component for React.",
+      "url": "https://sonner.emilkowal.ski/"
+    },
+    {
+      "title": "Database Design for Google Calendar: a tutorial",
+      "url": "https://kb.databasedesignbook.com/posts/google-calendar"
+    },
+    {
+      "title": "Nested Anchor Links using CSS",
+      "url": "https://amitmerchant.com/nested-anchor-links-using-css"
+    },
+    {
+      "title": "New JavaScript Set methods",
+      "url": "https://developer.mozilla.org/en-US/blog/javascript-set-methods"
+    },
+    {
+      "title": "Your Node is Leaking Memory? setTimeout Could be the Reason!",
+      "url": "https://lucumr.pocoo.org/2024/6/5/node-timeout"
+    },
+    {
+      "title": "For whatever it's worth: my advice on job hunting in tech",
+      "url": "https://joshcollinsworth.com/blog/fwiw"
+    },
+    {
+      "title": "awesome-learn-by-playing: A collection of tech resources that allow you to learn new things by playing games",
+      "url": "https://github.com/lmammino/awesome-learn-by-playing"
+    },
+    {
+      "title": "Turns out REST APIs weren't the answer (and that's OK!)",
+      "url": "https://www.youtube.com/watch?v=0gH-hSyWp9o"
+    },
+    {
+      "title": "Bastion Containers (podcast)",
+      "url": "https://awsbites.com/126-bastion-containers/"
+    }
+  ],
+  "sponsor": null
+}

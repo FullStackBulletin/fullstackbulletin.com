@@ -1,0 +1,75 @@
+{
+  "issueNumber": 321,
+  "title": "CSS Masking",
+  "slug": "2023-04-17-308-css-masking",
+  "date": "2023-04-17",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "This is the whole point of technology.  It creates an appetite for immortality on the one hand.  It threatens universal extinction on the other. Technology is lust removed from nature",
+    "author": "Don DeLillo",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Don_DeLillo"
+  },
+  "links": [
+    {
+      "title": "CSS Masking",
+      "url": "http://ishadeed.com/article/css-masking",
+      "description": "CSS masking is a powerful and underutilized design tool that can take your web design skills to the next level. This article shows you how to start masking in CSS and explore practical use cases with engaging examples. It covers everything from the basics of masking in CSS to using gradients for masking and creating interesting image effects like round-out tabs and multiple avatar cut-outs. It even shows you how to mask text content effectively! So let's get started and unleash your creativity with CSS masking!",
+      "imageUrl": "./7a809335800e3a1b9b976bc2ce48b825342e685d7857921dc4ed8e9e95bb17c0.png",
+      "featured": true
+    },
+    {
+      "title": "Junior to senior: An action plan for engineering career success",
+      "url": "https://github.com/readme/guides/engineering-career-success",
+      "description": "I recently published an article about [the role of Senior Software Engineers](https://loige.co/the-senior-dev) which was quite well received. I was thrilled to discover a relevant article by GitHub giving another perspective on how to grow a career in tech going from Junior to Senior. Check it out, especially if you are currently struggling to understand what's the best next step for your career!",
+      "imageUrl": "./3da2c2fe7bbcff3e64c39ac979fe7a9c14cf51d5833afc52c6da14115c7d6f5e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Defaulting on Single Page Applications (SPA)",
+      "url": "https://zachleat.com/web/single-page-applications",
+      "description": "Zach Leatherman disserts the benefits of Multi-Page Applications (MPA), which is basically how the web has always worked (you click a link and the whole page is refreshed). Then he also discusses the difference between SPAs (Single-page Applications) and MPAs. Finally Zach offers some pointers on hybrid approaches and tools that can help you to get the best of both worlds.",
+      "imageUrl": "./21ea80e86f05e9ae0c14c0f179d40786004632b5fc81df689fd6fb54ff41f53a.jpg",
+      "featured": false
+    },
+    {
+      "title": "How To Design An Effective User Onboarding Flow",
+      "url": "https://smashingmagazine.com/2023/04/design-effective-user-onboarding-flow",
+      "description": "If you want to maximize conversions or collect necessary user information for other purposes, a user onboarding flow is necessary. In this article, you will learn how, with the help of Feathery, to design an effective user onboarding flow for your app.",
+      "imageUrl": "./3b9f29add6aa21d8418604e915d1667f7e84380c4bc25121da3d1ee66d623724.jpg",
+      "featured": false
+    },
+    {
+      "title": "Efficient JavaScript sets using BigInt",
+      "url": "https://m.webtoo.ls/@lukastaegert/109882130362687971",
+      "description": "In this Mastodon post, [Lukas Taegert-Atkinson](https://m.webtoo.ls/@lukastaegert), shows us how we can make extremely fast set operations in JavaScript by using a BigInt. This technique was used in the [Rollup](https://github.com/rollup/rollup/pull/4862) projects and helped improve performance significantly.",
+      "imageUrl": "./128d1b4d089df40ace8414bfd95311feac6e413eac30295d6a6fb89e372e7c64.jpg",
+      "featured": false
+    },
+    {
+      "title": "Trying Node.js Test Runner",
+      "url": "https://glebbahmutov.com/blog/trying-node-test-runner/index.html",
+      "description": "In March of 2022 Node.js got a new built-in test runner via node:test module. Our friend Gleb Bahmutov has evaluated the test runner and made several presentations showing its features and comparing the new built-in test runner with other Node.js testing frameworks that have been around for a while.",
+      "imageUrl": "./71365f08575e7f48b34f138c2a919ef01ae76c2e98ed7207dacdd9d4f48174d9.png",
+      "featured": false
+    },
+    {
+      "title": "MarcoIeni/rust-api-workshop: Write a Rust HTTP API with TDD",
+      "url": "https://github.com/MarcoIeni/rust-api-workshop",
+      "description": "[Marco Ieni](https://github.com/MarcoIeni/) created a fantastic (and FREE!) workshop for whoever wants to learn Rust specifically to write HTTP APIs following a TDD style. Definitely worth checking out if you have been interested in Rust and you want a guided approach to learning how to build your first API!",
+      "imageUrl": "./d26d5ef3f53dd781f811eb4db69c2140eaf9f7b3252fb83a3c0b6341ac0b957d.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Reactive Programming with RxJava: Creating Asynchronous, Event-Based Applications",
+    "author": "Tomasz Nurkiewicz",
+    "description": "In today’s app-driven era, when programs are asynchronous and responsiveness is so vital, reactive programming can help you write code that’s more reliable, easier to scale, and better-performing. With this practical book, Java developers will first learn how to view problems in the reactive way, and then build programs that leverage the best features of this exciting new programming paradigm.",
+    "coverImageUrl": "./bfc89b612724cc827df12cd74bfda688fa86774c756e46d104dc6fce54b5ba7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491931655/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491931655/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

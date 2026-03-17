@@ -1,0 +1,75 @@
+{
+  "issueNumber": 93,
+  "title": "Algorithms and Data Structures using Python",
+  "slug": "2018-12-31-093-algorithms-and-data-structures-using-python",
+  "date": "2018-12-31",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #52, 2018",
+  "quote": {
+    "text": "The use of COBOL cripples the mind; its teaching should therefore be regarded as a criminal offense",
+    "author": "E.W. Dijkstra",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/E._W._Dijkstra"
+  },
+  "links": [
+    {
+      "title": "Algorithms and Data Structures using Python",
+      "url": "http://interactivepython.org/runestone/static/pythonds/index.html",
+      "description": "An interactive version of Problem Solving with Algorithms and Data Structures using Python. It covers a huge variety of topics ranging from recursion to trees and graphs.",
+      "imageUrl": "./f0340c227eba11575685bb8a103c1dfa9eb32935dbaf26e760f870425d625d7b.png",
+      "featured": true
+    },
+    {
+      "title": "Frontend Development in 2018",
+      "url": "https://levelup.gitconnected.com/a-recap-of-frontend-development-in-2018-715724c9441d",
+      "description": "The world of frontend development moves fast. Very fast. This article will recap the most important frontend news of 2018",
+      "imageUrl": "./958d7afed8b57c5b06bb4c3ef1a2a22d2363005b0aa87775a79aaa77c09ef1db.jpg",
+      "featured": false
+    },
+    {
+      "title": "Spotify Wrapped 2018 — Technical Case Study",
+      "url": "https://medium.com/@activetheory/spotify-wrapped-2018-technical-case-study-5b7cfb7e9d3a",
+      "description": "A look under the hood at the technology and techniques used to power Spotify Wrapped 2018, a fantastic end of the year feature that will tell you about your musical history in 2018.",
+      "imageUrl": "./a70cda695f285c46d1cc3ffb529bd4486d686f345a83cbb9162c1c63c9777433.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript Getter-Setter Pyramid",
+      "url": "https://staltz.com/javascript-getter-setter-pyramid.html",
+      "description": "The cornerstone of JavaScript is the function. It is a flexible abstraction that works as the basis for other abstractions, such as Promises, Iterables, Observables, and others. This blog post will provide a tour through these layers of JavaScript.",
+      "imageUrl": "./5de94d43dea23f82955c6ce7c0a9ef131854ca08b8909327a551d6b05b8a7e17.png",
+      "featured": false
+    },
+    {
+      "title": "Designing Your Site Like It’s 1998",
+      "url": "https://24ways.org/2018/designing-your-site-like-its-1998",
+      "description": "Andy Clarke tells a tale as old as time, a tale of tables, framesets, fixed widths and spacer GIFs (ask your parents). Harking back to the methods that were appropriate to used to build cutting-edge websites twenty years ago, not only can we see how far we’ve come but can be excited for what lies ahead for the web.",
+      "imageUrl": "./aceb518452b8059f87b527f76938965a2b07e0ec1215e930cf14214bb3c35e34.png",
+      "featured": false
+    },
+    {
+      "title": "My struggle with colors, part II",
+      "url": "https://uxdesign.cc/my-struggle-with-colors-part-ii-ed71bff6302a",
+      "description": "a good color system to be: accessible, systematic, and scalable. This article will recap these concepts and get into more details about how to build an accessible color system from scratch.",
+      "imageUrl": "./5c3ab0edde30e168c9eec18c1680aa9765d42471c9a8b6a20c0903658488be44.png",
+      "featured": false
+    },
+    {
+      "title": "XSSing Google Code-in",
+      "url": "https://blog.thomasorlita.cz/vulns/google-code-in-xss",
+      "description": "Google Code-in is an online programming competition for students hosted by Google that takes place every year. This article describes how it was possible to execute an XSS attack on the website by using improperly escaped JSON data.",
+      "imageUrl": "./9f38bced1ab29a25ba49246830648fbe0668bc60c5367930a00971c567310558.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "RESTful API Design",
+    "author": "Matthias Biehl",
+    "description": "this book is packed with best practices on many technical aspects of RESTful API Design, such as the correct use of resources, URIs, representations, content types, data formats, parameters, HTTP status codes and HTTP methods. You want to design and develop APIs like a Pro? Use API description languages to both design APIs and develop APIs efficiently. The book introduces the two most common API description languages RAML and OpenAPI/Swagger",
+    "coverImageUrl": "./28aacc6a13ca1347c15c3795f8d6bcb239721dbccca6de24ceed1765e89588ee.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1514735164/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1514735164/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

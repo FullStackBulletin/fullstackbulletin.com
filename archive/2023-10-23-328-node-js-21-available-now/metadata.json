@@ -1,0 +1,104 @@
+{
+  "issueNumber": 343,
+  "title": "Node.js 21 Available Now",
+  "slug": "2023-10-23-328-node-js-21-available-now",
+  "date": "2023-10-23",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nHere's issue #343 and in this week we celebrate a new major release of Node.js! Always something good to celebrate, if you ask me... 🤪\n\nThis week, I am attending [Codemotion Milan](https://conferences.codemotion.com/milan2023-live/) (the biggest developers conference in Italy!). If you are there, come to say hello, I'd really love to get your honest feedback on Fullstack Bulletin and hear how we could make it better!\n\nI will also be talking about Rust + AWS Lambda, so if that's a topic that interests you, don't miss my talk on Tuesday at 5:30 PM on STAGE 1. 🤘",
+  "quote": {
+    "text": "Not everything I say is correct. It's correct modulo the little details you're going to have to worry about“",
+    "author": "John Hopcroft",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_Hopcroft"
+  },
+  "links": [
+    {
+      "title": "Node.js 21 Available Now!",
+      "url": "https://openjsf.org/announcement/2023/10/17/node-js-21-available-now",
+      "description": "The release of Node.js 21 is available now! Node.js 21 replaces Node.js 20 as our current release line, and Node.js 20 is being promoted to long-term support (LTS). Among the main updates: V8 updates, stable WebStreams, experimental flags to opt-in to ESM (this is a biggie!), many improvements to the built-in test runner!",
+      "imageUrl": "./c78739a8df630fed6b2fe339fc604e34a4b41a36a21c11303d725464b4d9e6d5.jpg",
+      "featured": true
+    },
+    {
+      "title": "How we optimized package imports in Next.js",
+      "url": "https://vercel.com/blog/how-we-optimized-package-imports-in-next-js",
+      "description": "In the previous issue we have already presented the topic of **barrel files**. It turns out that this is something that Vercel has been very careful about and that it led to some major performance optimizations. Check the full article to find out what they did!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Nota: A Document Language for the Browser",
+      "url": "https://nota-lang.org/",
+      "description": "Let's be honest, nobody likes writing LaTeX and everyone likes markdown (I know this is not strictly true, but let me assume my opinion is the prevalent one for once)... **Nota** tries to make writing documents much more enjoyable by providing a new syntax (inspired by markdown and extensible through JavaScript and React) that can allow you to craft beautiful web documents. I am going to bet this is going to be big in the future, but for now, you can consider this project as an alternative to [MDX](https://mdxjs.com/) and [Typst](https://typst.app/) (that we have covered before).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Welcome to Effect",
+      "url": "https://effect.website/",
+      "description": "**Effect** is a relatively new project providing a fully-fledged functional effect system for TypeScript with a rich standard library. What does this mean? The home page contains a nice vide that can explain that way better than I could do!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The State of WebAssembly 2023",
+      "url": "https://blog.scottlogic.com/2023/10/18/the-state-of-webassembly-2023.html",
+      "description": "In this blog post, Colin Eberhardt tries to summarise the findings of the latest State of WebAssembly survey. Some of the main takes are that Rust and JavaScript usage continues to increase, but there is a growing desire for Zig and Kotlin (this one surprised me!) The use of wasm as a plugin environment continues to climb, with developers hoping it will deliver the “write once and run anywhere” promise.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Write your own Zod",
+      "url": "https://zackoverflow.dev/writing/write-your-own-zod",
+      "description": "[Zod](https://zod.dev/) is a famous TypeScript library that allows you to combine static type checking and runtime validation. If you have used Zod you have probably wondered how Zod achieves its magic, right? If you didn't have the courage to have a peek at the source code, you can now check out this lovely tutorial showcasing how you could build a simple alternative to Zod from scratch.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The nuances of base64 encoding strings in JavaScript",
+      "url": "https://web.dev/articles/base64-encoding",
+      "description": "base64 encoding and decoding is a common form of transforming binary content to be represented as web-safe text. It's used commonly for data URLs, such as inline images. But what happens when you apply base64 encoding and decoding to strings in JavaScript? This post explores the nuances and common pitfalls to avoid. Also, remember that [Base64 is not encryption](https://www.youtube.com/shorts/0YAgR4deSD4)!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Linux Command Line: A Complete Introduction",
+    "author": "William E. Shotts Jr.",
+    "description": "The Linux Command Line takes you from your very first terminal keystrokes to writing full programs in Bash, the most popular Linux shell. Along the way you'll learn the timeless skills handed down by generations of gray-bearded, mouse-shunning gurus: file navigation, environment configuration, command chaining, pattern matching with regular expressions, and more. In addition to that practical knowledge, author William Shotts reveals the philosophy behind these tools and the rich heritage that your desktop Linux machine has inherited from Unix supercomputers of yore.",
+    "coverImageUrl": "./998e4e84a48a026be41c01888d1d2f1a0e2c087213f327ada5f8a0f3467f1202.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593273894/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593273894/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "terra-draw: Cross provider map drawing library, supporting Mapbox, MapLibre, Google Maps, OpenLayers and Leaflet out the box",
+      "url": "https://github.com/JamesLMilner/terra-draw"
+    },
+    {
+      "title": "Being Picky about a CSS Reset for Fun & Pleasure",
+      "url": "https://chriscoyier.net/2023/10/03/being-picky-about-a-css-reset-for-fun-pleasure"
+    },
+    {
+      "title": "How Custom Property Values are Computed",
+      "url": "https://moderncss.dev/how-custom-property-values-are-computed"
+    },
+    {
+      "title": "CSS relative color syntax",
+      "url": "https://developer.chrome.com/blog/css-relative-color-syntax"
+    },
+    {
+      "title": "table-saw: A small web component for responsive <table> elements",
+      "url": "https://github.com/zachleat/table-saw"
+    },
+    {
+      "title": "Don't Block the Event Loop (or the Worker Pool)",
+      "url": "https://nodejs.org/en/docs/guides/dont-block-the-event-loop"
+    },
+    {
+      "title": "Solid.js Creator Outlines Options to Reduce JavaScript Code",
+      "url": "https://thenewstack.io/solid-js-creator-outlines-options-to-reduce-javascript-code"
+    }
+  ],
+  "sponsor": null
+}

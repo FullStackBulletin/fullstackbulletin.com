@@ -1,0 +1,104 @@
+{
+  "issueNumber": 359,
+  "title": "jQuery 4.0.0 BETA",
+  "slug": "2024-02-12-342-jquery-4-0-0-beta",
+  "date": "2024-02-12",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nWelcome to issue #359!\n\nThis week we have a collection of content that I am really proud of! On one side, we see long-running projects like jQuery still fighting the fight (like an undead from Resident Evil!) on the other we have new and exciting (and somewhat controversial) developments such as the AWS LLRT JavaScript runtime for Lambda.\n\nI hope you'll enjoy this issue and, if you do, please remember to share this newsletter with your friends and colleagues, because *sharing is caring*! 😍",
+  "quote": {
+    "text": "After more than 30 years of programming, we ought to know that the design of complex software is inherently difficult“",
+    "author": "Niklaus Wirth",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Niklaus_Wirth"
+  },
+  "links": [
+    {
+      "title": "jQuery 4.0.0 BETA",
+      "url": "https://blog.jquery.com/2024/02/06/jquery-4-0-0-beta",
+      "description": "jQuery: The Write Less, Do More, JavaScript Library that has been around for more than 15 years and has helped transform the web landscape! We all thought it was somewhat dead at this stage, right? But It's not and this new release has been in the works for a long time! So what's new? Dropped support for IE<11, deprecated various APIs and removed others, improved the slim build package size, and more! So, should you switch back to jQuery? Let me know what you think about that one!",
+      "imageUrl": "./42e3d8fae2fe6da3d44ca867adbeb096606e4b3ade60e437a2147118b9b07466.png",
+      "featured": true
+    },
+    {
+      "title": "Wasp",
+      "url": "https://wasp-lang.dev/",
+      "description": "Last week I bumped into Wasp and, while I am not entirely sold on the idea, it's one worth exploring. It's not just a new framework for developing full-stack web apps, it's an entirely new abstraction language that can help you to tie together frontend pages (in React) with Node.js and Prisma backends and get everything ready to be shipped as a monolithic container. Another one on which I'd like to hear your opinion. [**Check website**](https://wasp-lang.dev/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "awslabs/llrt",
+      "url": "https://github.com/awslabs/llrt",
+      "description": "LLRT (Low Latency Runtime) is an **experimental** (it's important to highlight this one to ease down the hype a bit), lightweight JavaScript runtime designed to address the growing demand for fast and efficient Serverless applications. Yes, it's yet another JavaScript runtime, but rather than trying to be another generic one, it tries to optimise heavily for the AWS Lambda context. In this sense, it does a great job because the performance is really phenomenal. But I can't help to have this question on the back of my mind: are we fragmenting the JavaScript ecosystem even more? Still, if you use AWS Lambda, this is definitely worth a shot!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Are Design Systems a zero-interest rate phenomenon?",
+      "url": "https://daverupert.com/2024/01/are-design-systems-zero-interest-rate-phenomenon",
+      "description": "Are you starting a new project and you are not sure whether you need to invest in a design system or not? This article is an interesting reflection on the topic. You might go a long way without a design system, but what are the tradeoffs?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "12 Modern CSS One-Line Upgrades",
+      "url": "https://moderncss.dev/12-modern-css-one-line-upgrades",
+      "description": "Sometimes, improving your application CSS just takes a one-line upgrade or enhancement! Learn about 12 properties to start incorporating into your projects, and enjoy reducing technical debt, removing JavaScript, and scoring easy wins for user experience.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The advantages of queues on logs",
+      "url": "https://jack-vanlightly.com/blog/2023/10/2/the-advantages-of-queues-on-logs",
+      "description": "This one is more for those of you who love systems design and building scalable applications. It explores the topic of highly scalable log systems. It's a bit specific to Kafka, which is not exactly my bread and butter, but I found it an excellent read to wrap my head around the value of queuing systems when it comes to highly scalable systems. I hope you'll like it too.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Perfect Theme Switch Component",
+      "url": "https://aleksandrhovhannisyan.com/blog/the-perfect-theme-switch",
+      "description": "Recently I added a dark theme to my website and I wanted to do some research on how to do that effectively for static websites, specifically to avoid the FOUC (Flash Of Unstiled Content) effect. I think this one is an awesome read on the topic and you might learn a thing or two about how a browser renders a webpage and how to optimise for that.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Building Microservices: Designing Fine-Grained Systems",
+    "author": "Sam Newman",
+    "description": "Distributed systems have become more fine-grained in the past 10 years, shifting from code-heavy monolithic applications to smaller, self-contained microservices. But developing these systems brings its own set of headaches. With lots of examples and practical advice, this book takes a holistic view of the topics that system architects and administrators must consider when building, managing, and evolving microservice architectures.",
+    "coverImageUrl": "./1575a11c0c5e3af091d32426cf1cdcb142f177a57d156a18bad7df292b50a78c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491950358/?tag=fullstackbulletin-20",
+    "amazonUk": null
+  },
+  "additionalLinks": [
+    {
+      "title": "Getting into web components",
+      "url": "https://utilitybend.com/blog/getting-into-web-components-an-intro"
+    },
+    {
+      "title": "What to do if your temporary AWS credentials are compromised (AWS Bites Podcast)",
+      "url": "https://awsbites.com/113-how-do-you-revoke-leaked-credentials/"
+    },
+    {
+      "title": "Cosmic Python (FREEly readable book on how to structure Python projects)",
+      "url": "https://www.cosmicpython.com/book/preface.html"
+    },
+    {
+      "title": "Exploring OramaSearch (live-stream recording)",
+      "url": "https://www.youtube.com/watch?v=WO1KqYD2akQ%3Futm_source%3Dfullstackbulletin.com"
+    },
+    {
+      "title": "How Spoutible’s Leaky API Spurted out a Deluge of Personal Data",
+      "url": "https://www.troyhunt.com/how-spoutibles-leaky-api-spurted-out-a-deluge-of-personal-data/?v=WO1KqYD2akQ%3Futm_source%3Dfullstackbulletin.com"
+    },
+    {
+      "title": "Basic <dialog> Usage and Gotchas To Watch For",
+      "url": "https://frontendmasters.com/blog/basic-dialog-usage-and-gotchas-to-watch-for/?v=WO1KqYD2akQ%3Futm_source%3Dfullstackbulletin.com"
+    },
+    {
+      "title": "Web Development Is Getting Too Complex, And It May Be Our Fault",
+      "url": "https://www.smashingmagazine.com/2024/02/web-development-getting-too-complex/?v=WO1KqYD2akQ%3Futm_source%3Dfullstackbulletin.com"
+    }
+  ],
+  "sponsor": null
+}

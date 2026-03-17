@@ -1,0 +1,75 @@
+{
+  "issueNumber": 273,
+  "title": "React useEvent RFC",
+  "slug": "2022-05-16-260-react-useevent-rfc",
+  "date": "2022-05-16",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Science and technology revolutionize our lives, but memory, tradition and myth frame our response",
+    "author": "Arthur Schlesinger",
+    "authorTitle": "Historian",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_Schlesinger"
+  },
+  "links": [
+    {
+      "title": "React useEvent RFC",
+      "url": "https://github.com/reactjs/rfcs/pull/220",
+      "description": "React has recently kicked off a new initiative: manage new features through an open RFC process. This is great to see for a framework who has won the bigger share of the current frontend market. If you want to contribute to the future of React, check out the first RFC under discussion: the `useEvent` hook.",
+      "imageUrl": "./187450fa3c9e6fb9c6d095cf9b0cb73bf379565fc091646e7d664c9501f667d6.jpg",
+      "featured": true
+    },
+    {
+      "title": "JSON Patch",
+      "url": "http://jsonpatch.com/",
+      "description": "Have you ever heard of JSONPath? No worries if you didn't, this is what we are here for :) JSON Patch aims to be a (relatively) new standard to describe how to update objects. It can be used to implement your own CRUD API in a flexible and generic way. Just make sure to use it only in those cases where you can update without particular business constraints.",
+      "imageUrl": "./fd95c906ae9f47833925930adee697a674c68de0476542e8927d3710e3302866.jpg",
+      "featured": false
+    },
+    {
+      "title": "If Programming Languages Were Futurama Characters",
+      "url": "https://netmeister.org/blog/futurama.html",
+      "description": "There is always space for a bit of humor in tech (thankfully). Add to that that everyone has their own favourite (and hated) programming languages. Jan Schaumann, tries to think what programming languages would look like if they were Futurama characters. We believe the result is quite hilarious (and somewhat accurate) and hopefully this article can make your Monday shine a bit more!",
+      "imageUrl": "./ae6fa4090a0b9ba3dc67f71371e83fddfc473e1b16e4e34341d77d5807e4a3b0.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript Containers",
+      "url": "https://tinyclouds.org/javascript_containers",
+      "description": "JavaScript is everywhere. JavaScript is a *platform* of its own! But what if we could use JavaScript to be a platform for even more generic compute? What if we can have JavaScript containers?",
+      "imageUrl": "./41781d9108ade5d2c3febfa6c0280757cafc90ce79eb7da0517ae2d252ba94cc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Magical shell history",
+      "url": "https://github.com/ellie/atuin",
+      "description": "Apparently there is a trend of rewriting classic unix utilities in Rust. Also, this trend seems to be producing a lot of innovation in a space that allegedly hasn't changed that much in a few decades... This time the tool that was rewritten is `history` and the result is `atuin`. Atuin offers a fresh take on the space of shell history. If you are a unix nerd we are sure you are going to love this!",
+      "imageUrl": "./5c9e3cd4fff242e44a7219b1a5c3117ed8070d304dec9c9347894134c748f428.jpg",
+      "featured": false
+    },
+    {
+      "title": "Can you use a WebP file as an Open Graph Protocol image?",
+      "url": "https://ctrl.blog/entry/webp-ogp.html",
+      "description": "Have you ever wondered if it's safe to use more modern web image formats (yes we are talking about WebP) for your Open Graph images? The answer might be a bit complicated than you might want, but it's still a really interesting topic to explore if you care about web, SEO and social sharing.",
+      "imageUrl": "./169dada04ca1d14f3ea4790fd87ef7665f5c275d704f561a4b0128afd9852728.jpg",
+      "featured": false
+    },
+    {
+      "title": "Managing third party scripts",
+      "url": "https://jameshill.dev/articles/managing-third-party-scripts-performance",
+      "description": "Negotiating the friction between business and engineering teams over third party scripts. It's definitely not easy, so let's discuss a few important tips!",
+      "imageUrl": "./b32528faa23f1e2c6072c64a26c36d9566b7463bff8a7e6655ca00566f7c0e82.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Linux Command Line: A Complete Introduction",
+    "author": "William E. Shotts Jr.",
+    "description": "The Linux Command Line takes you from your very first terminal keystrokes to writing full programs in Bash, the most popular Linux shell. Along the way you'll learn the timeless skills handed down by generations of gray-bearded, mouse-shunning gurus: file navigation, environment configuration, command chaining, pattern matching with regular expressions, and more. In addition to that practical knowledge, author William Shotts reveals the philosophy behind these tools and the rich heritage that your desktop Linux machine has inherited from Unix supercomputers of yore.",
+    "coverImageUrl": "./998e4e84a48a026be41c01888d1d2f1a0e2c087213f327ada5f8a0f3467f1202.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593273894/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593273894/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 27,
+  "title": "Web Design in 4 minutes",
+  "slug": "2017-09-18-027-web-design-in-4-minutes",
+  "date": "2017-09-18",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #37, 2017",
+  "quote": {
+    "text": "Never trust a computer you can’t throw out a window",
+    "author": "Steve Wozniak",
+    "authorTitle": "American inventor & Apple co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Wozniak"
+  },
+  "links": [
+    {
+      "title": "Web Design in 4 minutes",
+      "url": "http://jgthms.com/web-design-in-4-minutes",
+      "description": "Learn the basics of web design in 4 minutes with this amazing interactive tutorial.",
+      "imageUrl": "./94ea70d8b0bd63106ca67d573d32a98dc4cce8b503250e94ef05624c44797d98.jpg",
+      "featured": true
+    },
+    {
+      "title": "Flat UI Elements Attract Less Attention",
+      "url": "https://nngroup.com/articles/flat-ui-less-attention-cause-uncertainty",
+      "description": "In an eyetracking experiment comparing different clickability clues, weak and flat signifiers required more user effort than strong ones.",
+      "imageUrl": "./3ddf03b15d618f2d0fe977f21ac1b8ced8313ee762ab810b76eacb639599f281.png",
+      "featured": false
+    },
+    {
+      "title": "Why we moved from Angular 2 to Vue.js",
+      "url": "https://medium.com/reverdev/why-we-moved-from-angular-2-to-vue-js-and-why-we-didnt-choose-react-ef807d9f4163",
+      "description": "An interesting case study from Rever, a company that decided to ditch Angular 2.x for building their apps and migrated to Vue.js instead. The article also provides some reasons why they decided not to use React.",
+      "imageUrl": "./ce62e9c249c8b412e3592bbe0ee70f8ff5de52d4db56ba54f94a544e10a5c0d4.jpg",
+      "featured": false
+    },
+    {
+      "title": "50 Things You Probably Forgot To Design",
+      "url": "https://medium.com/ux-power-tools/50-things-you-probably-forgot-to-design-7a288b0ef914",
+      "description": "Every time you design a website or an app there are (at least) 50 details that almost everybody forgets to think about. Password recovery flows, splash screens, welcome emails, terms of service pages, the user onboarding, etc. This article attempts to collect the most forgotten elements of design and gives insights and examples for them.",
+      "imageUrl": "./80b881aa0ccbacca8a0076a2d3c35acb22843b1308645c52895bfb2c4437cf86.jpg",
+      "featured": false
+    },
+    {
+      "title": "Every JavaScript framework tutorial written more than 5 minutes ago",
+      "url": "https://medium.freecodecamp.org/every-javascript-framework-tutorial-written-more-than-5-minutes-ago-f96642d4f05",
+      "description": "Install, install, install, update, update, update, uh-oh",
+      "imageUrl": "./6f25680fbb7d6234265af8a1f6f797e4f85bd441c404ff1f3267e71e8586891b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Angular vs. React vs. Vue: A 2017 comparison",
+      "url": "https://medium.com/unicorn-supplies/angular-vs-react-vs-vue-a-2017-comparison-c5c52d620176",
+      "description": "Deciding on a JavaScript framework for your web application can be overwhelming. Angular and React are very popular these days, and there is even Vue.js! 😱",
+      "imageUrl": "./8671c0a45e2be9546b85d35b83ea5dfa743d873052b84b4354feba871573ba40.jpg",
+      "featured": false
+    },
+    {
+      "title": "Javascript : The Curious Case of Null >= 0",
+      "url": "https://blog.campvanilla.com/javascript-the-curious-case-of-null-0-7b131644e274",
+      "description": "Why it’s important to read the Javascript Spec (and also to be always ready to be surprised by JavaScript :P)",
+      "imageUrl": "./2c3098caf95e2a3a7cb11f27a21e8a0a1f0507e01420cb31ef46afbb6c12eca7.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elasticsearch: The Definitive Guide: A Distributed Real-Time Search and Analytics Engine",
+    "author": "Clinton Gormley",
+    "description": "Whether you need full-text search or real-time analytics of structured data—or both—the Elasticsearch distributed search engine is an ideal way to put your data to work. This practical guide not only shows you how to search, analyze, and explore data with Elasticsearch, but also helps you deal with the complexities of human language, geolocation, and relationships. If you’re a newcomer to both search and distributed systems, you’ll quickly learn how to integrate Elasticsearch into your application.",
+    "coverImageUrl": "./2ddcf691a406ca14d2511a89ef30ae08a29fa1c50fa8de58d3b1506180ab6520.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358543/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449358543/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,68 @@
+{
+  "issueNumber": 2,
+  "title": "HTML & CSS Is Hard",
+  "slug": "2017-03-20-002-html-css-is-hard",
+  "date": "2017-03-20",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #11, 2017",
+  "quote": {
+    "text": "The great myth of our times is that technology is communication",
+    "author": "Libby Larsen",
+    "authorTitle": "Composer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Libby_Larsen"
+  },
+  "links": [
+    {
+      "title": "HTML & CSS Is Hard",
+      "url": "https://internetingishard.com/html-and-css",
+      "description": "A free web development tutorial for complete beginners",
+      "imageUrl": "./d1b8d8df2661654967fcf391c91576382df8eaf43fddb296ff42ca29d11c0fb5.jpg",
+      "featured": true
+    },
+    {
+      "title": "React Native at Instagram",
+      "url": "https://engineering.instagram.com/react-native-at-instagram-dd828a9a90c7",
+      "description": "React Native has come a long way since it was open-sourced in 2015. Fewer than two years later, it’s being used not only in Facebook and…",
+      "imageUrl": "./f2cc112ead2a112f9cb14b942254241de9c739c16b007569ad4ed9c3752d8499.jpg",
+      "featured": false
+    },
+    {
+      "title": "Annotation is now a web standard – Hypothesis",
+      "url": "https://hypothes.is/blog/annotation-is-now-a-web-standard",
+      "description": "to bring us web annotations. The lack of standards has been one of the key things holding these efforts back– a need we highlighted in the first of",
+      "imageUrl": "./cd33576a7b32277d9c8cf06908a09b256877cdafb0e1e7b4d7b7bd99aa7cb39d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Getting Started With VR Interface Design – Smashing Magazine",
+      "url": "https://smashingmagazine.com/2017/02/getting-started-with-vr-interface-design",
+      "description": "So you want to get started with VR interface design? This article has everything you need to know in order to achieve the best results.",
+      "imageUrl": "./3d3daf3fff3e1e0f0905e4fc321cf18db60b44d90dcc3d12b1c8a4524a32ed3b.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript Without Loops",
+      "url": "http://jrsinclair.com/articles/2017/javascript-without-loops/index.html",
+      "description": "We've been talking about writing less complex JavaScript. We do this by choosing the right abstraction to solve a problem. But how do you know which abstraction to use? So far, we haven't looked at any concrete examples of how to do this. In this article we look at how to deal with JavaScript arrays…",
+      "imageUrl": "./4bff058b403ba2e151a597e67ddf9d44243fb77869b398bfb1edd46e8b8c9ba4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Between the Wires | MooTools",
+      "url": "https://betweenthewires.org/between-the-wires-mootools-7ac80d4ca28f",
+      "description": "If you were doing web development in 2009, MooTools might very well not need an introduction! MooTools was a well-known JavaScript utility library for building “powerful and flexible code with its elegant, well documented, and coherent APIs”. Its core contributing team was made up of a brilliant set of developers, and we’re lucky today to be speaking with three of them...",
+      "imageUrl": "./5adacd96b83d3e597ec1c83295ad9da6c0a5482db858ac988b652ac333440749.jpg",
+      "featured": false
+    },
+    {
+      "title": "Introducing Docker Secrets Management - Docker Blog",
+      "url": "https://blog.docker.com/2017/02/docker-secrets-management",
+      "description": "Containers are changing how we view apps and infrastructure. Whether the code inside containers is big or small, container architecture introduces a change to how that code behaves with hardware – it fundamentally abstracts it from the infrastructure. Docker believes … Continued",
+      "imageUrl": "./b5212a47ee81f452dfde409cf71adb7368199542edc5f6fd4d1935e92fb2626c.jpg",
+      "featured": false
+    }
+  ],
+  "book": null,
+  "additionalLinks": null,
+  "sponsor": null
+}

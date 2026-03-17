@@ -1,0 +1,75 @@
+{
+  "issueNumber": 280,
+  "title": "Defensive CSS",
+  "slug": "2022-07-04-267-defensive-css",
+  "date": "2022-07-04",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "That’s been one of my mantras — focus and simplicity. Simple can be harder than complex; you have to work hard to get your thinking clean to make it simple",
+    "author": "Steve Jobs",
+    "authorTitle": "Apple co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Jobs"
+  },
+  "links": [
+    {
+      "title": "Defensive CSS",
+      "url": "https://defensivecss.dev/",
+      "description": "A great selection of practical CSS and design tips that helps in building future-proof user interfaces. Delivered to us by **Ahmad Shadeed**, whose brilliant CSS and design articles we have been covering here multiple times!",
+      "imageUrl": "./b1f1838b52b010907574cc221bac4d082cba24a1481a5931cd48104d237f77e8.jpg",
+      "featured": true
+    },
+    {
+      "title": "tRPC - End-to-end typesafe APIs made easy",
+      "url": "https://trpc.io/",
+      "description": "If you like gRPC but mostly write TypeScript for your frontend and backends you should check out tRPC. A new take on RPC that promises automatic typesafety & autocompletion inferred from your API-paths, their input data, & outputs (all thanks to TypeScript).",
+      "imageUrl": "./af80a0d576959eeba0d9a90ec8dfa34fdd9f77c2e9a22e9839bae691fd9bf00e.jpg",
+      "featured": false
+    },
+    {
+      "title": "When is it OK to cheat on AWS?",
+      "url": "https://awsbites.com/43-when-is-it-ok-to-cheat-on-aws/",
+      "description": "In this controversial episode of **AWS Bites podcast**, **Eoin** and **Luciano** discuss the controversial topic of when it is ok to ditch AWS for some other SaaS services! Have you ever preferred **Auth0** to **AWS Cognito**? Don't worry we do to and it's ok to cheat on AWS!",
+      "imageUrl": "./85ee2ce506798a63858d5c856d02bbfee3dfa2368f481556fd115c55766fdfc5.jpeg",
+      "featured": false
+    },
+    {
+      "title": "How We Built Hydrogen: A React Framework for Building Custom Storefronts",
+      "url": "https://shopify.engineering/how-we-built-hydrogen",
+      "description": "We’ve been building Hydrogen for more than a year. Here’s a look behind the scenes at how we did it, what we learned from making big bets, and what it was like building a new framework from the ground up on experimental technology.",
+      "imageUrl": "./5c97d304e872145971aae065984f50359407f08f73b410ad75a8117e86ef3250.jpg",
+      "featured": false
+    },
+    {
+      "title": "rust-phf: the perfect hash function",
+      "url": "https://simplabs.com/blog/2022/06/23/the-perfect-hash-function",
+      "description": "This is for the nerdy algorithms and data structure lovers! In this brilliant article, Tobias Bieniek shows how they made MIME type handling in the crates.io server infinitely faster by using perfect hash functions with the rust-phf crate and moving work from runtime to compile time.",
+      "imageUrl": "./fad9c9bd305805fc92825062bb49dc8684545c0c1469df0d6ed41cc5c7894d70.jpg",
+      "featured": false
+    },
+    {
+      "title": "My Wonderful HTML Email Workflow",
+      "url": "https://joshwcomeau.com/react/wonderful-emails-with-mjml-and-mdx",
+      "description": "If you've ever had the misfortune of being tasked with building a template for HTML emails, you know it's tricky business! In this blog post, I share the approach I took to build responsive, client-friendly emails without a single  tag.",
+      "imageUrl": "./ce35408c758c125f29dd1dfdfebede9e4852db37a32055a6aea9e1f2cb41f6d5.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Right Space Around Headings in Web Typography",
+      "url": "https://pimpmytype.com/hugo-md",
+      "description": "Typographic Review of Hugo’s blog. We dive into the spacing around headings, talk about font sizes, how to style captions, and I adore his marginalia and favicon. This is an article and a video, so you can pick your favourite medium!",
+      "imageUrl": "./cfac2bfe183d0a9fd7a6657cbc613d15125fce74fb74cdf28b0ae1dad287bce4.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Graph Databases: New Opportunities for Connected Data",
+    "author": "Ian Robinson",
+    "description": "Discover how graph databases can help you manage and query highly connected data. With this practical book, you’ll learn how to design and implement a graph database that brings the power of graphs to bear on a broad range of problem domains. Whether you want to speed up your response to user queries or build a database that can adapt as your business evolves, this book shows you how to apply the schema-free graph model to real-world problems.",
+    "coverImageUrl": "./5688bd18a6677e59e5b8c680c2848ab320dd4d4d28db65515d0e83fccec1d924.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491930896/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491930896/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

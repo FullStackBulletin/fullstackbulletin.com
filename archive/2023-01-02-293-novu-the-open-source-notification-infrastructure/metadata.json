@@ -1,0 +1,75 @@
+{
+  "issueNumber": 306,
+  "title": "novu, The open-source notification infrastructure",
+  "slug": "2023-01-02-293-novu-the-open-source-notification-infrastructure",
+  "date": "2023-01-02",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "The use of COBOL cripples the mind; its teaching should therefore be regarded as a criminal offense",
+    "author": "E.W. Dijkstra",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/E._W._Dijkstra"
+  },
+  "links": [
+    {
+      "title": "novu: The open-source notification infrastructure",
+      "url": "https://github.com/novuhq/novu",
+      "description": "**novu** is a very ambitious open-source project. It provides an excellent starting point to implement a notification system for applications. Building a notification system is complicated. At first, it seems like just sending an email, but in reality, it's just the beginning. Users today expect a multi-channel communication experience via email, SMS, push, chat, and other channels.",
+      "imageUrl": "./bf4bd9da2736f07595d93098d0e6751f1534a0f9ac0f4b15b2c97c9c943b337b.png",
+      "featured": true
+    },
+    {
+      "title": "A Guide to the Terminal, Console, and Shell",
+      "url": "https://thevaluable.dev/guide-terminal-shell-console",
+      "description": "The terminal is the result of its history, from the telegram to our terminal emulators. What is the difference with a console? The shell?",
+      "imageUrl": "./58f05be7991b74bd8f18079cf86fc6622260a393b8dbbe4346208f34c664bd6d.png",
+      "featured": false
+    },
+    {
+      "title": "Using the React children prop with TypeScript",
+      "url": "https://blog.logrocket.com/using-react-children-prop-with-typescript",
+      "description": "Learn about the recommended ways you can use the React children prop in TypeScript projects in this detailed, example-by-example tutorial.",
+      "imageUrl": "./9f07d4d3a01f152007819e31d0ee449ede3b77281645e914af5d4698768009d5.jpg",
+      "featured": false
+    },
+    {
+      "title": "HTTPS explained (with pidgeons) 🐦",
+      "url": "https://baida.dev/articles/https-explained-with-carrier-pigeons",
+      "description": "Cryptography can be hard. But unless you are actually developing cryptographic systems, much of that complexity is not necessary to understand what is going on at a high level. This article does a great job of making HTTPS digestible in very simple terms. And yes, it uses carrier pigeons as an analogy!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Pomsky, A modern regular expression language",
+      "url": "https://pomsky-lang.org/",
+      "description": "They say that **if you solve a problem with a regex you now have 2 problems**! Pomsky isn't going to fix that but it might make writing regular expressions a much easier and enjoyable experience!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Ultimate React Form Abstraction",
+      "url": "https://www.brendonovich.dev/blog/the-ultimate-form-abstraction",
+      "description": "Forms are the foundation of the web, but they are far from being easy. Validation, sanitization, serialization, handling data seamlessly between frontend and backend... You get it, right?! This article explores a good abstraction (including TypeScript) to simplify dealing with forms in React.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "HTTP Response Status Codes",
+      "url": "https://dev.to/devland/everything-you-need-to-know-about-http-response-status-codes-2mfb",
+      "description": "This is a sweet and simple article to refresh your knowledge of HTTP response status codes. Do you remember what's the difference between 1xx, 2xx, and 3xx responses? What about 4xx and 5xx? If you are still thinking about an answer, it's probably worth investing 5 minutes to read this refresher!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "RESTful API Design",
+    "author": "Matthias Biehl",
+    "description": "this book is packed with best practices on many technical aspects of RESTful API Design, such as the correct use of resources, URIs, representations, content types, data formats, parameters, HTTP status codes and HTTP methods. You want to design and develop APIs like a Pro? Use API description languages to both design APIs and develop APIs efficiently. The book introduces the two most common API description languages RAML and OpenAPI/Swagger",
+    "coverImageUrl": "./28aacc6a13ca1347c15c3795f8d6bcb239721dbccca6de24ceed1765e89588ee.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1514735164/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1514735164/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

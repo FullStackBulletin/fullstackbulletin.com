@@ -1,0 +1,75 @@
+{
+  "issueNumber": 312,
+  "title": "Accessible hamburger buttons without JavaScript",
+  "slug": "2023-02-13-299-accessible-hamburger-buttons-without-javascript",
+  "date": "2023-02-13",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "One machine can do the work of fifty ordinary men.  No machine can do the work of one extraordinary man",
+    "author": "Elbert Hubbard",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Elbert_Hubbard"
+  },
+  "links": [
+    {
+      "title": "Accessible hamburger buttons without JavaScript",
+      "url": "https://pausly.app/",
+      "description": "Are you tired of relying on JavaScript for every little interaction on your website? Well, buckle up because we're about to show you how to create an oh-so-delicious hamburger menu without a single line of JavaScript! That's right, folks! With just HTML and CSS, you can have a menu that's not only visually appealing but also accessible to all users. So, let's dive in and learn why it's important to go the pure HTML and CSS route. Your website (and taste buds) will thank you!",
+      "imageUrl": "./b7504987ccc3d2110eace1813e3115122f2adf06c621dead4617c821ff635f13.jpg",
+      "featured": true
+    },
+    {
+      "title": "You’ve Got Options for Removing Event Listeners",
+      "url": "https://macarthur.me/posts/options-for-removing-event-listeners",
+      "description": "One of the biggest culprits of memory leaks is none other than stale event listeners! Don't let these sneaky buggers bring down your application's efficiency. The good news is, cleaning up your code is as easy as a walk in the park! Let's learn how to get rid of event listeners that are no longer needed and watch your frontend soar like a bald eagle. Ready to make your applications run smoothly and predictably? Let's go!",
+      "imageUrl": "./2ea0fe6d51abba462e2541a23b020cf9f15970531a1d2e49577265e3e1a63818.jpg",
+      "featured": false
+    },
+    {
+      "title": "Mastering Re-rendering in React",
+      "url": "https://atharvabhuse.hashnode.dev/a-beginner-guide-to-mastering-re-rendering-in-react",
+      "description": "One of the trickiest frontend things to grasp is figuring out when React will re-render your components and how to avoid unnecessary re-renders. But don't fret! We've got your back with a beginner's guide that's packed with all the information you need. By the end of this article, you'll be a pro at understanding re-rendering in React and your developer skills will soar higher than a kite on a windy day. So grab a cup of coffee and let's dive into the exciting world of React re-rendering!",
+      "imageUrl": "./64cfe38e0705065e93264ba799ca4084ebefbc036b1d3b6b79a2250c4833654c.png",
+      "featured": false
+    },
+    {
+      "title": "How Pinterest’s design systems team measures adoption",
+      "url": "https://designsystems.com/how-pinterests-design-systems-team-measures-adoption",
+      "description": "Meet Ravi, a design technologist who knows the importance of measuring impact in engineering and product management. He's been working on a crucial metric for Pinterest's design system, [Gestalt](https://gestalt.pinterest.systems/home), to gauge its value and assess the success of the investment. This new metric, called \"design adoption,\" aims to maximize the system's usage and increase component adoption among designers. Ravi is tracking the system's usage in Figma to reach this goal.",
+      "imageUrl": "./1446a8cf6a1df27a98e433c97e8a6514e130c58e8f0b4a6b6cc2d4c4de4f9f37.jpg",
+      "featured": false
+    },
+    {
+      "title": "Fundamental Math for Game Developers",
+      "url": "https://pikuma.com/blog/math-for-game-developers",
+      "description": "Get ready to put those high school math skills to the test! Have you ever considered building your own computer game? This could be your chance to shine! Let's dive into the most important mathematical concepts used by game developers and give your math education a refresh. Who knows, you might even discover new techniques for learning math and take your game-building skills to the next level. It's time to level up and conquer the math challenge!",
+      "imageUrl": "./48adbd66b83335f3e3bf5e1628521207bb8c3c0483c2219ebef16bb0a551e99c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Generate a gradient from a mood",
+      "url": "https://gradienmood.posandu.me/",
+      "description": "Step up your gradient game! Gradients have been taking the web design world by storm, but have you ever thought about the mood each gradient conveys? Flip the script and try generating a gradient based on a specific mood with this exciting tool! Get inspired for your next design and add some gradient magic to your portfolio.",
+      "imageUrl": "./dd499e94f9348040523b7325daa7684df47bb101689db6195ab174412773a571.png",
+      "featured": false
+    },
+    {
+      "title": "Esoteric color palette generator",
+      "url": "https://meodai.github.io/poline",
+      "description": "Introducing Poline, a designer's dream tool! This lightweight and speedy JavaScript function, written in TypeScript, uses polar coordinates to connect anchors and generate stunning color palettes. Add it to your designer toolkit and let it inspire you for your next website design project!",
+      "imageUrl": "./f96561efc76d12378c48df2ff0a9bfcde7accc72e45b767b2f8dea6af694a793.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "E. Gamma, R. Helm, R. Johnson, J. Vlissides",
+    "description": "Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems. Previously undocumented, these 23 patterns allow designers to create more flexible, elegant, and ultimately reusable designs without having to rediscover the design solutions themselves.",
+    "coverImageUrl": "./3d2f9c2ee1c817b2dcd3443fbb6f71d7fcb0499b00de983a9ffe8f8c6058fa29.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0201633612/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0201633612/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

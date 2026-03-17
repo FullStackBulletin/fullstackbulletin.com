@@ -1,0 +1,75 @@
+{
+  "issueNumber": 219,
+  "title": "How to Structure and Organize a React Application",
+  "slug": "2021-07-12-219-how-to-structure-and-organize-a-react-application",
+  "date": "2021-07-12",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "The function of good software is to make the complex appear to be simple",
+    "author": "Grady Booch",
+    "authorTitle": "Software engineer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Grady_Booch"
+  },
+  "links": [
+    {
+      "title": "How to Structure and Organize a React Application",
+      "url": "https://taniarascia.com/react-architecture-directory-structure",
+      "description": "There is no consensus on the right way to organize a React application. React gives you a lot of freedom, but with that freedom comes the responsibility to design your own architecture.  This article, provides an opinionated guide to setting up the architecture for a new React application.",
+      "imageUrl": "./2bc53ba004b762c6cb702eaf5a345bf28ec884262634a6cdf65cd5e765bf959e.jpg",
+      "featured": true
+    },
+    {
+      "title": "Unicode sorting is hard",
+      "url": "https://devlog.hexops.com/2021/unicode-sorting-why-browsers-added-special-emoji-matching",
+      "description": "You probably know Unicode and what's used for today... but there are sort of interesting tales about the nuances of Unicode encoding. In this article, you can learn something about Unicode sorting... Spoiler: it is \"interesting\" and \"hard\" at the same time!",
+      "imageUrl": "./d387ddaab7107f62962f585b1a4d9c767bd3cd6270815c7bcfb4c2f136422ccd.png",
+      "featured": false
+    },
+    {
+      "title": "CSS Frameworks & Style Fundamentals",
+      "url": "https://thenewstack.io/css-frameworks-in-vogue-but-dont-forget-style-fundamentals",
+      "description": "CSS frameworks are here to stay, but don't become overly-reliant on frameworks. Learn the fundamentals below the abstractions.",
+      "imageUrl": "./f84ad85bdde59eb15d693204c2a832956b329d63a4d18de11e4707d9bed5294d.png",
+      "featured": false
+    },
+    {
+      "title": "Web Publications — LaTeX Style",
+      "url": "https://goessner.github.io/mdmath/publication.html",
+      "description": "mdmath – how to use LaTex theme with markdown and spice up your web publications!",
+      "imageUrl": "./dac813658f4b4716e37493bf187e60021eba660fa239e870f7d26f501ad17360.jpg",
+      "featured": false
+    },
+    {
+      "title": "Towards a better responsiveness metric",
+      "url": "https://web.dev/better-responsiveness-metric",
+      "description": "Learn about our thoughts on measuring responsiveness and give us feedback.",
+      "imageUrl": "./2382b17b2ce26229c282d6270fccefde2c2da2d3f29a7923fcb367091cff5122.jpg",
+      "featured": false
+    },
+    {
+      "title": "When a Click is Not Just a Click",
+      "url": "https://css-tricks.com/when-a-click-is-not-just-a-click",
+      "description": "The click event is quite simple and easy to use; you listen for the event and run code when the event is fired. It works on just about every HTML element",
+      "imageUrl": "./daf803ffccc8f4a39613dcf22664bb95a08b52e157f86cfae36bbc982458947b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Encoding data for POST requests",
+      "url": "https://jakearchibald.com/2021/encoding-data-for-post-requests",
+      "description": "Don't do it like GitHub Copilot! Encoding HTTP POST requests requires a bit of diligence in following the protocol. Make sure you do that if you want to make sure requests can be correctly parsed by servers!",
+      "imageUrl": "./9d7cc772b00308b28d82fb7c15ed39df8e2354d7a80948cbad5987abeb640953.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+    "author": "Lea Verou",
+    "description": "In this practical guide, CSS expert Lea Verou provides 47 undocumented techniques and tips to help intermediate-to advanced CSS developers devise elegant solutions to a wide range of everyday web design problems. Rather than focus on design, CSS Secrets shows you how to solve problems with code. You'll learn how to apply Lea's analytical approach to practically every CSS problem you face to attain DRY, maintainable, flexible, lightweight, and standards-compliant results.",
+    "coverImageUrl": "./e20c35997e3e8a6a408d0165643e9832e92142192a5c4b89e0e684f372fe7735.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372635/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372635/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

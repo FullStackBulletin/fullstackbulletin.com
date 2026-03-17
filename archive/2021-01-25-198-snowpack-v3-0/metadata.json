@@ -1,0 +1,75 @@
+{
+  "issueNumber": 198,
+  "title": "Snowpack v3.0",
+  "slug": "2021-01-25-198-snowpack-v3-0",
+  "date": "2021-01-25",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #4, 2021\n\n\n\n⭐️ FullStack Bulletin has outgrown its free plan! If you enjoy this newsletter, consider supporting us:\n\n\n[Donate on Patreon](https://patreon.com/lucianomammino) - [Discuss sponsorship](https://fstack.link/sponsor)",
+  "quote": {
+    "text": "All of the biggest technological inventions created by man - the airplane, the automobile, the computer - says little about his intelligence, but speaks volumes about his laziness",
+    "author": "Mark Kennedy",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Mark_Kennedy"
+  },
+  "links": [
+    {
+      "title": "Snowpack v3.0",
+      "url": "https://snowpack.dev/",
+      "description": "Snowpack v3.0 is here! This new release includes some serious new features, including pre-bundled streaming imports, built-in bundling & optimizations, new JavaScript APIs, and more.",
+      "imageUrl": "./87a47f2e3eee3e103e279eba7bf842f68850d51e3ad084ed37f07ea6f03a65c0.jpg",
+      "featured": true
+    },
+    {
+      "title": "Front-End Performance Checklist 2021",
+      "url": "https://smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist",
+      "description": "Let’s make 2021… fast! An annual front-end performance checklist (available as PDF, Apple Pages, MS Word), with everything you need to know to create fast experiences on the web today, from metrics to tooling and CSS/JavaScript techniques.",
+      "imageUrl": "./fabd9bc2c8636cd75dc9a90aa642ede11c1348e3b7ebf4fac1bd629a0e403671.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Art of Building Real-life Components",
+      "url": "http://ishadeed.com/article/building-real-life-components",
+      "description": "A walkthrough on building a professional and production-ready component with HTML & CSS. A very detailed post that you will particularly enjoy if you are currently working on a design systems or building components for a new project.",
+      "imageUrl": "./eecb8e21a9bd41561b249baffaf77e58018b667ee0a510a95aae75aa63dbb1d4.jpg",
+      "featured": false
+    },
+    {
+      "title": "sindresorhus/ow",
+      "url": "https://github.com/sindresorhus/ow",
+      "description": "A JavaScript library that provides an easy way to validate function arguments. It offers a nice chainable API and lots of built-in validators. Of course, you can always add your custom ones if you have special needs!",
+      "imageUrl": "./a90ca8e99b7a858b673ee172ea467df13f7709766f3c1bc0505d8c18d740edc2.png",
+      "featured": false
+    },
+    {
+      "title": "AWS Lambda is winning, but first it had to die",
+      "url": "https://acloudguru.com/blog/engineering/aws-lambda-is-winning-but-first-it-had-to-die",
+      "description": "Major feature changes have successfully pushed Lambda workloads into the mainstream, even if FaaS purists feel betrayed Is serverless winning? If you ask AWS, they’ll say definitely. Nearly half of all new applications built inside Amazon this year are running on Lambda!",
+      "imageUrl": "./1c565dcbe03b85942d4f3d422c9017ad3d0f02849e32b0351fe509fd292b0d76.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rust GUI: Introduction, a.k.a. the state of Rust GUI libraries",
+      "url": "https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl",
+      "description": "If you are doing Rust and you are curious to find out what are the best ways to build desktop and web UIs, this article provides a comprehensive walkthrough to the current status of the art for Rust GUI libraries!",
+      "imageUrl": "./63edf21f7368a94ce812a4cb81ff4352a0d178e0a8646d0ed5def0fd50b59a3c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Design Principles For The Web",
+      "url": "https://adactio.com/articles/17733",
+      "description": "The opening presentation from An Event Apart Online Together: Front-End Focus held online in August 2020. A beautiful presentation by Jeremy Keith about what are the principles we should follow while designing for the web. A must-read for every web developer!",
+      "imageUrl": "./c6fa82a6faa17e297a742b5cd4001c4504d69f8acbc652f14df6ee666e2aa64f.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Designing Interfaces: Patterns for Effective Interaction Design",
+    "author": "Jenifer Tidwell",
+    "description": "Despite all of the UI toolkits available today, it's still not easy to design good application interfaces. This bestselling book is one of the few reliable sources to help you navigate through the maze of design options.",
+    "coverImageUrl": "./efd3a4879002fbb37a1b94c9c3a347059c5bfc0661f163c8e89164fe5c872c8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449379702/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449379702/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

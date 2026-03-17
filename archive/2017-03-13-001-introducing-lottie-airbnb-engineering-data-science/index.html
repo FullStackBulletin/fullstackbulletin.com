@@ -1,0 +1,2294 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en"
+      >
+    <head>
+        
+        
+
+
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Language" content="en">
+<meta name="google" content="notranslate" />
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+<meta name="generator" content="Buttondown" />
+<link rel="webmention" href="https://buttondown.com/webmentions/register">
+
+    <meta name="theme-color" content="#06b6d4" />
+    
+
+
+    <link rel="shortcut icon" href="54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+    <link rel="apple-touch-icon" href="54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+        
+    
+
+
+
+
+    <title>🤓 fullstackBulletin issue 10: Introducing Lottie – Airbnb Engineering &amp; Data Science • Buttondown</title>
+
+
+    
+<meta name="description" content="NAME: 1 COLUMN Fullstack bulletin: BEGIN TEMPLATE // Introducing Lottie – Airbnb Engineering &amp; Data Science View this email in your browser &quot;The human spirit..." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+<meta name="twitter:site" content="@buttondown" />
+<meta name="twitter:title" content="🤓 fullstackBulletin issue 10: Introducing Lottie – Airbnb Engineering &amp; Data Science" />
+<meta name="twitter:description" content="NAME: 1 COLUMN Fullstack bulletin: BEGIN TEMPLATE // Introducing Lottie – Airbnb Engineering &amp; Data Science View this email in your browser &quot;The human spirit..." />
+
+    
+        <link rel="alternate"
+              type="application/rss+xml"
+              title="RSS Feed for 🤓 fullstackBulletin issue 10: Introducing Lottie – Airbnb Engineering &amp; Data Science"
+              href="/fullstackbulletin/rss" />
+    
+
+<link rel="me" href="https://fullstackbulletin.com" />
+
+    <link rel="sitemap"
+          type="application/xml"
+          title="Sitemap"
+          href="/fullstackbulletin/sitemap.xml" />
+
+<meta property="og:title" content="🤓 fullstackBulletin issue 10: Introducing Lottie – Airbnb Engineering &amp; Data Science" />
+<meta property="og:description" content="NAME: 1 COLUMN Fullstack bulletin: BEGIN TEMPLATE // Introducing Lottie – Airbnb Engineering &amp; Data Science View this email in your browser &quot;The human spirit..." />
+<meta property="og:type" content="website" />
+
+    <meta name="twitter:image" content="2754c50a-ae84-4434-8b29-7e2e9caba8ec.png" />
+    <meta property="og:image" content="2754c50a-ae84-4434-8b29-7e2e9caba8ec.png" />
+
+
+    
+    <meta property="og:url" content="https://buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-10-introducing-lottie/" />
+    <link rel="alternate"
+          type="application/json+oembed"
+          href="https://buttondown.com/embed?url=https://buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-10-introducing-lottie/"
+          title="🤓 fullstackBulletin issue 10: Introducing Lottie – Airbnb Engineering &amp; Data Science / oEmbed" />
+
+<link rel="canonical" href="https://buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-10-introducing-lottie/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "url": "https://buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-10-introducing-lottie/", "mainEntityOfPage": "https://buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-10-introducing-lottie/", "headline": "\ud83e\udd13 fullstackBulletin issue 10: Introducing Lottie \u2013 Airbnb Engineering \u0026 Data Science", "description": null, "image": [], "datePublished": "2017-03-13T18:00:00+00:00", "dateModified": "2025-08-16T10:40:50.611540+00:00", "isAccessibleForFree": true, "author": [{"@type": "Person", "name": "FullStack Bulletin", "url": "https://buttondown.com/fullstackbulletin", "identifier": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": {"@type": "ImageObject", "contentUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "thumbnailUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png"}}], "publisher": {"@type": "Organization", "name": "FullStack Bulletin", "url": "https://buttondown.com/fullstackbulletin", "description": "FullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.", "identifier": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": {"@type": "ImageObject", "contentUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "thumbnailUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png"}}}</script>
+
+
+        
+        
+        <script type="module" crossorigin="" src="https://static-assets.buttondown.com/subscriber_facing_fonts-DU3ilTNG.js"></script>
+<link href="https://static-assets.buttondown.com/preload-helper-HIQHktoD.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/_sentry-release-injection-file-DRmiww3Y.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+        
+        
+            <link rel="stylesheet" href="https://static-assets.buttondown.com/subscriber_facing_modern_css-CaffE7Di.css">
+        
+        
+        <style>
+            :root {
+                --tint-color: #06b6d4;
+                
+                    
+                
+            }
+        </style>
+        
+            <script nonce="zsxoGUWSBK5Y8zXh7Y9KWA">
+                var VARIANT = "archive_page";
+                
+                
+            </script>
+        
+        
+            <style>article img {
+  max-width: 100%;
+}</style>
+        
+    </head>
+    <body class="route--email">
+        
+
+
+
+        <div class="app-container">
+            <div class="header-navigation-container">
+                <div class="header-navigation">
+                    
+                        <img class="header-brand-icon"
+                             src="54ba1d29-fdc4-4e32-9470-dd844c9be037.png"
+                             alt="FullStack Bulletin logo"
+                             width="24"
+                             height="24" />
+                    
+                    <div class="header-navigation-content">
+                        <h1>
+                            <a class="header-brand" href="https://buttondown.com/fullstackbulletin">
+                                <span class="header-brand-name">FullStack Bulletin</span>
+                            </a>
+                        </h1>
+                        <button class="header-navigation-toggle"
+                                type="button"
+                                aria-label="Toggle navigation menu"
+                                aria-expanded="false">
+                            <svg class="header-navigation-toggle-icon"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <line x1="3" y1="6" x2="21" y2="6"></line>
+    <line x1="3" y1="12" x2="21" y2="12"></line>
+    <line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+                            <svg class="header-navigation-toggle-icon header-navigation-toggle-icon--close"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line>
+    <line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+                        </button>
+                        <div class="header-navigation-overlay" aria-hidden="true"></div>
+                        <nav class="header-navigation-nav" aria-expanded="false">
+                            <div class="header-navigation-nav-handle"></div>
+                            
+                                <a class="header-navigation-link"
+                                   href="/fullstackbulletin/archive/">
+                                    <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" data-slot="icon" class="w-4 h-4">
+    <path d="M7.25 3.688a8.035 8.035 0 0 0-4.872-.523A.48.48 0 0 0 2 3.64v7.994c0 .345.342.588.679.512a6.02 6.02 0 0 1 4.571.81V3.688ZM8.75 12.956a6.02 6.02 0 0 1 4.571-.81c.337.075.679-.167.679-.512V3.64a.48.48 0 0 0-.378-.475 8.034 8.034 0 0 0-4.872.523v9.268Z" />
+</svg>
+
+                                    <div>Archives</div>
+                                </a>
+                            
+                            
+                            
+                            
+                            
+                                <button class="header-navigation-link archive-search-trigger"
+                                        type="button"
+                                        aria-label="Search...">
+                                    <svg width="16"
+     height="16"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="1.5"
+     xmlns="http://www.w3.org/2000/svg">
+    <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+    <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+</svg>
+
+                                    <div>Search...</div>
+                                </button>
+                            
+                            
+                            
+                                <button class="header-navigation-link header-navigation-link--subscribe subscribe-modal-trigger"
+                                        type="button">
+                                    <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" data-slot="icon" class="w-4 h-4">
+    <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+    <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+</svg>
+
+                                    <div>Subscribe</div>
+                                </button>
+                            
+                            
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+    
+
+
+    <div class="email-body-container">
+        <article class="email-body">
+            
+                
+
+
+    <date>
+    
+        March 13, 2017
+    
+    </date>
+
+<h1 class="subject">🤓 fullstackBulletin issue 10: Introducing Lottie – Airbnb Engineering &amp; Data Science</h1>
+
+
+                
+
+
+<div class="email-body-content ">
+    
+        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<head><meta content="https://gallery.mailchimp.com/b015626aa6028495fe77c75ea/images/2754c50a-ae84-4434-8b29-7e2e9caba8ec.png" name="twitter:image:src"/><meta content="Introducing Lottie – Airbnb Engineering &amp; Data Science, Setting up an Angular 2 Development Environment, ryanmcdermott/clean-code-javascript" name="twitter:description"/><meta content="Best 7 links of week #10, 2017" name="twitter:title"/><meta content="summary_large_image" name="twitter:card"/><meta content="article" property="og:type"/><meta content="Introducing Lottie – Airbnb Engineering &amp; Data Science, Setting up an Angular 2 Development Environment, ryanmcdermott/clean-code-javascript" property="og:description"/><meta content="https://gallery.mailchimp.com/b015626aa6028495fe77c75ea/images/2754c50a-ae84-4434-8b29-7e2e9caba8ec.png" property="og:image"/><meta content="Best 7 links of week #10, 2017" property="og:title"/><meta content="http://eepurl.com/cFKuh1" property="og:url"/>
+<!-- NAME: 1 COLUMN -->
+<!--[if gte mso 15]>
+		<xml>
+			<o:OfficeDocumentSettings>
+			<o:AllowPNG/>
+			<o:PixelsPerInch>96</o:PixelsPerInch>
+			</o:OfficeDocumentSettings>
+		</xml>
+		<![endif]-->
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Fullstack bulletin: </title>
+<style type="text/css">
+		p{
+			margin:10px 0;
+			padding:0;
+		}
+		table{
+			border-collapse:collapse;
+		}
+		h1,h2,h3,h4,h5,h6{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		h1.main-title{
+			padding:20px 0;
+		}
+		img,a img{
+			border:0;
+			height:auto;
+			outline:none;
+			text-decoration:none;
+		}
+		.mcnImageCardBlock a img,.mcnImageCardBlock img{
+			border:1px solid #FFD300;
+		}
+		body,#bodyTable,#bodyCell{
+			height:100%;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		#outlook a{
+			padding:0;
+		}
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		p,a,li,td,blockquote{
+			mso-line-height-rule:exactly;
+		}
+		a[href^=tel],a[href^=sms]{
+			color:inherit;
+			cursor:default;
+			text-decoration:none;
+		}
+		p,a,li,td,body,table,blockquote{
+			-ms-text-size-adjust:100%;
+			-webkit-text-size-adjust:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
+			line-height:100%;
+		}
+		a[x-apple-data-detectors]{
+			color:inherit !important;
+			text-decoration:none !important;
+			font-size:inherit !important;
+			font-family:inherit !important;
+			font-weight:inherit !important;
+			line-height:inherit !important;
+		}
+		#templateBody h2.article-title a{
+			text-decoration:none;
+			color:#000;
+		}
+		#templateBody .mcnTextContent span.quote-author a,#templateBody .mcnTextContent a.article-read-all{
+			color:#313030;
+			font-weight:bold;
+		}
+		#bodyCell{
+			padding:10px;
+			border-top:8px solid #ffd300;
+		}
+		.templateContainer{
+			max-width:600px !important;
+			border:0;
+		}
+		a.mcnButton{
+			display:block;
+		}
+		.mcnImage{
+			vertical-align:bottom;
+		}
+		.mcnTextContent{
+			word-break:break-word;
+		}
+		.mcnTextContent img{
+			height:auto !important;
+		}
+		.mcnDividerBlock{
+			table-layout:fixed !important;
+		}
+		#templateBody #book-of-the-week{
+			background:#fee775;
+			min-width:100% !important;
+			margin:2em 0 0 0;
+		}
+		#templateBody #book-of-the-week h2{
+			text-align:center;
+			padding:0 0 1em;
+		}
+		#templateBody #book-of-the-week .buy-buttons{
+			margin:1em 0 0 0;
+		}
+		#templateBody #book-of-the-week .book-description{
+			padding:0 1em 0 0;
+			text-align:justify;
+		}
+		#templateBody #book-of-the-week .buy-buttons a{
+			display:inline-block;
+			padding:.5em;
+			margin:0 0 1em 0;
+			background:#ffa500;
+			border-radius:6px;
+			color:#000;
+			text-decoration:none;
+		}
+		#templateBody #book-of-the-week .buy-buttons a:hover{
+			background:#f88700;
+		}
+		.mcnSeeYouBlockInner a{
+			display:inline-block;
+			font-style:italic;
+			color:#000;
+			text-decoration:none;
+		}
+		body,#bodyTable{
+			background-color:#ffffff;
+		}
+		#bodyCell{
+			border-top:8px solid #ffd300;
+		}
+		.templateContainer{
+			border:0;
+		}
+		h1{
+			color:#000000;
+			font-family:'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size:26px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+		h2{
+			color:#202020;
+			font-family:Helvetica;
+			font-size:22px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+		h3{
+			color:#202020;
+			font-family:Helvetica;
+			font-size:20px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+		h4{
+			color:#202020;
+			font-family:Helvetica;
+			font-size:18px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:125%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+		#templatePreheader{
+			background-color:#FFFFFF;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:9px;
+			padding-bottom:9px;
+		}
+		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
+			color:#656565;
+			font-family:Helvetica;
+			font-size:12px;
+			line-height:150%;
+			text-align:left;
+		}
+		#templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a{
+			color:#656565;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		#templateHeader{
+			background-color:#FFFFFF;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:9px;
+			padding-bottom:0;
+		}
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			color:#202020;
+			font-family:Helvetica;
+			font-size:16px;
+			line-height:150%;
+			text-align:left;
+		}
+		#templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
+			color:#2BAADF;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		#templateBody{
+			background-color:#ffffff;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			padding-top:0;
+			padding-bottom:9px;
+		}
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			color:#202020;
+			font-family:Helvetica;
+			font-size:16px;
+			line-height:150%;
+			text-align:left;
+		}
+		#templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
+			color:#2BAADF;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		#templateFooter{
+			background-color:#FAFAFA;
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			border-top:0;
+			border-bottom:0;
+			padding-top:9px;
+			padding-bottom:9px;
+		}
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			color:#656565;
+			font-family:Helvetica;
+			font-size:12px;
+			line-height:150%;
+			text-align:center;
+		}
+		#templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
+			color:#656565;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+	@media only screen and (min-width:768px){
+		.templateContainer{
+			width:600px !important;
+		}
+
+}	@media only screen and (min-width:768px){
+		.mcnTextContent.link-description-container{
+			padding-right:18px;
+			padding-top:0;
+			padding-bottom:18px;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent.link-description-container{
+			padding-right:18px;
+			padding-top:18px;
+			padding-bottom:18px;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		body{
+			width:100% !important;
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#bodyCell{
+			padding-top:10px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImage{
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer{
+			max-width:100% !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer{
+			min-width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupContent{
+			padding:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
+			padding-top:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardTopImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
+			padding-top:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardBottomImageContent{
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockInner{
+			padding-top:0 !important;
+			padding-bottom:0 !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageGroupBlockOuter{
+			padding-top:9px !important;
+			padding-bottom:9px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnTextContent,.mcnBoxedTextContentColumn{
+			padding-right:18px !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
+			padding-right:18px !important;
+			padding-bottom:0 !important;
+			padding-left:18px !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcpreview-image-uploader{
+			display:none !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		h1{
+			font-size:22px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		h2{
+			font-size:20px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		h3{
+			font-size:18px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		h4{
+			font-size:16px !important;
+			line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		.mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
+			font-size:14px !important;
+			line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templatePreheader{
+			display:block !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
+			font-size:14px !important;
+			line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
+			font-size:16px !important;
+			line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templateBody .mcnTextContent,#templateBody .mcnTextContent p{
+			font-size:16px !important;
+			line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 480px){
+		#templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
+			font-size:14px !important;
+			line-height:150% !important;
+		}
+
+}</style><!--[if !mso]><!--><link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet"/><!--<![endif]--></head>
+<body style="height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #ffffff;"><div itemscope="" itemtype="http://schema.org/EmailMessage"><div itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization"><meta content="" itemprop="name"/><link content="*|LIST:URL|*" itemprop="url"/></div><div itemprop="about" itemscope="" itemtype="http://schema.org/Offer"><link href="https://gallery.mailchimp.com/b015626aa6028495fe77c75ea/images/2754c50a-ae84-4434-8b29-7e2e9caba8ec.png" itemprop="image"/></div></div>
+<center>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" id="bodyTable" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;background-color: #ffffff;" width="100%">
+<tr>
+<td align="center" id="bodyCell" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;padding: 10px;width: 100%;border-top: 8px solid #ffd300;" valign="top">
+<!-- BEGIN TEMPLATE // -->
+<!--[if gte mso 9]>
+						<table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;">
+						<tr>
+						<td align="center" valign="top" width="600" style="width:600px;">
+						<![endif]-->
+<table border="0" cellpadding="0" cellspacing="0" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border: 0;max-width: 600px !important;" width="100%">
+<tr>
+<td id="templatePreheader" style="background:#FFFFFF none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 9px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+<!--[if mso]>
+				<td valign="top" width="390" style="width:390px;">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 390px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="padding-top: 0;padding-left: 18px;padding-bottom: 9px;padding-right: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #656565;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: left;" valign="top">
+<span>Introducing Lottie – Airbnb Engineering &amp; Data Science</span>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+				</td>
+				<![endif]-->
+<!--[if mso]>
+				<td valign="top" width="210" style="width:210px;">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 210px;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="padding-top: 0;padding-left: 18px;padding-bottom: 9px;padding-right: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #656565;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: left;" valign="top">
+<a href="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #656565;font-weight: normal;text-decoration: underline;" target="_blank">View this email in your browser</a>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+				</td>
+				<![endif]-->
+<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td id="templateHeader" style="background:#FFFFFF none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FFFFFF;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 0;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnImageBlockOuter">
+<tr>
+<td class="mcnImageBlockInner" style="padding: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnImageContent" style="padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<img align="center" alt="" class="mcnImage" height sizes src="2754c50a-ae84-4434-8b29-7e2e9caba8ec.png" srcset style width/>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td id="templateBody" style="background:#ffffff none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #ffffff;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;padding-top: 0;padding-bottom: 9px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnBoxedTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<!--[if gte mso 9]>
+	<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+	<![endif]-->
+<tbody class="mcnBoxedTextBlockOuter">
+<tr>
+<td class="mcnBoxedTextBlockInner" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if gte mso 9]>
+				<td align="center" valign="top" ">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnBoxedTextContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td style="padding-top: 9px;padding-left: 18px;padding-bottom: 9px;padding-right: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table border="0" cellpadding="18" cellspacing="0" class="mcnTextContentContainer" style="min-width: 100% !important;background-color: #fee775;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="color: #313030;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 150%;" valign="top">
+<div style="text-align: left;">"<em>The human spirit must prevail over technology</em>"
+                                                                                    <br/> — 
+                                                                                    <span class="quote-author"><a href="https://en.wikipedia.org/wiki/Albert_Einstein" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #313030;font-weight: bold;text-decoration: underline;" target="_blank">Albert Einstein</a></span>, <span>Scientist</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if gte mso 9]>
+				</td>
+				<![endif]-->
+<!--[if gte mso 9]>
+                </tr>
+                </table>
+				<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnShareBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnShareBlockOuter">
+<tr>
+<td class="mcnShareBlockInner" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnShareContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" style="padding-top: 0;padding-left: 9px;padding-bottom: 0;padding-right: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="mcnShareContent" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" class="mcnShareContentItemContainer" style="padding-top: 9px;padding-right: 9px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td align="left" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+                                <table align="center" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <![endif]-->
+<!--[if mso]>
+                                    <td align="center" valign="top">
+                                      <![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td class="mcnShareContentItemContainer" style="padding-right: 9px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnShareContentItem" style="border-collapse: separate;border-radius: 6px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="left" style="padding-top: 5px;padding-right: 9px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="center" class="mcnShareIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle" width="24">
+<a href="http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img class="" height sizes src="outline-dark-facebook-48.png" srcset style width/></a>
+</td>
+<td align="left" class="mcnShareTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<a href="http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">Share</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+                                    </td>
+                                    <![endif]-->
+<!--[if mso]>
+                                    <td align="center" valign="top">
+                                      <![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td class="mcnShareContentItemContainer" style="padding-right: 9px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnShareContentItem" style="border-collapse: separate;border-radius: 6px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="left" style="padding-top: 5px;padding-right: 9px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="center" class="mcnShareIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle" width="24">
+<a href="http://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img class="" height sizes src="outline-dark-twitter-48.png" srcset style width/></a>
+</td>
+<td align="left" class="mcnShareTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<a href="http://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">Tweet</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+                                    </td>
+                                    <![endif]-->
+<!--[if mso]>
+                                    <td align="center" valign="top">
+                                      <![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td class="mcnShareContentItemContainer" style="padding-right: 9px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnShareContentItem" style="border-collapse: separate;border-radius: 6px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="left" style="padding-top: 5px;padding-right: 9px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="center" class="mcnShareIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle" width="24">
+<a href="http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img class="" height sizes src="outline-dark-linkedin-48.png" srcset style width/></a>
+</td>
+<td align="left" class="mcnShareTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<a href="http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">Share</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+                                    </td>
+                                    <![endif]-->
+<!--[if mso]>
+                                    <td align="center" valign="top">
+                                      <![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td class="mcnShareContentItemContainer" style="padding-right: 0;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnShareContentItem" style="border-collapse: separate;border-radius: 6px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="left" style="padding-top: 5px;padding-right: 9px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="center" class="mcnShareIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle" width="24">
+<a href="*|FORWARD|*" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img class="" height sizes src="outline-dark-forwardtofriend-48.png" srcset style width/></a>
+</td>
+<td align="left" class="mcnShareTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<a href="*|FORWARD|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">Forward</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+                                    </td>
+                                    <![endif]-->
+<!--[if mso]>
+                                  </tr>
+                                </table>
+                                <![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
+<h1 class="main-title" style="text-align: center;display: block;margin: 0;padding: 20px 0;color: #000000;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;">Best 7 links of week #10, 2017</h1>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+				</td>
+				<![endif]-->
+<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
+<h2 class="article-title" style="display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;"><strong><a href="https://medium.com/airbnb-engineering/introducing-lottie-4ff4a0afac0e?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=title" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000;font-weight: normal;text-decoration: none;" target="_blank">Introducing Lottie – Airbnb Engineering &amp; Data Science</a></strong></h2>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+				</td>
+				<![endif]-->
+<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnImageCardBlockOuter">
+<tr>
+<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightContentOuter" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightContentInner" style="padding: 0px;background-color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightImageContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightImageContentE2E" style="padding-top: 0px;padding-right: 0;padding-bottom: 0px;padding-left: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<span><a href="https://medium.com/airbnb-engineering/introducing-lottie-4ff4a0afac0e?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=image" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img alt="Introducing Lottie – Airbnb Engineering &amp; Data Science" class="mcnImage" height sizes src="9ac825a23c1a5a6a4f25b1fca443c5bb.jpg" srcset style width/></a></span>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="352">
+<tbody>
+<tr>
+<td class="mcnTextContent link-description-container" style="color: #313030;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 150%;" valign="top">
+<div style="text-align: left;">Our new open-source tool makes adding animation to native apps a snap.<br/><a href="https://medium.com/airbnb-engineering/introducing-lottie-4ff4a0afac0e?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=description" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;" target="_blank">Read article</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;" width="100%">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%;padding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerContent" style="min-width: 100%;border-top: 2px solid #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<span></span>
+</td>
+</tr>
+</tbody>
+</table>
+<!--
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
+<h2 class="article-title" style="display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;"><strong><a href="https://ponyfoo.com/articles/setting-up-angular-2-development-environment?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=title" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000;font-weight: normal;text-decoration: none;" target="_blank">Setting up an Angular 2 Development Environment</a></strong></h2>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+				</td>
+				<![endif]-->
+<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnImageCardBlockOuter">
+<tr>
+<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightContentOuter" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightContentInner" style="padding: 0px;background-color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightImageContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightImageContentE2E" style="padding-top: 0px;padding-right: 0;padding-bottom: 0px;padding-left: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<span><a href="https://ponyfoo.com/articles/setting-up-angular-2-development-environment?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=image" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img alt="Setting up an Angular 2 Development Environment" class="mcnImage" height sizes src="5bb84229f6dbf72c8f49b480d73de69b.jpg" srcset style width/></a></span>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="352">
+<tbody>
+<tr>
+<td class="mcnTextContent link-description-container" style="color: #313030;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 150%;" valign="top">
+<div style="text-align: left;">Angular 2 is the rave of the moment. It is a modern JavaScript framework that is supercharged with awesome features. In fact, Angular 2 is now more than a framework, it …<br/><a href="https://ponyfoo.com/articles/setting-up-angular-2-development-environment?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=description" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;" target="_blank">Read article</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;" width="100%">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%;padding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerContent" style="min-width: 100%;border-top: 2px solid #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<span></span>
+</td>
+</tr>
+</tbody>
+</table>
+<!--
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
+<h2 class="article-title" style="display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;"><strong><a href="https://github.com/ryanmcdermott/clean-code-javascript?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=title" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000;font-weight: normal;text-decoration: none;" target="_blank">ryanmcdermott/clean-code-javascript</a></strong></h2>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+				</td>
+				<![endif]-->
+<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnImageCardBlockOuter">
+<tr>
+<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightContentOuter" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightContentInner" style="padding: 0px;background-color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightImageContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightImageContentE2E" style="padding-top: 0px;padding-right: 0;padding-bottom: 0px;padding-left: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<span><a href="https://github.com/ryanmcdermott/clean-code-javascript?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=image" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img alt="ryanmcdermott/clean-code-javascript" class="mcnImage" height sizes src="073ef2ba2f766dcb7d9c25e4b40e1e9b.jpg" srcset style width/></a></span>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="352">
+<tbody>
+<tr>
+<td class="mcnTextContent link-description-container" style="color: #313030;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 150%;" valign="top">
+<div style="text-align: left;">Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript. This is not a style guide. It's a guide to producing readable, reusable, and refactorable software in JavaScript.<br/>
+<a href="https://github.com/ryanmcdermott/clean-code-javascript?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=description" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;" target="_blank">View Repository</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;" width="100%">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%;padding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerContent" style="min-width: 100%;border-top: 2px solid #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<span></span>
+</td>
+</tr>
+</tbody>
+</table>
+<!--
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
+<h2 class="article-title" style="display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;"><strong><a href="https://observatory.mozilla.org/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=title" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000;font-weight: normal;text-decoration: none;" target="_blank">Observatory by Mozilla</a></strong></h2>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+				</td>
+				<![endif]-->
+<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnImageCardBlockOuter">
+<tr>
+<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightContentOuter" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightContentInner" style="padding: 0px;background-color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightImageContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightImageContentE2E" style="padding-top: 0px;padding-right: 0;padding-bottom: 0px;padding-left: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<span><a href="https://observatory.mozilla.org/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=image" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img alt="Observatory by Mozilla" class="mcnImage" height sizes src="99afac19-b2a2-45f4-b231-3dbafa3c3d63.png" srcset style width/></a></span>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="352">
+<tbody>
+<tr>
+<td class="mcnTextContent link-description-container" style="color: #313030;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 150%;" valign="top">
+<div style="text-align: left;">Observatory by Mozilla is a project designed to help developers, system administrators, and security professionals configure their sites safely and securely.<br/>
+<a href="https://observatory.mozilla.org/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=description" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;" target="_blank">Read article</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;" width="100%">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%;padding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerContent" style="min-width: 100%;border-top: 2px solid #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<span></span>
+</td>
+</tr>
+</tbody>
+</table>
+<!--
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
+<h2 class="article-title" style="display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;"><strong><a href="https://medium.freecodecamp.com/million-requests-per-second-with-python-95c137af319?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=title" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000;font-weight: normal;text-decoration: none;" target="_blank">A million requests per second with Python</a></strong></h2>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+				</td>
+				<![endif]-->
+<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnImageCardBlockOuter">
+<tr>
+<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightContentOuter" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightContentInner" style="padding: 0px;background-color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightImageContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightImageContentE2E" style="padding-top: 0px;padding-right: 0;padding-bottom: 0px;padding-left: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<span><a href="https://medium.freecodecamp.com/million-requests-per-second-with-python-95c137af319?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=image" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img alt="A million requests per second with Python" class="mcnImage" height sizes src="0d71b42da78f1128376ba3b23e13bd4d.jpg" srcset style width/></a></span>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="352">
+<tbody>
+<tr>
+<td class="mcnTextContent link-description-container" style="color: #313030;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 150%;" valign="top">
+<div style="text-align: left;">Is it possible to hit a million requests per second with Python? Probably not until recently.<br/><a href="https://medium.freecodecamp.com/million-requests-per-second-with-python-95c137af319?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=description" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;" target="_blank">Read article</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;" width="100%">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%;padding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerContent" style="min-width: 100%;border-top: 2px solid #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<span></span>
+</td>
+</tr>
+</tbody>
+</table>
+<!--
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
+<h2 class="article-title" style="display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;"><strong><a href="https://rethinkdb.com/blog/rethinkdb-joins-linux-foundation?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=title" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000;font-weight: normal;text-decoration: none;" target="_blank">RethinkDB joins The Linux Foundation - RethinkDB</a></strong></h2>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+				</td>
+				<![endif]-->
+<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnImageCardBlockOuter">
+<tr>
+<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightContentOuter" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightContentInner" style="padding: 0px;background-color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightImageContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightImageContentE2E" style="padding-top: 0px;padding-right: 0;padding-bottom: 0px;padding-left: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<span><a href="https://rethinkdb.com/blog/rethinkdb-joins-linux-foundation?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=image" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><img alt="${escapeAttrNodeValue(title)}" class="mcnImage" height sizes src="b8211b29-f20c-4fcc-b761-958c2c0676a1.png" srcset style width/>
+</a></span>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="352">
+<tbody>
+<tr>
+<td class="mcnTextContent link-description-container" style="color: #313030;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 150%;" valign="top">
+<div style="text-align: left;">When the company behind RethinkDB shut down last year, a group of former employees and members of the community formed an interim leadership team and began devising a plan to perpetuate the RethinkDB open-source software project by transitioning it to a community-driven endeavor. Today’s announcemen…<br/><a href="https://rethinkdb.com/blog/rethinkdb-joins-linux-foundation?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=description" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;" target="_blank">Read article</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;" width="100%">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%;padding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerContent" style="min-width: 100%;border-top: 2px solid #EAEAEA;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<span></span>
+</td>
+</tr>
+</tbody>
+</table>
+<!--
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
+<h2 class="article-title" style="display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: left;"><strong><a href="https://airpair.com/aws/posts/building-a-scalable-web-app-on-amazon-web-services-p1?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=title" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000;font-weight: normal;text-decoration: none;" target="_blank">A Comprehensive Guide to Building a Scalable Web App on Amazon Web Services - Part 1</a></strong></h2>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+				</td>
+				<![endif]-->
+<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnImageCardBlockOuter">
+<tr>
+<td class="mcnImageCardBlockInner" style="padding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightContentOuter" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightContentInner" style="padding: 0px;background-color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightImageContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td align="center" class="mcnImageCardRightImageContentE2E" style="padding-top: 0px;padding-right: 0;padding-bottom: 0px;padding-left: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<span><a href="https://airpair.com/aws/posts/building-a-scalable-web-app-on-amazon-web-services-p1?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=image" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img alt="A Comprehensive Guide to Building a Scalable Web App on Amazon Web Services - Part 1" class="mcnImage" height sizes src="df223a78e9f08ad395ad46a3754cf2c0.jpg" srcset style width/></a></span>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnImageCardRightTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="352">
+<tbody>
+<tr>
+<td class="mcnTextContent link-description-container" style="color: #313030;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 150%;" valign="top">
+<div style="text-align: left;">How to Think About AWS &amp; Scalability, Key AWS Services, Architecture Concepts including Security, Dockers, Containers and more<br/><a href="https://airpair.com/aws/posts/building-a-scalable-web-app-on-amazon-web-services-p1?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-10-2017&amp;utm_content=description" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;" target="_blank">Read article</a></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnBoxedTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<!--[if gte mso 9]>
+	<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
+	<![endif]-->
+<tbody class="mcnBoxedTextBlockOuter">
+<tr>
+<td class="mcnBoxedTextBlockInner" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if gte mso 9]>
+				<td align="center" valign="top" ">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnBoxedTextContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td style="padding-top: 9px;padding-left: 18px;padding-bottom: 9px;padding-right: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table border="0" cellpadding="18" cellspacing="0" class="mcnTextContentContainer" id="book-of-the-week" style="min-width: 100% !important;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background: #fee775;margin: 2em 0 0 0;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="color: #F2F2F2;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 150%;" valign="top">
+<div>
+<h2 style="display: block;margin: 0;padding: 0 0 1em;color: #202020;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;text-align: center;">Book of the week</h2>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnCaptionLeftContentInner" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td class="mcnCaptionLeftImageContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<span><a href="https://www.amazon.com/dp/0321146530/?tag=fullstackbulletin-20" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #2BAADF;font-weight: normal;text-decoration: underline;" target="_blank"><img alt="book cover" class="mcnImage" height sizes src="51IraByqmSL.jpg" srcset style width/></a></span>
+</td>
+</tr>
+</tbody>
+</table>
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftTextContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="352">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;" valign="top">
+<strong>Test Driven Development: By Example</strong><br/>
+                                                                                                    by <em>Kent Beck</em><br/>
+<br/>
+<div class="book-description" style="padding: 0 1em 0 0;text-align: justify;">Developers face complex programming challenges every day, yet they are not always readily prepared to determine the best solution. More often than not, such difficult projects generate a great deal of stress and bad code. To garner the strength and courage needed to surmount seemingly Herculean tasks, programmers should look to test-driven development (TDD), a proven set of techniques that encourage simple designs and test suites that inspire confidence.</div>
+<div class="buy-buttons" style="margin: 1em 0 0 0;">
+<span><a href="https://www.amazon.com/dp/0321146530/?tag=fullstackbulletin-20" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000;font-weight: normal;text-decoration: none;display: inline-block;padding: .5em;margin: 0 0 1em 0;background: #ffa500;border-radius: 6px;" target="_blank">Buy on Amazon.com</a></span>
+<span><a href="https://www.amazon.co.uk/dp/0321146530/?tag=fullstackbulletin-21" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #000;font-weight: normal;text-decoration: none;display: inline-block;padding: .5em;margin: 0 0 1em 0;background: #ffa500;border-radius: 6px;" target="_blank">Buy on Amazon.co.uk</a></span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if gte mso 9]>
+				</td>
+				<![endif]-->
+<!--[if gte mso 9]>
+                </tr>
+                </table>
+				<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnShareBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnShareBlockOuter">
+<tr>
+<td class="mcnShareBlockInner" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnShareContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" style="padding-top: 0;padding-left: 9px;padding-bottom: 0;padding-right: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="mcnShareContent" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" class="mcnShareContentItemContainer" style="padding-top: 9px;padding-right: 9px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td align="left" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+                                <table align="center" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <![endif]-->
+<!--[if mso]>
+                                    <td align="center" valign="top">
+                                      <![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td class="mcnShareContentItemContainer" style="padding-right: 9px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnShareContentItem" style="border-collapse: separate;border-radius: 6px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="left" style="padding-top: 5px;padding-right: 9px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="center" class="mcnShareIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle" width="24">
+<a href="http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img class="" height sizes src="outline-dark-facebook-48.png" srcset style width/></a>
+</td>
+<td align="left" class="mcnShareTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<a href="http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK_SHORT|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">Share</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+                                    </td>
+                                    <![endif]-->
+<!--[if mso]>
+                                    <td align="center" valign="top">
+                                      <![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td class="mcnShareContentItemContainer" style="padding-right: 9px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnShareContentItem" style="border-collapse: separate;border-radius: 6px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="left" style="padding-top: 5px;padding-right: 9px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="center" class="mcnShareIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle" width="24">
+<a href="http://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img class="" height sizes src="outline-dark-twitter-48.png" srcset style width/></a>
+</td>
+<td align="left" class="mcnShareTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<a href="http://twitter.com/intent/tweet?text=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK_SHORT|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">Tweet</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+                                    </td>
+                                    <![endif]-->
+<!--[if mso]>
+                                    <td align="center" valign="top">
+                                      <![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td class="mcnShareContentItemContainer" style="padding-right: 9px;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnShareContentItem" style="border-collapse: separate;border-radius: 6px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="left" style="padding-top: 5px;padding-right: 9px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="center" class="mcnShareIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle" width="24">
+<a href="http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img class="" height sizes src="outline-dark-linkedin-48.png" srcset style width/></a>
+</td>
+<td align="left" class="mcnShareTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<a href="http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK_SHORT|*&amp;mini=true&amp;title=*|URL:MC_SUBJECT|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">Share</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+                                    </td>
+                                    <![endif]-->
+<!--[if mso]>
+                                    <td align="center" valign="top">
+                                      <![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td class="mcnShareContentItemContainer" style="padding-right: 0;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnShareContentItem" style="border-collapse: separate;border-radius: 6px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="left" style="padding-top: 5px;padding-right: 9px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="center" class="mcnShareIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle" width="24">
+<a href="*|FORWARD|*" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img class="" height sizes src="outline-dark-forwardtofriend-48.png" srcset style width/></a>
+</td>
+<td align="left" class="mcnShareTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<a href="*|FORWARD|*" style="color: #202020;font-family: Arial;font-size: 14px;font-weight: normal;line-height: normal;text-align: center;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">Forward</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+                                    </td>
+                                    <![endif]-->
+<!--[if mso]>
+                                  </tr>
+                                </table>
+                                <![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td id="seeYouNextWeek" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnSeeYouBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnFollowBlockOuter" style="color: #313030; font-family: Helvetica; font-size: 14px; font-weight: normal;">
+<tr>
+<td align="center" class="mcnFollowBlockInner" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><strong>Remember to share if you enjoyed this issue!</strong></p>
+<p style="margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">See you next week 😜</p>
+</td>
+</tr>
+<tr>
+<td align="center" class="mcnSeeYouBlockInner" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<div style="padding: 0 0 3em 0">
+<a href="https://twitter.com/andreaman87" style="padding-right: 1em;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;display: inline-block;font-style: italic;color: #000;text-decoration: none;">
+<img height sizes src="https://assets.buttondown.email/56a252501ea7d706ef189cbf6451d23a?s=100" srcset style width/> — Andrea
+													</a>
+<a href="https://twitter.com/loige" style="padding-right: 1em;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;display: inline-block;font-style: italic;color: #000;text-decoration: none;">
+<img height sizes src="https://assets.buttondown.email/e18d2c2510d828bc95bde6817e6e9ce2?s=100" srcset style width/> — Luciano
+													</a>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td id="templateFooter" style="background:#FAFAFA none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FAFAFA;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 9px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnFollowBlockOuter">
+<tr>
+<td align="center" class="mcnFollowBlockInner" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" style="padding-left: 9px;padding-right: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContent" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="center" style="padding-top: 9px;padding-right: 9px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td align="center" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+                      <table align="center" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <![endif]-->
+<!--[if mso]>
+                          <td align="center" valign="top">
+                            <![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="display: inline;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<tbody>
+<tr>
+<td class="mcnFollowContentItemContainer" style="padding-right: 0;padding-bottom: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnFollowContentItem" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td align="left" style="padding-top: 5px;padding-right: 10px;padding-bottom: 5px;padding-left: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<table align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="">
+<tbody>
+<tr>
+<td align="center" class="mcnFollowIconContent" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle" width="24">
+<a href="https://fullstackbulletin.com" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="_blank"><img class="" height sizes src="color-link-48.png" srcset style width/></a>
+</td>
+<td align="left" class="mcnFollowTextContent" style="padding-left: 5px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="middle">
+<a href="https://fullstackbulletin.com" style="font-family: Helvetica;font-size: 12px;text-decoration: none;color: #656565;font-weight: bold;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target="">fullstackbulletin.com</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+                          </td>
+                          <![endif]-->
+<!--[if mso]>
+                        </tr>
+                      </table>
+                      <![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;" width="100%">
+<tbody class="mcnDividerBlockOuter">
+<tr>
+<td class="mcnDividerBlockInner" style="min-width: 100%;padding: 10px 18px 25px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<table border="0" cellpadding="0" cellspacing="0" class="mcnDividerContent" style="min-width: 100%;border-top: 2px solid #EEEEEE;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+<span></span>
+</td>
+</tr>
+</tbody>
+</table>
+<!--
+                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+-->
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody class="mcnTextBlockOuter">
+<tr>
+<td class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+<!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+<!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnTextContentContainer" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+<tbody>
+<tr>
+<td class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #656565;font-family: Helvetica;font-size: 12px;line-height: 150%;text-align: center;" valign="top">
+<em>Copyright © 2024 , All rights reserved.</em>
+<br/> *|IFNOT:ARCHIVE_PAGE|* 
+                                                                                <br/>
+<br/>
+<strong>Our mailing address is:</strong>
+<br/> *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
+                                                                                <br/>
+<br/> Want to change how you receive these emails?
+                                                                                <br/> You can <a href="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #656565;font-weight: normal;text-decoration: underline;">update your preferences</a> or <a href="" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #656565;font-weight: normal;text-decoration: underline;">unsubscribe from this list</a>
+<br/>
+<br/> *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+                                                                            </td>
+</tr>
+</tbody>
+</table>
+<!--[if mso]>
+				</td>
+				<![endif]-->
+<!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if gte mso 9]>
+						</td>
+						</tr>
+						</table>
+						<![endif]-->
+<!-- // END TEMPLATE -->
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
+
+    
+</div>
+
+
+                
+
+
+
+                
+
+
+                <div class="card-container">
+                    <div class="card-container-header">
+                        
+                            Don't miss what's next. Subscribe to FullStack Bulletin:
+                        
+                    </div>
+                    
+<div id="subscribe-form">
+    <div class="card subscription-form-fallback">
+        <form method="post"
+              action="/api/emails/embed-subscribe/fullstackbulletin">
+            
+            <label for="sfi-email" class="sr-only">Email address (required)</label>
+            <input id="sfi-email"
+                   name="email"
+                   required=""
+                   type="email"
+                   placeholder="Your email (you@example.com)"
+                   autocomplete="email" />
+            <button class="button tinted blue" id="submit" type="submit">
+                <div style="flex: 1 1 0%; text-align: center;">Subscribe</div>
+            </button>
+        </form>
+    </div>
+</div>
+<script id="newsletter" type="application/json">{"absolute_url": "https://buttondown.com/fullstackbulletin", "account": "c0c89dde-4f8d-4f6b-bb46-917fb74d7239", "address": "", "archive_navigation_links": [], "archive_redirect_url": "", "archive_theme": "modern", "automatically_remind_unconfirmed_subscribers": true, "autonomy_fields": [], "bluesky_username": null, "body_template": "", "buysellads_url": null, "cached_analytics_data": {"open_rate": 40.93, "retention": 57.446808510638306, "click_rate": 6.33, "created_subscribers": 2699.0}, "css": "body {\n  width: 100% !important;\n  max-width: 600px !important;\n  display: block;\n  margin: 0 auto;\n  box-sizing: border-box;\n  border: 1em solid transparent;\n}\n\nimg {\n  max-width: 100%;\n}\n\n", "theme_configuration": {}, "custom_archive_template": "", "custom_archives_template": "", "custom_email_template": "", "custom_expired_trial_notification_body": "", "custom_expired_trial_notification_subject": "", "custom_expired_trial_notification_template": null, "custom_gift_subscription_email_body": "", "custom_gift_subscription_email_subject": "", "custom_gift_subscription_email_template": null, "custom_preamble": "", "custom_premium_confirmation_email_body": "", "custom_premium_confirmation_email_subject": "", "custom_premium_confirmation_email_template": null, "custom_subscription_confirmation_email_subject": "", "custom_subscription_confirmation_email_template": null, "custom_subscription_confirmation_email_text": "", "custom_subscription_confirmation_reminder_email_subject": "", "custom_subscription_confirmation_reminder_email_template": null, "custom_subscription_confirmation_reminder_email_text": "", "custom_subscription_confirmed_email_subject": "", "custom_subscription_confirmed_email_template": null, "custom_subscription_confirmed_email_text": "", "default_behavior_for_subscriber_imports": "append", "description": "\u003C!-- buttondown-editor-mode: fancy --\u003E\u003Cp\u003EFullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.\u003C/p\u003E", "disablement_reason": null, "domain": "archive.fullstackbulletin.com", "email_address": "luciano@fullstackbulletin.com", "email_domain": "fullstackbulletin.com", "enabled_features": ["comments", "portal", "referrals", "archives", "automations", "tags", "api", "metadata", "css"], "effective_locale": "en-US", "fathom_code": null, "fathom_subscribe_code": null, "footer": "", "from_name": "FullStack Bulletin", "google_tag_manager_code": null, "h2_redirect_url": "", "header": "", "hidden_settings": [], "icon": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "id": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": "", "indexing_mode": "enabled", "is_archive_searchable": true, "is_custom_archive_template_enabled": false, "is_custom_archives_template_enabled": false, "is_paid_subscription_free_trials_enabled": false, "is_sponsorship_enabled": false, "is_using_plausible": false, "locale": "en", "memberful_username": null, "meta_pixel_id": null, "metadata": {}, "metadata_keys": {"email": ["id"], "subscriber": ["first_name", "last_name", "name"]}, "name": "FullStack Bulletin", "paid_subscription_free_trial_duration": 0, "paid_subscriptions_status": "inactive", "prices": [], "publicly_visible_analytics": ["confirmed_subscribers"], "reddit_code": null, "reply_to_address": "", "seline_code": null, "sharing_networks": ["linkedin", "twitter", "reddit", "hacker_news", "mastodon", "bluesky"], "shopify_url": null, "should_add_utm_sources": true, "should_be_private": false, "should_disable_non_premium_subscriptions": false, "should_expose_rss": true, "should_hide_issue_numbers": false, "should_hide_social_media": false, "should_immediately_show_payment_element": false, "should_noindex_archive_page": false, "should_noindex_subscribe_page": false, "should_require_double_optin": true, "should_send_latest_email_to_new_subscribers": false, "should_send_subscription_confirmation_email": true, "simple_analytics_enabled": false, "tinylytics_code": null, "socials": [{"url": "https://fullstackbulletin.com", "type": "generic", "label": null}], "sponsorship_text": null, "status": "active", "stripe_account": "", "subscription_button_text": "", "subscription_confirmation_redirect_url": "", "subscription_form_text": "", "subscription_redirect_url": "", "template": "classic", "thank_you_text": "", "tint_color": "#06b6d4", "timezone": "Europe/Dublin", "umami_website_id": null, "unsubscription_reasons": [], "upgrade_text": "", "username": "fullstackbulletin", "web_css": "article img {\n  max-width: 100%;\n}", "web_footer": "", "web_header": ""}</script>
+<script id="subscriber_facing_authentication" type="application/json">{"status": "unauthenticated", "email_address": null, "account_id": null, "subscribers": []}</script>
+
+    <script id="referring_subscriber_id" type="application/json">null</script>
+
+<script id="referer" type="application/json">""</script>
+
+<script nonce="zsxoGUWSBK5Y8zXh7Y9KWA">
+    var NEWSLETTER = JSON.parse(document.getElementById('newsletter').textContent);
+    var SUBSCRIBER_FACING_AUTHENTICATION = JSON.parse(document.getElementById('subscriber_facing_authentication').textContent);
+    var REFERRING_SUBSCRIBER_ID = JSON.parse(document.getElementById('referring_subscriber_id').textContent);
+    
+    var STRIPE_LIVE_PUBLIC_KEY = null;
+    
+
+    var TINT_COLOR = NEWSLETTER.tint_color || '#0069FF';
+    document.documentElement.style.setProperty("--tint-color", TINT_COLOR);
+    var referer = JSON.parse(document.getElementById('referer').textContent);
+    var account = null;
+
+    
+    var VARIANT = "archive_page";
+    
+</script>
+
+                    
+                        
+                            
+                        
+                    
+                </div>
+                
+
+
+  
+    <section class="card-container" aria-labelledby="comments-heading">
+      
+      <div class="archive__comments-container">
+        
+        <div id="comment-form" class="archive__comment-form-wrapper">
+          <h4 class="card-container-header">Add a comment:</h4>
+          <form method="post" action="comment" class="comment-input card">
+            <input type="hidden" name="csrfmiddlewaretoken" value="wWNBU2BmJPEWV4b9VdottedYtT6t5PaIbOfCPH80mo9n6wj5dPWnbnm6SuoYsyZO">
+            
+              
+
+
+
+<fieldset class="comment-input__fields">
+    <div class="comment-input__field comment-input__field--textarea">
+        <textarea id="body" name="body" class="comment-input__textarea" placeholder="What do you think?"></textarea>
+    </div>
+
+    <input type="hidden" name="email" value="71b99a97-6ef2-4add-bc65-d8d57b002e6e">
+    <input type="hidden" name="parent" value="">
+
+    <div class="comment-input__field comment-input__user-info">
+        
+            <input type="text" name="name" class="comment-input__input" placeholder="Your name"
+                value="">
+        
+
+        
+            <input type="email" id="email_address" name="email_address" class="comment-input__input" placeholder="Your email address"
+                value="">
+        
+    </div>
+</fieldset>
+
+<div class="comment-input__actions">
+    
+        <button type="submit" class="archive__button">
+            
+                Comment and Subscribe
+            
+        </button>
+    
+</div> 
+            
+          </form>
+        </div>
+      </div>
+    </section>
+  
+
+
+                <div class="card-container">
+                    
+
+
+    
+        
+            <div class="card-container">
+                <div class="card-container-header">Share this email:</div>
+                <div class="archive__social-share-link-container">
+                    
+                        
+                        
+                            <a href="https://twitter.com/intent/tweet?text=%F0%9F%A4%93%20fullstackBulletin%20issue%2010%3A%20Introducing%20Lottie%20%E2%80%93%20Airbnb%20Engineering%20%26%20Data%20Science&url=https%3A//buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-10-introducing-lottie/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Twitter
+                            </a>
+                        
+                        
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-10-introducing-lottie/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on LinkedIn
+                            </a>
+                        
+                        
+                            <a href="https://share.bingo/hn?url=https%3A//buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-10-introducing-lottie/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Hacker News
+                            </a>
+                        
+                        
+                        
+                            <a href="https://share.bingo/reddit?url=https%3A//buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-10-introducing-lottie/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Reddit
+                            </a>
+                        
+                        
+                        
+                            <a href="https://toot.kytta.dev/?text=%F0%9F%A4%93%20fullstackBulletin%20issue%2010%3A%20Introducing%20Lottie%20%E2%80%93%20Airbnb%20Engineering%20%26%20Data%20Science%0A%0Ahttps%3A//buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-10-introducing-lottie/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Mastodon
+                            </a>
+                        
+                        
+                            <a href="https://share.bingo/bluesky?url=https%3A//buttondown.com/fullstackbulletin/archive/fullstackbulletin-issue-10-introducing-lottie/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Bluesky
+                            </a>
+                        
+                    
+                </div>
+            </div>
+        
+    
+
+
+                </div>
+            
+        </article>
+    </div>
+
+        </div>
+        
+
+        
+            <div class="footer">
+                
+                    
+
+
+<div class="social-networks archive__social-links-inner">
+    
+        <div class="archive__social-links-item">
+            <a href="https://fullstackbulletin.com" class="archive__social-links-link"><img width='16' height='16' src='favicons.png' alt='fullstackbulletin.com' /></a>
+        </div>
+    
+</div>
+
+                
+                
+                    <div>Powered by <a href="https://buttondown.com/refer/fullstackbulletin">Buttondown</a>, the easiest way to start and grow your newsletter.</div>
+                
+            </div>
+        
+        
+            <div id="archive-search-modal-container"
+                 data-archive-url="/fullstackbulletin/archive/"
+                 data-placeholder="Search..."
+                 data-title="Search..."
+                 data-search-param="q"
+                 data-username="fullstackbulletin"></div>
+        
+        <script id="newsletter" type="application/json">{"absolute_url": "https://buttondown.com/fullstackbulletin", "account": "c0c89dde-4f8d-4f6b-bb46-917fb74d7239", "address": "", "archive_navigation_links": [], "archive_redirect_url": "", "archive_theme": "modern", "automatically_remind_unconfirmed_subscribers": true, "autonomy_fields": [], "bluesky_username": null, "body_template": "", "buysellads_url": null, "cached_analytics_data": {"open_rate": 40.93, "retention": 57.446808510638306, "click_rate": 6.33, "created_subscribers": 2699.0}, "css": "body {\n  width: 100% !important;\n  max-width: 600px !important;\n  display: block;\n  margin: 0 auto;\n  box-sizing: border-box;\n  border: 1em solid transparent;\n}\n\nimg {\n  max-width: 100%;\n}\n\n", "theme_configuration": {}, "custom_archive_template": "", "custom_archives_template": "", "custom_email_template": "", "custom_expired_trial_notification_body": "", "custom_expired_trial_notification_subject": "", "custom_expired_trial_notification_template": null, "custom_gift_subscription_email_body": "", "custom_gift_subscription_email_subject": "", "custom_gift_subscription_email_template": null, "custom_preamble": "", "custom_premium_confirmation_email_body": "", "custom_premium_confirmation_email_subject": "", "custom_premium_confirmation_email_template": null, "custom_subscription_confirmation_email_subject": "", "custom_subscription_confirmation_email_template": null, "custom_subscription_confirmation_email_text": "", "custom_subscription_confirmation_reminder_email_subject": "", "custom_subscription_confirmation_reminder_email_template": null, "custom_subscription_confirmation_reminder_email_text": "", "custom_subscription_confirmed_email_subject": "", "custom_subscription_confirmed_email_template": null, "custom_subscription_confirmed_email_text": "", "default_behavior_for_subscriber_imports": "append", "description": "\u003C!-- buttondown-editor-mode: fancy --\u003E\u003Cp\u003EFullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.\u003C/p\u003E", "disablement_reason": null, "domain": "archive.fullstackbulletin.com", "email_address": "luciano@fullstackbulletin.com", "email_domain": "fullstackbulletin.com", "enabled_features": ["comments", "portal", "referrals", "archives", "automations", "tags", "api", "metadata", "css"], "effective_locale": "en-US", "fathom_code": null, "fathom_subscribe_code": null, "footer": "", "from_name": "FullStack Bulletin", "google_tag_manager_code": null, "h2_redirect_url": "", "header": "", "hidden_settings": [], "icon": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "id": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": "", "indexing_mode": "enabled", "is_archive_searchable": true, "is_custom_archive_template_enabled": false, "is_custom_archives_template_enabled": false, "is_paid_subscription_free_trials_enabled": false, "is_sponsorship_enabled": false, "is_using_plausible": false, "locale": "en", "memberful_username": null, "meta_pixel_id": null, "metadata": {}, "metadata_keys": {"email": ["id"], "subscriber": ["first_name", "last_name", "name"]}, "name": "FullStack Bulletin", "paid_subscription_free_trial_duration": 0, "paid_subscriptions_status": "inactive", "prices": [], "publicly_visible_analytics": ["confirmed_subscribers"], "reddit_code": null, "reply_to_address": "", "seline_code": null, "sharing_networks": ["linkedin", "twitter", "reddit", "hacker_news", "mastodon", "bluesky"], "shopify_url": null, "should_add_utm_sources": true, "should_be_private": false, "should_disable_non_premium_subscriptions": false, "should_expose_rss": true, "should_hide_issue_numbers": false, "should_hide_social_media": false, "should_immediately_show_payment_element": false, "should_noindex_archive_page": false, "should_noindex_subscribe_page": false, "should_require_double_optin": true, "should_send_latest_email_to_new_subscribers": false, "should_send_subscription_confirmation_email": true, "simple_analytics_enabled": false, "tinylytics_code": null, "socials": [{"url": "https://fullstackbulletin.com", "type": "generic", "label": null}], "sponsorship_text": null, "status": "active", "stripe_account": "", "subscription_button_text": "", "subscription_confirmation_redirect_url": "", "subscription_form_text": "", "subscription_redirect_url": "", "template": "classic", "thank_you_text": "", "tint_color": "#06b6d4", "timezone": "Europe/Dublin", "umami_website_id": null, "unsubscription_reasons": [], "upgrade_text": "", "username": "fullstackbulletin", "web_css": "article img {\n  max-width: 100%;\n}", "web_footer": "", "web_header": ""}</script>
+        
+            <script id="subscriber_facing_authentication" type="application/json">{"status": "unauthenticated", "email_address": null, "account_id": null, "subscribers": []}</script>
+        
+        
+        <div id="subscriber-facing-app"></div>
+        <link  rel="stylesheet" href="https://static-assets.buttondown.com/event-listener-C4a0MggJ.css" />
+<link  rel="stylesheet" href="https://static-assets.buttondown.com/subscriber_facing_app-CMddTf0D.css" />
+<script type="module" crossorigin="" src="https://static-assets.buttondown.com/subscriber_facing_app-DIYFgv7W.js"></script>
+<link href="https://static-assets.buttondown.com/modulepreload-polyfill-C5-T9T-W.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/vueQueryPlugin-BD6xQQsM.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/event-listener-5QAwhQxM.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/_sentry-release-injection-file-DRmiww3Y.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/preload-helper-HIQHktoD.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/PendingIndicator.vue_vue_type_script_setup_true_lang-9IrbzFdh.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+        
+    </body>
+</html>

@@ -2,7 +2,7 @@ import { readdir, readFile, writeFile, copyFile } from 'node:fs/promises'
 import { join, basename } from 'node:path'
 import { existsSync } from 'node:fs'
 
-const RAW_ARCHIVES = 'raw_archives'
+const RAW_ARCHIVES = join(import.meta.dirname, '..', 'archive')
 
 // Hardcoded source URLs for all 8 books
 const BOOK_COVERS = {

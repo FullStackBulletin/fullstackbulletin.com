@@ -1,0 +1,75 @@
+{
+  "issueNumber": 50,
+  "title": "A secure web is here to stay",
+  "slug": "2018-02-26-050-a-secure-web-is-here-to-stay",
+  "date": "2018-02-26",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #8, 2018",
+  "quote": {
+    "text": "Humanity is acquiring all the right technology for all the wrong reasons",
+    "author": "R. Buckminster Fuller",
+    "authorTitle": "Inventor and Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/R._Buckminster_Fuller"
+  },
+  "links": [
+    {
+      "title": "A secure web is here to stay",
+      "url": "https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html",
+      "description": "Beginning in July 2018 with the release of Chrome 68, Chrome will mark all HTTP sites as “not secure”. Read how this is going to impact the web and hopefully make it more secure.",
+      "imageUrl": "./1fdea7bccb660db5c10caaafba9589d9aee1accc1cd053e1b0295abe31504153.png",
+      "featured": true
+    },
+    {
+      "title": "Everything Easy is Hard Again",
+      "url": "https://frankchimero.com/writing/everything-easy-is-hard-again",
+      "description": "Frank Chimero describes his new found relationship with web design, coming back to the field after a while everything that was easy before now is different and seems hard again. The struggle of every software developer to keep up with a constantly changing technology...",
+      "imageUrl": "./f8cab4bbfeca9e87bdc927501f48ca9d02ea5134f77dfda17d6558884580fa79.gif",
+      "featured": false
+    },
+    {
+      "title": "Replacing jQuery With Vue.js",
+      "url": "https://smashingmagazine.com/2018/02/jquery-vue-javascript",
+      "description": "Did you know that you can incorporate Vue into your project the same way that you would incorporate jQuery — with no build step necessary? This article by Sarah Drasner covers some common use cases in jQuery and how we can switch them over to Vue, and why we’d even want to do so.",
+      "imageUrl": "./bcdc3df7fe50eb3809b313e91fc64d84b98753deee838548a8b5902fefd7ef91.png",
+      "featured": false
+    },
+    {
+      "title": "SSE Instead Of WebSockets",
+      "url": "https://smashingmagazine.com/2018/02/sse-websockets-data-flow-http2",
+      "description": "What is the best way to deliver real-time updates to your web application in an easy and structured way? This article describes a new approach that uses SSE Instead Of WebSockets For Unidirectional Data Flow Over HTTP/2.",
+      "imageUrl": "./241d3c1f27cadd1f4a5efa017d25b05a369ca608d25118548967eddf021647ce.png",
+      "featured": false
+    },
+    {
+      "title": "Direction Aware Hover Effects",
+      "url": "https://css-tricks.com/direction-aware-hover-effects",
+      "description": "An implementation of an extremely particular design trick that never fails to catch people's eye! Check out the source code on Codepen.",
+      "imageUrl": "./62be515726d981052128d0e8ea4dc1bae731fa3e47bc03d4c2b9545ba90b30fa.jpg",
+      "featured": false
+    },
+    {
+      "title": "Build a React Native App and Authenticate with OAuth 2.0",
+      "url": "http://scotch.io/tutorials/build-a-react-native-app-and-authenticate-with-oauth-20",
+      "description": "Use React Native and AppAuth to create a native mobile application that authenticates with Okta.",
+      "imageUrl": "./94f6840aa329049e228602826b2b2f88dca164e47eca1d12ac770a3a0d04ef64.jpg",
+      "featured": false
+    },
+    {
+      "title": "Let's talk about usernames",
+      "url": "https://b-list.org/weblog/2018/feb/11/usernames",
+      "description": "subtitled \"The right way to do identity\", this is an essay that introduces a number of non-obvious observation about usernames and can help you to design support for username effectively in your next application.",
+      "imageUrl": "./26b45b50180ab6917a7addfa30702f9a87eaa252c7d920b82f00651dc0256549.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Information Architecture: For the Web and Beyond",
+    "author": "Louis Rosenfeld",
+    "description": "Information architecture (IA) is far more challenging—and necessary—than ever. With the glut of information available today, anything your organization wants to share should be easy to find, navigate, and understand. But the experience you provide has to be familiar and coherent across multiple interaction channels, from the Web to smartphones, smartwatches, and beyond.To guide you through this broad ecosystem, this popular guide—now in its fourth edition—provides essential concepts, methods, and techniques for digital design that have withstood the test of time.",
+    "coverImageUrl": "./6479919bd4c4e1ab7a2cbc0f5cf23b45ee7ca46af986574798fd02163903111f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491911689/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491911689/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

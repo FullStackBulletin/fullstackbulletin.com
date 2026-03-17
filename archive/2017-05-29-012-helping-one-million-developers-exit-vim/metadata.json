@@ -1,0 +1,75 @@
+{
+  "issueNumber": 12,
+  "title": "Helping One Million Developers Exit Vim",
+  "slug": "2017-05-29-012-helping-one-million-developers-exit-vim",
+  "date": "2017-05-29",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #21, 2017",
+  "quote": {
+    "text": "Imagination is the Discovering Faculty, pre-eminently. It is that which penetrates into the unseen worlds around us, the worlds of Science",
+    "author": "Ada Lovelace",
+    "authorTitle": "Mathematician",
+    "authorUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+  },
+  "links": [
+    {
+      "title": "Helping One Million Developers Exit Vim",
+      "url": "https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim",
+      "description": "In the five years since this question was asked, there have been over a million other developers who got stuck in Vim and couldn’t escape without a bit of help. Indeed, the difficulty of quitting the Vim editor is a common joke among developers.",
+      "imageUrl": "./97bc8d323d5b2fd4de871aaffef45a487e289f2a3fba353a05ed80b197cbf919.jpg",
+      "featured": true
+    },
+    {
+      "title": "kamranahmedse/developer-roadmap",
+      "url": "https://github.com/kamranahmedse/developer-roadmap",
+      "description": "a set of charts demonstrating the paths that you can take and the technologies that you would want to adopt in order to become a frontend, backend or a devops in 2017.",
+      "imageUrl": "./841aed9f4a86dd3c84009e139053a1b17d70b51403fcd078de3cd2b04a614428.png",
+      "featured": false
+    },
+    {
+      "title": "Web Developer Security Checklist",
+      "url": "https://simplesecurity.sensedeep.com/web-developer-security-checklist-f2e4f43c9c56",
+      "description": "Developing secure, robust web applications in the cloud is hard, very hard. If you think it is easy, you are either a higher form of life…",
+      "imageUrl": "./13ac016b2adeb349085d4ab4b2da3952be722d16a3cc1157617424d07a4549e5.jpg",
+      "featured": false
+    },
+    {
+      "title": "What's New in Create React App",
+      "url": "https://facebook.github.io/react/blog/2017/05/18/whats-new-in-create-react-app.html",
+      "description": "Less than a year ago, we introduced Create React App as an officially supported way to create apps with zero configuration. The project has since enjoyed tremendous growth, with over 950 commits by more than 250 contributors.",
+      "imageUrl": "./eab28b4cb123d5a9b6ac4b48c908fe17fdd77002cdfa9b67248a632b13d28983.jpg",
+      "featured": false
+    },
+    {
+      "title": "Progressive Web Apps with React.js",
+      "url": "https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-i-introduction-50679aef2b12",
+      "description": "Progressive Web Apps take advantage of new technologies to bring the best of mobile sites & native apps to users. They’re reliable, fast…",
+      "imageUrl": "./597194d29b71c9bbcc35dcb5a624b1d790bf12aaf2a6c547c026e4c7314e2871.jpg",
+      "featured": false
+    },
+    {
+      "title": "Improve the Performance of your JavaScript Web Application",
+      "url": "https://scotch.io/tutorials/improve-the-performance-of-your-javascript-web-application",
+      "description": "JavaScript is one if not the most popular programming language in the world. Found in web pages, software, mobile apps, console applications, etc. \n\nJavaScript is everywhere and it is definitely here to stay. The problem with this language is with its rise, a lot of applications that use it feel \"",
+      "imageUrl": "./df7103a590a18ad325fdf60816b9f3fc97253afb66c65dd10e6aeeae5cb79911.jpg",
+      "featured": false
+    },
+    {
+      "title": "A dive into spatial search algorithms",
+      "url": "https://medium.com/@agafonkin/a-dive-into-spatial-search-algorithms-ebd0c5e39d2a",
+      "description": "Searching through millions of points in an instant",
+      "imageUrl": "./664c6452e775c8ef01bf1e5ea33f3212a3310e7926f2f396f33ddbbe2efdaa94.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "You Don't Know JS: ES6 & Beyond",
+    "author": "Kyle Simpson",
+    "description": "As part of the \"You Don’t Know JS\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built. Learn new ES6 syntax that eases the pain points of common programming idioms. Organize code with iterators, generators, modules, and classes. Express async flow control with Promises combined with generators. Use collections to work more efficiently with data in structured waysLeverage new API helpers, including Array, Object, Math, Number, and String. Extend your program’s capabilities through meta programming.",
+    "coverImageUrl": "./dc82d3e22d7d2516883c5adc587d3a8817d011c764cda892712040ff1b3ea3e1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491904240/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491904240/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

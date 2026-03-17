@@ -1,0 +1,75 @@
+{
+  "issueNumber": 163,
+  "title": "Recoil - State management for React",
+  "slug": "2020-05-25-163-recoil-state-management-for-react",
+  "date": "2020-05-25",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #21, 2020",
+  "quote": {
+    "text": "Imagination is the Discovering Faculty, pre-eminently. It is that which penetrates into the unseen worlds around us, the worlds of Science",
+    "author": "Ada Lovelace",
+    "authorTitle": "Mathematician",
+    "authorUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+  },
+  "links": [
+    {
+      "title": "Recoil - State management for React",
+      "url": "https://recoiljs.org/",
+      "description": "Recoil is new state management library for React. Inspired by concepts popularized by MobX it is set to become a powerful yet simple alternative to Redux.",
+      "imageUrl": "./0e5b73994494354d7bd46716ad293dcdc12e6cfad6bfe5f01a2acd249ca43409.png",
+      "featured": true
+    },
+    {
+      "title": "ePub Files with Node.js",
+      "url": "http://thecodebarbarian.com/creating-epub-files-with-node-js",
+      "description": "ePub is a common format for eBook readers. Here's how you can use the epub-gen npm module to create an ePub from an HTML file.",
+      "imageUrl": "./88e1ff7e3c0e9c3e1f3589b4ed8424d4c43000dfcea2750727cc286162ae277e.png",
+      "featured": false
+    },
+    {
+      "title": "`lh` and `rlh` units in CSS",
+      "url": "https://css-tricks.com/lh-and-rlh-units",
+      "description": "There's some new units I was totally unaware of from the Level 4 spec for CSS values! The lh unit is \"equal to the computed value of line-height\" and rlh is the same only of the root element.",
+      "imageUrl": "./ba3b20ffc0b974663ccee9dc89aad0e63200e160bd68ba53d7e25f536b15de11.jpg",
+      "featured": false
+    },
+    {
+      "title": "Micro-Typography: How To Space And Kern Symbols",
+      "url": "https://smashingmagazine.com/2020/05/micro-typography-space-kern-punctuation-marks-symbols",
+      "description": "For hundreds of years, we have been using white space in typography. Today, in 2020, how do we add spacing to punctuation marks and other symbols, and how do we adjust the space on the left and right side in an easy and consistent way? It is actually not as easy and quick as it should be.",
+      "imageUrl": "./ec83614ec53541e72e1bc787aef152818043af4af33bd4b8431788105d555b67.jpg",
+      "featured": false
+    },
+    {
+      "title": "NectarJS - Compile your Javascript app",
+      "url": "https://nectarjs.com/",
+      "description": "NectarJS is a new JavaScript compiler that aims to produce No-VM, No-Bytecode, No-Garbage-Collector binaries. The project is still at its infancy but so far it seems very promising.",
+      "imageUrl": "./d11c0ef036ce143bda17a090049678aba3c514163e759bdfa01031f9c5c296e2.png",
+      "featured": false
+    },
+    {
+      "title": "new.css",
+      "url": "https://newcss.net/",
+      "description": "A classless CSS framework to write modern websites using only HTML. Simply beautiful!",
+      "imageUrl": "./7c0201723227f866836700111f30f3891a20a83a0adae58caae15223167c7882.jpg",
+      "featured": false
+    },
+    {
+      "title": "Fast and reliable cross-browser testing with Playwright",
+      "url": "https://medium.com/@arjunattam/fast-and-reliable-cross-browser-testing-with-playwright-155c0e8a821f",
+      "description": "Playwright is an interesting alternative to Google's Puppeteer library that, other than Google Chrome, allows you to write browser automation seamlessly also for Firefox and Safari.",
+      "imageUrl": "./289449ba60155c1616b2270de8e2921b892bbc826a3d3d1084ea5d6a756f3869.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "You Don't Know JS: ES6 & Beyond",
+    "author": "Kyle Simpson",
+    "description": "As part of the \"You Don’t Know JS\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built. Learn new ES6 syntax that eases the pain points of common programming idioms. Organize code with iterators, generators, modules, and classes. Express async flow control with Promises combined with generators. Use collections to work more efficiently with data in structured waysLeverage new API helpers, including Array, Object, Math, Number, and String. Extend your program’s capabilities through meta programming.",
+    "coverImageUrl": "./dc82d3e22d7d2516883c5adc587d3a8817d011c764cda892712040ff1b3ea3e1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491904240/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491904240/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

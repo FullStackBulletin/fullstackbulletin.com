@@ -1,0 +1,75 @@
+{
+  "issueNumber": 210,
+  "title": "Modern CSS Pseudo-Class Selectors",
+  "slug": "2021-05-10-210-modern-css-pseudo-class-selectors",
+  "date": "2021-05-10",
+  "templateType": "old-mailchimp",
+  "intro": "We help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "The art challenges the technology, and the technology inspires the art",
+    "author": "John Lasseter",
+    "authorTitle": "Director",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_Lasseter"
+  },
+  "links": [
+    {
+      "title": "Modern CSS Pseudo-Class Selectors",
+      "url": "https://smashingmagazine.com/2021/04/guide-supported-modern-css-pseudo-class-selectors",
+      "description": "The CSS Working Group Editor’s Draft for Selectors Level 4 includes several pseudo-class selectors that already have proposal candidates in most modern browsers. This guide will cover ones that currently have the best support along with examples to demonstrate how they work.",
+      "imageUrl": "./cd0ab3d1fab2df361342e48892ca0c3d24f92e84595dcf963c2de25019add3de.jpg",
+      "featured": true
+    },
+    {
+      "title": "How we ship code faster and safer with feature flags",
+      "url": "https://github.blog/2021-04-27-ship-code-faster-safer-feature-flags",
+      "description": "GitHub improves existing features and works on new ones all the time. This is possibly by using feature flags and it leads to shipping faster and with a lower risk for deployments.",
+      "imageUrl": "./043e6fedb454b758da8046b2703e31fadaea60a6e69dbc4a92620f41a518b048.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS Tips",
+      "url": "https://markodenic.com/css-tips",
+      "description": "Some interesting CSS tips and tricks you will not see in most of tutorials. Want an example? What about pure-CSS typing effect? :)",
+      "imageUrl": "./d8aeea129dbe755a647421ac80b86f2821d07ab7e3a9804516ebec431a75e934.jpg",
+      "featured": false
+    },
+    {
+      "title": "Incremental Static Regeneration With Next.js",
+      "url": "https://smashingmagazine.com/2021/04/incremental-static-regeneration-nextjs",
+      "description": "Incremental Static Regeneration (ISR) is a new evolution of the Jamstack, allowing you to update static content instantly without needing a full rebuild of your site. The hybrid approach of Next.js allows you to use ISR for e-commerce, marketing pages, blog posts, ad-backed media, and more.",
+      "imageUrl": "./f30f3cf4dc369291fbde76a5131918fa06c0cf254bd6bdb3d646141b04a95f1b.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript async iterators",
+      "url": "https://nodejsdesignpatterns.com/blog/javascript-async-iterators",
+      "description": "An in-depth exploration of JavaScript iteration protocols with a special focus on async iterators.",
+      "imageUrl": "./db8ccccd815e71b916403b0bb099cdc171339417df4b3166268f6b3edf5bfb2f.jpg",
+      "featured": false
+    },
+    {
+      "title": "The 10 Best Practices for Remote Software Engineering",
+      "url": "https://cacm.acm.org/opinion/articles/252174-the-10-best-practices-for-remote-software-engineering/fulltext",
+      "description": "Focusing on the human element of remote software engineer productivity.",
+      "imageUrl": "./445052f1dc5b3d1b2f443bcb696f3ea9c51b156dbc622e7cafa84a2c23dc2d0e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Customizing Tailwind CSS",
+      "url": "https://allround.io/quick-tips/customizing-tailwind-css",
+      "description": "Just like in the golden days of Bootstrap, popular CSS frameworks like Tailwind involve the danger of many websites looking very similar. In this article you will learn how to customise your Tailwind setup so that your website can have the unique look it deserves!",
+      "imageUrl": "./f4c74c52ecb19ac6fbc5006b6d1d91ff10f252cf9d6f3e1acb5cdc2930dc8896.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Go Programming Language",
+    "author": "Alan A. A. Donovan",
+    "description": "The Go Programming Language   is the authoritative resource for any programmer who wants to learn Go. It shows how to write clear and idiomatic Go to solve real-world problems. The book does not assume prior knowledge of Go nor experience with any specific language, so you’ll find it accessible whether you’re most comfortable with JavaScript, Ruby, Python, Java, or C++.",
+    "coverImageUrl": "./be6ca3847c1c5e1bb60721ca2947bb788e506e371357a6e933bcac0b448d6a7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134190440/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134190440/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

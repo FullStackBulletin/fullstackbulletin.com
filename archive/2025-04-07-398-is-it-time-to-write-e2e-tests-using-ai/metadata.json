@@ -1,0 +1,108 @@
+{
+  "issueNumber": 417,
+  "title": "Is it time to write E2E tests using AI?",
+  "slug": "2025-04-07-398-is-it-time-to-write-e2e-tests-using-ai",
+  "date": "2025-04-07",
+  "templateType": "mce-mailchimp",
+  "intro": "Hey folks! 👋\n\nThis week’s selection is packed with exciting content—and yes, there’s a bit of a recurring theme: **AI** and how it’s shaping the way we work as full-stack web developers. Not too surprising, right? It’s definitely something we’ll all need to live with (and ideally, leverage). Personally, I find this kind of content fascinating, and I hope you do too. And don’t worry—AI won’t be taking our jobs anytime soon. Probably...\n\nOn a personal note, last week I had the pleasure of attending **AWS Community Day Italy** in Milan, where I gave a talk on some advanced Serverless techniques for building secure and cost-efficient multi-tenant architectures. If that sounds up your alley, feel free to [check out the slides](https://fth.link/saas-it).\n\nAlso, I’m excited to share that the **podcast** I recorded with **Solomon Eseme** on using Rust for Serverless is finally out! If you’re curious about that intersection, you can [watch it here](https://www.youtube.com/watch?v=Zqi-zRoTErI).\n\nNow, let’s dive into some full-stack goodness!\n\nHave a great week!\n\nYour editor,\nLuciano",
+  "quote": {
+    "text": "To iterate is human, to recurse divine“",
+    "author": "L. Peter Deutsch",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/L._Peter_Deutsch"
+  },
+  "links": [
+    {
+      "title": "Is it time to let AI write our E2E tests?",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "description": "Imagine an AI that doesn’t just understand your UI, but can interact with it—click buttons, fill forms, and verify outcomes—all by reading structured accessibility data instead of staring at pixels. That’s what Microsoft’s new **Playwright MCP** is aiming for. By exposing a Model Context Protocol (MCP) server, it gives large language models the power to drive Playwright in a more semantic, accessible, and reliable way. And it’s not just for testing. This opens the door to a whole new class of automated workflows—think smart form fillers, assistants that navigate the web for you, or bots that perform repetitive UI tasks with context awareness. Of course, this isn’t going to remove the human from the loop (at least not anytime soon), but it might just take the edge off some of the boring bits of test automation. I’m definitely looking forward to giving this a spin the next time I have to write an E2E test that needs browser automation.",
+      "imageUrl": "./2d974bb5fc486114bc3487c008350bbf93bfb7ff2d01af10cfe21ae0fc60480a.png",
+      "featured": true
+    },
+    {
+      "title": "React Email 4.0",
+      "url": "https://resend.com/blog/react-email-4",
+      "description": "I’ve been using React Email in my latest work project, and honestly—it’s become my favorite way of crafting emails for web products. It gives you the flexibility of React, the power of components, and takes away a lot of the pain that usually comes with building HTML emails. It even automatically generates the plain text version for you, so you don’t have to worry about duplicating content or doing extra work for proper email client support. The new v4 release brings a bunch of solid improvements, especially around making sure your emails render reliably across the wild jungle of email clients and platforms. There’s a clear focus on polish and stability here, which makes it even easier to ship professional-looking emails without battling inconsistent styles and broken layouts. If you’re already building React apps, bringing that same mindset to email just feels... right.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "There is no \"Vibe Engineering\"",
+      "url": "https://serce.me/posts/2025-31-03-there-is-no-vibe-engineering",
+      "description": "Coding and engineering are often used interchangeably—but they’re not the same thing. Not even close. This article is a timely reminder that while writing code is a key part of building software, engineering is something else entirely. It’s about understanding constraints, making trade-offs, designing systems that are maintainable, reliable, and scalable—and communicating all of that clearly within a team. That’s why AI, no matter how good it gets at generating code, isn’t doing real engineering work. Not yet, anyway. It doesn’t understand context, business needs, user goals, or the long-term impact of architectural decisions. Which is why blindly handing over the reins to AI isn’t a clever shortcut—it’s a recipe for disaster. Instead, this is our chance to double down on what we, as humans, bring to the table: judgment, empathy, experience. And yes, we can use AI as an assistant—just not as a replacement.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The case against conversational interfaces",
+      "url": "https://julian.digital/2025/03/27/the-case-against-conversational-interfaces",
+      "description": "As conversational interfaces become more common—even for coding—not every problem needs to be solved with a blinking cursor and a vaguely helpful AI. In this sharp take, the author argues that chat-based UIs are often a poor substitute for clear, reliable, well-designed UX. They can feel vague, unpredictable, and—ironically—less human when what users really want is clarity and control. This isn’t an anti-AI rant, but a call for thoughtful design. Before adding a chatbot, ask yourself: is it actually improving the experience—or just adding friction disguised as friendliness?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Fancy React Components",
+      "url": "https://fancycomponents.dev/",
+      "description": "If you’re tired of building UI components from scratch but still want your app to look polished and original, Fancy Components might become your new favorite playground. It’s a collection of beautifully crafted, copy-paste-ready pieces built with Tailwind CSS and Radix UI primitives—so they’re not just stylish, they’re also accessible and composable. Two of my favorite touches? The satisfying underline animations on hover and those snappy typing effects you often see in hero sections. Small details, big vibes.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Why (even) Documenso moved off Next.js",
+      "url": "https://documenso.com/blog/why-we-moved-off-next-js",
+      "description": "Following on from last week’s featured article about switching from Next.js to React Router, here’s another thoughtful take—this time from the team at Documenso. They explain why they decided to leave Next.js behind, citing everything from dev experience quirks to framework complexity and performance trade-offs. Now, don’t get me wrong—I’m not anti-Next.js. I use it almost every day at work. But I do agree with many of these takes, and I’d really love to see Vercel take an honest look at these concerns. There’s a real opportunity here to make Next.js better for everyone—and at the same time, there are a few other frameworks that are perfectly capable of competing with it and definitely deserve a bit more spotlight (React Router, Astro, and TanStack being among my favourites).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Overengineered anchor links",
+      "url": "https://thirty-five.com/overengineered-anchoring",
+      "description": "Anchor links seem simple—click, scroll, done. But if you’ve ever implemented them, you might’ve hit the active anchor problem: headings near the bottom that can’t scroll into view properly. In this fun and slightly overengineered post, the author explores a range of solutions—from quick fixes to architecture-level madness. What really stands out, though, is the format: the blog pairs text on the right with synchronized animations on the left, making the whole experience incredibly interactive. Even if you’re not obsessed with anchor behavior, it’s worth a look just to get inspired by how effectively it teaches through motion.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Fullstack Vue: The Complete Guide to Vue.js",
+    "author": "Hassan Djirdeh, Nate Murray, and Ari Lerner",
+    "description": "Ready to Master Vue.js? What if you could master the entire framework - with solid foundations - in less time without beating your head against a wall? Imagine how quickly you could work if you knew the best practices and the best tools? Stop wasting your time searching and have everything you need to be productive in one, well-organized place, with complete examples to get your project up without needing to resort to endless hours of research.",
+    "coverImageUrl": "./0e54f571e116ea50414cbe86c8dcda9117c58b39514b241661d11bc6f84da15b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1987595297?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1987595297?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Web SVG",
+      "url": "https://websvg.com/"
+    },
+    {
+      "title": "Senior Developer Skills in the AI Age: Leveraging Experience for Better Results",
+      "url": "https://manuel.kiessling.net/2025/03/31/how-seasoned-developers-can-achieve-great-results-with-ai-coding-agents"
+    },
+    {
+      "title": "What is Local-first Web Development?",
+      "url": "https://alexop.dev/posts/what-is-local-first-web-development"
+    },
+    {
+      "title": "Building Resilient Payment Systems",
+      "url": "https://medium.com/ssense-tech/building-resilient-payment-systems-at-ssense-our-journey-towards-asynchronous-processing-56d46dc2b348"
+    },
+    {
+      "title": "Five Things AI Will Not Change",
+      "url": "https://metastable.org/five"
+    },
+    {
+      "title": "How to set up TypeScript with Node.js and Express",
+      "url": "https://blog.logrocket.com/express-typescript-node"
+    },
+    {
+      "title": "The (FREE) Node.js Book for Enterprise",
+      "url": "https://www.platformatichq.com/reports/the-node-book"
+    },
+    {
+      "title": "Moving data between S3-compatible storage (podcast)",
+      "url": "https://awsbites.com/142-escape-from-s3/"
+    }
+  ],
+  "sponsor": null
+}

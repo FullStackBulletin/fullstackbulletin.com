@@ -1,0 +1,75 @@
+{
+  "issueNumber": 299,
+  "title": "Announcing Rome v10",
+  "slug": "2022-11-14-286-announcing-rome-v10",
+  "date": "2022-11-14",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Technology feeds on itself. Technology makes more technology possible",
+    "author": "Alvin Toffler",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alvin_Toffler"
+  },
+  "links": [
+    {
+      "title": "Announcing Rome v10",
+      "url": "https://rome.tools/blog/2022/11/08/rome-10/",
+      "description": "The JavaScript tooling world is being taken by a storm of innovation featuring lower level languages like Rust or Go. This time, Rome, a new-ish tool written in Rust, aims to take over on ESLint and Prettier (and Babel) by offering a compatible API but much better performance! Check out the announcement to learn how it works!",
+      "imageUrl": "./062d3c609ee94ce1a6d194740585303f9702d53a4a57cde79a8d1458db1f7dd2.png",
+      "featured": true
+    },
+    {
+      "title": "What is a realm in JavaScript?",
+      "url": "https://weizman.github.io/",
+      "description": "This is a concept that is not discussed enough in JavaScript, while it is crucial to really understand how JavaScript is executed by browsers and backend runtimes like Node.js. Read this article to get an easy to understand explanation of what realms are in JavaScript!",
+      "imageUrl": "./fc93d0d1c22e63ecfe7af0ef323fc5a67ebdb5e8f286ddb2f39a3de5115245f6.png",
+      "featured": false
+    },
+    {
+      "title": "Leaning AWS by using kitties!",
+      "url": "https://awsbites.com/58-what-can-kitties-teach-us-about-aws/",
+      "description": "In the last episode of [AWS Bites podcast](https://awsbites.com/), we presented 4 project ideas you can build to practice your AWS skills and improve in different areas: web application development, data science, machine learning, and API development. One more reason to check this out: all the projects involve cats 🐈🐈‍⬛.",
+      "imageUrl": "./aac66b20c67b3fec4ff9a8195fa4917bcbeaea2f12fa6e2e400d224a3167d076.jpg",
+      "featured": false
+    },
+    {
+      "title": "Things your manager might not know",
+      "url": "https://jvns.ca/blog/things-your-manager-might-not-know",
+      "description": "How can you do the best possible work and help your manager recognize it? The two things are not obviously connected, so what can you do to improve the level of visibility of management and how can you establish healthy and positive communication? [Julia Evans](https://jvns.ca/) gives us some excellent tips here!",
+      "imageUrl": "./b32528faa23f1e2c6072c64a26c36d9566b7463bff8a7e6655ca00566f7c0e82.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to communicate effectively as a developer",
+      "url": "https://karlsutt.com/articles/communicating-effectively-as-a-developer",
+      "description": "If you liked the previous article, you'll love this one. It presents some tactical and strategic tips for writing effectively as a software developer. Something we should always strive to do better since written communication is such a big part of our work as software engineers.",
+      "imageUrl": "./3fc63cf79675bf980538dcdd9e558a356236c39cb5df1343d301ffc869ea564d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why do we need Generators in JavaScript?",
+      "url": "https://jrsinclair.com/articles/2022/why-would-anyone-need-javascript-generator-functions/",
+      "description": "Do you use Generator functions when developing software in JavaScript? Probably not, or probably not enough! So why should we care and what are the advantages of using Generator Functions? What kind of problems can they help us with? Let's find out!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Temporal API: better JavaScript Dates",
+      "url": "https://vladmihet.hashnode.dev/temporal-api-javascript-dates-but-better",
+      "description": "f you've ever worked with Dates in JavaScript, you sure know how clunky and hard to work with they are; that's why, recently, there has been a proposal for a brand new way of working with them, you've guessed it— Temporal API.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Node.js Design Patterns - Third Edition",
+    "author": "Mario Casciaro and Luciano Mammino",
+    "description": "Get the best out of Node.js by mastering  its most powerful components and patterns to create modular and scalable applications with ease. Create reusable patterns and modules by leveraging the new features of Node.js. Understand  the asynchronous single thread design of node and grasp all its features and patterns to take advantage of various functions. This unique guide will help you get the most out of Node.js and its ecosystem.",
+    "coverImageUrl": "./fac9378d8338322b40d13a6765090cc7bb22fc8b0942e8ecdbba151ca0492925.png",
+    "amazonUs": null,
+    "amazonUk": null
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

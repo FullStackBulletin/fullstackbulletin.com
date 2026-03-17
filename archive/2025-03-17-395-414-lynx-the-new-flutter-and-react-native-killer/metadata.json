@@ -1,0 +1,112 @@
+{
+  "issueNumber": 414,
+  "title": "#414: Lynx, the new Flutter and React Native killer?",
+  "slug": "2025-03-17-395-414-lynx-the-new-flutter-and-react-native-killer",
+  "date": "2025-03-17",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello,  and Happy St. Patrick's day! ☘️\nApologies for the radio silence the last couple of weeks! I took a much-needed holiday, hit the road, and even dared to leave the laptop at home. Pure bliss! If you're curious, check out [this picture](https://postimg.cc/NKSyzTkK) and reply to this email if you can guess where I was. 😉\n\nWhile I was off recharging my batteries, the full-stack web dev world, as always, didn't stop spinning. I'm especially excited about **Lynx** as a potential replacement for React Native and Flutter, and **TypeScript (compiler and tools) being ported to Go** for a 10x performance improvement, but I stumbled across some other killer content, too.\n\nCheck out this week's selection below! And promise me you won't miss the special MUST READ link at the very end... trust me, you'll thank me later.\n\n— *Your editor, Luciano*",
+  "quote": {
+    "text": "The function of good software is to make the complex appear to be simple“",
+    "author": "Grady Booch",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Grady_Booch"
+  },
+  "links": [
+    {
+      "title": "Lynx, the new Flutter and React Native killer?",
+      "url": "https://lynxjs.org/",
+      "description": "A couple of weeks ago, ByteDance (TikTok) launched **Lynx**, a JavaScript framework for building cross-platform apps (mobile and web), pitching itself as an alternative to React Native/Flutter. It uses a fork of QuickJS on Android and JavaScriptCore on iOS, plus an interesting multi-threaded architecture for better performance and to enable smooth animations. The potential is there, and new options are always welcome to challenge the status quo. That being said, it's early days. Building a serious project now might be... adventurous, to say the least! Worth a look at the [launch post](https://lynxjs.org/blog/lynx-unlock-native-for-more.html) and the project web page, though!",
+      "imageUrl": "./1e9e64111150ed1980be0fcc6288f387055836c0822dbfbb5760ae8db9af0ae6.png",
+      "featured": true
+    },
+    {
+      "title": "How to make web videos smaller with AV1",
+      "url": "https://evilmartians.com/chronicles/better-web-video-with-av1-codec",
+      "description": "YouTube and Netflix are doing it, and now you can too! This post shares a practical guide to using **AV1**, the next-gen video codec, to dramatically reduce file sizes (up to 50%!) while maintaining quality. The catch? Not all browsers support it natively yet (iPhone 15+ and M3 macs do). But the article walks you through creating fallback **H.264** versions using **FFmpeg**, ensuring everyone gets a smooth experience. Plus, they even show you how to ditch those bloated GIFs for smaller, more efficient AV1 video loops. If you work with media-heavy websites, this might be a great read!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Using & Styling the Details Element",
+      "url": "https://css-tricks.com/using-styling-the-details-element",
+      "description": "The `<details>` element is one of my favorites new-ish HTML elements, especially for creating those neat foldable sections like FAQ lists! This article is a goldmine, covering everything from basic markup and styling that little triangle to animating open/close states with cool new CSS (check out `interpolate-size`!). Plus, it dives into browser inconsistencies and unusual-but-awesome use cases like implementing floating footnotes.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Dithering in Colour",
+      "url": "https://obrhubr.org/dithering-in-colour",
+      "description": "Heard of dithering? It's how you fake more colors than you have. And it's not just for nostalgic throwbacks! This article dives into dithering colored images into custom palettes, perfect for that Game Boy vibe. Learn the tricks: linearizing for accurate colors, avoiding common pitfalls, and why PNGs are a must. Ready to give your next web project a unique, retro-punk touch?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Dive Into WebGPU",
+      "url": "https://okaydev.co/articles/dive-into-webgpu-part-1",
+      "description": "Okay, **WebGPU** might be outside your everyday webdev, BUT if you love computer graphics or dream of building the next award-winning stunning website (or just want to make your site truly unique), this 4-part series is gold! It's a hands-on introduction to WebGPU using the lightweight GPU-Curtains library. Learn everything from basic shaders and DOM-synced planes to a GLTF loader and particle systems animated with compute shaders! Time to explore the cutting edge of web graphics and impress everyone.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Powering Search With Astro Actions and Fuse.js",
+      "url": "https://css-tricks.com/powering-search-with-astro-actions-and-fuse-js",
+      "description": "I'm all about static sites (simple, cheap hosting!), but sometimes dynamic features are unavoidable. For search, I usually reach for [Orama](https://github.com/oramasearch/orama) (might've mentioned it before 😉), but this article pleasantly surprised me by showcasing [Fuse.js](https://www.fusejs.io/)! It's a lightweight, open-source alternative, demonstrated using Astro Actions. If you're already using Astro server actions, this might be a clever technique to get real-time search on your static core.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Node just added TypeScript support. What does that mean for Deno?",
+      "url": "https://deno.com/blog/typescript-in-node-vs-deno",
+      "description": "Node.js finally added native TypeScript! But how does it really stack up to Deno? This article (from Deno's perspective!) compares their TypeScript implementation to Node's new support. They make a case for Deno being more complete... for now. While I'm a Node.js diehard, I think Deno (and Bun) have been amazing for the ecosystem, even if the VC backing feels a bit unfair to Node's nonprofit, open-source heart. Node's TypeScript support is still young... will it eventually surpass Deno? My prediction: maybe!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Introduction to Networking: How the Internet Works",
+    "author": "Dr. Charles R Severance",
+    "description": "This book demystifies the amazing architecture and protocols of computers as they communicate over the Internet. While very complex, the Internet operates on a few relatively simple concepts that anyone can understand. Networks and networked applications are embedded in our lives. Understanding how these technologies work is invaluable. This book was written for everyone - no technical knowledge is required! While this book is not specifically about the Network+ or CCNA certifications, it as a way to give students interested in these certifications a starting point.",
+    "coverImageUrl": "./2390672034ad58acb1c8a0a782e44271f4fcd590e619908838a15fa94eeb169e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1511654945?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1511654945?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "🤯 MUST READ: A Million Little Secrets (Deconstructing the “Whimsical Animations” landing page)",
+      "url": "https://www.joshwcomeau.com/blog/whimsical-animations/"
+    },
+    {
+      "title": "A 10x Faster TypeScript",
+      "url": "https://devblogs.microsoft.com/typescript/typescript-native-port/"
+    },
+    {
+      "title": "How to make your open source popular",
+      "url": "https://evilmartians.com/chronicles/how-to-make-your-open-source-popular"
+    },
+    {
+      "title": "Async, Sync, in Between",
+      "url": "https://antfu.me/posts/async-sync-in-between"
+    },
+    {
+      "title": "The URL is a great place to store state in React",
+      "url": "https://iamsahaj.xyz/blog/react-state-in-the-url"
+    },
+    {
+      "title": "CSS Relative Colors",
+      "url": "https://ishadeed.com/article/css-relative-colors"
+    },
+    {
+      "title": "Prompt Engineering for Web Development",
+      "url": "https://sitepoint.com/prompt-engineering-for-web-development"
+    },
+    {
+      "title": "Async Rust for Dummies",
+      "url": "https://blog.veeso.dev/blog/en/async-rust-for-dummies"
+    },
+    {
+      "title": "Authority and Accountability",
+      "url": "https://cadienvan.github.io/blog/en/authority-and-accountability"
+    }
+  ],
+  "sponsor": null
+}

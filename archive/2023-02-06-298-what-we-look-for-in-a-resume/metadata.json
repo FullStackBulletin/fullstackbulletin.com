@@ -1,0 +1,75 @@
+{
+  "issueNumber": 311,
+  "title": "What we look for in a resume",
+  "slug": "2023-02-06-298-what-we-look-for-in-a-resume",
+  "date": "2023-02-06",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "It has become appallingly obvious that our technology has exceeded our humanity",
+    "author": "Albert Einstein",
+    "authorTitle": "Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "links": [
+    {
+      "title": "What we look for in a resume",
+      "url": "https://huyenchip.com/2023/01/24/what-we-look-for-in-a-candidate.html",
+      "description": "With everything that is happening in the tech industry, you might currently be on the hunt for a new role (and in fairness, in tech, we are always on the lookout for new exciting opportunities)... So you are thinking about rewriting your CV. But how can you make it stand out? In this article you can get the perspective of someone looking at tons of tech CV and learn about what they value the most.",
+      "imageUrl": "./7f5c4e2eb7b69f04ef7c40f347f24e5cf6f5cfd201ddf9d03ad62a93a012129f.png",
+      "featured": true
+    },
+    {
+      "title": "Deep Cloning Objects in JavaScript, the Modern Way",
+      "url": "https://builder.io/blog/structured-clone",
+      "description": "Forget about `lodash`, now JavaScript has a built-in function for deep cloning objects. It's called `structuredClone` and in this article, there's everything you need to know to start being proficient with it!",
+      "imageUrl": "./618c6f01a349fc3cdc882557dd99958d616964f03761d99c50ea0830e10628ad.jpg",
+      "featured": false
+    },
+    {
+      "title": "barba.js",
+      "url": "https://barba.js.org/",
+      "description": "If you are looking for a simple trick to spice up your website, here's an interesting idea: page transition effects. This library called barba.js makes it very easy to achieve and it's extremely configurable, so you can customise the 💩 out of it!",
+      "imageUrl": "./c62a2ce98eeaaab86b8b4f9fdc25c4cf75e373222d6051a563bccd42c67cd1f1.png",
+      "featured": false
+    },
+    {
+      "title": "How to build a secure API gateway in Node.js",
+      "url": "https://snyk.io/blog/how-to-build-secure-api-gateway-node-js",
+      "description": "In this article, you'll learn how to build a secure API gateway from scratch using only Node.js and a couple of open-source packages. All you need is basic knowledge of your terminal, Node.js version 14 or later, and JavaScript. And you'll be learning a few interesting things about security, which is always a nice bonus!",
+      "imageUrl": "./22fe2f4dcab9c9e02937d27c29ae76a246f2eb8d0bcdd4c81f7ff318537cc2ae.jpg",
+      "featured": false
+    },
+    {
+      "title": "Examples of floating point problems",
+      "url": "https://jvns.ca/blog/2023/01/13/examples-of-floating-point-problems",
+      "description": "As a software developer, you are probably seeing floating point variables pretty much everywhere. But you should also know that floating points are a nice abstraction that is effective but not always accurate. So what are the pitfalls to be aware of and what are some examples of what can happen when floating point maths goes bad?!",
+      "imageUrl": "./a02a95ca38ac3db35728d318dac84fb612cfe5fb762afc460cbd15fa834735bf.png",
+      "featured": false
+    },
+    {
+      "title": "Atkinson Dithered Images",
+      "url": "https://sheep.horse/2023/1/improved_web_component_for_pixel-accurate_atkinson.html",
+      "description": "Dithered images are extremely fascinating. I mean, how cool it is that you can get the feeling of greyscale pictures with just plain black-and-white colors (yes, 2 colors only)?! This article showcases a fantastic web component that you can use to create dithered effects with your images.",
+      "imageUrl": "./15a244cfba9df2d55b4ce6d88229b98709c87e47b1c4fa57d86d3be4b4633d5a.png",
+      "featured": false
+    },
+    {
+      "title": "4 Common Mistakes Made by Node.js Developers",
+      "url": "https://amplication.com/blog/4-common-mistakes-made-by-nodejs-developers",
+      "description": "If you are trying to ship a Node.js application to production you might want to check out this particular article and learn what are some of the most common errors and address them before shipping time 🚢.",
+      "imageUrl": "./6c86063b7b6158d9105333c852e6185f9180c1cc37ba817743431d09766ac3d8.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "PHP and MySQL Web Development (5th Edition) (Developer's Library)",
+    "author": "Luke Welling",
+    "description": "PHP and MySQL are popular open-source technologies that are ideal for quickly developing database-driven Web applications. PHP is a powerful scripting language designed to enable developers to create highly featured Web applications quickly, and MySQL is a fast, reliable database that integrates well with PHP and is suited for dynamic Internet-based applications",
+    "coverImageUrl": "./215552defe4b9e1ca9846aa5b85f2a20bdf3752b7580570be5a6d3bda1582bfa.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321833899/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321833899/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

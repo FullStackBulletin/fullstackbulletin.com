@@ -1,0 +1,104 @@
+{
+  "issueNumber": 426,
+  "title": "The (Lost?) Art of Reinventing the Wheel",
+  "slug": "2025-06-09-406-the-lost-art-of-reinventing-the-wheel",
+  "date": "2025-06-09",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello,  👋\nThis week’s issue came together with a theme I didn’t plan... but absolutely love! It’s all about **reinvention**. Not just of the wheel, but of frameworks, engines, runtimes, mental models... you name it. We’ve got a brand new JavaScript engine written in Rust, yet another story about moving away from Next.js, a CSS experiment that nobody asked for but secretly teaches us something, and a wild tool that runs PHP and Node.js together. Yes, really.\n\nIt’s a great reminder that our field is in constant motion. The tools we use today might be gone or significantly change tomorrow. The patterns we follow might get flipped on their heads. And that’s not always easy... it can be frustrating, even exhausting. But it can also be inspiring and fun, because when you embrace this mindset, software development stops being repetitive and becomes an adventure.\n\nThat’s what FullStack Bulletin is here for. A little weekly dose of curiosity and clarity. To help you stay sharp, stay playful, and maybe even feel a little less alone in the chaos.\n\nHappy reading and reinventing!\n\n—Luciano\n\nP.S. And speaking of reinvention... I’ve just announced the new edition of my book [Node.js Design Patterns](https://www.nodejsdesignpatterns.com/)! Hard to believe we’re hitting the 4th edition, 11 years after the first one. If you want to know what’s new, here’s the [announcement post](https://bsky.app/profile/did:plc:567st5nby2tokcv2kyy5ofzh/post/3lqmhhjrwbc22). I’d love to hear what you think, so feel free to reply here or to reach me on socials to have a chat!",
+  "quote": {
+    "text": "UNIX is simple. It just takes a genius to understand its simplicity“",
+    "author": "Dennis Ritchie",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+  },
+  "links": [
+    {
+      "title": "The (Lost?) Art of Reinventing the Wheel",
+      "url": "https://endler.dev/2025/reinvent-the-wheel",
+      "description": "How many times have you looked at a new trending library on GitHub and said *“yet another validation library”* (or ORM, or framework, or JavaScript runtime... you name it)? This article makes a strong case for why that reaction might be short-sighted. Instead of dismissing repeated efforts, it argues that reinventing the wheel is often where real innovation happens. By rebuilding familiar tools like a custom web server or a new string library, you gain insight into the trade-offs, constraints, and hidden complexities that polished tools usually hide. Sometimes, doing the obvious thing again is exactly how we get better, more refined approaches. And hey, even if your project doesn’t turn into the next big thing or an earth-shattering breakthrough, there’s still huge value in the effort. Just by trying to rebuild something that interests you, you’ll sharpen your skills, deepen your understanding, and maybe even help others learn too. Sometimes the win isn't the thing you built. It's everything you learned building it.",
+      "imageUrl": "./17de66cfce01e4959fc2c2a6cc177acde6005c9a2a7e37a877115652e01142e5.jpg",
+      "featured": true
+    },
+    {
+      "title": "Reinventing... Remix!",
+      "url": "https://remix.run/blog/wake-up-remix",
+      "description": "And speaking of reinventing the wheel, the Remix team is doing just that with their latest announcement. After integrating much of Remix's functionality into React Router v7, they've decided to reimagine Remix from the ground up. This new iteration, Remix v3, aims to be a full-stack framework that's lighter, faster, and more aligned with modern web development practices. They're starting with a fork of **Preact**, moving away from React, and focusing on principles like model-first development, building on Web APIs, and minimizing dependencies. It's a bold move that challenges conventional approaches and invites developers to think differently about building for the web. Whether or not it becomes the next big thing, the educational value and fresh perspective it offers are undeniable.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Search Params Are State",
+      "url": "https://tanstack.com/blog/search-params-are-state",
+      "description": "How many times have you built some kind of sortable or filterable data table where you passed query string parameters to control things like sorting or filtering? Now imagine if changes to that table (like clicking a column header to re-sort) automatically updated the URL too. No extra glue code. Just clean, bidirectional sync between the UI and the query string. That would make your “state” not only persistent, but also shareable. Copy the URL, send it to a teammate, and boom, they see the exact same view. This article lays out a compelling case for treating search params as first-class state. Instead of wrangling them with hand-rolled utils, you define schemas right in your routes. You get type safety, validation, and a better mental model for your app. It’s the kind of idea that sounds obvious once you see it, and one you’ll want to adopt the next time you’re juggling filters, pagination, or search.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Nova",
+      "url": "https://trynova.dev/",
+      "description": "Yes, once again we are reinventing something... and this time, guess what? **Yet another JavaScript engine!** Nova is a new JavaScript and WebAssembly engine written in Rust, designed around data-oriented principles instead of traditional object-oriented patterns. It stores data in type-specific vectors for better memory efficiency and cache performance, more like a game engine than a JS runtime. It’s still in early development, passing about 66% of the Test262 suite, but already shows promise. Nova’s architecture is built for minimal overhead and maximum control. If you're curious about [their design principles](https://trynova.dev/blog/working-for-the-internet) or want to peek inside their custom [garbage collector](https://trynova.dev/blog/guide-to-nova-gc), their blog is full of thoughtful posts on the design. It’s not production-ready, but it’s a bold and geeky take on what a JS engine of the future can be. Definitely one to watch.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "CSS Spotlight Effect",
+      "url": "https://frontendmasters.com/blog/css-spotlight-effect",
+      "description": "Ever seen a CSS spotlight effect that follows your mouse like you're on stage? This post shows you exactly how to build one using a clever combo of JavaScript for mouse tracking and CSS custom properties, gradients, and filters to pull off a glowing, animated trail. Now, I’m not entirely sure where or when this particular effect would actually make sense (probably never), but the underlying techniques are genuinely intriguing. Things like dynamic gradients, layered masks, and blend modes could absolutely be reused in more practical, subtle UI moments. Think hover effects, focus states, or delightful interactions that make your site feel more alive.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Migrate from Next.js to TanStack Start",
+      "url": "https://tanstack.com/start/latest/docs/framework/react/migrate-from-next-js",
+      "description": "Another Week, Another Story on Moving Away from Next.js... I swear, I don't hate Next.js. I've used it extensively and have generally been happy with it. But I can't deny that it has its quirks, and I'm always on the lookout for something that could potentially be more ergonomic while still being powerful and performant. TanStack Start, although not 100% ready for production, is absolutely promising. This guide provides a step-by-step process to migrate a project from the Next.js App Router to TanStack Start, aiming to make the transition as smooth as possible.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "PHP and Node.js: Together at Last?",
+      "url": "https://github.com/platformatic/php-node",
+      "description": "Our friends at Platformatic have unveiled another intriguing open-source project. After introducing [Watt](https://docs.platformatic.dev/docs/watt/overview) (a Node.js application web server designed for multi-threaded request handling) they're now venturing into PHP territory. Yes, you read that right: PHP! With `@platformatic/php-node`, you can run PHP applications within the same process as a Node.js application, enabling direct communication between Node.js and PHP without any network connection in between. This opens up fascinating possibilities, such as running WordPress with a Next.js frontend on the same web server. The project is written in Rust, so if you've been curious about Rust, this could be an excellent repository to explore and contribute to.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "React: Up & Running",
+    "author": "Stoyan Stefanov",
+    "description": "Hit the ground running with React, the open source technology from Facebook for building rich web applications fast. Updated for the latest React release, the second edition of this hands-on guide shows you how to build React components and organize them into maintainable large-scale apps. If you're familiar with JavaScript syntax, you're ready to get started. Through the course of this book, author Stoyan Stefanov helps web developers and programmers build a complete single-page application. You'll quickly learn why some developers consider React the key to the web app development puzzle.",
+    "coverImageUrl": "./fbf70d6d0a64a42b8e5b476c3e0c99072fcc314ee45b7df68c948d1d1569d2a4.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492051462?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492051462?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Cap: Modern, Open-source PoW CAPTCHA for JavaScript",
+      "url": "https://capjs.js.org/"
+    },
+    {
+      "title": "On JavaScript Errors",
+      "url": "https://haydenbleasel.com/blog/on-javascript-errors"
+    },
+    {
+      "title": "The 3 Ways JavaScript Frameworks Render the DOM (video)",
+      "url": "https://youtube.com/watch?v=0C-y59betmY"
+    },
+    {
+      "title": "Iterator helpers have become Baseline Newly available",
+      "url": "https://web.dev/blog/baseline-iterator-helpers"
+    },
+    {
+      "title": "Announcing Angular v20",
+      "url": "https://blog.angular.dev/announcing-angular-v20-b5c9c06cf301"
+    },
+    {
+      "title": "Multithreading in JavaScript with Web Workers",
+      "url": "https://honeybadger.io/blog/javascript-web-workers-multithreading"
+    },
+    {
+      "title": "Pope Francis’ Tomb: A Type Tragedy",
+      "url": "https://pimpmytype.com/pope-francis"
+    }
+  ],
+  "sponsor": null
+}

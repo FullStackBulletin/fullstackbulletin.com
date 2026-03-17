@@ -1,0 +1,168 @@
+{
+  "issueNumber": 458,
+  "title": "An Interactive Intro to CRDTs",
+  "slug": "2026-03-09-438-an-interactive-intro-to-crdts",
+  "date": "2026-03-09",
+  "templateType": "buttondown-markdown",
+  "intro": "Welcome back,\n\nLast week I started a new project at work and it has been one of those wonderfully chaotic weeks where one interesting problem keeps leading to three more. I ended up doing a ton of research, and I will admit that I occasionally went a little off the rails into tangents that were not exactly relevant, but were definitely fun.\n\nThis issue is very much the result of that kind of week. There is a lot of variety in the selection, and it was genuinely hard to pull together a coherent top 7. Still, I think there is a lot of great stuff in here, and I hope it gives you plenty of ideas and inspiration.\n\nOn top of that, I am still spending a significant amount of time learning and building AI-powered web applications and agents. Since AWS is usually my main deployment target, that has also meant spending a lot of time with Amazon Bedrock. Recently I went deep into Structured Outputs, really into the nitty-gritty details, and I found it much more fascinating than I initially expected. So I decided to write an in-depth article with everything I learned: [Understanding Amazon Bedrock Structured Outputs](https://fourtheorem.com/amazon-bedrock-structured-outputs/). We also recorded a new episode of AWS Bites entirely dedicated to Bedrock and why you might want to use it: [153. LLM Inference with Bedrock](https://awsbites.com/153-llm-inference-with-bedrock/).\n\nI hope you will enjoy the full selection and, as always, if anything resonates with you, reply to this email and let me know. I really do read every single one of your emails!\n\nKeep learning, keep shipping!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "The most powerful tool we have as developers is automation",
+    "author": "Scott Hanselman",
+    "authorTitle": "Software Developer",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "An Interactive Intro to CRDTs",
+      "url": "https://jakelazaroff.com/words/an-interactive-intro-to-crdts",
+      "description": "If you have ever used Figma, Notion, or Google Docs and wondered how multiple people can edit at the same time without everything falling into conflicting chaos, part of the answer is CRDTs. This is one of those topics that gets referenced a lot, but rarely explained well. I really enjoyed this article because it finally gave me a solid intuitive understanding of how some of these fantastic data structures work, and it turns out they are not that complicated after all. The interactive demos make learning genuinely fun, and much easier to follow. I hope you will enjoy this featured piece as much as I did!",
+      "imageUrl": "./d84a89c0af49db8c1e65d6569927af5ab79574d6eb6712d1ddc48dab4b392561.png",
+      "featured": true
+    },
+    {
+      "title": "Proxying fetch requests in server-side JavaScript",
+      "url": "https://humanwhocodes.com/blog/2026/03/proxying-fetch-requests-server-side-javascript/",
+      "description": "This is a very practical piece on something that does not sound glamorous, but absolutely matters in real systems: routing `fetch()` requests through a standard HTTP proxy. If you ever need outbound traffic control for logging, caching, policy enforcement, debugging, or IP masking, this will quickly become relevant. I liked that the article stays grounded and compares how different runtimes approach the problem, including Node.js, Deno, Bun, and Cloudflare Workers, with a look at the newer Node.js support for proxy-related environment variables. This is definitely one to bookmark for future-you.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Node.js: Evolving the Node.js Release Schedule",
+      "url": "https://nodejs-org-git-fork-ulisesgascon-release-announcement-openjs.vercel.app/en/blog/announcements/evolving-the-nodejs-release-schedule",
+      "description": "If you have been using Node.js for a while, you probably know the rule of thumb: even-numbered releases are the long-term stable ones, while odd-numbered releases have mostly been short-lived stepping stones toward the next LTS. That is now changing. Starting with 27.x, Node.js is moving from two major releases per year to one. This is a pretty meaningful ecosystem shift, especially if you maintain libraries, CI matrices, or internal platform docs. If your team already follows the LTS cadence, though, this should feel more like simplification than disruption. Versioning gets easier to reason about, odd-numbered releases stop being a strange special case, and the broader release story becomes much more predictable.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "External import maps, today!",
+      "url": "https://lea.verou.me/blog/2026/external-import-maps-today/",
+      "description": "**Import maps** are designed exactly for this kind of problem: managing dependencies in browser apps without needing a full build pipeline. The catch is that, while import maps themselves are already here, one key piece, **external import maps**, is still not supported natively, so this article shows a very clever workaround you can use today. The trick is to inject an import map dynamically from a classic blocking script before modules load, which gets you much closer to centralized import map management right now. If the problem statement is not fully clear yet, there is also a helpful [companion article](https://lea.verou.me/blog/2026/web-deps/) that explains the broader context. I really like pieces like this because they show how the web platform is already more capable than we often assume. It is also a nice reminder that you can start adopting future-facing techniques today, while browsers catch up, and begin future-proofing your web apps right away.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Getting Started With The Popover API",
+      "url": "https://www.smashingmagazine.com/2026/03/getting-started-popover-api/",
+      "description": "And speaking of the web platform, I am always happy when the browser absorbs a whole category of JavaScript workarounds. This article makes a strong case that the Popover API is not just a nice convenience, but a real upgrade in how we build interactive UI. The examples focus mostly on tooltips, but the broader takeaway is that the browser can now handle more of the interaction model for us, including keyboard behavior, dismissal rules, and part of the accessibility wiring. Less code, fewer footguns, better defaults. Very hard to complain about that. And if you enjoy this kind of deep dive, there is also [another excellent post](https://css-tricks.com/poppin-in/) that probably does an even better job of showing incremental examples of how to put the Popover API to work.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Design Systems Checklist",
+      "url": "https://tylercoderre.com/projects/design-systems-checklist.html",
+      "description": "In my career I had the chance to work on a few modernization projects where building and rolling out a corporate design system was one of the key ingredients for success. Creating the system has its own challenges, of course, but in my experience adoption is usually the part that really makes or breaks the whole effort. That is why I liked this resource so much. It is refreshingly concrete and turns a broad, sometimes fuzzy topic into a practical checklist that covers everything from design language and foundations to core components and long-term maintenance. What makes it especially valuable is that you can use it at the beginning of a project like this to shape your strategy, but also later on as a sanity check for your implementation. A complete, clear, and well-executed design system gives you a much better chance of driving real adoption across teams.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Making keyboard navigation effortless",
+      "url": "https://blogs.windows.com/msedgedev/2026/03/05/making-keyboard-navigation-effortless/",
+      "description": "I admit I am not someone who uses the keyboard that much to navigate the web, and that is probably why, whenever I read about this topic, I feel like I need to pay extra attention to make up for my own bias. Keyboard navigation is such an important part of web accessibility, and we all need to make a more deliberate effort to ensure what we build is usable by everyone. This article is a good reminder of that. It even notes that, according to the Web Almanac, about 50% of websites do not use `tabindex`, one of the common techniques for enabling keyboard navigation on the web. What I liked here is that the piece frames keyboard support not as a compliance chore, but as a core part of making interfaces genuinely usable. If you build custom widgets, form-heavy flows, or admin UIs, this is well worth your attention.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Art of Computer Programming, Vol. 1: Fundamental Algorithms, 3rd Edition",
+    "author": "Donald Knuth",
+    "description": "This first volume in the series begins with basic programming concepts and techniques, then focuses more particularly on information structures-the representation of information inside a computer, the structural relationships between data elements and how to deal with them efficiently. Elementary applications are given to simulation, numerical methods, symbolic computing, software and system design. Dozens of simple and important algorithms and techniques have been added to those of the previous edition. The section on mathematical preliminaries has been extensively revised to match present trends in research.",
+    "coverImageUrl": "./d986bbc806fffecd14bf633073f88d6c731e51be9d6b746075c416be8b413fa0.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0201896834",
+    "amazonUk": "https://www.amazon.co.uk/dp/0201896834"
+  },
+  "additionalLinks": [
+    {
+      "title": "MicroGPT explained interactively",
+      "url": "https://growingswe.com/blog/microgpt"
+    },
+    {
+      "title": "Seven years migrating to TypeScript at Patreon",
+      "url": "https://www.patreon.com/posts/seven-years-to-typescript-152144830"
+    },
+    {
+      "title": "AI And The Ship of Theseus",
+      "url": "https://lucumr.pocoo.org/2026/3/5/theseus/"
+    },
+    {
+      "title": "The Different Ways to Select HTML in CSS",
+      "url": "https://css-tricks.com/the-different-ways-to-select-html-in-css/"
+    },
+    {
+      "title": "Responsive Type Doesn't Have to Be Complicated",
+      "url": "https://www.oddbird.net/2026/02/19/winging-it-29/"
+    },
+    {
+      "title": "Locutus, TypeScript ports of standard library functions from 18 programming languages, with per-function npm imports so you only pull in what you need",
+      "url": "https://locutus.io/"
+    },
+    {
+      "title": "On Adding Homepage Delight",
+      "url": "https://karlkoch.me/writing/on-adding-homepage-delight"
+    },
+    {
+      "title": "AI Taxonomy, an operational framework for precision in AI discourse",
+      "url": "https://dropleaf.app/d/AlXez8scbd"
+    },
+    {
+      "title": "Typescale AI, a visual typography scale and design token generator for web UI",
+      "url": "https://typescale.ai/"
+    },
+    {
+      "title": "A Complete Guide to Bookmarklets",
+      "url": "https://css-tricks.com/a-complete-guide-to-bookmarklets/"
+    },
+    {
+      "title": "Distinguishing Components and Utilities in Tailwind",
+      "url": "https://css-tricks.com/distinguishing-components-and-utilities-in-tailwind/"
+    },
+    {
+      "title": "Chip Away, a thoughtful essay on designing interfaces that age well by removing rough edges one small improvement at a time",
+      "url": "https://blog.damato.design/posts/chip-away/"
+    },
+    {
+      "title": "React is changing the game for streaming apps with the Activity component",
+      "url": "https://www.mux.com/blog/react-is-changing-the-game-for-streaming-apps-with-the-activity-component"
+    },
+    {
+      "title": "TinyBase, a reactive data store and sync engine with native CRDT support and multiple persistence options",
+      "url": "https://tinybase.org/"
+    },
+    {
+      "title": "react-awesome-slider, a lightweight React slider and carousel component focused on smooth media and content transitions",
+      "url": "https://github.com/rcaferati/react-awesome-slider"
+    },
+    {
+      "title": "WarGames Terminal Fonts, faithful recreations of the terminal font from the 1983 film for use on modern computers",
+      "url": "https://mw.rat.bz/wgterm/"
+    },
+    {
+      "title": "How to supercharge your design system with slots",
+      "url": "https://www.figma.com/blog/supercharge-your-design-system-with-slots/"
+    },
+    {
+      "title": "Ply, build cross-platform applications for desktop, mobile, and the web using Rust",
+      "url": "https://plyx.iz.rs/"
+    },
+    {
+      "title": "Nobody ever got fired for using a struct",
+      "url": "https://www.feldera.com/blog/nobody-ever-got-fired-for-using-a-struct"
+    },
+    {
+      "title": "Dinero.js, an immutable JavaScript and TypeScript library to create, calculate, and format money safely",
+      "url": "https://www.dinerojs.com/"
+    },
+    {
+      "title": "unbarrelify, a tool to remove barrel files from ESM JavaScript and TypeScript projects",
+      "url": "https://github.com/webpro-nl/unbarrelify"
+    },
+    {
+      "title": "An Exploit in CSS?!",
+      "url": "https://css-tricks.com/an-exploit-in-css/"
+    },
+    {
+      "title": "The Odometer Effect (without JavaScript)",
+      "url": "https://frontendmasters.com/blog/the-odometer-effect-in-css/"
+    }
+  ],
+  "sponsor": null
+}

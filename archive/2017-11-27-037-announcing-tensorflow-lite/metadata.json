@@ -1,0 +1,75 @@
+{
+  "issueNumber": 37,
+  "title": "Announcing TensorFlow Lite",
+  "slug": "2017-11-27-037-announcing-tensorflow-lite",
+  "date": "2017-11-27",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #47, 2017",
+  "quote": {
+    "text": "The difference between theory and practice is that in theory, there is no difference between theory and practice",
+    "author": "Richard Moore",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Richard_Moore"
+  },
+  "links": [
+    {
+      "title": "Announcing TensorFlow Lite",
+      "url": "https://developers.googleblog.com/2017/11/announcing-tensorflow-lite.html",
+      "description": "Google just released a lighter version of their famous Machine Learning framework TensorFlow that targets mobile and embedded devices. With this new version new possibilities are unlocked especially where performance matters, so if you are starting to explore Machine Learning or you are already proficient with it, this is worth checking out.",
+      "imageUrl": "./732e46891844d35e49d6937f877f283757edf9f60801db5f17abcbbc842007a2.jpg",
+      "featured": true
+    },
+    {
+      "title": "The Cost Of JavaScript",
+      "url": "https://medium.com/dev-channel/the-cost-of-javascript-84009f51e99e",
+      "description": "A fantastic article by Addy Osmani that illustrates a number of different techniques that you can use while packaging your JavaScript code to make it smaller and more efficient for the browser to download and execute. A must read if you ever have to release frontend facing code (who doesn't!).",
+      "imageUrl": "./3fbad9ae5a4fe77c2790745a8617db68da545d23a69d718fde60d31a9879444c.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Most Important Rule in UX Design that Everyone Breaks",
+      "url": "https://blog.prototypr.io/the-most-important-rule-in-ux-design-that-everyone-breaks-1c1cb188931",
+      "description": "This article explores the \"Miller's law\", a well known (but also well forgotten) principle applied mostly to improve User Experience design. The same principle can be applied in many other fields, including personal life management. If you never heard about the Miller's law, be sure to check this article out.",
+      "imageUrl": "./9d39e81b1cc198aad56435a0a9bb516e7949f35020db5df4d8c210e5fc651525.jpg",
+      "featured": false
+    },
+    {
+      "title": "Optimizing web servers for high throughput and low latency",
+      "url": "https://blogs.dropbox.com/tech/2017/09/optimizing-web-servers-for-high-throughput-and-low-latency",
+      "description": "This article from the Dropbox Traffic Team explores different ways to tune web servers and proxies. It will give you a lot of practical insights if you are looking to improve reliability, performance, and efficiency of a web server.",
+      "imageUrl": "./2484283d7aebb4995440c1d6f3bc3b6170c3d1846661901d882eb4c673f79ed2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Introducing security alerts on GitHub",
+      "url": "https://github.com/blog/2470-introducing-security-alerts-on-github",
+      "description": "Last month, GitHub made easier to keep track of the projects your code depends on with the dependency graph, currently supported in Javascript and Ruby. Check out this new feature that will help you to trust external dependencies more and to keep your codebase more secure.",
+      "imageUrl": "./b96ba35966e418576cd787e524673170a71d3898c75f9415b7346295de8848ae.jpg",
+      "featured": false
+    },
+    {
+      "title": "WebAssembly in browsers",
+      "url": "https://blog.mozilla.org/blog/2017/11/13/webassembly-in-browsers",
+      "description": "Apple and Microsoft are shipping WebAssembly support in the latest versions of Safari and Edge, so all four major browsers can now run code compiled to the super-fast wasm format. Are you ready to start shipping some WebAssembly?",
+      "imageUrl": "./2add23118e6e4b6fb664c801ff74f17f501918bf54617e1b8ee142fd25fdbe80.jpg",
+      "featured": false
+    },
+    {
+      "title": "Netflix functions without client-side React",
+      "url": "https://jakearchibald.com/2017/netflix-and-react",
+      "description": "Netflix improved performance by deferring react on the client, but this doesn't reflect badly on React. In this article by Jake Archibald, you can get a different perspective on how to use React and how it affects server and client-based rendering.",
+      "imageUrl": "./4e5f1ae3a5e30b9098c47170aeba201903baaa90ca8a946cc04b4edb5310c84d.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elixir in Action",
+    "author": "Saša Jurić",
+    "description": "Elixir in Action teaches you to apply the new Elixir programming language to practical problems associated with scalability, concurrency, fault tolerance, and high availability. Elixir is a modern programming language that takes advantage of BEAM, the Erlang virtual machine, without the burden of Erlang's complex syntax and conventions. Elixir gives you Ruby-like elegance with the power to develop bulletproof distributed server systems that can handle massive numbers of simultaneous clients and run with almost no downtime.",
+    "coverImageUrl": "./490e43e003f0e552efa4caaeaf3601ab5225c857e806244ebb7a236234ac2ca7.jpg",
+    "amazonUs": "https://www.amazon.com/dp/161729201X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/161729201X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

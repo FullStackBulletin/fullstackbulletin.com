@@ -1,0 +1,75 @@
+{
+  "issueNumber": 10,
+  "title": "The story of port 22: SSH",
+  "slug": "2017-05-15-010-the-story-of-port-22-ssh",
+  "date": "2017-05-15",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #19, 2017",
+  "quote": {
+    "text": "Science and technology revolutionize our lives, but memory, tradition and myth frame our response",
+    "author": "Arthur Schlesinger",
+    "authorTitle": "Historian",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_Schlesinger"
+  },
+  "links": [
+    {
+      "title": "The story of port 22: SSH",
+      "url": "https://ssh.com/ssh/port",
+      "description": "SSH port is 22. This is the story of how I got port 22 for SSH. Never told before.",
+      "imageUrl": "./64386c9b7c9e4c3a77c141e2c4ef3858053739c286fdd271ca3dfd9f6e203bc6.png",
+      "featured": true
+    },
+    {
+      "title": "The Twelve-Factor App",
+      "url": "https://12factor.net/",
+      "description": "A must-known methodology for building modern, scalable, maintainable software-as-a-service apps.",
+      "imageUrl": "./fb706ecaf167146003922b98b0c2543690cd98250c47d38130eb5f3594047120.png",
+      "featured": false
+    },
+    {
+      "title": "Debugging Tips and Tricks",
+      "url": "https://css-tricks.com/debugging-tips-tricks",
+      "description": "Writing code for the browser is only one small piece of being a developer. In order to be efficient and capable at our jobs, we must also excel at debugging.",
+      "imageUrl": "./4e37b9729bac0d2873115e18fef7c83317d9c1e0260dfdf6f8a8cae0b2336e90.jpg",
+      "featured": false
+    },
+    {
+      "title": "Yes, React is taking over front-end development. The question is why.",
+      "url": "https://medium.freecodecamp.com/yes-react-is-taking-over-front-end-development-the-question-is-why-40837af8ab76",
+      "description": "Here are a few reasons why React has become so popular so quickly.",
+      "imageUrl": "./613808a1a0fba74d27211ac78540e0a3bc2e0d3a66bcbcfa906804890494aa42.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript Patterns for 2017",
+      "url": "https://youtube.com/watch?v=hO7mzO83N1Q",
+      "description": "The JavaScript language and ecosystem have seen dramatic changes in the last 2 years. In this sessions we'll look at patterns for organizing code using modules, talk about some of the pros and cons of new language features, and look at the current state of build tools and build patterns.",
+      "imageUrl": "./94409f1f689e55223c1ffa3a24bcff9e969a0ca5fdfc4efba95af899feb17d7b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Generate CSV files from your Eloquent models",
+      "url": "https://laravel-news.com/generate-csv-files-eloquent-models",
+      "description": "LaraCSV is a new package from Muhammad Usman that allows you to fluently generate CSV files from your Eloquent Models.",
+      "imageUrl": "./853147c6747ffc54d3c64b3ddce43e6b2556d873f25c3c7e5512bd44f0efc76f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Writing reusable JS modules in ES6",
+      "url": "https://smashingmagazine.com/2016/02/writing-next-generation-reusable-javascript-modules",
+      "description": "A tutorial on how to create a JavaScript package written in ES6 that's usable with CommonJS, asynchronous module definition (AMD) or browser global modules.",
+      "imageUrl": "./53ef9e75d07214efcb071cf84d39fa4829d1c2e72d9b5e343f260761f16e9b63.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Linux Command Line: A Complete Introduction",
+    "author": "William E. Shotts Jr.",
+    "description": "The Linux Command Line takes you from your very first terminal keystrokes to writing full programs in Bash, the most popular Linux shell. Along the way you'll learn the timeless skills handed down by generations of gray-bearded, mouse-shunning gurus: file navigation, environment configuration, command chaining, pattern matching with regular expressions, and more. In addition to that practical knowledge, author William Shotts reveals the philosophy behind these tools and the rich heritage that your desktop Linux machine has inherited from Unix supercomputers of yore.",
+    "coverImageUrl": "./998e4e84a48a026be41c01888d1d2f1a0e2c087213f327ada5f8a0f3467f1202.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593273894/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593273894/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

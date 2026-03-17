@@ -1,0 +1,75 @@
+{
+  "issueNumber": 118,
+  "title": "Adding a WebAssembly component to a React App",
+  "slug": "2019-07-08-118-adding-a-webassembly-component-to-a-react-app",
+  "date": "2019-07-08",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #27, 2019",
+  "quote": {
+    "text": "The function of good software is to make the complex appear to be simple",
+    "author": "Grady Booch",
+    "authorTitle": "Software engineer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Grady_Booch"
+  },
+  "links": [
+    {
+      "title": "Adding a WebAssembly component to a React App",
+      "url": "https://blog.scottlogic.com/2019/06/14/add-webassembly-to-react-app.html",
+      "description": "As a front-end developer working on real-world applications, WebAssembly isn't something I can actually use, is it? Let's find out how easy it can be using AssemblyScript.",
+      "imageUrl": "./652d61ac7581a93b07e7ce9c0ab75d3b0e2702744e25c08f2bc078d6e874be3f.png",
+      "featured": true
+    },
+    {
+      "title": "Lightning Web Components foundation",
+      "url": "https://lwc.dev/",
+      "description": "Blazing Fast, Enterprise-Grade Web Components Foundation, open sourced by Salesforce.",
+      "imageUrl": "./7d4ad65930eab3e463d5b3a9771318e4d7a998ba7074866bfb9c07fc7eae2955.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Kubernetes primer",
+      "url": "https://medium.com/better-programming/kubernetes-what-is-it-what-problems-does-it-solve-how-does-it-compare-with-its-alternatives-937fe80b754f",
+      "description": "What Is It, What Problems Does It Solve and How Does It Compare With Alternatives? This article is the first part of a two-part article series on Kubernetes and why it's getting so much traction in the Dev community.",
+      "imageUrl": "./fa8c7da548e3ec6ed863a685b97b1948310631859f0fa2693fda0cc9bd7cd4df.jpg",
+      "featured": false
+    },
+    {
+      "title": "Fuzzing vs property testing",
+      "url": "http://tedinski.com/2018/12/11/fuzzing-and-property-testing.html",
+      "description": "Fuzzing and property testing both involve generating random inputs, and then checking if a program misbehaves on those inputs. This description should probably leave you raising your eyebrow slightly: if you start being vague enough, lots of entirely different things sound similar. But there are some real similarities between these two techniques.",
+      "imageUrl": "./e8111be703622f77145073cba1df1d12c90d96ef7e27a6f878764c1dd136c41a.png",
+      "featured": false
+    },
+    {
+      "title": "llhttp - new HTTP 1.1 parser for Node.js",
+      "url": "https://youtube.com/watch?v=x3k_5Mi66sY",
+      "description": "Node.js has been using a derivative of nginx’s parser with a lot of customization/rewrite since its inception. In this über interesting talk from JSConf EU 2019, Fedor Indutny presents the new Node.js HTTP 1.1 parser, called **llhttp**.",
+      "imageUrl": "./1d138a95366019ff6de18ebb4679ec4099cdffe41e9c8d87140413fe28f6b7d7.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Oracle Problem",
+      "url": "https://medium.com/yld-engineering-blog/the-oracle-problem-cc02b42a1f44",
+      "description": "This article surveys the current state of JavaScript tooling for a class of testing techniques which address something called “the oracle problem\".",
+      "imageUrl": "./edd101aaf3b72186d1e0242c69c7c1f7b4a8528375a1e536a3d532397a666fd6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Common Serverless Errors",
+      "url": "https://seed.run/docs/serverless-errors",
+      "description": "Common Serverless Errors is a compilation of the most common Serverless Framework errors developers run into on AWS. Also listed, is an explanation of why the error occurred and what you can do to fix it.",
+      "imageUrl": "./32eae6575d1780fcb02cc223e5feb6d96007cd4b0adff126708dff3a7292bfbc.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+    "author": "Lea Verou",
+    "description": "In this practical guide, CSS expert Lea Verou provides 47 undocumented techniques and tips to help intermediate-to advanced CSS developers devise elegant solutions to a wide range of everyday web design problems. Rather than focus on design, CSS Secrets shows you how to solve problems with code. You'll learn how to apply Lea's analytical approach to practically every CSS problem you face to attain DRY, maintainable, flexible, lightweight, and standards-compliant results.",
+    "coverImageUrl": "./e20c35997e3e8a6a408d0165643e9832e92142192a5c4b89e0e684f372fe7735.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372635/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372635/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

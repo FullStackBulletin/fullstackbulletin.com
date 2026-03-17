@@ -1,0 +1,75 @@
+{
+  "issueNumber": 61,
+  "title": "Angular 6 Now Available",
+  "slug": "2018-05-14-061-angular-6-now-available",
+  "date": "2018-05-14",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #19, 2018",
+  "quote": {
+    "text": "Science and technology revolutionize our lives, but memory, tradition and myth frame our response",
+    "author": "Arthur Schlesinger",
+    "authorTitle": "Historian",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_Schlesinger"
+  },
+  "links": [
+    {
+      "title": "Angular 6 Now Available",
+      "url": "https://blog.angular.io/version-6-of-angular-now-available-cc56b0efa7a4",
+      "description": "The 6.0.0 release of Angular is here! This is a major release focused less on the underlying framework, and more on the toolchain and on making it easier to move quickly with Angular in the future.",
+      "imageUrl": "./842ea8513d25709e41e0804d2ffeb544c55d837c479a8c9b5117459f2bcb0164.png",
+      "featured": true
+    },
+    {
+      "title": "Text Effects with CSS",
+      "url": "https://css-tricks.com/text-effects-css-little-contenteditable-trick",
+      "description": "Mandy Michael has been creating some incredible text effects with just the power of CSS. She uses every trick in the book: gradients, transforms, pseudo elements, shadows, and clipping paths to name a few. They are all real web text too. Custom fonts typically, but no images, canvas, or SVG or anyth…",
+      "imageUrl": "./0c69d17bf5a7bfa567b9596b7319f9e52b163365a521c728a39fe8a23f77f90f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Speed Up Laravel on Top of Swoole",
+      "url": "https://laravel-news.com/laravel-swoole",
+      "description": "Swoole is a production-grade async programming framework for PHP. It is a PHP extension written in pure C language, which enables PHP developers to write high-performance, scalable, concurrent TCP, UDP, Unix socket, HTTP, WebSocket services in PHP without too much knowledge of the non-blocking I/O.",
+      "imageUrl": "./07db48ef695ba30f03dc022c5e7b7c077fa8ef14d20e62184cc624aa7d11fb0d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why you shouldn't use ENV variables for secret data",
+      "url": "http://diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data",
+      "description": "If your application requires a password, SSH private key, TLS Certificate, or any other kind of sensitive data, you shouldn't pass it alongside your configs.",
+      "imageUrl": "./0fa2330bd1522a2a3efaad312120087854f0465df06870fc22fd78e15d63e990.jpg",
+      "featured": false
+    },
+    {
+      "title": "A brief history of serverless",
+      "url": "https://medium.freecodecamp.org/a-brief-history-of-serverless-or-how-i-learned-to-stop-worrying-and-start-loving-the-cloud-7e2fc633310d",
+      "description": "Serverless is the new hype in cloud computing. But to really understand how it works and why it exists today, you have to appreciate its history.",
+      "imageUrl": "./c369867f11e8466be5c46926b8d3a1cede2c5b3cdbad7d581b684bcc3b5db7e5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Is service worker ready?",
+      "url": "https://jakearchibald.github.io/isserviceworkerready",
+      "description": "A fantastic website that display the current state of Service Worker support across all the mainstream browsers.",
+      "imageUrl": "./876467a572ae4884b12b3564b79218c51bd658d5906608d7b86dafe3942f3a4c.png",
+      "featured": false
+    },
+    {
+      "title": "Priority Guides: A Content-First Alternative to Wireframes",
+      "url": "http://alistapart.com/article/priority-guides-a-content-first-alternative-to-wireframes",
+      "description": "Little-known, yet highly effective, priority guides are the content-first, responsive alternative to the ubiquitous wireframe.",
+      "imageUrl": "./e4d41abfa34b4ec31be38c4d55cd03666a740f0bd2b0db0caebfc20c963b765f.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Linux Command Line: A Complete Introduction",
+    "author": "William E. Shotts Jr.",
+    "description": "The Linux Command Line takes you from your very first terminal keystrokes to writing full programs in Bash, the most popular Linux shell. Along the way you'll learn the timeless skills handed down by generations of gray-bearded, mouse-shunning gurus: file navigation, environment configuration, command chaining, pattern matching with regular expressions, and more. In addition to that practical knowledge, author William Shotts reveals the philosophy behind these tools and the rich heritage that your desktop Linux machine has inherited from Unix supercomputers of yore.",
+    "coverImageUrl": "./998e4e84a48a026be41c01888d1d2f1a0e2c087213f327ada5f8a0f3467f1202.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593273894/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593273894/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

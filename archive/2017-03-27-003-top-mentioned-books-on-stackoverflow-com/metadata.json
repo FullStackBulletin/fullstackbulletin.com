@@ -1,0 +1,68 @@
+{
+  "issueNumber": 3,
+  "title": "Top mentioned books on stackoverflow.com",
+  "slug": "2017-03-27-003-top-mentioned-books-on-stackoverflow-com",
+  "date": "2017-03-27",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #12, 2017",
+  "quote": {
+    "text": "You cannot endow even the best machine with initiative; the jolliest steamroller will not plant flowers",
+    "author": "Walter Lippmann",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Walter_Lippmann"
+  },
+  "links": [
+    {
+      "title": "Top mentioned books on stackoverflow.com",
+      "url": "http://dev-books.com/",
+      "description": "We analysed more than 40 000 000 questions and answers on stackoverflow.com to bring you the top of most mentioned books",
+      "imageUrl": "./420214380bd5d1276049c1ba43da68bbb349979d209832e0931bd51a4c565070.jpg",
+      "featured": true
+    },
+    {
+      "title": "Here's What Happens When an 18 Year Old Buys a Mainframe",
+      "url": "https://youtube.com/watch?v=45X4VP8CGtk",
+      "description": "Connor Krukosky is an 18-year-old college student with a hobby of collecting vintage computers. One day, he decided to buy his own mainframe...an IBM z890. T...",
+      "imageUrl": "./22674bb6c37f55797bdb5941067bf296b89e0e814418b66ae737a403c8d08252.jpg",
+      "featured": false
+    },
+    {
+      "title": "Create Scotch-Like Image Cards in Angular 2+ with Cloudinary",
+      "url": "https://scotch.io/tutorials/create-scotch-like-image-cards-in-angular-2-with-cloudinary",
+      "description": "When it comes to managing media files, we rely on Cloudinary for its ease and efficiency. The Cloudinary tool enables us to adeptly...",
+      "imageUrl": "./68ce52aec73df93511cb2fba01d703e9b5ab400bd08fdca0ff3cf75adf134f94.jpg",
+      "featured": false
+    },
+    {
+      "title": "PHP 7.2: The First Programming Language to Add Modern Cryptography to its Standard Library",
+      "url": "https://dev.to/paragonie/php-72-the-first-programming-language-to-add-modern-cryptography-to-its-standard-library",
+      "description": "The PHP internals team voted 37 to 0 in favor of adopting libsodium as a core library. What does this mean for developers?",
+      "imageUrl": "./cd148897c288ff0d9decf7f1c343fa3d99f9e271b722911255bc5f718088a418.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Detailed Introduction To Webpack – Smashing Magazine",
+      "url": "https://smashingmagazine.com/2017/02/a-detailed-introduction-to-webpack",
+      "description": "Webpack is a powerful tool that bundles your app source code efficiently and loads that code from a server into a browser.",
+      "imageUrl": "./6dac52d0153c28e9fd2a90bcdc15bb14d9097eae4c8c8f3b56167822cd9f94fb.jpg",
+      "featured": false
+    },
+    {
+      "title": "What Web Can Do Today",
+      "url": "https://whatwebcando.today/",
+      "description": "Can I rely on the Web Platform features to build my app? An overview of the device integration HTML5 APIs.",
+      "imageUrl": "./6e14d3d7a8fb11b3938630e060a6d931b41cc202969809297719ef6e97f7bb30.jpg",
+      "featured": false
+    },
+    {
+      "title": "Preparing and Exporting SVG Icons in Sketch – Design + Sketch",
+      "url": "https://medium.com/sketch-app-sources/preparing-and-exporting-svg-icons-in-sketch-1a3d65b239bb",
+      "description": "This article is going to assume that you already understand the fundamentals of icon design. And focus on how to prepare and export them…",
+      "imageUrl": "./9374f2424be71ccc3735e18680796d72c4dbd95a65fa6b681e74e0ff2f3d5c36.jpg",
+      "featured": false
+    }
+  ],
+  "book": null,
+  "additionalLinks": null,
+  "sponsor": null
+}

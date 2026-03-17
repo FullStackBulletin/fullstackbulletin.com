@@ -1,0 +1,108 @@
+{
+  "issueNumber": 369,
+  "title": "Coding Interview University",
+  "slug": "2024-04-22-352-coding-interview-university",
+  "date": "2024-04-22",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nAre you ready for issue #369? We're diving into **coding mastery**, **UI magic**, and **design innovation**. Ever wondered about **perfect spacing in web design**? We've got the scoop. Plus, a **CSS-only gecko game** and **backend tips** await. And don't miss a **minimalist web stack**!\n\nLet's level up together!\n\nBTW, I am attending the AWS Summit in London this week! So if you are there, reach out to me! I'd love to have a face to face chat in front of a coffee!\n\n- Your editor, [Luciano](https://twitter.com/loige)",
+  "quote": {
+    "text": "Technology like art is a soaring exercise of the human imagination“",
+    "author": "Daniel Bell",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Daniel_Bell"
+  },
+  "links": [
+    {
+      "title": "Coding Interview University",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "description": "A complete (FREE and open-source) computer science study plan to become a software engineer... or simply to pass your next coding interview. This one is especially awesome if you are thinking of applying to a big tech company like one of the FAANGs or simply if you feel like you want to harden your computer science skills! If you manage to complete this one, you'll probably be like Neo in The Matrix and learn to slow time and dodge all kinds of bullets! 😇",
+      "imageUrl": "./17d6bcc3f389664406cbe1699bb45398b7b1cfe6b5c0adfe0b485db848fd3f18.png",
+      "featured": true
+    },
+    {
+      "title": "The Component Gallery",
+      "url": "https://component.gallery/",
+      "description": "The Component Gallery is a collection of components from the best Design Systems available on the web. It provides some useful information about best practices for various kinds of common components (Popover, Rating, Accordion, Quote, Pagination, Tabs, Button, etc). In addition to that every component has an impressive amount of links attached to back up some of the suggestions and provide additional inspiration from real-world use cases. A fantastic resource if you want to get better at designing and developing UIs or if you are working on a design system. [**Check out the website**](https://component.gallery/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Design Engineering at Vercel: What we do and how we do it",
+      "url": "https://vercel.com/blog/design-engineering-at-vercel",
+      "description": "Vercel is one of those companies that is pushing the boundaries of the web. Not just from a web development perspective, but also from a design perspective. Some of their animations or effects are simply astonishing and inspirational. This article from Vercel explores how they think about design. So one more resource to love if you are trying to skill up with your frontend/design game!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Secret Science of Perfect Spacing",
+      "url": "https://youtube.com/watch?v=9ElrcTtAxzA",
+      "description": "Last week, I bumped into this interesting YouTube video that discusses the topic of web design from the perspective of spacing. It might seem like a trivial topic, but understanding how to design pleasing spacing, padding and margins between your elements can make a huge difference in how users will enjoy your web products. Worth a watch if you have 10 minutes to spare!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "🦎 Curious Geckos: The Most Precise CSS-only Position-Aware Mini-Game!",
+      "url": "https://dev.to/warkentien2/curious-geckos-the-most-precise-css-only-position-aware-mini-game-16i2",
+      "description": "A CSS-only, no JS, no checkbox, position-aware (hover/touch aware) interactive gecko-luring game! A mind-blowing example of how CSS has evolved and what kind of capabilities it provides. Another proof that you don't always need JavaScript to build interactive experiences on the web. Check it out, it's quite fun to see!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How to Implement Rate Limiting in Express for Node.js",
+      "url": "https://blog.appsignal.com/2024/04/03/how-to-implement-rate-limiting-in-express-for-nodejs.html",
+      "description": "WOk, let's get into a more backendy topic! Have you ever tried to implement a rate-limiting mechanism on your Node.js-based backend? This is something you should consider if you are building a public-facing product and you want to make sure no one is going to try to DDoS your service (either intentionally or not).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Tiny Stack (Astro, SQLite, Litestream)",
+      "url": "https://logsnag.com/blog/the-tiny-stack",
+      "description": "In the world of software there is always a struggle between simplicity and feature richness. It's hard to find the right tradeoffs and we always see ways of new simple approaches that eventually will become highly adopted and then get bloated. In this article, a new interesting web development stack is introduced. This is a stack that aims to be simple, robust, and minimal, and its focused on building web applications with Astro, SQLite, and Litestream.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Node.js Design Patterns - Third edition: Design and implement production-grade Node.js applications using proven patterns and techniques",
+    "author": "Mario Casciaro, and Luciano Mammino",
+    "description": "Learn proven patterns, techniques, and tricks to take full advantage of the Node.js platform. Master well-known design principles to create applications that are readable, extensible, and that can grow big. What you will learn",
+    "coverImageUrl": "./7d1c002ac1bba732d68fc10e0d71c3f53d8da0459cfbf9fa9dade3403a1c3529.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1839214112?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1839214112?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Exactly what to say in code reviews",
+      "url": "https://read.highgrowthengineer.com/p/exactly-what-to-say-in-code-reviews"
+    },
+    {
+      "title": "Migrating 500+ tests from Mocha to Node.js",
+      "url": "https://astro.build/blog/node-test-migration"
+    },
+    {
+      "title": "Node.js Debugging in Chrome DevTools",
+      "url": "https://frontendmasters.com/blog/node-js-debugging-in-chrome-devtools"
+    },
+    {
+      "title": "Layered Toggles: Optional CSS Mixins",
+      "url": "https://kizu.dev/layered-toggles"
+    },
+    {
+      "title": "Folding the DOM",
+      "url": "https://joshwcomeau.com/react/folding-the-dom"
+    },
+    {
+      "title": "Setting Up Storybook for React Components",
+      "url": "https://dolthub.com/blog/2024-04-08-storybook-react-components"
+    },
+    {
+      "title": "Drawing a Line to Connect Elements with CSS Anchor Positioning",
+      "url": "https://frontendmasters.com/blog/drawing-a-line-to-connect-elements-with-css-anchor-positioning"
+    },
+    {
+      "title": "5 Ways to extend AWS CloudFormation (podcast)",
+      "url": "https://awsbites.com/121-5-ways-to-extend-cloudformation/"
+    }
+  ],
+  "sponsor": null
+}

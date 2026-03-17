@@ -1,0 +1,93 @@
+---
+import IssueLayout from '../../layouts/IssueLayout.astro';
+import IssueQuote from '../../components/IssueQuote.astro';
+import IssueIntro from '../../components/IssueIntro.astro';
+import IssueFeaturedArticle from '../../components/IssueFeaturedArticle.astro';
+import IssueArticleCard from '../../components/IssueArticleCard.astro';
+import IssueBookOfWeek from '../../components/IssueBookOfWeek.astro';
+import IssueAdditionalLinks from '../../components/IssueAdditionalLinks.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const issues = await getCollection('issues');
+  const sorted = issues.sort((a, b) => a.data.date.localeCompare(b.data.date));
+
+  return sorted.map((issue, index) => ({
+    params: { slug: issue.data.slug },
+    props: {
+      issue,
+      prevSlug: index > 0 ? sorted[index - 1].data.slug : null,
+      nextSlug: index < sorted.length - 1 ? sorted[index + 1].data.slug : null,
+    },
+  }));
+}
+
+const { issue, prevSlug, nextSlug } = Astro.props;
+const { data } = issue;
+
+const featured = data.links.filter((l) => l.featured);
+const articles = data.links.filter((l) => !l.featured);
+---
+
+<IssueLayout
+  title={data.title}
+  issueNumber={data.issueNumber}
+  date={data.date}
+  description={data.intro || `Issue #${data.issueNumber} of FullStack Bulletin`}
+  prevSlug={prevSlug}
+  nextSlug={nextSlug}
+>
+  {data.quote && (
+    <IssueQuote
+      text={data.quote.text}
+      author={data.quote.author}
+      authorTitle={data.quote.authorTitle}
+      authorUrl={data.quote.authorUrl}
+      issueNumber={data.issueNumber}
+    />
+  )}
+
+  {data.intro && <IssueIntro text={data.intro} issueNumber={data.issueNumber} />}
+
+  {featured.map((link) => (
+    <IssueFeaturedArticle
+      title={link.title}
+      url={link.url}
+      description={link.description}
+      imageUrl={link.imageUrl}
+      issueNumber={data.issueNumber}
+    />
+  ))}
+
+  {articles.length > 0 && (
+    <section class="my-8">
+      <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+        Articles
+      </h2>
+      {articles.map((link) => (
+        <IssueArticleCard
+          title={link.title}
+          url={link.url}
+          description={link.description}
+          issueNumber={data.issueNumber}
+        />
+      ))}
+    </section>
+  )}
+
+  {data.book && (
+    <IssueBookOfWeek
+      title={data.book.title}
+      author={data.book.author}
+      description={data.book.description}
+      coverImageUrl={data.book.coverImageUrl}
+      amazonUs={data.book.amazonUs}
+      amazonUk={data.book.amazonUk}
+      issueNumber={data.issueNumber}
+    />
+  )}
+
+  {data.additionalLinks && data.additionalLinks.length > 0 && (
+    <IssueAdditionalLinks links={data.additionalLinks} issueNumber={data.issueNumber} />
+  )}
+</IssueLayout>

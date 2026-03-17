@@ -1,0 +1,75 @@
+{
+  "issueNumber": 297,
+  "title": "Python 3.11 is here, and it's faster",
+  "slug": "2022-10-31-284-python-3-11-is-here-and-it-s-faster",
+  "date": "2022-10-31",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #43, 2022",
+  "quote": {
+    "text": "Companies spend millions of dollars on firewalls, encryption and secure access devices, and it’s money wasted, because none of these measures address the weakest link in the security chain",
+    "author": "Kevin Mitnick",
+    "authorTitle": "Auhor and Security Consultant",
+    "authorUrl": "https://en.wikipedia.org/wiki/Kevin_Mitnick"
+  },
+  "links": [
+    {
+      "title": "Python 3.11 is here, and it's faster",
+      "url": "https://python.org/downloads/release/python-3110",
+      "description": "Last week a new big release of the Python Programming Language happened, and version 3.11 brings significant innovation and performance to the table! Among the main additions: built-in support for [TOML](https://toml.io/), typings improvements, and 1.22x performance improvements on the standard benchmarks!",
+      "imageUrl": "./ea83afed0b3b83d8d003b9fb640f5176ebb3d27b1105fc66ec6fb29c3c2676bf.png",
+      "featured": true
+    },
+    {
+      "title": "The HTTP crash course nobody asked for",
+      "url": "https://fasterthanli.me/articles/the-http-crash-course-nobody-asked-for",
+      "description": "As web developers and users of the web, we use HTTP pretty much all the time! But do we really know how HTTP works? I am sure that we kinda give it for granted, but we lack the understanding of many of its underlying implementation details. In this article, the amazing [Amos](https://twitter.com/fasterthanlime), gives us a World tour of HTTP 1.1, HTTP 2, HTTPS, and more. One of the best reads of the year for me!",
+      "imageUrl": "./017d94f339514fdf9dee9e3c7d16119f06075048e39c571f54cf4f8c80808fdf.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript metaprogramming with the decorators API",
+      "url": "https://2ality.com/2022/10/javascript-decorators.html",
+      "description": "JavaScript decorators have finally reached stage 3! Their latest version is already supported by Babel and will soon be supported by TypeScript. This blog post covers the 2022-03 version (stage 3) of the ECMAScript proposal “Decorators” by Daniel Ehrenberg and Chris Garrett.",
+      "imageUrl": "./9437bf20a108872aa5bdabcc15be8a96f152d2320635972268fde62da4ab8d5b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Protect a Static Site with Auth0 Using Lambda@Edge and CloudFront",
+      "url": "https://matt.martz.codes/protect-a-static-site-with-auth0-using-lambdaedge-and-cloudfront",
+      "description": "In this post, you can learn how to use AWS CDK to deploy a static site to an S3 Bucket, distribute the site using CloudFront, and protect it with a CloudFront Lambda@Edge function that connects to Auth0.",
+      "imageUrl": "./3f5cf0340dbf01715f745eff521fbaf26495f81f61c296b26b6ba44f3ff96097.jpg",
+      "featured": false
+    },
+    {
+      "title": "Practical Parsing in Rust with nom",
+      "url": "https://naiveai.hashnode.dev/practical-parsing-nom",
+      "description": "Parsing doesn't have to be complicated. In this tutorial, I'll demonstrate nom's simple functional approach, making parsers easy for practical use cases.",
+      "imageUrl": "./7424794dcfb3e4546d74a2fe41e3b3c071cb8cdc4d0562a9d735bdc35e569007.jpg",
+      "featured": false
+    },
+    {
+      "title": "How We Improved React Loading Times by 70% with Next.js",
+      "url": "https://causal.app/blog/next-js",
+      "description": "This company switched from Create React App to Next.js and ended up reducing their initial page load times by 70% and unlocking a new level of developer experience. This article describes in detail the why of this performance boost.",
+      "imageUrl": "./9b9e2e327e2e2646a3c2f200a8c51fafc36153a7b69d37d1150f9da77ac536fc.jpg",
+      "featured": false
+    },
+    {
+      "title": "5 Best Node.js Logging Libraries",
+      "url": "https://highlight.io/blog/highlight.io",
+      "description": "Looking for a Node.js logging library to help you get your project off the ground? Check out our list of the five best options available!",
+      "imageUrl": "./475d8f9a8db090f1c8f58e48c64e144686256aeb3bb8d67c38ad53a468f69285.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Linux Pocket Guide: Essential Commands",
+    "author": "Daniel J. Barrett",
+    "description": "If you use Linux in your day-to-day work, this popular pocket guide is the perfect on-the-job reference. The third edition features new commands for processing image files and audio files, running and killing programs, reading and modifying the system clipboard, and manipulating PDF files, as well as other commands requested by readers. You’ll also find powerful command-line idioms you might not be familiar with, such as process substitution and piping into bash. Linux Pocket Guide provides an organized learning path to help you gain mastery of the most useful and important commands. Whether you’re a novice who needs to get up to speed on Linux or an experienced user who wants a concise and functional reference, this guide provides quick answers. Selected topics include:The filesystem and shell, File creation and editing, Text manipulation and pipelines, Backups and remote storage, Viewing and controlling processes, User account management, Becoming the superuser, Network connections, Audio and video, Installing softwar, Programming with shell scripts.",
+    "coverImageUrl": "./fcd1dd45a11d838bd7fffe901365729615e97b5a211cd1a7b7ef779c02fffe5d.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491927577/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491927577/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

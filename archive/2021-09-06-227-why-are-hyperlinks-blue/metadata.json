@@ -1,0 +1,75 @@
+{
+  "issueNumber": 227,
+  "title": "Why are hyperlinks blue?",
+  "slug": "2021-09-06-227-why-are-hyperlinks-blue",
+  "date": "2021-09-06",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute",
+    "author": "Gerald Jay Sussman and Hal Abelson",
+    "authorTitle": "Computer Scientists and Authors",
+    "authorUrl": "https://en.wikipedia.org/wiki/Gerald_Jay_Sussman"
+  },
+  "links": [
+    {
+      "title": "Why are hyperlinks blue?",
+      "url": "https://blog.mozilla.org/en/internet-culture/deep-dives/why-are-hyperlinks-blue",
+      "description": "The internet has ingrained itself into every aspect of our lives, but there’s one aspect of the digital world that I bet you take for granted. Did you ever wonder why hyperlinks are traditionally blue?",
+      "imageUrl": "./84d3e8e2d54dfbb84be416982d7e973fd0d7b81fb259f61d3b91e73094c8bb90.jpg",
+      "featured": true
+    },
+    {
+      "title": "Near Zero Downtime Migration from MySQL to DynamoDB",
+      "url": "https://aws.amazon.com/blogs/big-data/near-zero-downtime-migration-from-mysql-to-dynamodb",
+      "description": "Many companies consider migrating from relational databases like MySQL to Amazon DynamoDB, a fully managed, fast, highly scalable, and flexible NoSQL database service. For example, DynamoDB can increase or decrease capacity based on traffic, in accordance with business needs.",
+      "imageUrl": "./3a501611f7e30ac974e71d87f3f3ae853f83434ceb9afe4652b3d6f24bb104f3.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Proper Way to Write Async Constructors in JavaScript",
+      "url": "https://dev.to/somedood/the-proper-way-to-write-async-constructors-in-javascript-1o8c",
+      "description": "At the moment, there is no standardized way to write asynchronous constructors in JavaScript. However, this does not mean there aren't any workarounds! In this article, we will discuss the various ways to emulate `async` in `constructor`. Most of them are not-so-ideal, but in the end, we will have something that works!",
+      "imageUrl": "./1d430f4f2f6f544cf5b2b210ee00d79be2cde5df1e03c8bac161126b1e3bb980.jpg",
+      "featured": false
+    },
+    {
+      "title": "Deploy React app to S3 & Cloudfront",
+      "url": "https://dev.to/karanpratapsingh/deploy-react-app-to-s3-cloudfront-1cao",
+      "description": "In this article, we will look at how we can deploy our frontend to AWS S3 with AWS Cloudfront as our CDN.",
+      "imageUrl": "./4c35ec977ec85969f307f9c4adca5da6fa2e223cc0e1c30468f9dc74cc934129.jpg",
+      "featured": false
+    },
+    {
+      "title": "Procedurally generated fish drawings",
+      "url": "https://github.com/LingDong-/fishdraw",
+      "description": "This is one of the most amazing GitHub repositories we have seen in a while. If you have never stumbled into generative art, this repository might be your gateway into it!",
+      "imageUrl": "./f96423e9c13748b738d4e12fa189abf279be15c104badb1526c3906f60a5c4f7.jpg",
+      "featured": false
+    },
+    {
+      "title": "The power of custom hooks in React",
+      "url": "https://dev.to/mlevi1806/the-power-of-custom-hooks-in-react-responsive-design-example-4flb",
+      "description": "Generally, custom hook is a great pattern in order to handle modularity and composition in your app. This article demonstrates this idea by showing an example of custom React hook to simplify responsive behaviours.",
+      "imageUrl": "./539e881615e8959ea680a1834ba252696b49d8bd7b3ed7bd448dc780c241916c.jpg",
+      "featured": false
+    },
+    {
+      "title": "A graph database for Node.js and the Browser",
+      "url": "https://github.com/levelgraph/levelgraph",
+      "description": "Built on top of LevelUp and LevelDb, levelgraph is a fully functional graph database that you can use on the server (Node.js) but also on the browser!",
+      "imageUrl": "./ab3b9abaf4ca4bd73ca941e244b2b7b9986e52ac8e468c2dca2202c8791d493b.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Building Microservices: Designing Fine-Grained Systems",
+    "author": "Sam Newman",
+    "description": "Distributed systems have become more fine-grained in the past 10 years, shifting from code-heavy monolithic applications to smaller, self-contained microservices. But developing these systems brings its own set of headaches. With lots of examples and practical advice, this book takes a holistic view of the topics that system architects and administrators must consider when building, managing, and evolving microservice architectures.",
+    "coverImageUrl": "./1575a11c0c5e3af091d32426cf1cdcb142f177a57d156a18bad7df292b50a78c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491950358/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491950358/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 294,
+  "title": "How to Code a 2D Game Using JavaScript",
+  "slug": "2022-10-10-281-how-to-code-a-2d-game-using-javascript",
+  "date": "2022-10-10",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Should array indices start at 0 or 1?  My compromise of 0.5 was rejected without, I thought, proper consideration",
+    "author": "Stan Kelly-Bootle",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stan_Kelly-Bootle"
+  },
+  "links": [
+    {
+      "title": "How to Code a 2D Game Using JavaScript",
+      "url": "https://freecodecamp.org/news/how-to-code-a-2d-game-using-javascript-html-and-css",
+      "description": "Last week at NodeConfEU, the awesome [Liran Tal](https://twitter.com/liran_tal) thought me about [Kaboom.js](https://kaboomjs.com/), a JavaScript toolkit that can be used to easily create games in the browser! But if you feel really hardcore, you should know that you don't need a toolkit and you can just build everything from scratch with just JavaScript and a canvas. Do you want to learn how?",
+      "imageUrl": "./55bd51c7a03d36229d40e6caa4e84b091786ca09bac585a9cfdf3fe35b373baf.jpg",
+      "featured": true
+    },
+    {
+      "title": "Preview.js",
+      "url": "https://previewjs.com/",
+      "description": "A VSCode plugin that allows you to have a preview pane to render the React, Solid, or Vue components that you are currently working on. I still have to try this but it seems like something that can save you a lot of time if you find yourself doing a lot of components!",
+      "imageUrl": "./f759c5e83c6890ca06e8283225a2dd5c5693536c2a739730f5a3390ae46fbfa0.png",
+      "featured": false
+    },
+    {
+      "title": "The new wave of Javascript web frameworks",
+      "url": "https://frontendmastery.com/posts/the-new-wave-of-javascript-web-frameworks",
+      "description": "How did we get from 0 to React? And what's coming next? This article explores the history of JavaScript frameworks (and the evolution of the web really) making it easy to understand the proliferation of new Javascript web frameworks. I like the fact that MPAs (Multi Page Apps) are considered the new rage even though they existed forever... Sometimes innovation just goes in cycles!",
+      "imageUrl": "./9437bf20a108872aa5bdabcc15be8a96f152d2320635972268fde62da4ab8d5b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Where JavaScript is headed in 2022",
+      "url": "https://infoworld.com/article/3674859/where-javascript-is-headed-in-2022.html",
+      "description": "This article also explores the future of JavaScript, but rather than looking into frameworks it looks into JavaScript's new features and what those will enable. If you enjoyed the previous article, this one is a good complement!",
+      "imageUrl": "./60af559f81459a5774230c52499df4976d3a670b0c7c1112290acfade3fc4f49.jpg",
+      "featured": false
+    },
+    {
+      "title": "Minimize Heap Allocations in Node.js",
+      "url": "https://blog.appsignal.com/2022/09/28/minimize-heap-allocations-in-nodejs.html",
+      "description": "If you care about performance in JavaScript (both frontend and backend) you should be concerned about when and how your code allocates memory in the heap. This article explains in great detail how all of that works and it shows how to prevent memory leaks and minimize heap allocation in your Node.js app.",
+      "imageUrl": "./25e79241ab03a519e13d3a27020211333226858bef98082426e46da5f149f202.jpg",
+      "featured": false
+    },
+    {
+      "title": "Postgres WASM",
+      "url": "https://supabase.com/blog/postgres-wasm",
+      "description": "Last week we discussed how [WordPress can now be executed \"serverless\" using WASM](https://make.wordpress.org/core/2022/09/23/client-side-webassembly-wordpress-with-no-server/). More is happening in this space, and this week is the time of PostgreSQL, the king of open-source relational databases. If you are curious to see how this can help in the field of web development, well you just need to check out this article!",
+      "imageUrl": "./887f6ad5e548d6d59193b56bffc1b05822b52723dda1b664933aae24ff5c41e1.jpg",
+      "featured": false
+    },
+    {
+      "title": "Leonardo Syndrome",
+      "url": "https://thoughtfulatlas.bearblog.dev/leonardo-syndrome",
+      "description": "This is a non-technical short article, but I think all software engineers (including aspiring ones) will enjoy it! Did you know that Leonardo Da Vinci didn't really have such a great reputation during his time? He was so curious that he was literally incapable of completing anything. He was always moved to explore something else. Apparently, Leonard was not unique in this and the Leonardo Syndrome defines people that suffer from the same overwhelming level of curiosity!",
+      "imageUrl": "./4f39d1130c7c326b028399b7aba4fb009c52206c894001c17872d296a1780f8c.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Introduction to Algorithms, Third Edition (International Edition)",
+    "author": "Thomas H. Cormen",
+    "description": "Some books on algorithms are rigorous but incomplete; others cover masses of material but lack rigor.  Introduction to Algorithms uniquely combines rigor and comprehensiveness. The book covers a broad range of algorithms in depth, yet makes their design and analysis accessible to all levels of readers. Each chapter is relatively self-contained and can be used as a unit of study. The algorithms are described in English and in a pseudocode designed to be readable by anyone who has done a little programming. The explanations have been kept elementary without sacrificing depth of coverage or mathematical rigor.",
+    "coverImageUrl": "./ada166c15107ba9d6c6eec0fcaaef5daa371a0f2d5e3550a7ea6e624aed90770.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0262533057/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0262533057/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}
