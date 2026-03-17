@@ -14,18 +14,17 @@ jobs:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v2
         with:
-          version: 8.15
+          version: 10
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'pnpm'
+          cache-dependency-path: new/pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
-      - name: Test
-        run: pnpm test
-        env:
-          CI: true
+        working-directory: new
       - name: Build
-        run: pnpm prod:build
+        run: pnpm build
+        working-directory: new
         env:
           CI: true
       - name: Release to GH pages if on main
@@ -33,6 +32,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v1
         with:
           target_branch: gh-pages
-          build_dir: dist
+          build_dir: new/dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

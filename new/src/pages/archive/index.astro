@@ -1,0 +1,151 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+const issues = await getCollection('issues');
+const sorted = issues.sort((a, b) => b.data.date.localeCompare(a.data.date));
+
+// Group by year
+const byYear = new Map<string, typeof sorted>();
+for (const issue of sorted) {
+  const year = issue.data.date.slice(0, 4);
+  if (!byYear.has(year)) byYear.set(year, []);
+  byYear.get(year)!.push(issue);
+}
+
+const years = [...byYear.keys()];
+---
+
+<BaseLayout title="Archive" description="All issues of FullStack Bulletin">
+  <Header minimal />
+  <main class="pt-8 pb-16">
+    <div class="max-w-5xl mx-auto px-4">
+      <h1 class="font-heading text-3xl md:text-4xl font-semibold mb-2">Archive</h1>
+      <p class="text-base text-neutral-dark mb-12">
+        All {sorted.length} issues of FullStack Bulletin, from 2017 to 2026.
+      </p>
+
+      <!-- Mobile horizontal year bar -->
+      <nav class="md:hidden sticky top-0 z-40 -mx-4 px-4 py-2 bg-neutral-white/95 backdrop-blur-sm border-b border-neutral-light/30 overflow-x-auto mb-6" aria-label="Year navigation">
+        <div class="flex gap-2 min-w-max">
+          {years.map((year) => (
+            <a
+              href={`#year-${year}`}
+              class="year-link-mobile inline-block px-3 py-1.5 text-sm font-heading font-semibold text-neutral-medium hover:text-brand-dark transition-colors whitespace-nowrap"
+              data-year={year}
+            >
+              {year}
+            </a>
+          ))}
+        </div>
+      </nav>
+
+      <div class="flex gap-8">
+        <!-- Sticky year navigation (desktop) -->
+        <nav class="hidden md:block w-32 flex-shrink-0" aria-label="Year navigation">
+          <div class="sticky top-0 space-y-1">
+            {years.map((year) => (
+              <a
+                href={`#year-${year}`}
+                class="year-link block px-3 py-1.5 text-sm font-heading font-semibold text-neutral-medium hover:text-brand-dark transition-colors"
+                data-year={year}
+              >
+                {year}
+              </a>
+            ))}
+          </div>
+        </nav>
+
+        <!-- Issues list -->
+        <div class="flex-1 min-w-0">
+          {[...byYear.entries()].map(([year, yearIssues]) => (
+            <section id={`year-${year}`} class="mb-12 scroll-mt-8">
+              <h2 class="font-heading text-xl font-semibold mb-4 pb-2 border-b border-neutral-light/50">
+                {year}
+                <span class="text-sm font-normal text-neutral-medium ml-2">
+                  ({yearIssues.length} issues)
+                </span>
+              </h2>
+              <div class="space-y-2">
+                {yearIssues.map((issue) => (
+                  <a
+                    href={`/archive/${issue.data.slug}`}
+                    class="flex items-baseline gap-3 py-2 px-3 -mx-3 hover:bg-neutral-lightest transition-colors group"
+                  >
+                    <span class="text-xs text-neutral-medium flex-shrink-0 w-20">
+                      {issue.data.date}
+                    </span>
+                    <span class="text-xs text-neutral-medium flex-shrink-0">
+                      #{issue.data.issueNumber}
+                    </span>
+                    <span class="font-heading text-sm font-semibold group-hover:text-brand-dark truncate">
+                      {issue.data.title}
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>
+
+<script>
+  // IntersectionObserver for active year highlighting
+  const yearSections = document.querySelectorAll<HTMLElement>('section[id^="year-"]');
+  const yearLinks = document.querySelectorAll<HTMLAnchorElement>('.year-link');
+  const yearLinksMobile = document.querySelectorAll<HTMLAnchorElement>('.year-link-mobile');
+
+  function setActiveYear(year: string) {
+    yearLinks.forEach(link => {
+      if (link.dataset.year === year) {
+        link.classList.add('text-neutral-darkest', 'bg-brand-primary/20');
+        link.classList.remove('text-neutral-medium');
+      } else {
+        link.classList.remove('text-neutral-darkest', 'bg-brand-primary/20');
+        link.classList.add('text-neutral-medium');
+      }
+    });
+    yearLinksMobile.forEach(link => {
+      if (link.dataset.year === year) {
+        link.classList.add('text-neutral-darkest', 'bg-brand-primary/20');
+        link.classList.remove('text-neutral-medium');
+      } else {
+        link.classList.remove('text-neutral-darkest', 'bg-brand-primary/20');
+        link.classList.add('text-neutral-medium');
+      }
+    });
+  }
+
+  if (yearSections.length > 0) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            const year = entry.target.id.replace('year-', '');
+            setActiveYear(year);
+          }
+        }
+      },
+      { rootMargin: '-20% 0px -70% 0px' }
+    );
+
+    yearSections.forEach(section => observer.observe(section));
+  }
+
+  // Smooth scroll on click
+  document.querySelectorAll<HTMLAnchorElement>('.year-link, .year-link-mobile').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = document.querySelector(link.getAttribute('href')!);
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
+    });
+  });
+</script>

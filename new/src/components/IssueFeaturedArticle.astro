@@ -1,0 +1,41 @@
+---
+import { resolveImage } from '../lib/resolveImage';
+import { renderSimpleMarkdown } from '../lib/markdown';
+import { addUtmParams } from '../lib/utm';
+
+interface Props {
+  title: string;
+  url: string;
+  description: string | null;
+  imageUrl: string | null;
+  slug: string;
+  issueNumber: number;
+}
+
+const { title, url, description, imageUrl, slug, issueNumber } = Astro.props;
+const resolvedImage = resolveImage(imageUrl, slug);
+const trackedUrl = addUtmParams(url, issueNumber, 'featured');
+---
+
+<article class="my-8 border border-neutral-light/50 overflow-hidden">
+  {resolvedImage && (
+    <a href={trackedUrl} target="_blank" rel="noopener noreferrer" class="block">
+      <img
+        src={resolvedImage}
+        alt={title}
+        class="w-full h-auto"
+        loading="lazy"
+      />
+    </a>
+  )}
+  <div class="p-5">
+    <h2 class="font-heading text-lg md:text-xl font-semibold mb-2">
+      <a href={trackedUrl} target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">
+        {title}
+      </a>
+    </h2>
+    {description && (
+      <p class="text-sm text-neutral-dark leading-relaxed" set:html={renderSimpleMarkdown(description, issueNumber, 'description-link')} />
+    )}
+  </div>
+</article>

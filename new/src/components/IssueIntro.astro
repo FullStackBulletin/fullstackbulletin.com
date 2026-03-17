@@ -1,0 +1,17 @@
+---
+import { renderSimpleMarkdown } from '../lib/markdown';
+
+interface Props {
+  text: string;
+  issueNumber: number;
+}
+
+const { text, issueNumber } = Astro.props;
+const paragraphs = text.split(/\n\n+/).filter(Boolean);
+---
+
+<div class="my-8 space-y-4">
+  {paragraphs.map((p) => (
+    <p class="text-sm md:text-base text-neutral-dark leading-relaxed" set:html={renderSimpleMarkdown(p, issueNumber, 'intro-link')} />
+  ))}
+</div>

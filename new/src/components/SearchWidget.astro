@@ -1,0 +1,120 @@
+---
+---
+
+<div class="relative" id="search-widget">
+  <input
+    type="text"
+    id="search-input"
+    placeholder="Search articles..."
+    autocomplete="off"
+    class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors"
+    aria-label="Search articles"
+    aria-expanded="false"
+    aria-controls="search-results"
+    role="combobox"
+  />
+  <div
+    id="search-results"
+    class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200"
+    role="listbox"
+  ></div>
+</div>
+
+<script is:inline>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script>

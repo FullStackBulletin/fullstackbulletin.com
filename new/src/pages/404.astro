@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout title="Page not found">
+  <Header minimal />
+  <main class="pt-8 pb-16 min-h-[60vh] flex items-center justify-center">
+    <div class="text-center px-4">
+      <h1 class="font-heading text-6xl md:text-8xl font-semibold text-neutral-darkest mb-4">404</h1>
+      <p class="font-body text-lg text-neutral-dark mb-8">This page doesn't exist.</p>
+      <a
+        href="/"
+        class="inline-block px-6 py-3 bg-neutral-darkest text-neutral-white no-underline rounded font-heading text-sm font-semibold hover:bg-neutral-dark transition-colors"
+      >
+        Go home
+      </a>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

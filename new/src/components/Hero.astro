@@ -1,0 +1,62 @@
+---
+import ParticleAnimation from './ParticleAnimation.astro';
+import { callToAction, subscribeForm, sampleLink, resources } from '../data/site';
+---
+
+<section class="relative min-h-screen flex items-center bg-black overflow-hidden">
+  <ParticleAnimation />
+
+  <!-- Dark center glow -->
+  <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[50vw] h-[50vh] rounded-full z-[1]" style="box-shadow: 0 0 250px 100px #000;" aria-hidden="true"></div>
+
+  <div class="relative z-[2] w-full px-4 py-32 md:py-40">
+    <div class="max-w-[500px] huge:max-w-[700px] mx-auto">
+      <!-- CTA heading -->
+      <h1 class="font-heading text-lg md:text-xl huge:text-2xl font-semibold text-neutral-white text-center mb-8">
+        {callToAction.label}
+      </h1>
+
+      <!-- Subscribe form (visual only) -->
+      <div class="rounded-[5px] overflow-hidden">
+        <div class="grid grid-cols-[9fr_3fr]">
+          <input
+            type="email"
+            placeholder={subscribeForm.email.label}
+            class="h-11 md:h-[60px] huge:h-[75px] px-4 text-sm bg-white text-neutral-darkest outline-none border-0 w-full"
+            readonly
+          />
+          <button
+            type="button"
+            class="h-11 md:h-[60px] huge:h-[75px] bg-brand-primary text-neutral-darkest font-heading font-semibold text-sm uppercase cursor-pointer border-0 hover:bg-brand-dark transition-colors"
+          >
+            {subscribeForm.submit.label}
+          </button>
+        </div>
+      </div>
+
+      <!-- Note -->
+      <p class="text-center text-neutral-light text-sm mt-6">
+        {subscribeForm.note}
+        <br />
+        <a href={sampleLink.url} class="text-brand-primary underline">
+          <strong>{sampleLink.label}</strong>
+        </a>
+      </p>
+
+      <!-- Resources box -->
+      <div class="mt-10 border-t border-neutral-medium/40 pt-3">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
+          {resources.map((resource) => (
+            <div class="flex items-center gap-3 justify-center">
+              <img src={`/images/${resource.image}`} alt="" class="w-10 h-10" />
+              <div class="flex items-center gap-2 text-neutral-light">
+                <span class="font-heading text-2xl text-brand-primary font-semibold">{resource.count}</span>
+                <span class="text-sm">{resource.text}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

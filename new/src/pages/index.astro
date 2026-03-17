@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import Sponsors from '../components/Sponsors.astro';
+import SupportShare from '../components/SupportShare.astro';
+import FaqAccordion from '../components/FaqAccordion.astro';
+import Founders from '../components/Founders.astro';
+import Footer from '../components/Footer.astro';
+import Loader from '../components/Loader.astro';
+---
+
+<BaseLayout>
+  <Loader />
+  <Header />
+  <main>
+    <Hero />
+    <Sponsors />
+    <SupportShare />
+    <FaqAccordion />
+    <Founders />
+  </main>
+  <Footer />
+</BaseLayout>

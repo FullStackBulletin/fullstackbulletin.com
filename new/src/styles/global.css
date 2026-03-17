@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand colors */
+  --color-brand-primary: #f8e81c;
+  --color-brand-dark: #ccbf17;
+  --color-brand-light: #ffe66d;
+
+  /* Neutrals */
+  --color-neutral-black: #000;
+  --color-neutral-darkest: #262e34;
+  --color-neutral-dark: #5b6a74;
+  --color-neutral-medium: #6e6e6b;
+  --color-neutral-light: #bfbfbb;
+  --color-neutral-lightest: #f7f7f2;
+  --color-neutral-white: #fff;
+
+  /* Fonts */
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Montserrat", sans-serif;
+  --font-mono: "Space Mono", monospace;
+
+  /* Breakpoints */
+  --breakpoint-huge: 112.5rem;
+}
+
+/* Base styles */
+@layer base {
+  body {
+    font-family: var(--font-body);
+    color: var(--color-neutral-darkest);
+    background-color: var(--color-neutral-white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+}
+
+/* Links within issue content prose */
+.issue-content p a,
+.issue-content blockquote a {
+  text-decoration: underline;
+  text-decoration-color: var(--color-brand-dark);
+  text-underline-offset: 2px;
+}
+
+.issue-content p a:hover,
+.issue-content blockquote a:hover {
+  color: var(--color-brand-dark);
+}
+
+/* Yellow bar utility for section titles */
+.title-bar::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 8px;
+  background-color: var(--color-brand-primary);
+  margin-top: 6px;
+}

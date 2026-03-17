@@ -1,0 +1,84 @@
+---
+import { support, meta } from '../data/site';
+
+const shareUrl = encodeURIComponent(meta.canonicalUrl);
+const shareText = encodeURIComponent(meta.description);
+---
+
+<section class="py-12 md:py-16 px-4 bg-brand-primary">
+  <div class="max-w-4xl mx-auto">
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+      <!-- Heart icon -->
+      <div class="flex-shrink-0 pulse-heart">
+        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 24 24" fill="currentColor" class="text-neutral-darkest">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+      </div>
+
+      <!-- Content -->
+      <div class="text-center md:text-left flex-1">
+        <div class="flex flex-col md:flex-row gap-6 md:gap-8">
+          <div class="flex-1">
+            <h3 class="font-heading text-xl md:text-2xl font-semibold mb-2 text-neutral-darkest">
+              {support.title}
+            </h3>
+            <p class="text-sm text-neutral-darkest max-w-[600px]">
+              {support.description}
+            </p>
+          </div>
+
+          <!-- Share buttons -->
+          <div class="flex flex-row md:flex-col gap-3 justify-center md:justify-start">
+            <a
+              href={`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center px-5 h-11 bg-neutral-darkest text-neutral-white font-heading text-sm font-semibold uppercase hover:bg-neutral-dark transition-colors"
+            >
+              Facebook
+            </a>
+            <a
+              href={`https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center px-5 h-11 bg-neutral-darkest text-neutral-white font-heading text-sm font-semibold uppercase hover:bg-neutral-dark transition-colors"
+            >
+              Twitter
+            </a>
+            <a
+              href={`https://www.linkedin.com/shareArticle?mini=true&url=${shareUrl}&title=${shareText}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center justify-center px-5 h-11 bg-neutral-darkest text-neutral-white font-heading text-sm font-semibold uppercase hover:bg-neutral-dark transition-colors"
+            >
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  @keyframes pulse_animation {
+    0% {
+      transform: scale(1);
+      opacity: 0.9;
+    }
+    50% {
+      transform: scale(1.02);
+      opacity: 1;
+      color: #560a13;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.9;
+    }
+  }
+
+  .pulse-heart {
+    animation: pulse_animation 1500ms linear infinite;
+    transform-origin: 70% 70%;
+  }
+</style>
