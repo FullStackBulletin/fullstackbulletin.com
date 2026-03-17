@@ -1,0 +1,64 @@
+---
+import { getCollection } from 'astro:content';
+
+const issues = await getCollection('issues');
+const totalIssues = issues.length;
+---
+
+<section class="bg-white py-16 md:py-24 px-4">
+  <div class="max-w-[700px] mx-auto">
+    <h2 class="font-heading text-2xl md:text-3xl font-semibold title-bar mb-8">
+      The archive
+    </h2>
+
+    <div class="space-y-4 text-base md:text-lg leading-relaxed text-neutral-dark">
+      <p>
+        Every single issue we ever published is still available. That's {totalIssues} issues you can browse,
+        search, and read, with full-text search powered by
+        <a href="https://pagefind.app" target="_blank" rel="noopener noreferrer"
+          class="underline decoration-brand-primary underline-offset-2 hover:text-brand-dark transition-colors">Pagefind</a>.
+      </p>
+      <p>
+        Take a trip down memory lane: revisit what tech was hot a few years back, see how the web evolved
+        over the years, rediscover the trends that shaped frontend and backend development. You might even
+        find some hidden gems that are still relevant today.
+      </p>
+    </div>
+
+    <div class="mt-8">
+      <a
+        href="/archive"
+        class="inline-flex items-center justify-center px-8 h-12 bg-brand-primary text-neutral-darkest font-heading text-base font-semibold uppercase hover:bg-brand-dark transition-colors"
+      >
+        Browse the archive
+      </a>
+    </div>
+
+    <div class="mt-12 p-6 bg-neutral-lightest border-l-4 border-brand-primary">
+      <h3 class="font-heading text-base font-semibold mb-3">
+        Nerd corner: take the data with you
+      </h3>
+      <p class="text-sm text-neutral-dark leading-relaxed mb-4">
+        We've made the entire archive available as structured data. Download it, query it, build something cool with it.
+        You could even load the Parquet file into <a href="https://duckdb.org" target="_blank" rel="noopener noreferrer" class="underline hover:text-brand-dark">DuckDB</a> and
+        run SQL queries against almost a decade of fullstack web development trends.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a
+          href="/fullstackbulletin-archive.json"
+          download
+          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-heading font-semibold bg-neutral-darkest text-white hover:bg-neutral-dark transition-colors"
+        >
+          Download JSON
+        </a>
+        <a
+          href="/fullstackbulletin-archive.parquet"
+          download
+          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-heading font-semibold bg-neutral-darkest text-white hover:bg-neutral-dark transition-colors"
+        >
+          Download Parquet
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

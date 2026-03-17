@@ -5,10 +5,12 @@
  * Usage: node copy-archive-images.mjs
  */
 import { readdirSync, existsSync, mkdirSync, copyFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const IMAGES_DIR = join(import.meta.dirname, 'images');
-const OUTPUT_DIR = join(import.meta.dirname, 'public', 'archive-images');
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const IMAGES_DIR = join(__dirname, '..', 'images');
+const OUTPUT_DIR = join(__dirname, '..', 'public', 'archive-images');
 
 if (!existsSync(OUTPUT_DIR)) mkdirSync(OUTPUT_DIR, { recursive: true });
 

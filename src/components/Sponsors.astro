@@ -2,18 +2,23 @@
 import { sponsors } from '../data/site';
 ---
 
-<section class="py-8 px-4 bg-black">
+<section class="py-16 md:py-24 px-4 bg-black">
   <div class="max-w-4xl mx-auto">
-    <h2 class="font-heading text-2xl md:text-3xl font-semibold text-white title-bar mb-8">
-      Past sponsors
+    <h2 class="font-heading text-2xl md:text-3xl font-semibold text-white title-bar mb-4">
+      Thank you, sponsors
     </h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <p class="text-base md:text-lg text-neutral-light mb-10 max-w-[700px] leading-relaxed">
+      Running a newsletter for nearly a decade isn't free. These companies believed in what we were doing
+      and helped us keep the lights on. We're genuinely grateful for their support and we encourage you
+      to check them out.
+    </p>
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-8 items-center">
       {sponsors.map((sponsor) => (
         <a
           href={sponsor.link}
           target="_blank"
           rel="noopener noreferrer"
-          class="opacity-70 hover:opacity-100 transition-opacity"
+          class="opacity-70 hover:opacity-100 transition-opacity flex items-center justify-center"
           title={sponsor.name}
         >
           <img

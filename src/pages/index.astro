@@ -1,23 +1,25 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
-import Hero from '../components/Hero.astro';
+import FarewellHero from '../components/FarewellHero.astro';
+import WhyWeClosed from '../components/WhyWeClosed.astro';
+import ArchiveHighlight from '../components/ArchiveHighlight.astro';
+import StayInformed from '../components/StayInformed.astro';
 import Sponsors from '../components/Sponsors.astro';
-import SupportShare from '../components/SupportShare.astro';
-import FaqAccordion from '../components/FaqAccordion.astro';
+import OpenSource from '../components/OpenSource.astro';
 import Founders from '../components/Founders.astro';
 import Footer from '../components/Footer.astro';
-import Loader from '../components/Loader.astro';
 ---
 
 <BaseLayout>
-  <Loader />
   <Header />
   <main>
-    <Hero />
+    <FarewellHero />
+    <WhyWeClosed />
+    <ArchiveHighlight />
+    <StayInformed />
     <Sponsors />
-    <SupportShare />
-    <FaqAccordion />
+    <OpenSource />
     <Founders />
   </main>
   <Footer />

@@ -2,60 +2,18 @@ export const meta = {
   lang: 'en',
   locale: 'en_US',
   title: 'FullStack Bulletin',
-  description: 'The most awesome weekly newsletter about fullstack web development',
+  description:
+    'FullStack Bulletin (2017-2026). A farewell to our weekly newsletter for fullstack developers. Browse the full archive of 438 issues.',
   canonicalUrl: 'https://fullstackbulletin.com',
   twitterProfile: 'fstackbulletin',
 };
 
-export const headline = '<strong>Fullstack</strong> Bulletin';
-export const subHeadline = 'The most awesome weekly newsletter about fullstack web development';
-
 export const navigation = [
-  {
-    label: 'Become a sponsor',
-    link: 'mailto:admin@fullstackbulletin.com?subject=I%20am%20interested%20in%20sponsoring%20FullStack%20bulletin',
-  },
-  {
-    label: 'Archive newsletter',
-    link: '/archive',
-  },
+  { label: 'Archive', link: '/archive' },
 ];
-
-export const callToAction = {
-  label: 'Join to get the best 7 links in your inbox every week, for free:',
-};
-
-export const subscribeForm = {
-  email: {
-    fieldId: 'bd-email',
-    fieldName: 'email',
-    label: 'you.are.awesome@email.com',
-  },
-  submit: {
-    label: 'Join now',
-  },
-  note: 'We never send spam and you can unsubscribe instantly with one click.',
-  action: '//buttondown.com/api/emails/embed-subscribe/fullstackbulletin',
-};
-
-export const sampleLink = {
-  url: '/archive',
-  label: 'Check out our previous emails',
-};
-
-export const resources = [
-  { image: 'bulletin.svg', count: '7+', text: 'selected articles' },
-  { image: 'book.svg', count: '1', text: 'suggested book' },
-  { image: 'quote.svg', count: '1', text: 'inspirational tech quote' },
-];
-
-export const support = {
-  title: 'Spread the FullStack Love',
-  description: 'Tell your friends and colleagues about FullStack Bulletin and help us spread the best FullStack gems every week!',
-};
 
 export const founders = {
-  title: 'Founders',
+  title: 'The people behind FullStack Bulletin',
   entries: [
     {
       name: 'Luciano Mammino',
@@ -69,7 +27,8 @@ export const founders = {
     {
       name: 'Andrea Mangano',
       image: 'andrea-mangano.png',
-      description: 'UI/Web developer, food lover, romantic and visionary man, curious about life.',
+      description:
+        'UI/Web developer, food lover, romantic and visionary man, curious about life.',
       profiles: [
         { label: '@andreaman87', url: 'https://x.com/andreaman87' },
         { label: 'andreamangano.com', url: 'https://andreamangano.com' },
@@ -81,52 +40,94 @@ export const founders = {
 export const sponsors = [
   { name: 'Dashlane', link: 'https://www.dashlane.com', logo: 'dashlane.svg' },
   { name: 'Upstash', link: 'https://upstash.com', logo: 'upstash.svg' },
-  { name: 'Belka Digital', link: 'https://www.belkadigital.com', logo: 'belka.svg' },
+  {
+    name: 'Belka Digital',
+    link: 'https://www.belkadigital.com',
+    logo: 'belka.svg',
+  },
   { name: 'FeedHive', link: 'https://feedhive.io', logo: 'feedhive.svg' },
   { name: 'Nudge', link: 'https://giveitanudge.com', logo: 'nudge.svg' },
-  { name: 'MisterDA', link: 'https://www.misterda.com/', logo: 'misterda.svg' },
-  { name: 'ConfigCat', link: 'https://configcat.com/', logo: 'configcat.svg' },
+  {
+    name: 'MisterDA',
+    link: 'https://www.misterda.com/',
+    logo: 'misterda.svg',
+  },
+  {
+    name: 'ConfigCat',
+    link: 'https://configcat.com/',
+    logo: 'configcat.svg',
+  },
   { name: 'Packt', link: 'https://www.packtpub.com/', logo: 'packt.svg' },
   { name: 'PostHog', link: 'https://posthog.com/', logo: 'posthog.svg' },
   { name: 'Trigger.dev', link: 'https://trigger.dev', logo: 'triggerdev.svg' },
 ];
 
-export const faq = {
-  title: 'F.A.Q.',
-  entries: [
-    {
-      title: "What's the value for me?",
-      description: 'This mailing list will provide you every week with <strong>7 interesting articles</strong>, <strong>a suggested book</strong> and <strong>an inspirational tech quote</strong> to help you to stay relevant and hopefully learn some new cool tricks. Did we already say that it\'s for FREE?',
-    },
-    {
-      title: 'Where do you get the content?',
-      description: 'We hand pick what we believe is the best content around the web and then we leave the task of extracting the best 7 every week to a <a href="https://github.com/FullStackBulletin">ranking algorithm</a> that we developed.',
-    },
-    {
-      title: 'Can I see an example email?',
-      description: 'Sure! We have an <a href="/archive">archive</a> with all our published issues. Feel free to check them out.',
-    },
-    {
-      title: "I don't like receiving emails...",
-      description: "Don't worry, you are not the only one and we respect that! The good news is that FullStack Bulletin issues can be consumed also on the web through our <a href=\"/archive\">archive page</a>.",
-    },
-    {
-      title: 'Can I send feedback?',
-      description: 'Sure, we\'d love to hear from you. Feel free to use <a target="_blank" href="https://fullstackbulletin.typeform.com/to/eW48Yb">our feedback form</a> to tell us what you think about this newsletter.',
-    },
-    {
-      title: 'Is FSB looking for sponsors?',
-      description: 'FullStack Bulletin is a non-profit initiative, so having some sponsor on board would help us to keep the lights on. If you have a sponsorship idea that can be relevant for FullStack developers, we would love to <a href="mailto:admin@fullstackbulletin.com?subject=I%20am%20interested%20in%20sponsoring%20FullStack%20bulletin">discuss it</a> with you!',
-    },
+export const footer = {
+  tagline:
+    'Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a>',
+  links: [
+    { label: 'Archive', url: '/archive' },
+    { label: 'loige.co', url: 'https://loige.co' },
+    { label: 'andreamangano.com', url: 'https://andreamangano.com' },
   ],
 };
 
-export const footer = {
-  description: 'We hand pick what we believe are the best articles and posts around the web and then we leave the task of extracting the best 7 every week to ranking algorithm that we developed.',
-  sub: 'Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank"><strong>automation</strong></a>',
-  feedback: {
-    text: 'Feel free to use our feedback form to tell us what you think about this newsletter.',
-    label: 'Feedback form',
-    url: 'https://fullstackbulletin.typeform.com/to/eW48Yb',
+export const openSourceProjects = [
+  {
+    name: 'FullStackBulletin/automation',
+    description:
+      'The automation pipeline that powered the newsletter: scraping, ranking, and publishing. All open source.',
+    url: 'https://github.com/FullStackBulletin/automation',
   },
+  {
+    name: 'FullStackBulletin/tech-quotes',
+    description:
+      'A curated collection of inspirational tech quotes. One shipped with every issue.',
+    url: 'https://github.com/FullStackBulletin/tech-quotes',
+  },
+  {
+    name: 'FullStackBulletin/fullstack-books',
+    description:
+      'A hand-picked list of books for fullstack developers. One recommended per issue.',
+    url: 'https://github.com/FullStackBulletin/fullstack-books',
+  },
+];
+
+export const liveRefactoringSessions = {
+  title: 'Live refactoring sessions',
+  description:
+    'A YouTube playlist of live coding sessions where we refactored the FullStack Bulletin automation pipeline. Raw, unscripted, and full of real-world problem solving.',
+  url: 'https://www.youtube.com/watch?v=wGLfl4qV4Fw&list=PLbNOKnE-Oyr1tsUft4j0QZDyk5iFcVVy_',
+  thumbnailUrl: '/images/live-refactoring-thumbnail.jpg',
 };
+
+export const recommendedNewsletters = [
+  { name: "Lee Gilmore's Serverless Advocate", url: 'https://serverlessadvocate.substack.com/' },
+  { name: 'Sidebar.io', url: 'https://sidebar.io/' },
+  { name: "Sandro & Tobi's AWS Fundamentals", url: 'https://awsfundamentals.com/' },
+  { name: "Ale & Manuel's Ship with AI", url: 'https://shipwithai.substack.com/' },
+  { name: 'Rust Bytes', url: 'https://weeklyrust.substack.com/' },
+  { name: 'AWS News Feed', url: 'https://aws-news.com/' },
+  { name: 'Programming Digest', url: 'https://programmingdigest.net' },
+  { name: "Matteo Collina's Adventures in Nodeland", url: 'https://adventures.nodeland.dev/' },
+  { name: "Jones Zachariah Noel N's The Serverless Terminal", url: 'https://www.theserverlessterminal.com/' },
+  { name: "Alfonso Graziano's AI-Native Engineering", url: 'https://ainativeengineering.substack.com/' },
+  { name: 'JavaScript Weekly', url: 'https://javascriptweekly.com/' },
+  { name: 'Node Weekly', url: 'https://nodeweekly.com/' },
+  { name: 'Bytes', url: 'https://bytes.dev/' },
+  { name: 'CSS Tricks', url: 'https://css-tricks.com/' },
+  { name: 'Smashing Magazine', url: 'https://www.smashingmagazine.com/' },
+  { name: "Thorsten Ball's Joy & Curiosity", url: 'https://registerspill.thorstenball.com/' },
+  { name: 'React Status', url: 'https://react.statuscode.com/' },
+  { name: 'Golang Weekly', url: 'https://golangweekly.com/' },
+  { name: 'This Week in Rust', url: 'https://this-week-in-rust.org/' },
+  { name: 'Web Tools Weekly', url: 'https://webtoolsweekly.com/' },
+  { name: "Stefan Judis' Web Weekly", url: 'https://webweekly.email/' },
+];
+
+export const recommendedCreators = [
+  { name: 'Salma Alam-Naylor', url: 'https://whitep4nth3r.com/' },
+  { name: 'TBD', url: '#' },
+  { name: 'TBD', url: '#' },
+  { name: 'TBD', url: '#' },
+];

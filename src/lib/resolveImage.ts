@@ -7,6 +7,6 @@ export function resolveImage(imageUrl: string | null): string | null {
   if (imageUrl.startsWith('./')) {
     return `/archive-images/${imageUrl.slice(2)}`;
   }
-  // Already an absolute URL — return as-is
+  // Already an absolute URL, return as-is
   return imageUrl;
 }

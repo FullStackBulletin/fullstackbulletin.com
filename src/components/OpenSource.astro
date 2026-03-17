@@ -1,0 +1,59 @@
+---
+import { openSourceProjects, liveRefactoringSessions } from '../data/site';
+---
+
+<section class="bg-neutral-lightest py-16 md:py-24 px-4">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="font-heading text-2xl md:text-3xl font-semibold title-bar mb-4">
+      Open source
+    </h2>
+    <p class="text-base md:text-lg text-neutral-dark mb-10 max-w-[700px]">
+      Everything that powered FullStack Bulletin is open source. If you ever want to start your own newsletter
+      project, this stuff might turn out to be extra useful. Explore the code, fork it, and make it your own.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- GitHub repos -->
+      <div class="space-y-6">
+        {openSourceProjects.map((project) => (
+          <a
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="block p-5 bg-white hover:shadow-md transition-shadow border border-neutral-light/30"
+          >
+            <h3 class="font-heading text-sm font-semibold text-neutral-darkest font-mono">
+              {project.name}
+            </h3>
+            <p class="text-sm text-neutral-dark mt-2 leading-relaxed">
+              {project.description}
+            </p>
+          </a>
+        ))}
+      </div>
+
+      <!-- Live refactoring sessions -->
+      <a
+        href={liveRefactoringSessions.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="block bg-white hover:shadow-md transition-shadow border border-neutral-light/30 self-start"
+      >
+        <img
+          src={liveRefactoringSessions.thumbnailUrl}
+          alt={liveRefactoringSessions.title}
+          class="w-full aspect-video object-cover"
+          loading="lazy"
+        />
+        <div class="p-5">
+          <h3 class="font-heading text-base font-semibold text-neutral-darkest">
+            {liveRefactoringSessions.title}
+          </h3>
+          <p class="text-sm text-neutral-dark mt-2 leading-relaxed">
+            {liveRefactoringSessions.description}
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>

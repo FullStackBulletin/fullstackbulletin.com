@@ -1,0 +1,55 @@
+---
+import { getCollection } from 'astro:content';
+
+const issues = await getCollection('issues');
+const totalIssues = issues.length;
+const dates = issues.map((i) => i.data.date).sort();
+const firstYear = dates[0]?.slice(0, 4) ?? '2017';
+const lastYear = dates[dates.length - 1]?.slice(0, 4) ?? '2026';
+const totalLinks = issues.reduce((sum, i) => sum + (i.data.links?.length ?? 0), 0);
+---
+
+<section class="bg-black text-white py-16 md:py-24 px-4">
+  <div class="max-w-[700px] mx-auto">
+    <h1 class="font-heading text-3xl md:text-5xl font-semibold leading-tight">
+      FullStack Bulletin
+      <span class="block text-brand-primary">{firstYear}-{lastYear}</span>
+    </h1>
+    <p class="mt-4 text-lg md:text-xl text-neutral-light">
+      <em class="italic">Was</em> the self-proclaimed most awesome weekly newsletter about fullstack web development.
+    </p>
+
+    <div class="mt-8 space-y-4 text-neutral-light text-base md:text-lg leading-relaxed">
+      <p>
+        For almost a decade, every single week, we curated the best articles, tutorials, and resources
+        for fullstack developers and delivered them straight to your inbox. No fluff, no spam. Just
+        seven carefully selected links, a book recommendation, and an inspirational tech quote.
+      </p>
+      <p>
+        FullStack Bulletin was born out of a simple idea: two friends,
+        <a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-brand-primary hover:text-brand-light transition-colors underline">Luciano</a> and
+        <a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-brand-primary hover:text-brand-light transition-colors underline">Andrea</a>,
+        who were passionate about web development and wanted to share the best stuff they found online. What started as
+        a weekend project turned into a beloved weekly ritual for thousands of developers around the world.
+      </p>
+      <p>
+        This chapter is now closed, but the archive lives on. Thank you for being part of this journey.
+      </p>
+    </div>
+
+    <div class="mt-12 grid grid-cols-3 gap-4 md:gap-8">
+      <div class="text-center">
+        <span class="block font-heading text-3xl md:text-5xl font-semibold text-brand-primary">{totalIssues}</span>
+        <span class="block text-sm md:text-base text-neutral-light mt-1">issues published</span>
+      </div>
+      <div class="text-center">
+        <span class="block font-heading text-3xl md:text-5xl font-semibold text-brand-primary">~9</span>
+        <span class="block text-sm md:text-base text-neutral-light mt-1">years of curation</span>
+      </div>
+      <div class="text-center">
+        <span class="block font-heading text-3xl md:text-5xl font-semibold text-brand-primary">{totalLinks.toLocaleString()}+</span>
+        <span class="block text-sm md:text-base text-neutral-light mt-1">links shared</span>
+      </div>
+    </div>
+  </div>
+</section>

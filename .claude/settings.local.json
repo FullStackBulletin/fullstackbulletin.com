@@ -30,7 +30,8 @@
       "Bash(wc -l /Users/luciano/repos/fullstackbulletin.com/views/components/_*.pug)",
       "Bash(wc -l /Users/luciano/repos/fullstackbulletin.com/raw_archives/*/metadata.json)",
       "Bash(shasum -a 256 2017-03-13-001-introducing-lottie-airbnb-engineering-data-science/54ba1d29-fdc4-4e32-9470-dd844c9be037.png 2020-01-06-144-why-i-moved-from-react-to-svelte-and-others-will-follow/54ba1d29-fdc4-4e32-9470-dd844c9be037.png 2026-03-09-438-an-interactive-intro-to-crdts/54ba1d29-fdc4-4e32-9470-dd844c9be037.png)",
-      "Bash(xargs shasum:*)"
+      "Bash(xargs shasum:*)",
+      "WebFetch(domain:loige.co)"
     ]
   }
 }

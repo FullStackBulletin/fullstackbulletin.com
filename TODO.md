@@ -1,0 +1,38 @@
+- [ ] move the `images` folder to `public/archive-images` and remove `scripts/copy-archiove-images.mjs` and the respective pre-build script. Make sure also to remove the `archive-images` folder from `.gitignore` and update the README.md to reflect the new location of the images.
+- [ ] update home page with suggested resources to follow as an alternative to the newsletter (Note, some of this are already there, so reconcile what's missing):
+  - Newsletters and websites:
+    - [Lee Gilmore's Serverless Advocate](https://serverlessadvocate.substack.com/)
+    - [Sidebar.io](https://sidebar.io/)
+    - [Sandro & Tobi's AWS Fundamentals](https://awsfundamentals.com/)
+    - [Ale & Manuel's Ship with AI](https://shipwithai.substack.com/)
+    - [Rust Bytes](https://weeklyrust.substack.com/)
+    - [AWS News Feed](https://aws-news.com/)
+    - [Programming Digest](https://programmingdigest.net)
+    - [Matteo Collina's Adventures in Nodeland](https://adventures.nodeland.dev/)
+    - [Jones Zachariah Noel N's The Serveless Terminal](https://www.theserverlessterminal.com/)
+    - [Alfonso Graziano's AI-Native Engineering](https://ainativeengineering.substack.com/)
+    - [JavaScript Weekly](https://javascriptweekly.com/)
+    - [Node Weekly](https://nodeweekly.com/)
+    - [Bytes](https://bytes.dev/)
+    - [CSS Tricks](https://css-tricks.com/)
+    - [Smashing Magazine](https://www.smashingmagazine.com/)
+    - [Thorsten Ball's Joy & Curiosity](https://registerspill.thorstenball.com/)
+    - [React Status](https://react.statuscode.com/)
+    - [Golang Weekly](https://golangweekly.com/)
+    - [This Week in Rust](https://this-week-in-rust.org/)
+    - [Web Tools Weekly](https://webtoolsweekly.com/)
+    - [Stefan Judis' Web Weekly](https://webweekly.email/)
+
+  - Amazing creators and builders to follow:
+    - [Salma Alam-Naylor](https://whitep4nth3r.com/)
+    - [Lea Verou](TBD)
+    - [TBD](TBD)
+    - [TBD](TBD)
+    - [TBD](TBD)
+    - TODO: take top domains from historic content
+    - TODO: take people from mad CSS
+
+- [ ] update home page with link of blog post on loige.co
+- [ ] Write last newsletter
+- [ ] Update content with last newsletter
+- [ ] Remove newsletter subscription from loige.co

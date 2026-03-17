@@ -1,12 +1,5 @@
 ---
-import { subHeadline } from '../data/site';
 import SearchWidget from './SearchWidget.astro';
-
-interface Props {
-  minimal?: boolean;
-}
-
-const { minimal = false } = Astro.props;
 ---
 
 <header class="relative z-50" id="site-header" style="background: #000;">
@@ -25,17 +18,9 @@ const { minimal = false } = Astro.props;
         id="header-logo-full"
       />
     </a>
-    {!minimal && (
-      <p class="hidden md:block text-sm text-neutral-light leading-relaxed max-w-[350px] huge:max-w-[450px] m-0">
-        {subHeadline}
-      </p>
-    )}
-    {minimal && (
-      <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation">
-        <SearchWidget />
-        <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a>
-      </nav>
-    )}
+    <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation">
+      <SearchWidget />
+      <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a>
+    </nav>
   </div>
 </header>
-
