@@ -1,0 +1,614 @@
+[
+  {
+    "name": "Lee Gilmore's Serverless Advocate",
+    "siteUrl": "https://serverlessadvocate.substack.com/",
+    "feedUrl": "https://serverlessadvocate.substack.com/feed",
+    "category": "newsletter"
+  },
+  {
+    "name": "Sidebar.io",
+    "siteUrl": "https://sidebar.io/",
+    "feedUrl": "https://sidebar.io/feed.xml",
+    "category": "newsletter"
+  },
+  {
+    "name": "Sandro & Tobi's AWS Fundamentals",
+    "siteUrl": "https://awsfundamentals.com/",
+    "feedUrl": "https://awsfundamentals.com/blog/rss.xml",
+    "category": "newsletter"
+  },
+  {
+    "name": "Ale & Manuel's Ship with AI",
+    "siteUrl": "https://shipwithai.substack.com/",
+    "feedUrl": "https://shipwithai.substack.com/feed",
+    "category": "newsletter"
+  },
+  {
+    "name": "Rust Bytes",
+    "siteUrl": "https://weeklyrust.substack.com/",
+    "feedUrl": "https://weeklyrust.substack.com/feed",
+    "category": "newsletter"
+  },
+  {
+    "name": "Programming Digest",
+    "siteUrl": "https://programmingdigest.net",
+    "feedUrl": "https://programmingdigest.net/newsletters.rss",
+    "category": "newsletter"
+  },
+  {
+    "name": "Matteo Collina's Adventures in Nodeland",
+    "siteUrl": "https://adventures.nodeland.dev/",
+    "feedUrl": "https://adventures.nodeland.dev/rss.xml",
+    "category": "newsletter"
+  },
+  {
+    "name": "Jones Zachariah Noel N's The Serverless Terminal",
+    "siteUrl": "https://www.theserverlessterminal.com/",
+    "feedUrl": "https://www.theserverlessterminal.com/feed",
+    "category": "newsletter"
+  },
+  {
+    "name": "Alfonso Graziano's AI-Native Engineering",
+    "siteUrl": "https://ainativeengineering.substack.com/",
+    "feedUrl": "https://ainativeengineering.substack.com/feed",
+    "category": "newsletter"
+  },
+  {
+    "name": "JavaScript Weekly",
+    "siteUrl": "https://javascriptweekly.com/",
+    "feedUrl": "https://javascriptweekly.com/rss/",
+    "category": "newsletter"
+  },
+  {
+    "name": "Node Weekly",
+    "siteUrl": "https://nodeweekly.com/",
+    "feedUrl": "https://nodeweekly.com/rss/",
+    "category": "newsletter"
+  },
+  {
+    "name": "CSS Tricks",
+    "siteUrl": "https://css-tricks.com/",
+    "feedUrl": "http://feeds.feedburner.com/CssTricks",
+    "category": "newsletter"
+  },
+  {
+    "name": "Smashing Magazine",
+    "siteUrl": "https://www.smashingmagazine.com/",
+    "feedUrl": "https://www.smashingmagazine.com/feed",
+    "category": "newsletter"
+  },
+  {
+    "name": "Thorsten Ball's Joy & Curiosity",
+    "siteUrl": "https://registerspill.thorstenball.com/",
+    "feedUrl": "https://registerspill.thorstenball.com/feed",
+    "category": "newsletter"
+  },
+  {
+    "name": "React Status",
+    "siteUrl": "https://react.statuscode.com/",
+    "feedUrl": "https://react.statuscode.com/rss/",
+    "category": "newsletter"
+  },
+  {
+    "name": "Golang Weekly",
+    "siteUrl": "https://golangweekly.com/",
+    "feedUrl": "https://golangweekly.com/rss/",
+    "category": "newsletter"
+  },
+  {
+    "name": "This Week in Rust",
+    "siteUrl": "https://this-week-in-rust.org/",
+    "feedUrl": "https://this-week-in-rust.org/rss.xml",
+    "category": "newsletter"
+  },
+  {
+    "name": "Web Tools Weekly",
+    "siteUrl": "https://webtoolsweekly.com/",
+    "feedUrl": "https://webtoolsweekly.com/feed",
+    "category": "newsletter"
+  },
+  {
+    "name": "Stefan Judis' Web Weekly",
+    "siteUrl": "https://webweekly.email/",
+    "feedUrl": "https://webweekly.email/rss.xml",
+    "category": "newsletter"
+  },
+  {
+    "name": "Frontend Masters",
+    "siteUrl": "https://frontendmasters.com/",
+    "feedUrl": "https://frontendmasters.com/blog/feed",
+    "category": "newsletter"
+  },
+  {
+    "name": "LogRocket Blog",
+    "siteUrl": "https://blog.logrocket.com/",
+    "feedUrl": "https://blog.logrocket.com/feed",
+    "category": "newsletter"
+  },
+  {
+    "name": "NodeSource Blog",
+    "siteUrl": "https://nodesource.com/blog",
+    "feedUrl": "https://nodesource.com/blog/rss",
+    "category": "newsletter"
+  },
+  {
+    "name": "Evil Martians Chronicles",
+    "siteUrl": "https://evilmartians.com/chronicles",
+    "feedUrl": "https://evilmartians.com/chronicles.atom",
+    "category": "newsletter"
+  },
+  {
+    "name": "UX Collective",
+    "siteUrl": "https://uxdesign.cc/",
+    "feedUrl": "https://uxdesign.cc/feed",
+    "category": "newsletter"
+  },
+  {
+    "name": "UX Planet",
+    "siteUrl": "https://uxplanet.org/",
+    "feedUrl": "https://uxplanet.org/feed",
+    "category": "newsletter"
+  },
+  {
+    "name": "Darius Cosden's Import React",
+    "siteUrl": "https://importreact.beehiiv.com/",
+    "feedUrl": "https://importreact.beehiiv.com/rss",
+    "category": "newsletter"
+  },
+  {
+    "name": "Node.js Design Patterns",
+    "siteUrl": "https://nodejsdesignpatterns.com/",
+    "feedUrl": "https://nodejsdesignpatterns.com/rss.xml",
+    "category": "newsletter"
+  },
+  {
+    "name": "Advanced Web Machinery",
+    "siteUrl": "https://advancedweb.hu/",
+    "feedUrl": "https://advancedweb.hu/atom.xml",
+    "category": "newsletter"
+  },
+  {
+    "name": "Cloud Four Blog",
+    "siteUrl": "https://cloudfour.com/",
+    "feedUrl": "https://cloudfour.com/feed/",
+    "category": "newsletter"
+  },
+  {
+    "name": "OddBird",
+    "siteUrl": "https://oddbird.net/",
+    "feedUrl": "https://www.oddbird.net/feed.atom",
+    "category": "newsletter"
+  },
+  {
+    "name": "Piccalilli",
+    "siteUrl": "https://piccalil.li/",
+    "feedUrl": "https://piccalil.li/feed.xml",
+    "category": "newsletter"
+  },
+  {
+    "name": "Fully Stacked",
+    "siteUrl": "https://fullystacked.net/",
+    "feedUrl": "https://fullystacked.net/rss.xml",
+    "category": "newsletter"
+  },
+  {
+    "name": "12 Days of Web",
+    "siteUrl": "https://12daysofweb.dev/",
+    "feedUrl": "https://12daysofweb.dev/feed.xml",
+    "category": "newsletter"
+  },
+  {
+    "name": "Web Performance Tips",
+    "siteUrl": "https://www.webperf.tips/",
+    "feedUrl": "https://www.webperf.tips/rss.xml",
+    "category": "newsletter"
+  },
+  {
+    "name": "DuckTyped",
+    "siteUrl": "https://www.ducktyped.org/",
+    "feedUrl": "https://www.ducktyped.org/feed?sectionId=178769",
+    "category": "newsletter"
+  },
+  {
+    "name": "web.dev",
+    "siteUrl": "https://web.dev/",
+    "feedUrl": "https://web.dev/static/blog/feed.xml",
+    "category": "newsletter"
+  },
+  {
+    "name": "Pope Tech Blog",
+    "siteUrl": "https://blog.pope.tech/",
+    "feedUrl": "https://blog.pope.tech/feed/",
+    "category": "newsletter"
+  },
+  {
+    "name": "Josh W. Comeau",
+    "siteUrl": "https://joshwcomeau.com/",
+    "feedUrl": "https://www.joshwcomeau.com/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Ahmad Shadeed",
+    "siteUrl": "https://ishadeed.com/",
+    "feedUrl": "https://ishadeed.com/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Valeri Karpov",
+    "siteUrl": "https://thecodebarbarian.com/",
+    "feedUrl": "http://thecodebarbarian.com/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Martin Fowler",
+    "siteUrl": "https://martinfowler.com/",
+    "feedUrl": "https://martinfowler.com/feed.atom",
+    "category": "creator"
+  },
+  {
+    "name": "Addy Osmani",
+    "siteUrl": "https://addyosmani.com/",
+    "feedUrl": "http://addyosmani.com/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Robin Wieruch",
+    "siteUrl": "https://robinwieruch.de/",
+    "feedUrl": "http://www.robinwieruch.de/feed/",
+    "category": "creator"
+  },
+  {
+    "name": "Axel Rauschmayer",
+    "siteUrl": "https://2ality.com/",
+    "feedUrl": "https://2ality.com/feeds/posts.atom",
+    "category": "creator"
+  },
+  {
+    "name": "Jake Archibald",
+    "siteUrl": "https://jakearchibald.com/",
+    "feedUrl": "https://jakearchibald.com/posts.rss",
+    "category": "creator"
+  },
+  {
+    "name": "Dan Abramov",
+    "siteUrl": "https://overreacted.io/",
+    "feedUrl": "https://overreacted.io/atom.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Julia Evans",
+    "siteUrl": "https://jvns.ca/",
+    "feedUrl": "https://jvns.ca/atom.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Kent C. Dodds",
+    "siteUrl": "https://kentcdodds.com/",
+    "feedUrl": "https://kentcdodds.com/blog/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Raymond Camden",
+    "siteUrl": "https://raymondcamden.com/",
+    "feedUrl": "https://www.raymondcamden.com/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Amos (fasterthanlime)",
+    "siteUrl": "https://fasterthanli.me/",
+    "feedUrl": "https://fasterthanli.me/index.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Harry Roberts",
+    "siteUrl": "https://csswizardry.com/",
+    "feedUrl": "https://csswizardry.com/feed",
+    "category": "creator"
+  },
+  {
+    "name": "James Sinclair",
+    "siteUrl": "https://jrsinclair.com/",
+    "feedUrl": "http://jrsinclair.com/index.rss",
+    "category": "creator"
+  },
+  {
+    "name": "David Walsh",
+    "siteUrl": "https://davidwalsh.name/",
+    "feedUrl": "https://davidwalsh.name/feed",
+    "category": "creator"
+  },
+  {
+    "name": "Dominik (TkDodo)",
+    "siteUrl": "https://tkdodo.eu/",
+    "feedUrl": "https://tkdodo.eu/blog/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Adam Argyle",
+    "siteUrl": "https://nerdy.dev/",
+    "feedUrl": "https://nerdy.dev/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "John Arundel",
+    "siteUrl": "https://bitfieldconsulting.com/",
+    "feedUrl": "https://bitfieldconsulting.com/posts?format=rss",
+    "category": "creator"
+  },
+  {
+    "name": "Dmitri Pavlutin",
+    "siteUrl": "https://dmitripavlutin.com/",
+    "feedUrl": "https://dmitripavlutin.com/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Zach Leatherman",
+    "siteUrl": "https://zachleat.com/",
+    "feedUrl": "https://zachleat.com/web/feed/",
+    "category": "creator"
+  },
+  {
+    "name": "Ire Aderinokun",
+    "siteUrl": "https://bitsofco.de/",
+    "feedUrl": "https://bitsofco.de/feed/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Josh Collinsworth",
+    "siteUrl": "https://joshcollinsworth.com/",
+    "feedUrl": "https://joshcollinsworth.com/rss",
+    "category": "creator"
+  },
+  {
+    "name": "Brad Frost",
+    "siteUrl": "https://bradfrost.com/",
+    "feedUrl": "https://feeds.feedburner.com/brad-frosts-blog",
+    "category": "creator"
+  },
+  {
+    "name": "Zell Liew",
+    "siteUrl": "https://zellwk.com/",
+    "feedUrl": "https://zellwk.com/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Salma Alam-Naylor",
+    "siteUrl": "https://whitep4nth3r.com/",
+    "feedUrl": "https://whitep4nth3r.com/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Lea Verou",
+    "siteUrl": "https://lea.verou.me/",
+    "feedUrl": "https://lea.verou.me/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Una Kravets",
+    "siteUrl": "https://una.im/",
+    "feedUrl": "https://una.im/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Adam Wathan",
+    "siteUrl": "https://adamwathan.me/",
+    "feedUrl": "https://adamwathan.me/rss/index.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Cassidy Williams",
+    "siteUrl": "https://cassidoo.co/",
+    "feedUrl": "https://cassidoo.co/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Kyle Cook (Web Dev Simplified)",
+    "siteUrl": "https://blog.webdevsimplified.com/",
+    "feedUrl": "https://blog.webdevsimplified.com/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Ben Hong",
+    "siteUrl": "https://www.bencodezen.io/",
+    "feedUrl": "https://www.bencodezen.io/blog/rss/",
+    "category": "creator"
+  },
+  {
+    "name": "Chris Coyier",
+    "siteUrl": "https://chriscoyier.net/",
+    "feedUrl": "https://chriscoyier.net/feed/",
+    "category": "creator"
+  },
+  {
+    "name": "Jason Lengstorf",
+    "siteUrl": "https://jason.energy/",
+    "feedUrl": "https://jason.energy/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Amy Dutton",
+    "siteUrl": "https://www.amydutton.me/",
+    "feedUrl": "https://amydutton.me/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Bramus Van Damme",
+    "siteUrl": "https://www.bram.us/",
+    "feedUrl": "https://www.bram.us/feed/",
+    "category": "creator"
+  },
+  {
+    "name": "Massimo Artizzu",
+    "siteUrl": "https://dev.to/maxart2501",
+    "feedUrl": "https://dev.to/maxart2501/feed",
+    "category": "creator"
+  },
+  {
+    "name": "Armin Ronacher",
+    "siteUrl": "https://lucumr.pocoo.org/",
+    "feedUrl": "https://lucumr.pocoo.org/feed.atom",
+    "category": "creator"
+  },
+  {
+    "name": "Mario Zechner",
+    "siteUrl": "https://mariozechner.at/",
+    "feedUrl": "https://mariozechner.at/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Matthias Ott",
+    "siteUrl": "https://matthiasott.com/",
+    "feedUrl": "https://matthiasott.com/rss",
+    "category": "creator"
+  },
+  {
+    "name": "David Bushell",
+    "siteUrl": "https://dbushell.com/",
+    "feedUrl": "https://dbushell.com/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "James Long",
+    "siteUrl": "https://jlongster.com/",
+    "feedUrl": "https://jlongster.com/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Patrick Brosset",
+    "siteUrl": "https://patrickbrosset.com/",
+    "feedUrl": "https://patrickbrosset.com/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Jim Nielsen",
+    "siteUrl": "https://blog.jim-nielsen.com/",
+    "feedUrl": "https://blog.jim-nielsen.com/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Alex MacArthur",
+    "siteUrl": "https://macarthur.me/",
+    "feedUrl": "https://macarthur.me/rss/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Anthony Fu",
+    "siteUrl": "https://antfu.me/",
+    "feedUrl": "https://antfu.me/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Pawel Grzybek",
+    "siteUrl": "https://pawelgrzybek.com/",
+    "feedUrl": "https://pawelgrzybek.com/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Evert Pot",
+    "siteUrl": "https://evertpot.com/",
+    "feedUrl": "https://evertpot.com/atom.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Andrea Giammarchi",
+    "siteUrl": "https://medium.com/@WebReflection",
+    "feedUrl": "https://medium.com/feed/@WebReflection",
+    "category": "creator"
+  },
+  {
+    "name": "Tania Rascia",
+    "siteUrl": "https://www.taniarascia.com/",
+    "feedUrl": "https://www.taniarascia.com/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Maximiliano Firtman",
+    "siteUrl": "https://firt.dev/",
+    "feedUrl": "https://firt.dev/feed/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Monica Dinculescu",
+    "siteUrl": "https://meowni.ca/",
+    "feedUrl": "http://meowni.ca/atom.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Michael Di Prisco",
+    "siteUrl": "https://cadienvan.github.io/",
+    "feedUrl": "https://cadienvan.github.io/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Erik Runyon",
+    "siteUrl": "https://erikrunyon.com/",
+    "feedUrl": "https://erikrunyon.com/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Max Böck",
+    "siteUrl": "https://mxb.at/",
+    "feedUrl": "https://mxb.at/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Kyle Shevlin",
+    "siteUrl": "https://kyleshevlin.com/",
+    "feedUrl": "https://kyleshevlin.com/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Surma",
+    "siteUrl": "https://dassur.ma/",
+    "feedUrl": "https://dassur.ma/index.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Chris Ferdinandi",
+    "siteUrl": "https://gomakethings.com/",
+    "feedUrl": "http://feeds.feedburner.com/GoMakeThings",
+    "category": "creator"
+  },
+  {
+    "name": "Valentino Gagliardi",
+    "siteUrl": "https://www.valentinog.com/blog",
+    "feedUrl": "https://www.valentinog.com/blog/feed/",
+    "category": "creator"
+  },
+  {
+    "name": "Max Stoiber",
+    "siteUrl": "https://mxstbr.com/",
+    "feedUrl": "https://mxstbr.com/rss",
+    "category": "creator"
+  },
+  {
+    "name": "Will Boyd",
+    "siteUrl": "https://codersblock.com/",
+    "feedUrl": "http://codersblock.com/blog/feed/",
+    "category": "creator"
+  },
+  {
+    "name": "Shawn Wang (swyx)",
+    "siteUrl": "https://www.swyx.io/",
+    "feedUrl": "https://www.swyx.io/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Marvin Hagemeister",
+    "siteUrl": "https://marvinh.dev/",
+    "feedUrl": "https://marvinh.dev/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Malte Ubl",
+    "siteUrl": "https://www.industrialempathy.com/",
+    "feedUrl": "https://www.industrialempathy.com/feed/feed.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Ben Howdle",
+    "siteUrl": "https://benhowdle.im/",
+    "feedUrl": "http://benhowdle.im/feed.xml",
+    "category": "creator"
+  }
+]

@@ -1,10 +1,11 @@
 ---
 import { footer } from '../data/site';
+import Icon from './Icon.astro';
 ---
 
-<footer class="bg-black text-neutral-light py-12 px-4">
+<footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20">
   <div class="max-w-4xl mx-auto">
-    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
       <div>
         <a href="/" class="inline-block leading-none">
           <img
@@ -26,7 +27,21 @@ import { footer } from '../data/site';
           ))}
         </nav>
       </div>
-      <p class="text-sm leading-relaxed" set:html={footer.tagline} />
+      <div class="md:text-right">
+        <p class="text-sm leading-relaxed" set:html={footer.tagline} />
+        <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+          Curious how this site is built?
+          <a
+            href="https://github.com/FullStackBulletin/fullstackbulletin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"
+          >
+            <Icon name="github" size={14} />
+            Check out our public repo
+          </a>
+        </p>
+      </div>
     </div>
   </div>
 </footer>

@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import Icon from './Icon.astro';
 
 const issues = await getCollection('issues');
 const totalIssues = issues.length;
@@ -9,8 +10,8 @@ const lastYear = dates[dates.length - 1]?.slice(0, 4) ?? '2026';
 const totalLinks = issues.reduce((sum, i) => sum + (i.data.links?.length ?? 0), 0);
 ---
 
-<section class="bg-black text-white py-16 md:py-24 px-4">
-  <div class="max-w-[700px] mx-auto">
+<section class="bg-black text-white py-16 md:py-24 px-4 md:px-10">
+  <div class="max-w-4xl mx-auto">
     <h1 class="font-heading text-3xl md:text-5xl font-semibold leading-tight">
       FullStack Bulletin
       <span class="block text-brand-primary">{firstYear}-{lastYear}</span>
@@ -19,7 +20,7 @@ const totalLinks = issues.reduce((sum, i) => sum + (i.data.links?.length ?? 0), 
       <em class="italic">Was</em> the self-proclaimed most awesome weekly newsletter about fullstack web development.
     </p>
 
-    <div class="mt-8 space-y-4 text-neutral-light text-base md:text-lg leading-relaxed">
+    <div class="mt-8 space-y-4 text-neutral-light text-base md:text-lg leading-relaxed max-w-[700px]">
       <p>
         For almost a decade, every single week, we curated the best articles, tutorials, and resources
         for fullstack developers and delivered them straight to your inbox. No fluff, no spam. Just
@@ -33,20 +34,23 @@ const totalLinks = issues.reduce((sum, i) => sum + (i.data.links?.length ?? 0), 
         a weekend project turned into a beloved weekly ritual for thousands of developers around the world.
       </p>
       <p>
-        This chapter is now closed, but the archive lives on. Thank you for being part of this journey.
+        This chapter is now closed, but the <a href="/archive" class="text-brand-primary hover:text-brand-light transition-colors underline">archive</a> lives on. Thank you for being part of this journey.
       </p>
     </div>
 
     <div class="mt-12 grid grid-cols-3 gap-4 md:gap-8">
-      <div class="text-center">
+      <div class="text-center py-4 border border-white/10 rounded">
+        <Icon name="newspaper" size={28} class="mx-auto mb-2 text-brand-primary/60" />
         <span class="block font-heading text-3xl md:text-5xl font-semibold text-brand-primary">{totalIssues}</span>
         <span class="block text-sm md:text-base text-neutral-light mt-1">issues published</span>
       </div>
-      <div class="text-center">
+      <div class="text-center py-4 border border-white/10 rounded">
+        <Icon name="calendar" size={28} class="mx-auto mb-2 text-brand-primary/60" />
         <span class="block font-heading text-3xl md:text-5xl font-semibold text-brand-primary">~9</span>
         <span class="block text-sm md:text-base text-neutral-light mt-1">years of curation</span>
       </div>
-      <div class="text-center">
+      <div class="text-center py-4 border border-white/10 rounded">
+        <Icon name="link" size={28} class="mx-auto mb-2 text-brand-primary/60" />
         <span class="block font-heading text-3xl md:text-5xl font-semibold text-brand-primary">{totalLinks.toLocaleString()}+</span>
         <span class="block text-sm md:text-base text-neutral-light mt-1">links shared</span>
       </div>

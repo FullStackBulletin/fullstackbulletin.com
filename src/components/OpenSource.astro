@@ -1,8 +1,9 @@
 ---
 import { openSourceProjects, liveRefactoringSessions } from '../data/site';
+import Icon from './Icon.astro';
 ---
 
-<section class="bg-neutral-lightest py-16 md:py-24 px-4">
+<section class="bg-neutral-lightest py-16 md:py-24 px-4 md:px-10 bg-pattern-dots">
   <div class="max-w-4xl mx-auto">
     <h2 class="font-heading text-2xl md:text-3xl font-semibold title-bar mb-4">
       Open source
@@ -22,7 +23,8 @@ import { openSourceProjects, liveRefactoringSessions } from '../data/site';
             rel="noopener noreferrer"
             class="block p-5 bg-white hover:shadow-md transition-shadow border border-neutral-light/30"
           >
-            <h3 class="font-heading text-sm font-semibold text-neutral-darkest font-mono">
+            <h3 class="font-heading text-sm font-semibold text-neutral-darkest font-mono flex items-center gap-2">
+              <Icon name="code" size={16} class="text-neutral-dark shrink-0" />
               {project.name}
             </h3>
             <p class="text-sm text-neutral-dark mt-2 leading-relaxed">

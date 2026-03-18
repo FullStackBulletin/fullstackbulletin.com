@@ -1,0 +1,54 @@
+---
+interface Props {
+  href?: string;
+  variant?: 'primary' | 'secondary' | 'outline';
+  size?: 'sm' | 'md' | 'lg';
+  rounded?: 'none' | 'full';
+  class?: string;
+  [key: string]: any;
+}
+
+const {
+  href,
+  variant = 'primary',
+  size = 'md',
+  rounded: roundedProp,
+  class: className = '',
+  ...rest
+} = Astro.props;
+
+const rounded = roundedProp ?? (variant === 'outline' ? 'full' : 'none');
+
+const base = 'inline-flex items-center justify-center gap-2 font-heading transition-all duration-200';
+
+const variants: Record<string, string> = {
+  primary: 'bg-brand-primary text-neutral-darkest font-semibold hover:bg-brand-dark',
+  secondary: 'bg-neutral-darkest text-white font-semibold hover:bg-neutral-dark',
+  outline: 'bg-white border border-neutral-light/50 text-neutral-darkest hover:border-brand-primary hover:bg-brand-primary/15 hover:shadow-sm',
+};
+
+const sizes: Record<string, string> = {
+  sm: 'px-4 py-2 text-sm',
+  md: 'px-5 py-2.5 text-sm',
+  lg: 'px-8 py-3 text-base uppercase tracking-wider',
+};
+
+const roundedClasses: Record<string, string> = {
+  none: '',
+  full: 'rounded-full',
+};
+
+const classes = [base, variants[variant], sizes[size], roundedClasses[rounded], className].filter(Boolean).join(' ');
+
+const Tag = href ? 'a' : 'button';
+---
+
+{href ? (
+  <a href={href} class={classes} {...rest}>
+    <slot />
+  </a>
+) : (
+  <button class={classes} {...rest}>
+    <slot />
+  </button>
+)}

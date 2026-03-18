@@ -1,17 +1,19 @@
 ---
 import { getCollection } from 'astro:content';
+import Button from './Button.astro';
+import Icon from './Icon.astro';
 
 const issues = await getCollection('issues');
 const totalIssues = issues.length;
 ---
 
-<section class="bg-white py-16 md:py-24 px-4">
-  <div class="max-w-[700px] mx-auto">
+<section class="bg-white py-16 md:py-24 px-4 md:px-10 bg-pattern-grid">
+  <div class="max-w-4xl mx-auto">
     <h2 class="font-heading text-2xl md:text-3xl font-semibold title-bar mb-8">
       The archive
     </h2>
 
-    <div class="space-y-4 text-base md:text-lg leading-relaxed text-neutral-dark">
+    <div class="space-y-4 text-base md:text-lg leading-relaxed text-neutral-dark max-w-[700px]">
       <p>
         Every single issue we ever published is still available. That's {totalIssues} issues you can browse,
         search, and read, with full-text search powered by
@@ -26,15 +28,13 @@ const totalIssues = issues.length;
     </div>
 
     <div class="mt-8">
-      <a
-        href="/archive"
-        class="inline-flex items-center justify-center px-8 h-12 bg-brand-primary text-neutral-darkest font-heading text-base font-semibold uppercase hover:bg-brand-dark transition-colors"
-      >
+      <Button href="/archive" variant="primary" size="lg">
+        <Icon name="archive" size={18} />
         Browse the archive
-      </a>
+      </Button>
     </div>
 
-    <div class="mt-12 p-6 bg-neutral-lightest border-l-4 border-brand-primary">
+    <div class="mt-12 p-6 bg-neutral-darkest/5 border-l-4 border-brand-primary">
       <h3 class="font-heading text-base font-semibold mb-3">
         Nerd corner: take the data with you
       </h3>
@@ -44,20 +44,14 @@ const totalIssues = issues.length;
         run SQL queries against almost a decade of fullstack web development trends.
       </p>
       <div class="flex flex-wrap gap-3">
-        <a
-          href="/fullstackbulletin-archive.json"
-          download
-          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-heading font-semibold bg-neutral-darkest text-white hover:bg-neutral-dark transition-colors"
-        >
+        <Button href="/fullstackbulletin-archive.json" variant="secondary" size="sm" download>
+          <Icon name="download" size={16} />
           Download JSON
-        </a>
-        <a
-          href="/fullstackbulletin-archive.parquet"
-          download
-          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-heading font-semibold bg-neutral-darkest text-white hover:bg-neutral-dark transition-colors"
-        >
+        </Button>
+        <Button href="/fullstackbulletin-archive.parquet" variant="secondary" size="sm" download>
+          <Icon name="download" size={16} />
           Download Parquet
-        </a>
+        </Button>
       </div>
     </div>
   </div>
