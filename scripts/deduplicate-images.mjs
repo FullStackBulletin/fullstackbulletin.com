@@ -26,7 +26,7 @@ import {
 import { join, extname } from 'node:path';
 
 const ARCHIVES_DIR = join(import.meta.dirname, '..', 'raw_archives');
-const IMAGES_DIR = join(import.meta.dirname, '..', 'images');
+const IMAGES_DIR = join(import.meta.dirname, '..', 'public', 'archive-images');
 const DRY_RUN = process.argv.includes('--dry-run');
 
 if (DRY_RUN) console.log('=== DRY RUN MODE ===\n');
@@ -119,7 +119,7 @@ for (const [hashName, sourcePath] of hashMap) {
     copiedCount++;
   }
 }
-console.log(`Copied ${copiedCount} unique images to images/`);
+console.log(`Copied ${copiedCount} unique images to public/archive-images/`);
 
 // Step 4: Update metadata.json files
 let metaUpdated = 0;

@@ -15,13 +15,12 @@ pnpm test      # Run Playwright tests
 ## Project structure
 
 ```
-├── archive/          # Scraped newsletter data (committed)
-├── images/           # Deduplicated images by SHA-256 hash (committed)
-├── scripts/          # Utility scripts (scrape, extract, rename, deduplicate)
-├── src/              # Astro source (pages, components, layouts, lib)
-├── public/           # Static assets (logos, icons)
-├── tests/            # Playwright accessibility tests
-└── copy-archive-images.mjs  # Prebuild: copies images/ → public/archive-images/
+├── archive/                  # Scraped newsletter data (committed)
+├── public/archive-images/    # Deduplicated images by SHA-256 hash (committed)
+├── scripts/                  # Utility scripts (scrape, extract, rename, deduplicate)
+├── src/                      # Astro source (pages, components, layouts, lib)
+├── public/                   # Static assets (logos, icons, archive images)
+├── tests/                    # Playwright accessibility tests
 ```
 
 ## Scripts

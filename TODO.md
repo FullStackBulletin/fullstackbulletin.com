@@ -1,5 +1,5 @@
-- [ ] move the `images` folder to `public/archive-images` and remove `scripts/copy-archiove-images.mjs` and the respective pre-build script. Make sure also to remove the `archive-images` folder from `.gitignore` and update the README.md to reflect the new location of the images.
-- [ ] update home page with suggested resources to follow as an alternative to the newsletter (Note, some of this are already there, so reconcile what's missing):
+- [X] move the `images` folder to `public/archive-images` and remove `scripts/copy-archiove-images.mjs` and the respective pre-build script. Make sure also to remove the `archive-images` folder from `.gitignore` and update the README.md to reflect the new location of the images.
+- [X] update home page with suggested resources to follow as an alternative to the newsletter (Note, some of this are already there, so reconcile what's missing):
   - Newsletters and websites:
     - [Lee Gilmore's Serverless Advocate](https://serverlessadvocate.substack.com/)
     - [Sidebar.io](https://sidebar.io/)
@@ -77,3 +77,5 @@
 - [ ] Write last newsletter
 - [ ] Update content with last newsletter
 - [ ] Remove newsletter subscription from loige.co
+- [ ] Remove newsletter from linkedin profile
+- [ ] Post social sharing
