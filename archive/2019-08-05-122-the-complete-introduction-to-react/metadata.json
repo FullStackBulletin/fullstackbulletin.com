@@ -1,0 +1,75 @@
+{
+  "issueNumber": 122,
+  "title": "The Complete Introduction to React",
+  "slug": "2019-08-05-122-the-complete-introduction-to-react",
+  "date": "2019-08-05",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #31, 2019",
+  "quote": {
+    "text": "Computers are good at following instructions, but not at reading your mind",
+    "author": "Donald Knuth",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Donald_Knuth"
+  },
+  "links": [
+    {
+      "title": "The Complete Introduction to React",
+      "url": "https://jscomplete.com/learn/complete-intro-react",
+      "description": "Learn about React components with functions and classes. Using JSX. Benefits of components. React Hooks. User events. Taking input form users.",
+      "imageUrl": "./0e655e698eb2dc5aec14302d6da001eed5ee4612ab4e6924a7941395fa0e6dec.jpg",
+      "featured": true
+    },
+    {
+      "title": "Going Multithread with Node.js",
+      "url": "https://itnext.io/going-multithread-with-node-js-492258ba32cf",
+      "description": "Writing an high performances multithreaded program with the newest “worker_threads” module",
+      "imageUrl": "./e1b8fa1204beb8c3f0c24d67b3af4d9cabf72524a2c9014a38f2f38eea3c479b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Dissecting A Dweet: Mini Black Hole",
+      "url": "http://frankforce.com/?p=6378",
+      "description": "Today we will be examining my most popular dweet, a miniature black hole simulation! It’s one of my easiest dweets to explain and the code is fairly straightforward.",
+      "imageUrl": "./a9d4ce76bc1c3d06582f0726c97d57c30e82f820635fef7e71c1b8b97e8b2c2d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Take Redux off the main-thread",
+      "url": "https://dassur.ma/things/react-redux-comlink",
+      "description": "Redux is state management. State management belongs off the main thread. In this article, you will learn how to run Redux code in a dedicated worker thread by using the Comlink library.",
+      "imageUrl": "./9e8854ac38e60c6db8c0a217affa96909eefec90f6b89e8ffb3ff8b5a211750f.jpg",
+      "featured": false
+    },
+    {
+      "title": "How (not) to sign a JSON object",
+      "url": "https://latacora.micro.blog/2019/07/24/how-not-to.html",
+      "description": "How do you add a signature to a JSON object? Can you add the signature as a property of the object itself? At first, this question might seem very simple, but this problem is actually a complicated one and this article discuss many solutions and their tradeoffs.",
+      "imageUrl": "./5863e52d2d643124732ecea0c71dc43d1945595f6c3594b0d4afa794ad53e86a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Keeping things fresh with stale-while-revalidate",
+      "url": "https://web.dev/stale-while-revalidate",
+      "description": "The \"stale-while-revalidate\" HTTP header helps developers balance between immediacy—loading cached content right away—and freshness—ensuring updates to the cached content are used in the future.",
+      "imageUrl": "./81f36303ac2d0be2ecb6c552a5e2ee8d7e68d3192ab6d60d1fdbcf8d6da44ba9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Decoupling logic from React components",
+      "url": "https://labcodes.com.br/blog/en/decoupling-logic-from-react-components.html",
+      "description": "This article offers a good and sustainable way to deal with requests and data processing in a React/Redux project.",
+      "imageUrl": "./0741addeffdb52ab5e664f2eeb8e48243fd328ed72e448d82a8d847e42952773.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Rails, Angular, Postgres, and Bootstrap: Powerful, Effective, and Efficient Full-Stack Web Development",
+    "author": "David B. Copeland",
+    "description": "As a Rails developer, you care about user experience and performance, but you also want simple and maintainable code. Achieve all that by embracing the full stack of web development, from styling with Bootstrap, building an interactive user interface with AngularJS, to storing data quickly and reliably in PostgreSQL. Take a holistic view of full-stack development to create usable, high-performing applications, and learn to use these technologies effectively in a Ruby on Rails environment.",
+    "coverImageUrl": "./916a92b54ef122132c9c594e8eb8d9182649599a02cfe38f79d2f203037b008c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501267/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501267/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

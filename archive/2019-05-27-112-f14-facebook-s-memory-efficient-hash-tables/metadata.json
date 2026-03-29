@@ -1,0 +1,75 @@
+{
+  "issueNumber": 112,
+  "title": "F14 - Facebook's memory-efficient hash tables",
+  "slug": "2019-05-27-112-f14-facebook-s-memory-efficient-hash-tables",
+  "date": "2019-05-27",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #21, 2019",
+  "quote": {
+    "text": "Imagination is the Discovering Faculty, pre-eminently. It is that which penetrates into the unseen worlds around us, the worlds of Science",
+    "author": "Ada Lovelace",
+    "authorTitle": "Mathematician",
+    "authorUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+  },
+  "links": [
+    {
+      "title": "F14 - Facebook's memory-efficient hash tables",
+      "url": "https://code.fb.com/developer-tools/f14",
+      "description": "Hash tables provide a fast way to maintain a set of keys or map keys to values, even if the keys are objects, like strings. To simplify the process of selecting the right hash table, Facebook Engineering built F14, part of Folly, our open source library of C++ components.",
+      "imageUrl": "./63d1017b060b698a540b13625538e90b02aa5b6d9caa8e9ea12b18c2c62fd7e3.png",
+      "featured": true
+    },
+    {
+      "title": "Virtual DOM is pure overhead",
+      "url": "https://svelte.dev/blog/virtual-dom-is-pure-overhead",
+      "description": "An interesting point of view on why the Virtual DOM is overrated and not the fastest possible option for DOM rendering.",
+      "imageUrl": "./c4356c8653bd78df8bdd48a69e4b454a01f0c6d0107eb631a8fba332948425bc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Never run directly against Node.js in production",
+      "url": "https://medium.freecodecamp.org/you-should-never-ever-run-directly-against-node-js-in-production-maybe-7fdfaed51ec6",
+      "description": "How to run Node.js processes safely in production. Don't run them directly but use something like PM2 or supervisor.",
+      "imageUrl": "./4019d890349124065303fb2b6fed44dd09f817fd1fb263d6bb2456445ca0844c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Creating Graphs With JavaScript",
+      "url": "https://dev.to/emmawedekind/creating-graphs-with-javascript-4efm",
+      "description": "Graphs are a data structure comprised of a collection of nodes with edges. They are a very fundamental data structure in many computer science problems. In this article, you will learn how to create graph data structures in JavaScript.",
+      "imageUrl": "./84416f4850c6e6c65f75d868ec77bc1457939de7b27485df3615a298eeca82dc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Error handling with the JavaScript Either Monad",
+      "url": "http://jrsinclair.com/articles/2019/elegant-error-handling-with-the-js-either-monad/index.html",
+      "description": "JavaScript gives us a built-in language feature for handling exceptions: try…catch statements. And they're better than littering our code with if-statements. But they can be problematic. And they are not the only way to handle errors. In this article, we’ll take a look at using the ‘Either monad’ as a convenient alternative for error handling.",
+      "imageUrl": "./715c25898b75a76f94ef64e5c4935412868d41539d88c506e9ad36f9531847bf.png",
+      "featured": false
+    },
+    {
+      "title": "A practical guide to ES6 Proxy",
+      "url": "https://blog.bitsrc.io/a-practical-guide-to-es6-proxy-229079c3c2f0",
+      "description": "Proxies on proxies for clean and composable Javascript metaprogramming",
+      "imageUrl": "./521089c3422851747be7b79a989b28480d5ad10c51bf8470d28741a5aa3d18f5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Three.js Fundamentals",
+      "url": "http://threejsfundamentals.org/threejs/lessons/threejs-fundamentals.html",
+      "description": "Your first Three.js lesson starting with the fundamentals",
+      "imageUrl": "./86a64ec86e241997af4c39f59f6073b937ec3c11a794f341a57499de900b6e88.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "You Don't Know JS: ES6 & Beyond",
+    "author": "Kyle Simpson",
+    "description": "As part of the \"You Don’t Know JS\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built. Learn new ES6 syntax that eases the pain points of common programming idioms. Organize code with iterators, generators, modules, and classes. Express async flow control with Promises combined with generators. Use collections to work more efficiently with data in structured waysLeverage new API helpers, including Array, Object, Math, Number, and String. Extend your program’s capabilities through meta programming.",
+    "coverImageUrl": "./dc82d3e22d7d2516883c5adc587d3a8817d011c764cda892712040ff1b3ea3e1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491904240/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491904240/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

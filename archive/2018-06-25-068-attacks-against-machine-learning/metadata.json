@@ -1,0 +1,75 @@
+{
+  "issueNumber": 68,
+  "title": "Attacks against machine learning",
+  "slug": "2018-06-25-068-attacks-against-machine-learning",
+  "date": "2018-06-25",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #25, 2018",
+  "quote": {
+    "text": "There are two ways to write error-free programs; only the third one works",
+    "author": "Alan J. Perlis",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_J._Perlis"
+  },
+  "links": [
+    {
+      "title": "Attacks against machine learning",
+      "url": "https://elie.net/blog/ai/attacks-against-machine-learning-an-overview",
+      "description": "This blog post surveys the attacks techniques that target AI (Artificial Intelligence) systems and how to protect against them.",
+      "imageUrl": "./01978f5a186333ceb0542bdc716e367a33b399eef618aa814684a94dd2f623a7.jpg",
+      "featured": true
+    },
+    {
+      "title": "GraphQL: Everything You Need to Know",
+      "url": "https://medium.com/@weblab_tech/graphql-everything-you-need-to-know-58756ff253d8",
+      "description": "So you’ve been constructing and using REST API’s for quite some time now and a short while ago started hearing about GraphQL... In this article, you will find a number of useful details that will make you understand and get you started with GraphQL.",
+      "imageUrl": "./a66ab3fe84c8d3d468d793ce171660dbffad46cd76189ad0fa040fd44f354216.jpg",
+      "featured": false
+    },
+    {
+      "title": "Design Tip: Never Use Black",
+      "url": "https://ianstormtaylor.com/design-tip-never-use-black",
+      "description": "Never Use Black! One of the most important colour tricks... Mrs. Zamula, a childhood art teacher, first warned the author of this post about black when he was in middle school. This is a story about why this tip is important and how following it can improve your designs.",
+      "imageUrl": "./e7b1db01f9f968ac9c7ebfc91260338202b13fc155ca76ae428238782152b756.png",
+      "featured": false
+    },
+    {
+      "title": "anordal/shellharden",
+      "url": "https://github.com/anordal/shellharden",
+      "description": "shellharden - A bash syntax highlighter that encourages (and can fix) proper quoting of variables",
+      "imageUrl": "./eec220086ba844ec0c318b52ede345b2b9b421c8abe971383ad81e4a3c342f8c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Creating a Bar Graph with CSS Grid",
+      "url": "https://css-tricks.com/creating-a-bar-graph-with-css-grid",
+      "description": "If you’re looking for more manageable ways to create bar graphs, or in search of use cases to practice CSS Grid layout, this article is for you!",
+      "imageUrl": "./0bfe5474c393bfb034060cc048d34c2c7025724aa5f3cfdbd63b37b196a4993b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Kubernetes Security Best Practices",
+      "url": "https://speakerdeck.com/ianlewis/kubernetes-security-best-practices",
+      "description": "Containers give developers the ability to isolate applications from one another, but that’s not enough. Resource isolation is much different than security isolation. How do we make applications deployed in containers more secure? How do we apply existing tools like SELinux and AppArmor, etc when using container orchestration tools like Kubernetes?",
+      "imageUrl": "./ba8d65768113e4e01dc85ec99e6d83eb9e1dc55a35c6303a442697f32f2076c6.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS Doodle",
+      "url": "https://css-doodle.com/",
+      "description": "An incredible web component for drawing patterns using only CSS. You just need to check out the home page to fall in love with this tool! :)",
+      "imageUrl": "./e382205b97e00b3e01d4ed92a1294635bfe7d6b76e1bae2ec80b4055cdba5b8c.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Angular 2: From Theory To Practice",
+    "author": "Asim Hussain",
+    "description": "In this quickstart you'll get a 50,000 foot view of the major features of Angular 2 including: Typescript & ES6 Javascript, Components & Binding, Directives, Dependancy Injection & Services, Angular Modules & Bootstrapping your Angular application., SPAs & Routing, Angular CLI, Forms, Reactive Programming with RXJs, HTTP and finally Unit Testing.",
+    "coverImageUrl": "./42ae68e2ba03e04a5972b7f48fcbb414c89e74b4747aae1715503d876e99f3df.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01N9S0CZN/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01N9S0CZN/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

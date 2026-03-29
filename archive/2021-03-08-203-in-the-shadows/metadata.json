@@ -1,0 +1,75 @@
+{
+  "issueNumber": 203,
+  "title": "In the shadows",
+  "slug": "2021-03-08-203-in-the-shadows",
+  "date": "2021-03-08",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #10, 2021",
+  "quote": {
+    "text": "I think that novels that leave out technology misrepresent life as badly as Victorians misrepresented life by leaving out sex",
+    "author": "Kurt Vonnegut",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Kurt_Vonnegut"
+  },
+  "links": [
+    {
+      "title": "In the shadows",
+      "url": "https://css-tricks.com/getting-deep-into-shadows/",
+      "description": "Everything that there's to know about creating shadows with CSS in one article. Moreover, you won't just learn about the CSS bits, but, in this article, you will also find a great introduction on the design theory around shadows and lights.",
+      "imageUrl": "./b80156dc19e37393c156b907cff0f000d5932686b6d6732dc8cf8a36e6b5bcd6.png",
+      "featured": true
+    },
+    {
+      "title": "An Exploration of JSON Interoperability Vulnerabilities",
+      "url": "https://labs.bishopfox.com/tech-blog/an-exploration-of-json-interoperability-vulnerabilities",
+      "description": "Learn more about how the same JSON document can be parsed with different values across microservices, leading to a variety of potential security risks.",
+      "imageUrl": "./dc73e09ea931a42256e6d8f9f403d3afc437b943f87913f43d4bdb6485bc0aed.jpg",
+      "featured": false
+    },
+    {
+      "title": "10 Software Engineering Laws Everybody Loves to Ignore",
+      "url": "https://netmeister.org/blog/software-engineering-laws.html",
+      "description": "Sure, we\nall pretend to know them, but rarely do we think they\napply to us. Your manager certainly doesn't...",
+      "imageUrl": "./4baf4eb7cffade491172a7a055ed64433715f66e99e6660a97a27d9717ddcde2.jpg",
+      "featured": false
+    },
+    {
+      "title": "ericchiang/pup",
+      "url": "https://github.com/ericchiang/pup",
+      "description": "Pup is a fantastic tool that allows you to parse HTML using CSS selectors directly from the convenience of the command line. Something you could probably use for many automation tasks involving HTML.",
+      "imageUrl": "./200586a9427533c82bfb99c6437f57d22b340b35dc4bb41134213d2fdb9619ea.png",
+      "featured": false
+    },
+    {
+      "title": "Time for Next-Gen Codecs to Dethrone JPEG",
+      "url": "https://cloudinary.com/blog/time_for_next_gen_codecs_to_dethrone_jpeg",
+      "description": "Learn how several next-gen image codecs (JPEG 2000, WebP, AVIF, and JPEG XL) compare to JPEG in compression density, features, etc. as its potential replacement.",
+      "imageUrl": "./75c7ade78903492bfe0da6dc10e484fe5975515df416edb8ffe4dd0144dafacb.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rust for web development: 2 years later",
+      "url": "https://kerkour.com/blog/rust-for-web-development-2-years-later/",
+      "description": "An interesting take about Rust for web development by a software engineer who has been using Rust to build JSON web APIs for the last 2 years.",
+      "imageUrl": "./d757e753c9a8bf45dcb34298f15bc2565a88888b602e46b36d56a64c2c2d0f8f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Server Side Rendering (SSR) with React",
+      "url": "https://blog.asayer.io/server-side-rendering-ssr-with-react",
+      "description": "Server Side rendering has been the popular way of rendering web applications before the advent of JavaScript frontend libraries. In this article, we will be looking at how to build an SSR application using React but first let’s take a detour to explain what Client-side Rendering and Server-side rendering are.",
+      "imageUrl": "./bf1aa8c803ebae3b86fa941e8700c5a549d30e86751a7233b900ed1a332bceda.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "RESTful Web APIs: Services for a Changing World",
+    "author": "Leonard Richardson",
+    "description": "The popularity of REST in recent years has led to tremendous growth in almost-RESTful APIs that don’t include many of the architecture’s benefits. With this practical guide, you’ll learn what it takes to design usable REST APIs that evolve over time.",
+    "coverImageUrl": "./9c4219f67796409cdc3651baaeb21d2190a783120c0f90db3533777479bc62a9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358063/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449358063/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

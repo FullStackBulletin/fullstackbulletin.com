@@ -1,0 +1,68 @@
+{
+  "issueNumber": 5,
+  "title": "How Google builds web frameworks",
+  "slug": "2017-04-10-005-how-google-builds-web-frameworks",
+  "date": "2017-04-10",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #14, 2017",
+  "quote": {
+    "text": "Technology made large populations possible; large populations now make technology indispensable",
+    "author": "Joseph Krutch",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Krutch"
+  },
+  "links": [
+    {
+      "title": "How Google builds web frameworks",
+      "url": "https://medium.freecodecamp.com/how-google-builds-a-web-framework-5eeddd691dea",
+      "description": "It’s public knowledge that Google uses a single repository to share code — all 2 billion lines of it — and that it uses the trunk-based…",
+      "imageUrl": "./78f62e51e0d0c5bf9013e4aef44a13880e4a1223b6fca316c8ff67cfe73f05df.jpg",
+      "featured": true
+    },
+    {
+      "title": "Cheat Sheet: All Facebook Messenger Bots Interactions",
+      "url": "https://chatbotsmagazine.com/cheat-sheet-all-facebook-chatbot-interactions-4b14e4e00178",
+      "description": "When designing a product for the web or mobile world, we usually operate within certain types of interactions and user interface elements …",
+      "imageUrl": "./6c32df52eb7b437d70fec48aed2f42e5395f6817b351721fed83c364169c56fb.jpg",
+      "featured": false
+    },
+    {
+      "title": "kamranahmedse/design-patterns-for-humans",
+      "url": "https://github.com/kamranahmedse/design-patterns-for-humans",
+      "description": "design-patterns-for-humans - Design Patterns for Humans™ - An ultra-simplified explanation",
+      "imageUrl": "./254a92d8577532bcbed9a5caa793650826bc704cdf36b8bcefe29c1e4ae0ff1c.jpg",
+      "featured": false
+    },
+    {
+      "title": "verekia/js-stack-from-scratch",
+      "url": "https://github.com/verekia/js-stack-from-scratch",
+      "description": "js-stack-from-scratch - 🎉 V2 release! 🎉 — Step-by-step tutorial to build a modern JavaScript stack.",
+      "imageUrl": "./9e4f6928aa13a99d32375519cfc044c8fbf932f0e031c227a19c37417426200c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Before you bury yourself in packages, learn the Node.js runtime itself",
+      "url": "https://medium.freecodecamp.com/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69",
+      "description": "This article will challenge the very limits of your Node.js knowledge.",
+      "imageUrl": "./5ef6a1d6f9e43d003b2d9fd188cd72d86f7f0c71cd56ce01fba4fb65bc1f3a28.jpg",
+      "featured": false
+    },
+    {
+      "title": "How I started drawing CSS Images",
+      "url": "https://blog.prototypr.io/how-i-started-drawing-css-images-3fd878675c89",
+      "description": "I am inspired by graphic, visual design, and cute things.",
+      "imageUrl": "./a57eb0d06dab254f7911d3083f89eed4fcd9c26fb061eb242d74a6e1c8b0a7b5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Announcing Doctrine 4 — Doctrine Project",
+      "url": "http://doctrine-project.org/2017/04/01/announcing-doctrine-4.html",
+      "description": "had been up to. Adding tens of megabytes of IRC logs of internal discussion we felt we owe you an update on where Doctrine is and where it’s heading to:",
+      "imageUrl": "./1e1e90c7a4abbceffcda6300d1525eba8b6389b31ec75f23bdbd861c410266fa.jpg",
+      "featured": false
+    }
+  ],
+  "book": null,
+  "additionalLinks": null,
+  "sponsor": null
+}

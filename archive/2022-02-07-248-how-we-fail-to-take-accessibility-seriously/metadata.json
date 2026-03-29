@@ -1,0 +1,75 @@
+{
+  "issueNumber": 259,
+  "title": "How we fail to take accessibility seriously",
+  "slug": "2022-02-07-248-how-we-fail-to-take-accessibility-seriously",
+  "date": "2022-02-07",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "It has become appallingly obvious that our technology has exceeded our humanity",
+    "author": "Albert Einstein",
+    "authorTitle": "Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "links": [
+    {
+      "title": "3 Ways We Fail to Take Accessibility Seriously",
+      "url": "https://css-tricks.com/why-dont-developers-take-accessibility-seriously",
+      "description": "This article covers perspectives on accessibility in web design that could help us bridge the great divide between users and designers/developers. Accessibility is one of these topics that we still fail to prioritise and that's a bit of a shame...",
+      "imageUrl": "./c15cd6513c5d23394009fd76ef6dc9c4900f963a4195e0a59355a1e4b10f8145.jpg",
+      "featured": true
+    },
+    {
+      "title": "Use Streams to Build High-Performing Node.js Applications",
+      "url": "https://blog.appsignal.com/2022/02/02/use-streams-to-build-high-performing-nodejs-applications.html",
+      "description": "Find out how to use the `stream` module in Node.js to build high-performing applications.",
+      "imageUrl": "./073a7dd0472a5ee520609b66634d23cce9db867e769d17672b2727cc54fc4f1f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Add Less",
+      "url": "https://css-tricks.com/add-less",
+      "description": "When you're about to start a new website, what do you think first? Do you start with a library or framework you know, like React or Vue, or a meta-framework. Well, truth to be told, the secret for having faster websites is to add less. Do you really need to use React for this website?",
+      "imageUrl": "./0a36ea81a796c0ec5643a4bbf00957f05129a8609463a8ccf7a4359fdba9b51c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building The Real App With React Query",
+      "url": "https://smashingmagazine.com/2022/01/building-real-app-react-query",
+      "description": "In this article, Georgii Perepecho explains the most common React Query features that you need to be familiar with when creating a real-life application that is stable when testing.",
+      "imageUrl": "./70d0dd73c2bc88ab37a1f6c4302010b1d6db7b4676a49bdc3c455d26ffbf4751.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Pixel's Color",
+      "url": "https://gitlab.freedesktop.org/pq/color-and-hdr/-/blob/main/doc/pixels_color.md",
+      "description": "Do you know what's \"inside\" a pixel? Or, to phrase this in a better way, what it takes to color a pixel on the screen? How can we encode color information so that the pixel is actually displayed on the screen as we expect? An interesting essay for the curious ones that are looking to know more!",
+      "imageUrl": "./24390bfa89eea82933f46f53cfc0880f477cd2af5610fa322d1733381b3c91dd.png",
+      "featured": false
+    },
+    {
+      "title": "Introduction to WebAssembly (WASM)",
+      "url": "https://medium.com/dscvitpune/introduction-to-webassembly-wasm-54d505d6d569",
+      "description": "WebAssembly is becoming more and more a reality. With this tutorial, you can finally have an excuse to get your hands dirty and build your first WebAssembly-powered website.",
+      "imageUrl": "./09afd1934e97eade1ddcaa465a944159d33edcad17e2cda66f7ec3735c79b09f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Crafting Component Libraries: The Elements",
+      "url": "https://jonyablonski.com/articles/2022/crafting-component-libraries-the-elements",
+      "description": "A step through an opinionated process for crafting the foundational elements that make up a component library based on design fundamentals that can grow and evolve to fit the needs of any interface.",
+      "imageUrl": "./73cb03c14cd8555ea5c88f8613fe8cd3eea0353ca92f4c3da7b8d84b8b6ea881.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "PHP and MySQL Web Development (5th Edition) (Developer's Library)",
+    "author": "Luke Welling",
+    "description": "PHP and MySQL are popular open-source technologies that are ideal for quickly developing database-driven Web applications. PHP is a powerful scripting language designed to enable developers to create highly featured Web applications quickly, and MySQL is a fast, reliable database that integrates well with PHP and is suited for dynamic Internet-based applications",
+    "coverImageUrl": "./215552defe4b9e1ca9846aa5b85f2a20bdf3752b7580570be5a6d3bda1582bfa.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321833899/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321833899/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 284,
+  "title": "Mantine - React components library",
+  "slug": "2022-08-01-271-mantine-react-components-library",
+  "date": "2022-08-01",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "To iterate is human, to recurse divine",
+    "author": "L. Peter Deutsch",
+    "authorTitle": "Software developer and Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/L._Peter_Deutsch"
+  },
+  "links": [
+    {
+      "title": "Mantine - React components library",
+      "url": "https://mantine.dev/",
+      "description": "Mantine recently published their new 5.0 version of their awesome component library for React. It contains more than 100 customizable components and 40 hooks to cover some of the most common use cases when building a frontend application.",
+      "imageUrl": "./02759c246236e42e1bdb102be3ad6c5814318241df76927373f3d58ef23e1165.jpg",
+      "featured": true
+    },
+    {
+      "title": "Five Practical Interview Questions Related To Promises",
+      "url": "https://rehansattar.dev/five-practical-interview-questions-related-to-promises",
+      "description": "Promises are the bane of every JavaScript developer. It doesn't really matter how much time you have spent coding in JavaScript... Promises are still there, waiting to trick you in some unexpected way! It's time to overcome promises and learn some of the most common questions and quirks around JavaScript promises!",
+      "imageUrl": "./022c7e31d61e1500c8fc45f3aa9b58654b4663ba627eb1b72691c8df83a33355.png",
+      "featured": false
+    },
+    {
+      "title": "SQLite Internals: Pages & B-trees",
+      "url": "https://fly.io/blog/sqlite-internals-btree",
+      "description": "A nerdy in-depth article about SQLite: if you have always wondered what's inside a database and how a database like SQLite stores its data, you will enjoy this read!",
+      "imageUrl": "./b145f9b7c6f36f739b1504d1cc9ac346d5b4f285b2f1a48daae553a27ac12487.jpg",
+      "featured": false
+    },
+    {
+      "title": "Can SVG Symbols affect web performance?",
+      "url": "https://bstefanski.com/can-svg-symbols-affect-web-performance",
+      "description": "When it comes to repeatable SVGs, most people would create a component and reuse it anywhere they want. There's a high chance, that you would be missing some performance freebies. If you're striving for that bang-for-the-buck kind of performance, this article might be interesting for you.",
+      "imageUrl": "./dd09b23cf0906bfcccc3fa114394ded7a6bc9baabd87cd111083ac4849e75d46.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using Grids in Interface Designs",
+      "url": "https://nngroup.com/articles/using-grids-in-interface-designs",
+      "description": "Grids help designers create cohesive layouts, allowing end users to easily scan and use interfaces. A good grid adapts to various screen sizes and orientations, ensuring consistency across platforms.",
+      "imageUrl": "./7fd9f4c9996e2942ffa0e50426c6d0bfecdef40984c7b86648b025df1bc5829d.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to: Make your multilingual website suitable for RTL",
+      "url": "https://voorhoede.nl/en/blog/how-to-multilingual-website-rtl-html-css",
+      "description": "Making a multilingual website? Here are 4 knowledgeable things to make your website suitable for RTL and LTR languages with just HTML and CSS!",
+      "imageUrl": "./332cfcbe2e64cef4a9ce01376ac757fbd24b2b3d45e08b8bee0189db79975a2d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Serverless Authorisation 🚀",
+      "url": "https://leejamesgilmore.medium.com/serverless-authorisation-e5bd9288f0ff",
+      "description": "Part 1 of a series of articles discussing how to implement authorisation in a serverless project. It presents examples of authorisation in serverless solutions alongside both machine to machine and user authentication, using Cognito & Lambda.",
+      "imageUrl": "./7c84c8bd7221626f748f994f74276d32c2806d69dc430b0801bd10f0815f094b.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Symfony",
+    "author": "Sohail Salehi",
+    "description": "In this book, you will learn some lesser known aspects of development with Symfony, and you will see how to use Symfony as a framework to create reliable and effective applications. You might have developed some impressive PHP libraries in other projects, but what is the point when your library is tied to one particular project? With Symfony, you can turn your code into a service and reuse it in other projects.",
+    "coverImageUrl": "./d8bd967503d4ad357e4fca70c6900b2da278b7cd54f0417d9683194425c0bcbf.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1784390313/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1784390313/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

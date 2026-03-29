@@ -1,0 +1,75 @@
+{
+  "issueNumber": 15,
+  "title": "Is it Pokemon or Big Data ?",
+  "slug": "2017-06-19-015-is-it-pokemon-or-big-data",
+  "date": "2017-06-19",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #24, 2017",
+  "quote": {
+    "text": "First learn computer science and all the theory.  Next develop a programming style.  Then forget all that and just hack",
+    "author": "George Carrette",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/George_Charrette"
+  },
+  "links": [
+    {
+      "title": "Is it Pokemon or Big Data ?",
+      "url": "http://pixelastic.github.io/pokemonorbigdata/",
+      "description": "A very funny but challenging game for big-data aficionados. Did you ever ask yourself why the names of big-data technologies look like Pokemon names? Well, the authors of this game probably did... Are you ready to show off your big-data/Pokemon knowledge?",
+      "imageUrl": "./499cc6f98c1a12d165614e3d54a76240a1d1a32883ebf9ec08aa60d05c5564dc.png",
+      "featured": true
+    },
+    {
+      "title": "A Complete Guide To Switching From HTTP To HTTPS",
+      "url": "https://smashingmagazine.com/2017/06/guide-switching-http-https",
+      "description": "HTTPS is a must for every website nowadays: Users are looking for the padlock when providing their details; Chrome and Firefox explicitly mark websites that provide forms on pages without HTTPS as being non-secure; it is an SEO ranking factor, and it has a serious impact on privacy in general.",
+      "imageUrl": "./8fbc30d00d76855ec346a8ad1537dab5c299617680798ec8a8d1a1043b5ad9aa.jpg",
+      "featured": false
+    },
+    {
+      "title": "The State Of Advanced Website Builders",
+      "url": "https://smashingmagazine.com/2017/06/advanced-website-builders",
+      "description": "What are \"advanced website builders\" and everything else you need to know about them, including the state of the current website market.",
+      "imageUrl": "./23b27f003d67e0906f23d793dbf202669657154e0269a1f6b222aa8f1a426d55.jpg",
+      "featured": false
+    },
+    {
+      "title": "Moving from Docker to rkt",
+      "url": "https://medium.com/@adriaandejonge/moving-from-docker-to-rkt-310dc9aec938",
+      "description": "Even the coolest products and services come with vendor lock-in. Docker makes no difference and it's good to start to explore some alternatives like rkt...",
+      "imageUrl": "./861512b6d8abf708b8af4b00ec2229729a291d2189f13c282fa6d65e890dd0ef.jpg",
+      "featured": false
+    },
+    {
+      "title": "howler.js - JavaScript audio library for the modern web",
+      "url": "https://howlerjs.com/",
+      "description": "howler.js makes working with audio in JavaScript easy and reliable across all platforms.",
+      "imageUrl": "./17cee7abeed233bca6dd5799c46a2a356dc737315bc6e5150da06c83f93784da.jpg",
+      "featured": false
+    },
+    {
+      "title": "WebAssembly 101: a developer's first steps",
+      "url": "http://blog.openbloc.fr/webassembly-first-steps",
+      "description": "This tutorial will guide you along the necessary steps to port a JavaScript library of the Conway's game of life to WebAssembly (wasm). This is a simple exercise that is perfect to start beyond a trivial Hello World. I recently got interested in WebAssembly and decided to take the leap",
+      "imageUrl": "./5c9c63772b166c35043fdfe5b4efb279a58dfeb0ca604d5fb917763714425969.jpg",
+      "featured": false
+    },
+    {
+      "title": "Upgrading from Node 6 to Node 8: a real-world performance comparison",
+      "url": "https://hackernoon.com/upgrading-from-node-6-to-node-8-a-real-world-performance-comparison-3dfe1fbc92a3",
+      "description": "Node 8 is out, did you hear? And it’s faster, or so they say. In this article you will learn how much Node 8 can be faster than its predecessor by taking a look at the performance improvements of a real application.",
+      "imageUrl": "./fd994f1c9a23fc1414586f72681f8c4331dfcdcd63d65363b1d9369b590a94ca.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Self-Taught Programmer: The Definitive Guide to Programming Professionally",
+    "author": "Cory Althoff",
+    "description": "This book is not just about learning to program; although you will learn to code. If you want to program professionally, it is not enough to learn to code; that is why, in addition to helping you learn to program, it also covers the rest of the things you need to know to program professionally that classes and books don't teach you.",
+    "coverImageUrl": "./0d26611bf9dd58f18784b3d3fcf7f9dc3df28576b928cd220faae5debef9813e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01M01YDQA/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01M01YDQA/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

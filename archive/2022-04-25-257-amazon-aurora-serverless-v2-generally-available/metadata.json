@@ -1,0 +1,75 @@
+{
+  "issueNumber": 270,
+  "title": "Amazon Aurora Serverless v2 Generally Available",
+  "slug": "2022-04-25-257-amazon-aurora-serverless-v2-generally-available",
+  "date": "2022-04-25",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "The real danger is not that computers will begin to think like men, but that men will begin to think like computers",
+    "author": "Sydney Harris",
+    "authorTitle": "Journalist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Sydney_Harris"
+  },
+  "links": [
+    {
+      "title": "Amazon Aurora Serverless v2: Generally Available",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-serverless-v2-is-generally-available-instant-scaling-for-demanding-workloads",
+      "description": "Have you ever needed to install and manage your own relational database? If you did, you know it's always a pain to get scalability and backups right. Even with services like RDS, there is always a lot to configure and it can get very expensive for a casual user! Aurora is fully serverless SQL alternative (compatible with Postgres and MySQL) that promises to take away all this pain and have serverless scalability and pricing. With v2 being generally available we are very excited to see how this can improve our developer experience!",
+      "imageUrl": "./4b9e7a33bba9e8d26c4e540193b1cd2b1ceff7d60ad672e5f875cabf3b07242f.jpg",
+      "featured": true
+    },
+    {
+      "title": "Picture perfect images with the modern element",
+      "url": "https://stackoverflow.blog/2022/03/28/picture-perfect-images-with-the-modern-element",
+      "description": "You may not think about images as part of your web dev work, but they can affect your web app's performance more than any other part of your code. This article explores some of the most common image optimization techniques that you can (and should!) use on the web!",
+      "imageUrl": "./04122b64985ceb50acf102059e34794dc38599ff689d6f748c8391857fa55d69.jpg",
+      "featured": false
+    },
+    {
+      "title": "Chalk.ist - Create beautiful images of your source code",
+      "url": "https://chalk.ist/",
+      "description": "We are big fans of Carbon when it comes to create nice pictures to share code snippets on social media. Chalk.ist is a new take which promises even better results and more configuration options!",
+      "imageUrl": "./62834870c665b94e11091fb07895a8a8245c0a2e0a9d946df045af947943ae3c.jpg",
+      "featured": false
+    },
+    {
+      "title": "SVG passthrough precision",
+      "url": "https://bjango.com/articles/svgpassthroughprecision",
+      "description": "This article is a very interesting piece of research! Have you ever wondered what happens when you load an SVG with an editing software and save it again (without changes)? You might expect your SVG not to change, but in reality almost every software will change a lot of things, including coordinates precision! If that sounds scary, you should check this article out for more details!",
+      "imageUrl": "./d854a1a2e6efd5c4f3230233e4311ccb8764f3cb1531385f8b095eb61c5a248b.png",
+      "featured": false
+    },
+    {
+      "title": "Node.js v18.0.0 is out! 😱",
+      "url": "https://nodejs.org/en/blog/release/v18.0.0",
+      "description": "A new major version of Node.js is out and this one comes with a bang 💥 There are a few new additions that we are particularly excited about: native **fetch** support (experimental) and **built-in test runner** (also experimental). But also **Web Streams API** is here! Check the official release notes for more details and examples!",
+      "imageUrl": "./99927eff412db92b1d6ca79b4b0ff287f5e62adb5d08b10284e23bff61c8cad8.jpg",
+      "featured": false
+    },
+    {
+      "title": "TypeScript and Set Theory",
+      "url": "https://ivov.dev/notes/typescript-and-set-theory",
+      "description": "OK, I am sure you are wondering what Set Theory has to do with TypeScript... well, actually a lot! This article will show you how does set theory help to understand type assignability and resolution in TypeScript! Worth checking it out if you are trying to strengthen your understanding of type theory and TypeScript!",
+      "imageUrl": "./71c5b79a5f6f3136bb8ea7c25f080cd543b9279d369340014e6fec0a8accccca.png",
+      "featured": false
+    },
+    {
+      "title": "1x Programming",
+      "url": "https://tim.mcnamara.nz/post/667318290442600448/1x-programming",
+      "description": "We had a lot of fun joking about 10x engineering lately. But let's take the topic a little bit more seriously now. Our friend Tim McNamara (author of the awesome book [Rust in Action](https://www.rustinaction.com/)) just released a beautiful essay that shows that It’s actually okay to be a 1x programmer... or even a 0.7x programmer!",
+      "imageUrl": "./c8cca3c48ac1d2909aee26173d704d88cd5abf53541046755bd153c5c1daee62.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Scraping with Python: Collecting Data from the Modern Web",
+    "author": "Ryan Mitchell",
+    "description": "Learn web scraping and crawling techniques to access unlimited data from any web source in any format. With this practical guide, you’ll learn how to use Python scripts and web APIs to gather and process data from thousands—or even millions—of web pages at once. Ideal for programmers, security professionals, and web administrators familiar with Python, this book not only teaches basic web scraping mechanics, but also delves into more advanced topics, such as analyzing raw data or using scrapers for frontend website testing.",
+    "coverImageUrl": "./3b1c651ba95d78b7e56b9d061b654489f967bb664b283d5be64ac9f029b88bec.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B00ZJNH0G0/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B00ZJNH0G0/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 30,
+  "title": "JavaScript drag and drop library",
+  "slug": "2017-10-09-030-javascript-drag-and-drop-library",
+  "date": "2017-10-09",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #40, 2017",
+  "quote": {
+    "text": "Should array indices start at 0 or 1?  My compromise of 0.5 was rejected without, I thought, proper consideration",
+    "author": "Stan Kelly-Bootle",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stan_Kelly-Bootle"
+  },
+  "links": [
+    {
+      "title": "JavaScript drag and drop library",
+      "url": "https://shopify.github.io/draggable",
+      "description": "Draggable is a lightweight, responsive, modern drag and drop JavaScript library – the ideal choice for adding slick native-feeling drag and drop behaviour to your web apps.",
+      "imageUrl": "./8c90ab5c62689997bce22c43aaf0be94ad7c6739f2ae86a3c45c6f764419101f.jpg",
+      "featured": true
+    },
+    {
+      "title": "A Five Minutes Guide to Better Typography",
+      "url": "http://pierrickcalvez.com/journal/a-five-minutes-guide-to-better-typography",
+      "description": "This article illustrates all the basics you need to know about typography in an incredibly nice and digestible format.",
+      "imageUrl": "./d93d37ee2ac3d4e19a1aed8827358367bbb22daddc7dfb6311c5a49332f7da37.png",
+      "featured": false
+    },
+    {
+      "title": "Serving 100 Gbps from an Open Connect Appliance",
+      "url": "https://medium.com/netflix-techblog/serving-100-gbps-from-an-open-connect-appliance-cdb51dda3b99",
+      "description": "An impressive Netflix case study that describes how they achieved stunning network performance on a single machine delivering data at 100 Gbps as part of their Open Connect appliance program.",
+      "imageUrl": "./0fc0af8a6c8d94562030deb76b99dd6aeb9dca61040e9aae0dfc65c62e78e31a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Creating Isometric Illustrations",
+      "url": "https://medium.muz.li/creating-isometric-illustrations-made-simple-with-the-geometric-technique-1a58bb2bb41e",
+      "description": "Learn how to quickly create Eye-Popping Isometric Graphics on the go for your design requirements.",
+      "imageUrl": "./7e306e443fbf3ad27cdeb87ad39ec6a7784d5d09ebcc0687bef69489b4ae5172.jpg",
+      "featured": false
+    },
+    {
+      "title": "Essential Image Optimization",
+      "url": "https://images.guide/",
+      "description": "A beautifully illustrated free e-book on modern image optimization techniques. Formats, decoders, techniques for efficient compression and more are covered.",
+      "imageUrl": "./cfb91b193cf3ce845b933c9cddbf712d1836eb0c03081220dd7f9e03e1bff947.jpg",
+      "featured": false
+    },
+    {
+      "title": "jeromeetienne/AR.js",
+      "url": "https://github.com/jeromeetienne/AR.js",
+      "description": "An efficient Augmented Reality for the Web written in JavaScript that can achieve 60fps on mobile!",
+      "imageUrl": "./4b3415d596258f0666003a8fce1a20972b6ba434eaaa17d61bb331852c8a68ad.jpg",
+      "featured": false
+    },
+    {
+      "title": "Vue.js - Official Style Guide",
+      "url": "https://vuejs.org/v2/style-guide",
+      "description": "An official style guide for Vue-specific code directly from the Vue team. If you use Vue in a project, it’s a great reference to avoid errors, bikeshedding, and anti-patterns.",
+      "imageUrl": "./a074777ab779069877335b9dfb067b3cec0fea5a87ea4c0d7f72c0a8219a1c62.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Introduction to Algorithms, Third Edition (International Edition)",
+    "author": "Thomas H. Cormen",
+    "description": "Some books on algorithms are rigorous but incomplete; others cover masses of material but lack rigor.  Introduction to Algorithms uniquely combines rigor and comprehensiveness. The book covers a broad range of algorithms in depth, yet makes their design and analysis accessible to all levels of readers. Each chapter is relatively self-contained and can be used as a unit of study. The algorithms are described in English and in a pseudocode designed to be readable by anyone who has done a little programming. The explanations have been kept elementary without sacrificing depth of coverage or mathematical rigor.",
+    "coverImageUrl": "./ada166c15107ba9d6c6eec0fcaaef5daa371a0f2d5e3550a7ea6e624aed90770.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0262533057/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0262533057/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

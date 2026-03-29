@@ -1,0 +1,120 @@
+{
+  "issueNumber": 454,
+  "title": "How to make an HTTP request in Node.js",
+  "slug": "2026-02-02-434-how-to-make-an-http-request-in-node-js",
+  "date": "2026-02-02",
+  "templateType": "buttondown-markdown",
+  "intro": "Howdy,\n\nIt has been a busy one for me. I am juggling a few different projects that I hope I will be able to talk more about soon, or at least some of them. My TODO list currently has its own TODO list (sorry if that feels too meta).\n\nStill, somehow, I managed to squeeze a fresh Node.js article into the chaos, and you will find it featured in this issue. I hope you will like it.\n\nThen go spelunking through the rest of the links, because there is a lot of good stuff in there.\n\nAs always, if you have any feedback or ideas for future topics, just hit reply. I am all ears, and you know I love hearing from you.\n\nTime to explore and experiment!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Code is like humor. When you have to explain it, it's bad",
+    "author": "Cory House",
+    "authorTitle": "Software Developer",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "How to make an HTTP request in Node.js",
+      "url": "https://nodejsdesignpatterns.com/blog/nodejs-http-request",
+      "description": "I just published a long form guide on how to make HTTP requests in Node.js the modern way. Yes, it covers `fetch()`, but that is the easy part. The goal is to help you build the kind of request code you can actually trust, with real error handling, sensible retries, streaming uploads and downloads, form submissions, plus practical testing and mocking. I also try to make the tradeoffs clear, so you know when `fetch()` is the right tool versus when you should reach for the built in `node:http(s)` modules or another library. I am also trying to show up more consistently with new Node.js content on the [Node.js Design Patterns blog](https://nodejsdesignpatterns.com/blog/). If you read it, I would love your feedback, and I would love to hear what you want me to write about next. If you are really curious, I have a [content calendar](https://github.com/nodejs-design-patterns-book/nodejsdesignpatterns.com/blob/main/.claude/content-calendar.md) you can have a peek at too.",
+      "imageUrl": "./801c62059dad9d1a82769c5c010db4fe233de4ef519e8b9c4352d84fae73edb1.png",
+      "featured": true
+    },
+    {
+      "title": "How to Favicon in 2026",
+      "url": "https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs",
+      "description": "Oh jeez. Favicons have been around for almost as long as I have built for the web (a long time, we are talking Internet Explorer 6 type of stuff). And maybe that is the reason why for the longest time `favicon.ico` was the only thing anyone cared about (yes, a Windows file format!). But things have evolved a lot in the last decade. You can do all kinds of ridiculous stuff with favicons now, including generating them on the fly with animations, or even [squeezing tiny games](https://mashpoe.github.io/favicon-dino-game) into a 16×16 pixel space if that is your vibe. So you might be wondering *what's the recommended way to deal with favicons in 2026?* Fair question, I'd say! This article cuts through all the favicon generator chaos and shows a clean, modern baseline that covers almost everything with just a few files: one legacy ICO, one SVG for modern browsers (with light and dark support), an Apple touch icon, plus a simple web manifest with a small set of PNG icons for PWAs.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Building docfind: Fast Client-Side Search with Rust and WebAssembly",
+      "url": "https://code.visualstudio.com/blogs/2026/01/15/docfind",
+      "description": "OK, if you know me, you know that just hearing the word *\"Rust\"* triggers my attention (perhaps in an unhealthy way)... but that's not the point, so hear me out because this is a genuinely awesome piece. The Visual Studio Code team built a tiny search engine called **docfind** that runs entirely in your browser via WebAssembly. The goal was simple: make docs search feel as instant as *Quick Open* in VSCode, without sending every keystroke to a server or paying the usual search as a service tax. The post walks through the whole engineering story, from picking compact building blocks like finite state transducers for fast lookups, to extracting keywords during the site build, compressing strings, and even patching a precompiled WebAssembly module so the index ships as a single file. The result is delightfully practical: fast queries, a reasonably small download, and zero servers to babysit. If you love this approach but you want a simple and more managed solution, I am a big fan of [Orama](https://orama.com/). Worth checking it out too, since it also comes with an [open-source version](https://github.com/oramasearch/orama).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The challenges of soft delete",
+      "url": "https://atlas9.dev/blog/soft-delete.html",
+      "description": "Did you ever need to implement a *soft delete* feature in an application? I am talking about those kind of apps that do not just delete things and nuke them out of existence forever. Instead, they *pretend* your item is deleted, but in reality it is more like it got moved into a trash bin so you could technically revert the deletion if you did it by mistake or changed your mind about it. The classic implementation relies on a flag or a timestamp on the record to mark it as deleted. And that is where offering this feature, while convenient for the user, becomes a *leaking abstraction* everywhere in your codebase. Because now, almost every query needs to make sure to filter out soft deleted records, right? This article is a very practical reality check. It explains why the classic `deleted_at` or `archived_at` column tends to snowball into performance headaches, broken invariants, weird edge cases with uniqueness, and endless *“oh wait, this query forgot the filter”* moments. Then it proposes cleaner alternatives that keep your hot tables clean by archiving deleted rows somewhere else, like a dedicated archive table via database triggers, or an event or CDC pipeline if you already have that kind of machinery. The idea is simple: if you want recoverability, do it intentionally, not by sprinkling a deletion flag across your entire data model.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Animating with Mobile Accelerometers",
+      "url": "https://frontendmasters.com/blog/beyond-the-mouse-animating-with-mobile-accelerometers",
+      "description": "With this link we enter into *fancy animations that make websites look good and well designed territory*. If you care about all the tiny details I am sure you will find this pick brilliant. The gist is simple and super practical. Those lovely 3D hover tilt effects that you are seeing everywhere feel great on desktop, then mobile shows up and the whole thing turns into a lifeless experience. This article shows how to make the phone itself the input device by wiring motion sensors into your animation logic, so the same component can react to mouse movement on desktop and device motion on mobile. It also covers the real world gotchas: skip user agent detection and rely on feature checks instead, handle the iOS permission prompt with an explicit user gesture, then map motion data into CSS variables for smooth transforms. Bonus points for the section that explains the difference between relative motion and absolute orientation, because picking the wrong one will not give you great results.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How Browsers Work",
+      "url": "https://howbrowserswork.com/",
+      "description": "This is the kind of question you might get in a senior level interview, and yet many of us, even the most senior, might struggle to even approach it. There are so many layers of abstraction that it is hard to explore and explain them in a coherent way. And guess what, for sure, there is stuff we think we know which in reality we do not know so well. Finally, there are even the unknown unknowns. Web browsers are such a rabbit hole. If you ever wondered why there are not many browser providers, this will make you realize that building a fully fledged browser is a no joke type of task. Anyway, I think I made this sound scarier than it needs to be, because this guide actually captures most of that complexity in a relatively short and fun, interactive read. It walks you from what the address bar really accepts, to turning a URL into an HTTP request, DNS and TCP basics, then the browser pipeline of parsing HTML into the DOM, and finally layout, paint, and compositing. Go check it out and make sure your mental model is solid for your next interview, or for the next time you build anything for the web.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "JavaScript Frameworks: Heading into 2026",
+      "url": "https://dev.to/this-is-learning/javascript-frameworks-heading-into-2026-2hel",
+      "description": "Ryan Carniato (SolidJS creator) has been writing these “heading into next year” framework roundups for a few years now, and I love reading them. He is one of the very few high profile builders in the web world who seems to have genuinely touched, studied, and stress tested a ridiculous number of frameworks. So when he compares trends and makes predictions, even when he is being spicy and opinionated, it is surprisingly hard to poke holes in the argument. This year he frames 2025 as a turning point where AI changed what “wins” in framework land. Not because frameworks stop evolving, but because AI tends to amplify whatever has the biggest training set, while also getting better at stitching together smaller ecosystems over time. He points at Remix 3 as an “AI first” redesign that tries to reduce custom DSL so generic code is easier to generate and integrate, then zooms out to a broader swing back toward “isomorphic first” patterns that run the same app code on server and client, without committing to a full architecture shift like Islands or React Server Components. The other big thread is “async first” becoming table stakes. He connects React’s path through Transitions, Actions, and useOptimistic with similar consistency goals showing up elsewhere, arguing that the next wave of improvements is less about shiny new abstractions and more about core refinement that will quietly reshape how we build apps in 2026.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Learning TypeScript: Enhance Your Web Development Skills Using Type-Safe JavaScript",
+    "author": "Josh Goldberg",
+    "description": "TypeScript has conquered the world of JavaScript -  it's one of the world's fastest growing and most popular languages across developer surveys, widely used in consumer and business companies alike, and frequently credited for helping massive web applications scale. But what is TypeScript? How does it work, why does it work, and how can we use it?\nLearning TypeScript takes beginner to intermediate JavaScript programmers from knowing nothing about \"types\" or a \"type system\" to full mastery of the fundamentals of TypeScript. It's more than a means to find bugs and typos--it's a useful system for declaring the way our JavaScript should work and helping us stick to it. You'll learn how TypeScript:",
+    "coverImageUrl": "./471be70fb34890cf5d71d2d68cb0dcb4419b08e5d8b51e57dc0e92c9640027de.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1098110331",
+    "amazonUk": "https://www.amazon.co.uk/dp/1098110331"
+  },
+  "additionalLinks": [
+    {
+      "title": "superdiff: rich and readable diff for both arrays and objects",
+      "url": "https://github.com/DoneDeal0/superdiff"
+    },
+    {
+      "title": "Unconventional PostgreSQL Optimizations",
+      "url": "https://hakibenita.com/postgresql-unconventional-optimizations"
+    },
+    {
+      "title": "Extension.js",
+      "url": "https://extension.js.org/"
+    },
+    {
+      "title": "travels: A fast, framework-agnostic undo/redo core powered by Mutative JSON Patch",
+      "url": "https://github.com/mutativejs/travels"
+    },
+    {
+      "title": "Dithering - Part 2",
+      "url": "https://visualrambling.space/dithering-part-2"
+    },
+    {
+      "title": "Introducing ReliCSS: A Tool for Front-End Archaeology",
+      "url": "https://alwaystwisted.com/articles/introducing-relicss-a-tool-for-front-end-archaeology.html"
+    },
+    {
+      "title": "Detail: Where craft lives",
+      "url": "https://detail.design/"
+    },
+    {
+      "title": "solid-ui",
+      "url": "https://solid-ui.com/"
+    },
+    {
+      "title": "pellicule: Deterministic video rendering with Vue",
+      "url": "https://github.com/sailscastshq/pellicule"
+    },
+    {
+      "title": "Temporal Playground - Learn the JavaScript Temporal API",
+      "url": "https://temporal-playground.vercel.app/"
+    },
+    {
+      "title": "Stroke - Animate SVGs",
+      "url": "https://stroke.abhii.space/"
+    }
+  ],
+  "sponsor": null
+}

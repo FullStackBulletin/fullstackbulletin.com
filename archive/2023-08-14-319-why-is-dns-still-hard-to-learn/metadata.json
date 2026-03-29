@@ -1,0 +1,75 @@
+{
+  "issueNumber": 333,
+  "title": "Why is DNS still hard to learn?",
+  "slug": "2023-08-14-319-why-is-dns-still-hard-to-learn",
+  "date": "2023-08-14",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway",
+    "author": "Andrew S. Tanenbaum",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum"
+  },
+  "links": [
+    {
+      "title": "Why is DNS still hard to learn?",
+      "url": "https://jvns.ca/blog/2023/07/28/why-is-dns-still-hard-to-learn",
+      "description": "Our beloved [Julia Evans](https://jvns.ca/) just released a fantastic new article. This time she talks about DNS and why it is still hard to learn, even after 35 years! It's a fascinating article that can help you to understand some of the most fundamental mechanics of the web. The best part is that Julia also announces [Mess with DSN](https://messwithdns.net/), a DNS playground where you can create real records and experiment with them! If you are brave enough, you can even use it to receive emails! 😱",
+      "imageUrl": "./eb8d620da07dcda1de6088fd35d35a5eaf8885c2281bb6368fbaa65e08f32a4f.png",
+      "featured": true
+    },
+    {
+      "title": "Type vs Interface: Which Should You Use In 2023?",
+      "url": "https://totaltypescript.com/type-vs-interface-which-should-you-use",
+      "description": "Mr. [Matt Pocock](https://www.mattpocock.com/) of TypeScript fame, goes into the topic of TypeScript interfaces vs types. Which ones should you use? Why do two very similar alternatives exist? And what are the differences? If this topic has been confusing you as much as it has been confusing me, this article is going to be pure gold!",
+      "imageUrl": "./8643510acd03c20a1b9ec90f3469e69ead90961688360003b26e4fabc55d9685.jpg",
+      "featured": false
+    },
+    {
+      "title": "I’m betting on HTML",
+      "url": "https://catskull.net/html.html",
+      "description": "Here's an interesting article about some modern HTML tags that you might not have encountered just yet! The one that I did not know is the `<datalist>` one! 🤯 The web is becoming more powerful and interactive and it requires less and less JavaScript every day!",
+      "imageUrl": "./0ac3c2ec50efab48106bc3abc5d0ff3de0f7b02ce2f039ae62eb06e97037ad1a.png",
+      "featured": false
+    },
+    {
+      "title": "Publish a hybrid npm module for ESM and CommonJS",
+      "url": "https://deno.com/blog/publish-esm-cjs-module-dnt",
+      "description": "The creators of Deno have come up with an interesting open-source tool called **dnt** that allows you to write your JavaScript modules and then transform them to support CommonJS, ESM, browsers, Deno, Node.js, TypeScript, and more. I haven't tried it yet, but I wish something like this existed for a while! Did you know about this? Have you used it already?",
+      "imageUrl": "./dd394da0f107237f87b42e6bc8d1dc2e4caa9721b7a989d6bb7876f48eb73c4f.png",
+      "featured": false
+    },
+    {
+      "title": "Evading JavaScript Anti-Debugging Techniques",
+      "url": "https://nullpt.rs/evading-anti-debugging-techniques",
+      "description": "All client-side JavaScript code is \"open\" code by default. Even if you mangle and minimise it, experienced developers can always pull up their debugger and reverse engineer what the code is doing! So, is there anything we can do to make that harder? Maybe we are running something that needs to be harder to debug? This article showcases a very clever solution to this problem!",
+      "imageUrl": "./b036764a465a2e0d2053cbd502a030b46b3a339243faa4ccd7cb323181f2e5b4.png",
+      "featured": false
+    },
+    {
+      "title": "Building a Design System with React Web Components",
+      "url": "https://voorhoede.nl/en/blog/building-design-system-react-web-components",
+      "description": "Learn how to create a universal Design system with React and Web Components to use in any web application or framework.",
+      "imageUrl": "./5ae62d4e15f357afd3d7abe4d0364b74a44d7f74378dc1b0fcb306789c601517.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Blog Post With Every HTML Element",
+      "url": "https://patrickweaver.net/blog/a-blog-post-with-every-html-element",
+      "description": "Can a single blog post contain (almost) all HTML tags? Patrick Weaver is here to make the point! Not really, this blog post is not some weird graphic experiment, it's actually a nice guide on the most common HTML tags that you should know!",
+      "imageUrl": "./1a120fa6808e6da18e5c30ee49763cb4056459442a1f41aa2e8bf6a41d3ee920.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices",
+    "author": "Viktor Farcic",
+    "description": "This book is about different techniques that help us architect software in a better and more efficient way with microservices packed as immutable containers, tested and deployed continuously to servers that are automatically provisioned with configuration management tools. It's about fast, reliable and continuous deployments with zero-downtime and ability to roll-back. It's about scaling to any number of servers, design of self-healing systems capable of recuperation from both hardware and software failures and about centralized logging and monitoring of the cluster.",
+    "coverImageUrl": "./541c1dd09cac26ae06429687c2601da19e8cb4c7894063854cb3ae1c65eb6db9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/152391744X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/152391744X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

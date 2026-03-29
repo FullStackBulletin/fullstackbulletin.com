@@ -1,0 +1,75 @@
+{
+  "issueNumber": 116,
+  "title": "The State of CSS 2019",
+  "slug": "2019-06-24-116-the-state-of-css-2019",
+  "date": "2019-06-24",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #25, 2019",
+  "quote": {
+    "text": "There are two ways to write error-free programs; only the third one works",
+    "author": "Alan J. Perlis",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_J._Perlis"
+  },
+  "links": [
+    {
+      "title": "The State of CSS 2019",
+      "url": "https://2019.stateofcss.com/",
+      "description": "Discover the most popular CSS features & technologies of the year.",
+      "imageUrl": "./951298feef3b1081975a51b61e93d73de73496603c467b8597735c8f61dfb54e.jpg",
+      "featured": true
+    },
+    {
+      "title": "AWS costs every programmer should know",
+      "url": "https://david-codes.hatanian.com/2019/06/09/aws-costs-every-programmer-should-now.html",
+      "description": "The title for this blog post is a direct reference to Latency Numbers Every Programmer Should Know. There are several versions of those numbers available now...",
+      "imageUrl": "./f6dd7a74e3c15a0007b4ec32335fb987a20552880a11e83f28f9c97b9250c393.png",
+      "featured": false
+    },
+    {
+      "title": "Performance speed limits",
+      "url": "https://travisdowns.github.io/blog/2019/06/11/speed-limits.html",
+      "description": "Sometimes you just want to know how fast your code can go, without benchmarking it. Sometimes you have benchmarked it and want to know how close you are to the maximum speed. Often you just need to know what the current limiting factor is, to guide your optimization decisions.",
+      "imageUrl": "./d10dd4fd3189232e02f3623aa8690bc24e9dadbd4a78aabb3f084e62aa27fae2.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Layout Instability API",
+      "url": "https://web.dev/layout-instability-api",
+      "description": "This post introduces the Layout Instability API, its key concepts, and explains how to use the API and provide feedback.",
+      "imageUrl": "./81f36303ac2d0be2ecb6c552a5e2ee8d7e68d3192ab6d60d1fdbcf8d6da44ba9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Everything You Need to Know About Date in JavaScript",
+      "url": "https://css-tricks.com/everything-you-need-to-know-about-date-in-javascript",
+      "description": "Date is weird in JavaScript. It gets on our nerves so much that we reach for libraries (like Date-fns and Moment) the moment (ha!) we need to work with",
+      "imageUrl": "./a2a04e78190718d27c48573d3901a3d62cdc667b002da0537828b879102acd7b.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSRF in Action",
+      "url": "https://smellycode.com/csrf-in-action",
+      "description": "Demonstration of the Cross-Site Request Forgery(CSRF) attack with a simple demo.",
+      "imageUrl": "./b4b9bf459765787da0aef488fece9a5b620a8d80223e8e548fd506c8615dbbd8.jpg",
+      "featured": false
+    },
+    {
+      "title": "What Are Tokio and Async IO All About (Rust)?",
+      "url": "https://manishearth.github.io/blog/2018/01/10/whats-tokio-and-async-io-all-about",
+      "description": "The Rust community lately has been focusing a lot on “async I/O” through the tokio project. This is pretty great! But for many in the community who haven’t worked with web servers, it might not be obvious what those are!",
+      "imageUrl": "./c4356c8653bd78df8bdd48a69e4b454a01f0c6d0107eb631a8fba332948425bc.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Angular 2: From Theory To Practice",
+    "author": "Asim Hussain",
+    "description": "In this quickstart you'll get a 50,000 foot view of the major features of Angular 2 including: Typescript & ES6 Javascript, Components & Binding, Directives, Dependancy Injection & Services, Angular Modules & Bootstrapping your Angular application., SPAs & Routing, Angular CLI, Forms, Reactive Programming with RXJs, HTTP and finally Unit Testing.",
+    "coverImageUrl": "./42ae68e2ba03e04a5972b7f48fcbb414c89e74b4747aae1715503d876e99f3df.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01N9S0CZN/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01N9S0CZN/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

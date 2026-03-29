@@ -1,0 +1,75 @@
+{
+  "issueNumber": 108,
+  "title": "Comparing 27,740 Skittles",
+  "slug": "2019-04-29-108-comparing-27-740-skittles",
+  "date": "2019-04-29",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #17, 2019",
+  "quote": {
+    "text": "If we continue to develop our technology without wisdom or prudence, our servant may prove to be our executioner",
+    "author": "Omar Bradley",
+    "authorTitle": "US Army",
+    "authorUrl": "https://en.wikipedia.org/wiki/Omar_Bradley"
+  },
+  "links": [
+    {
+      "title": "Comparing 27,740 Skittles",
+      "url": "https://possiblywrong.wordpress.com/2019/04/06/follow-up-i-found-two-identical-packs-of-skittles-among-468-packs-with-a-total-of-27740-skittles",
+      "description": "What's the likelihood of finding two packs of skittles with identical content? Well, \"why?\" you might ask... That's not just a fun (and a bit of a crazy) read, but it will teach you some important mathematical and statistical properties that you might need to use in your next project!",
+      "imageUrl": "./325c540d19fd0a484e5fee1827d9d2614e7930cb16dfbbb682a9b767237a984c.jpg",
+      "featured": true
+    },
+    {
+      "title": "Constructable Stylesheets",
+      "url": "https://developers.google.com/web/updates/2019/02/constructable-stylesheets",
+      "description": "Shipping in Chrome 73, Constructable Stylesheets provide a seamless way to create and distribute styles to documents or shadow roots without worrying about FOUC.",
+      "imageUrl": "./67337487a3e95d6b84878aaa4215b190433e7b03c754130b7bf591b3a892d0cc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Goodbye Joe",
+      "url": "https://ferd.ca/goodbye-joe.html",
+      "description": "Recently, we've learned of Joe's passing away. Joe Armstrong, the inventor of the Erlang programming language, was undoubtedly one of those brilliant minds that revolutionised the world of programming. This post tries to pay a tribute to his work and his inspiring personality.",
+      "imageUrl": "./3f73850816184421c37a029412316411c45041b5ff60829ad37836457b82a8f3.png",
+      "featured": false
+    },
+    {
+      "title": "Application State Management with React",
+      "url": "https://kentcdodds.com/blog/application-state-management-with-react",
+      "description": "In this post, Kent C. Dodds shows us how React is all you need to manage your application state. No Redux, no other third party libraries...",
+      "imageUrl": "./a588dacc3a9d97a7ab6d11bf0557009410d948bf27185be96d3cf43a099c5e99.jpg",
+      "featured": false
+    },
+    {
+      "title": "Refactoring the Worst Code I’ve Ever Written",
+      "url": "https://dev.to/jnschrag/refactoring-the-worst-code-i-ve-ever-written-42c7",
+      "description": "I explain the pros and cons of 3 different approaches to refactoring code from my very first project.",
+      "imageUrl": "./b39b85bde834cc8e28ebd3ecff8a816b79d360d6d450a461a8a03a883c9a437a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Experimental Node.js: testing the new performance hooks",
+      "url": "https://blog.logrocket.com/experimental-node-js-testing-the-new-performance-hooks-31fcdd2a747e",
+      "description": "How to use the Performance Timing API (with examples).",
+      "imageUrl": "./9afd2a55592ab5c8aa9f5e6866c91e4e0b43e9ae09d64059ab178b060d171102.jpg",
+      "featured": false
+    },
+    {
+      "title": "Learn by Contributing",
+      "url": "https://dev.to/agoldis/learn-by-contributing-27g6",
+      "description": "How to use open source projects to improve software development skills.",
+      "imageUrl": "./91143bc15a97ddb52ad7249cd3b52300517cdd317716f49c75d93246d17f8169.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Clean Coder: A Code of Conduct for Professional Programmers",
+    "author": "Robert C. Martin",
+    "description": "Programmers who endure and succeed amidst swirling uncertainty and nonstop pressure share a common attribute: They care deeply about the practice of creating software. They treat it as a craft. They are professionals. In this book, legendary software expert Robert C. Martin introduces the disciplines, techniques, tools, and practices of true software craftsmanship.",
+    "coverImageUrl": "./1f5196ee832f3707ad69a4dc5cf0c9b3ff01467d98852062955ad942b2ef0732.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0137081073/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0137081073/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

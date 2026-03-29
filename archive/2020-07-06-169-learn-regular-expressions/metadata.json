@@ -1,0 +1,75 @@
+{
+  "issueNumber": 169,
+  "title": "Learn Regular Expressions",
+  "slug": "2020-07-06-169-learn-regular-expressions",
+  "date": "2020-07-06",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #27, 2020",
+  "quote": {
+    "text": "The function of good software is to make the complex appear to be simple",
+    "author": "Grady Booch",
+    "authorTitle": "Software engineer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Grady_Booch"
+  },
+  "links": [
+    {
+      "title": "Learn Regular Expressions",
+      "url": "https://regexone.com/",
+      "description": "RegexOne provides a set of interactive lessons and exercises to help you learn regular expressions. If you have been struggling with learning \"how to regex\", this can be a nice way to fill the gap :)",
+      "imageUrl": "./a0f857974c0ce61c927e312a3898bd39d39032d955a80ed4c37ac35a3ba6b7dd.png",
+      "featured": true
+    },
+    {
+      "title": "Rubber Duck Debugging For JavaScript Developers",
+      "url": "http://thecodebarbarian.com/rubber-duck-debugging-for-javascript-developers",
+      "description": "Rubber duck debugging is a helpful debugging technique that asks you to explain the problem in detail, and often helps you find the fix faster. Here's what you need to know.",
+      "imageUrl": "./b2fe77a1f5291b769b7b59c43862db86fad59e3a2c561fba8e8fab0c6cee36cf.jpg",
+      "featured": false
+    },
+    {
+      "title": "Generative Artistry",
+      "url": "https://generativeartistry.com/",
+      "description": "A fantastic website full of interactive tutorial to learn the basics of generative art. It also comes with a podcast! 😱",
+      "imageUrl": "./cefd70be632bffcf6a750b25fb1dbc84fb341aacbe09dcbe1ca8e3759f9575e2.png",
+      "featured": false
+    },
+    {
+      "title": "Improving HTTP with structured header fields",
+      "url": "https://fastly.com/blog/improve-http-structured-headers",
+      "description": "The HTTP community has been busy modernizing the web's protocol over the last decade, with multiple revisions of the core specification, a number of extensions, HTTP/2, and now HTTP/3. Unfortunately, the way we define and use HTTP header fields hasn't changed much since the beginning, with underspec…",
+      "imageUrl": "./7fd1eb64a9c9208b8a333ce3426610719afcff79595af50a9316b07721c928fd.jpg",
+      "featured": false
+    },
+    {
+      "title": "Tooling.Report",
+      "url": "https://tooling.report/",
+      "description": "A quick and easy way to figure out what the best tool for your next project is, if it’s worth your time to migrate from one tool to another and how to adopt a best practice into your existing code base. Brought to you by web.dev",
+      "imageUrl": "./3772fd62d7188bbac12fb66d6dadde6e16f86465e8df884c98df366c7f7074a7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Textures.js",
+      "url": "https://riccardoscalco.it/textures",
+      "description": "A JavaScript Library for creating beautiful SVG patterns. The kind of tool that can give a unique touch to your next web site design :)",
+      "imageUrl": "./c754e29f9e83086639111ff698fdb3b1a352096eb894c854e7c5b59f88b180d0.png",
+      "featured": false
+    },
+    {
+      "title": "Quick Tips for High Contrast Mode",
+      "url": "https://sarahmhigley.com/writing/whcm-quick-tips",
+      "description": "A short article, as a contrast. Just a few simple tips to improve Windows High Contrast Mode experience.",
+      "imageUrl": "./1751c5e0c5d8998b7fa51ee7cb102427a548d32c09da1606e96c5a3812017c33.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+    "author": "Lea Verou",
+    "description": "In this practical guide, CSS expert Lea Verou provides 47 undocumented techniques and tips to help intermediate-to advanced CSS developers devise elegant solutions to a wide range of everyday web design problems. Rather than focus on design, CSS Secrets shows you how to solve problems with code. You'll learn how to apply Lea's analytical approach to practically every CSS problem you face to attain DRY, maintainable, flexible, lightweight, and standards-compliant results.",
+    "coverImageUrl": "./e20c35997e3e8a6a408d0165643e9832e92142192a5c4b89e0e684f372fe7735.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372635/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372635/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

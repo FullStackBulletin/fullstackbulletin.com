@@ -1,0 +1,75 @@
+{
+  "issueNumber": 36,
+  "title": "Neural network image super-resolution and enhancement",
+  "slug": "2017-11-20-036-neural-network-image-super-resolution-and-enhancement",
+  "date": "2017-11-20",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #46, 2017",
+  "quote": {
+    "text": "To err is human, but to really foul things up you need a computer",
+    "author": "Paul Ehrlich",
+    "authorTitle": "Physician and scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Paul_Ehrlich"
+  },
+  "links": [
+    {
+      "title": "Neural network image super-resolution and enhancement",
+      "url": "https://letsenhance.io/",
+      "description": "Free service to upscale and improve your photos and images using state-of-art neural networks.",
+      "imageUrl": "./0a7531b0c9d86318cda5e7307cef2830cde05e8c5ce5baf05cfd5c4f23c990f5.jpg",
+      "featured": true
+    },
+    {
+      "title": "Use SVG as Placeholders, and Other Image Loading Techniques",
+      "url": "https://medium.freecodecamp.org/using-svg-as-placeholders-more-image-loading-techniques-bed1b810ab2c",
+      "description": "An interesting and detailed article that explores different new techniques to create image placeholders.",
+      "imageUrl": "./e4908aa321b742bd19019729cf681df6b045e4354dc3083ccd51fd859ba86dcb.jpg",
+      "featured": false
+    },
+    {
+      "title": "React: Forms, Inputs and Events",
+      "url": "https://medium.com/capital-one-developers/how-to-work-with-forms-inputs-and-events-in-react-c337171b923b",
+      "description": "This article covers how to capture text input and input via other form elements like <input>, <textarea>, and <option>. Working with them is paramount to web development because they allow our applications to receive data (e.g. text) and actions (e.g. clicks) from users.",
+      "imageUrl": "./96af22a48c6ed807d5ae898939a4045387202859487bdf3e4ca52041cbcfb004.png",
+      "featured": false
+    },
+    {
+      "title": "i0natan/nodebestpractices",
+      "url": "https://github.com/i0natan/nodebestpractices",
+      "description": "An open source list of Node.js best practices list. Curated from the top-ranked articles and very often updated. Definitely, a not-to-be-missed if you are into Node.js or JavaScript.",
+      "imageUrl": "./856685e5be74c4fb991192188b6bf1b0b2b42cbab8196d061c57cf0fffe9e62d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Announcing Prometheus 2.0",
+      "url": "https://prometheus.io/blog/2017/11/08/announcing-prometheus-2-0",
+      "description": "An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach. It recently reached version 2.0 with some new interesting features.",
+      "imageUrl": "./f72cff8f8200124391b60e1ce5d404eb8beb8e627fd2a52986ad5c67af2bbc94.png",
+      "featured": false
+    },
+    {
+      "title": "ES2017 Async/Await",
+      "url": "https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65",
+      "description": "A set of interesting Async/Await examples, to really understand how it works and how you can take full advantage of this new ECMAScript feature.",
+      "imageUrl": "./6fb7138aa94432bad99c043709da805211d0e15539f9862e7dcb0f8ab12d6cc8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Write a Vue JS Wrapper Component",
+      "url": "https://laravel-news.com/vue-wrapper-component",
+      "description": "A Vue “wrapper” component is a technique used to integrate a 3rd party plugin with Vue by wrapping it in a custom Vue component. The wrapper technique means that you are likely bringing in a library like jQuery and a jQuery plugin.",
+      "imageUrl": "./6a4c023a9b04d6e9b223192987cbe464a67a7ec58cbd1655fd290fd26e2c3454.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Mastery",
+    "author": "Andy Budd",
+    "description": "Fully updated to the latest CSS modules, make the journey to CSS mastery as simple and painless as possible. This book dives into advanced aspects of CSS-based design, such as responsive design, modular CSS, and CSS typography. Through a series of easy-to-follow tutorials, you will learn practical CSS techniques you can immediately start using in your daily work.",
+    "coverImageUrl": "./513cab7982483119d4449542560da5b139ad8ff61b1c9e3b7d2904bd9a602db5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1430258632/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1430258632/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

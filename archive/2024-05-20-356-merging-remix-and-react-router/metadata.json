@@ -1,0 +1,92 @@
+{
+  "issueNumber": 373,
+  "title": "Merging Remix and React Router",
+  "slug": "2024-05-20-356-merging-remix-and-react-router",
+  "date": "2024-05-20",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #373. Last week, ReactConf was on! As you might imagine, this means that this issue is going to be somewhat React-heavy. So, hopefully, you like React and you look forward to catching up with all the React updates! I'll also leave you with the [full recording of day one](https://www.youtube.com/watch?v=T8TZQ6k4SLE) if you prefer to watch ALL OF IT!\n\nWithout further ado, let's dive in!\n\n— Your editor, [Luciano](https://twitter.com/loige)",
+  "quote": {
+    "text": "Innovation is the outcome of a habit, not a random act“",
+    "author": null,
+    "authorTitle": "Author",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "Merging Remix and React Router",
+      "url": "https://remix.run/blog/merging-remix-and-react-router",
+      "description": "Remix is a full-stack web framework build on top of React. React Router? Well, if you have done any React SPA in the last 10 years, there are big chances you have bumped into it (7.8 million projects have React Router as a dependency!). If not, it's a router library that helps you to change views based on the current URL of the page (without triggering a full refresh). Since there's a significant overlap between the two communities of developers maintaining React Router and Remix, it makes sense that the 2 projects get merged into one. But what does it mean to merge a full-stack framework with a routing library? Isn't the scope of the two very different? Well, let's find out!",
+      "imageUrl": "./ef18bc9982eaeaa8a2f3a941d9068f7312b409de2e985eb2fcacb2be32a1ae29.png",
+      "featured": true
+    },
+    {
+      "title": "Manifesto for a Humane Web",
+      "url": "https://humanewebmanifesto.com/",
+      "description": "The web is becoming hostile to humans. Users are tracked and their privacy is routinely violated. Search results are populated with ads. We are constantly spammed by bots... If you feel all of this in your daily experience with the web, and, even more so, if you feel a responsibility as a web developer, this is the manifesto you were waiting for! Let's share it as much as we can!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "hot-hook: 🪝 Simple HMR for NodeJS + ESM",
+      "url": "https://github.com/Julien-R44/hot-hook",
+      "description": "Simple HMR for Node.js + ESM. This is pretty cool! We are quite used to hot-reload on the frontend, but this is the first time that I am seeing this idea being brought to the backend. Let's find out why it can be quite useful!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "✂️ knip",
+      "url": "https://github.com/webpro/knip",
+      "description": "Another interesting open-source project on GitHub! Knip is a developer tool that allows you to find unused files, dependencies, and exports in your JavaScript and TypeScript projects and... you guessed it, remove them from the project before you ship them! Knip it before you ship it!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Modern Guide For Making CSS Shapes",
+      "url": "https://smashingmagazine.com/2024/05/modern-guide-making-css-shapes",
+      "description": "In this comprehensive guide, Temani Afif explores different techniques for creating common shapes with the smallest and most flexible code possible. No SVGs, only CSS! This is a topic that has always been fascinating me, so if you are like me, you will enjoy this deep dive!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Snappy UI Optimization with useDeferredValue",
+      "url": "https://joshwcomeau.com/react/use-deferred-value",
+      "description": "`useDeferredValue` is one of the most underrated React hooks. It allows us to dramatically improve the performance of our applications in certain contexts. The good ol' [Josh Comeau](https://www.joshwcomeau.com/), recently used it to solve a gnarly performance problem on his blog, so let's use this deep dive to learn more about this hook!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Updates for Dockerfile syntax (v1.7.0)",
+      "url": "https://docker.com/blog/new-dockerfile-capabilities-v1-7-0",
+      "description": "Dockerfiles are fundamental tools for developers working with Docker, serving as a blueprint for creating Docker images. There's a new version of the DockerFile syntax which makes them more powerful and user friendly. So, let's learn about new Dockerfile capabilities and how you can leverage them in your projects to further optimize your Docker workflows.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Event-Driven Architecture in Golang: Building complex systems with asynchronicity and eventual consistency",
+    "author": "Michael Stack",
+    "description": "Event-driven architecture in Golang is an approach used to develop applications that shares state changes asynchronously, internally, and externally using messages. EDA applications are better suited at handling situations that need to scale up quickly and the chances of individual component failures are less likely to bring your system crashing down. This is why EDA is a great thing to learn and this book is designed to get you started with the help of step-by-step explanations of essential concepts, practical examples, and more. You'll begin building event-driven microservices, including patterns to handle data consistency and resiliency. Not only will you learn the patterns behind event-driven microservices but also how to communicate using asynchronous messaging with event streams. You'll then build an application made of several microservices that communicates using both choreographed and orchestrated messaging. By the end of this book, you'll be able to build and deploy your own event-driven microservices using asynchronous communication.",
+    "coverImageUrl": "./8c14ea88b46dbac3e8b1fc3390351277227b4a9fed12dfac941c4c2405fa8294.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1803238011?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1803238011?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "An opinionated approach to building serverless APIs on AWS",
+      "url": "https://eliasbrange.dev/posts/opinionated-approach-to-serverless-apis"
+    },
+    {
+      "title": "How to monetize an API on AWS?",
+      "url": "https://cloudonaut.io/how-to-monetize-an-api-on-aws"
+    },
+    {
+      "title": "100 Exercises To Learn Rust",
+      "url": "https://rust-exercises.com/"
+    },
+    {
+      "title": "What do you need to know about DynamoDB? (podcast)",
+      "url": "https://awsbites.com/123-what-do-you-need-to-know-about-dynamodb/"
+    }
+  ],
+  "sponsor": null
+}

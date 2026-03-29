@@ -1,0 +1,75 @@
+{
+  "issueNumber": 168,
+  "title": "Let them paste passwords",
+  "slug": "2020-06-29-168-let-them-paste-passwords",
+  "date": "2020-06-29",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #26, 2020",
+  "quote": {
+    "text": "That’s been one of my mantras — focus and simplicity. Simple can be harder than complex; you have to work hard to get your thinking clean to make it simple",
+    "author": "Steve Jobs",
+    "authorTitle": "Apple co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Jobs"
+  },
+  "links": [
+    {
+      "title": "Let them paste passwords",
+      "url": "https://www.ncsc.gov.uk/blog-post/let-them-paste-passwords",
+      "description": "Allow your website to accept pasted passwords - it makes your site more secure, not less.",
+      "imageUrl": "./24edb423c57a618d9986ee0293023736362253a99870ac0fe517128f68f06293.jpg",
+      "featured": true
+    },
+    {
+      "title": "How To Code in Go (eBook)",
+      "url": "https://digitalocean.com/community/books/how-to-code-in-go-ebook",
+      "description": "This book is designed to introduce you to writing programs with the Go programming language. You'll learn how to write useful tools and applications that can run on remote servers, or local Windows, macOS, and Linux systems for development.",
+      "imageUrl": "./9b337e51945b03473b7b696aa9001191b01c66ac2a3e13fc2301dc3f69547fa2.jpg",
+      "featured": false
+    },
+    {
+      "title": "An Overview of Scroll Technologies",
+      "url": "https://css-tricks.com/an-overview-of-scroll-technologies",
+      "description": "Scroll-related animations have been used on the web for years. In recent years, they’ve started to become even more common. This article analyzes the different techniques to create custom scrolling effects on the web!",
+      "imageUrl": "./c816d95db479bde140959736a7575fb43aef2c67f45c0ffb6adb0dcaab8a2c54.png",
+      "featured": false
+    },
+    {
+      "title": "SWR: React Hooks For Remote Data Fetching",
+      "url": "https://www.smashingmagazine.com/2020/06/introduction-swr-react-hooks-remote-data-fetching/",
+      "description": "In this article, we’ll be looking at a new way of retrieving data in React Apps named SWR. This is a set of hooks for remote data fetching that makes things easier, such as caching, pagination, and so on. We’ll also be building a Pokedex App from scratch and using SWR features to get data and paginate it.",
+      "imageUrl": "./8fea0412963a4528615b4c085fc3c43fe17b5b1028bf6a37c7b5f2d00e377d14.png",
+      "featured": false
+    },
+    {
+      "title": "Authentication in Golang with JWTs",
+      "url": "https://auth0.com/blog/authentication-in-golang",
+      "description": "Practice Go and React by building and authenticating a RESTful API with JSON Web Tokens (JWTs).",
+      "imageUrl": "./d3d1c4713e8676ff0e69218f53cd4e543d1e5b9b4a90000944e7f936e80abce0.jpg",
+      "featured": false
+    },
+    {
+      "title": "From Gut to Plan: The Thoughtful Execution Framework",
+      "url": "https://spotify.design/article/from-gut-to-plan-the-thoughtful-execution-framework",
+      "description": "Annina Koskinen presents a framework she's developed to help her teams at Spotify reach their goals and ship with impact.",
+      "imageUrl": "./7bf4de496b8f8b228c05c9be132e4c86d63eb5f74ac454933309bbbd0885a2ba.jpg",
+      "featured": false
+    },
+    {
+      "title": "Node.js v14: What's New?",
+      "url": "https://auth0.com/blog/nodejs-v-14-whats-new",
+      "description": "Let's dive into the updates that Node.js version 14 gives us!",
+      "imageUrl": "./406e8388862efd67156cd2794cacbd1969d0bbfc0332c8af350cd6fab064bcd0.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Graph Databases: New Opportunities for Connected Data",
+    "author": "Ian Robinson",
+    "description": "Discover how graph databases can help you manage and query highly connected data. With this practical book, you’ll learn how to design and implement a graph database that brings the power of graphs to bear on a broad range of problem domains. Whether you want to speed up your response to user queries or build a database that can adapt as your business evolves, this book shows you how to apply the schema-free graph model to real-world problems.",
+    "coverImageUrl": "./5688bd18a6677e59e5b8c680c2848ab320dd4d4d28db65515d0e83fccec1d924.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491930896/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491930896/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

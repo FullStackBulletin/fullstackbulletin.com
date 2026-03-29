@@ -1,0 +1,75 @@
+{
+  "issueNumber": 105,
+  "title": "Password Managers Under the Hood",
+  "slug": "2019-04-01-105-password-managers-under-the-hood",
+  "date": "2019-04-01",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #13, 2019",
+  "quote": {
+    "text": "We are stuck with technology when what we really want is just stuff that works",
+    "author": "Douglas Adams",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Douglas_Adams"
+  },
+  "links": [
+    {
+      "title": "Password Managers Under the Hood",
+      "url": "https://securityevaluators.com/casestudies/password-manager-hacking",
+      "description": "We found that in all password managers we examined, trivial secrets extraction was possible from a locked password manager, including the master password in some cases, exposing up to 60 million users that use the password managers in this study…",
+      "imageUrl": "./245af20363f52c6c2871424ea794d7c95a35178edff32a5fe8a048c98ce1c499.jpg",
+      "featured": true
+    },
+    {
+      "title": "Deconstructing the monolith",
+      "url": "https://engineering.shopify.com/blogs/engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity",
+      "description": "The interesting journey of Shopify which had one of the biggest Ruby On Rails monolith and slowly transitioned into a more scalable architecture.",
+      "imageUrl": "./f2a92b8601d08cd3ca27cf1b8d3540bf03a89d20627e381c8039dc169272a8c2.jpg",
+      "featured": false
+    },
+    {
+      "title": "WASI: A system interface to run WebAssembly",
+      "url": "https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface",
+      "description": "It should be possible to run WebAssembly outside the web, but in order to do that we need a system interface, for instance, to interact with the filesystem. WASI is here to try to form a standard around this idea.",
+      "imageUrl": "./5828958058cc34903f7be2769a3c2d7db91a437d74a13f6cd5f16527b02a2cc6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Fuchsia OS",
+      "url": "https://bzdww.com/article/163937",
+      "description": "Fuchsia is a new operative system built by the research department of Google. In this article, you will discover why this OS is different from Linux and what we can expect from the future in case Fuchsia becomes mainstream.",
+      "imageUrl": "./c4356c8653bd78df8bdd48a69e4b454a01f0c6d0107eb631a8fba332948425bc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Who has the fastest website in F1?",
+      "url": "https://jakearchibald.com/2019/f1-perf",
+      "description": "Can I predict the winners of the 2019 F1 season by looking at the performance of their websites? No. But I'm gonna anyway.",
+      "imageUrl": "./4e5f1ae3a5e30b9098c47170aeba201903baaa90ca8a946cc04b4edb5310c84d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Complete Node js Project Setup from Docker to Testing",
+      "url": "https://medium.com/@nur_islam/complete-node-js-project-setup-from-docker-to-testing-docker-restfull-apis-with-node-js-9f384e06734a",
+      "description": "In this tutorial, I’ll show you how to set up a simple project with Node.js + Express.js + MongoDB + JEST Integration Testing.",
+      "imageUrl": "./e0b606822e58eca329fd5db7d42d8f4d9b39de6b61fbde4efa8928374999c2ea.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Complete Beginner's Guide to Vue",
+      "url": "https://dev.to/aspittel/a-complete-beginners-guide-to-vue-422n",
+      "description": "Vue.js is a frontend framework that is optimized for progressive integration. This is a tutorial to get you started with this wonderful technology.",
+      "imageUrl": "./919561fac5d8afed7dc6fa21d8c881641aef87c487654919e956bd4693ffacea.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence",
+    "author": "Pramod J. Sadalage",
+    "description": "The need to handle increasingly larger data volumes is one factor driving the adoption of a new class of nonrelational “NoSQL” databases. Advocates of NoSQL databases claim they can be used to build systems that are more performant, scale better, and are easier to program.",
+    "coverImageUrl": "./96f077a648367bca955163aa3692e65c5704f3d7a7c6557690997e5ffeea975b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321826620/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321826620/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

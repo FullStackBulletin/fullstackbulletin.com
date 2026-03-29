@@ -1,0 +1,96 @@
+{
+  "issueNumber": 436,
+  "title": "The Crazy History of Themeable User Interfaces",
+  "slug": "2025-09-01-416-the-crazy-history-of-themeable-user-interfaces",
+  "date": "2025-09-01",
+  "templateType": "buttondown-markdown",
+  "intro": "Hey,\n\nThis issue opens with a delightful trip through the history of themeable interfaces that sneaks in a reference to my favorite game ever, **Super Mario**. I could not ask for a better start. Have you ever played that game and wondered why clouds and bushes look exactly the same, with just different colors. Yes, it is a hack, and I promise you, it is totally related to the world of full-stack!\n\nFrom there we feature a lovely new monospace called **Maple Mono** that already lives in my terminal. We peek at **LiftKit** for golden ratio polish that makes layouts feel quietly premium. We get hands on with a clear guide to **self hosting Next.js** at scale. We play with **Blot**, a clever way to turn a plain folder into a living static site. We roll the dice with real randomness in CSS. Then we wrap with quick tricks to flip color preferences and test your dark mode like a pro. And, as always, there is a book recommendation and some extra content at the bottom for the more content hungry among you!\n\nLet's grab a coffee and dive in! \n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Computers are like Old Testament gods; lots of rules and no mercy",
+    "author": "Joseph Campbell",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Campbell?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=the-crazy-history-of-themeable-user-interfaces"
+  },
+  "links": [
+    {
+      "title": "The Crazy History of Themeable User Interfaces",
+      "url": "https://bradfrost.com/blog/post/the-history-of-themeable-user-interfaces",
+      "description": "Oh dear. This article sent me straight down history lane. I even stumbled on my favourite side scrolling game of all times and grinned like a kid. Wait, before you think I drifted into a tangent that has nothing to do with full-stack life, let me pull it back. **Themes**. Yes, themes. The Tailwind palettes we tweak; the beloved light and dark switch we cannot live without. Where did all that start? Did we have themes back in the day? Turns out this has always been a theme. Pun absolutely intended. This piece shows how folks have been bending system limits for ages to make software feel personal, from apps to operating systems to even games. If you are a little mature you will enjoy this one as much as I did. And if you are new to the full-stack world I am sure you'll learn a ton and have fun too.",
+      "imageUrl": "./4da35bcca61e2c00074e5b24ae9620d78a6d0fdf79a88b181001fddabd0519bc.jpg",
+      "featured": true
+    },
+    {
+      "title": "Maple Mono: a Lovely Open-Source Monospace Font",
+      "url": "https://github.com/subframe7536/maple-font",
+      "description": "Maple Mono is my new font crush. I swapped it into my beloved terminal on the spot. The rounded corners make it feel cute and less serious, yet it stays super readable and it supports all the usual Nerd Font goodies you would expect from a modern monospace. I am tempted to use it for code snippets on my site too. My take, if you have a coding blog, you should consider doing that too. It adds personality without losing clarity. And the best part? It's FREE and open-source! [**Check Repo**](https://github.com/subframe7536/maple-font)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "LiftKit: UI Framework for Perfectionists",
+      "url": "https://chainlift.io/liftkit",
+      "description": "When I try a new UI framework, I go straight to the list of components and check whether they provide a DateTime picker (or a Calendar) and how good it is. That is my smell test. If a team can design a good DateTime picker, they can handle anything. LiftKit does not have a DateTime picker (at least not yet). But what it does have is an obsessive eye for spacing, optical balance, and golden ratio rhythm that makes every layout feel quietly premium without extra fiddling. If you want interfaces that look crisp, balanced, and pleasing to the eye, this might be your next pick. [**Check Project**](https://chainlift.io/liftkit)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Complete Guide to Self-Hosting Next.js at Scale",
+      "url": "https://dlhck.com/thoughts/the-complete-guide-to-self-hosting-nextjs-at-scale",
+      "description": "Confession time. I use Next.js a lot and I still do not know whether I like it or not. My biggest gripe is simple. it feels good on Vercel, then the moment you do not want Vercel you are in for a painful ride. This guide can be the antidote. It walks through everything you need to self host Next.js at real scale, including horizontal scaling, smart caching, image optimization, and the wiring that keeps it all stable in production. If you are looking to escape Vercel, this is a very practical read. At some point, I would love to see a ready made CDK or CloudFormation template that follows this approach on AWS. If you build one, please tell me.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Blot: Turns a folder into a website",
+      "url": "https://github.com/davidmerfield/blot",
+      "description": "You know I am a huge fan of static sites. This one feels fresh. **Blot** turns a plain folder into a living website. Drop markdown, images, HTML, or even Word docs into Dropbox, Git, Google Drive, or iCloud, and your site updates almost instantly. There is a hosted service if you want convenience, but the whole thing is open source so you can self host. What I love here is the lowered barrier for less technical folks. Writers can just save files, you keep your usual tools, and everyone gets a fast simple publishing flow. I can see this powering a team blog, a notes garden, or a lightweight docs site without dragging in a full CMS. [**Check Repo**](https://github.com/davidmerfield/blot)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Rolling the Dice with CSS random()",
+      "url": "https://webkit.org/blog/17285/rolling-the-dice-with-css-random",
+      "description": "CSS keeps creeping toward full featured programming language territory. One day, it might even run Doom! And with native randomness landing, that day feels a little closer. This post shows the new `random(min, max, step)` function in action, plus clever ways to share randomness with named idents and the `element-shared` option. Think star fields, shuffled grid layouts, playful spins, and color jitter. All done in pure CSS, no JavaScript in sight.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Quick Dark Mode Toggles",
+      "url": "https://frontendmasters.com/blog/quick-dark-mode-toggles",
+      "description": "I often struggle to test auto toggles between dark and light based on browser or OS settings. This article was a gem. It shows quick ways to flip your preference on the fly and confirm your site reacts to prefers color scheme correctly. Short, practical, and full of tiny tricks. Check it out if you want to learn a tip or two.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Tao of Microservices",
+    "author": "Richard Rodger",
+    "description": "The Tao of Microservices guides you on the path to understanding how to apply microservice architectures to your own real-world projects. This high-level book offers a conceptual view of microservice design, along with core concepts and their application. An application, even a complex one, can be designed as a system of independent components, each of which handles a single responsibility. Individual microservices are easy for small teams without extensive knowledge of the entire system design to build and maintain. Microservice applications rely on modern patterns like asynchronous, message-based communication, and they can be optimized to work well in cloud and container-centric environments. What's Inside:",
+    "coverImageUrl": "./dfcbc3d9c0fe9c8ba1f5410bec57905d5a767840a2455c1f166080db93b8af34.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617293148",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617293148"
+  },
+  "additionalLinks": [
+    {
+      "title": "You’re loading fonts wrong (and it’s crippling your performance)",
+      "url": "https://jonoalderson.com/performance/youre-loading-fonts-wrong"
+    },
+    {
+      "title": "How to Build a Modern Blog with React 19 and Strapi 5",
+      "url": "https://strapi.io/blog/how-to-build-a-modern-blog-with-react-19-and-strapi-5"
+    },
+    {
+      "title": "Why designing terrible solutions makes you a better designer",
+      "url": "https://uxdesign.cc/why-designing-terrible-solutions-makes-you-a-better-designer-76b2f0f59956"
+    },
+    {
+      "title": "A Clock That Doesn't Snap (with React)",
+      "url": "https://ethanniser.dev/blog/a-clock-that-doesnt-snap"
+    },
+    {
+      "title": "Redefining ‘human in the loop’",
+      "url": "https://teybannerman.github.io/ai/2025/08/25/human-in-the-loop-framework.html"
+    }
+  ],
+  "sponsor": null
+}

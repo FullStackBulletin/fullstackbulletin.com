@@ -1,0 +1,104 @@
+{
+  "issueNumber": 337,
+  "title": "Why Does Email Development Have to Suck?",
+  "slug": "2023-09-11-323-why-does-email-development-have-to-suck",
+  "date": "2023-09-11",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*We are happy to introduce issue #337! 🚀\n\nIn this issue, we inaugurate our new email layout! I hope you will enjoy it! Also pay attention to the bottom of this email, because from today we are starting to sneak into our emails some extra content... we know the craving for full-stack goodness never ends and we are on a mission to help! Enjoy.",
+  "quote": {
+    "text": "The question of whether Machines Can Think... is about as relevant as the question of whether Submarines Can Swim“",
+    "author": "E.W. Dijkstra",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/E._W._Dijkstra"
+  },
+  "links": [
+    {
+      "title": "Why Does Email Development Have to Suck?",
+      "url": "https://dodov.dev/blog/why-does-email-development-have-to-suck",
+      "description": null,
+      "imageUrl": "./433fcab1014e9c8fd60714f521b14e6aea67b9fd107a3022ce968ed91b68194f.jpg",
+      "featured": true
+    },
+    {
+      "title": "How to Create a Dual-Mode Cross-Runtime JavaScript Package",
+      "url": "https://hexagon.56k.guru/posts/dual-mode-cross-runtime-packages",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Browser Video Players Review",
+      "url": "https://adrianroselli.com/2023/09/browser-video-players-review.html",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Tracking Errors in a Node.js Application",
+      "url": "https://blog.appsignal.com/2023/08/30/tracking-errors-in-a-nodejs-application.html",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Making Sense of React Server Components",
+      "url": "https://joshwcomeau.com/react/server-components",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Website design inspirations organised by fonts",
+      "url": "https://maxibestof.one/typefaces",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Let’s Make a Rubber Button With HTML, CSS and SVG",
+      "url": "https://cloudfour.com/thinks/rubber-button",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence",
+    "author": "Pramod J. Sadalage",
+    "description": "The need to handle increasingly larger data volumes is one factor driving the adoption of a new class of nonrelational “NoSQL” databases. Advocates of NoSQL databases claim they can be used to build systems that are more performant, scale better, and are easier to program.",
+    "coverImageUrl": "./96f077a648367bca955163aa3692e65c5704f3d7a7c6557690997e5ffeea975b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321826620/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321826620/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Information Architecture vs. Sitemaps: What’s the Difference?",
+      "url": "https://nngroup.com/articles/information-architecture-sitemaps"
+    },
+    {
+      "title": "EmNudge/watlings: Learn WebAssembly by fixing small programs!",
+      "url": "https://github.com/EmNudge/watlings"
+    },
+    {
+      "title": "Long Animation Frames API",
+      "url": "https://developer.chrome.com/articles/long-animation-frames"
+    },
+    {
+      "title": "Towards HTTPS by default",
+      "url": "https://blog.chromium.org/2023/08/towards-https-by-default.html"
+    },
+    {
+      "title": "How layout position impacts three big web performance levers",
+      "url": "https://performance.shopify.com/blogs/blog/how-layout-position-impacts-three-big-web-performance-levers"
+    },
+    {
+      "title": "Adapting Illustrations to Dark Mode",
+      "url": "https://blog.simonfarshid.com/adapting-illustrations-to-dark-mode"
+    },
+    {
+      "title": "Astro View Transitions",
+      "url": "https://developer.chrome.com/blog/astro-view-transitions"
+    }
+  ],
+  "sponsor": null
+}

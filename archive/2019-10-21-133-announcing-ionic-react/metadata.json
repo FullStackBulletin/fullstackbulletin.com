@@ -1,0 +1,75 @@
+{
+  "issueNumber": 133,
+  "title": "Announcing Ionic React",
+  "slug": "2019-10-21-133-announcing-ionic-react",
+  "date": "2019-10-21",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #42, 2019",
+  "quote": {
+    "text": "It would appear that we have reached the limits of what it is possible to achieve with computer technology, although one should be careful with such statements, as they tend to sound pretty silly in 5 years",
+    "author": "John Von Neumann",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_von_Neumann"
+  },
+  "links": [
+    {
+      "title": "Announcing Ionic React",
+      "url": "https://ionicframework.com/blog/announcing-ionic-react",
+      "description": "Ionic React is a native React version of Ionic Framework that makes it easy to build apps for iOS, Android, Desktop, and the web as a Progressive Web App. All with one code base, standard React development patterns and using the standard react-dom library and huge ecosystem around the web platform.",
+      "imageUrl": "./d0bd00cdb1a77569eaaa5c5fde6ed69c0a72edf3cc25db253eaffae1c6e36a7a.jpg",
+      "featured": true
+    },
+    {
+      "title": "Making Instagram.com faster",
+      "url": "https://instagram-engineering.com/making-instagram-com-faster-part-3-cache-first-6f3f130b9669",
+      "description": "Some insights on the caching strategies adopted by Instagram to make their website more performant.",
+      "imageUrl": "./3f59aa261ff0495d5ac179da789a0ca2cfd4ead0d97d60f1c903616542f3bb9b.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Unix Game",
+      "url": "https://unixgame.io/unix50",
+      "description": "An online programming contest developed by Nokia Bell Labs in honor of the 50th anniversary of Unix. It features Unix-related questions that you must solve by combining the original Unix commands using Unix pipes.",
+      "imageUrl": "./362e7ac0d4faa40aae39e28f12af0f4a99553ee2ad2f9ab789e91196b8b1dd4a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Serverless Functions for Kubernetes",
+      "url": "https://fission.io/",
+      "description": "Fission is a framework for serverless functions on Kubernetes. Write short-lived functions in any language, and map them to HTTP requests (or other event triggers). Deploy functions instantly with one command. There are no containers to build, and no Docker registries to manage.",
+      "imageUrl": "./9aa9a4c70b72cab592966c91a44565498d07a1d9c9689559cca03dab616ad9e8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Design System Playground",
+      "url": "https://design-system-playground.netlify.com/",
+      "description": "Play with typography, colors and themeable components in your design system.",
+      "imageUrl": "./0741addeffdb52ab5e664f2eeb8e48243fd328ed72e448d82a8d847e42952773.jpg",
+      "featured": false
+    },
+    {
+      "title": "uPlot",
+      "url": "https://github.com/leeoniya/uPlot",
+      "description": "A fast, memory-efficient time series chart based on Canvas 2D; It can create an interactive chart containing 150,000 data points in 40ms. In addition to fast initial render, the zooming and cursor performance is very fast and it doesn't require WebGL shaders or WASM.",
+      "imageUrl": "./023b0a0ef31b58f29b981e42f5a37e565cff49414fb3593a3507e70f16fe0a99.png",
+      "featured": false
+    },
+    {
+      "title": "Build Command-Line Spinners in Node.js",
+      "url": "https://blog.bitsrc.io/build-command-line-spinners-in-node-js-3e432d926d56",
+      "description": "Practice your Node.js-terminal skills by building your own CLI spinners.",
+      "imageUrl": "./693bac5258164525a447bdc011f94a3e701b795f7063f36131110130b080f9ca.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "React.js Essentials",
+    "author": "Artemij Fedosejev",
+    "description": "A fast-paced guide to designing and building scalable and maintainable web apps with React.js. Begin by exploring how you can create single and multiple user interface elements. Create stateless and stateful components and make them reactive, learn to interact between your components and lifecycle methods and gauge how to effectively integrate your user interface components with other JavaScript libraries. Delve deep into the core elements of the Flux architecture and learn how to manage your application using stores. Finish by going that extra mile with the Jest test framework, running multiple tests on your application and find solutions to scale it further without complexity.",
+    "coverImageUrl": "./eb95347c1c0e80dbd4676f9526e1a8610c6ada33f97b47b2a0d06ce514d88632.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1783551623/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1783551623/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

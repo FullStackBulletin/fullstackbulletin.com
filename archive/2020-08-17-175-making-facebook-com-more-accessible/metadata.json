@@ -1,0 +1,75 @@
+{
+  "issueNumber": 175,
+  "title": "Making Facebook.com more accessible",
+  "slug": "2020-08-17-175-making-facebook-com-more-accessible",
+  "date": "2020-08-17",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #33, 2020",
+  "quote": {
+    "text": "Errors using inadequate data are much less than those using no data at all",
+    "author": "Charles Babbage",
+    "authorTitle": "Mathematician",
+    "authorUrl": "https://en.wikipedia.org/wiki/Charles_Babbage"
+  },
+  "links": [
+    {
+      "title": "Making Facebook.com more accessible",
+      "url": "https://engineering.fb.com/web/facebook-com-accessibility",
+      "description": "As part of the recent redesign of Facebook.com, there were a number of interesting improvements to make the website more accessible. This official article from Facebook Engineering, details all the optimizations introduced and show why they are important.",
+      "imageUrl": "./fcccca4b33af20cedb3e51a406361db74b392c797ddf212ce637722eab7e210f.jpg",
+      "featured": true
+    },
+    {
+      "title": "Learn Git Branching",
+      "url": "https://pcottle.github.io/learnGitBranching/index.html?demo=",
+      "description": "An interactive Git visualisation tool to educate and challenge your understanding of Git!",
+      "imageUrl": "./43b0a605b3a9cfc5daca23e72377bb85dcd9a1bb90c2c849268feace08810593.jpg",
+      "featured": false
+    },
+    {
+      "title": "content-visibility: the new CSS property that boosts your rendering performance",
+      "url": "https://web.dev/content-visibility",
+      "description": "The CSS content-visibility property enables web content rendering performance benefits by skipping rendering of off-screen content. This article shows you how to leverage this new CSS property for faster initial load times, using the auto keyword.",
+      "imageUrl": "./8545c97b04803ba918ceb61b6602dcdca1aada0b85b013e06b1db41e016273f6.jpg",
+      "featured": false
+    },
+    {
+      "title": "What I Learned from Doing 60+ Technical Interviews in 30 Days",
+      "url": "https://freecodecamp.org/news/what-i-learned-from-doing-60-technical-interviews-in-30-days",
+      "description": "Practical lessons to help you become better at technical interviews",
+      "imageUrl": "./119b771430f51068bfe65f7598fdcf8b5693d34c6997fc092f1bc5b8321dfe8f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Warp SVG online",
+      "url": "https://pavellaptev.github.io/warp-svg",
+      "description": "A FREE online tool that let's you apply warp effects to distort your SVG images.",
+      "imageUrl": "./0d85ac65bc881725ff9558d33c3c72d90c5b7f46a4c054c63607c31d6a54ee83.jpg",
+      "featured": false
+    },
+    {
+      "title": "3 most common mistakes when using Promises in JavaScript",
+      "url": "https://dev.to/mpodlasin/3-most-common-mistakes-when-using-promises-in-javascript-oab",
+      "description": "Promises rule JavaScript. Even nowadays, with the introduction of async/await, they are still an obligatory piece of knowledge for any JS developer. Promises are one of those things that look simple on the surface but there are many details that you need to appreciate otherwise things will go wrong! This article tries to demystify 3 common mistakes.",
+      "imageUrl": "./f5425fc61b903613a9c4cd963ecafa105a1e4570d73a126f1742bcc4acc89359.jpg",
+      "featured": false
+    },
+    {
+      "title": "How We Got the Favicon - The History of the Web",
+      "url": "https://thehistoryoftheweb.com/how-we-got-the-favicon",
+      "description": "Did you know how the favicon came to be? It is actually a quite interesting story and, if you are passionate about the web as we do, we are sure you are going to enjoy it! ☺️",
+      "imageUrl": "./1c9e1a931fc770359955e4e1c03b97323d1b96f5d59bd3d30c05ac6dff6aaf1c.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "description": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code. Considered the JavaScript expert by many people in the development community, author Douglas Crockford identifies the abundance of good ideas that make JavaScript an outstanding object-oriented programming language-ideas such as functions, loose typing, dynamic objects, and an expressive object literal notation.",
+    "coverImageUrl": "./b4beb220d7fc9561d1a7ac83cc89192fb78f862d089424d2a5ef352069ce6e33.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0596517742/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0596517742/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

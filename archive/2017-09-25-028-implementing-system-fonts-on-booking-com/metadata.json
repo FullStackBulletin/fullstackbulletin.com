@@ -1,0 +1,75 @@
+{
+  "issueNumber": 28,
+  "title": "Implementing system fonts on Booking.com",
+  "slug": "2017-09-25-028-implementing-system-fonts-on-booking-com",
+  "date": "2017-09-25",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #38, 2017",
+  "quote": {
+    "text": "The best way to predict the future is to implement it",
+    "author": "David Heinemeier Hansson",
+    "authorTitle": "Software Developer and Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/David_Heinemeier_Hansson"
+  },
+  "links": [
+    {
+      "title": "Implementing system fonts on Booking.com",
+      "url": "https://booking.design/implementing-system-fonts-on-booking-com-a-lesson-learned-bdc984df627f",
+      "description": "Inspired by the recent work that Github and Medium have done to improve their fonts and thus the reading experience on their sites, this is the story of how Booking.com got to thinking about their own long-established font choices.",
+      "imageUrl": "./1c849378c9dea0df070c4495655c7ffa8cc2b8232360eb05cf3e93eb1347f409.jpg",
+      "featured": true
+    },
+    {
+      "title": "CoffeeScript 2 is here...",
+      "url": "http://coffeescript.org/announcing-coffeescript-2",
+      "description": "This new release of the CoffeeScript language and compiler aims to bring CoffeeScript into the modern JavaScript era, closing gaps in compatibility with JavaScript while preserving the clean syntax that is CoffeeScript’s hallmark. In a nutshell:",
+      "imageUrl": "./b41cbc37b3c5fb28e0158a95d68ab918c82dd2e9b155378ddfa64bb46afd161a.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Father Of Mobile Computing Is Not Impressed",
+      "url": "https://fastcompany.com/40435064/what-alan-kay-thinks-about-the-iphone-and-technology-now",
+      "description": "Alan Kay influenced Jobs and dreamed up a digital future designed for learning and thinking. Fifty years on, but he is still waiting for his dream to come true.",
+      "imageUrl": "./b699c878a7270ad682f5c8795ebcbca70105bd6478cca59a0b7c88615691c0c5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Better Web Typography for a Better Web.",
+      "url": "http://betterwebtype.com/",
+      "description": "Better Web Type is an easy-to-follow web typography email course for web designers and web developers.",
+      "imageUrl": "./56a8b5b870b53ae0bf69d77ebe7cbf6a7d2ee95fa62fe5894b11f01e135c093a.jpg",
+      "featured": false
+    },
+    {
+      "title": "mr-mig/every-programmer-should-know",
+      "url": "https://github.com/mr-mig/every-programmer-should-know",
+      "description": "A collection of (mostly) technical things every software developer should know",
+      "imageUrl": "./34f7d55977bdb7dc86c8338e6f601028a919e3681e092ad3d70141d567db47f4.jpg",
+      "featured": false
+    },
+    {
+      "title": "\"The Notch\" and CSS",
+      "url": "https://css-tricks.com/the-notch-and-css",
+      "description": "Apple's iPhone X has a screen that covers the entire face of the phone, save for a \"notch\" to make space for a camera and other various components. This peculiar \"feature\" might make websites design in landscape mode challenging...",
+      "imageUrl": "./75c953e1b6de077a93b6ec1689da32c656683a72eb68b36965d249ab3c8280e5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Is there any value in people who cannot write JavaScript?",
+      "url": "https://medium.com/@mandy.michael/is-there-any-value-in-people-who-cannot-write-javascript-d0a66b16de06",
+      "description": "When every new website on the internet has perfect, semantic, accessible HTML and exceptionally executed, accessible CSS that works on every device and browser, then you can tell me that these languages are not valuable on their own. Until then we need to stop devaluing CSS and HTML.",
+      "imageUrl": "./e1e74bf2bd7c0db82f3372fa72b577c48f87321892ac6805ab0d4f1c821ccbd5.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "ReactJS by Example- Building Modern Web Applications with React",
+    "author": "Vipul A M",
+    "description": "tarting with a project on Open Library API, you will be introduced to React and JSX before moving on to learning about the life cycle of a React component. In the second project, building a multi-step wizard form, you will learn about composite dynamic components and perform DOM actions. You will also learn about building a fast search engine by exploring server-side rendering in the third project on a search engine application. Next, you will build a simple frontpage for an e-commerce app in the fourth project by using data models and React add-ons. In the final project you will develop a complete social media tracker by using the flux way of defining React apps and know about the best practices and use cases with the help of ES6 and redux.",
+    "coverImageUrl": "./a4e0dee4571c84ad4a0d244e4ef6cdb129bb9185a1fdb2fc5e8eecb99c12e3c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785289640/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785289640/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

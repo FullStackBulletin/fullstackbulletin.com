@@ -1,0 +1,75 @@
+{
+  "issueNumber": 85,
+  "title": "62% of the web will run on unsupported PHP",
+  "slug": "2018-10-22-085-62-of-the-web-will-run-on-unsupported-php",
+  "date": "2018-10-22",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #42, 2018",
+  "quote": {
+    "text": "It would appear that we have reached the limits of what it is possible to achieve with computer technology, although one should be careful with such statements, as they tend to sound pretty silly in 5 years",
+    "author": "John Von Neumann",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_von_Neumann"
+  },
+  "links": [
+    {
+      "title": "62% of the web will run on unsupported PHP",
+      "url": "https://zdnet.com/article/around-62-of-all-internet-sites-will-run-an-unsupported-php-version-in-10-weeks",
+      "description": "The highly popular PHP 5.x branch will stop receiving security updates at the end of the year, so in about 10 weeks you shouldn't be using this version of PHP in production anymore. Surprising enough about 62% of the web still relies on it, make sure you don't fall into that bucket!",
+      "imageUrl": "./4358c90258f758e8744fcd0eb6ac76b27070a6244e2b7df7877e7e0bc8fc1a7a.jpg",
+      "featured": true
+    },
+    {
+      "title": "The Illustrated TLS Connection: Every Byte Explained",
+      "url": "https://tls.ulfheim.net/",
+      "description": "A fantastic guide to understanding every single byte that gets transmitted during a TLS connection creation. If you are curious about protocols and security, you will definitely enjoy this website.",
+      "imageUrl": "./c491ae9d52d0bb500479ec50447b6587deaa48c926a5b70d3794f0b730c20317.png",
+      "featured": false
+    },
+    {
+      "title": "The true power of regular expressions",
+      "url": "https://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html",
+      "description": "A deep dive into regular expressions from the formal language theory behind it to some illuminating examples. After reading this article you will know exactly how regular expression work and why they are so important in computer science.",
+      "imageUrl": "./b8f033c49b73cf1726f15a29ea6b944cd140c86a8512b097101b8af31d458bd6.png",
+      "featured": false
+    },
+    {
+      "title": "Goodbye JavaScript, Hello WebAssembly",
+      "url": "https://telerik.com/blogs/goodbye-javascript-hello-webassembly",
+      "description": "A new form of web development is starting to emerge that promises to provide an alternative to JavaScript: WebAssembly.",
+      "imageUrl": "./f32d8c6f199c6389abf6758e973227f666bd241b81a59e9c2de817bdac6fffaa.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Suspense is Killing Redux",
+      "url": "https://medium.com/@ryanflorence/the-suspense-is-killing-redux-e888f9692430",
+      "description": "Ryan Florence, famous open source developer and React trainer tries to answer the question: “Does Suspense kill Redux?”. In case you never heard before, \"suspense\" is a new React feature that allows deferring the rendering of some components and it might have practical implication on the way you write React apps, including allowing you to use to replace Redux.",
+      "imageUrl": "./332a1557e9703fdad5a68136b2215f559ff6cd0a359c369fda6a443b9ab7a4a8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Understanding Currying in JavaScript",
+      "url": "https://blog.bitsrc.io/understanding-currying-in-javascript-ceb2188c339",
+      "description": "Currying is a process in functional programming in which we can transform a function with multiple arguments into a sequence of nesting functions. It returns a new function that expects the next argument inline. This guide provides a short yet detailed walkthrough into Currying in JavaScript.",
+      "imageUrl": "./6d50e2b3d738c1bf0fac2d3f542b420b717610b2fb1be94cc114588ac1d0bb22.png",
+      "featured": false
+    },
+    {
+      "title": "CSS Layout cookbook",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook",
+      "description": "The CSS layout cookbook aims to bring together recipes for common layout patterns, things you might need to implement in your own sites. In addition to providing the code you can use as a starting point in your projects, these recipes highlight the different ways layout specifications can be used.",
+      "imageUrl": "./66131478a5852508fccfffda781c189339f7dbfc1beffc8f0f0432117353f232.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "React.js Essentials",
+    "author": "Artemij Fedosejev",
+    "description": "A fast-paced guide to designing and building scalable and maintainable web apps with React.js. Begin by exploring how you can create single and multiple user interface elements. Create stateless and stateful components and make them reactive, learn to interact between your components and lifecycle methods and gauge how to effectively integrate your user interface components with other JavaScript libraries. Delve deep into the core elements of the Flux architecture and learn how to manage your application using stores. Finish by going that extra mile with the Jest test framework, running multiple tests on your application and find solutions to scale it further without complexity.",
+    "coverImageUrl": "./eb95347c1c0e80dbd4676f9526e1a8610c6ada33f97b47b2a0d06ce514d88632.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1783551623/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1783551623/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

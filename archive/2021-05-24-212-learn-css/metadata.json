@@ -1,0 +1,75 @@
+{
+  "issueNumber": 212,
+  "title": "Learn CSS",
+  "slug": "2021-05-24-212-learn-css",
+  "date": "2021-05-24",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "The science of today is the technology of tomorrow",
+    "author": "Edward Teller",
+    "authorTitle": "Theoretical physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Edward_Teller"
+  },
+  "links": [
+    {
+      "title": "Learn CSS",
+      "url": "https://web.dev/learn/css",
+      "description": "CSS is a fundamental skill for web developers. You don't have to become an expert but you certainly can use knowing the basics. This is an evergreen CSS course and reference to level up your web styling expertise.",
+      "imageUrl": "./8f7c4e8548c7be522ed2d7d593cd88a3a071fdcda916ab89b86c5e723dfa9d6f.jpg",
+      "featured": true
+    },
+    {
+      "title": "Serverless Land",
+      "url": "https://serverlessland.com/",
+      "description": "If you are currently learning Serverless, this is a great resource (by AWS and focused on AWS technology) that explores several different integration patterns that can be very useful in serverless architectures.",
+      "imageUrl": "./548a66ba39be8e0fb0e73bbda1c5d404628546a7a94e0e812b61436a16aac358.jpg",
+      "featured": false
+    },
+    {
+      "title": "Iconoir: SVG Icons Library",
+      "url": "https://iconoir.com/",
+      "description": "**Iconoir** is a new shiny library of SVG icons. Other than providing a set of beautiful hand-crafted icons that would suit most projects, it is open source and provides a very permissive free license!",
+      "imageUrl": "./cb55d1096f9bab7bfa438a22358ed1d74ddd433e306b2d29a19d3f4988c1dab9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Go Modules Cheat Sheet",
+      "url": "https://encore.dev/guide/go.mod",
+      "description": "For those learning Go, modules are one of the things that differentiate the language from most other programming languages. This cheat sheet has you covered with all the important details that you should know and remember about the Go module system.",
+      "imageUrl": "./8d3e9bbc86278e59a1797e17b19a199933def6761ee75c68685297e581bea3be.jpg",
+      "featured": false
+    },
+    {
+      "title": "5 steps to faster web fonts",
+      "url": "https://iainbean.com/posts/2021/5-steps-to-faster-web-fonts",
+      "description": "Fonts are one of the main elements for providing uniquely crafted web experiences. But when you start to adopt custom fonts, then you have to manage them and make sure they load as fast as possible. In this article, you can learn how to fine-tune your font files and optimize your loading strategy for maximum speed + minimum FOUT.",
+      "imageUrl": "./5eae83426d1b1efdbc559d017aec69882431e45f596313c4d0db814f1b124b80.jpg",
+      "featured": false
+    },
+    {
+      "title": "Extreme HTTP Performance Tuning: 1.2M API req/s",
+      "url": "https://talawah.io/blog/extreme-http-performance-tuning-one-point-two-million",
+      "description": "This post walks you through a performance tuning journey that led Marc Richards to build a web server capable of serving **1.2 million JSON \"API\" requests per second** from a 4 vCPU AWS EC2 instance. Quite interesting to see how many things you can tune across the stack!",
+      "imageUrl": "./ea80172da8abbac143f78573a3c61a04924928e91ff18aef12c1229cfac6959f.png",
+      "featured": false
+    },
+    {
+      "title": "How To Style a Table with CSS",
+      "url": "https://digitalocean.com/community/tutorials/how-to-style-a-table-with-css",
+      "description": "If you are in need of more **CSS** **knowledge**, in this tutorial, you will run through an example of styling an element. The first half will focus on a common table layout that uses the browser’s default styles for table elements. Browser defaults are the starting point of working with CSS, so it is",
+      "imageUrl": "./8aac04af01bf179c7344ac8aaef3af9f42f6c07cb403c2b56153be8af22cd4e6.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Pragmatic Programmer: From Journeyman to Master",
+    "author": "Andrew Hunt",
+    "description": "he Pragmatic Programmer cuts through the increasing specialization and technicalities of modern software development to examine the core process-taking a requirement and producing working, maintainable code that delights its users. It covers topics ranging from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse.",
+    "coverImageUrl": "./2ffb12a41f490125695aeff2d4c3ea84a96f4f6c7298432191fdc3c1a104af4b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/020161622X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/020161622X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

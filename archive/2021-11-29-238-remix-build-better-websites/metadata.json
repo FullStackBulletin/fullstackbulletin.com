@@ -1,0 +1,75 @@
+{
+  "issueNumber": 238,
+  "title": "Remix - Build Better Websites",
+  "slug": "2021-11-29-238-remix-build-better-websites",
+  "date": "2021-11-29",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #47, 2021",
+  "quote": {
+    "text": "The difference between theory and practice is that in theory, there is no difference between theory and practice",
+    "author": "Richard Moore",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Richard_Moore"
+  },
+  "links": [
+    {
+      "title": "Remix - Build Better Websites",
+      "url": "https://remix.run/",
+      "description": "Remix is a new promising full stack web framework based on React. Its promise is to let you focus on the user interface and work back through web fundamentals to deliver a fast, slick, and resilient user experience.",
+      "imageUrl": "./b6f39679d9d690b6fddcaf0ff9af3fb0b59a868fc6db3e2d789818de5e3a477a.jpg",
+      "featured": true
+    },
+    {
+      "title": "I test in production",
+      "url": "https://increment.com/testing/i-test-in-production",
+      "description": "Seriously, *\"testing in production\"* might sound like a joke at first. But believe us when we say that, if done well, testing in production can be one of the most powerful ways of testing changes before shipping them to all our users. Check out this opinion piece by Charity Majors if you are intrigued about this topic!",
+      "imageUrl": "./ccb3f1b9f3eec961a11902c8275e4f7edaba35c72a7acf4c9f226a23ffbef3a0.jpg",
+      "featured": false
+    },
+    {
+      "title": "emojimix",
+      "url": "https://tikolu.net/emojimix",
+      "description": "*\"Combine two emojis into one. Thousands of combinations are available.\"*\n\nSimply our favourite website of the week. Have a nerdy peek at the source code if you want to learn a trick or two!",
+      "imageUrl": "./490531898931f16dbe6b9d9c98c8bc3a602f07da77ee25919e10e75028c78b2c.png",
+      "featured": false
+    },
+    {
+      "title": "3 Ways to Read SSM Parameters",
+      "url": "https://dev.to/eoinsha/3-ways-to-read-ssm-parameters-4555",
+      "description": "If you have been using AWS long enough you have probably bumped into SSM parameters at least once. In this article you can get a very comprehensive view of what are the best ways to consume SSM parameters during the lifecycle of an APP (build time, deploy time, runtime). Each approach comes with its own pros and cons!",
+      "imageUrl": "./77bcf18ce94e88f76e0148da8cd8ffe56ca5959eac3a86c2aba6ddcb759fe31b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Understanding Kafka with Factorio",
+      "url": "https://ruurtjan.medium.com/understanding-kafka-with-factorio-74e8fc9bf181",
+      "description": "A very engaging article that manages to explain the main concepts of Apache Kafka (and streams systems in a more general way) using analogies with the game Factorio. Most recommended read, especially if you have played the game :)",
+      "imageUrl": "./7018ed215c0c692785fedd7010ab5951914773a307ce19d28a09f4fad698e036.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Only stock resources library you will ever need.",
+      "url": "https://abhirajb.hashnode.dev/the-only-stock-resources-library-you-will-ever-need",
+      "description": "A seriously good list of all the websites you can use to find royalty free stock resources that you can use for your next projects.",
+      "imageUrl": "./d95240d90566b1e247818253f044d08e1f1cc983b1b1c552a7ec889ae9c69f23.png",
+      "featured": false
+    },
+    {
+      "title": "Using the Spotify API with Next.js",
+      "url": "https://leerob.io/blog/spotify-api-nextjs",
+      "description": "Did you know that Spotify offers an API? The first thing that I thought when I found out about this was to create a widget to show in real-time the song I am currently listening to on my personal blog. Apparently I wasn't the first one to have this idea 😅",
+      "imageUrl": "./5ea8022efd169d61262a0eeccdd107752a2391eba60539c941fc5fcf84516e99.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elixir in Action",
+    "author": "Saša Jurić",
+    "description": "Elixir in Action teaches you to apply the new Elixir programming language to practical problems associated with scalability, concurrency, fault tolerance, and high availability. Elixir is a modern programming language that takes advantage of BEAM, the Erlang virtual machine, without the burden of Erlang's complex syntax and conventions. Elixir gives you Ruby-like elegance with the power to develop bulletproof distributed server systems that can handle massive numbers of simultaneous clients and run with almost no downtime.",
+    "coverImageUrl": "./490e43e003f0e552efa4caaeaf3601ab5225c857e806244ebb7a236234ac2ca7.jpg",
+    "amazonUs": "https://www.amazon.com/dp/161729201X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/161729201X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

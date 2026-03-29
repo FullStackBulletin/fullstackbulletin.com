@@ -1,0 +1,75 @@
+{
+  "issueNumber": 201,
+  "title": "Making GitHub’s new homepage fast and performant",
+  "slug": "2021-02-15-201-making-github-s-new-homepage-fast-and-performant",
+  "date": "2021-02-15",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #7, 2021\n\n\n⭐️ FullStack Bulletin has outgrown its free plan! If you enjoy this newsletter, consider supporting us:\n\n\n[Donate on Patreon](https://patreon.com/lucianomammino) - [Discuss sponsorship](https://fstack.link/sponsor)",
+  "quote": {
+    "text": "One machine can do the work of fifty ordinary men.  No machine can do the work of one extraordinary man",
+    "author": "Elbert Hubbard",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Elbert_Hubbard"
+  },
+  "links": [
+    {
+      "title": "Making GitHub’s new homepage fast and performant",
+      "url": "https://github.blog/2021-01-29-making-githubs-new-homepage-fast-and-performant",
+      "description": "This post is the third instalment of the five-part series on building GitHub’s new homepage. In particular, this post presents how the globe feature was built: how the data is collected and used.",
+      "imageUrl": "./4c377031e69fbacad34534be0dff35ad19871d23e6a2499f8d54b614dffd5be0.jpg",
+      "featured": true
+    },
+    {
+      "title": "Achieving 11M IOPS & 66 GB/s IO on a Single ThreadRipper Workstation",
+      "url": "https://tanelpoder.com/posts/11m-iops-with-10-ssds-on-amd-threadripper-pro-workstation",
+      "description": "This article goes outside the comfort zone of many full-stack web developers as it covers topics such as hardware and servers and how to achieve great performance in terms of IOPS on a single machine. If you are looking to expand your horizon a little bit, you might enjoy this article.",
+      "imageUrl": "./9a7bbc3f9038b631b33491caf857fe7fa32bc3ce91d03156cb8959d00ea9a293.jpg",
+      "featured": false
+    },
+    {
+      "title": "SVG Path Visualizer",
+      "url": "https://svg-path-visualizer.netlify.app/",
+      "description": "Enter an SVG path data (the string inside the `d` attribute) to visualize it and discover all its different commands. A great way to learn how SVG paths work!",
+      "imageUrl": "./1f354fca70ae38450694d9f4a3d88da024af17a6933eebf434c53b4811f83181.jpg",
+      "featured": false
+    },
+    {
+      "title": "Things You Can Do With CSS Today",
+      "url": "https://smashingmagazine.com/2021/02/things-you-can-do-with-css-today",
+      "description": "The present and future of CSS are very bright indeed and if you take a pragmatic, progressive approach to your CSS, then things will continue to get better and better on your projects, too.",
+      "imageUrl": "./d37c1e090485b362432feeee2f25debd0381c778e1978294e650f19b4cbe0bd6.jpg",
+      "featured": false
+    },
+    {
+      "title": "The styled-components happy path",
+      "url": "https://joshwcomeau.com/css/styled-components",
+      "description": "styled-components is a wonderfully powerful styling library for React, and over the years I've learned a lot about how to use it effectively. This article shares my personal “best practices”.",
+      "imageUrl": "./37aec989004d6c94590d030c89f75b10844a69642ff4d3af8107647b00c3e373.jpg",
+      "featured": false
+    },
+    {
+      "title": "Progressive Enhancement reading list",
+      "url": "https://www.quirksmode.org/blog/archives/2021/02/progressive_enh.html",
+      "description": "Progressive enhancement is still one of the fundamental ideas to design web pages that are functional and yet accessible to a wide range of users and devices. In this post, you will find a great number of resources to deep dive into such an important topic for every web developer.",
+      "imageUrl": "./c3af77dcc3731f392a972d6e0e42caf02aea191ec4da22ac3c40f5d5ff9372fb.png",
+      "featured": false
+    },
+    {
+      "title": "argyleink/transition.css",
+      "url": "https://transition.style/",
+      "description": "Drop-in CSS transitions",
+      "imageUrl": "./b9185c5385fdc61da25c8a02ac8b0230c9e7c3ff01dc996f113c957d4a5e90cb.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "E. Gamma, R. Helm, R. Johnson, J. Vlissides",
+    "description": "Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems. Previously undocumented, these 23 patterns allow designers to create more flexible, elegant, and ultimately reusable designs without having to rediscover the design solutions themselves.",
+    "coverImageUrl": "./3d2f9c2ee1c817b2dcd3443fbb6f71d7fcb0499b00de983a9ffe8f8c6058fa29.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0201633612/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0201633612/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

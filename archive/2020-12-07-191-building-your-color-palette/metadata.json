@@ -1,0 +1,75 @@
+{
+  "issueNumber": 191,
+  "title": "Building Your Color Palette",
+  "slug": "2020-12-07-191-building-your-color-palette",
+  "date": "2020-12-07",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #49, 2020",
+  "quote": {
+    "text": "Computers are like Old Testament gods; lots of rules and no mercy",
+    "author": "Joseph Campbell",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Campbell"
+  },
+  "links": [
+    {
+      "title": "Building Your Color Palette",
+      "url": "https://refactoringui.com/previews/building-your-color-palette",
+      "description": "Learn how to design awesome UIs by yourself using specific tactics explained from a developer's point-of-view.",
+      "imageUrl": "./795ee26af6ea568da17e555a33ca1199fe1ac2a448be7388ba6cacf2b92c9244.png",
+      "featured": true
+    },
+    {
+      "title": "JavaScript optimization tips",
+      "url": "https://sendilkumarn.com/blog/javascript-optimization/",
+      "description": "Some useful tips and tricks that will help you to write more efficient JavaScript code. For instance, do you know about SMI and heap numbers?!",
+      "imageUrl": "./97b688fad34cbaf64198caafa659c04eceaaf5dbdd947ada1f84c6a952ddbb3c.png",
+      "featured": false
+    },
+    {
+      "title": "React component code smells",
+      "url": "https://antongunnarsson.com/react-component-code-smells",
+      "description": "How do you write good React components? Well, the answer to this question might not be easy, but this article will at least show you a wide collection of things to avoid when writing React components. Those should help you to evaluate and improve your components!",
+      "imageUrl": "./f4f532fdec7c0f5d6dafb79a5da357bfdd2f875cc05539c962d49c972d97986a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Beginner’s Guide to Static Site Generators",
+      "url": "https://bejamas.io/blog/static-site-generators",
+      "description": "World of static sites has grown beyond HTML, CSS, and occasional JS, and much of it is owed to static site generators. This article shows an incredibly detailed walkthrough into the world of Static Site Generators and the JAMStack!",
+      "imageUrl": "./8e256b1624c8aa95b1e9a58ac186e6e5a26156e9bea671e96eef8ca1669624b2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Ruffle",
+      "url": "https://ruffle.rs/",
+      "description": "What happens when Rust and WebAssembly meet Flash Player? Well, when this happens Ruffle is born! A new Flash Player emulator written in the Rust programming language which aims to make flash-based web games still available on the web today!",
+      "imageUrl": "./9c1d77e3442674f108853e1c18c9505c465837b8c84102f9d98380939c65fd77.png",
+      "featured": false
+    },
+    {
+      "title": "3 amazing React Hooks to keep your code organized neatly",
+      "url": "https://dev.to/dglsparsons/3-amazing-react-hooks-to-keep-your-code-organized-neatly-ghe",
+      "description": "Have you ever used React hooks? If not, this article might be a great excuse to find out more about them and learn how they can help to make your code more expressive and organised.",
+      "imageUrl": "./a0ed3caca76efb6c6933a9b499f6d7605a618f5ce45f482d208e8653a627a177.jpg",
+      "featured": false
+    },
+    {
+      "title": "🦀 Rust for JS developers",
+      "url": "https://dev.to/codegram/rust-for-js-developers-1im9",
+      "description": "Are you a web developer with significant JavaScript experience and thinking to learn Rust? If that's the case, this article is for you: how to approach Rust coming from the web and JavaScript!",
+      "imageUrl": "./b9fc46987ebc209444583aa5cd6f2e39dd8aa6874f6731782790c86558c5120f.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Development with Node and Express: Leveraging the JavaScript Stack",
+    "author": "Ethan Brown",
+    "description": "Learn how to build dynamic web applications with Express, a key component of the Node/JavaScript development stack. In this hands-on guide, author Ethan Brown teaches you the fundamentals through the development of a fictional application that exposes a public website and a RESTful API. You’ll also learn web architecture best practices to help you build single-page, multi-page, and hybrid web apps with Express.",
+    "coverImageUrl": "./fa50d6bec7065a557f93ff1ccee308384e327bc7bdc62dab9513ef493759a11f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491949309/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491949309/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

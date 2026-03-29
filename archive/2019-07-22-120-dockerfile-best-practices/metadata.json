@@ -1,0 +1,75 @@
+{
+  "issueNumber": 120,
+  "title": "Dockerfile Best Practices",
+  "slug": "2019-07-22-120-dockerfile-best-practices",
+  "date": "2019-07-22",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #29, 2019",
+  "quote": {
+    "text": "Standards are always out of date.  That’s what makes them standards",
+    "author": "Alan Bennett",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Bennett"
+  },
+  "links": [
+    {
+      "title": "Dockerfile Best Practices",
+      "url": "https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices",
+      "description": "Not all Dockerfiles are created equally. Efficiency is critical, and this blog post will cover five areas for Dockerfile best practices to help you write better Dockerfiles: incremental build time, image size, maintainability, security and repeatability!",
+      "imageUrl": "./61400c5ebce3e2f4c13b9bda039a1d889db45c695c002669558ff25eed075ed6.jpg",
+      "featured": true
+    },
+    {
+      "title": "SHAPE UP",
+      "url": "https://basecamp.com/shapeup",
+      "description": "A free e-book on how to grow companies and keep delivering work that matters while keeping your organisation healthy and happy. A precious gem if you are transition to more managerial roles or even if you are leading a team as a developer.",
+      "imageUrl": "./7d4ad65930eab3e463d5b3a9771318e4d7a998ba7074866bfb9c07fc7eae2955.jpg",
+      "featured": false
+    },
+    {
+      "title": "Creating Pixel Art with CSS",
+      "url": "https://dev.to/jnschrag/creating-pixel-art-with-css-3451",
+      "description": "A step-by-step guide on creating pixel art using the `box-shadow` property in CSS.",
+      "imageUrl": "./2e603a701544726c20a7a4e2ddaaf6af3766c475dcd2aca0d37009aead13bcbf.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Future of Websites: Headless CMSs",
+      "url": "http://scotch.io/bar-talk/the-future-of-websites-headless-cmss",
+      "description": "Since their introduction, CMS have made life easier for developers, owners, and administrators alike. Platforms like WordPress, Joomla, and Drupal account for more than 60% of all web content platforms. The only problem is their relative lack of flexibility. This is mainly due to the fact that the front and back end functionalities are deeply coupled. But the new wave of Headless CMS is here to address this issue!",
+      "imageUrl": "./9c962979c5c4b19eb7c96494adde5f1aec4be004353a896aeb888c1608d2225b.jpg",
+      "featured": false
+    },
+    {
+      "title": "AWS Cloud Development Kit",
+      "url": "https://aws.amazon.com/blogs/aws/aws-cloud-development-kit-cdk-typescript-and-python-are-now-generally-available",
+      "description": "Managing your Infrastructure as Code provides great benefits and is often a stepping stone for a successful application of DevOps practices. In this way, instead of relying on manually performed steps, both administrators and developers can automate provisioning of compute, storage, network, etc. Cloud Development Kit (CDK) is a new way to write infrastructure as code that uses real code (E.g. Python or Typescript) to describe the infrastructure. Definitely worth checking if you are an AWS aficionado.",
+      "imageUrl": "./6d156567420d785f3e84fb563c2ba216dc56b622f451975aac35c7a4ac7e9753.jpg",
+      "featured": false
+    },
+    {
+      "title": "Let’s Build A Web Server. Part 1.",
+      "url": "https://ruslanspivak.com/lsbaws-part1",
+      "description": "To become a better developer you MUST get a better understanding of the underlying software systems you use on a daily basis and that includes programming languages, compilers and interpreters, databases and operating systems, web servers and web frameworks. And, to get a better and deeper understanding of those systems you MUST re-build them from scratch, brick by brick, wall by wall. Let's start with a web server here...",
+      "imageUrl": "./5863e52d2d643124732ecea0c71dc43d1945595f6c3594b0d4afa794ad53e86a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Build Better Component Libraries with Styled System",
+      "url": "https://medium.com/styled-components/build-better-component-libraries-with-styled-system-4951653d54ee",
+      "description": "This article explores four common problems generally found in non-mature component libraries and how `styled-system` can help solve them: second-class theming, inconsistent props, lack of component hierarchy and finally, lack of component extensibility.",
+      "imageUrl": "./f8fadcdc2f5109f7719e7c08ab513c706ab402d6e82343599335912716042657.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Irresistible APIs: Designing web APIs that developers will love",
+    "author": "Kirsten Hunter",
+    "description": "Well-designed APIs feel like a natural extension of the application, rather than just a new interface into the backend database. Designing Web APIs based on use cases allows an organization to develop irresistible APIs, which developers can consume easily and which support the business values of that organization.",
+    "coverImageUrl": "./30b0a33a50dce31e700a6e019b8e0d6136b4e6d656592cb23358dc5b945f4c2a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617292559/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617292559/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

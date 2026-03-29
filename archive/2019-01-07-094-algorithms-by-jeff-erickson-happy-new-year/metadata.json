@@ -1,0 +1,75 @@
+{
+  "issueNumber": 94,
+  "title": "Algorithms by Jeff Erickson - HAPPY NEW YEAR :)",
+  "slug": "2019-01-07-094-algorithms-by-jeff-erickson-happy-new-year",
+  "date": "2019-01-07",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #1, 2019\n\n\n\n**🎉 Happy New Year! 🎉**",
+  "quote": {
+    "text": "Technology is anything that wasn’t around when you were born",
+    "author": "Alan Kay",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Kay"
+  },
+  "links": [
+    {
+      "title": "Algorithms by Jeff Erickson",
+      "url": "http://jeffe.cs.illinois.edu/teaching/algorithms/",
+      "description": "This web page contains a free electronic version of the (soon to be) self-published textbook Algorithms by Jeff Erickson, along with other lecture notes written for various theoretical computer science classes at the University of Illinois, Urbana-Champaign since 1998.\n\n**A great FREE resource to start the new year and strengthen your algorithmic knowledge!**",
+      "imageUrl": "./35eef5d04bcb77f2952450fd919c53991cea7c064a9ec7aca8d2866b1379593b.png",
+      "featured": true
+    },
+    {
+      "title": "Why design systems fail, and how to make them work",
+      "url": "https://uxdesign.cc/why-design-systems-fail-and-how-to-make-them-work-6f6d812e216d",
+      "description": "Design systems are most often aimed at improving the bridge between the design and development of the product. They are useful, but hard to implement and get proper adoption. This article tells a real-life experience implementing a design system that eventually failed. **If you are implementing a design system, this article might save you from making some common mistakes.**",
+      "imageUrl": "./534d89435696de670bcb299b7e356803ea78b22abeb8250f8594c31560b87390.jpg",
+      "featured": false
+    },
+    {
+      "title": "Converting a Python library to Rust",
+      "url": "https://alantrick.ca/writings/programming/python_to_rust",
+      "description": "The story of a rewrite of a Python project in Rust. The rewrite took a fair bit longer than expected, but the results were good (about 9 times faster). **If you are exploring Rust, coming from Python or other scripting languages, this is a great resource for you.**",
+      "imageUrl": "./f3c2ef0f891c26c31e78d63c2991b275d2c5c8ef8e1e9b0d1ce5d14c20db28fc.png",
+      "featured": false
+    },
+    {
+      "title": "Error Handling in AWS Lambda With Wrappers",
+      "url": "https://epsagon.com/blog/enforce-consistent-error-handling-in-aws-lambda-with-wrappers",
+      "description": "This post revisits the idea of middlewares, their role in application development with AWS Lambda, and how we can use middlewares.",
+      "imageUrl": "./d6a33c06f1f6df18110d1f2bd11352f216c191486266f8ba21fcc6a908ca4d3c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Exploiting the Math.expm1 typing bug in V8",
+      "url": "https://abiondo.me/2019/01/02/exploiting-math-expm1-v8",
+      "description": "Minus zero behaves like zero, right? Not always... well not in V8, Chrome’s JavaScript engine. A bug caused incorrect typing during static analysis, producing incorrect optimizations in just-in-time compiled code. An interesting story of how this bug can be used for an OOB code execution.",
+      "imageUrl": "./9521c827f582b574f0ad97d9f050fb4993ac98edbe90ef675c1a19d15d8f0e05.png",
+      "featured": false
+    },
+    {
+      "title": "PostgreSQL in 2018",
+      "url": "https://www.percona.com/blog/2018/12/31/great-things-that-happened-with-postgresql-in-the-year-2018/",
+      "description": "In this blog post, we’ll look back at what’s been going on in the world of PostgreSQL in 2018, which is now ranked as the 4th most popular database in the World!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Background Sync with Service Workers",
+      "url": "https://davidwalsh.name/background-sync",
+      "description": "Offline-supported applications are a necessity, and including a service worker is a great start. However, service workers alone will only get someone part of the way to a truly seamless online-to-offline experience. Caching assets is great, but without an internet connection you still can't access new data or send any requests.\n\n**The \"Background Sync\" API can help us to build applications that will synchronize changes back to the server as soon as the connectivity is re-established.**",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Algorithms to live by",
+    "author": "Brian Christian and Tom Griffiths",
+    "description": "A fascinating exploration of how computer algorithms can be applied to our everyday lives, helping to solve common decision-making problems and illuminate the workings of the human mindAll our lives are constrained by limited space and time, limits that give rise to a particular set of problems. What should we do, or leave undone, in a day or a lifetime? How much messiness should we accept? What balance of new activities and familiar favourites is the most fulfilling?",
+    "coverImageUrl": "./24438c07b3bd2a14108cd79d826105f246b331801bf6b194abd1244f7b8e66af.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0008166099/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0008166099/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

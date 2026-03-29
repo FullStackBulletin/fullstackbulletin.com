@@ -1,0 +1,547 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en"
+      >
+    <head>
+        
+        
+
+
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Language" content="en">
+<meta name="google" content="notranslate" />
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+<meta name="generator" content="Buttondown" />
+<link rel="webmention" href="https://buttondown.com/webmentions/register">
+
+    <meta name="theme-color" content="#06b6d4" />
+    
+
+
+    <link rel="shortcut icon" href="54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+    <link rel="apple-touch-icon" href="54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+        
+    
+
+
+
+
+    <title>A deep dive into the latest Cloudflare’s outage — FullStack Bulletin #439 • Buttondown</title>
+
+
+    
+<meta name="description" content="Diving into real-world bugs, decoding brilliant engineering feats, and nerding out over UTF-8 and queue delivery!" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+<meta name="twitter:site" content="@buttondown" />
+<meta name="twitter:title" content="A deep dive into the latest Cloudflare’s outage — FullStack Bulletin #439" />
+<meta name="twitter:description" content="Diving into real-world bugs, decoding brilliant engineering feats, and nerding out over UTF-8 and queue delivery!" />
+
+    
+        <link rel="alternate"
+              type="application/rss+xml"
+              title="RSS Feed for A deep dive into the latest Cloudflare’s outage — FullStack Bulletin #439"
+              href="/fullstackbulletin/rss" />
+    
+
+<link rel="me" href="https://fullstackbulletin.com" />
+
+    <link rel="sitemap"
+          type="application/xml"
+          title="Sitemap"
+          href="/fullstackbulletin/sitemap.xml" />
+
+<meta property="og:title" content="A deep dive into the latest Cloudflare’s outage — FullStack Bulletin #439" />
+<meta property="og:description" content="Diving into real-world bugs, decoding brilliant engineering feats, and nerding out over UTF-8 and queue delivery!" />
+<meta property="og:type" content="website" />
+
+    <meta name="twitter:image" content="https://image-generator.buttondown.email/api/emphasize-subject?subject=A%20deep%20dive%20into%20the%20latest%20Cloudflare%E2%80%99s%20outage%20%E2%80%94%20FullStack%20Bulletin%20%23439&amp;author=FullStack%20Bulletin&amp;date=2025-09-22&amp;img=https%3A//assets.buttondown.email/images/54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+    <meta property="og:image" content="https://image-generator.buttondown.email/api/emphasize-subject?subject=A%20deep%20dive%20into%20the%20latest%20Cloudflare%E2%80%99s%20outage%20%E2%80%94%20FullStack%20Bulletin%20%23439&amp;author=FullStack%20Bulletin&amp;date=2025-09-22&amp;img=https%3A//assets.buttondown.email/images/54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+
+
+    
+    <meta property="og:url" content="https://buttondown.com/fullstackbulletin/archive/439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage/" />
+    <link rel="alternate"
+          type="application/json+oembed"
+          href="https://buttondown.com/embed?url=https://buttondown.com/fullstackbulletin/archive/439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage/"
+          title="A deep dive into the latest Cloudflare’s outage — FullStack Bulletin #439 / oEmbed" />
+
+<link rel="canonical" href="https://buttondown.com/fullstackbulletin/archive/439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "url": "https://buttondown.com/fullstackbulletin/archive/439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage/", "mainEntityOfPage": "https://buttondown.com/fullstackbulletin/archive/439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage/", "headline": "A deep dive into the latest Cloudflare\u2019s outage \u2014 FullStack Bulletin #439", "description": "Diving into real-world bugs, decoding brilliant engineering feats, and nerding out over UTF-8 and queue delivery!", "image": [], "datePublished": "2025-09-22T17:00:00+00:00", "dateModified": "2025-09-22T17:00:06.504475+00:00", "isAccessibleForFree": true, "author": [{"@type": "Person", "name": "FullStack Bulletin", "url": "https://buttondown.com/fullstackbulletin", "identifier": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": {"@type": "ImageObject", "contentUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "thumbnailUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png"}}], "publisher": {"@type": "Organization", "name": "FullStack Bulletin", "url": "https://buttondown.com/fullstackbulletin", "description": "FullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.", "identifier": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": {"@type": "ImageObject", "contentUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "thumbnailUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png"}}}</script>
+
+
+        
+        
+        <script type="module" crossorigin="" src="https://static-assets.buttondown.com/subscriber_facing_fonts-DU3ilTNG.js"></script>
+<link href="https://static-assets.buttondown.com/preload-helper-HIQHktoD.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/_sentry-release-injection-file-DRmiww3Y.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+        
+        
+            <link rel="stylesheet" href="https://static-assets.buttondown.com/subscriber_facing_modern_css-CaffE7Di.css">
+        
+        
+        <style>
+            :root {
+                --tint-color: #06b6d4;
+                
+                    
+                
+            }
+        </style>
+        
+            <script nonce="pK41IVdIRKdX6UBqG3ykSA">
+                var VARIANT = "archive_page";
+                
+                
+            </script>
+        
+        
+            <style>article img {
+  max-width: 100%;
+}</style>
+        
+    </head>
+    <body class="route--email">
+        
+
+
+
+        <div class="app-container">
+            <div class="header-navigation-container">
+                <div class="header-navigation">
+                    
+                        <img class="header-brand-icon"
+                             src="54ba1d29-fdc4-4e32-9470-dd844c9be037.png"
+                             alt="FullStack Bulletin logo"
+                             width="24"
+                             height="24" />
+                    
+                    <div class="header-navigation-content">
+                        <h1>
+                            <a class="header-brand" href="https://buttondown.com/fullstackbulletin">
+                                <span class="header-brand-name">FullStack Bulletin</span>
+                            </a>
+                        </h1>
+                        <button class="header-navigation-toggle"
+                                type="button"
+                                aria-label="Toggle navigation menu"
+                                aria-expanded="false">
+                            <svg class="header-navigation-toggle-icon"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <line x1="3" y1="6" x2="21" y2="6"></line>
+    <line x1="3" y1="12" x2="21" y2="12"></line>
+    <line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+                            <svg class="header-navigation-toggle-icon header-navigation-toggle-icon--close"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line>
+    <line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+                        </button>
+                        <div class="header-navigation-overlay" aria-hidden="true"></div>
+                        <nav class="header-navigation-nav" aria-expanded="false">
+                            <div class="header-navigation-nav-handle"></div>
+                            
+                                <a class="header-navigation-link"
+                                   href="/fullstackbulletin/archive/">
+                                    <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" data-slot="icon" class="w-4 h-4">
+    <path d="M7.25 3.688a8.035 8.035 0 0 0-4.872-.523A.48.48 0 0 0 2 3.64v7.994c0 .345.342.588.679.512a6.02 6.02 0 0 1 4.571.81V3.688ZM8.75 12.956a6.02 6.02 0 0 1 4.571-.81c.337.075.679-.167.679-.512V3.64a.48.48 0 0 0-.378-.475 8.034 8.034 0 0 0-4.872.523v9.268Z" />
+</svg>
+
+                                    <div>Archives</div>
+                                </a>
+                            
+                            
+                            
+                            
+                            
+                                <button class="header-navigation-link archive-search-trigger"
+                                        type="button"
+                                        aria-label="Search...">
+                                    <svg width="16"
+     height="16"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="1.5"
+     xmlns="http://www.w3.org/2000/svg">
+    <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+    <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+</svg>
+
+                                    <div>Search...</div>
+                                </button>
+                            
+                            
+                            
+                                <button class="header-navigation-link header-navigation-link--subscribe subscribe-modal-trigger"
+                                        type="button">
+                                    <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" data-slot="icon" class="w-4 h-4">
+    <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+    <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+</svg>
+
+                                    <div>Subscribe</div>
+                                </button>
+                            
+                            
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+    
+
+
+    <div class="email-body-container">
+        <article class="email-body">
+            
+                
+
+
+    <date>
+    
+        September 22, 2025
+    
+    </date>
+
+<h1 class="subject">A deep dive into the latest Cloudflare’s outage — FullStack Bulletin #439</h1>
+<h2 class="description">Diving into real-world bugs, decoding brilliant engineering feats, and nerding out over UTF-8 and queue delivery!</h2>
+
+                
+
+
+<div class="email-body-content ">
+    
+        <p>Ciao, </p>
+<p>This week reminded me how easy it is for small bugs to scale into massive problems, and how the tiniest bit of clever engineering can completely flip your perspective.</p>
+<p>From Cloudflare's real-world <code>useEffect</code> drama, to Bun’s relentless pursuit of speed, to the question of whether S3 is about to eat vector databases for breakfast... this issue is packed with sharp lessons, curious experiments, and more than one “huh, that’s actually brilliant” moment.</p>
+<p>Also, a confession: I spent way too long nerding out over UTF-8 and queue delivery semantics. You’ve been warned.</p>
+<p>Happy reading and coding!<br/>
+— <a href="https://loige.co?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage" target="_blank">Luciano</a></p>
+<hr/>
+<blockquote>
+<p>"The use of COBOL cripples the mind; its teaching should therefore be regarded as a criminal offense"<br/>
+— <a href="https://en.wikipedia.org/wiki/E._W._Dijkstra?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage" target="_blank">E.W. Dijkstra</a>, Computer Scientist</p>
+</blockquote>
+<hr/>
+<p><a href="https://blog.cloudflare.com/deep-dive-into-cloudflares-sept-12-dashboard-and-api-outage?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=image" rel="noopener noreferrer" target="_blank"><img alt="A cartoon-style illustration showing three users, each using a laptop with the word &lt;code&gt;useEffect&lt;/code&gt; displayed on their screens. Red arrows emerge from each laptop, pointing toward a flaming Cloudflare logo on the right side, symbolizing an unintentional overload or DDoS. The background is a solid blue, and the illustration uses flat, vivid colors with bold outlines." draggable="false" src="https://assets.buttondown.email/images/12beac9d-00f7-4511-b200-c0df79f3f774.jpg?w=960&amp;fit=max"/></a></p>
+<p><a href="https://blog.cloudflare.com/deep-dive-into-cloudflares-sept-12-dashboard-and-api-outage?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank"><strong>A deep dive into the latest Cloudflare’s outage</strong></a> — React’s <code>useEffect</code> hook is well known for causing developers all sorts of headaches. It’s a useful and powerful API, but also easy to misuse. It hooks into the lifecycle of a React component and is often used to load data from a remote source when that component is mounted in the DOM. One of the confusing parts about <code>useEffect</code> is the dependency array. This array tells React when to re-run the effect. If you want the effect to <em>never</em> re-run, you MUST pass an <strong>empty</strong> array. But what if you leave it out entirely? Well, here’s the kicker: the effect will re-run <strong>on every single render</strong>. If your effect is fetching data from an API, this means you're potentially generating tons of unnecessary requests! Now imagine this mistake happening on a heavily used dashboard. Suddenly, you’ve unintentionally turned your well-meaning users into a distributed denial-of-service army! That’s exactly what happened to Cloudflare. A small frontend mistake, compounded at scale, created a serious production outage. Fair play to Cloudflare for fixing it fast and sharing the full story so openly. If you enjoy learning from real-world postmortems as much as I do, this one is well worth a read. <a href="https://blog.cloudflare.com/deep-dive-into-cloudflares-sept-12-dashboard-and-api-outage?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://bun.com/blog/behind-the-scenes-of-bun-install?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank"><strong>Behind The Scenes of Bun Install</strong></a> — Have you ever used different JavaScript package managers (npm, pnpm, yarn, bun) and noticed how some of them feel way faster than others, even when running on the exact same big project? That’s not a fluke. Some of them are consistently faster. Installing a complex graph of dependencies is no trivial task, and there are a lot of different ways to tackle it. Some are... fine. Others are blazing fast. And that’s exactly what the team at Bun is aiming for. In this deep technical dive, they break down the secret sauce behind bun install and how it’s become one of the fastest installers on the landscape. We’re talking low-level optimizations, parallelism, smart compression, even skipping the tar step entirely. It’s geeky in the best way. If you love detailed engineering breakdowns and want to understand what makes dev tools really fast, this one’s a treat. <a href="https://bun.com/blog/behind-the-scenes-of-bun-install?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://github.com/sindresorhus/trash?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank"><strong>Move files and directories to the trash</strong></a> — A quick mention for a lovely little JavaScript library I stumbled across last week: <code>trash</code>. It lets you move files to the system trash. Sounds simple enough that you wouldn’t need a library for it, right? Well... not quite. Turns out the trash bin is very OS-dependent, and if your app needs to work across macOS, Windows, and Linux, this library saves you from dealing with all the subtle differences. Clean API, cross-platform, and does exactly what it says. Take a peek at the code if you're curious how file deletion <em>should</em> be done properly. <a href="https://github.com/sindresorhus/trash?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=description" target="_blank"><strong>Check Repo</strong></a></p>
+<p><a href="https://lyra.horse/blog/2025/08/you-dont-need-js?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank"><strong>You no longer need JavaScript</strong></a> — Before you think I’ve turned against my beloved JavaScript... let me explain. This article isn’t calling for a total JS ban. It’s more of a thoughtful reflection on how much modern CSS can handle on its own. Things that used to need custom JavaScript are now possible with native CSS features. And that’s a win in my book. The more you can push into declarative styling, the better. JavaScript should be reserved for actual business logic, interactivity, and anything that truly needs code behind it. Everything else? CSS has it covered. A solid reminder that writing less JavaScript doesn't mean building less. <a href="https://lyra.horse/blog/2025/08/you-dont-need-js?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://iamvishnu.com/posts/utf8-is-brilliant-design?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank"><strong>UTF-8 is a Brilliant Design</strong></a> — Another one for the information nerds! And if you’ve been reading this newsletter for a while, you know I’m a sucker for anything that dives into emoji encoding and other text-related oddities. Well, here’s a great post that breaks down the brilliance behind UTF-8, the most common text encoding in use today. It explains why its design is so clever and why it’s still holding up decades later. If you’ve ever wondered why a single emoji might count as "2" or "7" characters (depending on who you ask... looking at you, JavaScript), this article clears things up. Also super useful if you’ve ever streamed Unicode text and ended up with the occasional garbled character. Chances are, you split a multi-byte character right down the middle! Fascinating stuff, and a great read if you enjoy peeking under the hood of how text actually works. <a href="https://iamvishnu.com/posts/utf8-is-brilliant-design?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://dbos.dev/blog/durable-queues?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank"><strong>How I solved a distributed queue problem after 15 years </strong></a> — If you ever needed a queue system to process background tasks (sending emails, generating reports, scaling images, etc), you’ve probably used an external service like Kafka, RabbitMQ, or a SaaS like SQS. Well, you can also host your own queues if you’re brave enough! This article explores how to build durable, crash-safe queues directly on top of a database transaction log. No external broker, no extra services, just smart engineering layered on top of Postgres. It also does a great job explaining why queueing systems are not as simple as they seem. You’ll learn about different delivery guarantees (like at-most-once, at-least-once, and exactly-once), why they matter, and what it takes to get them right. While I think I’ll still prefer using SQS for the foreseeable future, this read felt like a love letter to simplicity, reliability, and the kind of backend architecture that quietly does the job right. <a href="https://dbos.dev/blog/durable-queues?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://zilliz.com/blog/will-amazon-s3-vectors-kill-vector-databases-or-save-them?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank"><strong>Will Amazon S3 Vectors Kill Vector Databases—or Save Them?</strong></a> — Last week I was working on a blog and adding a “related articles” feature. I had this moment: <em>Blimey, that’s a perfect use case for vector databases!</em> Then I remembered <a href="https://awsfundamentals.com/blog/building-related-posts-with-bedrock-knowledgebase-and-s3-vectors?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=text" target="_blank">an article</a> I’d read recently showing exactly that—using AWS S3’s new vector indexing features to power related content. Super clever stuff. So when I came across this new post, it had my full attention. The author digs into a big question: will S3’s built-in vector storage and indexing kill the rising market of vector databases... or actually boost it? If you’ve been following the whole vector DB hype and wondering where it’s headed, this is a thoughtful take that’s absolutely worth a read. <a href="https://zilliz.com/blog/will-amazon-s3-vectors-kill-vector-databases-or-save-them?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<hr/>
+<h1>📕 Book of the week!</h1>
+<p><a href="https://www.amazon.com/dp/1942788339?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage" target="_blank"><strong>Accelerate: The Science of Lean Software and DevOps</strong>, by Nicole Forsgren  PhD, Jez Humble, and Gene Kim</a></p>
+<p><a href="https://www.amazon.com/dp/1942788339?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage" target="_blank"><img alt="Accelerate: The Science of Lean Software and DevOps" class="newsletter-image" src="accelerate-1-nicole-forsgren-phd-jez-humble-gene-kim.jpg"/></a></p>
+<p><strong>How can we apply technology to drive real business value?</strong></p>
+<p>For years, we’ve been told that the performance of software delivery teams doesn’t matter — that it can’t provide a true competitive advantage. This book sets out to prove otherwise.</p>
+<p>Based on four years of groundbreaking research (including data from the <em>State of DevOps</em> reports by Puppet), Dr. Nicole Forsgren, Jez Humble, and Gene Kim used rigorous statistical methods to answer two big questions:</p>
+<ul>
+<li>How can we measure software delivery performance?</li>
+<li>What actually drives it?</li>
+</ul>
+<h3>🧪 What’s Inside</h3>
+<ul>
+<li>A data-driven look at what makes high-performing teams successful  </li>
+<li>Clear metrics to measure software delivery performance  </li>
+<li>Evidence-backed capabilities that drive improvement  </li>
+<li>The science behind the findings, explained for practical use</li>
+</ul>
+<h3>👥 Who Should Read This?</h3>
+<p>This book is ideal for <strong>engineering managers, tech leads, executives</strong>, and anyone looking to understand how software delivery impacts business success.</p>
+<p>It’s not just theory. It’s actionable insight you can bring into your team today.</p>
+<p><a href="https://www.amazon.com/dp/1942788339?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage" target="_blank"><strong>Buy on Amazon.com</strong></a> - <a href="https://www.amazon.co.uk/dp/1942788339?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage" target="_blank"><strong>Buy on Amazon.co.uk</strong></a></p>
+<hr/>
+<h3>More content to expand your horizons! 🌅</h3>
+<ul>
+<li><a href="https://reactsquad.io/blog/how-to-set-up-express-5-in-2025?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank">How To Set Up Express 5 For Production In 2025</a></li>
+<li><a href="https://allan.reyes.sh/posts/keeping-secrets-out-of-logs?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank">Keeping Secrets Out of Logs</a></li>
+<li><a href="https://cekrem.github.io/posts/the-discipline-of-constraints-elm-usereducer-lessons?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank">The Discipline of Constraints: What Elm Taught Me About React's <code>useReducer</code></a></li>
+<li><a href="https://playfulprogramming.com/posts/seo-nextjs-guide?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank">Quick SEO Guidelines for Your Next.js App</a></li>
+<li><a href="https://zachleat.com/web/stable-scrollbar-gutters?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank">A tiny bit-o-CSS for Stable Scrollbar Gutters</a></li>
+<li><a href="https://jakearchibald.com/2025/fetch-streams-not-for-progress?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank">Fetch streams are great, but not for measuring upload/download progress</a></li>
+<li><a href="https://awsbites.com/149-headless-cms-on-aws?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-439&amp;utm_content=title" target="_blank">Strapi: Headless CMS on AWS (AWS Bites Podcast)</a></li>
+</ul>
+<hr/>
+<h2>Journey's end reached! 🏁</h2>
+<p>Journey's end! Whether you're buzzing with excitement or have constructive feedback, reply and keep the conversation going! 🗣️</p>
+    
+</div>
+
+
+                
+
+
+
+                
+
+
+                <div class="card-container">
+                    <div class="card-container-header">
+                        
+                            Don't miss what's next. Subscribe to FullStack Bulletin:
+                        
+                    </div>
+                    
+<div id="subscribe-form">
+    <div class="card subscription-form-fallback">
+        <form method="post"
+              action="/api/emails/embed-subscribe/fullstackbulletin">
+            
+            <label for="sfi-email" class="sr-only">Email address (required)</label>
+            <input id="sfi-email"
+                   name="email"
+                   required=""
+                   type="email"
+                   placeholder="Your email (you@example.com)"
+                   autocomplete="email" />
+            <button class="button tinted blue" id="submit" type="submit">
+                <div style="flex: 1 1 0%; text-align: center;">Subscribe</div>
+            </button>
+        </form>
+    </div>
+</div>
+<script id="newsletter" type="application/json">{"absolute_url": "https://buttondown.com/fullstackbulletin", "account": "c0c89dde-4f8d-4f6b-bb46-917fb74d7239", "address": "", "archive_navigation_links": [], "archive_redirect_url": "", "archive_theme": "modern", "automatically_remind_unconfirmed_subscribers": true, "autonomy_fields": [], "bluesky_username": null, "body_template": "", "buysellads_url": null, "cached_analytics_data": {"open_rate": 40.93, "retention": 57.446808510638306, "click_rate": 6.33, "created_subscribers": 2699.0}, "css": "body {\n  width: 100% !important;\n  max-width: 600px !important;\n  display: block;\n  margin: 0 auto;\n  box-sizing: border-box;\n  border: 1em solid transparent;\n}\n\nimg {\n  max-width: 100%;\n}\n\n", "theme_configuration": {}, "custom_archive_template": "", "custom_archives_template": "", "custom_email_template": "", "custom_expired_trial_notification_body": "", "custom_expired_trial_notification_subject": "", "custom_expired_trial_notification_template": null, "custom_gift_subscription_email_body": "", "custom_gift_subscription_email_subject": "", "custom_gift_subscription_email_template": null, "custom_preamble": "", "custom_premium_confirmation_email_body": "", "custom_premium_confirmation_email_subject": "", "custom_premium_confirmation_email_template": null, "custom_subscription_confirmation_email_subject": "", "custom_subscription_confirmation_email_template": null, "custom_subscription_confirmation_email_text": "", "custom_subscription_confirmation_reminder_email_subject": "", "custom_subscription_confirmation_reminder_email_template": null, "custom_subscription_confirmation_reminder_email_text": "", "custom_subscription_confirmed_email_subject": "", "custom_subscription_confirmed_email_template": null, "custom_subscription_confirmed_email_text": "", "default_behavior_for_subscriber_imports": "append", "description": "\u003C!-- buttondown-editor-mode: fancy --\u003E\u003Cp\u003EFullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.\u003C/p\u003E", "disablement_reason": null, "domain": "archive.fullstackbulletin.com", "email_address": "luciano@fullstackbulletin.com", "email_domain": "fullstackbulletin.com", "enabled_features": ["comments", "portal", "referrals", "archives", "automations", "tags", "api", "metadata", "css"], "effective_locale": "en-US", "fathom_code": null, "fathom_subscribe_code": null, "footer": "", "from_name": "FullStack Bulletin", "google_tag_manager_code": null, "h2_redirect_url": "", "header": "", "hidden_settings": [], "icon": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "id": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": "", "indexing_mode": "enabled", "is_archive_searchable": true, "is_custom_archive_template_enabled": false, "is_custom_archives_template_enabled": false, "is_paid_subscription_free_trials_enabled": false, "is_sponsorship_enabled": false, "is_using_plausible": false, "locale": "en", "memberful_username": null, "meta_pixel_id": null, "metadata": {}, "metadata_keys": {"email": ["id"], "subscriber": ["first_name", "last_name", "name"]}, "name": "FullStack Bulletin", "paid_subscription_free_trial_duration": 0, "paid_subscriptions_status": "inactive", "prices": [], "publicly_visible_analytics": ["confirmed_subscribers"], "reddit_code": null, "reply_to_address": "", "seline_code": null, "sharing_networks": ["linkedin", "twitter", "reddit", "hacker_news", "mastodon", "bluesky"], "shopify_url": null, "should_add_utm_sources": true, "should_be_private": false, "should_disable_non_premium_subscriptions": false, "should_expose_rss": true, "should_hide_issue_numbers": false, "should_hide_social_media": false, "should_immediately_show_payment_element": false, "should_noindex_archive_page": false, "should_noindex_subscribe_page": false, "should_require_double_optin": true, "should_send_latest_email_to_new_subscribers": false, "should_send_subscription_confirmation_email": true, "simple_analytics_enabled": false, "tinylytics_code": null, "socials": [{"url": "https://fullstackbulletin.com", "type": "generic", "label": null}], "sponsorship_text": null, "status": "active", "stripe_account": "", "subscription_button_text": "", "subscription_confirmation_redirect_url": "", "subscription_form_text": "", "subscription_redirect_url": "", "template": "classic", "thank_you_text": "", "tint_color": "#06b6d4", "timezone": "Europe/Dublin", "umami_website_id": null, "unsubscription_reasons": [], "upgrade_text": "", "username": "fullstackbulletin", "web_css": "article img {\n  max-width: 100%;\n}", "web_footer": "", "web_header": ""}</script>
+<script id="subscriber_facing_authentication" type="application/json">{"status": "unauthenticated", "email_address": null, "account_id": null, "subscribers": []}</script>
+
+    <script id="referring_subscriber_id" type="application/json">null</script>
+
+<script id="referer" type="application/json">""</script>
+
+<script nonce="pK41IVdIRKdX6UBqG3ykSA">
+    var NEWSLETTER = JSON.parse(document.getElementById('newsletter').textContent);
+    var SUBSCRIBER_FACING_AUTHENTICATION = JSON.parse(document.getElementById('subscriber_facing_authentication').textContent);
+    var REFERRING_SUBSCRIBER_ID = JSON.parse(document.getElementById('referring_subscriber_id').textContent);
+    
+    var STRIPE_LIVE_PUBLIC_KEY = null;
+    
+
+    var TINT_COLOR = NEWSLETTER.tint_color || '#0069FF';
+    document.documentElement.style.setProperty("--tint-color", TINT_COLOR);
+    var referer = JSON.parse(document.getElementById('referer').textContent);
+    var account = null;
+
+    
+    var VARIANT = "archive_page";
+    
+</script>
+
+                    
+                        
+                            
+                        
+                    
+                </div>
+                
+
+
+  
+    <section class="card-container" aria-labelledby="comments-heading">
+      
+      <div class="archive__comments-container">
+        
+        <div id="comment-form" class="archive__comment-form-wrapper">
+          <h4 class="card-container-header">Add a comment:</h4>
+          <form method="post" action="comment" class="comment-input card">
+            <input type="hidden" name="csrfmiddlewaretoken" value="hkunSutCtc4T0uBcJEACmJUwMRDpEc58lEdiiWPLG737v6sTv0Sxh6JyNGHyxAxR">
+            
+              
+
+
+
+<fieldset class="comment-input__fields">
+    <div class="comment-input__field comment-input__field--textarea">
+        <textarea id="body" name="body" class="comment-input__textarea" placeholder="What do you think?"></textarea>
+    </div>
+
+    <input type="hidden" name="email" value="117b7c41-7bcb-4c2f-a5e8-c92fa144a146">
+    <input type="hidden" name="parent" value="">
+
+    <div class="comment-input__field comment-input__user-info">
+        
+            <input type="text" name="name" class="comment-input__input" placeholder="Your name"
+                value="">
+        
+
+        
+            <input type="email" id="email_address" name="email_address" class="comment-input__input" placeholder="Your email address"
+                value="">
+        
+    </div>
+</fieldset>
+
+<div class="comment-input__actions">
+    
+        <button type="submit" class="archive__button">
+            
+                Comment and Subscribe
+            
+        </button>
+    
+</div> 
+            
+          </form>
+        </div>
+      </div>
+    </section>
+  
+
+
+                <div class="card-container">
+                    
+
+
+    
+        
+            <div class="card-container">
+                <div class="card-container-header">Share this email:</div>
+                <div class="archive__social-share-link-container">
+                    
+                        
+                        
+                            <a href="https://twitter.com/intent/tweet?text=A%20deep%20dive%20into%20the%20latest%20Cloudflare%E2%80%99s%20outage%20%E2%80%94%20FullStack%20Bulletin%20%23439&url=https%3A//buttondown.com/fullstackbulletin/archive/439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Twitter
+                            </a>
+                        
+                        
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//buttondown.com/fullstackbulletin/archive/439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on LinkedIn
+                            </a>
+                        
+                        
+                            <a href="https://share.bingo/hn?url=https%3A//buttondown.com/fullstackbulletin/archive/439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Hacker News
+                            </a>
+                        
+                        
+                        
+                            <a href="https://share.bingo/reddit?url=https%3A//buttondown.com/fullstackbulletin/archive/439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Reddit
+                            </a>
+                        
+                        
+                        
+                            <a href="https://toot.kytta.dev/?text=A%20deep%20dive%20into%20the%20latest%20Cloudflare%E2%80%99s%20outage%20%E2%80%94%20FullStack%20Bulletin%20%23439%0A%0Ahttps%3A//buttondown.com/fullstackbulletin/archive/439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Mastodon
+                            </a>
+                        
+                        
+                            <a href="https://share.bingo/bluesky?url=https%3A//buttondown.com/fullstackbulletin/archive/439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Bluesky
+                            </a>
+                        
+                    
+                </div>
+            </div>
+        
+    
+
+
+                </div>
+            
+        </article>
+    </div>
+
+        </div>
+        
+
+        
+            <div class="footer">
+                
+                    
+
+
+<div class="social-networks archive__social-links-inner">
+    
+        <div class="archive__social-links-item">
+            <a href="https://fullstackbulletin.com" class="archive__social-links-link"><img width='16' height='16' src='favicons.png' alt='fullstackbulletin.com' /></a>
+        </div>
+    
+</div>
+
+                
+                
+                    <div>Powered by <a href="https://buttondown.com/refer/fullstackbulletin">Buttondown</a>, the easiest way to start and grow your newsletter.</div>
+                
+            </div>
+        
+        
+            <div id="archive-search-modal-container"
+                 data-archive-url="/fullstackbulletin/archive/"
+                 data-placeholder="Search..."
+                 data-title="Search..."
+                 data-search-param="q"
+                 data-username="fullstackbulletin"></div>
+        
+        <script id="newsletter" type="application/json">{"absolute_url": "https://buttondown.com/fullstackbulletin", "account": "c0c89dde-4f8d-4f6b-bb46-917fb74d7239", "address": "", "archive_navigation_links": [], "archive_redirect_url": "", "archive_theme": "modern", "automatically_remind_unconfirmed_subscribers": true, "autonomy_fields": [], "bluesky_username": null, "body_template": "", "buysellads_url": null, "cached_analytics_data": {"open_rate": 40.93, "retention": 57.446808510638306, "click_rate": 6.33, "created_subscribers": 2699.0}, "css": "body {\n  width: 100% !important;\n  max-width: 600px !important;\n  display: block;\n  margin: 0 auto;\n  box-sizing: border-box;\n  border: 1em solid transparent;\n}\n\nimg {\n  max-width: 100%;\n}\n\n", "theme_configuration": {}, "custom_archive_template": "", "custom_archives_template": "", "custom_email_template": "", "custom_expired_trial_notification_body": "", "custom_expired_trial_notification_subject": "", "custom_expired_trial_notification_template": null, "custom_gift_subscription_email_body": "", "custom_gift_subscription_email_subject": "", "custom_gift_subscription_email_template": null, "custom_preamble": "", "custom_premium_confirmation_email_body": "", "custom_premium_confirmation_email_subject": "", "custom_premium_confirmation_email_template": null, "custom_subscription_confirmation_email_subject": "", "custom_subscription_confirmation_email_template": null, "custom_subscription_confirmation_email_text": "", "custom_subscription_confirmation_reminder_email_subject": "", "custom_subscription_confirmation_reminder_email_template": null, "custom_subscription_confirmation_reminder_email_text": "", "custom_subscription_confirmed_email_subject": "", "custom_subscription_confirmed_email_template": null, "custom_subscription_confirmed_email_text": "", "default_behavior_for_subscriber_imports": "append", "description": "\u003C!-- buttondown-editor-mode: fancy --\u003E\u003Cp\u003EFullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.\u003C/p\u003E", "disablement_reason": null, "domain": "archive.fullstackbulletin.com", "email_address": "luciano@fullstackbulletin.com", "email_domain": "fullstackbulletin.com", "enabled_features": ["comments", "portal", "referrals", "archives", "automations", "tags", "api", "metadata", "css"], "effective_locale": "en-US", "fathom_code": null, "fathom_subscribe_code": null, "footer": "", "from_name": "FullStack Bulletin", "google_tag_manager_code": null, "h2_redirect_url": "", "header": "", "hidden_settings": [], "icon": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "id": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": "", "indexing_mode": "enabled", "is_archive_searchable": true, "is_custom_archive_template_enabled": false, "is_custom_archives_template_enabled": false, "is_paid_subscription_free_trials_enabled": false, "is_sponsorship_enabled": false, "is_using_plausible": false, "locale": "en", "memberful_username": null, "meta_pixel_id": null, "metadata": {}, "metadata_keys": {"email": ["id"], "subscriber": ["first_name", "last_name", "name"]}, "name": "FullStack Bulletin", "paid_subscription_free_trial_duration": 0, "paid_subscriptions_status": "inactive", "prices": [], "publicly_visible_analytics": ["confirmed_subscribers"], "reddit_code": null, "reply_to_address": "", "seline_code": null, "sharing_networks": ["linkedin", "twitter", "reddit", "hacker_news", "mastodon", "bluesky"], "shopify_url": null, "should_add_utm_sources": true, "should_be_private": false, "should_disable_non_premium_subscriptions": false, "should_expose_rss": true, "should_hide_issue_numbers": false, "should_hide_social_media": false, "should_immediately_show_payment_element": false, "should_noindex_archive_page": false, "should_noindex_subscribe_page": false, "should_require_double_optin": true, "should_send_latest_email_to_new_subscribers": false, "should_send_subscription_confirmation_email": true, "simple_analytics_enabled": false, "tinylytics_code": null, "socials": [{"url": "https://fullstackbulletin.com", "type": "generic", "label": null}], "sponsorship_text": null, "status": "active", "stripe_account": "", "subscription_button_text": "", "subscription_confirmation_redirect_url": "", "subscription_form_text": "", "subscription_redirect_url": "", "template": "classic", "thank_you_text": "", "tint_color": "#06b6d4", "timezone": "Europe/Dublin", "umami_website_id": null, "unsubscription_reasons": [], "upgrade_text": "", "username": "fullstackbulletin", "web_css": "article img {\n  max-width: 100%;\n}", "web_footer": "", "web_header": ""}</script>
+        
+            <script id="subscriber_facing_authentication" type="application/json">{"status": "unauthenticated", "email_address": null, "account_id": null, "subscribers": []}</script>
+        
+        
+        <div id="subscriber-facing-app"></div>
+        <link  rel="stylesheet" href="https://static-assets.buttondown.com/event-listener-C4a0MggJ.css" />
+<link  rel="stylesheet" href="https://static-assets.buttondown.com/subscriber_facing_app-CMddTf0D.css" />
+<script type="module" crossorigin="" src="https://static-assets.buttondown.com/subscriber_facing_app-DIYFgv7W.js"></script>
+<link href="https://static-assets.buttondown.com/modulepreload-polyfill-C5-T9T-W.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/vueQueryPlugin-BD6xQQsM.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/event-listener-5QAwhQxM.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/_sentry-release-injection-file-DRmiww3Y.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/preload-helper-HIQHktoD.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/PendingIndicator.vue_vue_type_script_setup_true_lang-9IrbzFdh.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+        
+    </body>
+</html>

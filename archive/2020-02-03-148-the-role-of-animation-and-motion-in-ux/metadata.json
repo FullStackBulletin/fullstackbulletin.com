@@ -1,0 +1,75 @@
+{
+  "issueNumber": 148,
+  "title": "The Role of Animation and Motion in UX",
+  "slug": "2020-02-03-148-the-role-of-animation-and-motion-in-ux",
+  "date": "2020-02-03",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #5, 2020",
+  "quote": {
+    "text": "It has become appallingly obvious that our technology has exceeded our humanity",
+    "author": "Albert Einstein",
+    "authorTitle": "Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "links": [
+    {
+      "title": "The Role of Animation and Motion in UX",
+      "url": "https://nngroup.com/articles/animation-purpose-ux",
+      "description": "Animation in UX must be unobtrusive, brief, and subtle. Use it for feedback, state-change and navigation metaphors, and to enhance signifiers.",
+      "imageUrl": "./c1c79e16a46c6caac311aa3aaa8fa46ce3db1df5bfc93a358a51a6c3aa414fe5.jpg",
+      "featured": true
+    },
+    {
+      "title": "Understanding the “Initial”, “Inherit” and “Unset” CSS Keywords",
+      "url": "https://medium.com/@elad/understanding-the-initial-inherit-and-unset-css-keywords-2d70b7121695",
+      "description": "CSS has default keywords for various values. This article talks about three of them: \"initial\", \"inherit\", and the relatively new \"unset\".",
+      "imageUrl": "./3e365e3facf0980c6ea0c8521ac5aec0fb00314634dcf5675d3df62f7f6ddcb1.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript Quizzes",
+      "url": "https://quiz.typeofnan.dev/",
+      "description": "Learn JavaScript fundamentals through fun and challenging quizzes!",
+      "imageUrl": "./75a66e6e37a9c576108dad2cd097fca06aa8fdb89e6d6b2ced52eff42cd0408a.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Burnout List",
+      "url": "https://frankchimero.com/blog/2020/burnout-list",
+      "description": "How do you know if you are currently going through burnout in your life? These days, and in our line of work, burnout seems to be more frequent than ever. This article provide some great insights on 11 of the most common reasons for burnout.",
+      "imageUrl": "./233e741e6eb61294f45da5111c5a7ca1f603fa759581e973e2bc6e4b2fd83c5f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Understanding CSS Grid: Grid Lines",
+      "url": "https://smashingmagazine.com/2020/01/understanding-css-grid-lines",
+      "description": "In a new series, Rachel Andrew breaks down the CSS Grid Layout specification. This time, we take a look at how to use the grid lines to place items.",
+      "imageUrl": "./e6104b9354db59222aa73eea9a01565e780f9b5c07313d687b3f1ecaa4c2b273.jpg",
+      "featured": false
+    },
+    {
+      "title": "TypeScript's Secret Parallel Universe",
+      "url": "https://dev.to/loilo/typescript-s-secret-parallel-universe-54i6",
+      "description": "How TypeScript handles name clashes between types and variables",
+      "imageUrl": "./47fbf746b1cc6f115e3625875cb87cf8bd5c450435ca85d4a60e69271c0bad9a.jpg",
+      "featured": false
+    },
+    {
+      "title": "4 CSS responsive layouts without using media queries",
+      "url": "https://polypane.app/blog/4-css-layouts-without-using-media-queries",
+      "description": "Do you always need media queries to make a website responsive? With flexbox and grid you can make responsive layouts without having to use media queries!",
+      "imageUrl": "./aab9aac62b9a3412ea635ebf3ff6c1b90126f7d9521e92b57a294d62744ffeeb.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "PHP and MySQL Web Development (5th Edition) (Developer's Library)",
+    "author": "Luke Welling",
+    "description": "PHP and MySQL are popular open-source technologies that are ideal for quickly developing database-driven Web applications. PHP is a powerful scripting language designed to enable developers to create highly featured Web applications quickly, and MySQL is a fast, reliable database that integrates well with PHP and is suited for dynamic Internet-based applications",
+    "coverImageUrl": "./215552defe4b9e1ca9846aa5b85f2a20bdf3752b7580570be5a6d3bda1582bfa.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321833899/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321833899/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

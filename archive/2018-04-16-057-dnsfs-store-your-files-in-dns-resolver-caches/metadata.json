@@ -1,0 +1,75 @@
+{
+  "issueNumber": 57,
+  "title": "DNSFS. Store your files in DNS resolver caches",
+  "slug": "2018-04-16-057-dnsfs-store-your-files-in-dns-resolver-caches",
+  "date": "2018-04-16",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #15, 2018",
+  "quote": {
+    "text": "This is the whole point of technology.  It creates an appetite for immortality on the one hand.  It threatens universal extinction on the other. Technology is lust removed from nature",
+    "author": "Don DeLillo",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Don_DeLillo"
+  },
+  "links": [
+    {
+      "title": "DNSFS. Store your files in DNS resolver caches",
+      "url": "https://blog.benjojo.co.uk/post/dns-filesystem-true-cloud-storage-dnsfs",
+      "description": "Knowing how DNS resolvers actually work, you can use them to your advantage and create a distributed file system on top of them. \"This is the quintessence of cloud computing\" some might say. Here delivered to you in the form of an extremely detailed article.",
+      "imageUrl": "./fcf596288f8b38522d0c895beffbe91b1e7e494afabc5dd94f2b5d8087258c4e.png",
+      "featured": true
+    },
+    {
+      "title": "23 Best React UI Component Libraries And Frameworks",
+      "url": "https://hackernoon.com/23-best-react-ui-component-libraries-and-frameworks-250a81b2ac42",
+      "description": "23 best React UI component libraries and frameworks to build your next app!",
+      "imageUrl": "./340c9380615322e13a2fcd882b3c21b18c832e51ef23e9722822205112b14d43.jpg",
+      "featured": false
+    },
+    {
+      "title": "Node.js can HTTP/2 push!",
+      "url": "https://medium.com/the-node-js-collection/node-js-can-http-2-push-b491894e1bb1",
+      "description": "Since introducing HTTP/2 into Node.js 8 in July of 2017, the implementation has undergone several rounds of improvements. Now we’re almost ready to lift the “experimental” flag. It’s best to try out HTTP/2 support with Node.js version 9, which has all the latest fixes and improvements.",
+      "imageUrl": "./ba36fe7ad25669b50df38a557cc5476e080bd605de58f108f891731095b335ba.png",
+      "featured": false
+    },
+    {
+      "title": "Really Good Emails",
+      "url": "https://explore.reallygoodemails.com/new-to-email-coding-heres-where-to-start-2494422f0bd4",
+      "description": "An article that is gonna teach all the tips and tricks to learn how to write code to produce really high-quality e-mails.",
+      "imageUrl": "./152e60f6e389e75eb172d2501276343eee671f8484c4a1f854cb26514f7296bb.jpg",
+      "featured": false
+    },
+    {
+      "title": "Linux filesystems: ext4 and beyond",
+      "url": "https://opensource.com/article/18/4/ext4-filesystem",
+      "description": "The majority of modern Linux distributions default to the ext4 filesystem, just as previous Linux distributions defaulted to ext3, ext2, and—if you go back far enough—ext. If you're new to Linux—or to filesystems—you might wonder what ext4 brings to the table that ext3 didn't. You might also wonder …",
+      "imageUrl": "./0a201e7e8bc75503b6033682ef26ae57d3af9d2b8fbafa8b5d996594eadabf88.jpg",
+      "featured": false
+    },
+    {
+      "title": "Exciting New Features React 16.3",
+      "url": "http://scotch.io/bar-talk/exciting-new-features-react-163-bye-componentwillreceiveprops-hello-new-context-api",
+      "description": "Finally, React 16.3 is out! We've all been anxiously waiting for this new React update, well, I definitely have. Maybe you are wondering what's all the hype about? No worries I got you. In this article I highlight the exciting new features that are part of this release. Note: I will not include a",
+      "imageUrl": "./3bf90c1ff09b326c032c1ab938ca66b3956c6610069bb702131bb5e3d1747f9c.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Comprehensive Beginner’s Guide to JavaScript Geolocation Tracking",
+      "url": "https://hackernoon.com/the-comprehensive-beginners-guide-to-javascript-geolocation-tracking-11f7a1bba400",
+      "description": "Combining the Google Maps JavaScript API and PubNub for realtime tracking of device location (with the bells and whistles)",
+      "imageUrl": "./22c22109b38126145626c75e5dd3ea4ed01a804ecfa2db44a83cd878cdbad9aa.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Reactive Programming with RxJava: Creating Asynchronous, Event-Based Applications",
+    "author": "Tomasz Nurkiewicz",
+    "description": "In today’s app-driven era, when programs are asynchronous and responsiveness is so vital, reactive programming can help you write code that’s more reliable, easier to scale, and better-performing. With this practical book, Java developers will first learn how to view problems in the reactive way, and then build programs that leverage the best features of this exciting new programming paradigm.",
+    "coverImageUrl": "./bfc89b612724cc827df12cd74bfda688fa86774c756e46d104dc6fce54b5ba7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491931655/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491931655/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

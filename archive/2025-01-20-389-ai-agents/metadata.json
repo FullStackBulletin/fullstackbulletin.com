@@ -1,0 +1,104 @@
+{
+  "issueNumber": 408,
+  "title": "AI Agents",
+  "slug": "2025-01-20-389-ai-agents",
+  "date": "2025-01-20",
+  "templateType": "mce-mailchimp",
+  "intro": "Ciao, \nThis week is a big one for me! I'm excited to share that I'll be attending and speaking at [Coderful](https://www.coderful.io/), an amazing Italian conference for Full-Stack devs. What makes it extra special? It's happening in the beautiful [Catania](https://en.wikipedia.org/wiki/Catania), the city where I was born, and after years of public speaking, this will be my first talk in my city! Wish me luck... I might need it! 😉\n\nI’ll be diving into **Static APIs**, a way of developing APIs that I still feel is wildly underutilized. It's definitely not a silver bullet, and it does come with some constraints, but when those constraints are manageable, the benefits are huge. As always, I'll be sharing the slides after the talk, so stay tuned.\n\nIn other news, while preparing for Coderful, I created a Notion template to consolidate my tech talk ideas and streamline my slide creation process. I figured it could help other tech speakers, so I turned it into [a free Notion template](https://www.notion.com/templates/prepare-a-tech-talk). Feel free to grab it, and if you find it useful, please let me know and share it with your friends and colleagues!\n\nNow, let's dive into some awesome full-stack content, and let's keep ourselves inspired!\n\nYour editor,\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Standards are always out of date. That's what makes them standards“",
+    "author": "Alan Bennett",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Bennett"
+  },
+  "links": [
+    {
+      "title": "AI Agents",
+      "url": "https://huyenchip.com/2025/01/07/agents.html",
+      "description": "You're probably hearing everyone talking about AI Agents, but what the heck are those? I admit, I've been a bit confused myself, and this article was a great resource to clarify my confusion. I suspect that in the future, our role as full-stack devs will require us to create APIs and websites that can easily integrate with the work of AI Agents, so this is a very relevant topic for 2025 and the years to come! [Chip Huyen](https://x.com/chipro)'s latest post dissects the inner workings of AI agents, revealing how they leverage tools and planning to tackle complex tasks. Forget passive models – this piece explores the active, autonomous world of agentic applications, offering insights into tool selection, planning strategies, and even the critical failure modes you need to watch out for. If you're looking to build the next generation of intelligent applications, this is a must-read to understand the fundamentals.",
+      "imageUrl": "./55d1d65394095fa667898757e8500401c438301d4b14275221fdda68190c8dc2.png",
+      "featured": true
+    },
+    {
+      "title": "Bash has hashmaps",
+      "url": "https://xeiaso.net/notes/2024/bash-hashmap",
+      "description": "I have to admit, I kinda hate bash as a language. Although I totally recognize its value, every time I want to do something with it, I feel stuck. But this is probably because I never spent enough time properly learning the ins and outs of the language. So, last week I was hoping to learn a bit more, and I bumped into this interesting and well-written article. Turns out, bash has hashmaps! This article dives into how you can use associative arrays to manage key-value data directly in your scripts. If you've ever found yourself wrestling with complex bash logic and needing a better way to store mappings, this is a surprisingly helpful resource.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "CSS text-box-trim",
+      "url": "https://developer.chrome.com/blog/css-text-box-trim",
+      "description": "CSS is becoming more and more powerful, and text styling is one of those areas where there are still lots of improvements that can happen. Recently, we got `text-box-trim`, a new CSS property that lets developers and designers tailor the space above and below text. Curious? Let's discover together what kinds of cool effects you can design with it!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Learn Yjs",
+      "url": "https://learn.yjs.dev/",
+      "description": "Ever dreamed of building those super cool, interactive multiplayer web experiences? Imagine creating a browser-based card game where everyone's actions sync in real-time! This Learn Yjs tutorial series is your gateway to making that dream a reality. It introduces Yjs, a library that lets you build collaborative apps with ease. This very page is a live demo of its power! You can see other people's cursors moving around, and you can actually interact with it and change things for everyone else! This resource will teach you the fundamentals of Yjs, what CRDTs are, and how to handle state in distributed systems. Though still a work in progress, there are already enough chapters to get you started, with interactive demos and code exercises that will give you a feel for how Yjs really works.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A simple trick to understand Ruby’s lazy enumerator",
+      "url": "https://joyofrails.com/articles/simple-trick-to-understand-ruby-lazy-enumerator",
+      "description": "Streams and lazy iterators are a favorite of mine, and though I'm not a Ruby expert, this article clearly explained lazy enumerators vs. eager ones. It's a concept you can apply to any language for more performant, scalable code. The article uses a cool interactive demo to show how Ruby's `Enumerator::Lazy` avoids unnecessary work. If you want to optimize your code or handle big data, this is a great read, no matter what language you use.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Why does Cloudflare Pages have such a generous Free tier?",
+      "url": "https://mattsayar.com/why-does-cloudflare-pages-have-such-a-generous-free-tier",
+      "description": "Static websites are one of my favorite topics in web development, and as I prepare a talk on static sites and APIs, this article came up during my research. It's a super interesting take on understanding how CDNs work, what the main players in this space are, and how their pricing models and features compare. Why does Cloudflare Pages offer unlimited bandwidth? This piece dives into that question, exploring the strategic reasons behind Cloudflare’s generous free tier for static sites, while also comparing its offering with GitHub Pages, Netlify, and more. If you're looking for a cheap place to host your next static site, or just want to understand how these platforms operate, this is a great read.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "React's experimental animations API",
+      "url": "https://motion.dev/blog/reacts-experimental-view-transition-api",
+      "description": "After 12 years, React gets its own animation API! This article explores the new `<ViewTransition/>` component, enabling powerful view animations using the browser's API. You'll learn how to use it in React/Next.js, the difference between view and layout animations, and how it fits into the render cycle. A major leap for React devs wanting a native solution! If you care about fluid, modern web apps, this is a must-read to see what's coming.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "SQL Pocket Guide: A Guide to SQL Usage",
+    "author": "Alice Zhao",
+    "description": "If you use SQL in your day-to-day work as a data analyst, data scientist, or data engineer, this popular pocket guide is your ideal on-the-job reference. You'll find many examples that address the language's complexities, along with key aspects of SQL used in Microsoft SQL Server, MySQL, Oracle Database, PostgreSQL, and SQLite. In this updated edition, author Alice Zhao describes how these database management systems implement SQL syntax for both querying and making changes to a database. You'll find details on data types and conversions, regular expression syntax, window functions, pivoting and unpivoting, and more.",
+    "coverImageUrl": "./737b4ea5f199894518ccb4d5a72083943c6abad8e16ee1c49fd03408b8bb7d21.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492090409?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492090409?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Levels of Defensiveness",
+      "url": "https://marcgg.com/blog/2025/01/06/levels-of-defensiveness"
+    },
+    {
+      "title": "A couple CSS tricks for HTML Dialog elements",
+      "url": "https://cassidoo.co/post/css-for-dialogs"
+    },
+    {
+      "title": "Implementing Streaming SSR with React Relay and Vite",
+      "url": "http://aqora.io/blog/AEJsb2dBcnRpY2xlAZRgyH4wdeKfFHS0yil0Fw/implementing-streaming-ssr-with-react-relay-and-vite"
+    },
+    {
+      "title": "The future of htmx",
+      "url": "https://htmx.org/essays/future"
+    },
+    {
+      "title": "What is DevOps?",
+      "url": "https://octopus.com/devops"
+    },
+    {
+      "title": "Progressive Forms with React 19",
+      "url": "https://rdrn.me/react-forms"
+    },
+    {
+      "title": "You Might Not Have A Web Performance Problem",
+      "url": "https://debugbear.com/blog/poor-performance-score-good-performance"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,104 @@
+{
+  "issueNumber": 354,
+  "title": "Announcing Vue 3.4",
+  "slug": "2024-01-08-339-announcing-vue-3-4",
+  "date": "2024-01-08",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*! this issue #354 🫣\n\nI don't have much to say on this issue, except that I spent last week working with a copywriter on refining the messaging of the [Node.js Design Patterns website](https://www.nodejsdesignpatterns.com/). It turns out we needed a massive rewrite. Apparently, we don't know how to sell stuff online. 😇 Lesson learned: if you sell online, reach out to a copywriter.\n\nBut if you don't care about this kind of stuff, let's jump in some cool full-stack content!\n\nI hope you'll enjoy this issue! Have a great one ❤️",
+  "quote": {
+    "text": "Within a computer natural language is unnatural“",
+    "author": "Alan Perlis",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Perlis"
+  },
+  "links": [
+    {
+      "title": "Announcing Vue 3.4",
+      "url": "https://blog.vuejs.org/posts/vue-3-4",
+      "description": "Vue.js version 3.4 just came out at the very end of last year and it's an exciting release. Not just for the nickname \"**Slam Dunk**\" but because it comes with some very interesting features and performance improvements. If you are into Vue or considering starting to use Vue, you should check out the official announcement.",
+      "imageUrl": "./fcc72fe263dcaccf21e4ac1efb5bd192e8b134396806c320e9a70a26521d42ef.jpg",
+      "featured": true
+    },
+    {
+      "title": "React Server Components: the Good, the Bad, and the Ugly",
+      "url": "https://mayank.co/blog/react-server-components",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "10 Interview Questions Every JavaScript Developer Should Know in 2024",
+      "url": "https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-in-2024-c1044bcb0dfb",
+      "description": "If you put \"Change Job\" in your list of goals for 2024 then you might really enjoy this article presenting some interesting questions that might come up in a JavaScript interview.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "2023 JavaScript Rising Stars",
+      "url": "https://risingstars.js.org/2023/en",
+      "description": "A complete overview of the JavaScript landscape in 2023: trends about frontend, fullstack and Node.js frameworks, React and Vue.js ecosystems, build tools, state management...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Rebirth of the UX Unicorn?",
+      "url": "https://jakobnielsenphd.substack.com/p/ux-unicorn",
+      "description": "UX professionals who are good at all steps of the UX lifecycle, including both research and design, are called “UX unicorns” because they are rare. But AI narrows skill gaps and may create many more UX unicorns. Does this mean UX is going to get better? Are we already rasing the bar?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Anchor Positioning",
+      "url": "https://12daysofweb.dev/2023/anchor-positioning",
+      "description": "Anchor Positioning is an incoming dynamic addition to enhance the capabilities of CSS positioning. Why is this cool? In this article you can find several examples of what this spec makes possible and it's like something I'd like to have today!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Avoid These 6 Common React useState Hook Mistakes",
+      "url": "https://blog.akshaykaushik.eu.org/common-mistakes-when-using-react-usestate-hook",
+      "description": "If you are s a React developer, you're probably familiar with the `useState` hook. It's a powerful tool that allows you to add state to your functional components. However, it's easy to make mistakes when using it. This article explores some of the most common mistakes and how to avoid them.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Symfony",
+    "author": "Sohail Salehi",
+    "description": "In this book, you will learn some lesser known aspects of development with Symfony, and you will see how to use Symfony as a framework to create reliable and effective applications. You might have developed some impressive PHP libraries in other projects, but what is the point when your library is tied to one particular project? With Symfony, you can turn your code into a service and reuse it in other projects.",
+    "coverImageUrl": "./d8bd967503d4ad357e4fca70c6900b2da278b7cd54f0417d9683194425c0bcbf.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1784390313/?tag=fullstackbulletin-20",
+    "amazonUk": null
+  },
+  "additionalLinks": [
+    {
+      "title": "More Than You Need to Know About ReactDOM.flushSync",
+      "url": "https://julesblom.com/writing/flushsync"
+    },
+    {
+      "title": "AI for Web Devs: AI Image Generation",
+      "url": "https://austingil.com/ai-for-web-devs-image-generation"
+    },
+    {
+      "title": "Digging through Chrome traces: an introduction with an example",
+      "url": "https://calendar.perfplanet.com/2023/digging-chrome-traces-introduction-example"
+    },
+    {
+      "title": "A checklist for CLS scenarios",
+      "url": "https://calendar.perfplanet.com/2023/a-checklist-for-cls-scenarios"
+    },
+    {
+      "title": "Introduction to HTMX",
+      "url": "https://refine.dev/blog/what-is-htmx"
+    },
+    {
+      "title": "What the heck is a homomorphic mapped type?",
+      "url": "https://andreasimonecosta.dev/posts/what-the-heck-is-a-homomorphic-mapped-type"
+    },
+    {
+      "title": "Making Sense Of “Senseless” JavaScript Features",
+      "url": "https://smashingmagazine.com/2023/12/making-sense-of-senseless-javascript-features"
+    }
+  ],
+  "sponsor": null
+}

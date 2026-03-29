@@ -1,0 +1,75 @@
+{
+  "issueNumber": 195,
+  "title": "Introducing Zero-Bundle-Size React Server Components",
+  "slug": "2021-01-04-195-introducing-zero-bundle-size-react-server-components",
+  "date": "2021-01-04",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #53, 2021",
+  "quote": {
+    "text": "It's supposed to be automatic, but actually you have to push this button",
+    "author": "John Brunner",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_Brunner"
+  },
+  "links": [
+    {
+      "title": "Introducing Zero-Bundle-Size React Server Components",
+      "url": "https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html",
+      "description": "The React team just shared their research into zero-bundle-size React Server Components. If you do any serious React, you should check out their announcement and the attached video.",
+      "imageUrl": "./b58c89ea6b40f1e8c0d982280e9da17525ca428388d587d0e21024c8fca50cd1.png",
+      "featured": true
+    },
+    {
+      "title": "HTML Over The Wire",
+      "url": "https://hotwire.dev/",
+      "description": "Hotwire is an alternative approach to building modern web applications without using much JavaScript by sending HTML instead of JSON over the wire.",
+      "imageUrl": "./0e703d95fa6b5d3a34dcba332124282a4763f218e65fc5f678b6962b42a66dbb.png",
+      "featured": false
+    },
+    {
+      "title": "AnimXYZ",
+      "url": "https://animxyz.com/",
+      "description": "AnimXYZ is a framework-agnostic library that allows you to build composable CSS animations!",
+      "imageUrl": "./1d160698c98ff193d72a38e7acabe17d0b990e38a1b994ca6b45c7e8cf99920a.png",
+      "featured": false
+    },
+    {
+      "title": "How Do Computers Remember?",
+      "url": "https://youtube.com/watch?v=I0-izyq6q5s",
+      "description": "A very engaging video that explores some of the basics of computer memory: latches, flip flops, and registers.",
+      "imageUrl": "./e6177efb1c6b0255116b17dd73300729d67e4c54792e12707429f981a76bc5f2.jpg",
+      "featured": false
+    },
+    {
+      "title": "API pagination design",
+      "url": "https://solovyov.net/blog/2020/api-pagination-design",
+      "description": "Returning all results for a given query could be a challenge for an API, especially if there are thousands of results. This article explores few options about how you might go implementing a pagination for such an API.",
+      "imageUrl": "./23cce807b86fd1f38bf668937defd8416fa73da20a164d0131d41ba8a42494fd.png",
+      "featured": false
+    },
+    {
+      "title": "Here Lies Flash",
+      "url": "https://mikeindustries.com/blog/archive/2020/12/here-lies-flash",
+      "description": "On December 31, 2020 Flash was officially decommissioned... We just said our final goodbyes to one of the most important internet technologies that ever lived... What happens now?",
+      "imageUrl": "./ab17834c88c400cac9cdd3935917f06edcd5b8210e0b789ec0d7a03188db5846.png",
+      "featured": false
+    },
+    {
+      "title": "How to Favicon in 2021: Six files that fit most needs",
+      "url": "https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs",
+      "description": "Prefer SVG over PNG, trust browsers to downscale, drop obscure formats—the ultimate, exhaustive guide to favicons for modern web. Includes steps for static HTML and Wepback!",
+      "imageUrl": "./1db1ccc6f9825cb1cd3e933c9e59335f4116993cbc3070c76f7d44c529b6e750.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Laravel: Up and Running: A Framework for Building Modern PHP Apps",
+    "author": "Matt Stauffer",
+    "description": "What sets Laravel apart from other PHP web frameworks? Speed and simplicity, for starters. This rapid application development framework and its vast ecosystem of tools let you quickly build new sites and applications with clean, readable code. With this practical guide, Matt Stauffer -a leading teacher and developer in the Laravel community- provides the definitive introduction to one of today's most popular web frameworks. The book's high-level overview and concrete examples will help experienced PHP web developers get started with Laravel right away.",
+    "coverImageUrl": "./244d94ae8a7a30f1f37a9bf6173d81b66dc1261d49ec40f0c2aa199dd474ab8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491936088/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491936088/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

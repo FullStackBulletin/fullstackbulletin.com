@@ -1,0 +1,75 @@
+{
+  "issueNumber": 152,
+  "title": "Levels of Seniority",
+  "slug": "2020-03-02-152-levels-of-seniority",
+  "date": "2020-03-02",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #9, 2020",
+  "quote": {
+    "text": "I think that novels that leave out technology misrepresent life as badly as Victorians misrepresented life by leaving out sex",
+    "author": "Kurt Vonnegut",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Kurt_Vonnegut"
+  },
+  "links": [
+    {
+      "title": "Levels of Seniority",
+      "url": "https://roadmap.sh/",
+      "description": "Understanding our level of seniority and how it compares to the market is never easy. This website can help us to understand more about our current seniority and offers a number of community-driven roadmaps to help us move to the next stage of our career!",
+      "imageUrl": "./ed89b5fd9c874ebe9eebcf96aadb05ace46676ac37470a023bdb3642f95804cf.jpg",
+      "featured": true
+    },
+    {
+      "title": "Understanding the Node.js event loop",
+      "url": "https://dev.to/lunaticmonk/understanding-the-node-js-event-loop-phases-and-how-it-executes-the-javascript-code-1j9",
+      "description": "Node.js event loop is one of those things that most people heard about but they don't really know how it actually works. If you are writing Node.js code, it is important to understand in-depth the inner working of the event loop and this article will help you to crack the lid and find out all the necessary details.",
+      "imageUrl": "./12860b2374730b259d5698452b2580c883d4920208cfeeae3f91386ad2b06486.jpg",
+      "featured": false
+    },
+    {
+      "title": "Introduction to A*",
+      "url": "https://redblobgames.com/pathfinding/a-star/introduction.html",
+      "description": "Did you ever play point-and-click games? Did you ever wonder how in these games the players can find their path to walk to the destination point? This beautifully interactive article illustrates the most famous algorithms used for pathfinding: A*, Dijkstra's Algorithm, and others.",
+      "imageUrl": "./8d3c579b99784dfac85321e6932710dd65ad88d153f8f171ff2c7e1a4358533a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Micromodal",
+      "url": "https://micromodal.now.sh/",
+      "description": "Micromodal enables you to create accessible modal dialogs with minimal configuration. At just 1.9kb minified and gzipped, its a tiny library for big change.",
+      "imageUrl": "./86184e050641e90ba883be0c4ac2fc0721fad73be220479b805e0dbf59a1d718.jpg",
+      "featured": false
+    },
+    {
+      "title": "Learning Rust With Entirely Too Many Linked Lists",
+      "url": "https://rust-unofficial.github.io/too-many-lists",
+      "description": "Rust seems to be the next big language, not just for system programming but also for fullstack development. But, yeah, it's harder than the scripting languages we are used to. This series of articles manages to explore many concepts of the language by iterating over different implementation of a linked list.",
+      "imageUrl": "./2bece2f7b2f9abf4e3e1af19e212c843a66e0b58bca09302278db0e4a64844f7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Aborting a fetch request",
+      "url": "https://meetguns.com/",
+      "description": "What happens when you launch an HTTP request and halfway there you don't need it anymore? The AbortController and Fetch allow you to build HTTP requests that can be cancelled in flight. This article will give you few interesting examples!",
+      "imageUrl": "./7fbb2474cff768d69a80b6fa208bbbf6c3bc74001812df95150fb7a19a365b5b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Challenges with distributed systems",
+      "url": "https://aws.amazon.com/builders-library/challenges-with-distributed-systems",
+      "description": "Introducing properties of distributed systems that make them so challenging, including non-determinism and testing.",
+      "imageUrl": "./6433214a6c5ce72c96b52fda445febc477ec7cde8d1a8a4ff503d3f0f651f110.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "RESTful Web APIs: Services for a Changing World",
+    "author": "Leonard Richardson",
+    "description": "The popularity of REST in recent years has led to tremendous growth in almost-RESTful APIs that don’t include many of the architecture’s benefits. With this practical guide, you’ll learn what it takes to design usable REST APIs that evolve over time.",
+    "coverImageUrl": "./9c4219f67796409cdc3651baaeb21d2190a783120c0f90db3533777479bc62a9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358063/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449358063/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

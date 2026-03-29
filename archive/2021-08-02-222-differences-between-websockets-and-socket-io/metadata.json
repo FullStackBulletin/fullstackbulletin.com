@@ -1,0 +1,75 @@
+{
+  "issueNumber": 222,
+  "title": "Differences between WebSockets and Socket.IO",
+  "slug": "2021-08-02-222-differences-between-websockets-and-socket-io",
+  "date": "2021-08-02",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "To iterate is human, to recurse divine",
+    "author": "L. Peter Deutsch",
+    "authorTitle": "Software developer and Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/L._Peter_Deutsch"
+  },
+  "links": [
+    {
+      "title": "Differences between WebSockets and Socket.IO",
+      "url": "https://www.youtube.com/watch?v=YIRXIe_bZok%3Futm_source%3Dfullstackbulletin.com",
+      "description": "In this video, we're going to see the differences between WebSockets and Socket.io. Which one will you choose for your next project?",
+      "imageUrl": "./9d8709dedacd40fc70e3586a9da69da86360bba84a686c3747b785c2c17a1d28.png",
+      "featured": true
+    },
+    {
+      "title": "The Future Of The Web",
+      "url": "https://hazem.cool/blog/the-future-of-the-web",
+      "description": "The web as we know it is changing, it's turning from being static, single-player, and centralized to being  immersive, multi-player, and decentralized.",
+      "imageUrl": "./d0d5d74dbfba4ffc7dfe7d3d3feceec1a17d5ae3c81e0f0e9861b5897227b856.jpg",
+      "featured": false
+    },
+    {
+      "title": "How To Migrate From WordPress To A Headless CMS",
+      "url": "https://smashingmagazine.com/2021/07/wordpress-headless-cms-storyblok",
+      "description": "In this article, we will look at when it makes sense to migrate from a monolithic project to a headless setup and the benefits that come with it. Do you want to find out how to migrate a WordPress website to Storyblok Headless CMS?",
+      "imageUrl": "./6ffaa151cd21135aed3234ae2f7e6ce359af3227d699e09af7d28cb354cb854a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Inserting 130M SQLite Rows per Minute... from a Scripting Language!",
+      "url": "https://blog.metaobject.com/2021/07/inserting-130m-sqlite-rows-per.html",
+      "description": "A very interesting performance optimisation use case. Even if you don't need this level of write speed for you next project, this article will definitely teach you a bunch of interesting optimisation tricks that you could re-use in a variety of other situations!",
+      "imageUrl": "./b739fa28c47069ffc3ae0da5dabe4d6c3e427c8b32b49132cae3b81370577bfe.jpg",
+      "featured": false
+    },
+    {
+      "title": "What use cases exist for async_hooks?",
+      "url": "https://nodejs.medium.com/what-use-cases-exist-for-async-hooks-6eab74d7eefd",
+      "description": "Have you ever heard of Async Hooks in Node.js? No? It's an API that has been introduced by the Diagnostic Working Group during the last few years to add some new interesting capabilities to the Node.js runtime. Let's see some use cases enabled by Async Hooks!",
+      "imageUrl": "./4653ab3eedd4c23fe9b57c31dae39665e436ab58d1ac8a488d26f491b5fc610c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Towards richer colors on the Web",
+      "url": "https://darker.ink/writings/Towards-richer-colors-on-the-Web",
+      "description": "Did you know that your color choices are somewhat limited when designing for the web? In this article you can find out more, but most importantly, you can understand how things are changing (for better) in the coming future!",
+      "imageUrl": "./a66c10b038d8550338015920a787c9183ce09994f5deeab26ef5b36075519789.png",
+      "featured": false
+    },
+    {
+      "title": "Integrating Eleventy with GitHub Flat Data",
+      "url": "https://raymondcamden.com/2021/07/14/integrating-eleventy-with-github-flat-data",
+      "description": "Did you know about the Flat Data feature of GitHub? It's a grea tway to keep some flat data files in sync with your repository. In this article you can learn more about them and explore a very interesting use case that uses this feature to rebuild a static website written with Eleventy!",
+      "imageUrl": "./9b9151230b2165264d8dc06d6d3d610c7e4af535e92b19d6714dfa93a8e433a0.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Symfony",
+    "author": "Sohail Salehi",
+    "description": "In this book, you will learn some lesser known aspects of development with Symfony, and you will see how to use Symfony as a framework to create reliable and effective applications. You might have developed some impressive PHP libraries in other projects, but what is the point when your library is tied to one particular project? With Symfony, you can turn your code into a service and reuse it in other projects.",
+    "coverImageUrl": "./d8bd967503d4ad357e4fca70c6900b2da278b7cd54f0417d9683194425c0bcbf.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1784390313/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1784390313/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

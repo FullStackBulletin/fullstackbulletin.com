@@ -1,0 +1,75 @@
+{
+  "issueNumber": 123,
+  "title": "Is High Quality Software Worth the Cost?",
+  "slug": "2019-08-12-123-is-high-quality-software-worth-the-cost",
+  "date": "2019-08-12",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #32, 2019",
+  "quote": {
+    "text": "Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway",
+    "author": "Andrew S. Tanenbaum",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum"
+  },
+  "links": [
+    {
+      "title": "Is High Quality Software Worth the Cost?",
+      "url": "https://martinfowler.com/articles/is-quality-worth-cost.html",
+      "description": "We usually perceive that it costs more to get higher quality, but software internal quality actually reduces costs.",
+      "imageUrl": "./a142e65736aa7058463208863d9c6b9792fc910b5f442aac80a628e232140808.jpg",
+      "featured": true
+    },
+    {
+      "title": "The Art Of Warez",
+      "url": "https://vimeo.com/341663153",
+      "description": "This is \"The Art Of Warez\" by Oliver Payne on Vimeo. This short documentary will take you back to the demos and ASCII art warez scene. A must-see if you remember what those were... and if you don't you definitely have a good excuse to find out.",
+      "imageUrl": "./d494af4ed562b627f34f01d4b930f2e79c1f947deb8f5f7870df4231273da815.jpg",
+      "featured": false
+    },
+    {
+      "title": "Native lazy-loading for the web",
+      "url": "https://web.dev/native-lazy-loading",
+      "description": "This post covers the loading attribute and how it can be used to control the loading of images and iframes.",
+      "imageUrl": "./81f36303ac2d0be2ecb6c552a5e2ee8d7e68d3192ab6d60d1fdbcf8d6da44ba9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Writing a Simple MVC App in Plain JavaScript",
+      "url": "https://taniarascia.com/javascript-mvc-todo-app",
+      "description": "A simple application written in plain JavaScript using the model-view-controller architectural pattern.",
+      "imageUrl": "./15623765243bb21d6fa57ebe1d11383946522af4f7d2ebd8f808d9883ccd224b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Avoid React Hooks Pitfalls",
+      "url": "https://kentcdodds.com/blog/react-hooks-pitfalls",
+      "description": "5 tips that will help you to discover some React hook gotchas and teach you how to avoid them.",
+      "imageUrl": "./6bff84bafb944e907842270f2e46c66592a0b9899e8cdcc9c7e18df50542056b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Paaatterns! for Free",
+      "url": "https://lstore.graphics/paaatterns",
+      "description": "Free collection of beautiful patterns for all vector formats. Really ideal if you are (re)designing a website and looking for inspiration or free patterns you can just drop into your design.",
+      "imageUrl": "./716c3031c3adfba69ada380d5edd447450718979727347848c7d2c2b9be735b2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Writing Modes And CSS Layout",
+      "url": "https://smashingmagazine.com/2019/08/writing-modes-layout",
+      "description": "An understanding of CSS Writing Modes is useful if you want to work with vertical scripts, or change writing mode for creative reasons. However, they also underpin our new layout methods, and those ideas are increasingly being applied across all of CSS.",
+      "imageUrl": "./9ef2a4a67296edda68eaa5719fa655e920ca936ab91af3928dda134f80938c30.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices",
+    "author": "Viktor Farcic",
+    "description": "This book is about different techniques that help us architect software in a better and more efficient way with microservices packed as immutable containers, tested and deployed continuously to servers that are automatically provisioned with configuration management tools. It's about fast, reliable and continuous deployments with zero-downtime and ability to roll-back. It's about scaling to any number of servers, design of self-healing systems capable of recuperation from both hardware and software failures and about centralized logging and monitoring of the cluster.",
+    "coverImageUrl": "./541c1dd09cac26ae06429687c2601da19e8cb4c7894063854cb3ae1c65eb6db9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/152391744X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/152391744X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

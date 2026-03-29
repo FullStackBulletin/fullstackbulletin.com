@@ -1,0 +1,75 @@
+{
+  "issueNumber": 35,
+  "title": "Sorting Algorithms Visualized",
+  "slug": "2017-11-13-035-sorting-algorithms-visualized",
+  "date": "2017-11-13",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #45, 2017",
+  "quote": {
+    "text": "Technology feeds on itself. Technology makes more technology possible",
+    "author": "Alvin Toffler",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alvin_Toffler"
+  },
+  "links": [
+    {
+      "title": "Sorting Algorithms Visualized",
+      "url": "https://imgur.com/gallery/voutF",
+      "description": "Visualization can greatly help you understand complex concepts. In this collection of animated visualization, you can quickly grasp how different sorting algorithms really work. Mindblowing!",
+      "imageUrl": "./f915bdb5a58097e6538ff5c3aad1c1f8d4147b64aabdde6f65087302bc2f93dd.jpg",
+      "featured": true
+    },
+    {
+      "title": "Angular 5 Now Available",
+      "url": "https://blog.angular.io/version-5-0-0-of-angular-now-available-37e414935ced",
+      "description": "\"Pentagonal-donut\" is the codename for this major release of Angular. It comes with a number of new features and bug fixes. Among the many changes:  some compiler improvements, build optimization by default, improved decorators support and internationalization utilities.",
+      "imageUrl": "./ff2a827b2f1460a3f79b642c24b6066bb23ebda61295da658b1939a6c71f1c75.jpg",
+      "featured": false
+    },
+    {
+      "title": "Want to know how Deep Learning works?",
+      "url": "https://medium.freecodecamp.org/want-to-know-how-deep-learning-works-heres-a-quick-guide-for-everyone-1aedeca88076",
+      "description": "A quick and simple guide suitable for every level of expertise to understand Artificial Intelligence (AI) and Machine Learning (ML), which undoubtedly are some of the hottest topics right now.",
+      "imageUrl": "./f261f6b6298ca67b9fa8314f23d6e0beb56ec165df00d450d2c0f3e380113c13.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why We Switched from Python to Go",
+      "url": "https://getstream.io/blog/switched-python-go",
+      "description": "Deciding on a programming language is always a difficult choice, learn why Stream switched from Python to Go as their language of choice.",
+      "imageUrl": "./84996845f9caf4e9dfde111e8abb68e290bb8aef30543f8aa48c5d5876944b5c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Flexbox and Grids, your layout’s best friends",
+      "url": "https://aerolab.co/blog/flexbox-grids",
+      "description": "CSS Flexbox and Grid layouts are not mutually exclusive. In this article, you will see how you can take advantage of the different features of the two systems and how to actually make them work together to design extremely flexible and variegated layouts.",
+      "imageUrl": "./3b97fb6436533f670c915d1fe677533a7caa42d34239173f3237c2394683ce1a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Fastify, fast and low overhead web framework for Node.js",
+      "url": "https://www.fastify.io/",
+      "description": "Fastify is a web framework highly focused on speed and low overhead. It is inspired from Hapi and Express and as far as we know, it is one of the fastest web frameworks in town. Use Fastify can increase your throughput up to 100%.",
+      "imageUrl": "./d13f8da7a965c8007917d0f5e5649a3217ddefbef02c3468a9f64cad94b70b2a.png",
+      "featured": false
+    },
+    {
+      "title": "The Comic Sans Index: What Kind of Fonts Do Americans Use?",
+      "url": "https://priceonomics.com/the-comic-sans-index-what-kind-of-fonts-do",
+      "description": "In this article, you will find an incredibly detailed analysis of the font usage patterns of Americans. Apparently, the original goal was to answer a very important question - who likes Comic Sans?",
+      "imageUrl": "./631d91a0dbc7be6444a507a2090527a0212c32bab26fc47276ae931c1129cf2d.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Node.js Design Patterns - Second Edition",
+    "author": "Mario Casciaro and Luciano Mammino",
+    "description": "Get the best out of Node.js by mastering  its most powerful components and patterns to create modular and scalable applications with ease. Create reusable patterns and modules by leveraging the new features of Node.js. Understand  the asynchronous single thread design of node and grasp all its features and patterns to take advantage of various functions. This unique guide will help you get the most out of Node.js and its ecosystem.",
+    "coverImageUrl": "./374eb1f17899892bde81fb2a441759d118834d10c4a0c7dbcac5aed5fa2cfa8f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785885588/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785885588/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

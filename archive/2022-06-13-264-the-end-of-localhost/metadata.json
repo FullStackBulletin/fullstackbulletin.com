@@ -1,0 +1,75 @@
+{
+  "issueNumber": 277,
+  "title": "The end of LocalHost",
+  "slug": "2022-06-13-264-the-end-of-localhost",
+  "date": "2022-06-13",
+  "templateType": "old-mailchimp",
+  "intro": "News: I started a new newsletter with the friends of Hulacorn where we share articles and some amazing resources about software engineering. [Check it out](https://hulacorn.ck.page/posts/welcome-to-hulacorn-4)!",
+  "quote": {
+    "text": "Good programmers use their brains, but good guidelines save us having to think out every case",
+    "author": null,
+    "authorTitle": "Author",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "The end of LocalHost",
+      "url": "https://dx.tips/the-end-of-localhost",
+      "description": "When building cloud application leveraging more and more SaaS services like Lambda, SQS, and DynamoDB we are faced with an interesting dilemma: **should we still try to develop locally or should we just embrace the cloud as a development environment?** This article offers an interesting take on this question!",
+      "imageUrl": "./989d07eb3c0ef42ea63c27117dc8bf27ce895901da71bf49d5ceb346a262e82a.png",
+      "featured": true
+    },
+    {
+      "title": "What do you need to know about IAM?",
+      "url": "https://awsbites.com/40-what-do-you-need-to-know-about-iam/",
+      "description": "Identity Access Management, also known as IAM, can be an intimidating service when getting started with AWS. But IAM is also one of those core services that you can’t really avoid. In this episode of AWS Bites we try to distill down everything that you need to know to understand IAM and start to use it proficiently.",
+      "imageUrl": "./699eac681d59c74c55cfcd06b02eaa5bd8ebec5b45c4c6219cd1d0659c2ab9ec.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Perfect Table of Contents With HTML + CSS",
+      "url": "https://css-tricks.com/a-perfect-table-of-contents-with-html-css",
+      "description": "A table of contents is easy to generate in word processing tools, but trickier to pull off in plain HTML and CSS. But I have an approach that works.",
+      "imageUrl": "./ca7f1d90b35b543e170ad5f571f455d8c1915455d67da8b20af2a594d7145cbd.jpg",
+      "featured": false
+    },
+    {
+      "title": "8 Shocking HTML tips you probably don't know about",
+      "url": "https://dev.to/babib/7-shocking-html-tips-you-probably-dont-know-about-ggd",
+      "description": "If JavaScript and CSS are becoming more and more powerful, you should not think that there isn't much innovation in the land of HTML. In this article you will find a collection of HTML tips that might blow your mind. Your probably didn't think HTML could be so powerful!",
+      "imageUrl": "./4be75c3ba2e05748649bb7e5c4e01d65eac331b3889e76a0cb11e516fec1321c.jpg",
+      "featured": false
+    },
+    {
+      "title": "What’s the best lossless image format? PNG, WebP, AVIF, and JPEG XL compared",
+      "url": "https://siipo.la/blog/whats-the-best-lossless-image-format-comparing-png-webp-avif-and-jpeg-xl",
+      "description": "In a blog post last year, I took a look at lossy image formats and how they stack up. This time, I thought it might be interesting to do a comparison of lossless image formats.",
+      "imageUrl": "./5fc2c21a92045ebb18e96d2cfc3967a3f7b353c79190f44739b0fbd33f22ac74.jpg",
+      "featured": false
+    },
+    {
+      "title": "Manage Accessible Design System Themes With CSS Color-Contrast()",
+      "url": "https://smashingmagazine.com/2022/05/accessible-design-system-themes-css-color-contrast",
+      "description": "From working with design handoffs to supporting custom themes in a design system, the CSS `color-contrast()` function can become a cornerstone for developers by enforcing accessible UIs.",
+      "imageUrl": "./cbeb8ed999ed826a7c850a346380ca25ce0b101a1315c71fea096cb1489e4dbf.jpg",
+      "featured": false
+    },
+    {
+      "title": "How we converted our Node.js library to Deno",
+      "url": "https://edgedb.com/blog/how-we-converted-our-node-js-library-to-deno-using-deno",
+      "description": "A general purpose methodology for converting a Node.js package to Deno.",
+      "imageUrl": "./fac780c8f815a6daa7dbbd10665c674c7ff0cd2f6028e032a1bb5afb03a0fdd4.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Getting Started with hapi.js",
+    "author": "John Brett",
+    "description": "This book will introduce hapi.js and walk you through the creation of your first working application using the out-of-the-box features hapi.js provides. Packed with real-world problems and examples, this book introduces some of the basic concepts of hapi.js and Node.js and takes you through the typical journey you'll face when developing an application. Starting with easier concepts such as routing requests, building APIs serving JSON, using templates to build websites and applications, and connecting databases, we then move on to more complex problems such as authentication, model validation, caching, and techniques for structuring your codebase to scale gracefully.",
+    "coverImageUrl": "./d31bcb4e84d816e5d5fcc91de57a73e2d10b8c811815001c4ed2997d6b526a79.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785888188/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785888188/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

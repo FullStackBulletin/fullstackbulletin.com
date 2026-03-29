@@ -1,0 +1,75 @@
+{
+  "issueNumber": 156,
+  "title": "GitHub OAuth Login with Node.js",
+  "slug": "2020-04-06-156-github-oauth-login-with-node-js",
+  "date": "2020-04-06",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #14, 2020",
+  "quote": {
+    "text": "Technology made large populations possible; large populations now make technology indispensable",
+    "author": "Joseph Krutch",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Krutch"
+  },
+  "links": [
+    {
+      "title": "GitHub OAuth Login with Node.js",
+      "url": "http://thecodebarbarian.com/github-oauth-login-with-node-js",
+      "description": "GitHub OAuth lets you build apps that take action on behalf of users. Here's how you can build your own basic GitHub OAuth app with GitHub login... from scratch, without any OAuth library!",
+      "imageUrl": "./8aae9628b73b6abaf22e6b9a9cdc4972e23e303fd62129d74b2610dd2944b553.png",
+      "featured": true
+    },
+    {
+      "title": "How to Improve Page Speed from Start to Finish",
+      "url": "https://ahrefs.com/blog/advanced-pagespeed-guide",
+      "description": "There are lots of tools to test page speed, and lots of different metrics to target. But do you understand how those optimizations work, or whether they’re actually going to make your website faster?",
+      "imageUrl": "./0010636c03dfbb3e8bff1a4907545b2721f39d8749442f74177dff45c0b46759.jpg",
+      "featured": false
+    },
+    {
+      "title": "Manage HTML DOM with vanilla JavaScript",
+      "url": "https://htmldom.dev/",
+      "description": "A great collection of ready-made snippets that can help you to manage HTML DOM with vanilla JavaScript, a.k.a \"no frameworks\"!",
+      "imageUrl": "./3254a7665d4c6d0a8c4ee4e05bb410cafd6fa9b022ddcce5c7ca32c28bdf522c.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to SSH Properly",
+      "url": "https://gravitational.com/blog/how-to-ssh-properly",
+      "description": "How to SSH properly and easily improve the security of your SSH model without needing to deploy a new application or make any huge changes to UX.",
+      "imageUrl": "./d8a0bb7ca2da778c206e97da79a315b70fdc42592e088db07a41594ea2014df0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Margin considered harmful",
+      "url": "https://mxstbr.com/thoughts/margin",
+      "description": "Margin breaks component encapsulation. Margin makes reusability harder.  Margin conflicts with how designers think!\n\n\n\nBy banning margin from all components you have to build more reusable and encapsulated components.",
+      "imageUrl": "./fca2d3c221dc916167cb4c6f0e5d294e9131449505cf7226c79dffd5e3998eb1.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Practical Guide to Memory Leaks in Node.js",
+      "url": "https://arbazsiddiqui.me/a-practical-guide-to-memory-leaks-in-nodejs",
+      "description": "Memory leaks creep up into your systems unnoticed and don't cause any harm initially, but once leaks are strong enough they can cause high latencies and crashes. This article describes how javascript manages memory, how to identify leaks and eventually how to fix them.",
+      "imageUrl": "./f1188e6ca1fa3b81e6f2cc3cfe935bdbb88e5aa2a2c20507a796fddd86cc8725.jpg",
+      "featured": false
+    },
+    {
+      "title": "Measuring the Performance of JavaScript Functions",
+      "url": "https://felixgerschau.com/measuring-the-performance-of-java-script-functions",
+      "description": "This article explores a number of techniques and APIs to measure the performance of JavaScript code. Do you know about **performance.now**? What about **console.time**?",
+      "imageUrl": "./5863e52d2d643124732ecea0c71dc43d1945595f6c3594b0d4afa794ad53e86a.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5",
+    "author": "Robin Nixon",
+    "description": "The fully revised, updated and extended 4th edition of the hugely popular web development book - includes CSS, HTML5, jQuery and the mysqli extension. Build interactive, data-driven websites with the potent combination of open-source technologies and web standards, even if you only have basic HTML knowledge. With this popular hands-on guide, you'll tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript, jQuery, CSS, and HTML5.",
+    "coverImageUrl": "./4dd383a9368aaa6ed632aede9e478cdc0678ed0fe58e1cd4ac7a53fa88dfa423.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491918667/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491918667/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

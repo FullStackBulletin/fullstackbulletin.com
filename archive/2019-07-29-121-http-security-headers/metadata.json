@@ -1,0 +1,75 @@
+{
+  "issueNumber": 121,
+  "title": "HTTP Security Headers",
+  "slug": "2019-07-29-121-http-security-headers",
+  "date": "2019-07-29",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #30, 2019",
+  "quote": {
+    "text": "To iterate is human, to recurse divine",
+    "author": "L. Peter Deutsch",
+    "authorTitle": "Software developer and Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/L._Peter_Deutsch"
+  },
+  "links": [
+    {
+      "title": "HTTP Security Headers",
+      "url": "https://nullsweep.com/http-security-headers-a-complete-guide",
+      "description": "A description of each HTTP security header, why it is important, and how to configure your website in a secure way.",
+      "imageUrl": "./1b5e87c149f604611ede73c0e64cfe488a7049b8a7c6aa6ffff130d5de526792.jpg",
+      "featured": true
+    },
+    {
+      "title": "useHooks",
+      "url": "https://usehooks.com/",
+      "description": "An extensive collection of easy to understand React Hook recipes. No reason to fear React hooks now!",
+      "imageUrl": "./5e1b6a8d0a9f35fc3663b000fd2e8f4cb5a4f21eeb24df9db0e5f727ec3439ba.jpg",
+      "featured": false
+    },
+    {
+      "title": "Everything You Need To Know About CSS Margins",
+      "url": "https://smashingmagazine.com/2019/07/margins-in-css",
+      "description": "Margins in CSS seem simple enough at first glance. Applied to an element it forms a space around the element, pushing other elements away. However, there is more to a margin than you might think.",
+      "imageUrl": "./408b2025e9f3cfd075674e2e39fa56960e2631766cf8a8e2ed08c358f7273057.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to make your HTML responsive by adding a single line of CSS",
+      "url": "https://dev.to/perborgen/how-to-make-your-html-responsive-by-adding-a-single-line-of-css-29h",
+      "description": "This article will teach you how to use CSS Grid to create a super cool image grid with a minimal amount of CSS.",
+      "imageUrl": "./f4c20e4954f94e520d974c81e83e41f13ce87983a7d016ba8a4ad48f92a488f6.jpg",
+      "featured": false
+    },
+    {
+      "title": "12 Tips for Improving JavaScript Performance",
+      "url": "http://nodesource.com/blog/improve-javascript-performance",
+      "description": "One of the most important aspects when creating a webpage or an app, is performance. In this blog post you can find 12 tips to improve it!",
+      "imageUrl": "./5863e52d2d643124732ecea0c71dc43d1945595f6c3594b0d4afa794ad53e86a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Frontend Design, React, and a Bridge over the Great Divide",
+      "url": "http://bradfrost.com/blog/post/frontend-design-react-and-a-bridge-over-the-great-divide",
+      "description": "Frontend designers create the HTML, CSS, and presentational JavaScript code that powers web products' user interfaces. Frontend design could be a helpful mortar that bridges the gap between design and development. This article explores this interesting idea.",
+      "imageUrl": "./eafe13109cfebe926e53c46037f5dd863159164bb5b17e5fbdaf53d998d82052.jpg",
+      "featured": false
+    },
+    {
+      "title": "Microservices, Apache Kafka, and Domain-Driven Design",
+      "url": "https://confluent.io/blog/microservices-apache-kafka-domain-driven-design",
+      "description": "Kai Waehner discusses why Apache Kafka became the de facto standard and backbone for microservice architectures—not just replacing other traditional middleware but also building the microservices themselves using domain-driven design and Kafka-native APIs like Kafka Streams, KSQL, and Kafka Connect.",
+      "imageUrl": "./bb4f2c0379a44cffbcdefedd72f4d1330f3ab52a9675f6ae5197708107e877ce.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Symfony",
+    "author": "Sohail Salehi",
+    "description": "In this book, you will learn some lesser known aspects of development with Symfony, and you will see how to use Symfony as a framework to create reliable and effective applications. You might have developed some impressive PHP libraries in other projects, but what is the point when your library is tied to one particular project? With Symfony, you can turn your code into a service and reuse it in other projects.",
+    "coverImageUrl": "./d8bd967503d4ad357e4fca70c6900b2da278b7cd54f0417d9683194425c0bcbf.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1784390313/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1784390313/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

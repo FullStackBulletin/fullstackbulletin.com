@@ -1,0 +1,124 @@
+{
+  "issueNumber": 447,
+  "title": "Inside the Shai Hulud 2.0 npm worm. What you need to know",
+  "slug": "2025-12-01-427-inside-the-shai-hulud-2-0-npm-worm-what-you-need-to-know",
+  "date": "2025-12-01",
+  "templateType": "buttondown-markdown",
+  "intro": "Hi there,\n\nThis will be a quick one from me this week. Life got a bit busy, but the internet did not slow down. So you get a tiny intro and a big pile of hand picked goodness instead, from supply chain worms and AI slop to beautiful colors and Bloom filters. Sorry for the speed run intro, I promise I spent the time I saved finding links that are actually worth your fullstack brain power.\n\nMake it simple and solid!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Languages that try to disallow idiocy become themselves idiotic",
+    "author": "Rob Pike",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Rob_Pike?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=447-inside-the-shai-hulud2-0-npm-worm"
+  },
+  "links": [
+    {
+      "title": "Inside the Shai Hulud 2.0 npm worm. What you need to know",
+      "url": "https://securitylabs.datadoghq.com/articles/shai-hulud-2.0-npm-worm/",
+      "description": "Shai Hulud 2.0 is a self replicating npm worm that jumps between packages, steals tokens and credentials, and, as a special treat, can wipe your home directory as a goodbye gift. If you publish or consume npm packages for a living (yes, if you are a web dev, this is you!), that should feel uncomfortably scary. The authors of this article break down how the worm spreads using Bun, GitHub runners, and npm tokens, what data it goes after, and which indicators of compromise you can actually check in your own repos and pipelines. This is not just a spooky security story. It is a practical walkthrough you can use to see whether your projects were in the blast radius and to tighten up your supply chain before the next one shows up. And if you prefer to learn from video content, here's a [link to a very nice explainer](https://www.youtube.com/watch?v=lqZo4waMB3c&pp=0gcJCRYKAYcqIYzv) from another author that pairs surprisingly well with this deep dive.",
+      "imageUrl": "./1554d7ef3343491962231f59f9a7c75ea6d7250a942f0433e33b34015b6ab74a.jpg",
+      "featured": true
+    },
+    {
+      "title": "Awesome things related to Tailwind CSS",
+      "url": "https://github.com/aniftyco/awesome-tailwindcss",
+      "description": "A giant community curated list of tools, plugins, color generators, UI kits, templates, IDE helpers, and weird little gems you did not know you needed, all living in the Tailwind CSS ecosystem. If you love Tailwind this is simply a wonderful resource to keep around. [**Check Repo**](https://github.com/aniftyco/awesome-tailwindcss)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The problem with AI Slop",
+      "url": "https://www.youtube.com/watch?v=vrTrOCQZoQE&t=732s",
+      "description": "I watched this one last week and it really stuck with me. This video while it seems like an informal chat, digs really well into the concept of AI slop: all the low quality auto generated content that is starting to flood the web. It is a bit scary, because it shows a pretty plausible future where most of the web is totally AI generated and models are mostly trained on their own synthetic output, search results get worse, and the web slowly turns into a grey mush of half correct text and recycled images. It is not pure doom though. It is a very clear, very grounded explanation of what could go wrong if we are not careful about how we generate and curate content. Funnily enough, it also made me think that there is more than ever real value in honest, hand made curation, and I hope you feel at least a bit of that value in this very newsletter.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A Synthesizer for Color Palettes",
+      "url": "https://colorpalette.pro/",
+      "description": "This is a color palette tool, yes, but the first thing that hits you is the design. It honestly has some of the best and most original visual styling I have ever seen in a palette generator, and if you have been reading this newsletter for a while you know I have seen a lot of them. It feels playful and classy at the same time, and that makes it weirdly fun to just sit there and explore combinations, tweak sliders, and get a feel for different vibes. If you enjoy tools that care about both utility and aesthetics, this one is absolutely worth a click, and maybe you will use it for your next web design project. [**Check tool**](https://colorpalette.pro/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Useful CSS custom functions using the new @​function rule",
+      "url": "https://github.com/sindresorhus/css-extras",
+      "description": "A neat little library of CSS custom functions that leans into the new native `@function` rule. Instead of reaching for Sass or writing the same `calc` gymnastics again and again, you drop in *css-extras* and suddenly have helpers for math, colors, spacing, layout, typography, even theme aware values, right in pure CSS. If you enjoy modern CSS tricks and like the idea of shipping fewer build tools without giving up expressiveness, this one is very fun to explore. [**Check Repo**](https://github.com/sindresorhus/css-extras)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The CloudFlare outage was a good thing",
+      "url": "https://gist.github.com/jbreckmckye/32587f2907e473dd06d68b0362fb0048",
+      "description": "In case you missed it, the Cloudflare incident was the featured story in [last week’s newsletter](https://buttondown.com/fullstackbulletin/archive/446-the-recent-cloudflare-outage/). This short essay picks up that thread and argues that the big outage might actually have been a good thing, because it shakes us out of the illusion that the internet is always on and reminds us how fragile our very centralized infrastructure has become. I really like how the author grounds it in real life annoyances, then zooms out to ask what happens when so much of society runs through a tiny number of providers, and why events like this should push us to build more redundancy and fallbacks.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Bloom filters: the niche trick behind a 16× faster API",
+      "url": "https://incident.io/blog/bloom-filters",
+      "description": "Real story. I once failed an interview with Facebook, back when the whole company was still called that. They asked how I would efficiently implement the famous Like button. I thought I had given a perfectly reasonable answer, but they were clearly fishing for extreme performance at scale, and only months later I realised the trick they wanted to hear was bloom filters. If you ever wondered why people keep bringing up bloom filters in system design interviews, this post is a really nice, concrete explanation. The authors use a very practical incident style problem to walk through what bloom filters are, why they are useful, and how they help when you need to answer simple questions at ridiculous scale without melting your database. If you want to avoid my mistake and actually understand when and how to use them in real products, this article is a great read.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Fullstack D3 and Data Visualization: Build beautiful data visualizations with D3",
+    "author": "Amelia Wattenberger",
+    "description": "Build beautiful data visualizations with D3\nThe Fullstack D3 book is the complete guide to D3. With dozens of code examples showing each step, you can gain new insights into your data by creating visualizations.\nLearn how to quickly turn data into insights with D3\nWe have the data. But it needs to be understood by humans. The best way to convert this data into an understandable format is to mold it into a data visualization.\nAnd D3 is the best tool for job if you need to create custom data visualizations.\nWith Fullstack D3 and Data Visualization you and your team will be able to share key insights, uncover problems before they start, and impress your boss by creating gorgeous visualizations.",
+    "coverImageUrl": "./8d77dfb62fee4e29cd2a384f34d9f8a838ef53b282e49f2769a0d41e17e59662.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0991344650",
+    "amazonUk": "https://www.amazon.co.uk/dp/0991344650"
+  },
+  "additionalLinks": [
+    {
+      "title": "dnlzro/horizon: The current sky at your approximate location, rendered as a CSS gradient",
+      "url": "https://github.com/dnlzro/horizon"
+    },
+    {
+      "title": "ShadCN Themer: Create Beautiful Themes for shadcn/ui",
+      "url": "https://shadcnthemer.com/"
+    },
+    {
+      "title": "What They Don't Tell You About Maintaining an Open Source Project",
+      "url": "https://andrej.sh/blog/maintaining-open-source-project"
+    },
+    {
+      "title": "Migrating 6000 React tests using AI Agents and ASTs",
+      "url": "https://eliocapella.com/blog/ai-library-migration-guide"
+    },
+    {
+      "title": "React 19.2: The async shift is finally here - LogRocket Blog",
+      "url": "https://blog.logrocket.com/react-19-2-the-async-shift"
+    },
+    {
+      "title": "To Be a Leader of Systems | Hazel Weakly",
+      "url": "https://hazelweakly.me/blog/to-be-a-leader-of-systems"
+    },
+    {
+      "title": "Defending Against Glassworm: The Invisible Malware That's Rewriting Supply Chain Security | Snyk",
+      "url": "https://snyk.io/articles/defending-against-glassworm"
+    },
+    {
+      "title": "Why XSS Persists in This Frameworks Era?",
+      "url": "https://flatt.tech/research/posts/why-xss-persists-in-this-frameworks-era"
+    },
+    {
+      "title": "The Internet is Cool. Thank you, TCP",
+      "url": "https://cefboud.com/posts/tcp-deep-dive-internals"
+    },
+    {
+      "title": "Messing with bots",
+      "url": "https://herman.bearblog.dev/messing-with-bots"
+    },
+    {
+      "title": "<100ms E-commerce: Instant loads with Speculation Rules API",
+      "url": "https://blog.sentry.io/less-than-100ms-e-commerce-instant-loads-with-speculation-rules-api"
+    },
+    {
+      "title": "Responsive Letter Spacing",
+      "url": "https://cloudfour.com/thinks/responsive-letter-spacing"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 323,
+  "title": "CSS Text balancing with text-wrap:balance",
+  "slug": "2023-05-01-310-css-text-balancing-with-text-wrap-balance",
+  "date": "2023-05-01",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "If we continue to develop our technology without wisdom or prudence, our servant may prove to be our executioner",
+    "author": "Omar Bradley",
+    "authorTitle": "US Army",
+    "authorUrl": "https://en.wikipedia.org/wiki/Omar_Bradley"
+  },
+  "links": [
+    {
+      "title": "CSS Text balancing with text-wrap:balance",
+      "url": "http://ishadeed.com/article/css-text-wrap-balance",
+      "description": "Multi-line titles are often a bit off on the web. This is because it is hard to balance them and make sure you have a similar amount of text on every line. Luckily, we now have experimental support for **`text-wrap: balance`** in Chrome Canary. The browser will automatically calculate the number of words and divide them equally between two lines.",
+      "imageUrl": "./12a59873f23898bd0bf14fc981563c521cd99ba7b229662e38c099f60860c265.jpg",
+      "featured": true
+    },
+    {
+      "title": "How to Build a Full-Stack Real-Time Voting App With Hasura and React",
+      "url": "https://freecodecamp.org/news/build-a-full-stack-real-time-voting-app-with-hasura-and-react",
+      "description": "This article will teach you how to build a voting application that displays the poll results in real-time. Each time someone votes, the application updates automatically and shows the new results. A great tutorial if you want an excuse to improve your React skills!",
+      "imageUrl": "./dfc41e631c059437adbe9edb18f4ff8eb6b2f5d5827f2368e9df5756a1ce83c5.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript Equality Table Game",
+      "url": "https://eqeq.js.org/",
+      "description": "This interactive UI (that reminds me of Minesweeper for Windows!) allows you to find out how well you know (or don't know) the JavaScript == operator rules. I had a lot of fun trying this and learning that I don't know anything about JavaScript! 😕",
+      "imageUrl": "./e0637eb7d914a660910813e8383fff10071a4b266a0a73edc0e1df1b3898ab99.jpg",
+      "featured": false
+    },
+    {
+      "title": "GitHub Copilot and ChatGPT: Game Changers for Developers?",
+      "url": "https://awsbites.com/75-github-copilot-and-chatgpt-game-changers-for-developers/",
+      "description": "Is AI going to take our jobs or just help us to become more effective? What kind of AI-powered tools can we use today as developers to increase our productivity? In this episode of AWS Bites podcast we explore these topics and provide our opinions to these trending questions!",
+      "imageUrl": "./2c57f660d695c41a166a0676ff9ed675a1b3f7104a5fa312eab97e95006779de.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS Blend Modes",
+      "url": "https://garden.bradwoods.io/notes/css/blend-modes",
+      "description": "What are CSS blend modes? How to use background-blend-mode & mix-blend-mode? Find out in this article with some lovely graphics and interactive examples.",
+      "imageUrl": "./8fd4d2ddc0eb7256146a3a657a7439786e8507eaee70a2880eaf815fe2cc1911.jpg",
+      "featured": false
+    },
+    {
+      "title": "4 Ways to Create an Enum in JavaScript",
+      "url": "https://dmitripavlutin.com/javascript-enum",
+      "description": "An enum is a set of named constants. JavaScript does not support enums out of the box, but you can recreate them in several ways: plain objects, frozen objects, proxied objects or class-based implementations. These are 4 different ways to create enums in JavaScript, let's see what are the pros and cons!",
+      "imageUrl": "./93631284f01bb764eedc7156d87f9481ecb5d799c072adb67e3ef0fa6398838e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Crafting the Next.js Website",
+      "url": "https://rauno.me/craft/nextjs",
+      "description": "A sneak peek into how the beatiful Next.js website was built! Yes, this is not a Next.js tutorial, this is how the Next.js website itself was built! It's an incredibly appealing website and the authors describe some of the techniques they used, so you can definitely learn a trick or two!",
+      "imageUrl": "./a2f7f1af49fc5d26439e08928f7eb2ce592f10db5a93c6bdbf62700a9d333f29.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Clean Coder: A Code of Conduct for Professional Programmers",
+    "author": "Robert C. Martin",
+    "description": "Programmers who endure and succeed amidst swirling uncertainty and nonstop pressure share a common attribute: They care deeply about the practice of creating software. They treat it as a craft. They are professionals. In this book, legendary software expert Robert C. Martin introduces the disciplines, techniques, tools, and practices of true software craftsmanship.",
+    "coverImageUrl": "./1f5196ee832f3707ad69a4dc5cf0c9b3ff01467d98852062955ad942b2ef0732.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0137081073/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0137081073/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

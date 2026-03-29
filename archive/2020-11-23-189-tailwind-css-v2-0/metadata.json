@@ -1,0 +1,75 @@
+{
+  "issueNumber": 189,
+  "title": "Tailwind CSS v2.0",
+  "slug": "2020-11-23-189-tailwind-css-v2-0",
+  "date": "2020-11-23",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #47, 2020",
+  "quote": {
+    "text": "The difference between theory and practice is that in theory, there is no difference between theory and practice",
+    "author": "Richard Moore",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Richard_Moore"
+  },
+  "links": [
+    {
+      "title": "Tailwind CSS v2.0",
+      "url": "https://blog.tailwindcss.com/tailwindcss-v2",
+      "description": "Tailwind has definitely been the CSS framework of the year. This new release (Tailwind CSS v2.0) comes with some new interesting features, including an all-new colour palette, dark mode support, and tons more!",
+      "imageUrl": "./1b0212979d24a4fd65c7d32081a76443b36439eb649d17eb6ea4528c81451612.jpg",
+      "featured": true
+    },
+    {
+      "title": "7 Git tricks that changed my life",
+      "url": "https://dev.to/vivekagent47/7-git-tricks-that-changed-my-life-3aj3",
+      "description": "Some helpful Git tips that might change the way you work with the popular version control system.",
+      "imageUrl": "./50b4caed0933894de2eb3a3edc16b3742aca9ff66f0034103f53c42be4a4cbcb.jpg",
+      "featured": false
+    },
+    {
+      "title": "10 Insights from Adopting TypeScript at Scale",
+      "url": "https://techatbloomberg.com/blog/10-insights-adopting-typescript-at-scale",
+      "description": "Rob Palmer shares some of the insights & lessons learned during Bloomberg Engineering's journey to adopt TypeScript as a first-class supported language.",
+      "imageUrl": "./4b30885388fd394a3de694988c4604df75b02b9cb448f913d6fcee79224fd4d3.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Math of Password Hashing Algorithms and Entropy",
+      "url": "https://fusionauth.io/learn/expert-advice/security/math-of-password-hashing-algorithms-entropy",
+      "description": "Long passwords and one-way password hashing are standard strategies used to increase security and protect your user's passwords. Let's take a look at how they work and some new ideas to improve it.",
+      "imageUrl": "./c2e0a6dea421b51927c5ba9b9121092781298def814d527f16c1c3374276a8e1.jpg",
+      "featured": false
+    },
+    {
+      "title": "EOS free & open source icons",
+      "url": "https://icons.eosdesignsystem.com/",
+      "description": "Handcrafted iconic font designed using the Material Design guidelines.",
+      "imageUrl": "./6a0585d979de9cfdf77f6aabf880a583549555328162924b3d8f4fb290722363.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using Vue as a Node.js Static Site Generator",
+      "url": "http://thecodebarbarian.com/using-vue-as-a-node-js-static-site-generator",
+      "description": "Here's how you can build a static site blog using vanilla Vue and Node.js.",
+      "imageUrl": "./ceb9332fb3321a82b76764a6a724b4044adacdaaff81701865ca1def21e9e1a9.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Case Against Anti-Flicker Snippets",
+      "url": "https://andydavies.me/blog/2020/11/16/the-case-against-anti-flicker-snippets",
+      "description": "Measuring the impact of AB testing tools anti-flicker snippets and why I think they're a symptom of a bigger problem",
+      "imageUrl": "./9c71ff75cf6e1b7ca193fc13885a3a8e15f8d4fd8c1400f1aecefd56a7aa5704.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elixir in Action",
+    "author": "Saša Jurić",
+    "description": "Elixir in Action teaches you to apply the new Elixir programming language to practical problems associated with scalability, concurrency, fault tolerance, and high availability. Elixir is a modern programming language that takes advantage of BEAM, the Erlang virtual machine, without the burden of Erlang's complex syntax and conventions. Elixir gives you Ruby-like elegance with the power to develop bulletproof distributed server systems that can handle massive numbers of simultaneous clients and run with almost no downtime.",
+    "coverImageUrl": "./490e43e003f0e552efa4caaeaf3601ab5225c857e806244ebb7a236234ac2ca7.jpg",
+    "amazonUs": "https://www.amazon.com/dp/161729201X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/161729201X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

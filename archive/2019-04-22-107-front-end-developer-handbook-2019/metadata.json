@@ -1,0 +1,75 @@
+{
+  "issueNumber": 107,
+  "title": "Front-end Developer Handbook 2019",
+  "slug": "2019-04-22-107-front-end-developer-handbook-2019",
+  "date": "2019-04-22",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #16, 2019",
+  "quote": {
+    "text": "The real danger is not that computers will begin to think like men, but that men will begin to think like computers",
+    "author": "Sydney Harris",
+    "authorTitle": "Journalist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Sydney_Harris"
+  },
+  "links": [
+    {
+      "title": "Front-end Developer Handbook 2019",
+      "url": "https://frontendmasters.com/books/front-end-handbook/2019",
+      "description": "A guide for front-end developers to equip themselves with latest learning resources and development tools in front-end engineering.",
+      "imageUrl": "./aa972cadab285531238b07da822747ba22d309c393ac3504f9f3ef2f717b5eb4.jpg",
+      "featured": true
+    },
+    {
+      "title": "Dockerize the multi-services application for local development",
+      "url": "https://dev.to/amplifr/dockerize-the-multi-services-application-for-local-development-2oig",
+      "description": "The handy local development containerization guide, with examples of the Amplifr project dockerization. Getting the services written in Ruby, Node.js, and Golang work together locally with docker networks.",
+      "imageUrl": "./ccb738221458d7185daf2e87a25b376aa5ea8766e7f2a68c46e2397b47206946.jpg",
+      "featured": false
+    },
+    {
+      "title": "Announcing Rust 1.34.0",
+      "url": "https://blog.rust-lang.org/2019/04/11/Rust-1.34.0.html",
+      "description": "Alternative cargo registries, in documentation tests, TryFrom and TryInto and Library stabilizations are only some of the new features in the latest release of Rust.",
+      "imageUrl": "./7356b30b845569feba346c912458fa4cef165d8342195cd976317e62a1fdeb00.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Missing Introduction To Containerization",
+      "url": "https://medium.com/devopslinks/the-missing-introduction-to-containerization-de1fbb73efc5",
+      "description": "A fantastic (and extremely complete) introduction to containerization. Even if you feel confident enough about Docker and Containers, for sure you are going to benefit in some way by reading this article.",
+      "imageUrl": "./70cc45941b873cd9bdafd118fb4f1964702533237bf241ce349d7a00527a42ca.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Web Developer's Guide to DNS",
+      "url": "https://rjzaworski.com/2019/04/the-web-developers-guide-to-dns",
+      "description": "Domain Name System, DNS, bears the inglorious responsibility of turning hostnames like pets.com into a machine-friendly IP address. DNS servers essentially glue the web together, so as a web developer you probably want to know more about how this protocol works.",
+      "imageUrl": "./c4c83ae6d5f38004694c2cdfaccbebcf562af077711521d174ba90cf811e5535.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using JSON Schema to Document, Test, and Debug APIs",
+      "url": "https://blog.heroku.com/json-schema-document-debug-apis",
+      "description": "How Heroku uses JSON Schema to test and document our Platform API–and how it helped us uncover an unexpected bug.",
+      "imageUrl": "./42343a4b860f1e8384c6095c09a1592c22e27382406193076da396bf318f4ccf.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why you should use CSS env()",
+      "url": "https://blog.logrocket.com/why-you-should-use-css-env-9ee719ce0f24",
+      "description": "Learn how you can use the CSS env() feature and a PostCSS plugin to share the same variables between CSS and JS in a single file.",
+      "imageUrl": "./3acb6fa65ac3c4fb1e98f0da0d7d4e80bfdb7d9c0c2f032d939bcc9f13240fb4.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Scraping with Python: Collecting Data from the Modern Web",
+    "author": "Ryan Mitchell",
+    "description": "Learn web scraping and crawling techniques to access unlimited data from any web source in any format. With this practical guide, you’ll learn how to use Python scripts and web APIs to gather and process data from thousands—or even millions—of web pages at once. Ideal for programmers, security professionals, and web administrators familiar with Python, this book not only teaches basic web scraping mechanics, but also delves into more advanced topics, such as analyzing raw data or using scrapers for frontend website testing.",
+    "coverImageUrl": "./3b1c651ba95d78b7e56b9d061b654489f967bb664b283d5be64ac9f029b88bec.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B00ZJNH0G0/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B00ZJNH0G0/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

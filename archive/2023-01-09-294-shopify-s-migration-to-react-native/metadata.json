@@ -1,0 +1,75 @@
+{
+  "issueNumber": 307,
+  "title": "Shopify's migration to React Native",
+  "slug": "2023-01-09-294-shopify-s-migration-to-react-native",
+  "date": "2023-01-09",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Technology is anything that wasn’t around when you were born",
+    "author": "Alan Kay",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Kay"
+  },
+  "links": [
+    {
+      "title": "Shopify's migration to React Native",
+      "url": "https://shopify.engineering/migrating-our-largest-mobile-app-to-react-native",
+      "description": "An interesting case study from Shopify describing how they decided to migrate their largest mobile application (300+ screens!) to React Native. In this post you can discover what was the rationale and how the project went. If you'll be building a mobile app soon, maybe you'll consider React Native.",
+      "imageUrl": "./a236631afd6ce3de698186c940264dd6f3cf9f6997d725a21f5e3ea1aada2e7a.jpg",
+      "featured": true
+    },
+    {
+      "title": "Flying away from AWS",
+      "url": "https://terrateam.io/blog/flying-away-from-aws",
+      "description": "Another interesting migration case study. This time we are talking about cloud providers and in this article, you can learn how Terrateam went from AWS to Fly.io! Fly is starting to become a really serious competitor in the cloud space!",
+      "imageUrl": "./4a302cc358043436db776f6a1b71432b6cec06ccbd7f239a22742ad95dfbb01e.png",
+      "featured": false
+    },
+    {
+      "title": "20,000 hours as a Software Engineer",
+      "url": "https://ruiper.es/fad733b2e8b147bbbe647906253001be",
+      "description": "Malcolm Gladwell famously said that to master anything, you need to spend at least 10000 hours doing it. So let's see what 20.000 hours of career look like for a software engineer. What are the learnings and what should come next... let's find out!",
+      "imageUrl": "./623a853d77d724320ca69a3d8b8cd3dcdb3698c94c52addb3ebca680b4c6b75e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Useless React Hooks",
+      "url": "https://github.com/btahir/uselesshooks",
+      "description": "A Collection of Useless React Hooks to impress your coworkers. Also, something you can look into if you are learning React and want to see a bunch of example hooks to draw inspiration from!",
+      "imageUrl": "./2aa6adc8494d8043b3796a99de039966acc78cadc2d71ccd7d0821ed8c139a17.jpg",
+      "featured": false
+    },
+    {
+      "title": "Explain the First 10 Lines of Twitter's Source Code to Me",
+      "url": "https://css-tricks.com/explain-the-first-10-lines-of-twitter-source-code",
+      "description": "Did you ever get this question in front-end interviews: \"Explain the first ten or so lines of the Twitter source code to me\"? It's an exciting question that opens up a pretty good conversation! How would you answer?",
+      "imageUrl": "./3fd27f25cbdd19a07ac83cd9f0bcfd285350ac0f361648a377fe4b8e02d149cc.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to publish to npm in 2023",
+      "url": "https://blog.taskli.st/posts/how-to-publish-to-npm-in-2023",
+      "description": "This is a guide that describes how to publish an open-source package to npm in 2023 and what to look out for. It includes TypeScript and ESM. Definitely worth a look if you are thinking to publish a new package.",
+      "imageUrl": "./1474951b64804ae1a3669977f4384b62d56a729c8066ec4f65c0bc0bb4c0f8fc.jpg",
+      "featured": false
+    },
+    {
+      "title": "symphonia: An audio playback library for Node.js",
+      "url": "https://github.com/tropicbliss/symphonia",
+      "description": "An audio playback library for Node.js (written in Rust). If you ever wanted to play some music or an audio effect from a script, look no further!",
+      "imageUrl": "./fc3d47f64e8d81d108351c93fa1079d847246d6a7b016fd24aae14c2b007924f.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Algorithms to live by",
+    "author": "Brian Christian and Tom Griffiths",
+    "description": "A fascinating exploration of how computer algorithms can be applied to our everyday lives, helping to solve common decision-making problems and illuminate the workings of the human mindAll our lives are constrained by limited space and time, limits that give rise to a particular set of problems. What should we do, or leave undone, in a day or a lifetime? How much messiness should we accept? What balance of new activities and familiar favourites is the most fulfilling?",
+    "coverImageUrl": "./24438c07b3bd2a14108cd79d826105f246b331801bf6b194abd1244f7b8e66af.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0008166099/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0008166099/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

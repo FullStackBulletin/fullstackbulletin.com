@@ -1,0 +1,75 @@
+{
+  "issueNumber": 314,
+  "title": "Try out CSS Nesting today",
+  "slug": "2023-02-27-301-try-out-css-nesting-today",
+  "date": "2023-02-27",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Humanity is acquiring all the right technology for all the wrong reasons",
+    "author": "R. Buckminster Fuller",
+    "authorTitle": "Inventor and Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/R._Buckminster_Fuller"
+  },
+  "links": [
+    {
+      "title": "Try out CSS Nesting today",
+      "url": "https://webkit.org/blog/13813/try-css-nesting-today-in-safari-technology-preview",
+      "description": "Safari and Chrome have finally implemented a built-in syntax for nesting CSS rules! This is a huge win for the web and gives you, as a developer, much more power. In combination with CSS variables, this new feature makes tools like less and sass a little bit more unnecessary than they used to be. Check out this new syntax and give it a spin!",
+      "imageUrl": "./bca0538da516be710f6437358eefc4a75add6ae30fa4bdce6d3d1c95afaeca61.jpg",
+      "featured": true
+    },
+    {
+      "title": "Serverless Messaging: Latency Compared",
+      "url": "https://bitesizedserverless.com/bite/serverless-messaging-latency-compared",
+      "description": "This article compares the latency introduced by common messaging services on AWS: SQS, SNS, Step Functions, EventBridge, Kinesis, and DynamoDB Streams. When you are picking an integration system, this can be a great resource if you have strict latency requirements!",
+      "imageUrl": "./f8b25c2f32c9cded23130ae17110b0cf543158f33ded7179fd398d64d41d4d5d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Password protect a static HTML page",
+      "url": "https://github.com/robinmoisson/staticrypt",
+      "description": "This brilliant open-source project offers a method for password-protecting a static HTML page. The project provides a script that encrypts the content of the page and adds a widget for client-side decryption, but only if the user has the correct password. This approach eliminates the need for setting up a backend server or an edge function for password protection.",
+      "imageUrl": "./87a87b398f5b70149301aff074a57eeae4ce64534a8570ab2117f2e6f2d9d23d.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Gooey Effects With Shader",
+      "url": "https://mofu-dev.com/en/blog/gooey-shader",
+      "description": "A recent trend in web design is the \"gooey effect\": liquid-like blobs floating around the page. THis article makes you generate this kind of blobs using shaders. You might not care too much about using this style in your designs, but nonetheless, this article provides a great use case to learn how to write shaders for the web!",
+      "imageUrl": "./61478d4902c5a446f2d28696e1c21ff07101884b90ff63b24e636a606aab5cd2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Writing an engineering strategy.",
+      "url": "https://lethain.com/eng-strategies",
+      "description": "In the last few months, I have been working hard on helping an organization produce an API Strategy. This article has been one of the most valuable resources that I was able to find. It explores how to think about an engineering strategy, what different stakeholders will expect, how to draft it, and how to communicate it and enforce it across various teams effectively.",
+      "imageUrl": "./57a58e70316258f1f51479f91b6943c0b14412e91b713447f241dbe89db20d87.jpg",
+      "featured": false
+    },
+    {
+      "title": "The 25 Percent Rule for Tackling Technical Debt",
+      "url": "https://shopify.engineering/technical-debt-25-percent-rule",
+      "description": "Let’s talk about technical debt. Let’s talk about practical usable approaches for actually paying it down on a daily, weekly, monthly, and yearly basis. Let’s talk about what debt needs to be fixed now versus what can wait for better planning.",
+      "imageUrl": "./7e2cb0530dc11eae45dda09b3be3bd111cee9be79a7c7547e68b6e12fc5925d8.jpg",
+      "featured": false
+    },
+    {
+      "title": "How To Scale Node.js Applications with Clustering",
+      "url": "https://digitalocean.com/community/tutorials/how-to-scale-node-js-applications-with-clustering",
+      "description": "This tutorial explains how to scale a Node.js application using the cluster module on a machine with four or more CPUs. It involves creating an application without clustering, then modifying it to use clustering, and using the pm2 module to scale the application across multiple CPUs. The tutorial also includes load testing to compare the performance of the app with and without clustering and to evaluate the pm2 module.",
+      "imageUrl": "./2de4d73672780e7643fbb0d342def1e0e96a83a94bc1870202b241a424e6d647.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Information Architecture: For the Web and Beyond",
+    "author": "Louis Rosenfeld",
+    "description": "Information architecture (IA) is far more challenging—and necessary—than ever. With the glut of information available today, anything your organization wants to share should be easy to find, navigate, and understand. But the experience you provide has to be familiar and coherent across multiple interaction channels, from the Web to smartphones, smartwatches, and beyond.To guide you through this broad ecosystem, this popular guide—now in its fourth edition—provides essential concepts, methods, and techniques for digital design that have withstood the test of time.",
+    "coverImageUrl": "./6479919bd4c4e1ab7a2cbc0f5cf23b45ee7ca46af986574798fd02163903111f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491911689/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491911689/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

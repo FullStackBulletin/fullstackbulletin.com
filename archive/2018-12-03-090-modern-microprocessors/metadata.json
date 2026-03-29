@@ -1,0 +1,75 @@
+{
+  "issueNumber": 90,
+  "title": "Modern Microprocessors",
+  "slug": "2018-12-03-090-modern-microprocessors",
+  "date": "2018-12-03",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #48, 2018",
+  "quote": {
+    "text": "Computers are useless.  They can only give you answers",
+    "author": "Pablo Picasso",
+    "authorTitle": "Artist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Pablo_Picasso"
+  },
+  "links": [
+    {
+      "title": "Modern Microprocessors",
+      "url": "http://lighterra.com/papers/modernmicroprocessors",
+      "description": "A brief, pulls-no-punches, fast-paced introduction to the main design aspects of modern processor microarchitecture.",
+      "imageUrl": "./1a793bda33fcf1edad59bdeedbb4402800cd2ced87f7a943c92bcadcbe32e679.png",
+      "featured": true
+    },
+    {
+      "title": "Experimenting with brain-computer interfaces in JavaScript.",
+      "url": "https://medium.com/@devdevcharlie/experimenting-with-brain-computer-interfaces-in-javascript-8d6cb891fda8",
+      "description": "Neurotechnology meets JavaScript. This blog post is about sharing the things that the author learned along the way by playing with these two broad subjects. Even if you are not into Neurotechnology, this article is still pretty amazing and worth reading.",
+      "imageUrl": "./35b065e498dd99b6e05b500b36f215229a8bbe0b219474a1c3819b103ca95f7f.jpg",
+      "featured": false
+    },
+    {
+      "title": "List of influential programming books",
+      "url": "http://www.doradolist.com/facts/stackoverflow-influential-programming-books.html",
+      "description": "Here we report the list of some influential programming books. This list is compiled on Stackoverflow most linked books.",
+      "imageUrl": "./6801f9078094895a558c1551cc50d045cb227f49e6e99b71475970cce5e0d4d8.png",
+      "featured": false
+    },
+    {
+      "title": "WebSockets - A Conceptual Deep-Dive",
+      "url": "https://ably.io/concepts/websockets",
+      "description": "The WebSocket protocol elevated the possibilities of communication over the internet and gave way to a truly real-time web. This article is all about building a deeper understanding of what WebSockets are, how they came to be and what’s actually going on under the hood.",
+      "imageUrl": "./fc5c1b6ae77724cf979e45890d130cb0138aa7f81da2786717dec39b91a22007.png",
+      "featured": false
+    },
+    {
+      "title": "The Power Of Web Components",
+      "url": "https://hacks.mozilla.org/2018/11/the-power-of-web-components",
+      "description": "Web Components comprises a set of standards that enable user-defined HTML elements. These elements can go in all the same places as traditional HTML but they can provide much more dynamic and custom behaviors.",
+      "imageUrl": "./2e06d3aab71becaf7eadbde3380a86b8b92baefad00cfb903694a3651bf835bc.jpg",
+      "featured": false
+    },
+    {
+      "title": "An Extensive Guide To Progressive Web Applications",
+      "url": "https://smashingmagazine.com/2018/11/guide-pwa-progressive-web-applications",
+      "description": "In this article, we’ll look at the pain points of users who are browsing old non-PWA websites and the promise of PWAs to make the web great. You’ll learn most of the important technologies that make for cool PWAs, like service workers, web push notifications and IndexedDB.",
+      "imageUrl": "./62bea3b8b0ac922838024c8353c95977e38020daeb5209c532479ff0b7a9727a.jpg",
+      "featured": false
+    },
+    {
+      "title": "How Big Companies Are Using GraphQL in 2018",
+      "url": "https://stackshare.io/posts/companies-using-graphql-in-production-2018",
+      "description": "How Big Companies Are Using GraphQL in 2018. If you using GraphQL or planning to use it, or if you just generally interested in the ecosystem, this article is definitely worth reading.",
+      "imageUrl": "./5b0fbe4f18820c15a2b3c3f8149399369177be0fcc4252aeb576e33ee05d591b.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Modern PHP: New Features and Good Practices",
+    "author": "Josh Lockhart",
+    "description": "PHP is experiencing a renaissance, though it may be difficult to tell with all of the outdated PHP tutorials online. With this practical guide, you’ll learn how PHP has become a full-featured, mature language with object-orientation, namespaces, and a growing collection of reusable component libraries. Author Josh Lockhart—creator of PHP The Right Way, a popular initiative to encourage PHP best practices—reveals these new language features in action. You’ll learn best practices for application architecture and planning, databases, security, testing, debugging, and deployment.",
+    "coverImageUrl": "./418bba906f21b114b5c7dcb0d9e0d7c44a714c727d1cf0edbb7f097a7406b2d5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491905018/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491905018/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

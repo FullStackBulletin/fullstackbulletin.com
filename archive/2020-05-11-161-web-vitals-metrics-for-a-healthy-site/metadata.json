@@ -1,0 +1,75 @@
+{
+  "issueNumber": 161,
+  "title": "Web Vitals: metrics for a healthy site",
+  "slug": "2020-05-11-161-web-vitals-metrics-for-a-healthy-site",
+  "date": "2020-05-11",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #19, 2020",
+  "quote": {
+    "text": "Science and technology revolutionize our lives, but memory, tradition and myth frame our response",
+    "author": "Arthur Schlesinger",
+    "authorTitle": "Historian",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_Schlesinger"
+  },
+  "links": [
+    {
+      "title": "Web Vitals: essential metrics for a healthy site",
+      "url": "https://blog.chromium.org/2020/05/introducing-web-vitals-essential-metrics.html",
+      "description": "Web Vitals is a new initiative by Google to help website developers to understand and track some of the most important metrics and quality signals that Google believes to be essential to delivering a great user experience on the web.",
+      "imageUrl": "./5ea3c0224df230a514b259b4a1fc9f1019be4e690fb643cd7fc343873f1adc5c.png",
+      "featured": true
+    },
+    {
+      "title": "Spacing in CSS",
+      "url": "http://ishadeed.com/article/spacing-in-css",
+      "description": "If two or more elements are close, then the user will assume that they somehow belong to each other. Spacing is a very important element in web design and this article will guide you through some interesting approaches to manage layouts and spacing with CSS.",
+      "imageUrl": "./fb97fd1b43f0893498577396a523e5f86341f65d5df4f7101d2a496399e2761f.jpg",
+      "featured": false
+    },
+    {
+      "title": "When does React re-render components?",
+      "url": "https://felixgerschau.com/react-rerender-components",
+      "description": "If you are building applications using React, understanding the component lifecycle and the re-rendering mechanism is a fundamental skill to have. In this article, you will find rendering and re-rendering explained and how to optimize rendering performance.",
+      "imageUrl": "./c93a3d0bcff194e4f0d763bdcb2173252c1ed0d097184e9b4bc36b3ad8fde43d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Complexity Has to Live Somewhere",
+      "url": "https://ferd.ca/complexity-has-to-live-somewhere.html",
+      "description": "A very interesting article about Software Complexity. We often try to get rid of the complexity, control it, and seek simplicity. This article proposes a new mindset: \"*Complexity has to live somewhere: embrace it*\".",
+      "imageUrl": "./3af172b252e454e24b6c33ee5c84b2efe2ef3bbacd06cf12b74345ddb1018616.jpg",
+      "featured": false
+    },
+    {
+      "title": "React interview questions",
+      "url": "https://github.com/sudheerj/reactjs-interview-questions",
+      "description": "A wonderful repository with almost 500 different common questions and answers about React. The ideal resource if you are trying to understand React better or if you are preparing for an interview!",
+      "imageUrl": "./c8dd404a7cf838a2b4beeb1ad0840c8bc12c2db48610507edde0a33f8520f673.png",
+      "featured": false
+    },
+    {
+      "title": "Color Theme Switcher",
+      "url": "https://mxb.dev/blog/color-theme-switcher",
+      "description": "Let users customize your website with their favorite color scheme! Your site has a dark mode? That's cute. Mine has ten different themes now, and they're all named after Mario Kart race tracks.",
+      "imageUrl": "./48e1d65a5f00ef152dcbb6b097d40a078db79ad67e480833c22239070b144121.jpg",
+      "featured": false
+    },
+    {
+      "title": "Are you using SVG favicons yet?",
+      "url": "https://medium.com/swlh/are-you-using-svg-favicons-yet-a-guide-for-modern-browsers-836a6aace3df",
+      "description": "You probably don’t need all these icon links and sizes to manage your website favicon, a plain SVG image would do just fine! You are probably already using SVGs for your website icons and images, so why not use it also for a favicon? In this article, you will find out that this technique comes with some great benefits, for instance, support for DARK MODE! 😎",
+      "imageUrl": "./4e3df45c0558f2b6e4833bb32145574d35da90d3160ca26d9a399025679af272.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Linux Command Line: A Complete Introduction",
+    "author": "William E. Shotts Jr.",
+    "description": "The Linux Command Line takes you from your very first terminal keystrokes to writing full programs in Bash, the most popular Linux shell. Along the way you'll learn the timeless skills handed down by generations of gray-bearded, mouse-shunning gurus: file navigation, environment configuration, command chaining, pattern matching with regular expressions, and more. In addition to that practical knowledge, author William Shotts reveals the philosophy behind these tools and the rich heritage that your desktop Linux machine has inherited from Unix supercomputers of yore.",
+    "coverImageUrl": "./998e4e84a48a026be41c01888d1d2f1a0e2c087213f327ada5f8a0f3467f1202.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593273894/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593273894/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

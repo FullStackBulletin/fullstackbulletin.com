@@ -1,0 +1,115 @@
+{
+  "issueNumber": 390,
+  "title": "How does BlueSky work?",
+  "slug": "2024-09-16-372-how-does-bluesky-work",
+  "date": "2024-09-16",
+  "templateType": "mce-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "The great myth of our times is that technology is communication“",
+    "author": "Libby Larsen",
+    "authorTitle": "Composer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Libby_Larsen"
+  },
+  "links": [
+    {
+      "title": "correct link",
+      "url": "https://posthog.com/newsletter/engineers-do-support",
+      "description": null,
+      "imageUrl": "./4e572bbc2aa0230a50687a1a39accefb87d6cbe4602d14296d32cc0d13ac25ff.png",
+      "featured": true
+    },
+    {
+      "title": "How Does BlueSky Work?",
+      "url": "https://steveklabnik.com/writing/how-does-bluesky-work/",
+      "description": "Have you heard of [Bluesky](https://bsky.app/), a relatively new social network? I'm not here to convince you to join (although I have an [account](https://bsky.app/profile/loige.co) if you want to connect), but I wanted to share something interesting. The team behind Bluesky developed an innovative distributed protocol called the [AT Protocol](https://atproto.com/). In this article, we'll take a closer look at the AT Proto from the perspective of distributed backend engineering. If you're passionate about distributed systems or just curious to learn more, this is worth reading!",
+      "imageUrl": "./9e1904486a5fd98246168bace95b84a25e12cacdb518fad66a0acdd80f745f11.jpg",
+      "featured": false
+    },
+    {
+      "title": "The web's clipboard, and how it stores data of different types",
+      "url": "https://alexharri.com/blog/clipboard",
+      "description": "Have you ever copied something from your browser and noticed that when you paste it into Word, it keeps all the formatting, but when you paste it into VSCode, it’s just plain text? This difference comes from how the Clipboard API handles various data types. In this article, you'll discover how the Clipboard API works behind the scenes, why these differences exist, and how to take advantage of it for building smarter, more interactive web experiences. Whether you're coding or just curious, this guide has you covered!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Rsbuild 1.0",
+      "url": "https://rsbuild.dev/",
+      "description": "**Rsbuild** is a build tool based on [**Rspack**](https://rspack.dev/), designed for lightning-fast build times without sacrificing compatibility with **Webpack** plugins and configurations. It’s a great fit for projects of any size, and with its 1.0 release, I’m excited to finally give it a try in one of my upcoming projects. Plus, as a fun bonus, Rsbuild has one of the cutest logos I’ve ever seen in an open-source project! If you're after a faster, scalable build tool, now is the perfect time to explore Rsbuild.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Building the Same App Using Various Web Frameworks",
+      "url": "https://eugeneyan.com/writing/web-frameworks",
+      "description": "I recently came across this article comparing FastHTML, Next.js, and SvelteKit by building the same app with each, and I found it super insightful! If you’ve ever wondered how different frameworks stack up in real-world use, this breakdown will give you a clear picture of each one’s strengths and quirks. It’s a great read for anyone deciding on their next project framework or just curious about how these tools work in practice. I recommend checking it out—it’s a fun and informative experiment!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Setting up a production-ready VPS is a lot easier than I thought",
+      "url": "https://youtube.com/watch?v=F-9KWQByeU0",
+      "description": "If you’ve ever found setting up a production-ready VPS daunting, [Dreams of Code](https://www.youtube.com/@dreamsofcode)’s latest video is really helpful. It covers everything from SSH, domain setup, Docker, load balancing, TLS, and more, with a clear, step-by-step approach. I learned about WatchTower and gained deeper insights into Traefik from this video. Even as an AWS and cloud aficionado, I appreciate the hands-on approach of managing everything on a single server.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Features of your font you had no idea about",
+      "url": "https://sinja.io/blog/get-maximum-out-of-your-font",
+      "description": "If you’re passionate about improving your website’s look, I highly recommend checking out this article. It’s packed with practical tips for making the most out of your fonts, from choosing the right ones to implementing them effectively. As someone who loves refining design details, I found the advice on enhancing both aesthetics and readability particularly useful.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How I Added Maps to my Travel Posts",
+      "url": "https://cyberb.space/notes/2024/how-i-added-maps-to-my-travel-posts/",
+      "description": "If you’re interested in rendering maps on web pages, this article is a great resource. It shows how to use SVG images to add maps to your travel posts, without needing to rely on third-party services like Google Maps. The approach is both practical and easy to implement, making it a solid choice for enhancing your travel content with interactive visuals.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Rust for Rustaceans: Idiomatic Programming for Experienced Developers",
+    "author": "Jon Gjengset",
+    "description": "Master professional-level coding in Rust. For developers who've mastered the basics, this book is the next step on your way to professional-level programming in Rust. It covers everything you need to build and maintain larger code bases, write powerful and flexible applications and libraries, and confidently expand the scope and complexity of your projects. Author Jon Gjengset takes you deep into the Rust programming language, dissecting core topics like ownership, traits, concurrency, and unsafe code. You'll explore key concepts like type layout and trait coherence, delve into the inner workings of concurrent programming and asynchrony with async/await, and take a tour of the world of no_std programming. Gjengset also provides expert guidance on API design, testing strategies, and error handling, and will help develop your understanding of foreign function interfaces, object safety, procedural macros, and much more. You'll Learn:",
+    "coverImageUrl": "./f574d3e0fa7dd88a2ac3f1de41c03ce528c80e23ea4ff8e44edcedb51a03f018.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1718501854?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1718501854?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Local, first, forever",
+      "url": "https://tonsky.me/blog/crdt-filesync/"
+    },
+    {
+      "title": "Exponential rate limiting",
+      "url": "https://dotat.at/@/2024-09-02-ewma.html"
+    },
+    {
+      "title": "Is JavaScript getting a safe assignment operator?",
+      "url": "https://nalanj.dev/posts/safe-assignment/"
+    },
+    {
+      "title": "Mocking ESM Without Loaders in Node.js",
+      "url": "https://nalanj.dev/posts/mocking-without-loaders/"
+    },
+    {
+      "title": "9 open-source gems to become the ultimate developer",
+      "url": "https://dev.to/nevodavid/9-open-source-gems-to-become-the-ultimate-developer-2oj9"
+    },
+    {
+      "title": "10 Things You Can Learn from Netflix’s Architecture",
+      "url": "https://dev.to/somadevtoo/10-things-you-can-learn-from-netflixs-architecture-1bnn"
+    },
+    {
+      "title": "The State of ES5 on the Web",
+      "url": "https://philipwalton.com/articles/the-state-of-es5-on-the-web/"
+    },
+    {
+      "title": "Look out, kids: PHP is the new JavaScript",
+      "url": "https://www.mux.com/blog/php-is-the-new-javascript"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import Button from './Button.astro';
+import Icon from './Icon.astro';
+
+const issues = await getCollection('issues');
+const totalIssues = issues.length;
+---
+
+<section class="bg-white py-16 md:py-24 px-4 md:px-10 bg-pattern-grid">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="font-heading text-2xl md:text-3xl font-semibold title-bar mb-8">
+      The archive
+    </h2>
+
+    <div class="space-y-4 text-base md:text-lg leading-relaxed text-neutral-dark max-w-[700px]">
+      <p>
+        Every single issue we ever published is still available. That's {totalIssues} issues you can browse,
+        search, and read, with full-text search powered by
+        <a href="https://pagefind.app" target="_blank" rel="noopener noreferrer"
+          class="underline decoration-brand-primary underline-offset-2 hover:text-brand-dark transition-colors">Pagefind</a>.
+      </p>
+      <p>
+        Take a trip down memory lane: revisit what tech was hot a few years back, see how the web evolved
+        over the years, rediscover the trends that shaped frontend and backend development. You might even
+        find some hidden gems that are still relevant today.
+      </p>
+    </div>
+
+    <div class="mt-8">
+      <Button href="/archive" variant="primary" size="lg">
+        <Icon name="archive" size={18} />
+        Browse the archive
+      </Button>
+    </div>
+
+    <div class="mt-12 p-6 bg-neutral-darkest/5 border-l-4 border-brand-primary">
+      <h3 class="font-heading text-base font-semibold mb-3">
+        Nerd corner: take the data with you
+      </h3>
+      <p class="text-sm text-neutral-dark leading-relaxed mb-4">
+        We've made the entire archive available as structured data. Download it, query it, build something cool with it.
+        You could even load the Parquet file into <a href="https://duckdb.org" target="_blank" rel="noopener noreferrer" class="underline hover:text-brand-dark">DuckDB</a> and
+        run SQL queries against almost a decade of fullstack web development trends.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <Button href="/fullstackbulletin-archive.json" variant="secondary" size="sm" download>
+          <Icon name="download" size={16} />
+          Download JSON
+        </Button>
+        <Button href="/fullstackbulletin-archive.parquet" variant="secondary" size="sm" download>
+          <Icon name="download" size={16} />
+          Download Parquet
+        </Button>
+      </div>
+    </div>
+  </div>
+</section>

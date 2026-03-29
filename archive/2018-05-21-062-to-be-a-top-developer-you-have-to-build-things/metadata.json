@@ -1,0 +1,75 @@
+{
+  "issueNumber": 62,
+  "title": "To be a top developer you have to build things!",
+  "slug": "2018-05-21-062-to-be-a-top-developer-you-have-to-build-things",
+  "date": "2018-05-21",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #20, 2018",
+  "quote": {
+    "text": "The science of today is the technology of tomorrow",
+    "author": "Edward Teller",
+    "authorTitle": "Theoretical physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Edward_Teller"
+  },
+  "links": [
+    {
+      "title": "To be a top developer you have to build things!",
+      "url": "https://medium.freecodecamp.org/the-secret-to-being-a-top-developer-is-building-things-heres-a-list-of-fun-apps-to-build-aac61ac0736c",
+      "description": "You can only become a great developer by putting the effort in. Imagine for a moment — You can’t become fit physically by reading a lot about fitness... that's not how it works of course. In this article, you will find a lot of advice if you are looking for ideas to build new things.",
+      "imageUrl": "./84b01cff18daf8cdd9f5bd5317385c1eb92c7e83298582bbad1ea8ba49312b13.jpg",
+      "featured": true
+    },
+    {
+      "title": "The Children's Illustrated Guide to Kubernetes",
+      "url": "https://deis.com/blog/2016/kubernetes-illustrated-guide",
+      "description": "Introducing Phippy, an intrepid little PHP app, and her journey to Kubernetes.What is this? Well, I wrote a book that explains Kubernetes.",
+      "imageUrl": "./857e296e67bd248fd8ed9ca60a13b85e48fbcb3b318f92c657892b4d92f3db35.png",
+      "featured": false
+    },
+    {
+      "title": "New Programming Jargon",
+      "url": "https://blog.codinghorror.com/new-programming-jargon",
+      "description": "A fantastic collection of new programming jargon. How many of these words did you know already? How many did you already use on a daily basis?",
+      "imageUrl": "./e65bbb7861881abd8814f31fa858cec70cd950941ca142f069b344ed0e2562eb.png",
+      "featured": false
+    },
+    {
+      "title": "🏎 Mario Kart: CSS 🏁",
+      "url": "https://codeburst.io/mario-kart-css-7572bd2ce608",
+      "description": "Interactive Mario Kart with CSS only. No JavaScript... for real! OK, if you don't believe us, check this Codepen out!",
+      "imageUrl": "./e0431fbba0b9b4fa3f30513d414716d9f67f6f0d04a9927d8064b9240a8348e6.jpg",
+      "featured": false
+    },
+    {
+      "title": "I Used The Web For A Day With JavaScript Turned Off",
+      "url": "https://smashingmagazine.com/2018/05/using-the-web-with-javascript-turned-off",
+      "description": "Have you ever wondered whether it's possible to do anything on the web without JavaScript? How many sites use progressive enhancement in practice? Chris Ashton did an experiment to find out.",
+      "imageUrl": "./cd143108d092c0edd49a6a72fb3338b89f9128b9ee57c2432fd02ed47dfe57bd.png",
+      "featured": false
+    },
+    {
+      "title": "The Front-End Tooling Survey 2018",
+      "url": "https://ashleynolan.co.uk/blog/frontend-tooling-survey-2018-results",
+      "description": "The results of the 2018 Front-End Tooling Survey are out! If you are curious to know what are the hottest frontend technologies such as CSS and JS frameworks, check out the results and analysis of the responses here.",
+      "imageUrl": "./1c456754d9d90483745b4898f18859e619cbb201ef437773f83738fd0e9fdd6c.jpg",
+      "featured": false
+    },
+    {
+      "title": "New CSS Features That Are Changing Web Design",
+      "url": "https://smashingmagazine.com/2018/05/future-of-web-design",
+      "description": "Today, the design landscape has changed completely. We’re equipped with new and powerful tools — CSS Grid, CSS custom properties, CSS shapes and CSS writing-mode, to name a few — that we can use to exercise our creativity. Zell Liew explains how.",
+      "imageUrl": "./200c67a21f0c2a0bea3c87d5153cb54a7ad16446239a3197d85b436a87e2c91c.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Pragmatic Programmer: From Journeyman to Master",
+    "author": "Andrew Hunt",
+    "description": "he Pragmatic Programmer cuts through the increasing specialization and technicalities of modern software development to examine the core process-taking a requirement and producing working, maintainable code that delights its users. It covers topics ranging from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse.",
+    "coverImageUrl": "./2ffb12a41f490125695aeff2d4c3ea84a96f4f6c7298432191fdc3c1a104af4b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/020161622X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/020161622X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 109,
+  "title": "Building the new Facebook",
+  "slug": "2019-05-06-109-building-the-new-facebook",
+  "date": "2019-05-06",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #18, 2019",
+  "quote": {
+    "text": "The art challenges the technology, and the technology inspires the art",
+    "author": "John Lasseter",
+    "authorTitle": "Director",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_Lasseter"
+  },
+  "links": [
+    {
+      "title": "Building the new Facebook",
+      "url": "https://developers.facebook.com/videos/2019/building-the-new-facebookcom-with-react-graphql-and-relay/",
+      "description": "Open source projects like React, GraphQL and Relay are powering more and more Facebook services. This video session discloses how Facebook use the latest features of these technologies, like React Suspense, to help deliver a high quality, modern web experience at Facebook.",
+      "imageUrl": "./6f8dd7b08593c2d6306e0c0aaac9d4a0d75f9ba042f1975e479c9b087b4e278b.png",
+      "featured": true
+    },
+    {
+      "title": "Introducing Node.js 12",
+      "url": "https://medium.com/@nodejs/introducing-node-js-12-76c41a1b3f3f",
+      "description": "Node.js 12 was recently released and this post recaps on the new additions to this amazing runtime. Some spoilers: TLS 1.3, experimental support for ES6 modules, startup improvements, worker threads. Find out all the other changes :)",
+      "imageUrl": "./fde672ab8f70976715b696ea8d6415f7768d094613f91dc34888977d3ef56d81.jpg",
+      "featured": false
+    },
+    {
+      "title": "OKAI - An Interactive Introduction to Artificial Intelligence (AI)",
+      "url": "https://okai.brown.edu/index.html",
+      "description": "OKAI utilizes interactive graphics to demystify and introduce Artificial Intelligence concepts to a broader audience.",
+      "imageUrl": "./caffbb6369311393796a25dae01136eecdd9dfb708143b73f13e4628129d778d.jpg",
+      "featured": false
+    },
+    {
+      "title": "HTTP headers for the responsible developer",
+      "url": "https://twilio.com/blog/a-http-headers-for-the-responsible-developer",
+      "description": "This article proposes a number of best practices to use HTTP headers to build better web applications: security, caching, content negotiation and more.",
+      "imageUrl": "./27f5673f4fb2f6b6993d05760d1e28579bf17952ff60006c01f1d122aca4e81d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Steal Your Way to a High Performance Landing Page",
+      "url": "https://hackernoon.com/steal-your-way-to-a-high-performance-landing-page-149ea067520d",
+      "description": "A 3-step theft tactic for optimizing software product landing pages",
+      "imageUrl": "./127120435b5ab87d3f56049cbd3dca6771e236c9ac1a6aa3926ec7dfd0b8f1ec.jpg",
+      "featured": false
+    },
+    {
+      "title": "A crash course to the most important Docker concepts and their commands",
+      "url": "https://dev.to/azure/a-crash-course-to-the-most-important-docker-concepts-and-their-commands-4eio",
+      "description": "The key to learning anything is to quickly understand the most important concepts and how they go together. This is true for Docker as well so let's try to learn them",
+      "imageUrl": "./b0d9d83ef2fd2eab39f13c3a81a350bb96987a8989467a5af84aab8580669538.jpg",
+      "featured": false
+    },
+    {
+      "title": "Wrap a Vanilla JavaScript Package for Use in React",
+      "url": "http://scotch.io/tutorials/wrap-a-vanilla-javascript-package-for-use-in-react",
+      "description": "Complex web projects often require the use of 3rd party widgets. But what if you're using a framework while a widget is only available in pure JavaScript? To use a JavaScript widget in your project, the best approach would be to create a framework specific wrapper and this article shows you how to do exactly that!",
+      "imageUrl": "./019069933ef99164de9002352575a66b83fb1fa7cb75e56cea6ebf520666f18d.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Go Programming Language",
+    "author": "Alan A. A. Donovan",
+    "description": "The Go Programming Language   is the authoritative resource for any programmer who wants to learn Go. It shows how to write clear and idiomatic Go to solve real-world problems. The book does not assume prior knowledge of Go nor experience with any specific language, so you’ll find it accessible whether you’re most comfortable with JavaScript, Ruby, Python, Java, or C++.",
+    "coverImageUrl": "./be6ca3847c1c5e1bb60721ca2947bb788e506e371357a6e933bcac0b448d6a7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134190440/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134190440/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,112 @@
+{
+  "issueNumber": 396,
+  "title": "Linking Directly to Web Page Content",
+  "slug": "2024-10-28-378-linking-directly-to-web-page-content",
+  "date": "2024-10-28",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello and welcome to another issue where the love for the web and the thrill of learning new things await you! With our curated selection of content, we dive into a variety of topics that will inspire you to sharpen your skills and explore the vast world of full-stack development.\n\nJust last week at [Codemotion Milan](https://conferences.codemotion.com/milan2024/), I attended a very entertaining and provocative keynote by [Francesco Sciuti](https://www.francescosciuti.it/) and [Gabriele Santomaggio](https://x.com/gsantomaggio), where they claimed that the full-stack developer is only a mythological figure that does not exist in real life... While I deeply loved that talk, I am eager to show them that full-stack web development is a career worth pursuing! It's certainly not an easy one and it takes a lot of grind and passion to achieve proficiency in both frontend and backend... but with each new piece of knowledge, we’re proving that being a full-stack developer is not just a title, it’s a journey of continuous growth and discovery. So, let’s dive into this week's content and celebrate the excitement of learning together! Happy reading! 🤓\n\n*Your editor, [Luciano](https://loige.co/)*\n\nPS: if you are curious to see what I presented at Codemotion, you can check out my slides for my [talk about building SaaS platforms on AWS](https://fth.link/saas-mi) and the ones for my [workshop about Writing Lambda Functions in Rust](https://loige.link/rusty-sls). Let me know if you find them useful!",
+  "quote": {
+    "text": "If we continue to develop our technology without wisdom or prudence, our servant may prove to be our executioner“",
+    "author": "Omar Bradley",
+    "authorTitle": "Military Officer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Omar_Bradley"
+  },
+  "links": [
+    {
+      "title": "Linking Directly to Web Page Content",
+      "url": "https://alfy.blog/2024/10/19/linking-directly-to-web-page-content.html",
+      "description": "Ever wanted to create a link that highlights a specific piece of text on a long web page? Well, there's a web standard for that! It’s called **URL Fragment Text Directives** (yeah, quite the mouthful), and this article does a great job summarizing what you need to know if you’re too busy to dive into the [full spec](http://https//wicg.github.io/scroll-to-text-fragment/). By the way, this is the same feature Chrome uses when you select text, right-click, and choose \"Copy Link to Highlight.\" I always thought that was just a Chrome thing!",
+      "imageUrl": "./22de2505842b2f3e55ecac9a8cacdf70acb38d2913bae7778e13bbff91723866.png",
+      "featured": true
+    },
+    {
+      "title": "The story of web framework Hono",
+      "url": "https://blog.cloudflare.com/the-story-of-web-framework-hono-from-the-creator-of-hono",
+      "description": "Hono is a lightweight framework designed with a \"standards-first\" approach, using the Request API and Web Streams. Because of this, Hono runs seamlessly across just about any platform: Node.js, Deno, Bun, Cloudflare Workers, Netlify, or AWS Lambda. If you’re interested in frameworks built for flexibility and performance, check out the story behind Hono from its creator, who shares the motivations and technical challenges that shaped it. I personally think this framework is not just another framework, we'll be hearing more about it! PS: do you know what the name Hono means? 🔥",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Radix Vue",
+      "url": "https://radix-vue.com/",
+      "description": "Radix is one of the best and most complete (unstyled) component libraries out there. With a strong focus on accessibility and a flexible, \"unstyled\" approach, it’s a perfect fit for almost any frontend project. In fact, it’s become the foundation for some other popular projects, like Shadcn! While Radix was originally built for React, Vue fans can now rejoice with this fantastic Radix port for Vue, all set for you (ba da tss 🥁).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Svelte 5 is alive",
+      "url": "https://svelte.dev/blog/svelte-5-is-alive",
+      "description": "And for the fans of Svelte, we also have very big news... Svelte 5 is here, packed with exciting updates! This release brings new features designed to push Svelte’s flexibility even further, like enhanced support for reactivity and some major compiler improvements. One of the most intriguing (and perhaps a bit controversial) additions is “**runes**,” which aim to strip away some of the \"magic\" behind how Svelte works, giving you more transparency and control. I heard opposing views on this feature. What do you think? Are runes making Svelte better or worse?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Why I’m skeptical of rewriting JavaScript tools in “faster” languages",
+      "url": "https://nolanlawson.com/2024/10/20/why-im-skeptical-of-rewriting-javascript-tools-in-faster-languages",
+      "description": "This article brings a unique take on rewriting JavaScript tools in faster languages, like Rust or Go, challenging some widely held assumptions. The author raises points about potential maintenance issues, a steeper learning curve, and concerns over adding complexity for marginal gains, especially as JavaScript itself continues to evolve in speed and capability. While I’m not fully aligned with this perspective—having seen firsthand the benefits of high-performance tools like Vite and Biome—I think it’s a thought-provoking read. Are faster languages really worth the trade-offs for our beloved JavaScript tooling? It’s definitely a perspective worth exploring, so give it a read and let me know where you stand!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Node v23.0.0",
+      "url": "https://nodejs.org/en/blog/release/v23.0.0",
+      "description": "Big news for Node.js users: version 23.0.0 is here, packed with powerful updates! This release brings impressive performance boosts with a new V8 engine, along with security upgrades and enhanced diagnostics to make debugging smoother and monitoring production applications easier. But here’s a reminder: as an odd-numbered release, Node 23 isn’t part of the long-term support (LTS) track. Think of it as an exciting preview of what’s to come in Node.js 24. If you’re keen on stability, you might want to wait for the LTS release, but if you’re ready to explore the latest and greatest, dive into Node 23 and see what’s new!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Best Testing Practices in Node.js",
+      "url": "https://blog.appsignal.com/2024/10/16/best-testing-practices-in-nodejs.html",
+      "description": "Sticking with Node.js content, this article on the best testing practices covers 15 suggestions for writing effective tests, including essential strategies for unit, integration, and end-to-end testing. Key highlights include the importance of setting up a solid testing framework with tools like Mocha, Jest, or Ava, writing isolated tests to focus on specific functionalities, and using descriptive test names to enhance clarity. The article also emphasizes automating testing with continuous integration to save time and catch issues early.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Information Architecture: For the Web and Beyond",
+    "author": "Louis Rosenfeld, Peter Morville, and Jorge Arango",
+    "description": "Information architecture (IA) is far more challenging―and necessary―than ever. With the glut of information available today, anything your organization wants to share should be easy to find, navigate, and understand. But the experience you provide has to be familiar and coherent across multiple interaction channels, from the Web to smartphones, smartwatches, and beyond. To guide you through this broad ecosystem, this popular guide―now in its fourth edition―provides essential concepts, methods, and techniques for digital design that have withstood the test of time. UX designers, product managers, developers, and anyone involved in digital design will learn how to create semantic structures that will help people engage with your message.",
+    "coverImageUrl": "./3e857576b1f6822b7f58f7f924b90808521bc509dd61ec08cb52b48db6696a20.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491911689?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491911689?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Next.js 15",
+      "url": "https://nextjs.org/blog/next-15"
+    },
+    {
+      "title": "Cacheable: Caching for Nodej.js",
+      "url": "https://github.com/jaredwray/cacheable"
+    },
+    {
+      "title": "5 differences between React server components and server-side rendering",
+      "url": "https://tymzap.com/blog/5-differences-between-react-server-components-and-server-side-rendering"
+    },
+    {
+      "title": "How to convert CommonJS to ESM",
+      "url": "https://deno.com/blog/convert-cjs-to-esm"
+    },
+    {
+      "title": "Node.js 23 Released - Here's What's Interesting",
+      "url": "https://codu.co/articles/node-js-23-released-here-s-what-s-interesting-26j8irng"
+    },
+    {
+      "title": "Hyper-responsive web components",
+      "url": "https://trysmudford.com/blog/hyper-responsive-web-components"
+    },
+    {
+      "title": "So, Your CMS Blew Up. Any Decent WordPress Alternatives Out There?",
+      "url": "https://tedium.co/2024/10/20/wordpress-cms-alternatives-content-strategy-advice"
+    },
+    {
+      "title": "How should <selectedoption> work?",
+      "url": "https://jakearchibald.com/2024/how-should-selectedoption-work"
+    },
+    {
+      "title": "Building Businesses in the Cloud (podcast)",
+      "url": "https://awsbites.com/133-building-businesses-in-the-cloud-with-fiona-mckenna"
+    }
+  ],
+  "sponsor": null
+}

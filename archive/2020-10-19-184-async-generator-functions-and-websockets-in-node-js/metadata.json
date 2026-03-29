@@ -1,0 +1,75 @@
+{
+  "issueNumber": 184,
+  "title": "Async Generator Functions and Websockets in Node.js",
+  "slug": "2020-10-19-184-async-generator-functions-and-websockets-in-node-js",
+  "date": "2020-10-19",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #42, 2020",
+  "quote": {
+    "text": "It would appear that we have reached the limits of what it is possible to achieve with computer technology, although one should be careful with such statements, as they tend to sound pretty silly in 5 years",
+    "author": "John Von Neumann",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_von_Neumann"
+  },
+  "links": [
+    {
+      "title": "Async Generator Functions and Websockets in Node.js",
+      "url": "http://thecodebarbarian.com/async-generator-functions-and-websockets-in-node-js",
+      "description": "Async generator functions were a new feature in **ES2018**. Node.js added support for async generator functions in Node.js 10. Async generator functions may seem like a pretty niche feature, but they present a neat opportunity for Node.js WebSocket frameworks. In this article, I'll explain how a Node.js WebSocket framework might use async generator functions.",
+      "imageUrl": "./5fd9625738df528ecf4e6cb47560173b3b8b675d6ad2d4fedc9b322a0e78dbc4.png",
+      "featured": true
+    },
+    {
+      "title": "Vugu",
+      "url": "https://vugu.org/",
+      "description": "Vugu: Write pure Go and targets WebAssembly! Most modern browsers supported. Experimental, for now, but really cool!",
+      "imageUrl": "./d148226f14ac899e11b444dd2beb652b13c74d2f6b0a2752a232823d5120d5c2.png",
+      "featured": false
+    },
+    {
+      "title": "3 node.js scalability problems and how to solve them 🚀",
+      "url": "https://softwareontheroad.com/nodejs-scalability-issues",
+      "description": "Serving static assets, not using cluster mode, and poorly designed cron jobs, are the most common mistakes when scaling a node.js server.",
+      "imageUrl": "./08e8c41293ec2e6f88619d9e600bfd1f02593aabf7b51d46cea174bdc44f43f3.jpg",
+      "featured": false
+    },
+    {
+      "title": "Use lazy-loading to improve loading speed",
+      "url": "https://web.dev/lazy-loading/",
+      "description": "Lazy-loading is a technique that defers loading of non-critical resources at page load time. Instead, these non-critical resources are loaded at the moment of need. Where images are concerned, \"non-critical\" is often synonymous with \"off-screen\".",
+      "imageUrl": "./7b5d08f53012accba3dc27811409911dbb969a972ff5e1e75dce7be00465755a.png",
+      "featured": false
+    },
+    {
+      "title": "How to Conditionally Add Attributes to Objects",
+      "url": "https://davidwalsh.name/javascript-conditional-object",
+      "description": "JavaScript is full of tricks that you don't know you want until you ... want ... them. Or maybe just until you see them. One trick I recently realized was conditionally adding attributes to React elements!",
+      "imageUrl": "./899cd17527927ac90e6533f91b5b717f4a17be8ca45b163799e921ea98af4a0a.png",
+      "featured": false
+    },
+    {
+      "title": "Declarative Shadow DOM",
+      "url": "https://web.dev/declarative-shadow-dom",
+      "description": "Declarative Shadow DOM is a new way to implement and use Shadow DOM directly in HTML.",
+      "imageUrl": "./d8d0b749bd4acc8e0462a810dc6e85135394ffc455abc260355294ecf20523db.jpg",
+      "featured": false
+    },
+    {
+      "title": "Radix Icons",
+      "url": "https://icons.modulz.app/",
+      "description": "A crisp set of 15×15 icons designed by the Modulz team.",
+      "imageUrl": "./3d757731809109ca30a9c418324b529037ed0c8b7da311d92822bf4b92929c25.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "React.js Essentials",
+    "author": "Artemij Fedosejev",
+    "description": "A fast-paced guide to designing and building scalable and maintainable web apps with React.js. Begin by exploring how you can create single and multiple user interface elements. Create stateless and stateful components and make them reactive, learn to interact between your components and lifecycle methods and gauge how to effectively integrate your user interface components with other JavaScript libraries. Delve deep into the core elements of the Flux architecture and learn how to manage your application using stores. Finish by going that extra mile with the Jest test framework, running multiple tests on your application and find solutions to scale it further without complexity.",
+    "coverImageUrl": "./eb95347c1c0e80dbd4676f9526e1a8610c6ada33f97b47b2a0d06ce514d88632.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1783551623/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1783551623/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

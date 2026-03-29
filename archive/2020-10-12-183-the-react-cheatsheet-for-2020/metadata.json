@@ -1,0 +1,75 @@
+{
+  "issueNumber": 183,
+  "title": "The React Cheatsheet for 2020",
+  "slug": "2020-10-12-183-the-react-cheatsheet-for-2020",
+  "date": "2020-10-12",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #41, 2020",
+  "quote": {
+    "text": "I think computer viruses should count as life.  I think it says something about human nature that the only form of life we have created so far is purely destructive.  We’ve created life in our own image",
+    "author": "Stephen Hawking",
+    "authorTitle": "Theoretical physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+  },
+  "links": [
+    {
+      "title": "The React Cheatsheet for 2020",
+      "url": "https://dev.to/codeartistryio/the-react-cheatsheet-for-2020-real-world-examples-4hgg",
+      "description": "Everything you need to know about React in 2020: JSX, lists, events, state, basic hooks (useState, useEffect, useMemo, useRef), context, reducers and more! 🤯",
+      "imageUrl": "./1f6b688a74bc514b4477e269a69ef0617ad0b190f0259ea31b668a5a5a7632b4.jpg",
+      "featured": true
+    },
+    {
+      "title": "A Complete Guide to CSS Media Queries",
+      "url": "https://css-tricks.com/a-complete-guide-to-css-media-queries",
+      "description": "Media queries can modify the appearance (and even behavior) or a website or app based on a matched set of conditions about the user's device, browser or system settings.",
+      "imageUrl": "./baf9fde3da2ba8f004adf4ecc78f11f1c4ae2d336ad4611e0023804608863ca7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Bringing the Mona Lisa Effect to Life with TensorFlow.js",
+      "url": "https://blog.tensorflow.org/2020/09/bringing-mona-lisa-effect-to-life-tensorflow-js.html",
+      "description": "Urban legend says that Mona Lisa's eyes will follow you as you move around the room. This interactive digital portrait brings the phenomenon to life...",
+      "imageUrl": "./1f2a7082280578616fa89c0d7fe10a62df9d2b03df48dd10b79b1e0b1d4e7204.jpg",
+      "featured": false
+    },
+    {
+      "title": "Realistic CSS Art hacks",
+      "url": "https://dev.to/elliehtml/realistic-css-art-hacks-27pk",
+      "description": "The secrets of creating realistic CSS art, it's simple! This article shows how to create some amazing can designs using only CSS and HTML.",
+      "imageUrl": "./9689c40854d39c0da94702fb1470dacd1b8beb85a61070a9b15f42b3bfd0851c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Plausible: Self-Hosted Google Analytics alternative",
+      "url": "https://plausible.io/self-hosted-web-analytics",
+      "description": "Plausible Analytics is a privacy-friendly and open-source Google Analytics alternative that you can install and self-host on your server.",
+      "imageUrl": "./43ca9556d186a3a590d2dfc17afa3a00be28bbb71a81d21ba13739cdd74ff071.jpg",
+      "featured": false
+    },
+    {
+      "title": "Emulate vision deficiencies in DevTools",
+      "url": "http://addyosmani.com/blog/emulate-vision-deficiencies-devtools",
+      "description": "Emulate vision deficiencies in to see how users who experience color blindness or blurred vision might see your site.",
+      "imageUrl": "./8c7474ba89ac0639e0627f7ea87a5fbd33cd272756f8887c7f6c906ed04ec832.jpg",
+      "featured": false
+    },
+    {
+      "title": "Design better by avoiding your cognitive biases",
+      "url": "https://kooslooijesteijn.net/blog/design-better-avoiding-cognitive-biases",
+      "description": "Can you outsmart your brain? Seven biases that mess up your designs and what you can do against them.",
+      "imageUrl": "./49cacd1f07096d582b136b5aefc727271fe3b0abf98079463727524eb845bd39.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Cassandra: The Definitive Guide: Distributed Data at Web Scale",
+    "author": "Jeff Carpenter and Eben Hewitt",
+    "description": "Imagine what you could do if scalability wasn't a problem. With this hands-on guide, you’ll learn how the Cassandra database management system handles hundreds of terabytes of data while remaining highly available across multiple data centers. This expanded second edition—updated for Cassandra 3.0 provides the technical details and practical examples you need to put this database to work in a production environment. Authors Jeff Carpenter and Eben Hewitt demonstrate the advantages of Cassandra’s non-relational design, with special attention to data modeling.",
+    "coverImageUrl": "./10919e24e677765bb72655af277029f8dbb8ee40b9d66eeac77305bc7fd728c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491933666/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491933666/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

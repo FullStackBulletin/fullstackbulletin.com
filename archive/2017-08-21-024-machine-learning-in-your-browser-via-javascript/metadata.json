@@ -1,0 +1,75 @@
+{
+  "issueNumber": 24,
+  "title": "Machine learning in your browser via JavaScript",
+  "slug": "2017-08-21-024-machine-learning-in-your-browser-via-javascript",
+  "date": "2017-08-21",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #33, 2017",
+  "quote": {
+    "text": "Errors using inadequate data are much less than those using no data at all",
+    "author": "Charles Babbage",
+    "authorTitle": "Mathematician",
+    "authorUrl": "https://en.wikipedia.org/wiki/Charles_Babbage"
+  },
+  "links": [
+    {
+      "title": "Machine learning comes to your browser via JavaScript",
+      "url": "http://infoworld.com/article/3212884/machine-learning/machine-learning-comes-to-your-browser-via-javascript.html",
+      "description": "A new JavaScript library runs Google's TensorFlow right in the browser with GPU acceleration—a novel way to bring machine learning to the masses",
+      "imageUrl": "./fc4313b0836e8251bfcea0c8d7b840397e472beebb6df7bc7f3f7bd012ffad06.jpg",
+      "featured": true
+    },
+    {
+      "title": "JPNG.svg (Transparent PNG with JPEG Compression)",
+      "url": "https://codepen.io/shshaw/details/LVKEdv",
+      "description": "Combine the transparency of a PNG with the compression of a JPEG. A new approach that will save your user a lot of bandwidth.",
+      "imageUrl": "./1c7c2888d03ce2a0e7a41cca40ce629bab7da05f1a9eaf3d90a1a7aa03005d8c.jpg",
+      "featured": false
+    },
+    {
+      "title": "10 guidelines to improve your web accessibility",
+      "url": "https://aerolab.co/blog/web-accessibility",
+      "description": "We put together a list of ten web accessibility guidelines that will guarantee access to your site to any person, in spite of their disabilities.",
+      "imageUrl": "./06b587aac60275a0cd20ecdf26f86ee2c369cbeae9af3c2c9e2b77d66913067a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Nuxt.js: A Universal Vue.js Application Framework",
+      "url": "https://sitepoint.com/nuxt-js-universal-vue-js",
+      "description": "Improve the loading performance and SEO of your Vue.js apps with Server-side rendering (SSR). Learn to build a universal Vue app with the Nuxt.js framework.",
+      "imageUrl": "./fb625d4de7dfd0e0bfb5753f7213810c5cc83bbc3a4a387360c0a337abfa5eaf.jpg",
+      "featured": false
+    },
+    {
+      "title": "exa - A modern replacement for ls",
+      "url": "https://the.exa.website/",
+      "description": "exa is a modern replacement for ls. It uses colours for information by default, helping you distinguish between many types of files, such as whether you are the owner, or in the owning group. It also has extra features not present in the original ls, such as viewing the Git status for a directory.",
+      "imageUrl": "./f5c710d6d8d3370ee8e29b193463796636c6a3750ae815336d6f659f14498655.png",
+      "featured": false
+    },
+    {
+      "title": "The Languages Which Almost Became CSS",
+      "url": "http://blog.cloudflare.com/the-languages-which-almost-became-css",
+      "description": "The history of all the languages which almost became CSS and the development of the styled web.",
+      "imageUrl": "./be972c0246040196405e294bcf9bf84208c504d1113a6c2bc4e031acd2111cb7.jpg",
+      "featured": false
+    },
+    {
+      "title": "8 things to learn in React before using Redux",
+      "url": "https://robinwieruch.de/learn-react-before-using-redux",
+      "description": "Facts about React that should be known before using Redux (or MobX). Most important: Learn React first, then opt-in Redux...",
+      "imageUrl": "./6dadc83bba5e172281600d7e3eb81411d934ce20e5aa428454232a339170e445.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "description": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code. Considered the JavaScript expert by many people in the development community, author Douglas Crockford identifies the abundance of good ideas that make JavaScript an outstanding object-oriented programming language-ideas such as functions, loose typing, dynamic objects, and an expressive object literal notation.",
+    "coverImageUrl": "./b4beb220d7fc9561d1a7ac83cc89192fb78f862d089424d2a5ef352069ce6e33.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0596517742/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0596517742/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

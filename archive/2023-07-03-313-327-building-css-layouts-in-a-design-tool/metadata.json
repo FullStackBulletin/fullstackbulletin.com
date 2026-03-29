@@ -1,0 +1,75 @@
+{
+  "issueNumber": 327,
+  "title": "#327: Building CSS Layouts In A Design Tool",
+  "slug": "2023-07-03-313-327-building-css-layouts-in-a-design-tool",
+  "date": "2023-07-03",
+  "templateType": "old-mailchimp",
+  "intro": "🐘 [Fullstack bulletin is now on Mastodon](https://mastodon.social/@fstackbulletin)! We will be posting new interesting links there. There are some technical reasons why we are replacing Twitter with Mastodon, if you are curious to find out why, check out our next [live stream on Twitch](https://twitch.tv/loige). We also have the recordings from our previous sessions [on YouTube](https://www.youtube.com/playlist?list=PLbNOKnE-Oyr1tsUft4j0QZDyk5iFcVVy_).",
+  "quote": {
+    "text": "That’s been one of my mantras — focus and simplicity. Simple can be harder than complex; you have to work hard to get your thinking clean to make it simple",
+    "author": "Steve Jobs",
+    "authorTitle": "Apple co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Jobs"
+  },
+  "links": [
+    {
+      "title": "Building CSS Layouts In A Design Tool",
+      "url": "https://smashingmagazine.com/2023/06/penpot-flex-layout-building-css-layouts-design-tool",
+      "description": "[Penpot](https://penpot.app/) is an exciting alternative to Figma that you can run for free from the comfort of your laptop, simply by using Docker. This article showcases how you can use Penpot to design an attractive masonry-like layout in a very visual way and then generate CSS code to adopt that layout in your next application!",
+      "imageUrl": "./e07fcfc46a6f533ef0ca428925cc73de25b7d6f218cded159a72b86f102ba886.jpg",
+      "featured": true
+    },
+    {
+      "title": "TypeScript 5.2's New Keyword: 'using'",
+      "url": "https://totaltypescript.com/typescript-5-2-new-keyword-using",
+      "description": "TypeScript 5.2 introduces **`using`**, a keyword that disposes of anything with a **`Symbol.dispose`** function upon leaving scope, making resource management easier. This is not a new magic TypeScript feature, it's actually a [TC39 proposal](https://github.com/tc39/proposal-explicit-resource-management) that reached stage-3, so it will be available soon in all major JS runtimes!",
+      "imageUrl": "./c517eff8ad4f3893ad38ffb7f1c7ad86237c26933fc898a93b12e96c6d9b4552.jpg",
+      "featured": false
+    },
+    {
+      "title": "Introducing Skew Protection",
+      "url": "https://vercel.com/blog/version-skew-protection",
+      "description": "If you make a change in your frontend and in your backend, chances are that someone might still use an old version of the frontend to send requests to the new version of the backend (assume they loaded the UI just before you started your deployment). This is called **version skew** and it might lead to unexpected issues. Vercel now offers a way to protect your apps against this tedious source of bugs!",
+      "imageUrl": "./e8d81c6d5e4d8210427a89d7e1db1fea0bb65e48c167215a87e63394b7c57699.jpg",
+      "featured": false
+    },
+    {
+      "title": "Creating a seamless multi-language user interface in React",
+      "url": "https://honeybadger.io/blog/creating-multi-language-user-interface-with-react",
+      "description": "Learn how to create apps that can display information in different languages based on user preferences. In this article, we'll walk through the process of building a weather application with multi-language support using **`react-i18next`**.",
+      "imageUrl": "./e9229b3d8fdde645775ec665832d6ef04e15a9f940eaee6969394071243eed67.jpg",
+      "featured": false
+    },
+    {
+      "title": "An Introduction to Command Injection Vulnerabilities in Node.js and JavaScript",
+      "url": "https://nodejs-security.com/blog/introduction-command-injection-vulnerabilities-nodejs-javascript",
+      "description": "The always-excellent [**Liran Tal**](https://lirantal.com/), gives us an introduction to **Command injection vulnerabilities**. This type of attack poses a significant threat to Node.js and JavaScript applications' security. By understanding the risks involved, referencing real-world incidents, and following best practices, developers can effectively mitigate these vulnerabilities.",
+      "imageUrl": "./34bf8bf2d95b3d94634742308917f089e4abe8ceeb44b82fd4507a5dcbf419c6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Is there a viable animated GIF alternative yet or what?",
+      "url": "https://cloudfour.com/thinks/animated-gif-alternative",
+      "description": "Animated GIFs remain popular in spite of their beefy file sizes. But what are we supposed to use instead, since GIFs are so easy to use and they are pretty much universally supported?",
+      "imageUrl": "./f42f98dff55357ea1b2867c833d3dae33accc6dd3e04cce5a47b6c285129658a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Custom giraffe caret",
+      "url": "https://muffinman.io/blog/custom-giraffe-caret",
+      "description": "Did you ever think you could customise the caret in a form text field? You probably didn't, but [**Stanko Tadić**](https://www.linkedin.com/in/stankotadic/) did and the result is most excellent. Let me just tell you they used an animated giraffe as a caret indicator... and this should be more than enough to make you want to read this awesome article!",
+      "imageUrl": "./9893d8623ef6b20613aa34eeef1089f17225598a047c6bf04bd56118f624bb6c.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Graph Databases: New Opportunities for Connected Data",
+    "author": "Ian Robinson",
+    "description": "Discover how graph databases can help you manage and query highly connected data. With this practical book, you’ll learn how to design and implement a graph database that brings the power of graphs to bear on a broad range of problem domains. Whether you want to speed up your response to user queries or build a database that can adapt as your business evolves, this book shows you how to apply the schema-free graph model to real-world problems.",
+    "coverImageUrl": "./5688bd18a6677e59e5b8c680c2848ab320dd4d4d28db65515d0e83fccec1d924.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491930896/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491930896/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

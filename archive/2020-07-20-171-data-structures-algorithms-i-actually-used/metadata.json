@@ -1,0 +1,75 @@
+{
+  "issueNumber": 171,
+  "title": "Data Structures & Algorithms I Actually Used",
+  "slug": "2020-07-20-171-data-structures-algorithms-i-actually-used",
+  "date": "2020-07-20",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #29, 2020",
+  "quote": {
+    "text": "Standards are always out of date.  That’s what makes them standards",
+    "author": "Alan Bennett",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Bennett"
+  },
+  "links": [
+    {
+      "title": "Data Structures & Algorithms I Actually Used",
+      "url": "https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day",
+      "description": "Do you actually use algorithms and data structures on your day to day job? I've noticed a growing trend of people assuming algorithms are pointless questions that are asked by tech companies purely as an arbitrary measure.",
+      "imageUrl": "./867c23206ee4d531143f7acdcb41245afe4b3a5ab0d65479f7e73a0e74a11a44.png",
+      "featured": true
+    },
+    {
+      "title": "Building a self-updating profile README for GitHub",
+      "url": "http://simonwillison.net/2020/Jul/10/self-updating-profile-readme",
+      "description": "GitHub quietly released a new feature at some point in the past few days: profile READMEs. This article will illustrate a brilliant idea to keep your profile dynamic by using GitHub actions to update your README.",
+      "imageUrl": "./71bc681ffd9d2754947c96879e760b0fa035c9dddb6e48db96c964a365d0b992.jpg",
+      "featured": false
+    },
+    {
+      "title": "Hacking with Environment Variables",
+      "url": "https://elttam.com/blog/env",
+      "description": "This article provides an interesting list of environment variables that you can supply to scripting language interpreters to produce \"possibly unintended\" side effects...",
+      "imageUrl": "./f5f8589087fb449b75bce41f2b2115c837b0cd2725cd8af05a2953878bd53407.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rust for JavaScript Developers - Pattern Matching and Enums",
+      "url": "http://sheshbabu.com/posts/rust-for-javascript-developers-pattern-matching-and-enums",
+      "description": "If you are a JavaScript developer trying to learn Rust, this tutorial covers pattern matching, destructuring, and enums!",
+      "imageUrl": "./dde7fe29ae54a4b5799d4cfb95a971b1f3914e3bc5ea33e8c44eca18659dba2e.png",
+      "featured": false
+    },
+    {
+      "title": "shareon",
+      "url": "https://shareon.js.org/",
+      "description": "Lightweight, stylish and ethical share buttons for popular social networks",
+      "imageUrl": "./d96efa7fb9541e24e88113fd8351ce8d51a510d7bd435f8c4359873b66d06f17.png",
+      "featured": false
+    },
+    {
+      "title": "WordPress Static Site: Benefits, Limits & Tools",
+      "url": "https://snipcart.com/blog/wordpress-static-site-generator",
+      "description": "WordPress & Jamstack can be united to surprising results. Read this complete guide to getting started with WordPress static site generators!",
+      "imageUrl": "./529bb90c3c9751579b2c67c5caf68d431fcc9399a00ca89ec04da2b3d50ea479.jpg",
+      "featured": false
+    },
+    {
+      "title": "Understanding and Decoding a JPEG Image using Python",
+      "url": "https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python",
+      "description": "A fantastic article that can help you to understand the JPEG compression algorithm. One thing a lot of people don’t know is that JPEG is not a format but rather an algorithm. During the course of this article, you will be implementing a JPEG decoder in python! 🐍",
+      "imageUrl": "./b9e96178e3e112fe458ab0d94f9f08f608f4ca1f7f133eb53b23d6984094f09b.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Irresistible APIs: Designing web APIs that developers will love",
+    "author": "Kirsten Hunter",
+    "description": "Well-designed APIs feel like a natural extension of the application, rather than just a new interface into the backend database. Designing Web APIs based on use cases allows an organization to develop irresistible APIs, which developers can consume easily and which support the business values of that organization.",
+    "coverImageUrl": "./30b0a33a50dce31e700a6e019b8e0d6136b4e6d656592cb23358dc5b945f4c2a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617292559/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617292559/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

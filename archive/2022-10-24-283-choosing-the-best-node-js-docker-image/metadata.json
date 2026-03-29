@@ -1,0 +1,75 @@
+{
+  "issueNumber": 296,
+  "title": "Choosing the best Node.js Docker image",
+  "slug": "2022-10-24-283-choosing-the-best-node-js-docker-image",
+  "date": "2022-10-24",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "It would appear that we have reached the limits of what it is possible to achieve with computer technology, although one should be careful with such statements, as they tend to sound pretty silly in 5 years",
+    "author": "John Von Neumann",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_von_Neumann"
+  },
+  "links": [
+    {
+      "title": "Choosing the best Node.js Docker image",
+      "url": "https://snyk.io/blog/choosing-the-best-node-js-docker-image",
+      "description": "Snyk's [Liran Tal](https://twitter.com/liran_tal) gets the spotlight again with this fantastic blog post that discusses strategies for choosing the best node.js Docker image. It's very easy to make your app vulnerable by just picking the wrong image or by not pinning its version. If you ship Node.js containers to production and you like to sleep at night, this is a must-read!",
+      "imageUrl": "./8b797a25e0996e2ee10bee5522e11fab062aacdec604933347bfbf5d441c727f.jpg",
+      "featured": true
+    },
+    {
+      "title": "The State of AWS Security",
+      "url": "https://datadoghq.com/state-of-aws-security",
+      "description": "A very interesting article by DataDog where they analyze trends in the implementation of security best practices and took a closer look at various types of misconfigurations that contribute to the most common causes of security breaches. Another security article that is well recommended if you use AWS.",
+      "imageUrl": "./c75b7dd2608ad7535cbc83074c3c1cbef896553a61501f4462cab8b20888a95d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Trying New Programming Languages to Grow as a Software Engineer",
+      "url": "https://cichocinski.dev/blog/trying-new-programming-languages-helped-grow-software-engineer",
+      "description": "I always encourage devs to get out of their comfort zone and try new programming languages, especially the ones that are radically different from the ones they know already. You don't need to become an expert in all programming languages, but understanding different paradigms can really change the way you think about coding, for the better!",
+      "imageUrl": "./49ddfd83febb48b7f6ec47db32d0935ba01b559591a0beeaa1203ff75957a370.jpg",
+      "featured": false
+    },
+    {
+      "title": "melonJS",
+      "url": "https://melonjs.org/",
+      "description": "A couple of issues ago we had an article about how to build a game in JavaScript from scratch and we also mentioned [Kaboom.js](https://kaboomjs.com/). If you like this kind of content, you should also know about melonJS, an open-source HTML5 game engine that comes with a lovely UI!",
+      "imageUrl": "./65b87cefe0e14bb2f2699320ea1505b125885fada200c5aced5f6cc56e84a689.png",
+      "featured": false
+    },
+    {
+      "title": "How I created a GameBoy-like game in 13kb",
+      "url": "https://medium.com/hypersphere-codes/how-i-created-a-gameboy-like-game-in-13kb-5905bf6166b2",
+      "description": "If you are loving content related to making games in JavaScript, here's an incredible case study: the history of Gravepassing, one of the games competing for js13kgames 2022. Yes, that means that the entire game is less than 13kb, assets included!",
+      "imageUrl": "./11d634b468cf0c36153f5466dd63c436475deddbf637fc45e14fd38052aacc11.png",
+      "featured": false
+    },
+    {
+      "title": "AWS CDK - Best Practices From The Trenches",
+      "url": "https://ranthebuilder.cloud/post/aws-cdk-best-practices-from-the-trenches",
+      "description": "Best practices and guidelines for working with AWS CDK, learned from using AWS CDK, from development to production over the past 3 years.",
+      "imageUrl": "./e2c04588abb93861e1d054c460421ab1c1f57d7226c2981da48f90a4f3565739.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Pure CSS Gallery Focus Effect with :not",
+      "url": "https://css-tricks.com/a-pure-css-gallery-focus-effect-with-not",
+      "description": "Oftentimes in the past, I needed to figure out how to add styles to all elements inside the container but not the hovered one. This article shows how to do exactly that by using the new CSS ***:not*** pseudo-selector.",
+      "imageUrl": "./ddf4d08eb2516e7af72fbead1bef8b7e44a63e5fef9226514ed9cd195f3eba1c.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "React.js Essentials",
+    "author": "Artemij Fedosejev",
+    "description": "A fast-paced guide to designing and building scalable and maintainable web apps with React.js. Begin by exploring how you can create single and multiple user interface elements. Create stateless and stateful components and make them reactive, learn to interact between your components and lifecycle methods and gauge how to effectively integrate your user interface components with other JavaScript libraries. Delve deep into the core elements of the Flux architecture and learn how to manage your application using stores. Finish by going that extra mile with the Jest test framework, running multiple tests on your application and find solutions to scale it further without complexity.",
+    "coverImageUrl": "./eb95347c1c0e80dbd4676f9526e1a8610c6ada33f97b47b2a0d06ce514d88632.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1783551623/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1783551623/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

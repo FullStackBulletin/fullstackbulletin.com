@@ -1,0 +1,104 @@
+{
+  "issueNumber": 350,
+  "title": "#350: Keep React - Supercharge Your Web Development",
+  "slug": "2023-12-11-335-350-keep-react-supercharge-your-web-development",
+  "date": "2023-12-11",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*Welcome yet another issue of FullStackBulletin, precisely issue #350! This week we have a good variety of FullStack content and no big major personal news, so I'll leave you to enjoy all this goodness!\n\nHave fun!",
+  "quote": {
+    "text": "Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law“",
+    "author": "Douglas Hofstadter",
+    "authorTitle": "Physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Douglas_Hofstadter"
+  },
+  "links": [
+    {
+      "title": "Keep React - Supercharge Your Web Development",
+      "url": "https://react.keepdesign.io/",
+      "description": "Explore a library of 40+ open-source React UI components and interactive elements, empowering you to create stunning web projects effortlessly.",
+      "imageUrl": "./053d02006896a9d6a88e3422be6f9ad19c3008b0430ad9f98234bcd99839cecc.png",
+      "featured": true
+    },
+    {
+      "title": "Advanced usage patterns for taking page element screenshots with Playwright",
+      "url": "https://lirantal.com/blog/advanced-usage-patterns-for-taking-page-element-screenshots-with-playwright",
+      "description": "This awesome post shows you some advanced usage patterns for working with Playwright to take a screenshot of a specific element and modify the contents of the image, either before taking the screenshot or after, using image preprocessing tools.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "10 Weird HTML Hacks That Shaped The Internet",
+      "url": "https://tedium.co/2023/11/24/weird-html-hacks-history",
+      "description": "If you have been around the block of web development for a while you might remember a time when to accomplish anything you needed to write tons of CSS hacks that will accommodate for various bugs or inconsistencies across browsers. Today is a much brighter landscape, but it's still worth looking back at what we were doing once because there's always something useful to learn from the past!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Pravatar - CC0 Avatar Placeholder",
+      "url": "https://pravatar.cc/",
+      "description": "If you are building an app and you need some realistic (but legally legit) avatar pictures, check out this FREE service. The part I love the most is that you can pass an email address or a hash to get back the same avatar consistently, so this is something cool for demos that require programmatically generated users.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "vercel/nft: Node.js dependency tracing utility",
+      "url": "https://github.com/vercel/nft",
+      "description": "Not the kind of NFT you might be thinking about. In this case, it stands for Node.js File Trace and it's a powerful library that allows you to determine exactly which files are necessary for the application runtime.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Care beyond code: 7 best design practices for frontend developers",
+      "url": "https://evilmartians.com/chronicles/care-beyond-code-7-best-design-practices-for-frontend-developers",
+      "description": "Frontend can be about more than just code—we’re also the last bastion helping our teams against pesky design bugs! This article shares 7 best design practices for frontend engineers.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "remusao/tldts: extract domains, subdomains and public suffixes",
+      "url": "https://github.com/remusao/tldts",
+      "description": "TLDTS is a JavaScript library that allows you to extract domains, subdomains, and public suffixes from complex URIs. One use case where I can see this being useful is when you need to validate a URL and make sure it's a public one.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Graph Databases: New Opportunities for Connected Data",
+    "author": "Ian Robinson",
+    "description": "Discover how graph databases can help you manage and query highly connected data. With this practical book, you’ll learn how to design and implement a graph database that brings the power of graphs to bear on a broad range of problem domains. Whether you want to speed up your response to user queries or build a database that can adapt as your business evolves, this book shows you how to apply the schema-free graph model to real-world problems.",
+    "coverImageUrl": "./5688bd18a6677e59e5b8c680c2848ab320dd4d4d28db65515d0e83fccec1d924.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491930896/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491930896/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Printing Perfection, A Developer’s Journey with React-to-Print",
+      "url": "https://buaiscia.github.io/blog/tips/printing-developer-journey-react-to-print"
+    },
+    {
+      "title": "You don't need JavaScript for that",
+      "url": "https://htmhell.dev/adventcalendar/2023/2"
+    },
+    {
+      "title": "An Informed Pre-caching Strategy for Large Sites",
+      "url": "https://calendar.perfplanet.com/2023/informed-pre-caching-strategy-for-large-sites"
+    },
+    {
+      "title": "Why web perf tools should be reporting website carbon emissions",
+      "url": "https://calendar.perfplanet.com/2023/why-web-perf-tools-should-be-reporting-website-carbon-emissions"
+    },
+    {
+      "title": "Does Interaction to Next Paint actually correlate to user behavior?",
+      "url": "https://speedcurve.com/blog/INP-user-experience-correlation"
+    },
+    {
+      "title": "Examples of Great URL Design",
+      "url": "https://blog.jim-nielsen.com/2023/examples-of-great-urls"
+    },
+    {
+      "title": "Updates from the 99th TC39 meeting",
+      "url": "https://dev.to/hemanth/updates-from-the-99th-tc39-meeting-15hn"
+    }
+  ],
+  "sponsor": null
+}

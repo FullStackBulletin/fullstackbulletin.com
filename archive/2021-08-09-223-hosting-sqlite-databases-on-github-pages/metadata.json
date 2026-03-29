@@ -1,0 +1,75 @@
+{
+  "issueNumber": 223,
+  "title": "Hosting SQLite databases on Github Pages",
+  "slug": "2021-08-09-223-hosting-sqlite-databases-on-github-pages",
+  "date": "2021-08-09",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "Computers are good at following instructions, but not at reading your mind",
+    "author": "Donald Knuth",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Donald_Knuth"
+  },
+  "links": [
+    {
+      "title": "Hosting SQLite databases on Github Pages",
+      "url": "https://phiresky.netlify.app/blog/2021/hosting-sqlite-databases-on-github-pages",
+      "description": "An extremely interesting experiment showing that is possible to host (and query!) a SQLite database from a static website. This technique has a lot of potential and we might see more widespread usage over the next few years! Check it out if you want to manage a lot of \"stable\" data from a static website.",
+      "imageUrl": "./bf4c93f3b681b5963bda2bd374e529123f0c1d88dd5a1a638f3d6e9794563a8b.jpg",
+      "featured": true
+    },
+    {
+      "title": "Can Redis be used as a Primary database?",
+      "url": "https://youtube.com/watch?v=VLTPqImLapM",
+      "description": "This is a rather common question and the answer is not so straightforward as it might seem. This video explores some interesting details on how Redis actually works to help you gauge whether it makes sense for you to use Redis as a primary data storage and not just as a disposable caching layer.",
+      "imageUrl": "./5609b8349132220b8b219324dce398062007d845ce7fdff4d212a69154fc759f.jpg",
+      "featured": false
+    },
+    {
+      "title": "DigitalOcean vs. Lightsail vs. Linode vs. UpCloud vs. Vultr",
+      "url": "https://joshtronic.com/2021/08/01/vps-showdown-digitalocean-lightsail-linode-upcloud-vultr",
+      "description": "Are you torn trying to decide what kind of VPS (Virtual Private Server) should you pick for you latest side project? If that's the case, this article goes quite in depth in comparing all the most common options in terms of pricing, features and performance.",
+      "imageUrl": "./339a73ad4378616bcde1da5f560ac735d60448298feadae6e950a696d51fe359.jpg",
+      "featured": false
+    },
+    {
+      "title": "Tempura: A light, crispy, and delicious template engine 🍤",
+      "url": "https://github.com/lukeed/tempura",
+      "description": "A new JavaScript-based templating engine has landed. This one aims to be simple to use without penalising performance. Check it out if you want to try something new!",
+      "imageUrl": "./ee82cd1726e069b165cdaef1e9a4578fe5555ec5d5f3d3706d24810d4ff99d67.jpg",
+      "featured": false
+    },
+    {
+      "title": "Microservices Authentication Strategies: Theory to Practice",
+      "url": "https://aspecto.io/blog/microservices-authentication-strategies-theory-to-practice",
+      "description": "In this article, we will walk through common ways of implementing authentication microservices. We'll cover the theory, then move to practice.",
+      "imageUrl": "./37856b143be8f86e2bbaa34cc172336720035ddf52f1ed82e8cd7a2e8e6e3ad9.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to use RabbitMQ and Node.js with Docker and Docker-compose",
+      "url": "https://geshan.com.np/blog/2021/07/rabbitmq-docker-nodejs",
+      "description": "Learn how to use RabbitMQ with Node.js publisher and consumer, set up easily with Docker and Docker-compose step-by-step for better productivity.",
+      "imageUrl": "./e1726b85f4794343bf81d55cbd02adfd98dfcc939e9eb24b0defb9692434d496.jpg",
+      "featured": false
+    },
+    {
+      "title": "Resource inlining in JavaScript frameworks",
+      "url": "https://web.dev/aurora-resource-inlining/",
+      "description": "Font inlining and critical CSS inlining are 2 interesting techniques that might greatly improve the loading speed of web pages and web applications. This article discusses these 2 techniques and how they are being implemented by some of the major web frameworks.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Rails, Angular, Postgres, and Bootstrap: Powerful, Effective, and Efficient Full-Stack Web Development",
+    "author": "David B. Copeland",
+    "description": "As a Rails developer, you care about user experience and performance, but you also want simple and maintainable code. Achieve all that by embracing the full stack of web development, from styling with Bootstrap, building an interactive user interface with AngularJS, to storing data quickly and reliably in PostgreSQL. Take a holistic view of full-stack development to create usable, high-performing applications, and learn to use these technologies effectively in a Ruby on Rails environment.",
+    "coverImageUrl": "./916a92b54ef122132c9c594e8eb8d9182649599a02cfe38f79d2f203037b008c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501267/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501267/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 267,
+  "title": "Tao of Node - Design, Architecture & Best Practices",
+  "slug": "2022-04-04-254-tao-of-node-design-architecture-best-practices",
+  "date": "2022-04-04",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "We are stuck with technology when what we really want is just stuff that works",
+    "author": "Douglas Adams",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Douglas_Adams"
+  },
+  "links": [
+    {
+      "title": "Tao of Node - Design, Architecture & Best Practices",
+      "url": "https://alexkondov.com/tao-of-node",
+      "description": "One of the main benefits of JavaScript is that it runs both in the browser and the server and that's probably the main reason for JavaScript success in the world of full stack web development. But we have to admit that JavaScript is pretty flexible. Yes, this is a good thing, but at the same time we need to ask ourselves how to design applications that are well architected and easy to maintain!",
+      "imageUrl": "./f93b374b01ae75258166abfb2626e5c890b06bdf5299825db28311fa58bb0a28.jpeg",
+      "featured": true
+    },
+    {
+      "title": "Guiding principles after 20 years of programming",
+      "url": "https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c",
+      "description": "What would a software engineer with 20 years of experience recommend you? Here's a few \"pick the right tool for the job\", \"don't get attached to one specific technology\", \"write code for humans and only secondarily for machines\", \"remember that all code will die\"... If these sounds interesting, check out the whole article for more!",
+      "imageUrl": "./3f5cf0340dbf01715f745eff521fbaf26495f81f61c296b26b6ba44f3ff96097.jpg",
+      "featured": false
+    },
+    {
+      "title": "An Introduction To Generics",
+      "url": "https://go.dev/blog/intro-generics",
+      "description": "Go Generics have been one of the most requested features since the language came out. And yet a good chunk of the community fought back against introducing generics. The language core value is to stay simple and minimal, so how did the core team finally manage to introduce generics in the language without violating one of their core principles? Let's find out (with some intriguing examples)!",
+      "imageUrl": "./86f24630afdea8e02b184d519a8946546110cfd88c97c831942cf2f582cd718c.png",
+      "featured": false
+    },
+    {
+      "title": "Vim Reference Guide",
+      "url": "https://learnbyexample.github.io/vim_reference/Introduction.html",
+      "description": "I admit I have always been intrigued by Vim. Seeing pro users using it always gave me a profound sense of control and productivity. And yet every time I tried Vim I eventually felt defeated and gave up. Maybe it's time to give Vim another shot by using this excellent reference guide... what do you think?",
+      "imageUrl": "./f66e2a6eabff22bb8d51508fcda13cb6af5f6569bed0ea69fec0f9e4d3779b35.png",
+      "featured": false
+    },
+    {
+      "title": "Building A Chess App In React",
+      "url": "https://dev.to/fredlitt/my-experience-building-a-chess-app-in-react-2hl6",
+      "description": "Who said that you can't use React to build games? Probably nobody! In fact here you can find a fantastic use case of how Fred built an entire chess game by using React and learn about some of the challenges and the design decisions! I really enjoyed this article last week!",
+      "imageUrl": "./c34e786079177eeea610a579f92bdf6002cd8f40578ab47057a53de671111bf2.png",
+      "featured": false
+    },
+    {
+      "title": "A Taste of Kotlin and Functional Programming",
+      "url": "https://kessler.tech/programming-languages/kotlin-fun",
+      "description": "Another resource to inspire you to go outside your comfort zone and try something new. Have you heard about Kotlin? Apparently is a modern multi paradigm language that many people love. You can even do functional programming with it, so if you are into functional, here's one more reason for you to check out Kotlin.",
+      "imageUrl": "./6a6b1bf9f6f7307d5ac79106c79b201d7c578bdb87d217b3f1bc2eca62a10362.png",
+      "featured": false
+    },
+    {
+      "title": "Creating Realistic Art with CSS",
+      "url": "https://frontend.horse/articles/realistic-art-with-css",
+      "description": "Frontend Horse is one of my favourite resources for getting my weekly dose of web-related creativity (by the way, check out [Alex Trost's Twitch channel](https://www.twitch.tv/trostcodes) if you are into coding live streams)! In this article, we can learn the incredible techniques of CSS artist, Ben Evans. Did you ever expect to see photo-realistic art... made with CSS?!",
+      "imageUrl": "./db900634cd09d5a9dc606e78426c157e60142dfc314cc88ca63c690152703994.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence",
+    "author": "Pramod J. Sadalage",
+    "description": "The need to handle increasingly larger data volumes is one factor driving the adoption of a new class of nonrelational “NoSQL” databases. Advocates of NoSQL databases claim they can be used to build systems that are more performant, scale better, and are easier to program.",
+    "coverImageUrl": "./96f077a648367bca955163aa3692e65c5704f3d7a7c6557690997e5ffeea975b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321826620/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321826620/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,96 @@
+{
+  "issueNumber": 368,
+  "title": "Oh My Git!",
+  "slug": "2024-04-15-351-oh-my-git",
+  "date": "2024-04-15",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \n\nWelcome to issue #368! In this edition, we've curated a wealth of resources, tips, and insights tailored specifically for ambitious full-stack web developers like you. I hope you will enjoy learning about the latest trends, discovering cutting-edge tools, and uncovering hidden gems to propel your projects to new heights.\n\nHappy *full-stacking*!\n\n— Your editor, [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Remember, to learn and not to do is really not to learn. To know and not to do is really not to know“",
+    "author": "Stephen Covey",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stephen_Covey"
+  },
+  "links": [
+    {
+      "title": "Oh My Git!",
+      "url": "https://ohmygit.org/",
+      "description": "We have featured this one before but \"Oh My Git!\" certainly deserves another time in the spotlight! It is a wonderful FREE and open-source game about learning Git! Even if you think you know enough Git, this can still be a fun thing to play and you might end up learning a new thing or two anyway! Check it out, trust me!",
+      "imageUrl": "./2b2acc482440c014ab1dc28ea60c42fe170fc2142f471df98325c69078f816e7.jpg",
+      "featured": true
+    },
+    {
+      "title": "Valkey: the future of open-source Redis!",
+      "url": "https://github.com/valkey-io/valkey",
+      "description": "You might have heard some of the *shenanigans* going on with the Redis licensing strategy lately... If you haven't the TLDR; is that, with the new license, cloud hosting providers are not allowed anymore to use the source code of Redis free of charge. This has created lots of interest in spinning up a new Redis-compatible alternative. Valkey is probably the most promising at this point. It's a fork of Redis that has been endorsed by AWS, Google Cloud, and Oracle and it's backed by the Linux Foundation. Definitely something to watch closely and add to your bookmarks!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Transformers.js: State-of-the-art Machine Learning for the web",
+      "url": "https://github.com/xenova/transformers.js",
+      "description": "Transformer.js is an awesome project that brings state-of-the-art Machine Learning directly into the browser thanks to a JavaScript-first implementation of the famous HuggingFace transformers Python library. What are you going to build with it? Computer Vision, Natural Language Processing, Image Classification, and more! Your imagination is the limit!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Introducing Jpegli: A New JPEG Coding Library",
+      "url": "https://opensource.googleblog.com/2024/04/introducing-jpegli-new-jpeg-coding-library.html",
+      "description": "Google has recently presented Jpegli, an advanced JPEG coding library that maintains high backward compatibility while being faster, and more efficient, than traditional JPEG. If you have an image-heavy website this can be something to consider for performance optimization.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "ETag and HTTP caching",
+      "url": "https://rednafi.com/misc/etag_and_http_caching",
+      "description": "One neat use case for the HTTP ETag header is client-side HTTP caching for GET requests. Along with the ETag header, the caching workflow requires you to fiddle with other conditional HTTP headers like If-Match or If-None-Match. However, their interaction can feel a bit confusing at times. This article gives you a great overview of what kind of options do you have for client-side caching using HTTP headers with a particular focus on the role of the ETag header.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Mental Health in Software Engineering",
+      "url": "https://vadimkravcenko.com/shorts/mental-health-in-software-engineering",
+      "description": "This is a recurring theme, but probably still something we don't talk about enough! If you have been struggling with impostor syndrome, anxiety, or simply feeling under pressure when dealing with responsibilities and deadlines, well, you are not alone! In this article, [Vadim Kravcenko](https://vadimkravcenko.com/), gives us their powerful perspective on this topic!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "React Server Components in a Nutshell",
+      "url": "https://thenewstack.io/react-server-components-in-a-nutshell",
+      "description": "In this article, [Paul Scanlon](https://www.linkedin.com/in/pauliescanlon/) uses Waku, an open-source React meta-framework that we featured a few weeks ago, to show how RSCs give React developers access to asynchronous server-side requests and data at the component level.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering API Architecture: Design, Operate, and Evolve API-Based Systems",
+    "author": "James Gough, Daniel Bryant, and Matthew Auburn",
+    "description": "Most organizations with a web presence build and operate APIs; the doorway for customers to interact with the company's services. Designing, building, and managing these critical programs affect everyone in the organization, from engineers and product owners to C-suite executives. But the real challenge for developers and solution architects is creating an API platform from the ground up. With this practical book, you'll learn strategies for building and testing REST APIs that use API gateways to combine offerings at the microservice level. Authors James Gough, Daniel Bryant, and Matthew Auburn demonstrate how simple additions to this infrastructure can help engineers and organizations migrate to the cloud; and open the opportunity to connect internal services using technologies like a service mesh.",
+    "coverImageUrl": "./44d367e5b6a90917388fd779cffe6509236a345fcd5a122d0e38339cd01d1d2b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492090638?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492090638?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "NanoGL",
+      "url": "https://nanogl.com/"
+    },
+    {
+      "title": "Text Effects",
+      "url": "https://texteffects.dev/"
+    },
+    {
+      "title": "WebAssembly Adoption: Is Slow and Steady Winning the Race?",
+      "url": "https://thenewstack.io/webassembly-adoption-is-slow-and-steady-winning-the-race"
+    },
+    {
+      "title": "How to think about HTML responsive images",
+      "url": "https://danburzo.ro/responsive-images-html"
+    },
+    {
+      "title": "Understanding Cookies, Local Storage, and Session Storage: A Beginner's Guide",
+      "url": "https://dev.to/madhusaini22/understanding-cookies-local-storage-and-session-storage-a-beginners-guide-5gkk"
+    }
+  ],
+  "sponsor": null
+}

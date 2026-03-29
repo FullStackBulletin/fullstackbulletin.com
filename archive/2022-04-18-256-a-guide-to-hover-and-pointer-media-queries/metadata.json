@@ -1,0 +1,75 @@
+{
+  "issueNumber": 269,
+  "title": "A Guide To Hover And Pointer Media Queries",
+  "slug": "2022-04-18-256-a-guide-to-hover-and-pointer-media-queries",
+  "date": "2022-04-18",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "This is the whole point of technology.  It creates an appetite for immortality on the one hand.  It threatens universal extinction on the other. Technology is lust removed from nature",
+    "author": "Don DeLillo",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Don_DeLillo"
+  },
+  "links": [
+    {
+      "title": "A Guide To Hover And Pointer Media Queries",
+      "url": "https://smashingmagazine.com/2022/03/guide-hover-pointer-media-queries",
+      "description": "In this article, you'll discover how to adapt a site to the different scenarios of a device pointer: whether it has a pointer or not, or how accurate it is. This is important to make sure you provide a great experience to all kinds of users and devices: not just desktop, tablets and mobile phones but also smart TVs!",
+      "imageUrl": "./444c3113d7911d1ab9dedb0bed888ab2f6d3e53790472a14ece7328d5718454a.jpg",
+      "featured": true
+    },
+    {
+      "title": "JSZip",
+      "url": "https://stuk.github.io/jszip",
+      "description": "Did you know you can create .zip files using JavaScript? With this library you can even do that in the browser! That's a great way to pre-package downloadable content in one convenient file, on the fly!",
+      "imageUrl": "./235766593b25ab7dfbb70a3cb812d8fb0d224064a5d13ccd54a8be8d3fb32c58.png",
+      "featured": false
+    },
+    {
+      "title": "Agnostic UI",
+      "url": "https://agnosticui.com/",
+      "description": "Do you need a UI library but you are not sure which frontend framework you are going to use yet? Or maybe you'll need to use more than one framework... With Agnostic UI you can get a UI library that works well with multiple framework, so it feels like the right choice for the undecided!",
+      "imageUrl": "./6f446ca22032ef6ca865985c34f75f4b70993d54df676607158c7d74b2bd9436.png",
+      "featured": false
+    },
+    {
+      "title": "Writing Redux Reducers in Rust",
+      "url": "https://fiberplane.dev/blog/writing-redux-reducers-in-rust",
+      "description": "If you are a web developer and are looking for new excuses to use Rust here is a new one: write Redux reducers with it! Seriously, you can use the power of WASM to do that. Should you really do it, though? Maybe not for the majority of use cases, but it could be fun anyway!",
+      "imageUrl": "./2c1cfd60b40fc16e3d8a892f49ee9f1930108492e70203ed799d003ff66efaaa.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to Build Lightning Fast APIs with AWS Step Functions",
+      "url": "https://readysetcloud.io/blog/allen.helton/how-to-build-lightning-fast-apis-with-aws-step-functions",
+      "description": "Step Functions are quickly turning into the de facto standard for building workflows in AWS. Discover how you could configure them to work with your REST APIs.",
+      "imageUrl": "./3f33a975658478eb1aebe6b4d0573ec110d404756d93524a55be9cfc2ccc5fbf.jpg",
+      "featured": false
+    },
+    {
+      "title": "Optimising a JavaScript library with WebAssembly, a failed attempt!",
+      "url": "https://antoniovdlc.me/optimising-a-javascript-library-with-webassembly-a-failed-attempt",
+      "description": "Let's talk more about WASM and Rust... One of the main benefit of using it is that it is more performant than plain JavaScript code. Well, it turns out that this is not always the case, so you should think twice before rewriting every JavaScript library in Rust!",
+      "imageUrl": "./623a853d77d724320ca69a3d8b8cd3dcdb3698c94c52addb3ebca680b4c6b75e.jpg",
+      "featured": false
+    },
+    {
+      "title": "10 CloudWatch Logs Insights examples for serverless applications",
+      "url": "https://cloudash.dev/blog/cloudwatch-logs-insights-examples",
+      "description": "If you are building distributed systems on AWS, chances are that you are using CloudWatch to centralise all your logs. CloudWatch Log Insights is a great tool to query across all your log streams, but you need to learn how to write queries. This articles contains several examples that will make your life easier when you are using Log Insights for Serverless applications.",
+      "imageUrl": "./9f3d2e9fe0e57551b1521128cae5d8b860a3f54bcd74126ba352259993877e3e.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Reactive Programming with RxJava: Creating Asynchronous, Event-Based Applications",
+    "author": "Tomasz Nurkiewicz",
+    "description": "In today’s app-driven era, when programs are asynchronous and responsiveness is so vital, reactive programming can help you write code that’s more reliable, easier to scale, and better-performing. With this practical book, Java developers will first learn how to view problems in the reactive way, and then build programs that leverage the best features of this exciting new programming paradigm.",
+    "coverImageUrl": "./bfc89b612724cc827df12cd74bfda688fa86774c756e46d104dc6fce54b5ba7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491931655/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491931655/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

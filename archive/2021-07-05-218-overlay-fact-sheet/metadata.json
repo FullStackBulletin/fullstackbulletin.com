@@ -1,0 +1,75 @@
+{
+  "issueNumber": 218,
+  "title": "Overlay Fact Sheet",
+  "slug": "2021-07-05-218-overlay-fact-sheet",
+  "date": "2021-07-05",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "That’s been one of my mantras — focus and simplicity. Simple can be harder than complex; you have to work hard to get your thinking clean to make it simple",
+    "author": "Steve Jobs",
+    "authorTitle": "Apple co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Jobs"
+  },
+  "links": [
+    {
+      "title": "Overlay Fact Sheet",
+      "url": "https://overlayfactsheet.com/",
+      "description": "Overlays are a broad term for technologies aim to improve the accessibility of a website. They apply third-party source code (typically JavaScript) to make improvements to the front-end code of the website. In this website you can learn a ton about overlays and how they can make website more accessible. A must read for anyone who loves the web!",
+      "imageUrl": "./d4c26051a736fab400f206dfe7c3eb148409e6d567063bb2239dbd21364ff7fa.png",
+      "featured": true
+    },
+    {
+      "title": "ES2021 features list",
+      "url": "https://h3manth.com/ES2021",
+      "description": "ES2021 as approved by the Ecma General Assembly and it will introduce 5 new interesting features to the language spec! Do you want to learn more abut: **logical assignment operators**, **numeric separators**, **AggregateError**, **replaceAll()**, and **WeakRefs**?",
+      "imageUrl": "./e5200185b950e82658caaa7643ebabe0fc17b0f57b5dd3e25935b84a8f905f35.jpg",
+      "featured": false
+    },
+    {
+      "title": "Disasters I've seen in a microservices world",
+      "url": "https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51",
+      "description": "An interesting take on microservice architectures. Although they are great, they always come with a baggage of complexity that is often underestimated. Learning to deal with microservice architectures and their complexity always comes at the cost of a disaster or two...",
+      "imageUrl": "./c3514b719804c86acc1999cf3399dea4dc6d93d5bd1d06b5a095baa1637256ee.jpg",
+      "featured": false
+    },
+    {
+      "title": "4 Useful fzf Tricks for Your Terminal",
+      "url": "https://pragmaticpineapple.com/four-useful-fzf-tricks-for-your-terminal",
+      "description": "Improve the workflow inside the terminal with handy fzf tricks up your sleeve.",
+      "imageUrl": "./eced0394a719f859e0c45ac44f45da34f1d19d910cd0c69875fc914dd4a0f534.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building Generative Grid Layouts With Quadtrees",
+      "url": "https://georgefrancis.dev/writing/generative-grid-layouts-with-quadtrees",
+      "description": "Learn to create harmonious generative grids based on random numbers, source images, user input, and more! Something cool to spice up your designs!",
+      "imageUrl": "./e575b01b62d34c74742723688ddfaf85ca08b32df6a05c42cf62c69b478c55cc.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to build a database-driven Jamstack site",
+      "url": "https://netlify.com/blog/2021/06/10/how-to-build-a-database-driven-jamstack-site",
+      "description": "Learn how to use StepZen to build a Jamstack site with a MySQL backend. This approach works with works for any SSG, including Next.js and Hugo, and data sources like REST APIs and Postgres.",
+      "imageUrl": "./bd021b6ade64f6348bc5bc86259cbaf9a5f19139f3f6406728f9a0ef94e840e3.jpg",
+      "featured": false
+    },
+    {
+      "title": "Everyday GoLang, a new book about Go",
+      "url": "https://blog.alexellis.io/i-wrote-a-book-about-golang",
+      "description": "Alex Ellis, famous open source software developer, published his first eBook on Go called \"Everyday Golang\". In this article by Alex himself, you can learn about what to expect from the book and a bit about the story behind it.",
+      "imageUrl": "./c694ac350827743f76224fc94981f1c78687103db4c83b00b1e5657e0f6f9439.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Graph Databases: New Opportunities for Connected Data",
+    "author": "Ian Robinson",
+    "description": "Discover how graph databases can help you manage and query highly connected data. With this practical book, you’ll learn how to design and implement a graph database that brings the power of graphs to bear on a broad range of problem domains. Whether you want to speed up your response to user queries or build a database that can adapt as your business evolves, this book shows you how to apply the schema-free graph model to real-world problems.",
+    "coverImageUrl": "./5688bd18a6677e59e5b8c680c2848ab320dd4d4d28db65515d0e83fccec1d924.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491930896/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491930896/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

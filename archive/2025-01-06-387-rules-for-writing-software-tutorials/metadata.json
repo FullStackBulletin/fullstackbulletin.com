@@ -1,0 +1,92 @@
+{
+  "issueNumber": 406,
+  "title": "Rules for Writing Software Tutorials",
+  "slug": "2025-01-06-387-rules-for-writing-software-tutorials",
+  "date": "2025-01-06",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nHappy New Year! 🎉 I hope your 2025 is off to an inspiring start!\n\nThis year, let's focus on personal growth and improvement—whether that’s tackling new skills or mastering what we already know. A suggestion I [shared on social](https://www.linkedin.com/posts/lucianomammino_happy-2025-to-everyone-in-tech-wishing-activity-7280160635458355200-EqsO) media is to go deeper. Don’t just chase the latest framework or trend. Take the time to learn what truly powers the tech you use every day. Mastering the foundations will take you further than you think!\n\nSo, what’s your plan for this year? What do you want to achieve? I’d love to hear your thoughts—hit reply and let me know!\n\nLet’s make 2025 our year to grow! 🚀\n\nYour editor,\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "The function of good software is to make the complex appear to be simple“",
+    "author": "Grady Booch",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Grady_Booch"
+  },
+  "links": [
+    {
+      "title": "Rules for Writing Software Tutorials",
+      "url": "https://refactoringenglish.com/chapters/rules-for-software-tutorials/",
+      "description": "Being able to write clear, effective documentation and tutorials is a critical skill for ramping up your career as a full-stack developer. Great tutorials don’t just teach, they demonstrate your ability to communicate complex ideas, a must-have at any company. Unfortunately, most tutorials fall short, frustrating readers with missing details and hidden assumptions. But with the right approach, you can stand out. This article outlines simple, actionable rules to create tutorials that deliver real value, clear goals, copy-pasteable code, and instructions that actually work.",
+      "imageUrl": "./e7208f6e41d0b2f5cd80389b9a3ad79b97b43ac1f2c813e0ffddfce60ffe5606.jpg",
+      "featured": true
+    },
+    {
+      "title": "Why I don't do Domain Driven Design",
+      "url": "https://tonymarston.net/php-mysql/dont-do-domain-driven-design.html",
+      "description": "Domain-Driven Design (DDD) often gets hailed as a must-have methodology for managing complex software projects, but is it always the best choice? In this thought-provoking article, Tony Marston explains why he believes DDD is overcomplicated, unnecessary, and even counterproductive for many applications. Do you agree with this take? I am still on the fence but I enjoyed this article anyway (although it's a bit long).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Why Every Clustering Algorithm Must Sacrifice Something",
+      "url": "https://blog.codingconfessions.com/p/the-cap-theorem-of-clustering",
+      "description": "This one’s a bit off-topic, but if you love data analysis or are tackling advanced problems that require deep data skills, you’ll find it fascinating. Clustering algorithms might seem straightforward—just group similar things, right? But here’s the kicker: every clustering algorithm is fundamentally flawed. In a 2002 paper, Jon Kleinberg proved that no algorithm can satisfy all three desirable properties—scale invariance, richness, and consistency. Much like the CAP theorem in distributed systems, you’re forced to make trade-offs.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Building a Brag Document",
+      "url": "https://www.codu.co/articles/building-a-brag-document-rllnfdad",
+      "description": "New year, new goals? If one of your resolutions for 2025 is to give your career a boost, here’s a great place to start: building a brag document. This article from the awesome [Codu community](https://www.codu.co/) not only explains why tracking your achievements is a game-changer but also provides practical tips and examples to help you focus on what really makes your document shine with maximum *bragginess*. If you haven’t started one yet, now’s the perfect time to dive in and set the tone for a successful year ahead!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Why Your Node.js Scanners Are Missing CVEs",
+      "url": "https://linkedin.com/pulse/hidden-threats-lurking-your-eol-nodejs-why-scanners-baillio--rg2rc",
+      "description": "Millions of apps are still running on end-of-life (EOL) versions of Node.js, and while scanners might show a clean bill of health, critical vulnerabilities are still lurking, especially in libraries like OpenSSL that Node.js depends on. This article dives into why CVE visibility around Node.js is broken, leaving developers in the dark about vulnerabilities that can compromise their apps. From false security to late patches, it outlines the hidden threats and gives you a game plan to mitigate them.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A Novel Pattern for Documenting DynamoDB Access Patterns",
+      "url": "https://dev.to/tyckofranklin/a-novel-pattern-for-documenting-dynamodb-access-patterns-2mp3",
+      "description": "If you're a serverless and AWS lover like me, you'll like this one! Documenting DynamoDB access patterns traditionally involves spreadsheets, Confluence pages, or other text-based formats, but this article introduces a fresh approach using JSON format. This method makes it easier to update, refactor, and integrate directly with Node.js lambdas, offering a more code-centric workflow. While it doesn’t aim to replace spreadsheets or text-based documentation, it streamlines managing and evolving your access patterns, making your DynamoDB work smoother and more efficient. If you're already familiar with DynamoDB, this is a great way to level up your documentation and start 2025 on a more organized note!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "firew0rks: Fireworks in your terminal 🎆",
+      "url": "https://github.com/addyosmani/firew0rks",
+      "description": "Fireworks in your terminal 🎆. A delightful ASCII art on the CLI to celebrate the new year! Written in JavaScript, of course!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elixir in Action, Third Edition",
+    "author": "Saša Juric",
+    "description": "Fully updated to Elixir 1.15, this authoritative bestseller reveals how Elixir tackles problems of scalability, fault tolerance, and high availability.Thousands of developers have learned to build applications in Elixir by using Saša Juric's Elixir in Action. You'll skip the programming basics or 101 introductions; this book builds on your existing knowledge to get you quickly writing real Elixir code. Along the way, you'll develop an appreciation for, and considerable skill in, functional and concurrent programming.",
+    "coverImageUrl": "./357e8dc5d988fb8d8126c858857993fa8764cc2ff7c1523244aa940df691e4c5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1633438511?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1633438511?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Tiny Lottie",
+      "url": "https://tiny-lottie-nextjs.vercel.app/"
+    },
+    {
+      "title": "The Undeniable Utility Of CSS :has",
+      "url": "https://www.joshwcomeau.com/css/has/"
+    },
+    {
+      "title": "Solved By Modern CSS: Feature Image",
+      "url": "https://ishadeed.com/article/modern-css-feature-image/"
+    },
+    {
+      "title": "React Form Validation",
+      "url": "https://www.robinwieruch.de/react-form-validation/"
+    }
+  ],
+  "sponsor": null
+}

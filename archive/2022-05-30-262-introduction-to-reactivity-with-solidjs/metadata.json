@@ -1,0 +1,75 @@
+{
+  "issueNumber": 275,
+  "title": "Introduction to Reactivity with SolidJS",
+  "slug": "2022-05-30-262-introduction-to-reactivity-with-solidjs",
+  "date": "2022-05-30",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Imagination is the Discovering Faculty, pre-eminently. It is that which penetrates into the unseen worlds around us, the worlds of Science",
+    "author": "Ada Lovelace",
+    "authorTitle": "Mathematician",
+    "authorUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+  },
+  "links": [
+    {
+      "title": "Introduction to Reactivity with SolidJS",
+      "url": "https://youtube.com/watch?v=J70HXl1KhWE",
+      "description": "SolidJS is all the rage right now and we believe it's for good reasons. So why should you be interested in this framework. Our opinion is that SolidJS is a modern take on frontend development which tries to take the best from React, VueJS and Svelte and leaves out the rest. It also has an interesting approach to reactivity. Check out this video to find out more!",
+      "imageUrl": "./2ebbba776415f215f67b8830f7a94c190398a79612947d806bfbf9f58e200fb4.jpg",
+      "featured": true
+    },
+    {
+      "title": "First Look At The CSS object-view-box Property",
+      "url": "http://ishadeed.com/article/css-object-view-box",
+      "description": "A new CSS property that will help in cropping images similar to how we use the viewBox in SVG. This new CSS property can be a great tool for image heavy websites!",
+      "imageUrl": "./81d72c5ab65d7ef068b7de36635609bca88d48f024a12cc9075f1755294365a0.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to use EventBridge as a Cross-Account Event Backbone",
+      "url": "https://dev.to/eoinsha/how-to-use-eventbridge-as-a-cross-account-event-backbone-5fik",
+      "description": "If you have ever built big **AWS apps divided into several Micro service applications spread across multiple AWS accounts**, well first of all great stuff! This is a seriously advanced cloud architecture use case, you should be proud! Secondly, how did you **manage communication between services** in such case? In this article the great and mighty Eoin Shanaghy shows us how to do that using EventBridge as a cross-account **event backbone**.",
+      "imageUrl": "./93e0e695f1016ed3ba100bc81bcc52a612aa7cf8934537fe5326c747f9cf8392.jpg",
+      "featured": false
+    },
+    {
+      "title": "Pure vs Impure Functions",
+      "url": "https://suprabhasupi.hashnode.dev/pure-vs-impure-functions",
+      "description": "A topic that never gets old and that, in all its simplicity, can have a dramatic effect on how readable, composable, and testable a code base could be. If you still have doubts about why you should think more in terms of pure functions, check out this article!",
+      "imageUrl": "./5c857a284bb4ae041663851d13ff19d056f71af1801045543bb437b56c721c91.png",
+      "featured": false
+    },
+    {
+      "title": "nathants/libaws: AWS should be easy",
+      "url": "https://github.com/nathants/libaws",
+      "description": "An interesting open source project that aims at simplify how to manage infrastructure as code with AWS. Something we definitely want to play with. We don't have a strong opinion right now, but we thought it was worth sharing and supporting this ambitious project. If you have tried it, let us know what you think!",
+      "imageUrl": "./0a0ff66d8bff72e2c0089449bf5539570ae0ca728ab937b61caa10da034b62e5.jpg",
+      "featured": false
+    },
+    {
+      "title": "You don't need void 0 in JavaScript",
+      "url": "https://p42.ai/blog/2022-05-10/you-dont-need-void-0",
+      "description": "Have you ever seen **`void 0`** in a piece of JavaScript code? I did, but I think this happened to me just a handful of times... So if you are asking what the heck **`void 0`** means and whether you need it or not... well, all the answers you are looking for are in this article!",
+      "imageUrl": "./35a4682daa5f2f17ef2b475ddd08ac3a880e073037feb1a33f75b4cbba715375.jpg",
+      "featured": false
+    },
+    {
+      "title": "How I Built a Music Player to Showcase my own Tracks 🎵😍",
+      "url": "https://madza.hashnode.dev/how-i-built-a-music-player-to-showcase-my-own-tracks",
+      "description": "A fantastic case study on how you could build a fully fledged music player on a website using web technologies (yes, I mean JavaScript). Check it out if you are looking to build a media heavy website and want to make it look special and unique!",
+      "imageUrl": "./6f378a5347f58df27657ce7fee5a173c925bd8b31e289d654990a9157e56b921.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "You Don't Know JS: ES6 & Beyond",
+    "author": "Kyle Simpson",
+    "description": "As part of the \"You Don’t Know JS\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built. Learn new ES6 syntax that eases the pain points of common programming idioms. Organize code with iterators, generators, modules, and classes. Express async flow control with Promises combined with generators. Use collections to work more efficiently with data in structured waysLeverage new API helpers, including Array, Object, Math, Number, and String. Extend your program’s capabilities through meta programming.",
+    "coverImageUrl": "./dc82d3e22d7d2516883c5adc587d3a8817d011c764cda892712040ff1b3ea3e1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491904240/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491904240/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

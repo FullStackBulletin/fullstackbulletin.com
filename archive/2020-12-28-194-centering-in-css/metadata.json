@@ -1,0 +1,75 @@
+{
+  "issueNumber": 194,
+  "title": "Centering in CSS",
+  "slug": "2020-12-28-194-centering-in-css",
+  "date": "2020-12-28",
+  "templateType": "old-mailchimp",
+  "intro": "🎄 Best 7 links of week #52, 2020 🎁\n\n\n⭐️ FullStack Bulletin has outgrown its free plan! If you enjoy this newsletter, consider supporting us:\n\n\n[Donate on Patreon](https://patreon.com/lucianomammino) - [Discuss sponsorship](https://fstack.link/sponsor)",
+  "quote": {
+    "text": "The use of COBOL cripples the mind; its teaching should therefore be regarded as a criminal offense",
+    "author": "E.W. Dijkstra",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/E._W._Dijkstra"
+  },
+  "links": [
+    {
+      "title": "Centering in CSS",
+      "url": "https://web.dev/centering-in-css",
+      "description": "Follow 5 centering techniques as they go through a series of tests to see which one is the most resilient to change. Because centering things in CSS is never boring and always a challenge!",
+      "imageUrl": "./d600a51ed93a71237bb196649886611c90fba89ed443f4de62cc4a9805ebae88.jpg",
+      "featured": true
+    },
+    {
+      "title": "Acing CSS Grid Model in 2021 with 5 Exercises",
+      "url": "https://dev.to/joyshaheb/acing-css-grid-model-in-2021-with-5-exercises-css-2021-51ci",
+      "description": "A very practical way to finally master CSS grids through 5 increasing challenging exercises!",
+      "imageUrl": "./c419529ba9eac457d76a60c40d1b16015b764b104b8aa0cf44731fc788e5f1dc.jpg",
+      "featured": false
+    },
+    {
+      "title": "What Can You Put in a CSS Variable?",
+      "url": "https://codersblock.com/",
+      "description": "CSS variables (also known as CSS custom properties) can hold all sorts of things. Some of these things were are obvious, others are not. In this article, you will learn everything that can be a CSS Variable!",
+      "imageUrl": "./9e662fb3b6cf84d854195d1679bfefab68bf16a7bd71632d92a1adecbe0ac0e4.jpg",
+      "featured": false
+    },
+    {
+      "title": "5 Ways to install Node.js",
+      "url": "https://www.nodejsdesignpatterns.com/blog/5-ways-to-install-node-js/",
+      "description": "Are you interested in getting started with Node.js and you are trying to figure out what's the simplest and best way to get Node.js installed in your development machine? If that's the case this article is definitely for you. But even if you are a seasoned Node.js developer, this article can provide you some useful tips to make you even more productive with Node.js.",
+      "imageUrl": "./b79fecb9d07a8647ed1ea19816d66e39792353f39fd32cb1afe41e79f9f44244.jpg",
+      "featured": false
+    },
+    {
+      "title": "Sticky Table Header with React Hooks",
+      "url": "https://webup.org/blog/sticky-header-table-with-react-hooks",
+      "description": "Long tables with an endless scroll. Tables are great presentational medium for data, but it's not straightforward to stick their headers on top. Confronting that limitation with React hooks.",
+      "imageUrl": "./4f77046b1d95b6761c1a23ab141b318d4483b095295dfbc377f1178fa7bc995a.png",
+      "featured": false
+    },
+    {
+      "title": "Jamstack in 2020",
+      "url": "https://almanac.httparchive.org/en/2020/jamstack",
+      "description": "Jamstack chapter of the 2020 Web Almanac covering the use of Jamstack, the performance of popular Jamstack frameworks, as well as an analysis of real-user experience using the Core Web Vitals metadata.",
+      "imageUrl": "./e8ae4ed8f0d397afffbf1f4a73e23c3463c552a8210eefec7168e1b23ce4ffde.jpg",
+      "featured": false
+    },
+    {
+      "title": "The art of code",
+      "url": "https://www.youtube.com/watch?v=6avJHaC3C2U",
+      "description": "Considered by many the best technical talk of 2020, this presentation by Dylan Beattie gives an entertaining look at the art of code. From Conway's Game of Life to the 1970s demoscene and the earliest Obfuscated C competitions. Esoteric languages and quines - how can you create a program that prints its own source code? Code golf and generative art, the phenomenon of live coding as performance - from the pioneers of electronic music to modern algoraves and live coding platforms like Sonic Pi.",
+      "imageUrl": "./d389fc408f7d2fb007e6f39ec1bbc4f103ddfc176465faa0ec30dce7adeb27f2.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "RESTful API Design",
+    "author": "Matthias Biehl",
+    "description": "this book is packed with best practices on many technical aspects of RESTful API Design, such as the correct use of resources, URIs, representations, content types, data formats, parameters, HTTP status codes and HTTP methods. You want to design and develop APIs like a Pro? Use API description languages to both design APIs and develop APIs efficiently. The book introduces the two most common API description languages RAML and OpenAPI/Swagger",
+    "coverImageUrl": "./28aacc6a13ca1347c15c3795f8d6bcb239721dbccca6de24ceed1765e89588ee.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1514735164/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1514735164/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

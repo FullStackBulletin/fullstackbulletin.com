@@ -1,0 +1,68 @@
+{
+  "issueNumber": 17,
+  "title": "Coding \"Snake\" in 4 min 30 sec",
+  "slug": "2017-07-03-017-coding-snake-in-4-min-30-sec",
+  "date": "2017-07-03",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #26, 2017",
+  "quote": {
+    "text": "That’s been one of my mantras — focus and simplicity. Simple can be harder than complex; you have to work hard to get your thinking clean to make it simple",
+    "author": "Steve Jobs",
+    "authorTitle": "Apple co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Jobs"
+  },
+  "links": [
+    {
+      "title": "Coding \"Snake\" in 4 min 30 sec",
+      "url": "https://youtube.com/watch?v=xGmXxpIj6vs",
+      "description": "An incredibly quick walkthrough on how to build a snake game using only vanilla JavaScript and the browser canvas.",
+      "imageUrl": "./2134d1c5553219c3127f4b5f9bdf9173ab4cfd20f182390aca4d955f2f4fe137.jpg",
+      "featured": true
+    },
+    {
+      "title": "React Express",
+      "url": "http://react.express/",
+      "description": "A new website that helps you learn React by coding interactive snippets of code.",
+      "imageUrl": "./31dba71a6c0d923623065ca448f76edd6894d3bc0cceaf862544a0326da69f99.jpg",
+      "featured": false
+    },
+    {
+      "title": "typicode/json-server",
+      "url": "https://github.com/typicode/json-server",
+      "description": "Get a full fake REST API with zero coding in less than 30 seconds (seriously) using this simple Node.js package.",
+      "imageUrl": "./2f847a5ab7409f0d360a711e63e12f1cbcdc2e4dd9f2a59ed27808d7636814c6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Node.js Will Overtake Java Within a Year",
+      "url": "https://thenewstack.io/open-source-profile-mikeal-rogers-node-js",
+      "description": "Rogers spoke with The New Stack to talk about his experience getting started in the open source world, working at the Node.js Foundation and becoming an open source governance principals guru. Read why he thinks Node.js will supersede Java very soon.",
+      "imageUrl": "./47a1e0ff97e1a790a48482b391d87f687c6395be5d067bf452ab789cc2de98a0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Designing The Perfect Accordion",
+      "url": "https://smashingmagazine.com/2017/06/designing-perfect-accordion-checklist",
+      "description": "How do you design the perfect accordion? The choice and position of the icon matters, and so does interaction designs. A detailed run-down.",
+      "imageUrl": "./9c4569a1b1d51cd32f0732284bc12bb363ebbeb1dc638cfd93bb1c53d58e1288.png",
+      "featured": false
+    },
+    {
+      "title": "Understanding Node.js Event-Driven Architecture",
+      "url": "https://medium.freecodecamp.org/understanding-node-js-event-driven-architecture-223292fcbc2d",
+      "description": "Most of Node’s objects — like HTTP requests, responses, and streams — implement the EventEmitter module so they can provide a way to emit data. Understand how this paradigm works and how you can take advantage of it.",
+      "imageUrl": "./4b2a6db29c303b09c81a0f51c24d05478a98cf0e9c8187654dc908b606535472.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Graph Databases: New Opportunities for Connected Data",
+    "author": "Ian Robinson",
+    "description": "Discover how graph databases can help you manage and query highly connected data. With this practical book, you’ll learn how to design and implement a graph database that brings the power of graphs to bear on a broad range of problem domains. Whether you want to speed up your response to user queries or build a database that can adapt as your business evolves, this book shows you how to apply the schema-free graph model to real-world problems.",
+    "coverImageUrl": "./5688bd18a6677e59e5b8c680c2848ab320dd4d4d28db65515d0e83fccec1d924.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491930896/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491930896/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

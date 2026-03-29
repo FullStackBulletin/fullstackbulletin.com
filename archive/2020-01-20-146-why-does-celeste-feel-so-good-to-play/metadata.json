@@ -1,0 +1,75 @@
+{
+  "issueNumber": 146,
+  "title": "Why Does Celeste Feel So Good to Play?",
+  "slug": "2020-01-20-146-why-does-celeste-feel-so-good-to-play",
+  "date": "2020-01-20",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #3, 2020",
+  "quote": {
+    "text": "All of the biggest technological inventions created by man - the airplane, the automobile, the computer - says little about his intelligence, but speaks volumes about his laziness",
+    "author": "Mark Kennedy",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Mark_Kennedy"
+  },
+  "links": [
+    {
+      "title": "Why Does Celeste Feel So Good to Play?",
+      "url": "https://youtube.com/watch?v=yorTG9at90g",
+      "description": "This is not our usual Web development content, but nonetheless, it is fascinating to see how specific design choices and the actual technical implementation can affect the success of a project. We are sure there will be lessons to learn for aspiring fullstack developers from this interesting video.",
+      "imageUrl": "./2b6b955a600df004fd67991c76aac77253b23391dd96698470a7685c52348d96.jpg",
+      "featured": true
+    },
+    {
+      "title": "2019 JavaScript Rising Stars",
+      "url": "https://risingstars.js.org/2019/en",
+      "description": "A complete overview of the JavaScript landscape in 2019: trends about front-end and node.js frameworks, tooling, IDE, Static site generators and more.",
+      "imageUrl": "./2bece2f7b2f9abf4e3e1af19e212c843a66e0b58bca09302278db0e4a64844f7.jpg",
+      "featured": false
+    },
+    {
+      "title": "awslabs/git-secrets",
+      "url": "https://github.com/awslabs/git-secrets",
+      "description": "A shell script from AWS itself that prevents you from accidentally committing AWS secrets and credentials into git repositories.",
+      "imageUrl": "./52fc8b2d6349d6ba18552dec3e56ba666dcfc150e2f5b9fe7b321e3dad0a97ab.jpg",
+      "featured": false
+    },
+    {
+      "title": "Snowpack",
+      "url": "https://snowpack.dev/",
+      "description": "With Snowpack you can build modern web apps (using React, Vue, etc.) without a bundler (like Webpack, Parcel, Rollup). No more waiting for your bundler to rebuild your site every time you hit save. Instead, every change is reflected in the browser instantly.",
+      "imageUrl": "./5cf7ea6a8b68dce264dbd72ba22187f36c30e9ffe7543bb03efae23173ece6eb.png",
+      "featured": false
+    },
+    {
+      "title": "How to move your project to TypeScript",
+      "url": "https://twilio.com/blog/move-to-typescript",
+      "description": "Learn how you can move your existing JavaScript project, step by step to TypeScript. All at your own pace and as much as you want. Even without doing any code changes.",
+      "imageUrl": "./9aaeac54acbe5b3eae311e7c64788180ee89c9fc0a849a9ac9b0db41d7e0017c.jpg",
+      "featured": false
+    },
+    {
+      "title": "7 CSS properties you had no idea about",
+      "url": "https://dev.to/tlakomy/7-css-properties-you-had-no-idea-about-4e75",
+      "description": "An interesting collection of less-known CSS properties. Number 7 will probably SHOCK you... maybe! 😇",
+      "imageUrl": "./9d985d9be3af9b35c76c62d429b5d25e4ed7a0c788b58be6ff3a402fb1436bc6.jpg",
+      "featured": false
+    },
+    {
+      "title": "React-spring visualizer, tweak your spring configuration",
+      "url": "https://react-spring-visualizer.com/",
+      "description": "The missing visualizer for your react-spring UI animations. Check scale, translate, rotate, opacity & more!",
+      "imageUrl": "./a0e7b38eddedfb890df9e51b2cd02762a8f69fa4ab9c50d4911bec72b69dbc15.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Designing Interfaces: Patterns for Effective Interaction Design",
+    "author": "Jenifer Tidwell",
+    "description": "Despite all of the UI toolkits available today, it's still not easy to design good application interfaces. This bestselling book is one of the few reliable sources to help you navigate through the maze of design options.",
+    "coverImageUrl": "./efd3a4879002fbb37a1b94c9c3a347059c5bfc0661f163c8e89164fe5c872c8e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449379702/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449379702/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

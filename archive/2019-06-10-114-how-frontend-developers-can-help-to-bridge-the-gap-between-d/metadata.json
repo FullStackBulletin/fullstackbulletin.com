@@ -1,0 +1,75 @@
+{
+  "issueNumber": 114,
+  "title": "How Frontend Developers Can Help To Bridge The Gap Between Designers And Developers",
+  "slug": "2019-06-10-114-how-frontend-developers-can-help-to-bridge-the-gap-between-d",
+  "date": "2019-06-10",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #23, 2019",
+  "quote": {
+    "text": "Good programmers use their brains, but good guidelines save us having to think out every case",
+    "author": null,
+    "authorTitle": "Author",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "How Frontend Developers Can Help To Bridge The Gap Between Designers And Developers",
+      "url": "https://smashingmagazine.com/2019/05/frontend-developers-designers",
+      "description": "In this article, Stefan Kaltenegger shares his personal experience and advice on what frontend developers can do on their end to better bridge the gap between designers and developers.",
+      "imageUrl": "./aa4d51cc4c9724e4291aa90ce067354d7390783943461b0cd81fe156f66541b1.jpg",
+      "featured": true
+    },
+    {
+      "title": "Introducing Mercury OS",
+      "url": "https://uxdesign.cc/introducing-mercury-os-f4de45a04289",
+      "description": "A speculative vision of an operating system, driven by humane design principles.",
+      "imageUrl": "./0df21b48d94a57088ecf2f1827275a654cf78db257c72b62e74b79ec1a0209de.jpg",
+      "featured": false
+    },
+    {
+      "title": "hasura/graphql-engine",
+      "url": "https://github.com/hasura/graphql-engine",
+      "description": "Blazing fast, instant realtime GraphQL APIs on Postgres with fine grained access control, also trigger webhooks on database events.",
+      "imageUrl": "./22121cd6912f7e3d027a79690b7ba5e2622011e2551602121fbc90a413b1b8c8.jpg",
+      "featured": false
+    },
+    {
+      "title": "The State of Fluid Web Typography",
+      "url": "https://betterwebtype.com/articles/2019/05/14/the-state-of-fluid-web-typography",
+      "description": "Fluid typography gives us so many opportunities to better design the reading experiences on the web but, at the same time, it introduces problems of font sizes scaling uncontrollably and potential accessibility issues. Is fluid web typography ready to be used?",
+      "imageUrl": "./b5b45ddd31ac6cd30ce8a66db834d47da7987d6c9fd444688514537988ce39e1.jpg",
+      "featured": false
+    },
+    {
+      "title": "Best practices for building a large scale react application",
+      "url": "https://buttercms.com/blog/best-practices-for-building-a-large-scale-react-application",
+      "description": "What are best practices for building a large React app? What libraries are useful for managing your app? Read this article to learn more.",
+      "imageUrl": "./b48a9781d95bbc65fb92573fc2b904fed39bf02883386e58460968b032b020f0.jpg",
+      "featured": false
+    },
+    {
+      "title": "The 4px baseline grid",
+      "url": "https://uxdesign.cc/the-4px-baseline-grid-89485012dea6",
+      "description": "How I use the 4px baseline grid to measure space around text in UI design",
+      "imageUrl": "./c504712fb0d04b241134645bd8aae83ea493f2ba4f68f46735559c368fe0f7f4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Making the obvious code fast",
+      "url": "https://jackmott.github.io/programming/2016/07/22/making-obvious-fast.html",
+      "description": "Jonathan Blow of “The Witness” fame likes to talk about just typing the obvious code first. Usually, it will turnout to be fast enough. If it doesn’t, you can always optimize it later...",
+      "imageUrl": "./c4356c8653bd78df8bdd48a69e4b454a01f0c6d0107eb631a8fba332948425bc.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Getting Started with hapi.js",
+    "author": "John Brett",
+    "description": "This book will introduce hapi.js and walk you through the creation of your first working application using the out-of-the-box features hapi.js provides. Packed with real-world problems and examples, this book introduces some of the basic concepts of hapi.js and Node.js and takes you through the typical journey you'll face when developing an application. Starting with easier concepts such as routing requests, building APIs serving JSON, using templates to build websites and applications, and connecting databases, we then move on to more complex problems such as authentication, model validation, caching, and techniques for structuring your codebase to scale gracefully.",
+    "coverImageUrl": "./d31bcb4e84d816e5d5fcc91de57a73e2d10b8c811815001c4ed2997d6b526a79.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785888188/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785888188/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

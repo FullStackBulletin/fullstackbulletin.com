@@ -1,0 +1,104 @@
+{
+  "issueNumber": 439,
+  "title": "A deep dive into the latest Cloudflare’s outage",
+  "slug": "2025-09-22-419-a-deep-dive-into-the-latest-cloudflare-s-outage",
+  "date": "2025-09-22",
+  "templateType": "buttondown-markdown",
+  "intro": "Ciao,\n\nThis week reminded me how easy it is for small bugs to scale into massive problems, and how the tiniest bit of clever engineering can completely flip your perspective.\n\nFrom Cloudflare's real-world `useEffect` drama, to Bun’s relentless pursuit of speed, to the question of whether S3 is about to eat vector databases for breakfast... this issue is packed with sharp lessons, curious experiments, and more than one “huh, that’s actually brilliant” moment.\n\nAlso, a confession: I spent way too long nerding out over UTF-8 and queue delivery semantics. You’ve been warned.\n\nHappy reading and coding!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "The use of COBOL cripples the mind; its teaching should therefore be regarded as a criminal offense",
+    "author": "E.W. Dijkstra",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/E._W._Dijkstra?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=439-a-deep-dive-into-cloudflare-s-september-12-2025-dashboard-and-api-outage"
+  },
+  "links": [
+    {
+      "title": "A deep dive into the latest Cloudflare’s outage",
+      "url": "https://blog.cloudflare.com/deep-dive-into-cloudflares-sept-12-dashboard-and-api-outage",
+      "description": "React’s `useEffect` hook is well known for causing developers all sorts of headaches. It’s a useful and powerful API, but also easy to misuse. It hooks into the lifecycle of a React component and is often used to load data from a remote source when that component is mounted in the DOM. One of the confusing parts about `useEffect` is the dependency array. This array tells React when to re-run the effect. If you want the effect to *never* re-run, you MUST pass an **empty** array. But what if you leave it out entirely? Well, here’s the kicker: the effect will re-run **on every single render**. If your effect is fetching data from an API, this means you're potentially generating tons of unnecessary requests! Now imagine this mistake happening on a heavily used dashboard. Suddenly, you’ve unintentionally turned your well-meaning users into a distributed denial-of-service army! That’s exactly what happened to Cloudflare. A small frontend mistake, compounded at scale, created a serious production outage. Fair play to Cloudflare for fixing it fast and sharing the full story so openly. If you enjoy learning from real-world postmortems as much as I do, this one is well worth a read.",
+      "imageUrl": "./4bd3c21a876966f35bf94bb905e948a65bbc5cbc617d08d48b3c31e549d5d041.jpg",
+      "featured": true
+    },
+    {
+      "title": "Behind The Scenes of Bun Install",
+      "url": "https://bun.com/blog/behind-the-scenes-of-bun-install",
+      "description": "Have you ever used different JavaScript package managers (npm, pnpm, yarn, bun) and noticed how some of them feel way faster than others, even when running on the exact same big project? That’s not a fluke. Some of them are consistently faster. Installing a complex graph of dependencies is no trivial task, and there are a lot of different ways to tackle it. Some are... fine. Others are blazing fast. And that’s exactly what the team at Bun is aiming for. In this deep technical dive, they break down the secret sauce behind bun install and how it’s become one of the fastest installers on the landscape. We’re talking low-level optimizations, parallelism, smart compression, even skipping the tar step entirely. It’s geeky in the best way. If you love detailed engineering breakdowns and want to understand what makes dev tools really fast, this one’s a treat.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Move files and directories to the trash",
+      "url": "https://github.com/sindresorhus/trash",
+      "description": "A quick mention for a lovely little JavaScript library I stumbled across last week: `trash`. It lets you move files to the system trash. Sounds simple enough that you wouldn’t need a library for it, right? Well... not quite. Turns out the trash bin is very OS-dependent, and if your app needs to work across macOS, Windows, and Linux, this library saves you from dealing with all the subtle differences. Clean API, cross-platform, and does exactly what it says. Take a peek at the code if you're curious how file deletion *should* be done properly. [**Check Repo**](https://github.com/sindresorhus/trash)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "You no longer need JavaScript",
+      "url": "https://lyra.horse/blog/2025/08/you-dont-need-js",
+      "description": "Before you think I’ve turned against my beloved JavaScript... let me explain. This article isn’t calling for a total JS ban. It’s more of a thoughtful reflection on how much modern CSS can handle on its own. Things that used to need custom JavaScript are now possible with native CSS features. And that’s a win in my book. The more you can push into declarative styling, the better. JavaScript should be reserved for actual business logic, interactivity, and anything that truly needs code behind it. Everything else? CSS has it covered. A solid reminder that writing less JavaScript doesn't mean building less.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "UTF-8 is a Brilliant Design",
+      "url": "https://iamvishnu.com/posts/utf8-is-brilliant-design",
+      "description": "Another one for the information nerds! And if you’ve been reading this newsletter for a while, you know I’m a sucker for anything that dives into emoji encoding and other text-related oddities. Well, here’s a great post that breaks down the brilliance behind UTF-8, the most common text encoding in use today. It explains why its design is so clever and why it’s still holding up decades later. If you’ve ever wondered why a single emoji might count as \"2\" or \"7\" characters (depending on who you ask... looking at you, JavaScript), this article clears things up. Also super useful if you’ve ever streamed Unicode text and ended up with the occasional garbled character. Chances are, you split a multi-byte character right down the middle! Fascinating stuff, and a great read if you enjoy peeking under the hood of how text actually works.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How I solved a distributed queue problem after 15 years",
+      "url": "https://dbos.dev/blog/durable-queues",
+      "description": "If you ever needed a queue system to process background tasks (sending emails, generating reports, scaling images, etc), you’ve probably used an external service like Kafka, RabbitMQ, or a SaaS like SQS. Well, you can also host your own queues if you’re brave enough! This article explores how to build durable, crash-safe queues directly on top of a database transaction log. No external broker, no extra services, just smart engineering layered on top of Postgres. It also does a great job explaining why queueing systems are not as simple as they seem. You’ll learn about different delivery guarantees (like at-most-once, at-least-once, and exactly-once), why they matter, and what it takes to get them right. While I think I’ll still prefer using SQS for the foreseeable future, this read felt like a love letter to simplicity, reliability, and the kind of backend architecture that quietly does the job right.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Will Amazon S3 Vectors Kill Vector Databases—or Save Them?",
+      "url": "https://zilliz.com/blog/will-amazon-s3-vectors-kill-vector-databases-or-save-them",
+      "description": "Last week I was working on a blog and adding a “related articles” feature. I had this moment: *Blimey, that’s a perfect use case for vector databases!* Then I remembered [an article](https://awsfundamentals.com/blog/building-related-posts-with-bedrock-knowledgebase-and-s3-vectors) I’d read recently showing exactly that—using AWS S3’s new vector indexing features to power related content. Super clever stuff. So when I came across this new post, it had my full attention. The author digs into a big question: will S3’s built-in vector storage and indexing kill the rising market of vector databases... or actually boost it? If you’ve been following the whole vector DB hype and wondering where it’s headed, this is a thoughtful take that’s absolutely worth a read.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Accelerate: The Science of Lean Software and DevOps",
+    "author": "Nicole Forsgren  PhD, Jez Humble, and Gene Kim",
+    "description": "How can we apply technology to drive real business value?",
+    "coverImageUrl": "./6b5ab82690c0fa63fdb4caae4cdb292135e7df49400c1359a2d67d56a100a1d1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1942788339",
+    "amazonUk": null
+  },
+  "additionalLinks": [
+    {
+      "title": "How To Set Up Express 5 For Production In 2025",
+      "url": "https://reactsquad.io/blog/how-to-set-up-express-5-in-2025"
+    },
+    {
+      "title": "Keeping Secrets Out of Logs",
+      "url": "https://allan.reyes.sh/posts/keeping-secrets-out-of-logs"
+    },
+    {
+      "title": "The Discipline of Constraints: What Elm Taught Me About React's useReducer",
+      "url": "https://cekrem.github.io/posts/the-discipline-of-constraints-elm-usereducer-lessons"
+    },
+    {
+      "title": "Quick SEO Guidelines for Your Next.js App",
+      "url": "https://playfulprogramming.com/posts/seo-nextjs-guide"
+    },
+    {
+      "title": "A tiny bit-o-CSS for Stable Scrollbar Gutters",
+      "url": "https://zachleat.com/web/stable-scrollbar-gutters"
+    },
+    {
+      "title": "Fetch streams are great, but not for measuring upload/download progress",
+      "url": "https://jakearchibald.com/2025/fetch-streams-not-for-progress"
+    },
+    {
+      "title": "Strapi: Headless CMS on AWS (AWS Bites Podcast)",
+      "url": "https://awsbites.com/149-headless-cms-on-aws"
+    }
+  ],
+  "sponsor": null
+}

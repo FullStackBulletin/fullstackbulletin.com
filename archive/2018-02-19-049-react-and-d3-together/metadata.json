@@ -1,0 +1,75 @@
+{
+  "issueNumber": 49,
+  "title": "React and D3 together",
+  "slug": "2018-02-19-049-react-and-d3-together",
+  "date": "2018-02-19",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #7, 2018",
+  "quote": {
+    "text": "Technology is a word that describes something that doesn’t work yet",
+    "author": "Douglas Adams",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Douglas_Adams"
+  },
+  "links": [
+    {
+      "title": "React and D3 together",
+      "url": "https://www.youtube.com/watch?v=SVbTTUpCLfo",
+      "description": "D3 and React, who should control the DOM? In this amazing talk from ReactiveConf 2017, you will learn when React should have ownership of the DOM, and when D3 should instead.",
+      "imageUrl": "./cdc936afd8073dd2e22e0da3832bc97e5971e712cb9d42cb5f3f12104ccef9ca.jpg",
+      "featured": true
+    },
+    {
+      "title": "The Web 3.0",
+      "url": "https://medium.com/@matteozago/why-the-web-3-0-matters-and-you-should-know-about-it-a5851d63c949",
+      "description": "What is the Web 3.0 and why it matters? This article illustrates what the future web should be and why we should start to plan for it and take advantages from new tech on the web.",
+      "imageUrl": "./04508a94cf0718202066e1a7679a46c6db461d9e977abdd5150f1a38a6601838.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript for the Web",
+      "url": "https://sabe.io/classes/javascript",
+      "description": "An amazing and FREE class for beginners to learn how to work with DOM elements, make AJAX calls, work with cookies, and much more!",
+      "imageUrl": "./e54058746c00980772e084c0416a1aa2dc6b0176046ac16a4dea80a5742c415d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Remoteur",
+      "url": "http://www.remoteur.com/",
+      "description": "**⭐️SPONSORED**\n\n\nA fantastic newsletter dedicated to Remote jobs in Europe delivered to your inbox bi-weekly.",
+      "imageUrl": "./ab0b6876bb58c67e553368110901b39bd4843ced1bbfdd5f903b551fbd4d40d0.png",
+      "featured": false
+    },
+    {
+      "title": "Rekit Studio",
+      "url": "https://medium.freecodecamp.org/introducing-rekit-studio-a-real-ide-for-react-and-redux-development-baf0c99cb542",
+      "description": "Introducing Rekit Studio, a complete IDE for React, Redux and React Router development!",
+      "imageUrl": "./4119be7f3c5b6018d9925a5371e3445451d8ffcf2e5e3ef27b3e4ea5b90b59de.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript Testing in 2018",
+      "url": "https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3",
+      "description": "This guide is intended to catch you up with the most important reasoning, terms, tools, and approaches to JavaScript testing in 2018.",
+      "imageUrl": "./52c17e54e5bc97689ee2065e3cd60f31d665c6b3a7c11552a7701b77aebf82b9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Eloquent JavaScript, 3rd ed.",
+      "url": "https://eloquentjavascript.net/3rd_edition",
+      "description": "This is one of the best books about JavaScript, programming, and the wonders of the digital. You can read the new edition online for FREE or get your own paperback copy to support the amazing work of Marijn Haverbeke.",
+      "imageUrl": "./7d30734383a891dd73fec2fdaac60d1120b28da7eb9a6c70329738f94eaca8bf.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Big Data: Principles and best practices of scalable realtime data systems",
+    "author": "Nathan Marz",
+    "description": "Big Data teaches you to build big data systems using an architecture that takes advantage of clustered hardware along with new tools designed specifically to capture and analyze web-scale data. It describes a scalable, easy-to-understand approach to big data systems that can be built and run by a small team.",
+    "coverImageUrl": "./f109f576f51b956a93fffd90f2756794ef95a8d46f118a0f1e23f611c7af4a75.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617290343/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617290343/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

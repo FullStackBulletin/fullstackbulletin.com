@@ -1,0 +1,75 @@
+{
+  "issueNumber": 302,
+  "title": "UI components for Vue.js and CSS framework agnostic",
+  "slug": "2022-12-05-289-ui-components-for-vue-js-and-css-framework-agnostic",
+  "date": "2022-12-05",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Computers are useless.  They can only give you answers",
+    "author": "Pablo Picasso",
+    "authorTitle": "Artist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Pablo_Picasso"
+  },
+  "links": [
+    {
+      "title": "UI components for Vue.js and CSS framework agnostic",
+      "url": "https://oruga.io/",
+      "description": "Oruga UI is like a caterpillar, minimal and yet functional. It's a Vue.js components system that is quite lightweight and aims to give you a bunch of functionality without forcing you to adopt a specific visual style. If you are using Vue this is definitely worth checking out!",
+      "imageUrl": "./cd61dbb42a8123375a5e6af2985f38f45f26891ea51e4b41bca4272996d5f859.jpg",
+      "featured": true
+    },
+    {
+      "title": "Performance Cards: Designing with Meaning and Empathy",
+      "url": "https://spotify.design/article/performance-cards-designing-with-empathy-and-meaning",
+      "description": "Spotify created an interesting card game that can be used to challenge the way you think and serve access-constrained users with these cards. Really an awesome concept to put more focus into designing for accessibility. Even if you are not into accessibility this is a really good read and it's recommended if you build web products.",
+      "imageUrl": "./a4cc4928891657a2d5068697052daac3fb55e76595742832c0af4a5e855cf40c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Node.js Architecture Pitfalls to Avoid",
+      "url": "https://blog.appsignal.com/2022/11/23/nodejs-architecture-pitfalls-to-avoid.html",
+      "description": "This article explores some common architecture pitfalls in Node.js and showcases how you can avoid them. For instance, it covers how to avoid global state, how to make your code more generic and easy to test, and, how to pick external libraries.",
+      "imageUrl": "./87cd5aafa03e755ef60d07f5a3903a7277e92e197555f04e9c1299f64a19d387.jpg",
+      "featured": false
+    },
+    {
+      "title": "Node.js animated: Event Loop Phases",
+      "url": "https://dev.to/nodedoctors/animated-nodejs-event-loop-phases-1mcp",
+      "description": "The event loop is one of these things that even when you think you fully understood, it's still very hard to explain to other people. In this article, the author does a fantastic job explaining the event loop by using lots of animations. Check it out, even if you think you know the event loop already 😜",
+      "imageUrl": "./900aab143e0a1a66d70ef2d29b22b820f52d301eb460e02e5d48591a6b653276.jpg",
+      "featured": false
+    },
+    {
+      "title": "Making Static Noise From a Weird CSS Gradient Bug",
+      "url": "https://css-tricks.com/making-static-noise-from-a-weird-css-gradient-bug",
+      "description": "Do you remember that static noise on old TVs with no signal? By reading this article you can recreate that kind of effect and the fun part is that you will be exploiting a weird bug in CSS gradients! Can this be a useful trick for your next web project?",
+      "imageUrl": "./be004d5d5af473060ae0348717feeaefbc56440d16907d2d0548c6d8e8e979cb.jpg",
+      "featured": false
+    },
+    {
+      "title": "Migrating from warp to axum",
+      "url": "https://fasterthanli.me/series/updating-fasterthanli-me-for-2022/part-2",
+      "description": "This is a very technical one for those who are more heavily invested in Rust. Axum is a relatively new web framework (from the same authors of Tokio) that is taking more and more traction. In this article, Amos, explains how to migrate a web app from Warp (another web framework) to Axum.",
+      "imageUrl": "./1d4c336dd7f43313aa34720c88e575b3213ca58b27b368dab95e8536c0b9474a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Futicons",
+      "url": "https://futicons.com/",
+      "description": "What is the future going to look like? Electric cars, massive batteries, virtual reality, AI, planet travel? Who can tell for sure?! But if you are looking for some futuristic icons that cover all these interesting topics, look no more, **Futicons** is what you need!",
+      "imageUrl": "./230292e4780ff6836991a760d143ac429c8fdbca7ce58d47b2b690fac5a5b27e.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Modern PHP: New Features and Good Practices",
+    "author": "Josh Lockhart",
+    "description": "PHP is experiencing a renaissance, though it may be difficult to tell with all of the outdated PHP tutorials online. With this practical guide, you’ll learn how PHP has become a full-featured, mature language with object-orientation, namespaces, and a growing collection of reusable component libraries. Author Josh Lockhart—creator of PHP The Right Way, a popular initiative to encourage PHP best practices—reveals these new language features in action. You’ll learn best practices for application architecture and planning, databases, security, testing, debugging, and deployment.",
+    "coverImageUrl": "./418bba906f21b114b5c7dcb0d9e0d7c44a714c727d1cf0edbb7f097a7406b2d5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491905018/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491905018/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

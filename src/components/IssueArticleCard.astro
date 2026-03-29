@@ -1,0 +1,25 @@
+---
+import { renderSimpleMarkdown } from '../lib/markdown';
+import { addUtmParams } from '../lib/utm';
+
+interface Props {
+  title: string;
+  url: string;
+  description: string | null;
+  issueNumber: number;
+}
+
+const { title, url, description, issueNumber } = Astro.props;
+const trackedUrl = addUtmParams(url, issueNumber, 'title');
+---
+
+<article class="py-4 border-b border-neutral-light/30 last:border-b-0">
+  <h3 class="font-heading text-base font-semibold mb-1">
+    <a href={trackedUrl} target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">
+      {title}
+    </a>
+  </h3>
+  {description && (
+    <p class="text-sm text-neutral-dark leading-relaxed" set:html={renderSimpleMarkdown(description, issueNumber, 'description-link')} />
+  )}
+</article>

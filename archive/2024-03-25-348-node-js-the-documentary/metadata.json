@@ -1,0 +1,108 @@
+{
+  "issueNumber": 365,
+  "title": "Node.js: The Documentary",
+  "slug": "2024-03-25-348-node-js-the-documentary",
+  "date": "2024-03-25",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #365!\nIn the last couple of weeks, I have been thinking a lot about how we could make FullStack Bulletin better and more valuable to you. But, after all, getting your opinion is probably the most valuable thing we could do! So I have prepared **[a quick form to gather your opinion about FullStack Bulletin](https://fstack.link/lets-make-it-better)**! I hope you can spare 5 minutes to help us to help you 😀\nWith that out of the way, now let's get into some full-stack content! And this week, we start with a bang, the highly anticipated Node.js documentary! 😱\n— Your editor, [Luciano](https://twitter.com/loige)",
+  "quote": {
+    "text": "Anyone who considers arithmetical methods of producing random digits is, of course, in a state of sin“",
+    "author": "John Von Neumann",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_von_Neumann"
+  },
+  "links": [
+    {
+      "title": "Node.js: The Documentary",
+      "url": "https://youtube.com/watch?v=LB8KwiiUGy0",
+      "description": "Back in 2008, most people thought of JavaScript as just a client-side language and, honestly the reputation of the language wasn't even that good with many calling it *a toy language*. But when Google's V8 appeared, young developer Ryan Dahl made the connection and started to think about what using JavaScript on the server side could really look like... I really enjoyed this documentary (even though I was expecting it to cover some of the Deno drama as well) and it's mind-blowing to see that it got more than 60K views after less than one day!",
+      "imageUrl": "./877c6b698f3f98dc6b97257bdc0a16dba854c8f091c6190567ed723003b8735d.jpg",
+      "featured": true
+    },
+    {
+      "title": "There is no EU cookie banner law",
+      "url": "https://www.bitecode.dev/p/there-is-no-eu-cookie-banner-law",
+      "description": "Did you know that if you are a multinational business and you have a presence outside the EU, your websites (except for the European ones) don't have to show a cookie banner? That's cool, but what's even more interesting (and possibly less known) is that a cookie banner is not strictly required even in the EU itself! If you, like me, hate cookie bars, you might enjoy this article.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The problem with using a UUID primary key in MySQL",
+      "url": "https://planetscale.com/blog/the-problem-with-using-a-uuid-primary-key-in-mysql",
+      "description": "Many times I have seen UUIDs being used as primary keys in all kinds of databases. It never crossed my mind that they could not be an ideal choice in some circumstances. So this article is great, it shines a light on all the (very many) versions of UUIDs and why using them as a primary key in MySQL can hurt database performance.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Emojisplosion 💥🤯🤣",
+      "url": "https://www.emojisplosion.dev/",
+      "description": "I don't know if this can be useful, but I love it! Emojisplosion is a JavaScript library that allows you to create all sorts of emoji explosion effects (literally) on a web page. Maybe it's something you could use as an Easter egg or to reward a user after they complete some kind of important action. Well, one suggestion before you go crazy, remember to disable it with users with `prefers-reduced-motion` enabled.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "require(esm) in Node.js",
+      "url": "https://joyeecheung.github.io/blog/2024/03/18/require-esm-in-node-js/index.html",
+      "description": "This is big for the Node.js ecosystem, which has been in a weird limbo for the last 3-4 years trying to promote the shift to ESM over Common.js, which has been way more painful than anyone could have imagined. What's changing is that we now have experimental support for `require()`-ing synchronous ES modules, a feature that has been long overdue. Something that can ease the pain of those who are still stuck in CommonJS land. I can't wait for this to become stable and broadly available!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The type system of the React compiler",
+      "url": "https://recompiled.dev/blog/type-system",
+      "description": "The [React Compiler](https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024#react-compiler) is no longer a research project: it powers instagram.com in production and it might soon become an integral part of the official React tooling ecosystem. So what's cool about it? In this article, you can learn some interesting details about the compiler type system and why this implementation enables some automatic optimizations.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What if you tried hard?",
+      "url": "https://aaronfrancis.com/2024/try-hard",
+      "description": "This is not a highly technical blog post, but once again, I think our friend [Aaron Francis](https://twitter.com/aarondfrancis) hits the nail on the head with another inspirational post. So here's why, sometimes we should all try harder to succeed! So yeah...Thanks, Aaron! I hope you'll get motivated just as much as I did after reading this post!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Design Playground: HTML & CSS the Interactive Way",
+    "author": "Paul McFedries",
+    "description": "Web Design Playground takes you step by step from writing your first line of HTML to creating interesting, attractive web pages. In this project-based book, you'll use a custom online workspace to design websites, product pages, photo galleries, and more. Don't worry about setting up your own servers and domain names—the book comes with a free \"playground\" which lets you experiment without any of that! You can concentrate on core skills like adding images and video and laying out the page, plus learning typography, responsive design, and the other tools of the web trade.",
+    "coverImageUrl": "./5d355297a9b4cb81e5a7e90b2debcac984985e883c1e2a5848c40e973551658b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617294403?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617294403?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "How HEAD works in git",
+      "url": "https://jvns.ca/blog/2024/03/08/how-head-works-in-git"
+    },
+    {
+      "title": "Parsing the HN Who is Hiring Thread with ChatGPT and Node.js",
+      "url": "https://jbernier.com/p?id=hn-who-is-hiring-chatgpt"
+    },
+    {
+      "title": "Comparing ECMAScript Modules and CommonJS",
+      "url": "https://wanago.io/2024/03/18/ecmascript-modules-esm-commonjs"
+    },
+    {
+      "title": "Interneting Is Hard",
+      "url": "https://internetingishard.netlify.app/"
+    },
+    {
+      "title": "Runtime compatibility across JavaScript runtimes",
+      "url": "https://runtime-compat.unjs.io/"
+    },
+    {
+      "title": "CSS Button Styles You Might Not Know",
+      "url": "https://dbushell.com/2024/03/10/css-button-styles-you-might-not-know"
+    },
+    {
+      "title": "A formula for responsive font-size",
+      "url": "https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size"
+    },
+    {
+      "title": "The state of AWS (video)",
+      "url": "https://awsbites.com/119-the-state-of-aws-2024-answers-community-survey-commentary/"
+    }
+  ],
+  "sponsor": null
+}

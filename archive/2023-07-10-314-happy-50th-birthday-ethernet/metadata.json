@@ -1,0 +1,75 @@
+{
+  "issueNumber": 328,
+  "title": "Happy 50th birthday, Ethernet",
+  "slug": "2023-07-10-314-happy-50th-birthday-ethernet",
+  "date": "2023-07-10",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "The function of good software is to make the complex appear to be simple",
+    "author": "Grady Booch",
+    "authorTitle": "Software engineer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Grady_Booch"
+  },
+  "links": [
+    {
+      "title": "Happy 50th birthday, Ethernet",
+      "url": "https://blog.apnic.net/2023/06/29/happy-50th-birthday-ethernet",
+      "description": "Ethernet, one of the foundational protocols of our networks has turned 50. This is not strictly a Fullstack web development news, but it's still worth wondering why has Ethernet endured as a ubiquitous data framing protocol over all these years. Let's find out!",
+      "imageUrl": "./b970217039f52ea7b575415dd00c1f83e25df1db09df5d56066b0922221454ab.jpg",
+      "featured": true
+    },
+    {
+      "title": "Announcing Svelte 4",
+      "url": "https://svelte.dev/blog/svelte-4",
+      "description": "Svelte 4 is a new release that enhances performance and developer experience. It comes with a full re-design of the official website. Svelte 4 comes with a smaller and faster hydration code, reducing the package size by nearly 75%. The number of dependencies has been significantly reduced, resulting in faster downloads and increased security against supply chain attacks. This blog post highlights all the other relevant news and starts to lay down a path towards Svelte 5!",
+      "imageUrl": "./a1fd01f06f7490fe440cb39f9b246d480e3b824fdddd30d1e97b31a0103b93ca.jpg",
+      "featured": false
+    },
+    {
+      "title": "Hurl - Run and Test HTTP Requests",
+      "url": "https://hurl.dev/",
+      "description": "Hurl is a CLI tool that allows you to run and test HTTP requests with plain text and curl. Hurl can also be used to run fast automated integration tests. I have been playing a little with this one last week and found it very friendly to use!",
+      "imageUrl": "./01069de0110c7022080a4e9f0f14e405ae753b3d5dc515e128d851124ebfbb06.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Deep Dive Into SVG Path Commands",
+      "url": "https://nan.fyi/svg-paths",
+      "description": "An interactive guide to understanding SVG paths and path commands. If you always wondered how the SVG format works, this is the interactive tutorial you were waiting for!",
+      "imageUrl": "./596bda61de897097dd461f7f68111d941c4fb7c4f361810dbf559c41413ccd4b.png",
+      "featured": false
+    },
+    {
+      "title": "Breaking Up with SVG-in-JS in 2023",
+      "url": "https://kurtextrem.de/posts/svg-in-js",
+      "description": "If the previous article made you realise you can do a lot of interactive stuff by combining SVG and JavaScript, you will be excited to know that you can embed JavaScript into SVG! But should you do that, is the question... This article explores a different idea of how you can use React and JSX to make interactive SVGs.",
+      "imageUrl": "./e968d7f7d55b08f8cc67eaf911aa149c08f8e3f7b7f9d6015af58373f4862dd8.jpg",
+      "featured": false
+    },
+    {
+      "title": "CommonJS is hurting JavaScript",
+      "url": "https://deno.com/blog/commonjs-is-hurting-javascript",
+      "description": "Deno is taking a strong stance against CommonJS. This article gives a recap of how CommonJS comes to be and how it was then surpassed by EcmaScript Modules (ESM). Finally, the Deno project takes their distance from CommonJS envisioning an ESM-only future.",
+      "imageUrl": "./9c94ca5510b8acb20689e5404bbc8ae524a300a5d6d82125073f6eb858c1b162.jpg",
+      "featured": false
+    },
+    {
+      "title": "Introducing the MDN Playground: Bring your code to life!",
+      "url": "https://developer.mozilla.org/en-US/blog/introducing-the-mdn-playground",
+      "description": "MDN, the go-to place, to learn about Web Platform APIs has launched an interactive code Playground. This will help make their (already awesome) documentation more interactive and playful. If you want an example of what I am talking about, [check out how to build your own web-piano](https://developer.mozilla.org/en-US/play?id=4Tko2aSXCK7%2BC0R1KWfM%2Bskv03GrsLKW10wTAz7Ax9aK6D%2BVVPChZtArwahGu7lJ8U%2B3PUizZqM5Ng5w)!",
+      "imageUrl": "./7e3e8e3bacc27df0ef180af6931c4d80e2b3ac888db919fdd5a15fd802d74d04.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+    "author": "Lea Verou",
+    "description": "In this practical guide, CSS expert Lea Verou provides 47 undocumented techniques and tips to help intermediate-to advanced CSS developers devise elegant solutions to a wide range of everyday web design problems. Rather than focus on design, CSS Secrets shows you how to solve problems with code. You'll learn how to apply Lea's analytical approach to practically every CSS problem you face to attain DRY, maintainable, flexible, lightweight, and standards-compliant results.",
+    "coverImageUrl": "./e20c35997e3e8a6a408d0165643e9832e92142192a5c4b89e0e684f372fe7735.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372635/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372635/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

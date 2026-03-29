@@ -1,0 +1,75 @@
+{
+  "issueNumber": 255,
+  "title": "3D & WebGL Background Animations",
+  "slug": "2022-01-10-244-3d-webgl-background-animations",
+  "date": "2022-01-10",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nPower your content experiences with high fidelity data. Retrieve analytics & insights with [with the Nudge API](https://giveitanudge.com/?ndg_source=fs).",
+  "quote": {
+    "text": "Technology is anything that wasn’t around when you were born",
+    "author": "Alan Kay",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Kay"
+  },
+  "links": [
+    {
+      "title": "3D & WebGL Background Animations",
+      "url": "https://vantajs.com/",
+      "description": "Vanta.js is a library that helps you to build customizable plug & play animated backgrounds using three.js. Great if you want to give your next website a memorable vivid style!",
+      "imageUrl": "./d3fd75389b89c07b847beb34c6224c4a71622f2a62648e5007ac612e08345fc4.jpg",
+      "featured": true
+    },
+    {
+      "title": "Frontend Developer Resources 2022",
+      "url": "https://iamdeveloper.com/posts/frontend-developer-resources-2022-4cp2",
+      "description": "A wondeful list of resources that every fullstack web developer should know about in 2022. Organised in different sections: JavaScript, HTML, CSS, Accessibility, JAMStack, etc.",
+      "imageUrl": "./44fffaef9cc7ea90db5c6d38e5a7d6b8a49afe8d2c61db80534287d9214c13a5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Frontend Web Performance: The Essentials",
+      "url": "https://medium.com/@matthew.costello/frontend-web-performance-the-essentials-0-61fea500b180",
+      "description": "If you want to learn how to make performant frontend applications you need to start from the basics and learn about the Browser Rendering Cycle and Hardware Acceleration & Compositor Laye‍rs.",
+      "imageUrl": "./26ac5f2e1431296fbaf40c167a5ea7760502c425cb7661ddc02d615fed6db03c.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Nudge Platform",
+      "url": "https://giveitanudge.com/docs/?ndg_source=fs",
+      "description": "Content measurement provides an essential building block for any smart web experience. The Nudge Docs shows you how you can measure the right things, to provide the best experience for your users.\nsponsored",
+      "imageUrl": "./26b2f67a8029b9c7220e824e810019cba63a5212304bb1c5bb33c43eaf88edc2.png",
+      "featured": false
+    },
+    {
+      "title": "Video-Intro to Monads",
+      "url": "https://youtube.com/watch?v=C2w45qRc3aU",
+      "description": "As a software engineer chances are you have already heard about monads, but also, as a software engineer, you are probably still struggling to understand what a monad is why it's useful... Fear no more, this video makes it very easy and quick to finally understand monads and it's full of great examples!",
+      "imageUrl": "./a6518ba7299849749f6917260456d51395c4f2380b674a15b10c7126fc671872.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why a Developer Should Be a Bit of a Cloud Engineer",
+      "url": "https://dzone.com/articles/why-a-developer-should-be-a-bit-of-a-cloud-engineer",
+      "description": "The shift to the cloud is real and we cannot ignore it. In this article you can learn more about why, as a software engineer, you should consider learning more and more about the cloud.",
+      "imageUrl": "./212e4e5b7685ef166bdf93d4e01106a0a9897d3c097bba70e994f08fe7334c50.jpg",
+      "featured": false
+    },
+    {
+      "title": "You don't need that CORS request",
+      "url": "https://nickolinger.com/blog/2021-08-04-you-dont-need-that-cors-request",
+      "description": "Have you ever wondered what that `OPTIONS` request is executing before your actual `GET`/`POST`/`PUT`/`DELETE` when making requests to `api.foobarbaz.app`? And what kind of performance impact can an extra request have in a large app? Find out more in this amazing article!",
+      "imageUrl": "./17924e04990981b783aa831a5a1cc6d05ed57dbbad795e9f73291edd50a278b9.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Algorithms to live by",
+    "author": "Brian Christian and Tom Griffiths",
+    "description": "A fascinating exploration of how computer algorithms can be applied to our everyday lives, helping to solve common decision-making problems and illuminate the workings of the human mindAll our lives are constrained by limited space and time, limits that give rise to a particular set of problems. What should we do, or leave undone, in a day or a lifetime? How much messiness should we accept? What balance of new activities and familiar favourites is the most fulfilling?",
+    "coverImageUrl": "./24438c07b3bd2a14108cd79d826105f246b331801bf6b194abd1244f7b8e66af.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0008166099/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0008166099/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

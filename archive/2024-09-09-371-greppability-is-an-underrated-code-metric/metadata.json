@@ -1,0 +1,108 @@
+{
+  "issueNumber": 389,
+  "title": "Greppability is an underrated code metric",
+  "slug": "2024-09-09-371-greppability-is-an-underrated-code-metric",
+  "date": "2024-09-09",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, Welcome to this week’s newsletter, packed with essential insights for full-stack developers. Explore how \"*greppability*\" can enhance your code quality, dive into our comprehensive guide on automating tasks with cron jobs, and refresh your IDE with the unique Server Mono typeface. Discover a CSS tweak that can significantly boost your site’s performance, and learn how the Semantic Web and JSON-LD can improve your site's functionality.\nOf course, for those eager for more, we have more! In case you haven't noticed, we have been including a list of additional content at the end. I am sure this curation will help you to stay informed and inspired with the latest tools and techniques!\nYour editor, [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "The human spirit must prevail over technology“",
+    "author": "Albert Einstein",
+    "authorTitle": "Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "links": [
+    {
+      "title": "Greppability is an underrated code metric",
+      "url": "https://morizbuesing.com/blog/greppability-code-metric",
+      "description": "In a world of complex codebases, \"*greppability*\" offers a fresh way to measure how easily your code can be understood and searched. This article introduces the concept and explains why improving greppability can streamline your workflow and enhance code quality. If you've ever struggled to quickly locate code, this is a must-read if you care about code quality.",
+      "imageUrl": "./fd30ea87e5a7e5c57f998172f9751581171f4501953b66e255a3471b8cf6edfd.png",
+      "featured": true
+    },
+    {
+      "title": "Comprehensive guide to Cron Jobs",
+      "url": "https://ittavern.com/cron-jobs-on-linux-comprehensive-guide",
+      "description": "Cron jobs are the backbone of automation on Linux, enabling you to schedule tasks like backups or generating reports with ease. This guide breaks down everything you need to know, from setting up basic cron jobs to mastering advanced configurations. Whether you're new to cron or looking to refine your skills, this resource will help you automate tasks efficiently.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Server Mono",
+      "url": "https://servermono.com/",
+      "description": "Server Mono is a typeface I came across last week, and I instantly fell in love with it. If you're thinking about refreshing the look of your IDE or terminal, you might like it too. Inspired by typewriters, Apple's San Francisco Mono, ASCII art, command-line interfaces, and programming tools, Server Mono has a unique charm. If you're a font enthusiast, it's definitely worth checking out!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Two Lines of CSS That Tanked Performance (120fps to 40fps)",
+      "url": "https://component-odyssey.com/articles/13-improving-performance-by-changing-two-lines-of-css",
+      "description": "Sometimes, small changes can have a big impact on web performance. In this real case study, you'll discover how tweaking just two lines of CSS significantly boosted a site's speed. You'll also learn techniques to measure performance in terms of FPS, making this a must-read for developers looking to optimize front-end performance and enhance user experience.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Being on The Semantic Web is easy, and, frankly, well worth the bother",
+      "url": "https://csvbase.com/blog/13",
+      "description": "Curious about the Semantic Web’s impact on modern websites? This article explores how Web 3.0 has evolved from blockchain hype to enhancing machine readability with technologies like JSON-LD. Learn how simple metadata can improve your site's visibility and functionality with rich previews and better search results. Plus, discover alternative methods to JSON-LD for optimizing web content. Find out how the Semantic Web is already shaping the web, even if it’s not always in the spotlight.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Crazy CSS Using By Master CSS",
+      "url": "https://youtube.com/watch?v=P80sM7ausCA",
+      "description": "In this video, [LunDev](https://www.youtube.com/@lundeveloper) — an impressive tech YouTuber I recently discovered — guides us through achieving stunning CSS effects without JavaScript. The focus is on the fascinating `.item:has(+ * + * + *:hover)` selector, which creates unique hover effects affecting neighboring elements. LunDev’s content is consistently cool and engaging, showcasing advanced CSS techniques in an innovative way. We highly recommend this video for anyone looking to enhance their CSS skills and explore creative styling options.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "PlayCanvas Engine Hits 2.0.0",
+      "url": "https://blog.playcanvas.com/playcanvas-engine-hits-2-0-0",
+      "description": "PlayCanvas is a robust platform for creating interactive 3D web experiences, ideal for projects like product customizers. The latest blog post highlights the release of PlayCanvas Engine 2.0.0, showcasing its performance improvements and advanced features. This update simplifies the development of sophisticated 3D applications, making it a must-read for anyone looking to enhance their web-based 3D projects.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Rust Programming Language, 2nd Edition",
+    "author": "Steve Klabnik, and Carol Nichols",
+    "description": "With over 50,000 copies sold, The Rust Programming Language is the quintessential guide to programming in Rust. Thoroughly updated to Rust's latest version, this edition is considered the language's official documentation.The Rust Programming Language \"covers everything you could want to know about the language.\"—Stack Overflow Rust has been repeatedly voted \"Most Loved Language\" on the StackOverflow Developer Survey. The Rust Programming Language, 2nd Edition is the official guide to Rust 2021: an open source systems programming language that will help you write faster, more reliable software. Rust provides control of low-level details along with high-level ergonomics, allowing you to improve productivity and eliminate the hassle traditionally associated with low-level languages. Klabnik and Nichols, alumni of the Rust Core Team, share their knowledge to help you get the most out of Rust's features so that you can create robust and scalable programs. You'll begin with basics like creating functions, choosing data types, and binding variables, then move on to more advanced concepts, such as:",
+    "coverImageUrl": "./777a1ca0193b25ccc0564d398f215d55c381fff4a46231c5188257f68fea1dd9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1718503105?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1718503105?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Reasonable Colors",
+      "url": "https://reasonable.work/colors"
+    },
+    {
+      "title": "Avatars - a list of free and fun avatars for your projects",
+      "url": "https://alohe.github.io/avatars"
+    },
+    {
+      "title": "Milkdown - A plugin driven framework to build WYSIWYG Markdown editor",
+      "url": "https://milkdown.dev/"
+    },
+    {
+      "title": "Generate a PDF in React",
+      "url": "https://spacejelly.dev/posts/generate-a-pdf-from-html-in-javascript"
+    },
+    {
+      "title": "Build-time React Components",
+      "url": "https://codehike.org/blog/build-time-components"
+    },
+    {
+      "title": "OAuth from First Principles",
+      "url": "https://stack-auth.com/blog/oauth-from-first-principles"
+    },
+    {
+      "title": "How to implement video streaming with Fastify",
+      "url": "https://nearform.com/digital-community/how-to-implement-video-streaming-with-fastify"
+    },
+    {
+      "title": "Growing in Tech with Farrah Campbell (podcast)",
+      "url": "https://awsbites.com/130-growing-in-tech-with-farrah-campbell/"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 138,
+  "title": "Kore - An easy to use web platform for C and Python",
+  "slug": "2019-11-25-138-kore-an-easy-to-use-web-platform-for-c-and-python",
+  "date": "2019-11-25",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #47, 2019",
+  "quote": {
+    "text": "The difference between theory and practice is that in theory, there is no difference between theory and practice",
+    "author": "Richard Moore",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Richard_Moore"
+  },
+  "links": [
+    {
+      "title": "Kore - An easy to use web platform for C and Python",
+      "url": "https://kore.io/",
+      "description": "Kore is an easy to use web platform for writing scalable, concurrent APIs in C or Python.\nIts primary goals are security, scalability and allowing rapid development and deployment of such APIs.\nBecause of this Kore is an ideal candidate for building robust, scalable and secure web things.",
+      "imageUrl": "./f33cbe802ae52248d62964f5dd7ce39d2f6bdef6a18fb07f0f2b97db46056293.png",
+      "featured": true
+    },
+    {
+      "title": "Uncommon Use Cases For CSS Pseudo Elements",
+      "url": "http://ishadeed.com/article/unusual-use-cases-pseudo-elements",
+      "description": "Pseudo-elements are in use for a long time. However, there are some uses cases that are not entirely known across developers.",
+      "imageUrl": "./61c980c902fc64db2ec1edd3d876d0e6e94351fd77372f0617c6a7ad7b718b36.jpg",
+      "featured": false
+    },
+    {
+      "title": "Getting Started with GraphQL",
+      "url": "https://davidwalsh.name/getting-started-with-graphql",
+      "description": "Since open-sourcing GraphQL specification in 2015, it gained a lot of popularity and is now used by many development teams, including giants like GitHub, Twitter or Airbnb. Why so? And what exactly is a GraphQL query? Let's take a look…",
+      "imageUrl": "./b1becd27a4b1dd1f7739f79ac233b986b6f2932ca7d3ea4b82318f5d00965728.jpg",
+      "featured": false
+    },
+    {
+      "title": "Multi-Value All The Wasm",
+      "url": "https://hacks.mozilla.org/2019/11/multi-value-all-the-wasm",
+      "description": "Multi-value is a proposed extension to core WebAssembly that enables functions to return many values, among other things. It is also a prerequisite for Wasm interface types.",
+      "imageUrl": "./c39690830c193d016c2839bac6261f712c2faef60f6beed6d70c4e40d3cb555c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Fabric.js Tutorial: Objects and Complex Shapes",
+      "url": "https://codingsans.com/blog/fabricjs-tutorial",
+      "description": "Fabric.js is a drawing library for JavaScript built on top of canvas element. This Fabric.js tutorial shows you how to draw shapes and scale objects.",
+      "imageUrl": "./75a66e6e37a9c576108dad2cd097fca06aa8fdb89e6d6b2ced52eff42cd0408a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Thoughts on Error Handling in Rust",
+      "url": "http://lukaskalbertodt.github.io/2019/11/14/thoughts-on-error-handling-in-rust.html",
+      "description": "An opinionated article on the current state of error handling and error handling crates in the Rust language and the Rust community. Absolutely interesting if you are currently learning Rust.",
+      "imageUrl": "./c56f16fdea775568720f4c19b2ffeec5563a9fd6bc34bd3888cceae252f287ac.jpg",
+      "featured": false
+    },
+    {
+      "title": "Compile-time Immutability in TypeScript",
+      "url": "https://sitepoint.com/compile-time-immutability-in-typescript",
+      "description": "James Wright explores the possibilities for using constructs to achieve compile-time immutability in TypeScript with const assertions and recursive types.",
+      "imageUrl": "./fecfb1138ae21d7da698b310dd27f12cd4dc52a76501d94bdfd28eea1b32891c.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elixir in Action",
+    "author": "Saša Jurić",
+    "description": "Elixir in Action teaches you to apply the new Elixir programming language to practical problems associated with scalability, concurrency, fault tolerance, and high availability. Elixir is a modern programming language that takes advantage of BEAM, the Erlang virtual machine, without the burden of Erlang's complex syntax and conventions. Elixir gives you Ruby-like elegance with the power to develop bulletproof distributed server systems that can handle massive numbers of simultaneous clients and run with almost no downtime.",
+    "coverImageUrl": "./490e43e003f0e552efa4caaeaf3601ab5225c857e806244ebb7a236234ac2ca7.jpg",
+    "amazonUs": "https://www.amazon.com/dp/161729201X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/161729201X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

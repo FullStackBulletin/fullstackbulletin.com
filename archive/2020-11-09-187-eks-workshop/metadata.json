@@ -1,0 +1,75 @@
+{
+  "issueNumber": 187,
+  "title": "EKS workshop",
+  "slug": "2020-11-09-187-eks-workshop",
+  "date": "2020-11-09",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #45, 2020",
+  "quote": {
+    "text": "Technology feeds on itself. Technology makes more technology possible",
+    "author": "Alvin Toffler",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alvin_Toffler"
+  },
+  "links": [
+    {
+      "title": "EKS workshop",
+      "url": "https://eksworkshop.com/",
+      "description": "A fantastic (and FREE) workshop by AWS itself to get you started with EKS, AWS's own managed Kubernetes service. In this course you will explore multiple ways to configure VPC, ALB, and EC2 Kubernetes workers, and Amazon Elastic Kubernetes Service.",
+      "imageUrl": "./097a8bce60ef5ff528bd4156e771b3d748cd826eafd7b5cd1776014d36bb73a3.jpg",
+      "featured": true
+    },
+    {
+      "title": "Best Practices for Securing Your REST APIs",
+      "url": "https://dev.to/leading-edje/best-practices-for-securing-your-rest-apis-563c",
+      "description": "APIs are the backbone of the modern data-driven economy and for this reason, it's important to keep APIs secure. This article provides 10 tips to follow to secure your APIs!",
+      "imageUrl": "./7fd5588d3b70c3a0afff345b5421b679f32561825a357b288adf5491bc059b9b.jpg",
+      "featured": false
+    },
+    {
+      "title": "5 useful TypeScript tricks",
+      "url": "https://dev.to/basilebong/5-useful-typescript-tricks-419i",
+      "description": "Do you know how to create custom type guards in TypeScript? Or how to set all the properties of an interface to optional? In this article, you will find the answers to these questions and other interesting Typescript tips.",
+      "imageUrl": "./0c186ea3038a94225b5989e83eddd12af36a418afbbebcde5de0bc6222cceabf.jpg",
+      "featured": false
+    },
+    {
+      "title": "Ebiten - A dead simple 2D game library for Go",
+      "url": "https://ebiten.org/",
+      "description": "Ebiten is an open source game library for the Go programming language. Ebiten's simple API allows you to quickly and easily develop 2D games that can be deployed across multiple platforms.",
+      "imageUrl": "./fc824db60cb6b16e0a9ac308a907ef850de96ada35ab49e6d8ee495d9f16a61e.jpg",
+      "featured": false
+    },
+    {
+      "title": "The story behind Markdown.",
+      "url": "https://capiche.com/e/markdown-history",
+      "description": "How the most popular plain text formatting syntax came to life, inspired by emails and the work behind other plain text syntaxes.",
+      "imageUrl": "./15e912f66c65cd05a85c8a71dd0917d1a3f34d11a5cecef52807d1de93441ce6.jpg",
+      "featured": false
+    },
+    {
+      "title": "mvdan/sh",
+      "url": "https://github.com/mvdan/sh",
+      "description": "A shell parser, formatter, and interpreter with bash support; includes shfmt. Let's give shell scripts the love they deserve!",
+      "imageUrl": "./e4ce7653bec0ed37c3d4696bdfe3815243bdd9d136a590c55ed25232db258482.jpg",
+      "featured": false
+    },
+    {
+      "title": "Determine prominent colors in a picture, your first AWS Lambda in Go",
+      "url": "https://buddy.works/tutorials/determine-prominent-colors-in-a-picture-your-first-aws-lambda-in-go",
+      "description": "This article demonstrates how to write a simple AWS Lambda function using Go to extract the prominent colors from a picture stored in S3.",
+      "imageUrl": "./72e12fe4eed56dd8d0ed922f9f078be7590bd6d5199847d6797fe144bbdcdfaa.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Node.js Design Patterns - Third Edition (",
+    "author": "Mario Casciaro and Luciano Mammino",
+    "description": "Learn proven patterns, techniques, and tricks to take full advantage of the Node.js platform Node.js Design Patterns book cover Master well-known design principles to create modern applications that are readable, extensible, and that can grow big\nThis book will teach you how to implement a series of best practices and design patterns to create efficient and robust Node.js applications.\nThe first chapters of the book are designed to explore the basics of Node.js, analyzing its asynchronous event-driven architecture and its fundamental design patterns including control flow patterns with callbacks, promises and async/await.\nThe second part of the book dives into Node.js streams and explores some of the most famous Gang of Four design patterns reinterpreted in the context of Node.js plus some original patterns that are specific to JavaScript and Node.js.\nIn the last section, this book covers more advanced topics such as Universal JavaScript with Node.js, React and Webpack, best practices to scale Node.js services, microservices and messaging patterns for enterprise-grade distributed applications.\nThroughout the book, you will see Node.js in action with the help of several real-life examples leveraging great technologies such as LevelDB, Redis, RabbitMQ, ZeroMQ and many others. They will be used to demonstrate a pattern or a technique, but they will also give you a great introduction to the Node.js ecosystem and its set of solutions.",
+    "coverImageUrl": "./bdb38be1159334567237b58b9c29d587e3a3cdf85fc580d7fb5fad8abe547e28.png",
+    "amazonUs": null,
+    "amazonUk": null
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

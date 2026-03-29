@@ -1,0 +1,75 @@
+{
+  "issueNumber": 147,
+  "title": "#147: How to Build a Complete Back End System with Serverless",
+  "slug": "2020-01-27-147-4-how-to-build-a-complete-back-end-system-with-serverless",
+  "date": "2020-01-27",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #4, 2020",
+  "quote": {
+    "text": "Just because something doesn’t do what you planned it to do doesn’t mean it’s useless",
+    "author": "Thomas Edison",
+    "authorTitle": "Inventor",
+    "authorUrl": "https://en.wikipedia.org/wiki/Thomas_Edison"
+  },
+  "links": [
+    {
+      "title": "How to Build a Complete Back End System with Serverless",
+      "url": "https://freecodecamp.org/news/complete-back-end-system-with-serverless",
+      "description": "This article will teach you how to build and deploy everything you need to be able to build a back-end for your application. We'll be using AWS to host all of this and deploying it all using the Serverless Framework.",
+      "imageUrl": "./c89b2f8583857ce3cdaee6316dd88c0f94c9aa9e93a97f48aed357dc455ae3c5.jpg",
+      "featured": true
+    },
+    {
+      "title": "ShellCheck – shell script analysis tool",
+      "url": "https://shellcheck.net/",
+      "description": "ShellCheck is a convenient analysis tool that can help you to automatically find bugs in your shell scripts.",
+      "imageUrl": "./0741addeffdb52ab5e664f2eeb8e48243fd328ed72e448d82a8d847e42952773.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why aren’t we using SSH for everything?",
+      "url": "https://medium.com/@shazow/ssh-how-does-it-even-9e43586e4ffc",
+      "description": "Dozens of facts about the SSH protocol and why we should use it for more things, or at least take inspiration from when developing new protocols.",
+      "imageUrl": "./fb1676ea873bba0cc0112accb93140d44f823a73786d410893470cd1ee5d2654.jpg",
+      "featured": false
+    },
+    {
+      "title": "Jsonnet - The Data Templating Language",
+      "url": "https://jsonnet.org/",
+      "description": "A powerful DSL for elegant description of JSON data. Built on top of JSON it adds variables, conditionals, functions and more on top of the language to become a fully-fledged templating language that is particularly suitable to generate and manage configuration files.",
+      "imageUrl": "./0d46b3b98d0fcb216b7f9b173ce3e9e41246d26e6c483364f5b645da7495c4e7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Concurrency Patterns In Go",
+      "url": "https://youtube.com/watch?v=YEKjSzIwAdA",
+      "description": "A fantastic conference talk that illustrates Go's great concurrency tools like goroutines and channels. But is this really everything? How can you use these primitives at best? What are the main challenges to be aware of and the best patterns to know?",
+      "imageUrl": "./ca36a188c7d8b7cebaaa3a7d92743b0c0a68571583c914835f06f2b618171d33.jpg",
+      "featured": false
+    },
+    {
+      "title": "Cube.js | Open Source Analytics Framework",
+      "url": "https://cube.dev/",
+      "description": "Cube.js is an open source modular framework to build analytical web applications. It is primarily used to build internal business intelligence tools or to add customer-facing analytics to an existing application.",
+      "imageUrl": "./c56f16fdea775568720f4c19b2ffeec5563a9fd6bc34bd3888cceae252f287ac.jpg",
+      "featured": false
+    },
+    {
+      "title": "Fargate vs Lambda",
+      "url": "https://trek10.com/blog/fargate-lambda-comparison",
+      "description": "Comparing AWS's serverless compute options on cost, performance, and ease of use",
+      "imageUrl": "./e75e0a5cd8c3d8fecbd7fb679293780e54bbf4154a2a5c2e65040b54a7a0a2c9.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Regular Expressions",
+    "author": "Jeffrey E. F. Friedl",
+    "description": "Regular expressions are an extremely powerful tool for manipulating text and data. They are now standard features in a wide range of languages and popular tools, including Perl, Python, Ruby, Java, VB.NET and C# (and any language using the .NET Framework), PHP, and MySQL.If you don't use regular expressions yet, you will discover in this book a whole new world of mastery over your data. If you already use them, you'll appreciate this book's unprecedented detail and breadth of coverage.",
+    "coverImageUrl": "./396d6f15a915700637c37f7d2fcde88b8839c4580fbc81d9acd6add805980fd3.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0596528124/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0596528124/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

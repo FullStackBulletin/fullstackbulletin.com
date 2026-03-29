@@ -1,0 +1,75 @@
+{
+  "issueNumber": 332,
+  "title": "Migrating a TypeScript app from Node.js to Bun",
+  "slug": "2023-08-07-318-migrating-a-typescript-app-from-node-js-to-bun",
+  "date": "2023-08-07",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Computers are good at following instructions, but not at reading your mind",
+    "author": "Donald Knuth",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Donald_Knuth"
+  },
+  "links": [
+    {
+      "title": "Migrating a TypeScript app from Node.js to Bun",
+      "url": "http://blog.logrocket.com/migrating-typescript-app-node-js-bun",
+      "description": "Last week, I had to execute a simple TypeScript script and after going mad for 1hr with ts-node and failing at it, I decided to try Bun and it immediately worked! Now, I am not planning to migrate everything to Bun because I still love (and believe in) Node.js, but I am starting to see the appeal in it. If you are curious to see what it would take to migrate a Node.js app to Bun, check out this article.",
+      "imageUrl": "./5f887960d5038ec0eca0cd33709ff42ea10f721e9ac250dd1b34eb85308f379b.jpg",
+      "featured": true
+    },
+    {
+      "title": "Using HTML elements as CSS masks",
+      "url": "https://expensive.toys/blog/black-pixel-masking",
+      "description": "This article showcases how to create a knockout/cutout using the new CSS SVG filter masking technique. The idea is that you can easily crop out specific parts of an image revealing what's beneath and creating stunning see-through effects. Maybe something you can use to spice up your next web project.",
+      "imageUrl": "./f626e92bc4ec0b75ce743f7b784eac8081fa2f6db8584c2970d2cf1c461b06a8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Recreating YouTube’s Ambient Mode Glow Effect",
+      "url": "https://smashingmagazine.com/2023/07/recreating-youtube-ambient-mode-glow-effect",
+      "description": "In this article, Adrian deconstructs YouTube’s “*Ambient Mode*” feature and how HTML element `<canvas>` and the `requestAnimationFrame` function are used to create the glowing effect. Another interesting effect that you can add to your toolchain and use when trying to create a more engaging design.",
+      "imageUrl": "./87d751ebb94486daac7bf904c3925563dfc37e553773cb4b79d5bbfd25b68373.png",
+      "featured": false
+    },
+    {
+      "title": "Adapting typography to user preferences with CSS",
+      "url": "https://web.dev/adapting-typography-to-user-preferences-with-css",
+      "description": "Did you know that some browsers allow users to specify preferences for the kind of font they prefer to see in an article? No? Well, now you know! 😜\n\nSo, how can we take advantage of this preference and make our designs more dynamic to actually respect the user preference? Let's learn how to do that with this awesome article by [Adam Argyle](https://web.dev/authors/adamargyle/).",
+      "imageUrl": "./1201e4b4e0f867187d7a1b91726d8039505c490f5361bef3097326d4accfbfb4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Is this an emoji? 🫴🦋",
+      "url": "https://spiffy.tech/is-this-an-emoji",
+      "description": "ReadStuffLater is an app that uses emojis to tag content. A bit of a weird idea if you ask me, but I do love emojis so I can see the appeal in that. Plus, it's simple and it can be fun for users. But now the problem is, how do you validate that a character is actually an emoji? Let's learn what are the options from the folks at ReadStuffLater.",
+      "imageUrl": "./3a00df62f58545ec0183ef407cb91f24e8e59b455041697a6207456848d21ac9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Dark Mode in 3 Lines of CSS and Other Adventures",
+      "url": "https://dev.to/madsstoumann/dark-mode-in-3-lines-of-css-and-other-adventures-1ljj",
+      "description": "Designing a website in both Light and Dark modes can be tedious and time-consuming. After all, you are designing 2 entirely different themes, effectively doubling the amount of work required. But what if I tell you that for simple cases you can take shortcuts? Just a few lines of CSS might get you very far and almost automatically give you a good dark theme, starting from the colors in your light theme! Check this out!",
+      "imageUrl": "./19bb434f2a6c676b92e43cd763fefa3371feb1350e57a34aa4dce8abf4ac31e6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Parvus: An accessible, open-source image lightbox with no dependencies.",
+      "url": "https://github.com/deoostfrees/Parvus",
+      "description": "I have been using lightboxes for at least 10 years. They always come up in web projects, especially when it comes to showcasing an image or an entire gallery of images or videos. So what's a good and accessible (and open-source too!) image lightbox with no dependencies? I found Parvus to be quite promising! Check it out on GitHub!",
+      "imageUrl": "./93c97830f0a1e031df6296199775dc73d19d479ee1d26b78a52bfeccfc4fa5db.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Rails, Angular, Postgres, and Bootstrap: Powerful, Effective, and Efficient Full-Stack Web Development",
+    "author": "David B. Copeland",
+    "description": "As a Rails developer, you care about user experience and performance, but you also want simple and maintainable code. Achieve all that by embracing the full stack of web development, from styling with Bootstrap, building an interactive user interface with AngularJS, to storing data quickly and reliably in PostgreSQL. Take a holistic view of full-stack development to create usable, high-performing applications, and learn to use these technologies effectively in a Ruby on Rails environment.",
+    "coverImageUrl": "./916a92b54ef122132c9c594e8eb8d9182649599a02cfe38f79d2f203037b008c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501267/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501267/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

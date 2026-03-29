@@ -1,0 +1,75 @@
+{
+  "issueNumber": 102,
+  "title": "When Is A Button Not A Button?",
+  "slug": "2019-03-11-102-when-is-a-button-not-a-button",
+  "date": "2019-03-11",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #10, 2019",
+  "quote": {
+    "text": "The human spirit must prevail over technology",
+    "author": "Albert Einstein",
+    "authorTitle": "Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "links": [
+    {
+      "title": "When Is A Button Not A Button?",
+      "url": "https://smashingmagazine.com/2019/02/buttons-interfaces",
+      "description": "Not everything that’s round and stands out is considered to be a button. In this article, Vadim explains how you can create a proper interactive button for your users — one that shouldn’t be confused for anything else.",
+      "imageUrl": "./36252d6d256e5aede0edd5d0b0f8e6b2dcd368e33ef3a71bc5804ee9ecf1d9ed.jpg",
+      "featured": true
+    },
+    {
+      "title": "Streaming 102: The world beyond batch",
+      "url": "https://oreilly.com/ideas/the-world-beyond-batch-streaming-102",
+      "description": "The what, where, when, and how of unbounded data processing. By the author of the book \"Streaming Systems\" (2018, O'Reilly).",
+      "imageUrl": "./9ee2d19d75b29a6a7c3f079005cd36d9df6bf49d5c18488019d46407e1c4297b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Web Page Footers 101: Design Patterns and When to Use Each",
+      "url": "https://nngroup.com/articles/footers",
+      "description": "Footers can be found at the bottom of almost every web page, and often take many forms, depending on the type of content on a website. Regardless of the form they take, their presence is critical (and highly underrated).",
+      "imageUrl": "./5712081f8bb71114c153e987298d1932a56c7869e64499f4d8994f2a02f04969.jpg",
+      "featured": false
+    },
+    {
+      "title": "Elixir: A Mini-Documentary",
+      "url": "https://youtube.com/watch?v=lxYFOM3UJzo",
+      "description": "Get ready to explore the origins of the #Elixir programming language, the manner in which it handles concurrency and the speed with which it has grown since its creation back in 2011.",
+      "imageUrl": "./3b8b080ff401c9298bcdc4cb1b02faa9cf51818730d7cac4f8889379530a5b4c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Get Started With Node",
+      "url": "https://smashingmagazine.com/2019/02/node-api-http-es6-javascript",
+      "description": "An introduction to the backend web application development process — discussing bleeding edge ES6+ JavaScript features, the HyperText Transfer Protocol, working with APIs and JSON, and using Node.js to build fast and scalable backends.",
+      "imageUrl": "./3c5658d845b6e30ca6245de40459a4d0cca7ebf87fe05760ceaf81db770c8a43.jpg",
+      "featured": false
+    },
+    {
+      "title": "Breaking Boxes With CSS Fragmentation",
+      "url": "https://smashingmagazine.com/2019/02/css-fragmentation",
+      "description": "What is fragmentation, why might you want to use it, and what is the current state of browser support? Rachel Andrew has the answers.",
+      "imageUrl": "./8411bf7abebd60be21857342ffd9423c004872c774a93f5c1fc3c168fca81f74.jpg",
+      "featured": false
+    },
+    {
+      "title": "Storybook 5.0",
+      "url": "https://medium.com/storybookjs/storybook-5-0-db1d0f9c83b8",
+      "description": "Welcome to the future of component development! Storybook Version 5.0 (SB5) was just released and it's considered the biggest release to date.",
+      "imageUrl": "./5c44cc5127366fe3514490bce18ae3153128067c1ca13ddbda177a0e9607c83c.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Test Driven Development: By Example",
+    "author": "Kent Beck",
+    "description": "Developers face complex programming challenges every day, yet they are not always readily prepared to determine the best solution. More often than not, such difficult projects generate a great deal of stress and bad code. To garner the strength and courage needed to surmount seemingly Herculean tasks, programmers should look to test-driven development (TDD), a proven set of techniques that encourage simple designs and test suites that inspire confidence.",
+    "coverImageUrl": "./ef72fdfbf05d98a13cd8c799cb261327f791b8743ab00f96b9dc0c4c1fb91ed1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321146530/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321146530/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

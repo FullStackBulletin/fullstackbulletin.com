@@ -1,0 +1,75 @@
+{
+  "issueNumber": 336,
+  "title": "Writing an efficient Node.js Docker image",
+  "slug": "2023-09-04-322-writing-an-efficient-node-js-docker-image",
+  "date": "2023-09-04",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "All programming languages are shit. But the good ones fertilize your mind",
+    "author": null,
+    "authorTitle": "Software Developer",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "Writing an efficient Node.js Docker image",
+      "url": "https://specfy.io/blog/1-efficient-dockerfile-nodejs-in-7-steps",
+      "description": "Building a Docker image for a Node.js project is relatively easy, but building a GOOD Docker image for a Node.js project is an entirely different story! This article presents a step-by-step guide to building fast and lightweight Node.js Docker images.",
+      "imageUrl": "./41e0a560636cb04d339d522b052dbaba9872fa64007ed791ef88267a78249aeb.jpg",
+      "featured": true
+    },
+    {
+      "title": "Astro 3.0",
+      "url": "https://astro.build/blog/astro-3",
+      "description": "Last week everyone got excited by the 3.0 release of Astro, a modern static website generator for Node.js (which in fairness can do a lot more than just static websites). This new release promises 30% faster compile times, new features and enhancements around View Transitions, Image Optimization, Fast Refresh JSX, and more.",
+      "imageUrl": "./8cf901b08568de0886600be9c10951e4a10c86f8e6e0bb86850af64dd1cdfcd2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Dark Mode: How Users Think About It",
+      "url": "https://nngroup.com/articles/dark-mode-users-issues",
+      "description": "Dark mode is popular, but not essential. Users like dark mode but maintain similar behaviors without it. They think about it at the system level, not the application level. If you choose to support dark mode, test your design to avoid common dark-mode issues.",
+      "imageUrl": "./f384b22b39deba012c912374b7b766313afae5251d7457c0d9ce840a34d53b79.jpg",
+      "featured": false
+    },
+    {
+      "title": "Bézier Curves",
+      "url": "https://www.blog.richardekwonye.com/bezier-curves",
+      "description": "The logic behind Bézier Curves used in CSS animations and visual elements. A beautifully illustrated (and interactive!) article where you can learn everything there's to know about a concept highly used in vector graphics and animation. It can be the secret sauce to spice up your next web design!",
+      "imageUrl": "./43bc23763c39d1a1b06c237ffeac8f3cb47a6c64cfd70d054543cf7331127a81.jpg",
+      "featured": false
+    },
+    {
+      "title": "WhatsApp Supported 50Bln Messages/Day With 32 Engineers",
+      "url": "https://newsletter.systemdesign.one/p/whatsapp-engineering",
+      "description": "This issue of the excellent System Design Newsletter tells us the story (for 8 different reasons) of how WhatsApp was able to scale massively while keeping its team relatively small. A series of interesting project and technology decisions led to this marvelous outcome. If you are interested in architecture and team topologies, you'll surely enjoy this one!",
+      "imageUrl": "./b8d479aa24903e2efd1ef19dd89306ee75ea5ba0c13cf2cec4f0f0ab33027222.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS animations using the linear() function",
+      "url": "https://developer.mozilla.org/en-US/blog/custom-easing-in-css-with-linear",
+      "description": "If you enjoyed the article about Bézier curves, this one is a great follow-up. The new CSS linear() timing function enables custom easing in animations. Explore how linear() works compared with other timing functions used for easing, with practical examples.",
+      "imageUrl": "./29b2db874091d6c0b4101c9c60c1bb5fafc3d9f4e5f5d7da0b203e567042759e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Falling For Oklch",
+      "url": "https://smashingmagazine.com/2023/08/oklch-color-spaces-gamuts-css",
+      "description": "The CSS Color Module Level 4 specification defined a slew of new color features when it became a candidate recommendation in 2022, including Oklab and Oklch, which have widened the field of color we have to work with. This article will let you explore the Oklch color space and show you why it's interesting and how you can start using it in CSS today.",
+      "imageUrl": "./ed0244094f404094a33ae7444c50fcf13394d3082ab4a83161cf3e955741260c.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Build APIs You Won't Hate: Everyone and their dog wants an API, so you should probably learn how to build them",
+    "author": "Phil Sturgeon",
+    "description": "API development is becoming increasingly common for server-side developers thanks to the rise of front-end JavaScript frameworks, iPhone applications, and API-centric architectures. It might seem like grabbing stuff from a data source and shoving it out as JSON would be easy, but surviving changes in business logic, database schema updates, new features, or deprecated endpoints can be a nightmare. After finding many of the existing resources for API development to be lacking, Phil learned a lot of things the hard way through years of trial and error. This book aims to condense that experience, taking examples and explanations further than the trivial apples and pears nonsense tutorials often provide. By passing on some best practices and general good advice you can hit the ground running with API development, combined with some horror stories and how they were overcome/avoided/averted.",
+    "coverImageUrl": "./546c5cf136073615afda5cab173feff341171a26a848cf7ce09bb8bd8b07ce89.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0692232699/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0692232699/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

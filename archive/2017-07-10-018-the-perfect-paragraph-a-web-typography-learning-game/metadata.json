@@ -1,0 +1,75 @@
+{
+  "issueNumber": 18,
+  "title": "The Perfect Paragraph—A Web Typography Learning Game",
+  "slug": "2017-07-10-018-the-perfect-paragraph-a-web-typography-learning-game",
+  "date": "2017-07-10",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #27, 2017",
+  "quote": {
+    "text": "The function of good software is to make the complex appear to be simple",
+    "author": "Grady Booch",
+    "authorTitle": "Software engineer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Grady_Booch"
+  },
+  "links": [
+    {
+      "title": "The Perfect Paragraph—A Web Typography Learning Game",
+      "url": "http://betterwebtype.com/triangle",
+      "description": "Learn how to set a typographically perfect paragraph by adjusting font-size, line-height and line length in this cool learning game.",
+      "imageUrl": "./26541c6d72423e9ba3c7487288aaa1dd08f69b8ae81f50636659992f070f9235.jpg",
+      "featured": true
+    },
+    {
+      "title": "How to build a simple neural network in 9 lines of Python code",
+      "url": "https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1",
+      "description": "As part of my quest to learn about AI, I set myself the goal of building a simple neural network in Python.",
+      "imageUrl": "./9aeab35063dd9ac3f7d315fa9ae486c75c9a82c9df56d98906a5ef0a24185148.jpg",
+      "featured": false
+    },
+    {
+      "title": "Creating truly universal React component systems",
+      "url": "https://medium.com/styled-components/announcing-primitives-support-for-truly-universal-component-systems-5772c7d14bc7",
+      "description": "Announcing styled-components/primitives, an experimental entry point combining styled-components and react-primitives",
+      "imageUrl": "./cf763aebbfb6f96946221b99cee6d0a76d54b101a086a49678850364ea4ad55a.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript for Microcontrollers and IoT",
+      "url": "https://auth0.com/blog/javascript-for-microcontrollers-and-iot-part-1",
+      "description": "Learn about the different options for running JavaScript on microcontrollers and IoT platforms",
+      "imageUrl": "./6a921527d26f5a50633ef112018b4c6eadd48da08facc087d78dcbb2c165d92b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why I'm Switching from React to Cycle.js",
+      "url": "https://sitepoint.com/switching-from-react-to-cycle-js",
+      "description": "Ivan Jovanovic introduces the basic concepts of reactive programming and explains why he's ditching React for Cycle.js, a functional reactive JS framework.",
+      "imageUrl": "./fb625d4de7dfd0e0bfb5753f7213810c5cc83bbc3a4a387360c0a337abfa5eaf.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building a sentiment analysis bot with IBM Watson and Raspberry Pi",
+      "url": "https://medium.com/slack-developer-blog/building-a-sentiment-analysis-bot-with-ibm-watson-and-raspberry-pi-eeb399bb8803",
+      "description": "Do you ever wonder how your teammates perceive your Slack chat messages? Maybe you sound heroic! Or unpleasant. Perhaps you project harsh…",
+      "imageUrl": "./08004319dd42c55a54075055501514e86025d1def9f2d3d904dae5067ed472f7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Explain like I’m 5: Kerberos",
+      "url": "http://roguelynn.com/words/explain-like-im-5-kerberos",
+      "description": "While Kerberos probably can not be explained to a 5-year-old and be understood, this is a great attempt at defragmenting documentation with some visual aids and digestible language.",
+      "imageUrl": "./d74b19adaf6ca2a1431b0e041957e699bdf701ba5a77b63d88e4dadf60accc74.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+    "author": "Lea Verou",
+    "description": "In this practical guide, CSS expert Lea Verou provides 47 undocumented techniques and tips to help intermediate-to advanced CSS developers devise elegant solutions to a wide range of everyday web design problems. Rather than focus on design, CSS Secrets shows you how to solve problems with code. You'll learn how to apply Lea's analytical approach to practically every CSS problem you face to attain DRY, maintainable, flexible, lightweight, and standards-compliant results.",
+    "coverImageUrl": "./e20c35997e3e8a6a408d0165643e9832e92142192a5c4b89e0e684f372fe7735.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372635/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372635/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

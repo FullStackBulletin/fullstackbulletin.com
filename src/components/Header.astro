@@ -1,0 +1,26 @@
+---
+import SearchWidget from './SearchWidget.astro';
+---
+
+<header class="relative z-50" id="site-header" style="background: #000;">
+  <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out">
+    <a href="/" class="flex items-center gap-2 shrink-0">
+      <img
+        src="/images/logo-minimal-white.svg"
+        alt="FullStack Bulletin"
+        class="w-[45px] md:hidden"
+        id="header-logo-minimal"
+      />
+      <img
+        src="/images/logo-white.svg"
+        alt="FullStack Bulletin"
+        class="hidden md:block w-[165px] huge:w-[210px]"
+        id="header-logo-full"
+      />
+    </a>
+    <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation">
+      <SearchWidget />
+      <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a>
+    </nav>
+  </div>
+</header>

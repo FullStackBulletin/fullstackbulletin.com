@@ -1,0 +1,75 @@
+{
+  "issueNumber": 272,
+  "title": "Phosphor Icons",
+  "slug": "2022-05-09-259-phosphor-icons",
+  "date": "2022-05-09",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "The art challenges the technology, and the technology inspires the art",
+    "author": "John Lasseter",
+    "authorTitle": "Director",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_Lasseter"
+  },
+  "links": [
+    {
+      "title": "Phosphor Icons",
+      "url": "https://phosphoricons.com/",
+      "description": "Our favourite pick of the week is Phosphor: a flexible icon family for interfaces, diagrams, presentations... whatever, really. It offers more than **6000 icons**, **multiple line widths** and even a **duotone mode**. Do you already have a project in mind where you could use some new cool icons?",
+      "imageUrl": "./5390a86b435e092ed3ff94d2dd1b2e6a179e3395fe4edc913fe8afc1a0304327.jpg",
+      "featured": true
+    },
+    {
+      "title": "Wireit for npm scripts",
+      "url": "https://github.com/google/wireit",
+      "description": "If you ever wanted to turn your npm scripts into something more powerful you should check out this new open source project by Google: Wireit. Wireit allows you to specify dependencies between scripts and to execute them like if they were part of a make file. Probably an overkill for most projects, but if you have a complex build process this can be really useful!",
+      "imageUrl": "./b1bf4d48698bdfd9f29295688ce46e42887fd5088789beca5588170178d84b20.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building a JavaScript Bundler",
+      "url": "https://cpojer.net/posts/building-a-javascript-bundler",
+      "description": "Let's face it, we like to believe that JavaScript module bundlers are magic and we don't really want to know what's happening behind the scene when they do their work... But if you ever want to dispel that magic, check out this article (and a video!) to learn the basics of building a JavaScript bundler (from scratch). Brought to use by one of the authors of Jest.",
+      "imageUrl": "./218637b6f38bbb7c9a6e2327d780b58c7a60e1f93224fa49f72131111fc77b0c.png",
+      "featured": false
+    },
+    {
+      "title": "Designing A Better Carousel UX",
+      "url": "https://smashingmagazine.com/2022/04/designing-better-carousel-ux",
+      "description": "Carousels don’t have a good reputation, and rightfully so. But we can make them more useful. In this article you can find some interesting examples and tons of Best practices and guidelines to improve the carousel design with honest scrolling direction, labels, thumbnails and grouped prev/next-buttons.",
+      "imageUrl": "./026ed61a310445dc0e2dde32638079e6cd2cdfd0949ec70cfdcd9244aff7aee2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Lerna has gone. Which Monorepo is right for a Node.js BACKEND now?",
+      "url": "https://medium.com/autodesk-tlv/lerna-has-gone-which-monorepo-is-right-for-a-node-js-backend-fc075cad51b0",
+      "description": "Did you hear the news? Lerna, one of the most famous tools to handle JavaScript monorepos has been discontinued... Sad news, but what now? Michael Solomon and Yoni Goldberg are here to rescue us and provide us with a few interesting alternatives!",
+      "imageUrl": "./e0985d07ac525eb958a273abf457418b243a0625fb4ba174c158d772d1b869f3.jpg",
+      "featured": false
+    },
+    {
+      "title": "htmlparser2: The fast & forgiving HTML and XML parser",
+      "url": "https://github.com/fb55/htmlparser2",
+      "description": "If you ever need to write a Node.js script that extracts data from HTML pages or XML documents (e.g. you are writing a crawler), you should check out this amazing open source library: **htmlparser2**. It is a fast & forgiving HTML and XML open source parser.",
+      "imageUrl": "./d56d22cc12bc7bb6010961ff6ac4c31e60a9cf6b6d26bb339095fa14c36fa0bd.jpg",
+      "featured": false
+    },
+    {
+      "title": "Lunatic - An Erlang-inspired runtime for WebAssembly",
+      "url": "https://lunatic.solutions/",
+      "description": "Let's finish up with something a bit ***futuristic***. Lunatic is an open-source WebAssembly runtime and platform for running server-side applications. WebAssembly has the potential to be the future of backend and frontend and if you like Erlang and Elixir, this project might be worth a shot!",
+      "imageUrl": "./a5d636484d5a42d8b2fbc2a933e677b949fcb976ac86c3fc8da5f7b5bf7619b9.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Go Programming Language",
+    "author": "Alan A. A. Donovan",
+    "description": "The Go Programming Language   is the authoritative resource for any programmer who wants to learn Go. It shows how to write clear and idiomatic Go to solve real-world problems. The book does not assume prior knowledge of Go nor experience with any specific language, so you’ll find it accessible whether you’re most comfortable with JavaScript, Ruby, Python, Java, or C++.",
+    "coverImageUrl": "./be6ca3847c1c5e1bb60721ca2947bb788e506e371357a6e933bcac0b448d6a7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134190440/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134190440/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

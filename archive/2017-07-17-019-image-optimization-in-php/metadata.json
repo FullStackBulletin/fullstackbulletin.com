@@ -1,0 +1,75 @@
+{
+  "issueNumber": 19,
+  "title": "Image Optimization in PHP",
+  "slug": "2017-07-17-019-image-optimization-in-php",
+  "date": "2017-07-17",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #28, 2017",
+  "quote": {
+    "text": "I do not fear computers. I fear lack of them",
+    "author": "Isaac Asimov",
+    "authorTitle": "Author and Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Isaac_Asimov"
+  },
+  "links": [
+    {
+      "title": "Image Optimization in PHP",
+      "url": "http://cloudinary.com/blog/image_optimization_in_php",
+      "description": "Image optimization involves delivering images with the smallest possible file size while maintaining visual quality. Here we highlight the tips on how to optimize images using PHP.",
+      "imageUrl": "./15f1c8fdf8b26bf4cd75e5514e29b6ae5d4258c4b82b858a10169bd0b8970b5e.jpg",
+      "featured": true
+    },
+    {
+      "title": "How to defend your website with ZIP bombs",
+      "url": "https://blog.haschek.at/post/f2fda",
+      "description": "An interesting technique that shows how to protect our website against vulnerability scanners using zip bombs.",
+      "imageUrl": "./bf2e178c7e9105ed8ecb184862932ebce0dfb0a72aaf2e6482a65d6cf15c3509.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS is Awesome",
+      "url": "https://css-tricks.com/css-is-awesome",
+      "description": "Brandon Smith here dissects a classic CSS visual joke and turns this exercise into a case study in why people get frustrated with CSS.",
+      "imageUrl": "./7a3075953ce212db6b2ea7ebf6eee6294a05c657bf0c0eb04aa3080e9065deb2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Housing Go - Behind the Screens",
+      "url": "https://medium.com/engineering-housing/progressing-mobile-web-fac3efb8b454",
+      "description": "A interesting case study in migrating an existing website to Progressive Web Application. The article explores some of the capabilities of modern browsers like Service Workers, IndexedDB, Add to Home Screen, Push Notifications, the aim was to make an app that is fast, performant and reliable.",
+      "imageUrl": "./ca77002c80ba6053f9f55e0c8340bb1e4b39917671daf990accf5d691ea2da3c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Raft Consensus Algorithm",
+      "url": "https://raft.github.io/",
+      "description": "Raft is a consensus algorithm that is designed to be easy to understand. It's equivalent to Paxos in fault-tolerance and performance. The difference is that it's decomposed into relatively independent subproblems, and it cleanly addresses all major pieces needed for practical systems.",
+      "imageUrl": "./edaf90e342ba1dd6be6ac6ca50389680de3bdab5974a9f9d1a4b52df55cd2c40.png",
+      "featured": false
+    },
+    {
+      "title": "What's the Deal with Collapsible Margins?",
+      "url": "https://bitsofco.de/collapsible-margins/",
+      "description": "After unexpected results of a twitter poll asking a question about collapsible margins, Ire Aderinokun, goes through what they are and why people get so confused about how they work.",
+      "imageUrl": "./7bbe5ee642e2493b449e56a408b287e79ccb678bf2300bcd735f7a8c62500856.png",
+      "featured": false
+    },
+    {
+      "title": "Rocket: Web Framework for Rust",
+      "url": "https://rocket.rs/",
+      "description": "Rocket is a web framework for the Rust programming language that makes it simple to write fast web applications without sacrificing flexibility or type safety.",
+      "imageUrl": "./f89ae2aa5aa5a24d998003fd9dcc5ec4d43bb4c8376e92d499d8e0393e790457.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Angular 2 Cookbook",
+    "author": "Matt Frisbie",
+    "description": "This book covers all the most complicated Angular concepts and at the same time introduces the best practices with which to wield these powerful tools. It also covers in detail all the concepts you'll need to get you building applications faster. Often neglected topics such as testing and performance optimization are widely covered as well. A developer that reads through all the content in this book will have a broad and deep understanding of all the major topics in the Angular 2 universe.",
+    "coverImageUrl": "./b6885ee25caf4d2b67b01862d2a10f60300e0c6c69537686826de54524ca4ac3.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01JLBMC86/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01JLBMC86/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

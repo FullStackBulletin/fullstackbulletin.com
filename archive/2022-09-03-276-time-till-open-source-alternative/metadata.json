@@ -1,0 +1,75 @@
+{
+  "issueNumber": 289,
+  "title": "Time Till Open Source Alternative",
+  "slug": "2022-09-03-276-time-till-open-source-alternative",
+  "date": "2022-09-03",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute",
+    "author": "Gerald Jay Sussman and Hal Abelson",
+    "authorTitle": "Computer Scientists and Authors",
+    "authorUrl": "https://en.wikipedia.org/wiki/Gerald_Jay_Sussman"
+  },
+  "links": [
+    {
+      "title": "Time Till Open Source Alternative",
+      "url": "https://staltz.com/time-till-open-source-alternative.html",
+      "description": "In this article, Andre Staltz, presents a very interesting theory: for every successful online business, an open source competitor will eventually emerge. Andre does an awesome job at backing this theory with some data and the data even shows that the time to an OSS alternative is getting shorter and shorter. If you want to start an ambitious open source project, this is probably the right time to do that!",
+      "imageUrl": "./7f274d7fd215d591fb7e88c53f60512edd442a2a0d4d8c8b295ace7e681c2cbd.jpg",
+      "featured": true
+    },
+    {
+      "title": "soketi: simple, fast, and resilient open-source WebSockets server",
+      "url": "https://github.com/soketi/soketi",
+      "description": "Soketi is another simple, fast, and resilient open-source WebSockets server. What makes it stand out from the crowd is its modern codebase. Worth a try if you need a web socket server 😉",
+      "imageUrl": "./bee14ae1cebfc0cc5be3dda633bf1cd0f7e1ec85a79b82f8507ca5bf32e39fc6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Popular Node.js patterns and tools to re-consider",
+      "url": "https://practica.dev/blog/popular-nodejs-pattern-and-tools-to-reconsider",
+      "description": "Node.js is maturing. Many patterns and frameworks were embraced - as a consequence, developers' productivity dramatically increased in the past years. One downside of maturity is habits - we now reuse existing techniques more often. How is this a problem?",
+      "imageUrl": "./623a853d77d724320ca69a3d8b8cd3dcdb3698c94c52addb3ebca680b4c6b75e.jpg",
+      "featured": false
+    },
+    {
+      "title": "mozilla/node-convict: Featureful config library for Node.js",
+      "url": "https://github.com/mozilla/node-convict",
+      "description": "Mentioned as a best practice library in the previous article, node-convict deserves its own space in this issue. This is a quite complete configuration management library for Node.js which you can use to generalise and standardise configuration across your Projects.",
+      "imageUrl": "./fb01d0787fcd501f044abd2fa7a48180a20d7d294a8fb3ccdf6065e5028c6bba.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to use OpenTelemetry to trace Node.js applications",
+      "url": "https://developers.redhat.com/articles/2022/08/23/how-use-opentelemetry-trace-nodejs-applications",
+      "description": "Discover how to instrument your Node.js application to troubleshoot production errors in this 5-step demonstration.",
+      "imageUrl": "./fbee1c87bdcff06cd93937558506a3ed754c283fab115a1b7d5a7a5921cd5b45.jpg",
+      "featured": false
+    },
+    {
+      "title": "Making a Morphing 3D Sphere in Javascript with Three.js",
+      "url": "https://fjolt.com/article/javascript-three-js-morphing-sphere",
+      "description": "3D effects on the web are becoming more common, and can add something extra to a webpage. Let's look at how to create this 3D morphing sphere effect.",
+      "imageUrl": "./712292ed2a9839323c6baabc866eba03687ee0366591ae85dc00f117aa507c7f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Types Of Barcodes - 1D & 2D - Scanbot SDK",
+      "url": "https://scanbot.io/blog/types-of-barcodes",
+      "description": "Ok this is not full stack material, but nonetheless an incredible read. If you are (weird) like me and you are fascinated by QRCodes and other barcodes you will certainly enjoy this overview on the most-used barcode types (1D- and 2D) for retail, logistics, ticketing and more.",
+      "imageUrl": "./50ff37dbc0d53443f2ba8d7fcd6b88ee5d1c9f396082c55604eae37980551301.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Building Microservices: Designing Fine-Grained Systems",
+    "author": "Sam Newman",
+    "description": "Distributed systems have become more fine-grained in the past 10 years, shifting from code-heavy monolithic applications to smaller, self-contained microservices. But developing these systems brings its own set of headaches. With lots of examples and practical advice, this book takes a holistic view of the topics that system architects and administrators must consider when building, managing, and evolving microservice architectures.",
+    "coverImageUrl": "./1575a11c0c5e3af091d32426cf1cdcb142f177a57d156a18bad7df292b50a78c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491950358/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491950358/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

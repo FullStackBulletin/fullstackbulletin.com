@@ -1,0 +1,75 @@
+{
+  "issueNumber": 11,
+  "title": "Production PWA with JavaScript Frameworks",
+  "slug": "2017-05-22-011-production-pwa-with-javascript-frameworks",
+  "date": "2017-05-22",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #20, 2017",
+  "quote": {
+    "text": "The science of today is the technology of tomorrow",
+    "author": "Edward Teller",
+    "authorTitle": "Theoretical physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Edward_Teller"
+  },
+  "links": [
+    {
+      "title": "Production PWA with JavaScript Frameworks",
+      "url": "https://www.youtube.com/watch?v=aCMbSyngXB4",
+      "description": "Learn how the world’s largest brands ship Progressive Web Apps that instantly load on mobile hardware. We’ll look at how apps built using React, Preact, Vue, Angular & Polymer can be used to build instantly interactive, engaging & data-plan sensitive user experiences.",
+      "imageUrl": "./f659dc0cf22cb3936ef7862864f4755d41fbe61701bc31dce69ec8e9c8879b1b.jpg",
+      "featured": true
+    },
+    {
+      "title": "Painting with React code",
+      "url": "https://airbnb.design/painting-with-code",
+      "description": "AirBnB built a tool to help bridge the gap between designers and engineers working on design systems at scale. Meet *React-**sketchapp*, an open-source library that allows you to write React components that render to Sketch documents.",
+      "imageUrl": "./60eb35d9ff0e91df05218c9b4274cddd7f62777dc5e8ebcbe464da9b9d7a5c76.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building a Visual Language at AirBnB",
+      "url": "https://airbnb.design/building-a-visual-language",
+      "description": "In an effort to redesign the user experience of the AirBnB platform, the company came up with a \"visual design language\". It enables product reviews to focus on the actual concepts and experiences of a design, rather than padding, colors and type choices.",
+      "imageUrl": "./6988bb2693c9da3557decd5098df48fd6cb2bcd613ff24cf425a19f8f11aff36.png",
+      "featured": false
+    },
+    {
+      "title": "Prepack · Partial evaluator for JavaScript",
+      "url": "https://prepack.io/",
+      "description": "Prepack is a tool that optimizes JavaScript source code: Computations that can be done at compile-time instead of run-time get eliminated. It replaces the global code of a JavaScript bundle with equivalent code that is a simple and quick sequence of assignments.",
+      "imageUrl": "./4e0e6edce36cdbba9f48a6145c64b076419dbb9024637e00d4815b371f04d112.jpg",
+      "featured": false
+    },
+    {
+      "title": "Debugging Node.js with Chrome DevTools",
+      "url": "https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27",
+      "description": "Support for Node.js debuggability landed in Node.js master in May 2016. You can see it in action in the DevTools 2016 Google I/O talk.",
+      "imageUrl": "./36669853bc3a8dade8351110508e1f4d1863fa50b2c8c93c488a6c7d25102e44.jpg",
+      "featured": false
+    },
+    {
+      "title": "Asynchronous JavaScript with async/await",
+      "url": "https://egghead.io/courses/asynchronous-javascript-with-async-await",
+      "description": "In this free video course, we will learn how to use the ES2017 async and await keywords to write asynchronous code that is more readable and easier to follow than equivalent code based on long promise chains.",
+      "imageUrl": "./ed0a23c06d3a26e65adb84b450cfcee0fb66f0ea56d99b9af3b41d76a17f3648.jpg",
+      "featured": false
+    },
+    {
+      "title": "Difference Between UI & UX",
+      "url": "https://uxplanet.org/difference-between-ui-ux-6324fc7402ba",
+      "description": "What is UI? What is UX? What is the difference between the two? Well there are many differences and it's really important to understand them to be able to embrace the two subjects effectively for the development of a product.",
+      "imageUrl": "./627d2233f45f70becfe22c95737a9b94c2703632c94cd7b4742fbf77ae7668c0.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Pragmatic Programmer: From Journeyman to Master",
+    "author": "Andrew Hunt",
+    "description": "The Pragmatic Programmer cuts through the increasing specialization and technicalities of modern software development to examine the core process-taking a requirement and producing working, maintainable code that delights its users. It covers topics ranging from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse.",
+    "coverImageUrl": "./2ffb12a41f490125695aeff2d4c3ea84a96f4f6c7298432191fdc3c1a104af4b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/020161622X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/020161622X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

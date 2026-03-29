@@ -1,0 +1,75 @@
+{
+  "issueNumber": 230,
+  "title": "Demos Over Deadlines",
+  "slug": "2021-09-27-230-demos-over-deadlines",
+  "date": "2021-09-27",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "The best way to predict the future is to implement it",
+    "author": "David Heinemeier Hansson",
+    "authorTitle": "Software Developer and Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/David_Heinemeier_Hansson"
+  },
+  "links": [
+    {
+      "title": "Demos Over Deadlines",
+      "url": "https://medium.com/javascript-scene/demos-over-deadlines-8ed8dcdecb6",
+      "description": "Eric Elliot is back with a new interesting article that focuses more on management than JavaScript. In this article, Eric talks about the constant time pressure that most software engineers constantly have to face and suggests a more healthy approach that favours frequent demos over deadlines.",
+      "imageUrl": "./cc8b034990873de81b9f62e7ec674a9ab37e8e5805a3d028c77f99bc1a1045e6.jpg",
+      "featured": true
+    },
+    {
+      "title": "Running React Native everywhere",
+      "url": "https://mmazzarolo.com/blog/2021-09-11-running-react-native-everywhere",
+      "description": "How to run a React Native app on Android, iOS, macOS, Windows, the web, a browser extension, and Electron, using a Yarn Workspaces monorepo. Yes, React Native, can really run everywhere.",
+      "imageUrl": "./1058f4b490228b0b42b6b694ee7ff31f80155a23f5150f21f413bb7755db43a2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Vector? Raster? Why Not Both!",
+      "url": "https://zachleat.com/web/vector-raster-split",
+      "description": "An interesting image optimization case study by Zach Leatherman (the inventor of Eleventy) that shows how you can effectively combine raster and vector to achieve great performance without having to compromise on quality.",
+      "imageUrl": "./ef94b651f64175bb3cd147f3dfb6dbdb6c342f8cf31fb82c221cb1837151268a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Exploring the CSS Paint API: Blob Animation",
+      "url": "https://css-tricks.com/exploring-the-css-paint-api-blob-animation",
+      "description": "A very interesting animation effect is here: the blob! In this article you can see it done in many different ways, but relying heavily on the CSS Paint API!",
+      "imageUrl": "./4277439531a58e8c1baadfd20bcb6a80f7349f893a38a0ea4c3e4032affc07d8.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Guide to React Context and useContext() Hook",
+      "url": "https://dmitripavlutin.com/react-context-and-usecontext",
+      "description": "The React context provides data to components no matter how deep they are in the components hierarchy.",
+      "imageUrl": "./4c9c42c7f42dd231b04c0ba776e1b8713307f4d29eb3cb3f6db547cd964b10c9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Observability is key to the future of software (and your DevOps career)",
+      "url": "https://stackoverflow.blog/2021/09/08/observability-is-key-to-the-future-of-software-and-your-devops-career",
+      "description": "Observability platforms enable you to easily figure out what’s happening with every request and to identify the cause of issues fast. Learning the principles of observability and OpenTelemetry will set you apart from the crowd and provide you with a skill set that will be in increasing in the years to come.",
+      "imageUrl": "./dc0a66a42f8b5ecd3df69a2099f33701249496e9ece0b69796e07944087eda3b.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to shuffle songs?",
+      "url": "https://engineering.atspotify.com/2014/02/28/how-to-shuffle-songs",
+      "description": "This article is a bit old, but still quite a piece of gold (pun intended). It's not strictly relevant for web development but nonetheless can help you to learn a few tricks that you can use to craft amazing web experiences. Did you ever wonder how the song shuffling works in Spotify? If the answer is \"yes\", here you can find some answers. If the answer is \"no\", trust us, this is still well worth reading! :)",
+      "imageUrl": "./e4d885772da523c53c24eb6f4968d84e8ed05022d7671056d30a0c0d56f41fe4.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "ReactJS by Example- Building Modern Web Applications with React",
+    "author": "Vipul A M",
+    "description": "tarting with a project on Open Library API, you will be introduced to React and JSX before moving on to learning about the life cycle of a React component. In the second project, building a multi-step wizard form, you will learn about composite dynamic components and perform DOM actions. You will also learn about building a fast search engine by exploring server-side rendering in the third project on a search engine application. Next, you will build a simple frontpage for an e-commerce app in the fourth project by using data models and React add-ons. In the final project you will develop a complete social media tracker by using the flux way of defining React apps and know about the best practices and use cases with the help of ES6 and redux.",
+    "coverImageUrl": "./a4e0dee4571c84ad4a0d244e4ef6cdb129bb9185a1fdb2fc5e8eecb99c12e3c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785289640/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785289640/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

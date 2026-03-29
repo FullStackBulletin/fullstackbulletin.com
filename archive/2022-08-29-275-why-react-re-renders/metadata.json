@@ -1,0 +1,75 @@
+{
+  "issueNumber": 288,
+  "title": "Why React Re-Renders",
+  "slug": "2022-08-29-275-why-react-re-renders",
+  "date": "2022-08-29",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important",
+    "author": "Bill Gates",
+    "authorTitle": "Software Developer and Microsoft co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Bill_Gates"
+  },
+  "links": [
+    {
+      "title": "Why React Re-Renders",
+      "url": "https://joshwcomeau.com/react/why-react-re-renders",
+      "description": "If you really want to understand React (and use it correctly), you need to understand how React manages the rendering lifecycle... And to do that you need to understand when React decides to re-render one or more components! Once again Josh W. Comeau is on the case with an excellent article that can teach us everything there's to know about React rendering (and re-rendering)! Check it out!",
+      "imageUrl": "./16e6f29caa9fae9fb3531f003e0822adbfb989d153bac52ab829b91b525ad3f7.jpg",
+      "featured": true
+    },
+    {
+      "title": "devbox",
+      "url": "https://github.com/jetpack-io/devbox",
+      "description": "Instant, easy, predictable shells and containers. **Devbox** promises a much better experience to create containers that can be optimized for consistent local development but also for production, with minimal effort and with faster build times than **buildpacks**. I haven't tried it yet but it seems very promising!",
+      "imageUrl": "./8f8be498ca22b7b108c135e4c2b3c8a3e6c7b4beeb442a9f4cd9ea0aed7e0045.jpg",
+      "featured": false
+    },
+    {
+      "title": "Dynamic Rendering Is A Workaround",
+      "url": "https://seroundtable.com/google-dynamic-rendering-workaround-33897.html",
+      "description": "So, Google has been saying that they have been able to process JavaScript SPAs with no problems for the last few years. Now they are taking that back and saying that they won't support JavaScript-rendered websites anymore. This might have a massive impact on SEO for people using JavaScript only frontends, so watch out!",
+      "imageUrl": "./c5244624328c6a9fc77494a1b4886e11b063b40cc0aab9c39b1212de32d5fea8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Useful media queries",
+      "url": "https://mediaquery.style/",
+      "description": "What was that media query code again? Yeah, I ask that myself every time I have to touch some CSS... For whatever reason, my brain simply cannot memorize the media query syntax. If you are like me, you might enjoy this awesome website showcasing some of the most common media query expressions and making it super easy to copy-paste them into your CSS.",
+      "imageUrl": "./2fefd4ff5fe3e9f35db300de6022d194aff5e6b65a0d8133b4eda87aa02b64e1.jpg",
+      "featured": false
+    },
+    {
+      "title": "Constraint Based Design Systems",
+      "url": "https://colepeters.dev/posts/an-introduction-to-constraint-based-design-systems",
+      "description": "What is a design system really? What are some effective rules that can help you to come up with a great consistent design? Effective designs optimize for constraints. These constraints are not just useful, they are critical! If you want to learn more about this, check out this awesome essay by Cole Peters.",
+      "imageUrl": "./7f274d7fd215d591fb7e88c53f60512edd442a2a0d4d8c8b295ace7e681c2cbd.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to define dark/light mode images in GitHub Markdown",
+      "url": "https://stefanjudis.com/notes/how-to-define-dark-light-mode-images-in-github-markdown",
+      "description": "GitHub has recently announced a new syntax to allow us to easily support different images for light/dark modes. Finally, we won't have those invisible diagrams for users looking at our repos in dark mode 🥲",
+      "imageUrl": "./92b566bbf89df81d0769db5094d4a1cb2259a00840cdf0a798f69731cf177da0.jpg",
+      "featured": false
+    },
+    {
+      "title": "The minimum TypeScript you need for React",
+      "url": "https://ente.io/blog/tech/typescript-for-react",
+      "description": "Most people love TypeScript. I am still in a kinda love/hate relationship with it, but that's probably just me! 😅 If you like TypeScript, you should definitely take advantage of it, but you shouldn't buy too much into it! So what's the right balance? In the context of a React project you can get a lot of value from TypeScript with minimal effort and this article does a great job at showcasing a possible setup.",
+      "imageUrl": "./ff19495c0c5a2f7e76bf0a4e7fa17335ebb20642226da4c79dbec97363f84306.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Eloquent JavaScript: A Modern Introduction to Programming",
+    "author": "Marijn Haverbeke",
+    "description": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications. Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.",
+    "coverImageUrl": "./500a13f688abaf7a9f0324159c3adba6009fb65130dcfb670d2da0b1ef93b65f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593275846/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593275846/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

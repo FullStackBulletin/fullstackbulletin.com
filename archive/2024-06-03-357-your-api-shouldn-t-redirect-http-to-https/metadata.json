@@ -1,0 +1,108 @@
+{
+  "issueNumber": 375,
+  "title": "Your API Shouldn't Redirect HTTP to HTTPS",
+  "slug": "2024-06-03-357-your-api-shouldn-t-redirect-http-to-https",
+  "date": "2024-06-03",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #375! 👋\n\nI don't have any interesting personal/work updates this week, so we are just going to bootstrap this week by fast-forwarding into some cool full-stack content! This week we have a mixbag of topics, going from web security, animations, creativity, and performance to responsive design and components systems.\n\nI hope you will enjoy this issue! And if you do, please consider sharing this newsletter with your friends and colleagues! Every little helps 🥰\n\n— Your editor, [Luciano](https://x.com/loige).",
+  "quote": {
+    "text": "It's not that we use technology, we live technology“",
+    "author": "Godfrey Reggio",
+    "authorTitle": "Director",
+    "authorUrl": "https://en.wikipedia.org/wiki/Godfrey_Reggio"
+  },
+  "links": [
+    {
+      "title": "☠️ Your API Shouldn't Redirect HTTP to HTTPS",
+      "url": "https://jviide.iki.fi/http-redirects",
+      "description": "How often have you created a redirect from HTTP to HTTPS? I have certainly done it quite a few times. Well, it turns out that is not good in terms of security, especially when you do this for APIs where the user might be sending sensitive information or authentication tokens... Instead of redirecting API calls from HTTP to HTTPS, make the failure visible, and you should also revoke any received API key!",
+      "imageUrl": "./0eb68d9b94988a9407cf9d2f033427c69343f87d455f65a4a6b964a1aab0ff3a.jpg",
+      "featured": true
+    },
+    {
+      "title": "🪄 New magic for animations in CSS",
+      "url": "https://chasem.co/",
+      "description": "There are two new features coming to CSS that will make it much easier to further avoid JavaScript when implementing animations. 1. The possibility to animate `display: none` and 2. the possibility to animate intrinsic properties using `auto`. Let's see  how this can be quite useful with some examples!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "🎨 JS Hacks & Creativity",
+      "url": "https://aem1k.com/",
+      "description": "A mind-bogging website showcasing pure JavaScript Hacks and Creative Coding. Created by Martin Kleppe!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "⚡️ From fast loading to instant loading",
+      "url": "https://youtube.com/watch?v=bSua9vMdrNM",
+      "description": "In this talk, we'll share how Chrome and the web platform can achieve near-instant page loads using the new Speculation Rules API.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "🛑 Stop resizing your browser: improve testing for responsiveness",
+      "url": "https://dev.to/jenc/stop-resizing-your-browser-improve-testing-for-responsiveness-4pbm",
+      "description": "When you work on a responsive design, how often do you find yourself constantly resizing the browser window to see the effect of your changes across various screen sizes? A lot? Me too! But we can probably do better than that. This article approaches this exact topic and proposes a few interesting ideas.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "🌳 Decision Trees For UI Components",
+      "url": "https://smashingmagazine.com/2024/05/decision-trees-ui-components",
+      "description": "Imagine finally resolving never-ending discussions about UI decisions for good. Here are some practical examples of decision trees for UI components and how to use them effectively.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "🔪 Slash pages",
+      "url": "https://slashpages.net/",
+      "description": "A guide to common pages you can add to your website. Some of them might be familiar, but did you about `/blogroll`, `/chipotle` or `/now`? I think I have to update [my personal blog](https://loige.co/) to include some of these...",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Full Stack GraphQL Applications: With React, Node.js, and Neo4j",
+    "author": "William Lyon",
+    "description": "Build hyper-fast and hyper-efficient web applications with GraphQL! This practical, comprehensive guide introduces the powerful GRANDStack for developing full stack web applications based in graph data structures. The GraphQL query language radically reduces over-fetching or under-fetching of data by constructing precise graph-based data requests. In Full Stack GraphQL Applications you'll learn how to build graph-aware web applications that take full advantage of GraphQL's amazing efficiency. Neo4j's William Lyon teaches you everything you need to know to design, deploy, and maintain a GraphQL API from scratch. He reveals how you can build your web apps with GraphQL, React, Apollo, and Neo4j Database, aka “the GRANDstack,” to get maximum performance out of GraphQL.",
+    "coverImageUrl": "./2347fcfa901a7fcaccf90d16a972c537e476db8a080c2b85944e940f16791a39.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617297038?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617297038?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "A Selection of Fonts That Future-Proof Your Web Design",
+      "url": "https://tympanus.net/codrops/2024/05/10/a-selection-of-fonts-that-future-proof-your-web-design"
+    },
+    {
+      "title": "How 1Password used esbuild to reduce their browser extension build times by 90%",
+      "url": "https://blog.1password.com/new-extension-build-system"
+    },
+    {
+      "title": "What is a collision? (fun interactive article)",
+      "url": "https://sassnow.ski/rigid-body-collisions/1"
+    },
+    {
+      "title": "littlezipper: Small, fast .zip library using native CompressionStream, suits server and client",
+      "url": "https://github.com/jawj/littlezipper"
+    },
+    {
+      "title": "What's new in the Web (Google I/O ‘24)",
+      "url": "https://youtube.com/watch?v=W8bokbLn1G8"
+    },
+    {
+      "title": "How to Make a CSS Timer",
+      "url": "https://frontendmasters.com/blog/how-to-make-a-css-timer"
+    },
+    {
+      "title": "React 19 lets you write impossible components",
+      "url": "https://mux.com/blog/react-19-server-components-and-actions"
+    },
+    {
+      "title": "How to improve S3 performance (podcast)",
+      "url": "https://awsbites.com/124-s3-performance/"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 226,
+  "title": "Loading Third-Party JavaScript",
+  "slug": "2021-08-30-226-loading-third-party-javascript",
+  "date": "2021-08-30",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important",
+    "author": "Bill Gates",
+    "authorTitle": "Software Developer and Microsoft co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Bill_Gates"
+  },
+  "links": [
+    {
+      "title": "Loading Third-Party JavaScript",
+      "url": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript",
+      "description": "Third-party scripts provide a wide range of useful functionality, making the web more dynamic. Learn how to optimize the loading of third-party scripts to reduce their impact on performance.",
+      "imageUrl": "./67337487a3e95d6b84878aaa4215b190433e7b03c754130b7bf591b3a892d0cc.jpg",
+      "featured": true
+    },
+    {
+      "title": "How to Implement Drag and Drop in Vanilla JS",
+      "url": "https://veewren.hashnode.dev/how-to-implement-drag-and-drop-in-vanilla-js",
+      "description": "People expect to be able to drag and drop items. Many libraries implement drag and drop, but it is relatively easy to create in vanilla JS and HTML even if you don't want to install any packages.",
+      "imageUrl": "./2c4ff5e06bbb43b08cd9cf7538dd824939d83bcb43c721cddd1ca401884d0d63.png",
+      "featured": false
+    },
+    {
+      "title": "6 Python f-strings tips and tricks",
+      "url": "https://www.30secondsofcode.org/articles/s/6-python-f-strings-tips",
+      "description": "Python's f-strings provide a more readable, concise and less error-prone way to format strings than traditional string formatting. They are packed with useful features that are sure to come in handy in day-to-day use. Let's take a look at some of them.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "10 tips to smash the code interview",
+      "url": "https://loige.hashnode.dev/10-tips-to-smash-the-code-interview",
+      "description": "Coding interviews are notoriously hard, for both junior and seasoned developers. In this article you will find a number of suggestions that can help you shine in your next coding interview!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The 7 Most Common Types of Cybersecurity Attacks in 2021",
+      "url": "https://auth0.com/blog/the-7-most-common-types-of-cybersecurity-attacks-in-2021/",
+      "description": "Learn which cybersecurity tactics and tools will help you combat today's common cyberattacks and how to build more resilient web applications.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "State & DOM Manipulation with AlpineJS",
+      "url": "https://devdojo.com/semirteskeredzic/state-dom-manipulation-with-alpinejs",
+      "description": "AlpineJS is a new JavaScript frontend framework that aims to make it super simple to build interactive applications. In this post you will go through some of the concepts that AlpineJS uses for state management and DOM manipulation.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Asymptotic Notations",
+      "url": "https://devdojo.com/algonoob/asymptotic-notations",
+      "description": "In this post we'll learn about the concept of time complexity in a more detailed way. A mathematical way of representing the time complexity of an algorithm. It's definitely gonna include some uncomfortable looking mathematical equations. But don't worry yet! This post is gonna make things easier for you.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Eloquent JavaScript: A Modern Introduction to Programming",
+    "author": "Marijn Haverbeke",
+    "description": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications. Eloquent JavaScript, 3rd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.",
+    "coverImageUrl": "./d82256ce05167104da4c306f454d5266cca352972d32d4121f3a0ea0ca20dbb7.jpg",
+    "amazonUs": null,
+    "amazonUk": null
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 32,
+  "title": "Confessions of an impostor",
+  "slug": "2017-10-23-032-confessions-of-an-impostor",
+  "date": "2017-10-23",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #42, 2017",
+  "quote": {
+    "text": "It would appear that we have reached the limits of what it is possible to achieve with computer technology, although one should be careful with such statements, as they tend to sound pretty silly in 5 years",
+    "author": "John Von Neumann",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_von_Neumann"
+  },
+  "links": [
+    {
+      "title": "Confessions of an impostor",
+      "url": "https://www.smashingmagazine.com/2017/10/confessions-impostor-syndrome/",
+      "description": "it’s time to shed some light on what impostor syndrome is, how we suffer from it day to day in our jobs, why it happens and what we can do about it. This article will, hopefully, guide you through some seldom-spoken aspects of this phenomenon in our industry.",
+      "imageUrl": "./31ae03cbf8314868e55f574bdbbb0f02b30db06f7c5f2931579508f7df39a5fd.png",
+      "featured": true
+    },
+    {
+      "title": "KRACK Attacks: Breaking WPA2",
+      "url": "https://krackattacks.com/",
+      "description": "This website presents the Key Reinstallation Attack (KRACK). It breaks the WPA2 protocol by forcing nonce reuse in encryption algorithms used by Wi-Fi.",
+      "imageUrl": "./3408f0ecf8cab90580ffe393473361bb76363136cdd2187dd22f00df3138f5a0.png",
+      "featured": false
+    },
+    {
+      "title": "The 6 Fundamental Concepts of Systems Thinking",
+      "url": "https://medium.com/disruptive-design/tools-for-systems-thinkers-the-6-fundamental-concepts-of-systems-thinking-379cdac3dc6a",
+      "description": "In this series on systems thinking, the author shares the key insights and tools needed to develop and advance a systems mindset for dealing with a systems mindset for dealing with complex problem solving.",
+      "imageUrl": "./52735c81ab10f8d967d3a3ac1b4ade809459d9bcf5f22b9fe3ff3f3917829dde.jpg",
+      "featured": false
+    },
+    {
+      "title": "Bootstrap 4 Design Blocks",
+      "url": "https://froala.com/design-blocks",
+      "description": "Design blocks are the building blocks for creating beautiful websites. Froala Design blocks consist of over 170 FREE blocks based on Bootstrap 4.",
+      "imageUrl": "./a859f2f8f6297aa1ff6f5837e39e88af992483d81b76a5bdc45720d2a27d3e44.jpg",
+      "featured": false
+    },
+    {
+      "title": "The History of the Ampersand",
+      "url": "https://medium.com/black-lion-banner/the-history-of-the-ampersand-c81839171940",
+      "description": "These days everybody knows about the ampersand. It’s one of typography’s most unique and interesting characters. If you are curious about typography or design in general, you can't miss this article.",
+      "imageUrl": "./a9b10f5b0678acb20a891715250a09292ae58fe50630a812958aeaf8b91f7e4a.jpg",
+      "featured": false
+    },
+    {
+      "title": "tessalt/echo-chamber-js",
+      "url": "https://github.com/tessalt/echo-chamber-js",
+      "description": "A fancy and ironic project, that re-implements a client-side comments system (like Disqus) but where only the authors of every comment will be able to read it!",
+      "imageUrl": "./800a9b855ee733c736e8ce46f182428a6a34b9800000cbc9220b13044fe29413.jpg",
+      "featured": false
+    },
+    {
+      "title": "Cheat Sheets for Machine Learning",
+      "url": "https://startupsventurecapital.com/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5",
+      "description": "Learning machine learning and deep learning is difficult for newbies. As well as deep learning libraries are difficult to understand. With this cheatsheet, you can have a nice recap of things you might forget along the way.",
+      "imageUrl": "./69c8e9a1ddff5d802db54b12414f71bf317bdf7f4f5992487249977353f85825.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "React.js Essentials",
+    "author": "Artemij Fedosejev",
+    "description": "A fast-paced guide to designing and building scalable and maintainable web apps with React.js. Begin by exploring how you can create single and multiple user interface elements. Create stateless and stateful components and make them reactive, learn to interact between your components and lifecycle methods and gauge how to effectively integrate your user interface components with other JavaScript libraries. Delve deep into the core elements of the Flux architecture and learn how to manage your application using stores. Finish by going that extra mile with the Jest test framework, running multiple tests on your application and find solutions to scale it further without complexity.",
+    "coverImageUrl": "./eb95347c1c0e80dbd4676f9526e1a8610c6ada33f97b47b2a0d06ce514d88632.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1783551623/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1783551623/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

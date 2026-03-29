@@ -1,0 +1,104 @@
+{
+  "issueNumber": 351,
+  "title": "CSS Wrapped: 2023!",
+  "slug": "2023-12-18-336-css-wrapped-2023",
+  "date": "2023-12-18",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nWelcome to issue #351,\n\nhave you got all your presents under your Christmas Tree? 🎄",
+  "quote": {
+    "text": "What we have to learn to do, we learn by doing“",
+    "author": "Aristotle",
+    "authorTitle": "Philosopher",
+    "authorUrl": "https://en.wikipedia.org/wiki/Aristotle"
+  },
+  "links": [
+    {
+      "title": "CSS Wrapped: 2023!",
+      "url": "https://developer.chrome.com/blog/css-wrapped-2023",
+      "description": "2023 was a huge year for CSS! And who doesn't love CSS? Who?! 😌 The Google Chrome team presents all the innovation that happened this year (from their perspective, of course) in the CSS World in one big article, filled with tons of interactive examples!",
+      "imageUrl": "./073d6137a8e0e027e9322b8cac18951a3b2ae0105dffc4b72c80c2e7e148de1c.jpg",
+      "featured": true
+    },
+    {
+      "title": "Epic Easing",
+      "url": "https://epiceasing.com/",
+      "description": "If you have ever spent time learning about animations, you probably know that easing functions can make all the difference in the world to make things look smooth and interesting. But easing functions are not necessarily \"easy\" (bad pun, sorry! 😅). This website offers you an interactive playground to test and thoroughly understand different easing functions, so you can make your next animation shine! The best part is that you can instantly export to CSS, SCSS, Objective-C, and even Swift.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Color Lisa - Curated Color Palette Masterpieces",
+      "url": "http://colorlisa.com/",
+      "description": "Color Lisa is a curated list of color palettes based on masterpieces of the world's greatest artists. Each palette was painstakingly created by color-obsessed designers, artists, museum curators, and masters of color theory. So, if you are building a new web project and looking for an awesome color palette to bring it to life, you can find tons of inspiration here.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "React Tricks: Fast, Fit and Fun",
+      "url": "https://molefrog.com/notes/react-tricks",
+      "description": "How to make your React app or library faster and smaller. This article provides a few useful tips and tricks such as `useEvent`, `useSyncExternalStore`, stable object references, readonly `useState`, and more.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Baseline 2023",
+      "url": "https://web.dev/blog/baseline2023",
+      "description": "This year the concept of \"Baseline\" was introduced. Baseline tells you when a specific web platform feature (CSS or JS) can be considered safe to use, meaning it will work as intended in the majority of web browsers. Now Baseline is also integrated on [Can I Use](https://caniuse.com/), the famous website that gives you a very detailed breakdown of which browsers support a specific web platform feature.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The UX of UUIDs",
+      "url": "https://unkey.dev/blog/uuid-ux",
+      "description": "I have been using UUIDs for a long while and never questioned if there was a better way to do things (except when I needed to do some deep debugging or when I needed to write SQL queries joining multiple tables). Now,  standard UUID will satisfy most of your concerns, but if you read this article you'll learn that there’s a lot we can improve for ourselves (as developers) and our users.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "velocitatem/garlic: 🧄🧛",
+      "url": "https://github.com/velocitatem/garlic",
+      "description": "Have you ever thought you could have your website HTML code obfuscated so you can protect your website from crawlers? This ambitious open-source project tries to do just that using React server-side rendering for obfuscation and then de-obfuscate things on the client-side. I am not sure this is a great idea if you care about SEO, but it's definitely an interesting project worth checking out. Maybe you can use it strategically only to obfuscate specific parts of a given website.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+    "author": "Lea Verou",
+    "description": "In this practical guide, CSS expert Lea Verou provides 47 undocumented techniques and tips to help intermediate-to advanced CSS developers devise elegant solutions to a wide range of everyday web design problems. Rather than focus on design, CSS Secrets shows you how to solve problems with code. You'll learn how to apply Lea's analytical approach to practically every CSS problem you face to attain DRY, maintainable, flexible, lightweight, and standards-compliant results.",
+    "coverImageUrl": "./e20c35997e3e8a6a408d0165643e9832e92142192a5c4b89e0e684f372fe7735.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449372635/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449372635/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "use-whisper: React hook for OpenAI Whisper with speech recorder, real-time transcription, and silence removal built-in",
+      "url": "https://github.com/chengsokdara/use-whisper"
+    },
+    {
+      "title": "React Google Maps",
+      "url": "https://visgl.github.io/react-google-maps"
+    },
+    {
+      "title": "react-verification-input: customizable, masked input for React.",
+      "url": "https://github.com/andreaswilli/react-verification-input"
+    },
+    {
+      "title": "Frontend Rewind 2023",
+      "url": "https://tympanus.net/codrops/2023/12/01/frontend-rewind-2023-day-01"
+    },
+    {
+      "title": "How to use Chrome's accessibility tree",
+      "url": "https://blog.pope.tech/2023/11/27/how-to-use-chromes-accessibility-tree"
+    },
+    {
+      "title": "Making SVG Loading Spinners: An Interactive Guide",
+      "url": "https://fffuel.co/"
+    },
+    {
+      "title": "HTML5 Boilerplate v9.0.0 Released",
+      "url": "https://htmlcssjavascript.com/web/html5-boilerplate-v9-0-0-released"
+    }
+  ],
+  "sponsor": null
+}

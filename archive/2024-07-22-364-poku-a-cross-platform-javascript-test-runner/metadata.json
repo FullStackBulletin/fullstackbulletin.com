@@ -1,0 +1,108 @@
+{
+  "issueNumber": 382,
+  "title": "Poku: a cross-platform JavaScript test runner",
+  "slug": "2024-07-22-364-poku-a-cross-platform-javascript-test-runner",
+  "date": "2024-07-22",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello dear, \nWelcome to issue #382!\n\nLast week I was on holiday, so I edited this issue from sunny (and rather hot 🥵) Sicily! I had lots of time to read and keep myself up to date while enjoying the seaside, so I hope you'll appreciate the content I selected for this issue because t*he full-stack love never goes on holiday*! (OK, I admit this one was a bit cringe, sorry!) 😝\n\nENJOY!\n\nYour (sunburnt) editor, [Luciano](https://x.com/loige)!",
+  "quote": {
+    "text": "All of the biggest technological inventions created by man - the airplane, the automobile, the computer - says little about his intelligence, but speaks volumes about his laziness“",
+    "author": "Mark Kennedy",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Mark_Kennedy"
+  },
+  "links": [
+    {
+      "title": "Poku: a cross-platform JavaScript test runner",
+      "url": "https://poku.io/",
+      "description": "**Poku** is a new JavaScript test runner that promises to make it easy to write tests for projects that need to run on **Node.js**, **Deno,** and **Bun**. If you are creating a library that you want to ensure is well supported on all these different runtimes, Poku should make writing the tests quite easy following the spirit of \"Write once, run it everywhere\". I haven't tried this yet, but it seems like a good candidate for my [`financial`](https://www.npmjs.com/package/financial) library, which now has dedicated tests for different runtimes... which is a pain for maintenance! 🥲 [**View project**](https://poku.io/)",
+      "imageUrl": "./610c51a1504404e95d2e309a360da4de5dd6f1c68fcc590224eb5f4de78ae471.png",
+      "featured": true
+    },
+    {
+      "title": "A TypeScripter's Take on Zig",
+      "url": "https://effectivetypescript.com/2024/07/17/advent2023-zig/",
+      "description": "What can Zig learn from TypeScript, and what can TypeScript learn from Zig? If you are into languages, this intro should be captivating enough! 😀",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "why-is-node-running",
+      "url": "https://github.com/mafintosh/why-is-node-running",
+      "description": "When writing JavaScript scripts (pun intended), you might accidentally end up allocating resources that will keep your Node.js process running indefinitely. If you are expecting your script to do something and then exit, this can be a problem... A new package, originally named `why-is-node-running`, is here to help you figure out what keeps your Node.js process from exiting! BTW, I was curious to see how this module was implemented and, by looking at the code, I discovered that this is a great example to see how useful Node.js `async_hooks` can be!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How fast is JavaScript? Simulating 20,000,000 particles",
+      "url": "https://davidgerrells.com/blog/how-fast-is-javascript-simulating-20-000-000-particles",
+      "description": "The challenge, simulate 1,000,000 particles in plain JavaScript at 60 fps on a phone using only the CPU. This one is one hell of an experiment with really fascinating results. It doesn't run as smoothly on my Macbook Pro M2 in power-saving mode, but it's still impressive and you can easily reduce the number of particles to get better results that can suit your hardware! Experiment aside, there's lots to learn here about *LOW_LEVEL* JavaScript.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Cloudflare reports almost 7% of internet traffic is malicious",
+      "url": "https://zdnet.com/article/cloudflare-reports-almost-7-percent-of-internet-traffic-is-malicious",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Dear AWS, please let me be a cloud engineer again",
+      "url": "https://lucvandonkersgoed.com/2024/07/13/dear-aws-please-let-me-be-a-cloud-engineer-again",
+      "description": "My friend [Luc](https://x.com/donkersgood) is an AWS Serverless Hero and a principal engineer at an AWS-centric logistics company. Luc builds lots of cool stuff on AWS including the brilliant [AWS News Feed](https://aws-news.com/). In this article, he makes the point that AWS is shifting their approach more and more to follow the current AI hype and it looks like they are forgetting about cloud engineers and what they need to succeed. I couldn't agree more with this post. If you are a heavy AWS user, you'll probably relate to this one too!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Collection of Dark Patterns and Unethical Design",
+      "url": "https://hallofshame.design/collection",
+      "description": "Nothing upsets web developers and UX designers more than some unhealthy **dark patterns** when you spot them on a random website! But to be fair they are also ingenious and interesting at times! On this website, you can discover a variety of dark pattern examples, sorted by category, to better understand deceptive design practices. My favourite? The **roach motel**! 🪳",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Fluent Python: Clear, Concise, and Effective Programming",
+    "author": "Luciano Ramalho",
+    "description": "Don't waste time bending Python to fit patterns you've learned in other languages. Python's simplicity lets you become productive quickly, but often this means you aren't using everything the language has to offer. With the updated edition of this hands-on guide, you'll learn how to write effective, modern Python 3 code by leveraging its best ideas. Discover and apply idiomatic Python 3 features beyond your past experience. Author Luciano Ramalho guides you through Python's core language features and libraries and teaches you how to make your code shorter, faster, and more readable. Complete with major updates throughout, this new edition features five parts that work as five short books within the book:",
+    "coverImageUrl": "./c5bce5753cd461f04911ed74e8eb355beca73fb67f1cd9040cedb1b7ddfc9508.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492056359?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492056359?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Animating the Dialog Element",
+      "url": "https://frontendmasters.com/blog/animating-dialog"
+    },
+    {
+      "title": "An update on invokers: Invoker commands in HTML",
+      "url": "https://utilitybend.com/blog/an-update-on-invokers-invoker-commands-in-html"
+    },
+    {
+      "title": "Understanding and implementing micro-frontends on AWS",
+      "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/micro-frontends-aws/introduction.html"
+    },
+    {
+      "title": "Is AI part and parcel of web dev?",
+      "url": "https://remysharp.com/2024/07/12/is-ai-part-and-parcel-of-web-dev"
+    },
+    {
+      "title": "Parsing raw data with existential types",
+      "url": "https://andreasimonecosta.dev/posts/parsing-raw-data-with-existential-types"
+    },
+    {
+      "title": "How to deploy your React app using Container Registry",
+      "url": "https://digitalocean.com/community/developer-center/how-to-deploy-your-react-app-using-container-registry"
+    },
+    {
+      "title": "JPEG History: Compressing It Down, Keeping The Essence",
+      "url": "https://tedium.co/2024/06/16/jpeg-image-format-history"
+    },
+    {
+      "title": "You are not looking for remote work",
+      "url": "https://shippingbytes.com/2024/07/18/you-are-not-looking-for-remote-work/"
+    }
+  ],
+  "sponsor": null
+}

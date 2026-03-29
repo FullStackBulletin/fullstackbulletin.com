@@ -1,0 +1,75 @@
+{
+  "issueNumber": 56,
+  "title": "Hamburgers 🍔🍔🍔",
+  "slug": "2018-04-09-056-hamburgers",
+  "date": "2018-04-09",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #14, 2018",
+  "quote": {
+    "text": "Technology made large populations possible; large populations now make technology indispensable",
+    "author": "Joseph Krutch",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Krutch"
+  },
+  "links": [
+    {
+      "title": "Hamburgers 🍔🍔🍔",
+      "url": "https://jonsuh.com/hamburgers",
+      "description": "A fantastic and mouth-watering collection of CSS-animated Hamburgers. We are talking about hamburger menus, of course...",
+      "imageUrl": "./06e539e823c4fb094a78f4d13f8db828c23f27e47af62e7e307bb3ae5a2581c5.jpg",
+      "featured": true
+    },
+    {
+      "title": "How display: contents; Works",
+      "url": "https://bitsofco.de/how-display-contents-works/",
+      "description": "Every element in the DOM is a rectangular box. This \"rectangular box\" consists of two sections. First, we have the actual box, which consists of the border, padding, and margin areas. Second, we have the contents of the box; the content. In this article, you will learn what happens when you use display:content in your CSS.",
+      "imageUrl": "./977f878b29026ac451c145b3601ba032aff4bab37f1a5fbf5c83c2a526ab7c7b.png",
+      "featured": false
+    },
+    {
+      "title": "Super Mario made only with CSS gradients",
+      "url": "https://medium.com/@alcidesqueiroz/super-mario-world-in-css-100-css-no-javascript-no-embedded-images-data-uris-no-external-e43dc0c2b1f4",
+      "description": "An impressive experiment of recreating the first animated frames of the famous Super Mario World by using only CSS gradients. No JavaScript involved... for real!",
+      "imageUrl": "./91a03615582525c588adc32c0668fb85fb5d687e401587ca7f8c170b07739466.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Benefits of Server Side Rendering",
+      "url": "https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8",
+      "description": "Most of the pages on walmart.com are using server side rendering (SSR) with only a few unique exceptions. Why Walmart decided to put so much effort into it? What are the advantage over Client Side Rendering alone?",
+      "imageUrl": "./2b7add64f798577bd971a5aaeb560623b1943786fc9a82fad74a7953fdc6710c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Cropping Away Negative Impacts of Line Height",
+      "url": "https://medium.com/eightshapes-llc/cropping-away-negative-impacts-of-line-height-84d744e016ce",
+      "description": "A lovely article focused on typography and CSS that will teach you how to get rid of pesky space above and below HTML text.",
+      "imageUrl": "./db127f242242288c021b5be218000cb88298fdf78dd199d297e56a4999168edd.jpg",
+      "featured": false
+    },
+    {
+      "title": "The future of APIs",
+      "url": "https://blog.goodapi.co/future-of-apis-c84a76bc9c85",
+      "description": "APIs aren’t the endgame. They wont’s stay with us forever. So what’s next?",
+      "imageUrl": "./30bde9519a2c338acffc4773616cf32803964cc8000a0cdf63393f54ed0e5a8b.jpg",
+      "featured": false
+    },
+    {
+      "title": "The GV research sprint",
+      "url": "https://library.gv.com/the-gv-research-sprint-a-4-day-process-for-answering-important-startup-questions-97279b532b25",
+      "description": "A 4-day process for answering important startup questions. Even if you are not strictly working in a startup environment, those questions might be extremely helpful in regular projects to be sure to maximise the efficiency and the potential of success.",
+      "imageUrl": "./76731344de28628bb7f4f6319dab26543e31cdcd49be2ea9a9db24507b27c7cb.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Learning PHP, MySQL & JavaScript: With jQuery, CSS & HTML5",
+    "author": "Robin Nixon",
+    "description": "The fully revised, updated and extended 4th edition of the hugely popular web development book - includes CSS, HTML5, jQuery and the mysqli extension. Build interactive, data-driven websites with the potent combination of open-source technologies and web standards, even if you only have basic HTML knowledge. With this popular hands-on guide, you'll tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript, jQuery, CSS, and HTML5.",
+    "coverImageUrl": "./4dd383a9368aaa6ed632aede9e478cdc0678ed0fe58e1cd4ac7a53fa88dfa423.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491918667/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491918667/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

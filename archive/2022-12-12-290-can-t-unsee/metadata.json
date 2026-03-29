@@ -1,0 +1,75 @@
+{
+  "issueNumber": 303,
+  "title": "Can't Unsee",
+  "slug": "2022-12-12-290-can-t-unsee",
+  "date": "2022-12-12",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Computers are like Old Testament gods; lots of rules and no mercy",
+    "author": "Joseph Campbell",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joseph_Campbell"
+  },
+  "links": [
+    {
+      "title": "Can't Unsee",
+      "url": "https://cantunsee.space/",
+      "description": "A game where you need to pick the design that is most correct. Test your attention to details and get better at UX and UI design! A great entertainment if you are getting bored of Advent of Code!",
+      "imageUrl": "./f8edaed2792cf57cad586205366975d31283b2ba329c55886177ed5d7b4b1052.jpg",
+      "featured": true
+    },
+    {
+      "title": "Building A Virtual Machine inside ChatGPT",
+      "url": "https://engraved.blog/building-a-virtual-machine-inside",
+      "description": "Unless you have been living under a rock, you have heard of this new ChatGPT assistant made by OpenAI. Did you know, that you can run a whole virtual machine inside of ChatGPT? Well sorta, but check out this article if you are curious to find out more!",
+      "imageUrl": "./e408a6d5aa53f282139b030dd36ed2b6a9f67f59d8ca907fbf678b5c983c1dcf.jpg",
+      "featured": false
+    },
+    {
+      "title": "Wordmark",
+      "url": "https://wordmark.it/",
+      "description": "Wordmark is an interactive website that helps to discover and choose fonts by quickly displaying your text with your fonts. If you are looking for a simple way to give your websites a unique touch, Woodmark can be a very effective option.",
+      "imageUrl": "./f629efb1fa40996f55d3ad2778eb9a9445c882e6fded2f142f0f1005202d80c9.jpg",
+      "featured": false
+    },
+    {
+      "title": "DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together",
+      "url": "https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together",
+      "description": "In your career, you might have come across design principles such as DDD. Hexagonal architectures, Onion architecture, Clean Code, CQRS. While there is some significant overlap between all of them, they are somewhat different and it's important to appreciate these differences. This blog post is a great way to explore these topics and compare them, giving you a full perspective on the best techniques to organize large and complex applications.",
+      "imageUrl": "./481b203ec9c0ad454df3ca910794eb0b1d7ca8608fb8ec79a51b95327bab111f.jpg",
+      "featured": false
+    },
+    {
+      "title": "The large, small, and dynamic viewport units",
+      "url": "https://web.dev/viewport-units",
+      "description": "If you want to design a hero section that fills up the area above the fold, it is trickier than you might expect. You might be thinking of just relying on a simple `height: 100vh` rule, but be ready to see unexpected results on mobile, where browsers might have a toolbar at the bottom. This article explores `svh` and `lvh`, 2 new CSS units that give you more control in these kinds of situations.",
+      "imageUrl": "./432723a4994a0984dce6186916000c64f6c3a7393790a52a0ca99a1d6a1a55ef.png",
+      "featured": false
+    },
+    {
+      "title": "Cache invalidation really is one of the hardest problems in computer science",
+      "url": "https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science",
+      "description": "You know the saying: \"There are two different things in computer science...\", right? Well, if you did not really believe in it so far, here's an article that should change your mind!",
+      "imageUrl": "./8e05cf36d9b5efd476ba532d3c98376749dc6f3c8cf0cd12578a78383504e554.png",
+      "featured": false
+    },
+    {
+      "title": "Working with Zustand",
+      "url": "https://tkdodo.eu/blog/working-with-zustand",
+      "description": "Let's dive into some tips for working with Zustand - one of the most interesting client state management libraries available for React. Just in case you want to ditch the poor Redux...",
+      "imageUrl": "./0434b662cf218592a046c3105edc7f197d8675502af60a74ddad8f298f0ac1d2.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Development with Node and Express: Leveraging the JavaScript Stack",
+    "author": "Ethan Brown",
+    "description": "Learn how to build dynamic web applications with Express, a key component of the Node/JavaScript development stack. In this hands-on guide, author Ethan Brown teaches you the fundamentals through the development of a fictional application that exposes a public website and a RESTful API. You’ll also learn web architecture best practices to help you build single-page, multi-page, and hybrid web apps with Express.",
+    "coverImageUrl": "./fa50d6bec7065a557f93ff1ccee308384e327bc7bdc62dab9513ef493759a11f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491949309/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491949309/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

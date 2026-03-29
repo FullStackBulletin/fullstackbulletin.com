@@ -1,0 +1,75 @@
+{
+  "issueNumber": 129,
+  "title": "Evolving “nofollow” – new ways to identify the nature of links",
+  "slug": "2019-09-23-129-evolving-nofollow-new-ways-to-identify-the-nature-of-links",
+  "date": "2019-09-23",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #38, 2019",
+  "quote": {
+    "text": "The best way to predict the future is to implement it",
+    "author": "David Heinemeier Hansson",
+    "authorTitle": "Software Developer and Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/David_Heinemeier_Hansson"
+  },
+  "links": [
+    {
+      "title": "Evolving “nofollow” – new ways to identify the nature of links",
+      "url": "https://webmasters.googleblog.com/2019/09/evolving-nofollow-new-ways-to-identify.html",
+      "description": "Google announces two new link attributes that provide webmasters with additional ways to identify to Google Search the nature of particular links. In this article you will discover how to take advantage of *rel=\"sponsored\"* and *rel=\"ugc\"*.",
+      "imageUrl": "./e75a5c7969f2eab859007ce069f000bc36995a51a7ac75e9f13f3018025094bb.jpg",
+      "featured": true
+    },
+    {
+      "title": "Learning Machine Learning",
+      "url": "https://cloud.google.com/products/ai/ml-comic-1",
+      "description": "A wonderful comic by Google Cloud to understand what machine learning really is and what kind of problems it is trying to solve.",
+      "imageUrl": "./176f08b3c629c8ed08eb29532be5a3e52ed81fb44c210da4c7568073fa3758f6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Machine Learning For Front-End Developers With Tensorflow.js",
+      "url": "https://smashingmagazine.com/2019/09/machine-learning-front-end-developers-tensorflowjs",
+      "description": "Using JavaScript and frameworks like Tensorflow.js is a great way to get started and learn more about machine learning. In this article, Charlie Gerard covers the three main features currently available using Tensorflow.js and sheds light onto the limits of using machine learning in the frontend.",
+      "imageUrl": "./ca8ffc6e690bde85f150279ef6a5097a90e2a2c93ba4655185a8fd4d531e7516.jpg",
+      "featured": false
+    },
+    {
+      "title": "Announcing Maesh, a Lightweight and Simpler Service Mesh",
+      "url": "https://blog.containo.us/announcing-maesh-a-lightweight-and-simpler-service-mesh-made-by-the-traefik-team-cb866edc6f29",
+      "description": "Maesh is a new service mesh designed from the ground up to be straightforward, easy to install and easy to use. It comes from the same team that already developed traefik!",
+      "imageUrl": "./74ed24d638bf573412bd09485eab738cefa16fba379d7df5933a09a467b683e8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Dark Mode — Working with Color Systems",
+      "url": "https://medium.com/nodesdigital/dark-mode-working-with-color-systems-e73aeab8dbae",
+      "description": "Apple and Google are both pushing Dark Modes to they newest OS’s. This is how to get your product ready for it.",
+      "imageUrl": "./033b7b5a87199344b0edaf2bac5074e68bf6e2d30588fe1d72f269a51519f3f0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Contemporary Front-end Architectures",
+      "url": "https://blog.webf.zone/contemporary-front-end-architectures-fb5b500b0231",
+      "description": "How we got here? A front-end engineer’s perspective!",
+      "imageUrl": "./56ecf009d0d19b0616ff242961fb39c9b199124c6c61d97aefc8a43d6cd6a7c3.jpg",
+      "featured": false
+    },
+    {
+      "title": "Two Browsers Walked Into a Scrollbar",
+      "url": "https://filamentgroup.com/lab/scrollbars",
+      "description": "A very interesting essay on the roal and the evolution of the scrollbar on the web.",
+      "imageUrl": "./61400c5ebce3e2f4c13b9bda039a1d889db45c695c002669558ff25eed075ed6.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "ReactJS by Example- Building Modern Web Applications with React",
+    "author": "Vipul A M",
+    "description": "tarting with a project on Open Library API, you will be introduced to React and JSX before moving on to learning about the life cycle of a React component. In the second project, building a multi-step wizard form, you will learn about composite dynamic components and perform DOM actions. You will also learn about building a fast search engine by exploring server-side rendering in the third project on a search engine application. Next, you will build a simple frontpage for an e-commerce app in the fourth project by using data models and React add-ons. In the final project you will develop a complete social media tracker by using the flux way of defining React apps and know about the best practices and use cases with the help of ES6 and redux.",
+    "coverImageUrl": "./a4e0dee4571c84ad4a0d244e4ef6cdb129bb9185a1fdb2fc5e8eecb99c12e3c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785289640/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785289640/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

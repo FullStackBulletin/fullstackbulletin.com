@@ -1,96 +1,27 @@
 {
-  "name": "fullstackbullettin-website",
+  "name": "fullstackbulletin-website",
+  "type": "module",
   "version": "1.0.0",
-  "description": "The source code for fullstackbulletin.com website",
-  "main": "index.js",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
-    "test": "echo 'Well... we will do it live for now'",
-    "clean": "rimraf $PACKAGE_OUTPUT/*",
-    "convert:data": "yaml2json settings/data.yml > $PACKAGE_OUTPUT/data.json",
-    "compile:utilities:js": "rimraf build-utilities/lib/* && babel --presets es2015 -d build-utilities/lib build-utilities/src",
-    "build:svg-icons-sprite": "svg-sprite-generate -d assets/icons -o assets/icons-sprite.svg",
-    "copy:static": "cpx 'assets/static/*' $PACKAGE_OUTPUT",
-    "copy:favicon": "cpx 'assets/favicon/*.{svg,png,jpg,jpeg,gif,json,xml}' $PACKAGE_OUTPUT",
-    "copy:images": "cpx 'assets/images/**/*.{svg,png,jpg,jpeg,gif}' $PACKAGE_OUTPUT/images",
-    "optimize:images": "imagemin assets/images -o $PACKAGE_OUTPUT/images",
-    "build:js": "npm-run-all compile:utilities:js compile:js:${NODE_ENV}",
-    "optimize:css:vendors": "postcss -c settings/post-css.json -u autoprefixer -r $PACKAGE_OUTPUT/css/*",
-    "optimize:css:mq": "mqpacker --sort $PACKAGE_OUTPUT/css/main.css > $PACKAGE_OUTPUT/css/main__$npm_package_version.min.css",
-    "create:assets": "npm-run-all clean build:js build:svg-icons-sprite build:images:${NODE_ENV} build:css:${NODE_ENV} convert:data build:views:${NODE_ENV}",
-    "watch:css": "onchange 'assets/scss' -- npm run build:css:${NODE_ENV}",
-    "watch:views": "onchange 'views/{**.pug,*.pug}' 'views/mixins/{**.pug,*.pug}' 'doc/{**.pug,*.pug}' 'settings/data.yml' -- npm run build:views:${NODE_ENV}",
-    "watch:js": "onchange 'assets/scripts/{**.js,*.js}' 'build-utilities/src/{**.js,*.js}' -- npm run build:js",
-    "serve": "browser-sync start --no-open -s $PACKAGE_OUTPUT -f $PACKAGE_OUTPUT",
-    "start": "npm-run-all create:assets serve",
-    "build:views:development": "pug views/index.pug --obj $PACKAGE_OUTPUT/data.json --out $PACKAGE_OUTPUT",
-    "compile:js:development": "webpack --config ./webpack.development.js",
-    "compile:css:development": "node-sass -o $PACKAGE_OUTPUT/css assets/scss --output-style compact --include-path node_modules --functions ./settings/scss.js",
-    "build:css:development": "npm-run-all compile:css:development optimize:css:vendors",
-    "build:images:development": "npm-run-all copy:images copy:favicon copy:static",
-    "compile:js:production": "webpack -p --config ./webpack.production.js",
-    "build:views:production": "pug views/index.pug --obj $PACKAGE_OUTPUT/data.json --out $PACKAGE_OUTPUT",
-    "compile:css:production": "node-sass --output-style compressed -o $PACKAGE_OUTPUT/css assets/scss --include-path node_modules --functions ./settings/scss.js",
-    "build:css:production": "npm-run-all compile:css:production optimize:css:*",
-    "build:images:production": "npm-run-all copy:images copy:favicon optimize:images copy:static",
-    "prod:build": "export NODE_ENV=production && export PACKAGE_OUTPUT=dist && npm run create:assets",
-    "dev": "export NODE_ENV=development && export PACKAGE_OUTPUT=dev && npm-run-all -p start watch:*",
-    "prod": "export NODE_ENV=production && export PACKAGE_OUTPUT=dist && npm run start",
-    "//": "----- Docs -----",
-    "create-icons-list:documentation": "node ./build-utilities/lib/createIconsList --data './assets/icons/' > $PACKAGE_OUTPUT/icons.json",
-    "copy:images:documentation": "npm run create-icons-list:documentation && cpx 'doc/images/**/*.{svg,png,jpg,jpeg,gif}' $PACKAGE_OUTPUT/images",
-    "build:images:documentation": "npm-run-all copy:images copy:images:documentation optimize:images",
-    "compile:js:documentation": "webpack -p --config ./webpack.documentation.js",
-    "build:views:documentation": "pug doc/index.pug --obj settings/docs/pug.js --out $npm_config_output",
-    "compile:css:documentation": "node-sass --output-style compact -o $PACKAGE_OUTPUT/css assets/scss/docs.scss --include-path node_modules --functions ./settings/scss.js",
-    "build:css:documentation": "npm-run-all compile:css:documentation optimize:css:vendors",
-    "doc": "export NODE_ENV=documentation && export PACKAGE_OUTPUT=dist-doc && npm-run-all -p start watch:*"
-  },
-  "author": {
-    "name": "Luciano Mammino",
-    "email": "luciano@fullstackbulletin.com",
-    "url": "http://loige.co"
-  },
-  "contributors": [
-    {
-      "name": "Andrea Mangano",
-      "email": "andrea@fullstackbulletin.com",
-      "url": "http://andreamangano.com"
-    }
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/FullStackBulletin/fullstackbulletin.com"
-  },
-  "bugs": {
-    "url": "https://github.com/FullStackBulletin/fullstackbulletin.com/issues"
-  },
-  "devDependencies": {
-    "autoprefixer": "^6.7.0",
-    "babel-cli": "^6.23.0",
-    "babel-core": "^6.22.1",
-    "babel-loader": "^6.2.10",
-    "babel-preset-es2015": "^6.22.0",
-    "browser-sync": "^2.18.6",
-    "cpx": "^1.5.0",
-    "css-mqpacker": "^5.0.1",
-    "imagemin-cli": "^3.0.0",
-    "imagemin-gifsicle": "^7.0.0",
-    "imagemin-jpegtran": "^7.0.0",
-    "imagemin-optipng": "^8.0.0",
-    "node-sass": "^9.0.0",
-    "node-sass-utils": "^1.1.3",
-    "npm-run-all": "^4.0.1",
-    "onchange": "^3.2.1",
-    "postcss-cli": "^2.6.0",
-    "pug-cli": "^1.0.0-alpha6",
-    "rimraf": "^2.5.4",
-    "super-gigi": "^1.11.0",
-    "svg-sprite-generator": "0.0.7",
-    "webpack": "^2.4.1",
-    "yamljs": "^0.2.8"
+    "dev": "astro dev",
+    "prebuild": "node scripts/generate-data-exports.mjs && node scripts/generate-opml.mjs",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "test": "playwright test"
   },
   "dependencies": {
-    "path": "^0.12.7"
-  }
+    "@tailwindcss/vite": "^4.2.1",
+    "astro": "^6.0.4",
+    "astro-pagefind": "^1.8.5",
+    "tailwindcss": "^4.2.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.1",
+    "@playwright/test": "^1.58.2"
+  },
+  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319"
 }

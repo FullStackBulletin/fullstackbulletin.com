@@ -1,0 +1,75 @@
+{
+  "issueNumber": 295,
+  "title": "Building a PDF Generator using AWS Lambda",
+  "slug": "2022-10-17-282-building-a-pdf-generator-using-aws-lambda",
+  "date": "2022-10-17",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "I think computer viruses should count as life.  I think it says something about human nature that the only form of life we have created so far is purely destructive.  We’ve created life in our own image",
+    "author": "Stephen Hawking",
+    "authorTitle": "Theoretical physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+  },
+  "links": [
+    {
+      "title": "Building a PDF Generator using AWS Lambda",
+      "url": "https://dev.to/aws-builders/building-a-pdf-generator-using-aws-lambda-4220",
+      "description": "Did you ever need to generate a PDF programmatically? Who hasn't, right?! In this article, you can learn how to do this by using AWS Lambda, Amazon SQS, Amazon API Gateway, Amazon S3, AWS Lambda Layers, and Pulumi. Not just a nice intro to Serverless (in case you need one), but also the opportunity to build a generalized service for your future PDF generation needs!",
+      "imageUrl": "./e7de831735e2cf0119fb16df9251b2acd65dda52730d60ffc0e70abdd909cf16.jpg",
+      "featured": true
+    },
+    {
+      "title": "Randoma11y",
+      "url": "https://randoma11y.com/",
+      "description": "Ok, if you have been following FullStack Bulleting for a while, you know we love this kind of color generation tool. Why is this one special though? It generates accessible color pairs! If you are like us and struggle to find good color combinations for your web projects, you are going to love this tool!",
+      "imageUrl": "./3e84957d9ac0bd58dc1e80d77b3eee94bdd3c1d8e62600848b3e7b9e6c5590ac.png",
+      "featured": false
+    },
+    {
+      "title": "Performance Budgets: The Easiest Way to a Faster Site",
+      "url": "https://calibreapp.com/blog/performance-budgets",
+      "description": "Until you set specific goals, it’s not clear what metric you want to improve, how you’ll do it, and who’s in charge of getting it there. Learn how to set performance budgets to meet and maintain your speed goals.",
+      "imageUrl": "./fb5cfce0a6935444fc9f8f556cec32cceac9d100d37300322ead838cfe8a9161.jpg",
+      "featured": false
+    },
+    {
+      "title": "Dracula UI 🧛",
+      "url": "https://ui.draculatheme.com/",
+      "description": "Ok, Halloween is just around the corner, so we couldn't pass on a new project with this cool name! Dracula UI is a dark-first collection of UI patterns and components. If you like dark-themed sites, you can find tons of useful components here!",
+      "imageUrl": "./6463b47374977dee2131254c1a5d2f8064ead837921ea7881be5bc5cef520502.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using Web Components With Next.js",
+      "url": "https://css-tricks.com/using-web-components-with-next-or-any-ssr-framework",
+      "description": "Did you know you can use regular Web Components in a Next.js project and have them server-rendered too? Well, we didn't and this article opened up a bunch of new ideas! If you are a heavy Next.js user and you always wanted to use external Web Components, you will find lot of value in this tutorial.",
+      "imageUrl": "./dd7e4e44ab70d3d7b5fb999b487c19df5b88ae07b88413d684c95cfb8e06ce57.jpg",
+      "featured": false
+    },
+    {
+      "title": "Practical uses of the :has() relational pseudo class",
+      "url": "https://utilitybend.com/blog/practical-uses-of-the-has-relational-pseudo-class",
+      "description": "If you think that JavaScript is the only thing that keeps evolving all the time, you have been missing out on all the new stuff that is happening in the CSS work! One of these new things has been the \":has()\" pseudo-class. What can you do with it? Read this article to find out!",
+      "imageUrl": "./e6ef78e05a7d9e1bcb4e013f9541c81117e8911849f1abba279bd01c066cbefd.jpg",
+      "featured": false
+    },
+    {
+      "title": "Functional programming in Go",
+      "url": "https://bitfieldconsulting.com/golang/functional",
+      "description": "Thanks to generics, there are some interesting new ways to program in Go. This article explains how we can use  functional programming  techniques like Map, Filter, and Reduce, and what kind of problems they might help us to solve.",
+      "imageUrl": "./2a01411e40011c17c9d94fb1aa0c46750334e6a613fac0800ca240c329d91e6a.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Cassandra: The Definitive Guide: Distributed Data at Web Scale",
+    "author": "Jeff Carpenter and Eben Hewitt",
+    "description": "Imagine what you could do if scalability wasn't a problem. With this hands-on guide, you’ll learn how the Cassandra database management system handles hundreds of terabytes of data while remaining highly available across multiple data centers. This expanded second edition—updated for Cassandra 3.0 provides the technical details and practical examples you need to put this database to work in a production environment. Authors Jeff Carpenter and Eben Hewitt demonstrate the advantages of Cassandra’s non-relational design, with special attention to data modeling.",
+    "coverImageUrl": "./10919e24e677765bb72655af277029f8dbb8ee40b9d66eeac77305bc7fd728c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491933666/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491933666/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

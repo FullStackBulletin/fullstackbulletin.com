@@ -1,0 +1,75 @@
+{
+  "issueNumber": 235,
+  "title": "#235: The New CSS Reset",
+  "slug": "2021-11-08-235-45-the-new-css-reset",
+  "date": "2021-11-08",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #44, 2021",
+  "quote": {
+    "text": "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human",
+    "author": "Alan Turing",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Turing"
+  },
+  "links": [
+    {
+      "title": "The New CSS Reset",
+      "url": "https://css-tricks.com/an-interview-with-elad-shechter-on-the-new-css-reset",
+      "description": "In an interview with CSS Tricks, Elad Shechter dicloses his new project \"The New CSS Reset\" and explains why something like this is needed in 2021. If you have been doing a lot of CSS, you will certainly enjoy this interview!",
+      "imageUrl": "./01f48362add43623bd8bc0ef24099ff0b6c928cae50a913962a825a5ce99d775.jpg",
+      "featured": true
+    },
+    {
+      "title": "Grid scroll 10x faster: 1 line of CSS",
+      "url": "https://medium.com/@johan.isaksson/how-i-made-googles-data-grid-scroll-10x-faster-with-one-line-of-css-78cb1e8d9cb1",
+      "description": "In this article you can learn how Johan Isaksson managed to make a Google data table 10 times faster (scrolling) by just changing 1 line of CSS. More than this you can get a peek of what was their debugging process that lead up to this interesting optimisation.",
+      "imageUrl": "./42f18a76c5f85ac4593a96a2133fe257fb401f02a51e2fcc352d2e642d057bf8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Accessibility Maze",
+      "url": "https://de.ryerson.ca/games/accessibility",
+      "description": "A fun way to learn about web accessibility challenges and solutions.",
+      "imageUrl": "./7f520155443d56fc33e99171f9a323c2d4878e6de2b969b11a5a97c103bd4c15.jpg",
+      "featured": false
+    },
+    {
+      "title": "Async Ruby",
+      "url": "https://brunosutic.com/blog/async-ruby",
+      "description": "Async Ruby is a powerful and highly scalable concurrency feature. It's available today, it's production-ready, and it's an awesome addition to Ruby language!",
+      "imageUrl": "./99ced116b2f35018c1638559dd12f83d6087658cce3ba534995ff3eedf438a9e.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS-ing Candy Ghost Buttons",
+      "url": "https://css-tricks.com/css-ing-candy-ghost-buttons",
+      "description": "A very interesting use case on how to create an interesting \"ghost-like\" effect for styling buttons with CSS.",
+      "imageUrl": "./09fb8f7f4f8c18af2f115a9ec085f6de9982bcf930a1457dd66ce6017f1ae640.jpg",
+      "featured": false
+    },
+    {
+      "title": "Respecting Users’ Motion Preferences",
+      "url": "https://smashingmagazine.com/2021/10/respecting-users-motion-preferences",
+      "description": "The `prefers-reduced-motion` media query has excellent support in all modern browsers going back a couple of years. In this article, Michelle Barker explains why there’s no reason not to use it today to make your sites more accessible.",
+      "imageUrl": "./cf11656bf8317afb1eecb42062eeab1c74d1785cfc3604814f40766642627020.jpg",
+      "featured": false
+    },
+    {
+      "title": "Useful React APIs For Building Flexible Components With TypeScript",
+      "url": "https://smashingmagazine.com/2021/10/react-apis-building-flexible-components-typescript",
+      "description": "React with JSX is a fantastic tool for making easy-to-use components. Typescript components make it an absolute pleasure for developers to integrate your components into their apps and explore your APIs. Learn about three lesser-known React APIs that can take your components to the next level.",
+      "imageUrl": "./738d0f41bcd8612183630777fd5fe7b5a17429c62549006a3937a990ffe87aa4.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise",
+    "author": "Martin L. Abbott and Michael T. Fisher",
+    "description": "Writing for technical and nontechnical decision-makers, Abbott and Fisher cover everything that impacts scalability, including architecture, process, people, organization, and technology. Their insights and recommendations reflect more than thirty years of experience at companies ranging from eBay to Visa, and Salesforce.com to Apple. You’ll find updated strategies for structuring organizations to maximize agility and scalability, as well as new insights into the cloud (IaaS/PaaS) transition, NoSQL, DevOps, business metrics, and more. Using this guide’s tools and advice, you can systematically clear away obstacles to scalability–and achieve unprecedented IT and business performance.",
+    "coverImageUrl": "./27758fc426f7d2d06617adef6757d946de680ad0276de90acaaf5ee4c6715d29.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134032802/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134032802/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

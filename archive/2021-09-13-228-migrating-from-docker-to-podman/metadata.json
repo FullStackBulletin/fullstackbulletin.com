@@ -1,0 +1,75 @@
+{
+  "issueNumber": 228,
+  "title": "Migrating from Docker to Podman",
+  "slug": "2021-09-13-228-migrating-from-docker-to-podman",
+  "date": "2021-09-13",
+  "templateType": "old-mailchimp",
+  "intro": "**Serverless Database** for **Redis** with low latency data and per-request pricing.\n\n[Start FREE in 30 seconds](https://console.upstash.com/)!",
+  "quote": {
+    "text": "Code generation, like drinking alcohol, is good in moderation",
+    "author": "Alex Lowe",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alex_Lowe"
+  },
+  "links": [
+    {
+      "title": "Migrating from Docker to Podman",
+      "url": "https://marcusnoble.co.uk/2021-09-01-migrating-from-docker-to-podman",
+      "description": "Docker has recently announced that Docker Desktop will soon require a subscription and, based on the size of your company, may require a paid subscription. In this article you can learn how to switch from Docker to Podman.",
+      "imageUrl": "./86bff445bc624159f266816e1a7ac93f2c1197e035599e19795e679b2035d15e.jpg",
+      "featured": true
+    },
+    {
+      "title": "Best Practices for Logging in Node.js",
+      "url": "https://blog.appsignal.com/2021/09/01/best-practices-for-logging-in-nodejs.html",
+      "description": "Logging is one of those underestimated topics. It seems simple on the surface but it's actually tricky to get it right. Good logs are a valuable tool, especially when you need to troubleshoot something going wrong. In this article, you can learn some invaluable practical tips to help you write more useful log entries in Node.js.",
+      "imageUrl": "./871e5275bc63eb6f17d30d7a7b3da373ba0ac03b08de94531c73565120da83ef.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building a serverless email delivery service on AWS",
+      "url": "https://medium.com/schibsted-engineering/building-a-serverless-email-delivery-service-on-aws-9269f55533a0",
+      "description": "Using AWS Lambda and other AWS services to build a cost efficient, highly available email formatting and delivery service.",
+      "imageUrl": "./f73d1cb8f0a83899a5fb2b52f21cf6eae88cf16b95f18f0c5c2e46a0c8683518.jpg",
+      "featured": false
+    },
+    {
+      "title": "Stateful AWS Lambda with Redis REST",
+      "url": "https://blog.upstash.com/aws-lambda-redis-rest",
+      "description": "One of the main challenges of Lambda is managing state. Most of the popular data stores are connection-based and managing connections can become painful in serverless. In this article, you will learn how to take advantage of Upstash Redis and its high performance REST API for building stateful Lambda functions. sponsored",
+      "imageUrl": "./9c85601afef543f1730b3a63325023163259a2bbc44ce22f87fdff3107dc4501.png",
+      "featured": false
+    },
+    {
+      "title": "Global vs. Local Styling In Next.js",
+      "url": "https://smashingmagazine.com/2021/07/global-local-styling-nextjs",
+      "description": "Next.js has strong opinions about how to organize JavaScript but not CSS. How can we develop patterns that encourage best CSS practices while also following the framework’s logic? The answer is surprisingly simple — to write well-structured CSS that balances global and local styling concerns.",
+      "imageUrl": "./068e45f07ace8e13fdae5038ea71183fa92f18494e0d98d213eec0e89219d957.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using Liquid Blocks in Eleventy Layouts",
+      "url": "https://raymondcamden.com/2021/08/19/using-liquid-blocks-in-eleventy-layouts",
+      "description": "A look at using multiple blocks and having them render in Liquid templates. A very useful tips to organise more complex static websites.",
+      "imageUrl": "./45d4f04e40ae96e488416d5dcf1f2c128f4a92d2b5f4d3bbd2d1b51a52f183a3.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using AbortSignal in Node.js",
+      "url": "https://nearform.com/blog/using-abortsignal-in-node-js",
+      "description": "The AbortController and AbortSignal APIs are quickly becoming the standard mechanism for cancelling asynchronous operations in the Node.js core API. If you haven't looked at these new APIs yet, check out this article!",
+      "imageUrl": "./c243643238ee682e35df4f0806e7ce7ba85cc8ff1a2ee956303bd0669960f124.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "MongoDB: The Definitive Guide: Powerful and Scalable Data Storage",
+    "author": "Kristina Chodorow",
+    "description": "Manage the huMONGOus amount of data collected through your web application with MongoDB. This authoritative introduction—written by a core contributor to the project—shows you the many advantages of using document-oriented databases, and demonstrates how this reliable, high-performance system allows for almost infinite horizontal scalability. This book provides guidance for database developers, advanced configuration for system administrators, and an overview of the concepts and use cases for other people on your project.",
+    "coverImageUrl": "./d98bc829eaad931cbbfe76cf5cddb28b6b469caa0a8f6f508749d164568b6f11.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449344682/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449344682/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

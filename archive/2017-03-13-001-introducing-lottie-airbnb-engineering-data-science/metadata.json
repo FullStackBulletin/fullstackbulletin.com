@@ -1,0 +1,63 @@
+{
+  "issueNumber": 1,
+  "title": "Introducing Lottie – Airbnb Engineering & Data Science",
+  "slug": "2017-03-13-001-introducing-lottie-airbnb-engineering-data-science",
+  "date": "2017-03-13",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": null,
+  "links": [
+    {
+      "title": "Introducing Lottie – Airbnb Engineering & Data Science",
+      "url": "https://medium.com/airbnb-engineering/introducing-lottie-4ff4a0afac0e",
+      "description": null,
+      "imageUrl": null,
+      "featured": true
+    },
+    {
+      "title": "Setting up an Angular 2 Development Environment",
+      "url": "https://ponyfoo.com/articles/setting-up-angular-2-development-environment",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "ryanmcdermott/clean-code-javascript",
+      "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Observatory by Mozilla",
+      "url": "https://observatory.mozilla.org/",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A million requests per second with Python",
+      "url": "https://medium.freecodecamp.com/million-requests-per-second-with-python-95c137af319",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "RethinkDB joins The Linux Foundation - RethinkDB",
+      "url": "https://rethinkdb.com/blog/rethinkdb-joins-linux-foundation",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A Comprehensive Guide to Building a Scalable Web App on Amazon Web Services - Part 1",
+      "url": "https://airpair.com/aws/posts/building-a-scalable-web-app-on-amazon-web-services-p1",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": null,
+  "additionalLinks": null,
+  "sponsor": null
+}

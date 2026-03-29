@@ -1,0 +1,75 @@
+{
+  "issueNumber": 65,
+  "title": "Playing battleships over BGP",
+  "slug": "2018-06-04-065-playing-battleships-over-bgp",
+  "date": "2018-06-04",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #22, 2018",
+  "quote": {
+    "text": "Software is like sex: It’s better when it’s free",
+    "author": "Linus Torvalds",
+    "authorTitle": "Software developer and inventor of Linux",
+    "authorUrl": "https://en.wikipedia.org/wiki/Linus_Torvalds"
+  },
+  "links": [
+    {
+      "title": "Playing battleships over BGP",
+      "url": "https://blog.benjojo.co.uk/post/bgp-battleships",
+      "description": "BGP is the glue of the internet. For a protocol that was produced on two napkins in 1989 it is both amazing and horrifying that it runs almost all of the ISP to ISP interactions and is now a very fundemental part of the internet.",
+      "imageUrl": "./875021f6c1544e0545a8fc37dfabaeae4943774adba58d4e265c5aa1cca8acdf.png",
+      "featured": true
+    },
+    {
+      "title": "Serverless Architectures",
+      "url": "https://martinfowler.com/articles/serverless.html",
+      "description": "What is Serverless, and why is (or isn’t) it worth considering? In this articleyou will be enlightened a little on these questions.",
+      "imageUrl": "./bac7ed80596148d1df82bfc0fde9e3bf207bdbc31b4efc0336eb064eea4a4087.jpg",
+      "featured": false
+    },
+    {
+      "title": "Wired Elements",
+      "url": "https://wiredjs.com/",
+      "description": "Common UI Elements with a random sketchy hand-drawn look.",
+      "imageUrl": "./4e099dee505eb602bdc431bafc78617df6d41b12de8c5f29ceb8a871eb7c9545.png",
+      "featured": false
+    },
+    {
+      "title": "A Machine Learning Guide for Average Humans",
+      "url": "https://moz.com/blog/learning-machine-learning",
+      "description": "If you've ever been curious about learning machine learning but overwhelmed by the wealth of information out there, you've come to the right post. Alexis Sanders shares her own guide on how to learn machine learning, detailing the pros and cons through the viewpoint of a beginner.",
+      "imageUrl": "./a99deda18d42f4b1517f4d6dd46174def509dd13d558927f7f50ff61e473ccc8.jpg",
+      "featured": false
+    },
+    {
+      "title": "ServiceWorker Cookbook",
+      "url": "https://serviceworke.rs/",
+      "description": "A collection of all the APIs you need to know to build Service Workers.",
+      "imageUrl": "./c57b4fcdb561e26e2a702cc402ca5957038ecff483e01c8ec66f1f6c110b4444.png",
+      "featured": false
+    },
+    {
+      "title": "Proxy, The new Javascript ES6 feature",
+      "url": "https://atyantik.com/proxy-javascript-es6-feature",
+      "description": "You may have heard about or come across a new term called Proxies. So, what do you mean by Proxy, what is JavaScript Proxies, how are they more helpful and how you can implement them using ES6?",
+      "imageUrl": "./2e51767b6376675128fb03b42ff85d5e7cbed57b495e0adc6b085fad6b96a224.jpg",
+      "featured": false
+    },
+    {
+      "title": "Node.js Cron Jobs By Examples",
+      "url": "http://scotch.io/tutorials/nodejs-cron-jobs-by-examples",
+      "description": "Ever wanted to do specific things on your application server at certain times without having to physically run them yourself? In this article, you will have a chance to explore an alternative approach to cron, one that runs directly inside a Node.js application!",
+      "imageUrl": "./a3763323eb746d4e45a120115cde8965584fce592f4fafecfb83d2779c5243aa.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Mythical Man-Month: Essays on Software Engineering",
+    "author": "Frederick P. Brooks Jr.",
+    "description": "Few books on software project management have been as influential and timeless as The Mythical Man-Month. With a blend of software engineering facts and thought-provoking opinions, Fred Brooks offers insight for anyone managing complex projects. These essays draw from his experience as project manager for the IBM System/360 computer family and then for OS/360, its massive software system. Now, 20 years after the initial publication of his book, Brooks has revisited his original ideas and added new thoughts and advice, both for readers already familiar with his work and for readers discovering it for the first time.",
+    "coverImageUrl": "./f69ef92cce9e0ba56f14311a6fad691ee26f7ca2373cd8fe9049efc8accbb9c4.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0201835959/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0201835959/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

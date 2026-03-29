@@ -1,0 +1,27 @@
+---
+import { addUtmParams } from '../lib/utm';
+
+interface Props {
+  links: { title: string; url: string }[];
+  issueNumber: number;
+}
+
+const { links, issueNumber } = Astro.props;
+---
+
+{links.length > 0 && (
+  <section class="my-8 p-5 border border-neutral-light/50 rounded-lg">
+    <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+      Additional Links
+    </h3>
+    <ul class="list-disc pl-5 space-y-2">
+      {links.map((link) => (
+        <li class="font-body text-sm">
+          <a href={addUtmParams(link.url, issueNumber, 'additional-link')} target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">
+            {link.title}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

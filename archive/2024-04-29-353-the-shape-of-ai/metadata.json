@@ -1,0 +1,108 @@
+{
+  "issueNumber": 370,
+  "title": "The Shape of AI",
+  "slug": "2024-04-29-353-the-shape-of-ai",
+  "date": "2024-04-29",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello !\n\nIn issue #370, we're delving deep into the world of **AI-driven web experiences**, unraveling the mysteries of f**unctional programming in JavaScript**, and reflecting on the thought-provoking discussions sparked by **JS Naked Day**. But that's just the beginning! There's a whole treasure trove of insights waiting for you to uncover. So come on in, join the conversation, and let's journey together through the ever-evolving landscape of full-stack web development.\n\n— Your editor, [Luciano](https://twitter.com/loige)",
+  "quote": {
+    "text": "Let's go invent tomorrow instead of worrying about what happened yesterday“",
+    "author": "Steve Jobs",
+    "authorTitle": "Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Jobs"
+  },
+  "links": [
+    {
+      "title": "The Shape of AI",
+      "url": "https://shapeof.ai/",
+      "description": "As **AI** becomes more and more a mainstream phenomenon that we have to deal with daily, it's important to understand how users interact with AI and how we can offer the best web-based experiences for AI-powered products. This fantastic website explores some of the most common patterns you should consider when designing a website that uses some form of AI. [**Visit website**](https://shapeof.ai/)",
+      "imageUrl": "./0f5a19509d745e44e9e8cc193b231d8ef2ebefd598e0aec7c173ae94b57801ca.png",
+      "featured": true
+    },
+    {
+      "title": "Deep Dive into Functional Programming in JavaScript",
+      "url": "https://dev.to/alexmercedcoder/deep-dive-into-functional-programming-in-javascript-851",
+      "description": "Functional programming (FP) has gained significant traction in the world of software development, and JavaScript developers are increasingly turning to this paradigm to solve problems more efficiently and with fewer bugs. In this article, you can explore some of the most important concepts that you'll have to master if you want to make good use of functional programming in your JavaScript code.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Mario meets Pareto",
+      "url": "https://mayerowitz.io/blog/mario-meets-pareto",
+      "description": "This one hasn't much to do with the world of web development... well that's maybe not true, since it's an amazing website with some cool 3D animations. So, check out how to find the best Mario Kart 8 build using the Pareto frontier method and enjoy all the animations as you scroll through the data! Maybe you'll find some inspiration for your next frontend project!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "JS Naked Day",
+      "url": "https://js-naked-day.org/",
+      "description": "Last week we had the JS Naked Day, a day dedicated to the idea that the web should work without JavaScript. An important idea to reflect upon, especially for editorial websites whose purpose is to provide information, they should definitely not require JavaScript to work...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Help us invent CSS Grid Level 3, aka “Masonry” layout",
+      "url": "https://webkit.org/blog/15269/help-us-invent-masonry-layouts-for-css-grid-level-3",
+      "description": "If you’ve been making websites for years, you know how frustrating it was to lay out a web page with CSS floats. You might have seen websites like Pinterest and wondered \"How did they achieve such a cool layout?\". That's called a masonry layout and, as of today, it involves a lot of JavaScript! But this might change because there is a new CSS spec in the works to introduce a native masonry layout... And you can contribute to it!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "canvas-confetti",
+      "url": "https://github.com/catdad/canvas-confetti",
+      "description": "A lovely JavaScript library that allows you to easily add a confetti effect to your web pages. We presented [emojisplosion](https://www.emojisplosion.dev/) a few issues ago, this is another interesting alternative that focuses on performance and flexibility! Am I the only one who loves emojis so much? 😁",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Did Signals Just Land in React?",
+      "url": "https://thenewstack.io/did-signals-just-land-in-react",
+      "description": "\"Signals\" are used to manage client-side state, and every major frontend framework seems to be implementing them! Well, all except React! But this might change soon, as [Paul Scanlon](https://thenewstack.io/author/paulscanlon/) points out in this interesting article.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Distributed Systems with Node.js: Building Enterprise-Ready Backend Services",
+    "author": "Thomas Hunter II",
+    "description": "Many companies, from startups to Fortune 500 companies alike, use Node.js to build performant backend services. And engineers love Node.js for its approachable API and familiar syntax. Backed by the world's largest package repository, Node's enterprise foothold is only expected to grow. In this hands-on guide, author Thomas Hunter II proves that Node.js is just as capable as traditional enterprise platforms for building services that are observable, scalable, and resilient. Intermediate to advanced Node.js developers will find themselves integrating application code with a breadth of tooling from each layer of a modern service stack.",
+    "coverImageUrl": "./58c5a292505b90063c9d1ea8694e3d9a1488b4931e05a10f155236b1dbbcd082.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492077291?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492077291?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Profile Node.js performance with the Performance panel",
+      "url": "https://developer.chrome.com/docs/devtools/performance/nodejs"
+    },
+    {
+      "title": "Motion extraction with mostly CSS",
+      "url": "https://javier.xyz/blog/motion-extraction-with-mostly-css"
+    },
+    {
+      "title": "No Abstractions: an Increase API design principle",
+      "url": "https://increase.com/articles/no-abstractions"
+    },
+    {
+      "title": "ehmicky/modern-errors: Handle errors in a simple, stable, consistent way",
+      "url": "https://github.com/ehmicky/modern-errors"
+    },
+    {
+      "title": "Learn OAuth 2.0 by Building Your Own OAuth Client",
+      "url": "https://annotate.dev/p/hello-world/learn-oauth-2-0-by-building-your-own-oauth-client-U2HaZNtvQojn4F"
+    },
+    {
+      "title": "Puck - The open-source visual editor for React",
+      "url": "https://puckeditor.com/"
+    },
+    {
+      "title": "An Introduction to the Node.js Performance API",
+      "url": "https://betterstack.com/community/guides/scaling-nodejs/performance-apis"
+    },
+    {
+      "title": "Deep Dive into Node.js Streams (video)",
+      "url": "https://youtu.be/edB964-YYpE?si=fcM4AXhd1AIo4UHs%3Futm_source%3Dfullstackbulletin.com"
+    }
+  ],
+  "sponsor": null
+}

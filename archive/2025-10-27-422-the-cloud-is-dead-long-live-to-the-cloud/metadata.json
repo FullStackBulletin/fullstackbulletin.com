@@ -1,0 +1,127 @@
+{
+  "issueNumber": 442,
+  "title": "The Cloud is Dead, Long Live to the Cloud",
+  "slug": "2025-10-27-422-the-cloud-is-dead-long-live-to-the-cloud",
+  "date": "2025-10-27",
+  "templateType": "buttondown-markdown",
+  "intro": "Heyo,\n\nSorry for going quiet last week. I am still finding my footing as a new dad and trying to shape a sane after work routine. If you are still here, thanks for sticking with me!\n\nThis issue kicks off with a big reflection on the future of the web and the cloud, sparked by the recent AWS outage in the `us-east-1` region that disrupted a few thousands of big apps. What failed? What it says about centralization? And, what we should we expect for the future of the web?\n\nBut that's just the first pick... As always, you will find a heap of hand picked reads, tools, and tasty CSS tricks to keep you informed and inspired in your wonderful full stack journey.\n\nHappy reading and coding!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "The Web as I envisaged it, we have not seen it yet. The future is still so much bigger than the past",
+    "author": "Tim Berners-Lee",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Tim_Berners-Lee?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=442-navbar-gallery-navigation-design-inspiration"
+  },
+  "links": [
+    {
+      "title": "The Cloud is Dead, Long Live to the Cloud",
+      "url": "https://aws.amazon.com/message/101925/",
+      "description": "Last week's web madness and unreliability were a reminder that distributed systems are hard as f**k and raised a lot of questions about the future of the web and the cloud! What happened? A rare race condition in AWS automation wrote an empty DNS plan for the DynamoDB regional endpoint in us-east-1, which made the DynamoDB service unavailable in the region. This had a massive ripple effect for a few reasons. First, us-east-1 is a heavily used region, so any regional failure there touches a lot of workloads across many customers. DynamoDB is one of those services that are at the core of many other services in AWS, so the outage made more than 100 other AWS services flaky as well. Furthermore, some AWS services have only one control plane in us-east-1, and this created side effects in other regions for certain operations. Finally, even if you were not in us-east-1, a vendor you depend on probably was, which meant you still had a broken dependency. Of course, the outage triggered a wave of cloud skepticism. It also made some long time cloud users uneasy. The big question is simple: *Did we break the internet by centralizing too much with a few cloud providers?* It is a fair concern and worth discussing. For a sober technical baseline on what actually failed and why, start with the AWS postmortem (main link here). I also shared my take on LinkedIn [here](https://www.linkedin.com/feed/update/urn:li:activity:7385992455126564864/) and [here](https://www.linkedin.com/feed/update/urn:li:activity:7386333921602486272/). Yan Cui captured the root cause clearly in [his own post as](https://www.linkedin.com/feed/update/urn:li:activity:7387501023751311360/) (well worth a read) and [this other article](https://blog.pragmaticengineer.com/aws-outage-us-east-1/) is a great explainer too. So, *is the cloud dead?* I do not think so. I am optimistic we will get a more resilient AWS and, hopefully, stronger and more diverse competition will emerge over time across the board. I say the cloud and managed services in general are still a great bet for those who want to be focused and productive, so *long live the cloud!* But that is just me... Hit reply and tell me what you think! [**Read the official Postmortem**](https://aws.amazon.com/message/101925/)",
+      "imageUrl": "./cf02d11f2f7b421239d6d2548b4adee534a795e0665f5beb9f4dec6195c5ebdb.png",
+      "featured": true
+    },
+    {
+      "title": "Navigation Design Inspiration",
+      "url": "https://www.navbar.gallery/",
+      "description": "Designing a navbar and want fresh ideas? Navbar Gallery is a collection of the best website navbar inspiration designs on the web, curated so you can quickly find the ideal navigation example for your next build. Lots of layouts, animations, and tiny interaction details to spark a better top level experience. I am semi-seriously wondering if I can use some of this to vibe code a better navbar for my own personal site!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Modern CSS Round-Out Tabs",
+      "url": "https://frontendmasters.com/blog/modern-css-round-out-tabs",
+      "description": "Designing pill style tabs without JavaScript. This walkthrough shows how to build rounded tab UIs with modern CSS, with clear structure, sensible states, and accessibility in mind. Practical, copy ready patterns that scale from simple demos to real product nav. I loved to see a clear comparison between the old and hacky solutions and what is now possible with clean, modern CSS (e.g. using `shape()` to carve away the edges of an element to look like a folder tab).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Design, animate, and export SVGs from one file",
+      "url": "https://mirrow.app/",
+      "description": "I came across a tool called **Mirrow**: a declarative language that simplifies the process of creating animated SVGs. The idea is to design, style, and animate everything within a single file, without needing any extra CSS or scripts. You can then export your work as ready-to-use code for frameworks like React and Svelte. It seems perfect for building crisp icons or playful microinteractions without getting lost in a tooling rabbit hole. If you're curious, they have a live web-based [playground](https://mirrow.app/playground/) where you can see what's possible with just a few lines of code.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "State-based vs Signal-based",
+      "url": "https://jovidecroock.com/blog/state-vs-signals",
+      "description": "In the last couple of years, thanks to the rise of [SolidJS](https://www.solidjs.com/) and its signals based reactivity model, we have seen a lot of frameworks shift toward signals for building reactive user interfaces on the web. React, the most widely used UI framework, is still resisting that switch and keeps its state based rendering approach. So what is the difference between these two models and why does it matter? This article summarizes it nicely, with clear examples that contrast fine grained updates in a signal system with component level rerenders in a state model, plus the trade offs around mental model, performance, and ergonomics. If you want a crisp primer that helps you choose when signals shine and when state is just fine, read this and keep it handy for your next architecture chat, especially if you are looking for an excuse to explore something different from React!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The new progress() function in CSS",
+      "url": "https://amitmerchant.com/the-progress-function-css",
+      "description": "A tidy intro to the new CSS `progress()` function with practical uses you can copy today. This piece explains what shows how to wire it into animations and transitions, and walks through patterns like scroll indicators, progress rings, and playful loaders without JavaScript. Clear snippets, sensible defaults, and a mindset shift toward letting the browser do the math for you. I loved seeing how a small function can replace a bunch of hacks and tons of handwritten JavaScript to give you motion that feels clean and predictable.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "CSS :is() :where() the Magic Happens",
+      "url": "https://matthiasott.com/notes/css-is-where-the-magic-happens",
+      "description": "A crisp primer on why CSS is where real magic happens. It dives into the new `:is()` and `:where()` pseudo classes and shows how they solve two pains at once. `:is()` lets you group selectors to kill repetition and keep stylesheets readable. `:where()` gives you zero specificity so you can set soft defaults that any simple class can override. Together they tidy your code and tame the cascade. Clean mental model, fewer selector wars, and a gentler path to scalable design systems. I admit I never used `:where()` yet, but after reading this, I am starting to see a few opportunities to introduce it in my CSS code.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Writing alt text with AI",
+      "url": "https://jaredcunha.com/blog/writing-alt-text-with-ai",
+      "description": "Confession time: I have been using LLMs to write alt text for at least the last six months, but I kind of took it for granted and never discussed it with anyone. This read was a super useful reality check. It lays out a clear way to think about context, subject, function, and audience, then gives you a simple template you can adopt to get more predictable and accurate results. I loved comparing my loose, vibes based workflow with a more structured approach, and I am definitely stealing a few moves for my next batch of images.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Observability Engineering: Achieving Production Excellence",
+    "author": "Charity Majors, Liz Fong-Jones, and George Miranda",
+    "description": "Observability is critical for building, changing, and understanding the software that powers complex modern systems. Teams that adopt observability are much better equipped to ship code swiftly and confidently, identify outliers and aberrant behaviors, and understand the experience of each and every user. This practical book explains the value of observable systems and shows you how to practice observability-driven development.\nAuthors Charity Majors, Liz Fong-Jones, and George Miranda from Honeycomb explain what constitutes good observability, show you how to improve upon what you're doing today, and provide practical dos and don'ts for migrating from legacy tooling, such as metrics, monitoring, and log management. You'll also learn the impact observability has on organizational culture (and vice versa).\nYou'll explore:",
+    "coverImageUrl": "./dc851164b38a230a774ecc7edf7b3cf051dd502090aa6aba53ea2fb65ff7c3e6.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492076449",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492076449"
+  },
+  "additionalLinks": [
+    {
+      "title": "One Year with Next.js App Router: Why We're Moving On",
+      "url": "https://paperclover.net/blog/webdev/next-js.png"
+    },
+    {
+      "title": "React Server Components: Do They Really Improve Performance?",
+      "url": "https://developerway.com/posts/react-server-components-performance"
+    },
+    {
+      "title": "The killer feature of Web Components",
+      "url": "https://daverupert.com/2025/10/custom-elements-manifest-killer-feature"
+    },
+    {
+      "title": "CSS Grid: A helpful mental model and the power of grid lines",
+      "url": "https://webkit.org/blog/17474/css-grid-a-helpful-mental-model-and-the-power-of-grid-lines"
+    },
+    {
+      "title": "Stop Prop Drilling: The Ultimate Guide to React’s useContext Hook with TypeScript",
+      "url": "https://karan51ngh.medium.com/stop-prop-drilling-the-ultimate-guide-to-reacts-usecontext-hook-with-typescript-6b98821870ee"
+    },
+    {
+      "title": "Context Inheritance in TanStack Router",
+      "url": "https://tkdodo.eu/blog/context-inheritance-in-tan-stack-router"
+    },
+    {
+      "title": "Is it Time to Regulate React?",
+      "url": "https://dbushell.com/2025/10/23/react-regulation"
+    },
+    {
+      "title": "The missing link in JavaScript tools",
+      "url": "https://marvinh.dev/blog/unifying-js-tools"
+    },
+    {
+      "title": "Tried React 19’s Activity Component , here’s What I Learned",
+      "url": "https://javascript.plainenglish.io/tried-react-19s-activity-component-here-s-what-i-learned-b0f714003a65"
+    },
+    {
+      "title": "Solved By Modern CSS: Section Layout",
+      "url": "https://ishadeed.com/article/modern-css-section-layout"
+    },
+    {
+      "title": "Reading and Writing Files in Node.js - The Complete Modern Guide",
+      "url": "https://nodejsdesignpatterns.com/blog/reading-writing-files-nodejs/"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,120 @@
+{
+  "issueNumber": 352,
+  "title": "SSH3: faster and rich secure shell using HTTP/3",
+  "slug": "2023-12-25-337-ssh3-faster-and-rich-secure-shell-using-http-3",
+  "date": "2023-12-25",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nThis is issue #352! 👌\n\nIf you are reading this, I hope you are having the best Christmas ever (if you celebrate such a festivity, if not, I surely hope your days is still wonderful and happy).\n\nAnd, just in case you are eager for another awesome hand-curated selection of fullstack content, I hope you will enjoy what we have in store for you today!\n\nHave fun and be happy! Life's good! 🥳",
+  "quote": {
+    "text": "One day, you'll turn off the feature that emails you every time someone buys your software. That's a huge milestone“",
+    "author": "Joel Spolsky",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Joel_Spolsky"
+  },
+  "links": [
+    {
+      "title": "SSH3: faster and rich secure shell using HTTP/3",
+      "url": "https://github.com/francoismichel/ssh3",
+      "description": "SSH is one of those things that one thinks will never change! And instead, here we are with a new massive release. Altough it's important to mention that this is not really a new version of the classic SSH but more of a new way of delivering SSH capabilities using HTTP/3. This idea should make SSH faster and richer in features. You should check out the repo because this can become the future of SSH. Oh, and there is also [a paper](https://arxiv.org/abs/2312.08396)!",
+      "imageUrl": "./e58ed72d4a1aa33ed3f6bd5df480a724a9a34775bb0b4dcb71b4514e70d0d67d.jpg",
+      "featured": true
+    },
+    {
+      "title": "State of Node.js Performance 2023",
+      "url": "https://blog.rafaelgss.dev/state-of-nodejs-performance-2023",
+      "description": "[Rafael Gonzaga](https://rafaelgss.dev/), an amazing Node.js contributor,  gives us his take on the current state of Node.js in terms of performance. Node.js is one of the fastest runtimes when it comes to high-level scripting languages, but we aren't done yet. There are so many low-hanging fruits and other opportunities for optimization that it's only fair to expect things to get better and better in the years to come. But since Node.js is an open project, make sure to give a hand and help if you can!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Announcing SvelteKit 2",
+      "url": "https://svelte.dev/blog/sveltekit-2",
+      "description": "A new major release of SvelteKit is out and it support Vite 5 and it lays the foundation to support the upcoming Svelte 5! If you like Svelte and Svelte Kit you might want to check out what's new and how to upgrade to this new version.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Crafting Effective Documentation",
+      "url": "https://dev.to/kibumpng/crafting-effective-documentation-4odj",
+      "description": "Even with the support of AI, it's still pretty hard to write good software documentation. This is why articles like this have such an enormous value. It provides a few practical tips that can help you take your software documentation to the next level.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Making noisy SVGs",
+      "url": "https://daniel.do/article/making-noisy-svgs",
+      "description": "Noisy textures: I am sure you have seen this cool vector graphic effect on a few websites already. When I discovered this article I was surprised to see how easy it is to achieve this effect. I thought it involved lots of time spent on a design tool, instead you can simply achieve the effect by doing some fine touches on your SVGs XML code.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "You are never taught how to build quality software",
+      "url": "https://florianbellmann.com/blog/never-taught-qa",
+      "description": "Writing software is one thing, but writing **high-quality** software is an entirely different effort! The gap between the two is not something we learn in Uni/College (for the most part), so how do we learn the necessary skills to excel at software development?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Bash scripts with node?",
+      "url": "https://dev.to/giuliano1993/bash-scripts-with-node-4d1b",
+      "description": "You know I love JavaScript and Node.js, right? But sometimes a simple bash script is all you need. But who likes to write bash? Probably nobody! Sooo how do we get the best of both worlds? Check out this article for a possible solution...",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Thinking in Systems",
+    "author": "Donella H. Meadows",
+    "description": "Some of the biggest problems facing the world war, hunger, poverty, and environmental degradation are essentially system failures. They cannot be solved by fixing one piece in isolation from the others, because even seemingly minor details have an enormous impact. While readers will learn the conceptual tools and methods of systems thinking, the heart of the book is grander than methodology. Donella Meadows reminds readers to pay attention to what is important, not just what is quantifiable, to stay humble, and to stay a learner. No matter what industry or career you're in, Thinking In Systems will bring clarity to the complicated, crowded, and interdependent networks that make up the world today. Thinking in Systems helps readers avoid confusion and helplessness, the first step toward finding proactive and effective solutions.",
+    "coverImageUrl": "./de6dbc771591802beae8cc7eab3beac3244817f8820affe73e0b91c622309b1f.jpg",
+    "amazonUs": null,
+    "amazonUk": null
+  },
+  "additionalLinks": [
+    {
+      "title": "Ruby 3.3’s YJIT: Faster While Using Less Memory",
+      "url": "https://railsatscale.com/2023-12-04-ruby-3-3-s-yjit-faster-while-using-less-memory"
+    },
+    {
+      "title": "Heroicons Micro: What are these, icons for ants?",
+      "url": "https://tailwindcss.com/blog/heroicons-micro"
+    },
+    {
+      "title": "Getting started with Web Performance",
+      "url": "https://htmhell.dev/adventcalendar/2023/14"
+    },
+    {
+      "title": "The Cheap Web",
+      "url": "https://potato.cheap/"
+    },
+    {
+      "title": "Becoming a go-to person gets you promoted. Here's how to do it as a software engineer.",
+      "url": "https://careercutler.substack.com/p/becoming-a-go-to-person-gets-you"
+    },
+    {
+      "title": "Shikiji - A beautiful and powerful syntax highlighter",
+      "url": "https://shikiji.netlify.app/"
+    },
+    {
+      "title": "How I Built A Santa Chatbot To Mess With My Brother",
+      "url": "https://readysetcloud.io/blog/allen.helton/santa-chatbot"
+    },
+    {
+      "title": "V8 is Faster and Safer than Ever!",
+      "url": "https://v8.dev/blog/holiday-season-2023"
+    },
+    {
+      "title": "Web Components Will Outlive Your JavaScript Framework",
+      "url": "https://jakelazaroff.com/words/web-components-will-outlive-your-javascript-framework/"
+    },
+    {
+      "title": "Things you forgot (or never knew) because of React",
+      "url": "https://joshcollinsworth.com/blog/antiquated-react"
+    },
+    {
+      "title": "Writing Javascript without a build system",
+      "url": "https://jvns.ca/blog/2023/02/16/writing-javascript-without-a-build-system/"
+    }
+  ],
+  "sponsor": null
+}

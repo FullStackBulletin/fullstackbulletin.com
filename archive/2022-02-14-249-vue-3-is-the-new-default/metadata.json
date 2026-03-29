@@ -1,0 +1,75 @@
+{
+  "issueNumber": 260,
+  "title": "Vue 3 is the New Default",
+  "slug": "2022-02-14-249-vue-3-is-the-new-default",
+  "date": "2022-02-14",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "One machine can do the work of fifty ordinary men.  No machine can do the work of one extraordinary man",
+    "author": "Elbert Hubbard",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Elbert_Hubbard"
+  },
+  "links": [
+    {
+      "title": "Vue 3 is the New Default",
+      "url": "https://blog.vuejs.org/posts/vue-3-as-the-new-default.html",
+      "description": "In this official blog post, Evan You, the creator of Vue, finally announces that Vue 3 is out of beta and it's the new stable version of the framework. The post also illustrates how in the last couple of years the Vue community has grown and how an entire ecosystem matured around Vue.",
+      "imageUrl": "./59721ada2fc068f06963166b2623fb512df5d273712f0a32773c30b1fd9db6ca.png",
+      "featured": true
+    },
+    {
+      "title": "What Web Frameworks Solve And How To Do Without Them",
+      "url": "https://smashingmagazine.com/2022/01/web-frameworks-guide-part1",
+      "description": "In this article, Noam Rosenthal dives deep into a few technical features that are common across frameworks, and explains how some of the different frameworks implement them and what they cost.",
+      "imageUrl": "./fb8f2b51cadbd63753e70cfd7283e7f92e99f0b49b3bf8575a6deb33f6610b1e.jpg",
+      "featured": false
+    },
+    {
+      "title": "npm: A Free Guide for Beginners",
+      "url": "https://css-tricks.com/a-complete-beginners-guide-to-npm",
+      "description": "This npm guide helps you understand what npm is, what what makes npm a package manager, and how to use npm from a beginner's view.",
+      "imageUrl": "./4650a6f020e8ba13f0960aad8466817ca40f0412479f7cd1883e62333efc664d.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to write performant React code: rules, patterns, do's and don'ts",
+      "url": "https://developerway.com/posts/how-to-write-performant-react-code",
+      "description": "Looking into patterns that lead to poor performance of React apps, why they are bad, and how to recognise and avoid them.",
+      "imageUrl": "./065abbbd4e63914ce93c178c0ca5d415e6c108807ea8a237b499df1346b34352.jpg",
+      "featured": false
+    },
+    {
+      "title": "Immutability isn't free",
+      "url": "https://swizec.com/blog/immutability-isnt-free",
+      "description": "Immutable data structure are awesome! Until they aren't anymore... In this blog post you can learn about a real use case where using immutable data structure made an API much slower than it should have been. This post can show you why is that and make you understand the tradeoffs that come with immutable data structures.",
+      "imageUrl": "./38a59a2b44d643276dd4b8365adb646bc2b5307929f883c4bb4b64946d00e464.jpg",
+      "featured": false
+    },
+    {
+      "title": "Creating Generative SVG Grids",
+      "url": "https://frontend.horse/articles/generative-grids",
+      "description": "With this beautiful tutorial by Frontend Horse, you can learn how to create colorful, generative grid designs with JavaScript and SVG!",
+      "imageUrl": "./19fd522e7ce14d924e25ca9ad73f6ab5ead33819c627ad4f7d0e8fa6310fd1f2.jpg",
+      "featured": false
+    },
+    {
+      "title": "spark-joy",
+      "url": "https://github.com/sw-yx/spark-joy",
+      "description": "If you are looking for even more ways to add design flair, user delight, and whimsy to your product, check out this beautiful repository with hundreds of ideas and links curated by sw-yx!",
+      "imageUrl": "./69739ad7d8e05834c021123c190c48f6453ab8e1b6578344faf60431968fda93.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "E. Gamma, R. Helm, R. Johnson, J. Vlissides",
+    "description": "Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems. Previously undocumented, these 23 patterns allow designers to create more flexible, elegant, and ultimately reusable designs without having to rediscover the design solutions themselves.",
+    "coverImageUrl": "./3d2f9c2ee1c817b2dcd3443fbb6f71d7fcb0499b00de983a9ffe8f8c6058fa29.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0201633612/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0201633612/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

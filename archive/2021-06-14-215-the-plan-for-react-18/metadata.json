@@ -1,0 +1,75 @@
+{
+  "issueNumber": 215,
+  "title": "The Plan for React 18",
+  "slug": "2021-06-14-215-the-plan-for-react-18",
+  "date": "2021-06-14",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "Good programmers use their brains, but good guidelines save us having to think out every case",
+    "author": null,
+    "authorTitle": "Author",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "The Plan for React 18",
+      "url": "https://reactjs.org/blog/2021/06/08/the-plan-for-react-18.html",
+      "description": "The React team is excited to share a few updates on what's to be expected for React 18. Here are some spoilers: there's a working group to take care of the gradual adoption of new features; performance improvements (batching); streaming server-side renderer. Check out the article to find out more.",
+      "imageUrl": "./eab28b4cb123d5a9b6ac4b48c908fe17fdd77002cdfa9b67248a632b13d28983.jpg",
+      "featured": true
+    },
+    {
+      "title": "Graphqurl - curl like CLI for GraphQL",
+      "url": "https://blog.graphqleditor.com/graphqurl",
+      "description": "Have you ever wanted something like curl but with a more in-depth integration with GraphQL? Well, dream no more: Graphqurl is here and it's quite a feat! With built-in auto-completion and tons of other useful features, accessing GraphQL APIs from the CLI it's going to be a breeze!",
+      "imageUrl": "./d849e20f7340883bb91b96031c820593d49cb92932657428d4ddc3746ec7b279.png",
+      "featured": false
+    },
+    {
+      "title": "Have you ever hurt yourself from your own code?",
+      "url": "https://blog.nikitas.link/have-you-ever-hurt-yourself-from-your-own-code",
+      "description": "Have you ever accidentally caused harm to yourself or others from your code? In this article, you will find a story that shows how it is possible to accidentally hurt oneself by writing buggy code! What can you do to avoid this from happening?",
+      "imageUrl": "./80a44ebd8f8137070311bc3bc309d0c38cff45b7109ff916621e93d782af5860.png",
+      "featured": false
+    },
+    {
+      "title": "Windmill UI",
+      "url": "https://windmillui.com/",
+      "description": "React meets Tailwind CSS in Stunning components for faster web development. You must check this one out if you enjoy using these two pieces of tech!",
+      "imageUrl": "./3939e40ded5347e8e897a49bfbd5e85a62e45b0d82973c7459ab3506c1785f5a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Lazy-loading React components",
+      "url": "https://dev.to/aman_singh/lazy-loading-react-components-no-rocket-science-ejn",
+      "description": "How can you build a React application that only loads the portion of the website that your user is about to see and interact with? Of course, if you have a large website, you don't want to provide your user with MBs of JavaScript just in case they are going to visit every single corner of the website!",
+      "imageUrl": "./f0f17cd82f1847fb823e7db5b752f2f33666748e0e63dadbab6f817f5f8cd704.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to Test",
+      "url": "https://matklad.github.io/2021/05/31/how-to-test.html",
+      "description": "An excellent article describing an opinionated approach to testing (in the broader term). What is worth testing and how? Hom much unit test vs integration and end to end testing? Test-driven or test \"later\"? What about data-driven testing? We promise this article will let you think a lot more about how to write your tests!",
+      "imageUrl": "./49cacd1f07096d582b136b5aefc727271fe3b0abf98079463727524eb845bd39.jpg",
+      "featured": false
+    },
+    {
+      "title": "You Don't Need to Rebuild Your Development Docker Image on Every Code Change",
+      "url": "https://vsupalov.com/rebuilding-docker-image-development",
+      "description": "If you use Docker for your local development you should know that you can mount code from your development machine into a container and save yourself tedious waiting build times during development, for every single code change!",
+      "imageUrl": "./61df902a1841a15c138fa26750bdff04671736073fca5fa4e70f901d7ece90de.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Getting Started with hapi.js",
+    "author": "John Brett",
+    "description": "This book will introduce hapi.js and walk you through the creation of your first working application using the out-of-the-box features hapi.js provides. Packed with real-world problems and examples, this book introduces some of the basic concepts of hapi.js and Node.js and takes you through the typical journey you'll face when developing an application. Starting with easier concepts such as routing requests, building APIs serving JSON, using templates to build websites and applications, and connecting databases, we then move on to more complex problems such as authentication, model validation, caching, and techniques for structuring your codebase to scale gracefully.",
+    "coverImageUrl": "./d31bcb4e84d816e5d5fcc91de57a73e2d10b8c811815001c4ed2997d6b526a79.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785888188/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785888188/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 173,
+  "title": "6 Powerful CSS Techniques You Can Use Instead of Javascript",
+  "slug": "2020-08-03-173-6-powerful-css-techniques-you-can-use-instead-of-javascript",
+  "date": "2020-08-03",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #31, 2020",
+  "quote": {
+    "text": "Computers are good at following instructions, but not at reading your mind",
+    "author": "Donald Knuth",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Donald_Knuth"
+  },
+  "links": [
+    {
+      "title": "6 Powerful CSS Techniques You Can Use Instead of Javascript",
+      "url": "https://dev.to/diogorodrigues/6-powerful-css-techniques-you-can-use-instead-of-javascript-2f44",
+      "description": "There are a lot of discussions about CSS vs. JavaScript and the battle is getting seriously once CSS is adding a bunch of amazing features and it's letting easier to do many things without JS.",
+      "imageUrl": "./33be8d3239dafb9a9b957f02531699b0ea92b25169bc3c593ea2692eeb533a1a.jpg",
+      "featured": true
+    },
+    {
+      "title": "Redux Overview and Concepts",
+      "url": "https://redux.js.org/tutorials/essentials/part-1-overview-concepts",
+      "description": "The official Essentials tutorial for Redux: learn how to use Redux, the right way.",
+      "imageUrl": "./93276c4603f6742089ec985e8eb00d71b85410c2cc266bc79df4265b8fdd396b.png",
+      "featured": false
+    },
+    {
+      "title": "How to create a strong visual identity for digital products",
+      "url": "https://dribbble.com/stories/2020/07/21/visual-identity-for-digital-products",
+      "description": "Every product has its own story. Here's how to create a strong visual identity that communicates this unique story and stands out in a competitive market.",
+      "imageUrl": "./6f4ba17c96d87eef993188ab9611ba5cdd8a134516f4f2b2c9ea632aa0f02da6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Complete Guide to React Hooks Testing",
+      "url": "https://toptal.com/react/testing-react-hooks-tutorial",
+      "description": "This article explores how to test React Hooks and outlines an eight-step testing plan you could employ to test your own projects.",
+      "imageUrl": "./5555b671422df6c1fda7bc626773648109c4b31f601375e37e7e163197c614be.jpg",
+      "featured": false
+    },
+    {
+      "title": "Modern CSS Techniques To Improve Legibility",
+      "url": "https://smashingmagazine.com/2020/07/css-techniques-legibility",
+      "description": "In this article, we cover how we can improve websites legibility using some modern CSS techniques, great new technologies like variable fonts and putting into practise what we learned from doing scientific researches.",
+      "imageUrl": "./841e9e97f3a2bdac6593b6fc1ef437df150fa72305218b001619ff1d8f473336.jpg",
+      "featured": false
+    },
+    {
+      "title": "Translating Design Wireframes Into Accessible HTML/CSS",
+      "url": "https://smashingmagazine.com/2020/07/design-wireframes-accessible-html-css",
+      "description": "In this article, Harris Schneiderman walks you through the process of analyzing a wireframe and making coding decisions to optimize for accessibility.",
+      "imageUrl": "./151f59945bb0e5e590f232f07cf8c716fd797d99cc4077552e3814769cbe674c.jpg",
+      "featured": false
+    },
+    {
+      "title": "We built an OpenAI powered Tailwind CSS code generator using GPT-3",
+      "url": "https://themesberg.com/blog/tailwind-css/gpt-3-tailwind-css-ai-code-generator",
+      "description": "We created an OpenAI powered Tailwind CSS code generator using GPT-3's API by getting early access to it.",
+      "imageUrl": "./662656d9673298ea2a3da33e60c096357a9fba37557a8522fa0c0631e449fcfe.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Rails, Angular, Postgres, and Bootstrap: Powerful, Effective, and Efficient Full-Stack Web Development",
+    "author": "David B. Copeland",
+    "description": "As a Rails developer, you care about user experience and performance, but you also want simple and maintainable code. Achieve all that by embracing the full stack of web development, from styling with Bootstrap, building an interactive user interface with AngularJS, to storing data quickly and reliably in PostgreSQL. Take a holistic view of full-stack development to create usable, high-performing applications, and learn to use these technologies effectively in a Ruby on Rails environment.",
+    "coverImageUrl": "./916a92b54ef122132c9c594e8eb8d9182649599a02cfe38f79d2f203037b008c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501267/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501267/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

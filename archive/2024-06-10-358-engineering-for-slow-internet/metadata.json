@@ -1,0 +1,108 @@
+{
+  "issueNumber": 376,
+  "title": "Engineering for Slow Internet",
+  "slug": "2024-06-10-358-engineering-for-slow-internet",
+  "date": "2024-06-10",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #376,\n\nOK, I'll start by admitting that this issue came out a little bit weirder than usual! Somehow, I ended up selecting a few cool resources that are not necessarily strictly related to the world of full-stack web development. They are still cool engineering topics and I still think that they can teach you a lot, but do let me know what you think! 🙏\n\nIn other news, if you like serverless and multi-tenancy, my talk about [Building Secure & Efficient SaaS Platforms on AWS Serverless](https://www.youtube.com/watch?v=JB7d0427HLE) from ServerlessDays Belfast is finally available on YouTube!\n\n— Your editor, [Luciano](https://x.com/loige)",
+  "quote": {
+    "text": "The real problem is not whether machines think but whether men do.“",
+    "author": "B.F. Skinner",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/B._F._Skinner"
+  },
+  "links": [
+    {
+      "title": "☃️ Engineering for Slow Internet",
+      "url": "https://brr.fyi/posts/engineering-for-slow-internet",
+      "description": "Your website is probably not going to have many visitors from Antarctica, but this is not the only place in the World where internet connectivity might not be great. So, if you care about being inclusive and making sure that ALL your users can have a great experience on your website, here's an interesting story and a few ideas that you can (and should) borrow! Not all ideas are website specifics, but this is still worth a read!",
+      "imageUrl": "./33dca86688e9496bb99c173942fc8a7658d3b9f63086a6219fe09454bc73511e.jpg",
+      "featured": true
+    },
+    {
+      "title": "🔧 Fine-tuning Text Inputs",
+      "url": "https://garrettdimon.com/journal/posts/fine-tuning-text-inputs",
+      "description": "Web forms and inputs support a variety of additional attributes that can provide hints to the browser and improve the user experience of filling out forms online. With the tiniest bit of extra effort, we can make sure our forms help rather than hinder. For example, did you know you can enable or disable spell-check or auto-correct on an `<input>` element?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "😡 Why software engineers are always grumpy?",
+      "url": "https://maheshba.bitbucket.io/blog/2024/05/08/2024-ThreeLaws.html",
+      "description": "This article is a bit of a fun one. Not strictly related to full-stack web development, but I am sure you can recognise some of the laws of software complexity laws being stated here. Don't take it too seriously, but there's certainly some bittersweet truth to it.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "🌝 TypeScriptToLua",
+      "url": "https://typescripttolua.github.io/",
+      "description": "Lua is one of these brilliant languages that you either love or hate. Small and efficient, it appears often in plugin systems. For instance, I recently had to use it to create some special NGINX extensions. It was fun to learn it, but also a bit painful at times. With TypeScriptToLua, you can bring your TypeScript experience when you need to write Lua code. It's effectively a transpiler from TypeScript to Lua. Your mileage might vary, but probably still worth a look if you are afraid of Lua.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "⚡️ zigar: Enable the use of Zig code in JavaScript projects",
+      "url": "https://github.com/chung-leong/zigar",
+      "description": "Zigar in an open-source software tool set that lets you utilize Zig code in your JavaScript project. Zig is still a relatively new language, but it really shines when you need extreme performance but you are looking for something a bit more modern and friendly than pure C. This can be the case if you are writing some low-level component and now you want to wrap it in a nice JavaScript API so you can use it from your Node.js projects. I haven't tried it yet, but I am really curious to give this a shot!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "😢 The popover drama",
+      "url": "https://world.hey.com/jorge/the-popover-drama-48e317b3",
+      "description": "The popover drama started with a tweet about how a HEY Calendar popover loaded slowly on a throttled internet connection. Then, a heated discussion followed in the best social media way, including nuance-free hot takes and professional trolls. This is a great starting point to understand the underlying tech that powers HEY: Hotwire, a ruby server-side rendered approach to reactive UIs in the browser.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "🤔 What does idempotent mean in software systems?",
+      "url": "https://particular.net/blog/what-does-idempotent-mean",
+      "description": "If you ever attended a talk about good RESTful APIs I am sure you heard the term *idempotency* once or twice. But what does it really mean and why is it important to ensure consistency?",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Modern JavaScript for the Impatient",
+    "author": "Cay Horstmann",
+    "description": "Exploit the Power of Modern JavaScript and Avoid the PitfallsJavaScript was originally designed for small-scale programming in web browsers, but modern JavaScript is radically different. Nowadays, JavaScript programmers actively embrace functional, object-oriented, and asynchronous programming, while deprecating error-prone concepts from the past. Modern JavaScript for the Impatient is a complete yet concise guide to JavaScript E6 and beyond. Rather than first requiring you to learn and transition from older versions, it helps you quickly get productive with today's far more powerful versions and rapidly move from languages such as Java, C#, C, or C++.",
+    "coverImageUrl": "./7ad6160afa0bd350a4fd8d9beb546a5e07cc698802552d0e8560440e1339a8ea.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0136502148?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0136502148?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Mastering date formatting using Intl.DateTimeFormat in JavaScript",
+      "url": "https://rafaelcamargo.com/blog/mastering-date-formatting-using-intl-date-time-format-in-javascript"
+    },
+    {
+      "title": "The Cost Of Shutting Down The Internet",
+      "url": "https://cloudzero.com/blog/cost-of-shutting-down-the-internet"
+    },
+    {
+      "title": "The (CSS) Gap",
+      "url": "https://ishadeed.com/article/the-gap"
+    },
+    {
+      "title": "10 modern Node.js runtime features to start using in 2024",
+      "url": "https://snyk.io/blog/10-modern-node-js-runtime-features"
+    },
+    {
+      "title": "How to build your first Web Component",
+      "url": "https://youtube.com/watch?v=4ZCJDf5gjLA"
+    },
+    {
+      "title": "Node.js Test Runner: A Beginner's Guide",
+      "url": "https://betterstack.com/community/guides/testing/nodejs-test-runner"
+    },
+    {
+      "title": "What is Serverless in 2024 & Why You Should Care? (video)",
+      "url": "https://www.youtube.com/watch?v=ZKS4Oy3pMHc"
+    },
+    {
+      "title": "The mathematics of lasagna (funny video for math nerds)",
+      "url": "https://www.youtube.com/watch?v=9l9hcSIAAtM"
+    }
+  ],
+  "sponsor": null
+}

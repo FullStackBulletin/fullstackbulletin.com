@@ -1,0 +1,75 @@
+{
+  "issueNumber": 170,
+  "title": "The surprising truth about what motivates us",
+  "slug": "2020-07-13-170-the-surprising-truth-about-what-motivates-us",
+  "date": "2020-07-13",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #28, 2020",
+  "quote": {
+    "text": "I do not fear computers. I fear lack of them",
+    "author": "Isaac Asimov",
+    "authorTitle": "Author and Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Isaac_Asimov"
+  },
+  "links": [
+    {
+      "title": "The surprising truth about what motivates us",
+      "url": "https://youtube.com/watch?v=u6XAPnuFjJc",
+      "description": "Adapted from Dan Pink's talk, this video illustrates the hidden truths behind what really motivates us at home and in the workplace.",
+      "imageUrl": "./57055e584373ea6e476ae0d8f7415c29fdff360f602a6abb823702efac26a248.jpg",
+      "featured": true
+    },
+    {
+      "title": "New in Chrome: CSS Overview",
+      "url": "https://css-tricks.com/new-in-chrome-css-overview",
+      "description": "Here’s a fancy new experimental feature in Chrome! Now, we can get an overview of the CSS used on a site, from how many colours there are to the number of unused declarations… even down to the total number of defined media queries.",
+      "imageUrl": "./130bbed274106e939efb7255df25e0797c87f84011ad120e50d64d240733eac8.jpg",
+      "featured": false
+    },
+    {
+      "title": "State of Frontend 2020 Survey",
+      "url": "https://tsh.io/state-of-frontend",
+      "description": "What does your life on the front end really look like? Take part in the global survey and compare yourself with other frontend developers.",
+      "imageUrl": "./0275b5bcfa275b593bd860d7394bab944f13ebbcddb60c7e8812822c87367eaa.jpg",
+      "featured": false
+    },
+    {
+      "title": "Checkboxland",
+      "url": "https://bryanbraun.com/checkboxland",
+      "description": "✅ Render anything as HTML checkboxes, because... why not?! 😀",
+      "imageUrl": "./bc5ba19f25a9959395b96d5993092251221a7cb1176a3583e18cda389f3a76d0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Let your bugs teach you...",
+      "url": "https://wizardzines.com/comics/bugs-teach-you/",
+      "description": "A wonderful cartoon by Julia Evans (@b0rk) that shows why bugs are so important and useful 🐞",
+      "imageUrl": "./791c0900e40a989b242781532be5bdf7596718508ffc53101ba65763342d1d71.png",
+      "featured": false
+    },
+    {
+      "title": "Help message for shell scripts",
+      "url": "https://samizdat.dev/help-message-for-shell-scripts",
+      "description": "A very clever shell scripting trick to display an help command based on a comment at the top of your script!",
+      "imageUrl": "./b5300d8b01428bf680b9891ae15a41ba7d9098cd07ed111ade8281142ad67339.png",
+      "featured": false
+    },
+    {
+      "title": "Fastify v3 released",
+      "url": "https://medium.com/@fastifyjs/fastify-v3-released-da4601d79a5",
+      "description": "The final release of the third major version of Fastify is out and it has a ton of interesting improvement, including compatibility with Express/Connect-like middleware! Discover all the new features in this post.",
+      "imageUrl": "./87bcdbb485ba2673938228f08ec818e540d4b43a67a5fafd2acdb1198d2a2469.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Angular 2 Cookbook",
+    "author": "Matt Frisbie",
+    "description": "This book covers all the most complicated Angular concepts and at the same time introduces the best practices with which to wield these powerful tools. It also covers in detail all the concepts you'll need to get you building applications faster. Often neglected topics such as testing and performance optimization are widely covered as well. A developer that reads through all the content in this book will have a broad and deep understanding of all the major topics in the Angular 2 universe.",
+    "coverImageUrl": "./b6885ee25caf4d2b67b01862d2a10f60300e0c6c69537686826de54524ca4ac3.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01JLBMC86/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01JLBMC86/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

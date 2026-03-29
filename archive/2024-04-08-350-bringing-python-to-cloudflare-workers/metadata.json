@@ -1,0 +1,108 @@
+{
+  "issueNumber": 367,
+  "title": "Bringing Python to Cloudflare workers",
+  "slug": "2024-04-08-350-bringing-python-to-cloudflare-workers",
+  "date": "2024-04-08",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \n... and welcome to issue #367!\n\nIn this issue, we have a selection of topics that range from deep technical walkthroughs on how to implement crazy things like running **Python** code in **V8** (something that Cloudflare just released in their worker platform) to more traditional web design topics such as **CSS container queries** (something that I am particularly excited about).\n\nI am not going to hold you much longer from this content, but if you have one minute, [help us to make FullStack Bulletin better by filling out this survey](https://fstack.link/lets-make-it-better)!\n\nThank you and have an awesome full-stack week!\n\n— Your editor, [Luciano](https://loige.co/).",
+  "quote": {
+    "text": "Learn the principle, abide by the principle, and dissolve the principle“",
+    "author": "Bruce Lee",
+    "authorTitle": "Martial Artist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Bruce_Lee"
+  },
+  "links": [
+    {
+      "title": "Bringing Python to Cloudflare Workers",
+      "url": "https://blog.cloudflare.com/python-workers",
+      "description": "Last week Cloudflare introduced Workers in Python. This is something that might be more or less exciting depending on your level of adoption of Cloudflare workers. What I found most interesting is the technology deep dive into how this feature was implemented. In fact, the workers' platform is heavily based on V8, the famous JavaScript runtime, so how did Cloudflare manage to run Python at scale on it?! If this kind of topic makes you curious, you'll certainly enjoy this one!",
+      "imageUrl": "./44cf462b1d43189589cd59486af85a4517cfec54fed80af8f59c2b8ee2eb3ee7.png",
+      "featured": true
+    },
+    {
+      "title": "An Interactive Guide to CSS Container Queries",
+      "url": "https://ishadeed.com/article/css-container-query-guide",
+      "description": "CSS Container queries are one of those innovations that can have the power to change the way certain things are built. They are still early and I believe their full potential is yet to be discovered. If you have no idea what I am talking about, well, this is *the* article for you!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Linear redesign",
+      "url": "https://linear.app/blog/a-design-reset",
+      "description": "Linear, the famous project management application that is attempting to dethrone Jira went through a very interesting re-design exercise. This is the first article of a series that go over the motivation and the design principles that they are following. Pretty interesting if you have a heart for design and you are always on the lookout for ideas on how to design better web applications.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A Web Designer’s Accessibility Advocacy Toolkit",
+      "url": "https://smashingmagazine.com/2024/02/web-designer-accessibility-advocacy-toolkit",
+      "description": "Digital designer Yichan Wang has put together this collection of strategies and selling points to help you encourage and advocate for accessibility in your place of work, including useful scripts you can use as starting points. Priceless!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Infinite-Scrolling Logos In Flat HTML And Pure CSS",
+      "url": "https://smashingmagazine.com/2024/04/infinite-scrolling-logos-html-css",
+      "description": "I have tried to achieve this effect so many times and every time it required way more JavaScript than I was willing to write (and I love JavaScript!)... So discovering that you can get this done with just CSS blew my mind! You don't believe me? Well, time to check out this article then!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Turn images into contour maps",
+      "url": "https://benjdd.com/posts/turn-images-into-contour-maps",
+      "description": "This article presents a great effect that you can achieve by using pictures, the `<canvas>` element, and a good amount of JavaScript. I truly love the final result and it's definitely something that I'll be using as an inspiration. For example, imagine using this effect in combination with an animation, maybe a scroll-based one! OK, maybe it's a bit heavy, but you can still have fun with it!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Universal domain types",
+      "url": "https://mmapped.blog/posts/25-domain-types.html",
+      "description": "If you like DDD (Domain Driven Design), you probably know that one of the most important things to do is to get your domain types right. This article goes a bit more in-depth on what that means and provides a bunch of examples (in different programming languages) on how to design great domain types for common use cases such as *amounts*, *loci,* and *quantities*.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Building the Web of Things: With examples in Node.js and Raspberry Pi",
+    "author": "Dominique Guinard, and Vlad Trifa",
+    "description": "Building the Web of Things is a guide to using cutting-edge web technologies to build the IoT. This step-by-step book teaches you how to use web protocols to connect real-world devices to the web, including the Semantic and Social Webs. Along the way you'll gain vital concepts as you follow instructions for making Web of Things devices. By the end, you'll have the practical skills you need to implement your own web-connected products and services.",
+    "coverImageUrl": "./908fc055c3eb14ae8709a7437018a07a16418c34d11fd382ced691bb315c313e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617292680?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617292680?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Going beyond pixels and (r)ems in CSS - Absolute length unit",
+      "url": "https://techhub.iodigital.com/articles/going-beyond-pixels-and-rems-in-css/absolute-length-units"
+    },
+    {
+      "title": "The Best Python Cheat Sheet",
+      "url": "https://kieranholland.com/best-python-cheat-sheet"
+    },
+    {
+      "title": "How to Kill the Cascade",
+      "url": "https://robinrendle.com/the-cascade/017-how-to-kill-the-cascade"
+    },
+    {
+      "title": "Front-end development’s identity crisis",
+      "url": "https://ellyloel.com/blog/front-end-development-s-identity-crisis"
+    },
+    {
+      "title": "Revealing the features of the XZ backdoor",
+      "url": "https://youtube.com/watch?v=vV_WdTBbww4"
+    },
+    {
+      "title": "The Curious Case of the CSS Monochrome Media Query",
+      "url": "https://blog.stephaniestimac.com/posts/2024/03/css-monochrome-media-query"
+    },
+    {
+      "title": "Cally: small, feature-rich calendar components",
+      "url": "https://wicky.nillia.ms/cally"
+    },
+    {
+      "title": "AWS Lambda best practices (podcast)",
+      "url": "https://awsbites.com/120-lambda-best-practices/"
+    }
+  ],
+  "sponsor": null
+}

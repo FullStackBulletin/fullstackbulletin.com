@@ -1,0 +1,75 @@
+{
+  "issueNumber": 119,
+  "title": "How Google Pagespeed works",
+  "slug": "2019-07-15-119-how-google-pagespeed-works",
+  "date": "2019-07-15",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #28, 2019",
+  "quote": {
+    "text": "I do not fear computers. I fear lack of them",
+    "author": "Isaac Asimov",
+    "authorTitle": "Author and Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Isaac_Asimov"
+  },
+  "links": [
+    {
+      "title": "How Google Pagespeed works",
+      "url": "https://calibreapp.com/blog/how-pagespeed-works",
+      "description": "In this article, we uncover how PageSpeed calculates it’s critical speed score. It’s no secret that speed has become a crucial factor in search ranking.",
+      "imageUrl": "./9aa2ee3eb4574241b29026aaa14431e4094622df50f0cde8a309e35777bd5cf6.jpg",
+      "featured": true
+    },
+    {
+      "title": "TWGL.js, a tiny WebGL helper library",
+      "url": "http://twgljs.org/",
+      "description": "TWGL.js, a tiny WebGL helper library optimized for low level WebGL interactions.",
+      "imageUrl": "./e34d49e80e6e267e32396f950eb3cba39954e53e24c6f8522efb3990191ba53b.jpg",
+      "featured": false
+    },
+    {
+      "title": "How we built a component library that people actually enjoy using",
+      "url": "https://medium.com/styled-components/how-to-build-a-great-component-library-a40d974a412d",
+      "description": "Our team of three built a component library for a team of 60 designers and engineers, who love using it. Here is how that’s possible.",
+      "imageUrl": "./a876399a37cf6b4cc626f78610209116b14281136af70c5637c08e4f778a507b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Birth of Qubole design system",
+      "url": "https://medium.com/qubole-design/birth-of-our-new-design-system-part-3-4686009c62aa",
+      "description": "The design system is more than your UI kit, it’s about bringing culture and design language in your organization. This interesting case study shows how a well structured design system can actually improve consistency and speed of delivery.",
+      "imageUrl": "./892afe4a28438ef94c24bbc056a695b10fc2e8e617888eaa4ab071ee8e1413ed.jpg",
+      "featured": false
+    },
+    {
+      "title": "3D Wireframes in SVG",
+      "url": "https://prideout.net/blog/svg_wireframes",
+      "description": "SVG is great for line art. It scales nicely for high DPI displays without using much bandwidth. However SVG was not designed for 3D, so it does not provide mechanisms for applying perspective transformation or hidden surface elimination. This article shows some clever tecniques and python scripts to render 3d shapes using SVG.",
+      "imageUrl": "./d4ce069e1155483fcb768a73de3ca1d2ffe1f034b1981b4432177f7fad6d4a79.jpg",
+      "featured": false
+    },
+    {
+      "title": "Transpiling between any programming languages",
+      "url": "https://engineering.mongodb.com/post/transpiling-between-any-programming-languages-part-1",
+      "description": "The Compass team has written a lightweight, extendable transpiler that translates BSON to and from any language. This tool allows developers to work in one language while being able to export the queries and aggregations they build to other languages.",
+      "imageUrl": "./ec7c891afb00e61739c5a7920f01742b41a6f4f39906369bf24717f6137fdd70.jpg",
+      "featured": false
+    },
+    {
+      "title": "What Is Web Hosting, Exactly?",
+      "url": "https://www.whoishostingthis.com/resources/web-hosting/",
+      "description": "Most people never really think about where a website is, or even what a website is. I turn on my computer, open a browser, and go to Google or Amazon or Yahoo. But what am I doing when I “visit” a website? If I’m a visitor, where have I gone? And if it is a “site,” where is it located?",
+      "imageUrl": "./54ff753ebe149bf2b14c93e913834b8241d407406511336e22eaca793ca40280.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Angular 2 Cookbook",
+    "author": "Matt Frisbie",
+    "description": "This book covers all the most complicated Angular concepts and at the same time introduces the best practices with which to wield these powerful tools. It also covers in detail all the concepts you'll need to get you building applications faster. Often neglected topics such as testing and performance optimization are widely covered as well. A developer that reads through all the content in this book will have a broad and deep understanding of all the major topics in the Angular 2 universe.",
+    "coverImageUrl": "./b6885ee25caf4d2b67b01862d2a10f60300e0c6c69537686826de54524ca4ac3.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01JLBMC86/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01JLBMC86/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

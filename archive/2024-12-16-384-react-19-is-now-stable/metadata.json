@@ -1,0 +1,100 @@
+{
+  "issueNumber": 403,
+  "title": "React 19 is now stable!",
+  "slug": "2024-12-16-384-react-19-is-now-stable",
+  "date": "2024-12-16",
+  "templateType": "mce-mailchimp",
+  "intro": "Ciao,  👋\nI'm writing from beautiful (albeit rainy) Rome, where I just wrapped up Serverless Days Rome, my last conference for the year. As the holiday season approaches, we were gifted an early present: React 19 is now stable! I'm excited to dive in and see if the new compiler truly lives up to the hype. But enough about me—let's jump right into the curated content for this week, packed with resources that I hope will keep you informed and inspired, as always.\n\n— Your editor, [Luciano](https://loige.co/)\n\nPS: If you’re curious about [Rust and Lambda, check out my full-day workshop slide deck](https://loige.link/rust-lambda-ws), packed with over 100 slides and tons of examples. Let me know what you think!\n\nPPS: We are approaching issue 404... I should do something funny about it... what do you think? Any suggestion? Could you reply to this email and let me know?",
+  "quote": {
+    "text": "First learn computer science and all the theory. Next develop a programming style. Then forget all that and just hack“",
+    "author": "George Carrette",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/George_Charrette"
+  },
+  "links": [
+    {
+      "title": "React 19 is now stable!",
+      "url": "https://react.dev/blog/2024/12/05/react-19",
+      "description": "The latest release of React is here, and I couldn’t be more excited! React 19 is finally stable, and I’m really curious to see if it lives up to expectations. This version introduces the `use()` hook, which lets you effortlessly read resources like data from promises or contexts, and the `useOptimistic()` hook, making optimistic UI updates a breeze. I can’t wait to try these features and see what kind of effects the new React compiler will bring to my frontend game—this feels like a real turning point for React developers!",
+      "imageUrl": "./a35b94c8f980064eb0f1956a014e4e7da2d2052dcff5692f4c118e69b293a632.png",
+      "featured": true
+    },
+    {
+      "title": "Limbo: A complete rewrite of SQLite (in Rust",
+      "url": "https://turso.tech/blog/introducing-limbo-a-complete-rewrite-of-sqlite-in-rust",
+      "description": "Did you know I really like Rust? I know that you know 😄 So, I was very excited to read about this new project from Turso: Limbo, a complete rewrite of SQLite in Rust. It’s not every day that a cornerstone of software like SQLite gets a ground-up rewrite, and the fact that it’s done in Rust makes it even cooler. I can’t wait to dig into how this reimagined database might push the boundaries of performance, safety, and modern database design. This one’s a must-read if you’re as passionate about Rust and databases as I am!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "jsesc: serialization",
+      "url": "https://github.com/mathiasbynens/jsesc",
+      "description": "Have you ever heard of jsesc? It’s a library that takes your data and returns the shortest possible stringified, ASCII-safe representation of it. Think of it as a supercharged alternative to `JSON.stringify()`. Unlike JSON, it outputs JavaScript by default, so it can handle ES6 data structures like maps and sets, and it offers a ton of customization options to tweak the output. While I doubt this will ever replace something as ubiquitous as JSON, Mathias Bynens’ work is always exceptional, and jsesc is no different. It even introduced me to the concept of [Mojibake](https://en.wikipedia.org/wiki/Mojibake), something I’d never heard of before 🤯. If serialization algorithms are your thing, diving into this source code is an absolute treat!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "State of Node.js Performance 2024",
+      "url": "http://nodesource.com/blog/State-of-Nodejs-Performance-2024",
+      "description": "When it comes to interpreted languages, it's hard to beat JavaScript and Node.js in terms of performance, and yet it’s great to see that some Node.js contributors are absolutely obsessed with performance. This article, gives us an inside look at how they benchmark different Node.js releases to track regressions and identify areas for further improvement.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Pure CSS Halftone Effect in 3 Declarations",
+      "url": "https://frontendmasters.com/blog/pure-css-halftone-effect-in-3-declarations",
+      "description": "If you’re into creative CSS effects, you’ll love this deep dive on creating a **pure CSS halftone effect** in just three declarations. A halftone is a pattern of dots that vary in size and spacing, often used in printing but rarely seen in such a striking way. When blown up in size, it creates a really cool aesthetic. What’s even better is that this technique is achievable with CSS alone, and the article walks you through how to build it from a simple start.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Submit to the Quirks of HTML",
+      "url": "https://htmhell.dev/adventcalendar/2024/10",
+      "description": "HTML can be quirky at times, and this article highlights one of those oddities. When there’s only one single-line text input field in a form, the user agent should treat the Enter key as a request to submit the form. But what happens if you have two (or more) fields? Yeah, it gets interesting! If you’ve ever wondered how browsers handle this scenario or just want to learn about a quirky edge case, this post is a must-read. Check out how HTML handles this and what you can do about it!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Publishing a simple client-side JavaScript package to npm with GitHub Actions",
+      "url": "https://til.simonwillison.net/npm/npm-publish-github-actions",
+      "description": "If you’re looking for an easy way to automate publishing a JavaScript package to NPM, Simon Willison’s post is a must-read. He walks through his experience with Prompts.js, a simple, single-file, client-side package, and shows how he used GitHub Actions to automate the whole process. The post breaks down the steps, from setting up a minimal package.json to automating the publishing with GitHub Actions—perfect for anyone looking to streamline their NPM publishing workflow!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elasticsearch: The Definitive Guide",
+    "author": "Clinton Gormley, and Zachary Tong",
+    "description": "Whether you need full-text search or real-time analytics of structured data or both the Elasticsearch distributed search engine is an ideal way to put your data to work. This practical guide not only shows you how to search, analyze, and explore data with Elasticsearch, but also helps you deal with the complexities of human language, geolocation, and relationships. If you're a newcomer to both search and distributed systems, you'll quickly learn how to integrate Elasticsearch into your application. More experienced users will pick up lots of advanced techniques. Throughout the book, you'll follow a problem-based approach to learn why, when, and how to use Elasticsearch features.",
+    "coverImageUrl": "./2ddcf691a406ca14d2511a89ef30ae08a29fa1c50fa8de58d3b1506180ab6520.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358543?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449358543?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Building an npm create package",
+      "url": "https://alexchantastic.com/building-an-npm-create-package"
+    },
+    {
+      "title": "Understanding the main thread in the browser",
+      "url": "https://calendar.perfplanet.com/2024/understanding-the-main-thread-in-the-browser"
+    },
+    {
+      "title": "Reflections on managing state",
+      "url": "https://frontendundefined.com/posts/monthly/react-state-management-reflections"
+    },
+    {
+      "title": "React 19 introduces full support for custom elements",
+      "url": "https://aleks-elkin.github.io/posts/2024-12-06-react-19"
+    },
+    {
+      "title": "What hath AWS wrought?",
+      "url": "https://newsletter.goodtechthings.com/p/what-hath-aws-wrought"
+    },
+    {
+      "title": "AWS Transit Gateway explained (AWS Bites Podcast)",
+      "url": "https://awsbites.com/137-transit-gateway-explained/"
+    }
+  ],
+  "sponsor": null
+}

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the source code for [fullstackbulletin.com](https://fullstackbulletin.com), a static website for the FullStack Bulletin weekly newsletter. The site is built with Pug templates, SCSS, and Webpack, then deployed to GitHub Pages.
+This is the source code for [fullstackbulletin.com](https://fullstackbulletin.com), a static website for the FullStack Bulletin weekly newsletter. Built with Astro and Tailwind CSS, deployed to GitHub Pages.
 
 ## Common Commands
 
@@ -16,29 +16,34 @@ pnpm install
 pnpm dev
 
 # Production build (outputs to dist/)
-pnpm prod:build
+pnpm build
 
-# Run tests
+# Preview production build
+pnpm preview
+
+# Run Playwright tests
 pnpm test
 ```
 
 ## Architecture
 
 ### Build System
+- **Framework**: Astro (static site generation)
+- **Styling**: Tailwind CSS v4
 - **Package Manager**: pnpm
-- **Templates**: Pug (`.pug` files in `views/`)
-- **Styles**: SCSS compiled with node-sass (ITCSS architecture in `assets/scss/`)
-- **JavaScript**: ES2015+ transpiled with Babel, bundled with Webpack
-- **Environment**: Uses `NODE_ENV` and `PACKAGE_OUTPUT` env vars to switch between dev/production
+- **Prebuild**: `generate-data-exports.mjs` and `generate-opml.mjs` generate data files
 
 ### Key Directories
-- `views/` - Pug templates; `index.pug` extends `_layout.pug`, components in `views/components/`
-- `assets/scss/` - ITCSS-organized styles (1-settings through 8-trumps)
-- `assets/scripts/` - JavaScript entry point at `main.js`
-- `settings/data.yml` - Site content data (newsletter config, sponsors, FAQ, founders)
-- `build-utilities/` - Build helper scripts (Babel src in `src/`, compiled to `lib/`)
-- `dist/` - Production output
-- `dev/` - Development output
+- `src/` — Astro source: pages, components, layouts, lib, data, styles
+- `src/content.config.ts` — Content collection config, loads `archive/*/metadata.json`
+- `public/` — Static assets (logos, icons, archive images)
+- `public/archive-images/` — Deduplicated images by SHA-256 hash (committed). Referenced from `metadata.json` as `./hash.ext`
+- `archive/` — Scraped newsletter data (committed). Each issue: `metadata.json` + `index.html`
+- `scripts/` — Utility scripts for scraping, metadata extraction, renaming, deduplication
+- `tests/` — Playwright accessibility tests
 
 ### Deployment
 GitHub Actions workflow (`.github/workflows/build.yml`) builds and deploys to `gh-pages` branch on push to `main`.
+
+### Important Notes
+- `archive/` and `public/archive-images/` are committed to the repo (not gitignored)

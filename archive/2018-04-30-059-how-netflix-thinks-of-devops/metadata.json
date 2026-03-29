@@ -1,0 +1,75 @@
+{
+  "issueNumber": 59,
+  "title": "How Netflix Thinks of DevOps",
+  "slug": "2018-04-30-059-how-netflix-thinks-of-devops",
+  "date": "2018-04-30",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #17, 2018",
+  "quote": {
+    "text": "If we continue to develop our technology without wisdom or prudence, our servant may prove to be our executioner",
+    "author": "Omar Bradley",
+    "authorTitle": "US Army",
+    "authorUrl": "https://en.wikipedia.org/wiki/Omar_Bradley"
+  },
+  "links": [
+    {
+      "title": "How Netflix Thinks of DevOps",
+      "url": "https://youtu.be/UTKIT6STSVM",
+      "description": "Netflix is a fantastic case study for DevOps because their software-engineering process shows a fundamental understanding of DevOps thinking and a focus on quality attributes through automation-assisted process.",
+      "imageUrl": "./6ca65d554335caa60653d7ac1bdd1222e4ac2622d379ef84441b9027a014d66b.png",
+      "featured": true
+    },
+    {
+      "title": "CPU utilization is wrong",
+      "url": "https://opensource.com/article/18/4/cpu-utilization-wrong",
+      "description": "CPU utilization is the metric everyone uses to measure a processor's performance. But %CPU is a misleading measure of how busy your processor really is, says Brendan Gregg, senior performance architect at Netflix, in what he calls a \"five-minute public service announcement,\" at the 16th annual Southern California Linux Expo.",
+      "imageUrl": "./2bbd5a2fee1445c44c9b330e1986d55117e3f69ec8bc354c7533a885271a2d7f.png",
+      "featured": false
+    },
+    {
+      "title": "Designing very large JS apps",
+      "url": "https://medium.com/@cramforce/designing-very-large-javascript-applications-6e013a3291a3",
+      "description": "A very interesting retrospective on building large JavaScript applications (frontend) by Malte Ubl.",
+      "imageUrl": "./b5af53758e858523c063549e194fb2ed2ba13e99203c6ee45bb19e58a3791ea1.jpg",
+      "featured": false
+    },
+    {
+      "title": "HTTP/2 for Node.js",
+      "url": "https://medium.com/the-node-js-collection/say-hello-to-http-2-for-node-js-core-261ba493846e",
+      "description": "A fantastic example of how to use HTTP/2 for Node.js core, by Node.js contributor James M Snell.",
+      "imageUrl": "./c34b899006c5e7f64bd1de39a46b3de44f722e6cdfbb8f409eb25e4cadfdeb3e.png",
+      "featured": false
+    },
+    {
+      "title": "CSS at Scale by LinkedIn",
+      "url": "https://engineering.linkedin.com/blog/2018/04/css-at-scale--linkedins-new-open-source-projects-take-on-stylesh",
+      "description": "Browsers use Cascading Style Sheets (CSS) to control the appearance of websites. From borders, fonts, and colors to layout, images, and animations, there are roughly 500 different style properties. In this article you will learn how linked uses CSS at scale.",
+      "imageUrl": "./0484716cb7ac1fadeab7f5a98193d1d7f1a7e8f46144ae81b1e41b4586d1e207.jpg",
+      "featured": false
+    },
+    {
+      "title": "What You Can Expect From Node.js 10",
+      "url": "http://nodesource.com/blog/what-you-can-expect-from-node-js-10",
+      "description": "The release of Node.js 10 is almost upon us! Discover some of the new features and continued developments that will be shipping with the latest version.",
+      "imageUrl": "./dddaa4e4fd74d0b0e8b6683d438659c3d71ece9ce75ec82117a2ae49150ac624.jpg",
+      "featured": false
+    },
+    {
+      "title": "I wish I knew these before diving into React",
+      "url": "https://engineering.opsgenie.com/i-wish-i-knew-these-before-diving-into-react-301e0ee2e488",
+      "description": "6 React Development Tips for Beginners that will help you write great React applications.",
+      "imageUrl": "./fde740feff8988edf36aef56c6227fc39f0d3ae21bcf307b374f4947190cbee9.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Clean Coder: A Code of Conduct for Professional Programmers",
+    "author": "Robert C. Martin",
+    "description": "Programmers who endure and succeed amidst swirling uncertainty and nonstop pressure share a common attribute: They care deeply about the practice of creating software. They treat it as a craft. They are professionals. In this book, legendary software expert Robert C. Martin introduces the disciplines, techniques, tools, and practices of true software craftsmanship.",
+    "coverImageUrl": "./1f5196ee832f3707ad69a4dc5cf0c9b3ff01467d98852062955ad942b2ef0732.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0137081073/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0137081073/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

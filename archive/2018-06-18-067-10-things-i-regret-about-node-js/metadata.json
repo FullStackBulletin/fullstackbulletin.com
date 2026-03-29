@@ -1,0 +1,75 @@
+{
+  "issueNumber": 67,
+  "title": "10 Things I Regret About Node.js",
+  "slug": "2018-06-18-067-10-things-i-regret-about-node-js",
+  "date": "2018-06-18",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #24, 2018",
+  "quote": {
+    "text": "First learn computer science and all the theory.  Next develop a programming style.  Then forget all that and just hack",
+    "author": "George Carrette",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/George_Charrette"
+  },
+  "links": [
+    {
+      "title": "10 Things I Regret About Node.js",
+      "url": "https://youtu.be/M3BM9TB-8yA",
+      "description": "In this talk Ryan Dahl, original Node.js creator, describes 10 things that he regrets about architectural choices in Node.js and describes what he would have done differently if he had to rewrite Node.js from scratch today. By the way, he is already building a new V8 runtime called deno, introduced at the end of the talk!",
+      "imageUrl": "./658671c863cc74b291a3176c39ede83284a2b3b1e84af53cf7c3cb346a439223.png",
+      "featured": true
+    },
+    {
+      "title": "UTC is Enough for Everyone, Right?",
+      "url": "https://zachholman.com/talk/utc-is-enough-for-everyone-right",
+      "description": "Programming with dates, times, and timezones is hard. But here's some help from Zach Holman, who goes about the meaning of time and delves into a deep dive about all the aspects the programmers need to know when working with time.",
+      "imageUrl": "./0435b7541b0037679383a6c5a7220c0a11ee63587ead8e83896b53ee3cadf611.png",
+      "featured": false
+    },
+    {
+      "title": "Useful Javascript Array and Object Methods",
+      "url": "https://codeburst.io/useful-javascript-array-and-object-methods-6c7971d93230",
+      "description": "Write cleaner and more readable code by making use of modern JavaScript array and object methods. Never touch a for/while loop again!",
+      "imageUrl": "./d41ce493925bf58c046df83c7899abc182eb0ac24e7705b0abf5fa11cd5972af.jpg",
+      "featured": false
+    },
+    {
+      "title": "Cloud Native Programming Language",
+      "url": "https://ballerina.io/",
+      "description": "Ballerina makes it easy to create resilient services that integrate and orchestrate transactions across distributed endpoints.",
+      "imageUrl": "./8cd770e71a2bb0e0a2a76f4b05e9b53d9afbac5d018f0843b381b2c38b346410.png",
+      "featured": false
+    },
+    {
+      "title": "Keeping Node.js Fast",
+      "url": "https://smashingmagazine.com/2018/06/nodejs-tools-techniques-performance-servers",
+      "description": "Node is a very versatile platform, but one of the predominant applications is creating networked processes. In this article, we’re going to focus on profiling the most common of these: HTTP web servers.",
+      "imageUrl": "./a0bba0b0b790ea9e0a5ba61dd4dc46e55d6b4631ea949baa22f682dba0880f6b.png",
+      "featured": false
+    },
+    {
+      "title": "Building Serverless Mobile Applications with React Native & AWS",
+      "url": "https://medium.com/react-native-training/building-serverless-mobile-applications-with-react-native-aws-740ecf719fce",
+      "description": "In this post, we’ll look at how to build fully serverless & backendless mobile applications with AWS Amplify & React Native.",
+      "imageUrl": "./3e6e260d5aba478a280e9e18ee03d452e9bc6d9f99a952f07d707af77e97f71d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Friendly Machine Learning For The Web.",
+      "url": "https://ml5js.org/",
+      "description": "ml5.js aims to make machine learning approachable for a broad audience of artists, creative coders, and students. The library provides access to machine learning algorithms and models in the browser, building on top of TensorFlow.js with no other external dependencies.",
+      "imageUrl": "./c85127d5ee3eab859ab0765e31f407c52b0461fc8fac49507a92f0fa1c44e033.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Self-Taught Programmer: The Definitive Guide to Programming Professionally",
+    "author": "Cory Althoff",
+    "description": "This book is not just about learning to program; although you will learn to code. If you want to program professionally, it is not enough to learn to code; that is why, in addition to helping you learn to program, it also covers the rest of the things you need to know to program professionally that classes and books don't teach you.",
+    "coverImageUrl": "./0d26611bf9dd58f18784b3d3fcf7f9dc3df28576b928cd220faae5debef9813e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01M01YDQA/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01M01YDQA/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

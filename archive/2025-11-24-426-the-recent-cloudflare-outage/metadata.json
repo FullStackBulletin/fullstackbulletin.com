@@ -1,0 +1,112 @@
+{
+  "issueNumber": 446,
+  "title": "The recent Cloudflare outage",
+  "slug": "2025-11-24-426-the-recent-cloudflare-outage",
+  "date": "2025-11-24",
+  "templateType": "buttondown-markdown",
+  "intro": "Hey,\n\nToday we start with a quote that I deeply respect, not just because I was lucky enough to meet *Mr. Doom* himself on a couple of occasions, but also because it lines up with something I have always admired... People who can build an entire videogame from scratch by themselves (or in a tiny team) feel almost mythical to me. Making a game is absolutely wild. You might think it is mostly about coding, but in reality you need sooooo many other skills. Game design, story telling, graphics and animation, music and sound effects, and then of course marketing, which becomes fundamental if you are an indie dev trying to stand out in an incredibly crowded industry. It is like a blend of literature, visual arts, music, and more, all balanced together. So yes, if you do not think this is an artistic profession, I genuinely do not know what is.\n\nNow let us leave planet video games and get back to planet full stack. I have put together a fresh batch of links for you, and I hope you will enjoy today’s curated content as much as I enjoyed picking it.\n\nIf you feel like engaging with me in a more personal way, just hit reply and tell me which link you liked the most and why. Do not be shy, I will be waiting to know you a bit more personally 😉\n\nAsk good questions, find better answers!\n\n— [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "You might not think that programmers are artists, but programming is an extremely creative profession. It’s logic-based creativity",
+    "author": "John Romero",
+    "authorTitle": "Software Developer",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_Romero?utm_source=fullstackbulletin&utm_medium=email&utm_campaign=446-the-recent-cloudflare-outage"
+  },
+  "links": [
+    {
+      "title": "The recent Cloudflare outage",
+      "url": "https://blog.cloudflare.com/18-november-2025-outage",
+      "description": "I know... we have been recently covering another Cloudflare issue and just a few weeks ago we questioned the future of the cloud talking about a recent AWS incident. In case you are wondering... yes, I still believe in the cloud. It is not perfect and it is not diversified enough, but I just cannot see a future where everyone is back to managing servers and data centers and spending a good chunk of their engineering time on these non differentiating activities. But I digress, because we need to talk about this new incident. Last week, Cloudflare shipped a change to their bot management pipeline that generated a feature file which quietly grew way beyond the size their edge proxy expected. When that oversized file was pushed out, core traffic handling software started to panic and respond with a sea of 500 errors. For a few hours a huge slice of the internet was slow or completely down, including things many of us rely on every day, such as ChatGPT, X, Shopify, popular games, and lots of other sites that sit behind Cloudflare. Funny enough, a lot of the online conversation instantly turned into a take about Rust. The crash happened at an `.unwrap()` in their Rust proxy code, so some folks used it as “proof” that Rust is not really a safe language after all. Which slightly misses the point. Rust buys you memory safety and some amazing defaults, but it cannot stop you from making bad assumptions or wiring unvalidated data into the critical path. Logical bugs, bad limits, surprising input, these are all still possible in Rust, just like in any other language. That is not a Rust problem, that is simply programming at scale. Before leaving you to the article for all the gritty details, I want to call out the actual silver lining. Cloudflare is very explicit about what went wrong and about the preventive measures they are now putting in place, from stricter limits and safer fallbacks to better validation and rollout controls, so that a single feature file cannot knock over their core proxy again. This is how things get better, not by looking for scapegoats, but by treating every outage as an opportunity to harden the platform for everyone who builds on top of it.",
+      "imageUrl": "./ba82bedd5f85faafbbe91dd2fd463a124493a80c0bde090370b0a9fc2c943d56.jpg",
+      "featured": true
+    },
+    {
+      "title": "Mozilla SSL Configuration Generator",
+      "url": "https://ssl-config.mozilla.org/",
+      "description": "SSL and TLS have finally won. At this point it is weird to see a site that is not running on HTTPS, which is great news. The catch is that if you are still managing your own servers, you know that crypto does not magically configure itself. You still need to pick protocols, ciphers, curves, session settings, all the fun stuff, and you need to do it in a way that does not break your clients. That is why I love little helpers like this one. You pick what you are running and it spits out the exact config snippet you need for your specific setup. It is not just about web servers like Nginx, Apache, or Caddy, it even supports things like Redis and MySQL, so you can tighten up transport security across your whole stack without memorizing a bunch of obscure flags. What I really like is that you can choose how strict you want to be. Modern for services where you control the clients and they already speak TLS 1.3, Intermediate for general purpose servers that need to support a wide variety of clients, Old only if you must keep a few ancient clients limping along. Pick your server, pick your compatibility level, copy the incantation, and you have a solid starting point instead of a fragile config stitched together from random blog posts.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "StyleX: A Styling Library for CSS at Scale",
+      "url": "https://engineering.fb.com/2025/11/11/web/stylex-a-styling-library-for-css-at-scale",
+      "description": "Another CSS-in-JS library? Why not?! StyleX is Meta’s home grown styling system that tries to grab the nice parts of CSS in JS, like co located styles and good TypeScript ergonomics, and then cheat by compiling everything down to tiny atomic CSS classes at build time. The result is a setup that feels like writing CSS in JS, but ships as plain static CSS with very little runtime work, which is exactly what you want when you are styling apps the size of Facebook, Instagram, WhatsApp, and friends. The post is a deep dive into the compiler side of StyleX, how it extracts and deduplicates styles, keeps specificity predictable, and makes CSS size plateau as the app grows. Even if you are perfectly happy with your current styling stack, this is a fascinating read about what it takes to keep CSS maintainable when you have thousands of engineers touching the same design system.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Best Free Fonts",
+      "url": "https://bestfreefonts.com/",
+      "description": "If you have been following this newsletter long enough, you will know I have a thing for fonts and typography. I am definitely not an expert but I am naturally fascinated by fonts and I recognize they can make a huge difference in any design. So I could not pass on this resource. BestFreeFonts is a neat little curated collection of free typefaces that are actually usable in real projects, not just meme thumbnails. You can browse by category, try them out on the page, and quickly spot options that could work for your next landing page, dashboard, or side project. This is not strictly developer territory, but I think it is the kind of resource that levels up your taste. We spend all day shipping interfaces, and the right font choice can quietly make your work look more polished and intentional without touching a single line of code.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Gitlogue: A cinematic Git commit replay tool for the terminal",
+      "url": "https://github.com/unhappychoice/gitlogue",
+      "description": "This goes into my *“mindblowing open source project of the week”* shelf. Gitlogue is a cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story. It simulates an entire code editor right in your terminal, so you can sit there watching commits play back with realistic typing and feel like a Vim magician, even that's not your superpower. I mean, if you have never considered re watching all your commits to see how the project evolved (and how many bugs were created and fixed along the way), you really have no excuse not to try it now. BTW, it is written in Rust, and since you can control the typing speed, you might just use this to pretend you are doing very intense work in a crowded office. Just do not tell anyone I was the one who suggested this use case. [**Check Repo**](https://github.com/unhappychoice/gitlogue)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "When Everyone’s a Developer, How Do We Promote the Web Platform Over React?",
+      "url": "https://webtechnology.news/when-everyones-a-developer-how-do-we-promote-the-web-platform-over-react",
+      "description": "When everyone and their favorite AI chat window is suddenly a developer, this article asks a very simple question: *if the web platform is finally good enough to do most of what React does, why does everything still end up as a React plus Next stack by default?* The author digs into how large language models and so called vibe coders, people who prompt more than they program, keep reinforcing that default. You ask the magic lamp for an app, the genie hands you a React project, and all the nice browser features that shipped in the last few years quietly sit on the bench.\nThe piece suggests a few ways to push back. Teach AI users to explicitly ask for web native solutions, build open datasets of framework free examples, and highlight real projects that ship great experiences with the platform itself instead of a giant framework stack.\nI loved this piece because it is aligned with something I have been thinking a lot about lately. Conversely, I also think AI might actually work in favour of diversity and innovation. For example, I really like SolidJS, and I am realising that with great documentation you can relatively easily port component systems, libraries, and even full projects from React to Solid, which helps bridge the gap between ecosystems. That is just one example, but it makes me hopeful that AI plus good tooling and being very specific with our ask might eventually make it easier, not harder, to explore alternatives beyond the default React shaped path.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What even are Cloudflare Durable Objects?",
+      "url": "https://boristane.com/blog/what-are-cloudflare-durable-objects",
+      "description": "We started with a Cloudflare related piece, and it is only fair we end with another one. This one is a bit more technical, and it covers a topic I have been struggling to appreciate, and this article finally made it click for me. Cloudflare Durable Objects are basically little stateful services that live inside the Workers platform, each tied to an id and guaranteed to run in a single place at a time. You can treat them as tiny per user or per room instances that keep their own state and that you can send messages to from anywhere, which suddenly makes things like chat, collaboration, counters, and coordination logic much simpler. What this article nails is showing where Durable Objects fit next to Workers KV and your regular database, and why they save you from sticky sessions, distributed locks, and a lot of glue code. After reading this, I wish AWS Lambda had something similar.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Communication Patterns: A Guide for Developers and Architects",
+    "author": "Jacqueline Read",
+    "description": "Having a great idea or design is not enough to make your software project succeed. If you want stakeholders to buy into your design and teams to collaborate and contribute to the vision, you also need to communicate effectively. In this practical book, author Jacqui Read shows you how to successfully present your architecture and get stakeholders to jump on board.\nMisunderstanding and lack of buy-in leads to increasing costs, unmet requirements, and an architecture that is not what you intended. Through constructive examples and patterns, this book shows you how to create documentation and diagrams that actually get the message across to the different audiences you'll face.\nThis book shows you how to:",
+    "coverImageUrl": "./b5b174148128faf8ecc73cdb532ddb481e9f78dfc5c12b940daf1af217a482e1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1098140540",
+    "amazonUk": "https://www.amazon.co.uk/dp/1098140540"
+  },
+  "additionalLinks": [
+    {
+      "title": "The Range Syntax Has Come to Container Style Queries and if()",
+      "url": "https://css-tricks.com/the-range-syntax-has-come-to-container-style-queries-and-if"
+    },
+    {
+      "title": "Tooltip Components Should Not Exist",
+      "url": "https://tkdodo.eu/blog/tooltip-components-should-not-exist"
+    },
+    {
+      "title": "My CSS selector strategy",
+      "url": "https://stuffandnonsense.co.uk/blog/my-css-selector-strategy"
+    },
+    {
+      "title": "Deploy Ascent React",
+      "url": "https://railway.com/deploy/ascent-react"
+    },
+    {
+      "title": "Animating CSS width or height no longer forces a Main Thread animation (in Chrome, under the right conditions)",
+      "url": "https://bram.us/2025/11/13/animating-css-width-or-height-no-longer-force-a-main-thread-animation-in-chrome-under-the-right-conditions"
+    },
+    {
+      "title": "Six Things I Bet You Didn't Know You Could Do With Chrome's Devtools, Part 1",
+      "url": "https://readwriterachel.com/things-i-learned/2025/11/09/devtools-1.html"
+    },
+    {
+      "title": "How to \"officially\" deprecate methods with Node.js utilities",
+      "url": "https://stefanjudis.com/today-i-learned/deprecate-method-in-node-js"
+    },
+    {
+      "title": "A developer’s guide to MCP auth",
+      "url": "https://workos.com/blog/mcp-auth-developer-guide"
+    },
+    {
+      "title": "Dynamically Generating PWA App Icons in Next.js 16 with Serwist",
+      "url": "https://aurorascharff.no/posts/dynamically-generating-pwa-app-icons-nextjs-16-serwist"
+    }
+  ],
+  "sponsor": null
+}

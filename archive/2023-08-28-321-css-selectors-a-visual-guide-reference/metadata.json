@@ -1,0 +1,75 @@
+{
+  "issueNumber": 335,
+  "title": "CSS Selectors: A Visual Guide & Reference",
+  "slug": "2023-08-28-321-css-selectors-a-visual-guide-reference",
+  "date": "2023-08-28",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important",
+    "author": "Bill Gates",
+    "authorTitle": "Software Developer and Microsoft co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Bill_Gates"
+  },
+  "links": [
+    {
+      "title": "CSS Selectors: A Visual Guide & Reference",
+      "url": "https://fffuel.co/css-selectors/",
+      "description": "I feel like CSS selectors are one of those fundamental pieces of knowledge that every web developer needs to master to some reasonable degree... This guide does a great job of introducing various selectors while showing a great visual representation of their effects. It even includes pseudo-classes (`:nth-child`, `:hover`,...), functional pseudo-classes (`:not`, `:is`,...), and pseudo-elements.",
+      "imageUrl": "./bbf9ffc1cf8f95d1ddef31dca8654998c0be76899ea43c3e208a4fdcb414a487.png",
+      "featured": true
+    },
+    {
+      "title": "Best Rust Web Frameworks to Use in 2023",
+      "url": "https://shuttle.rs/blog/2023/08/23/rust-web-framework-comparison",
+      "description": "If you know me, you know I have been falling in love with Rust in the last few years and that I have been experimenting a bit with it. When it comes to web servers, I have been playing with [Axum](https://github.com/tokio-rs/axum) and so far I really like it. This article does an excellent job of introducing the current Rust landscape of web server frameworks and explaining what are the various pros and cons of each of them. If you want to build your first Rust-powered backend, this is a great place to start!",
+      "imageUrl": "./6dab5ee5a6f237570fb29b0534494bb903acb1f9213a8769e277f444896f15b6.jpg",
+      "featured": false
+    },
+    {
+      "title": "That’s not how I wrote CSS 3 years ago",
+      "url": "https://www.youtube.com/watch?v=L668dK6wFcM%3Futm_source%3Dfullstackbulletin.com",
+      "description": "I don't remember who recommended this talk to me, but it was certainly worth my time!  [Manuel Matuzović](https://www.matuzo.at/) deep dives into how CSS has changed in the last years and consequently how it is changing the way he writes CSS every day. So many interesting examples and techniques and the delivery is absolutely perfect (and quite fun too). Totally recommended if you have 45 minutes to spare (or a bit less if you play it at 1.5x speed 😛).",
+      "imageUrl": "./c6c95a2109268989a6ccac60fd9c94f6ccdb697c7c73efa4b415762a06ee15f3.png",
+      "featured": false
+    },
+    {
+      "title": "A Future of Themes with CSS Container Style Queries",
+      "url": "https://chriskirknielsen.com/blog/future-themes-with-container-style-queries",
+      "description": "Another interesting CSS-related piece of content. Creating themes is becoming more and more common on the web. I am not talking only about dark VS bright themes, people do really go wild creating all sorts of fancy themes. This article proposes a few interesting CSS techniques that might help you to speed up the efforts of creating alternative themes for your wed designs.",
+      "imageUrl": "./582f534a7d7708a083ab3c650a2d9b2a1419fd9823d8fe6bb892d0ce88bbb68c.gif",
+      "featured": false
+    },
+    {
+      "title": "Scroll shadows with animation-timeline",
+      "url": "https://daverupert.com/2023/08/animation-timeline-scroll-shadows",
+      "description": "More CSS knowledge for you today (you can tell that last week I was hyped into CSS somehow!). In this article, [Dave Rupert](https://daverupert.com/) shows us a very interesting technique for highlighting table horizontal overflow with a clever use of shadows. The way this technique is achieved without involving any JavaScript is mind-blowing, but I won't spoil it here... you have to find out by yourself 😜.",
+      "imageUrl": "./82751e5d280583617a03b8cbf18e7d5730980fbb1e40072007c4c6d39b32b00d.png",
+      "featured": false
+    },
+    {
+      "title": "A quick introduction to CSS @scope",
+      "url": "https://bram.us/2023/08/22/a-quick-introduction-to-css-scope",
+      "description": "OK, I am sorry... just one more CSS resource... I swear, don't ask me to rename this newsletter to CSS Bulletin! 🙈 So, do you know anything about CSS `@scope`? It’s an upcoming way to scope the reach of your CSS selectors, allowing you to move away from methodologies such as BEM because you no longer need to name those in-between elements. If you need some examples, check out this article!",
+      "imageUrl": "./6b522879937cf802d201f5fda76f883b903dccb40b027bf742c0db70df1992fd.jpg",
+      "featured": false
+    },
+    {
+      "title": "Introduction to the Tower library",
+      "url": "https://blog.frankel.ch/introduction-tower",
+      "description": "If you are learning Rust, you probably bumped into the `tokio` project a few times already. One of the things that I like about it is that it's not just a library, but an entire ecosystem of libraries to help you build performance-oriented async services in Rust. But how do we even define the abstract concept of a service? Well, there's actually a `Service` trait as part of the `tokio` Tower crate. The idea is awesome and you can build tons of stuff on top of it! Maybe that's where the name comes from...",
+      "imageUrl": "./700ecec5ee0a844d880de0ecc578258a86cace5a7216b04ef0696d252c8c1595.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Eloquent JavaScript: A Modern Introduction to Programming",
+    "author": "Marijn Haverbeke",
+    "description": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications. Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write beautiful, effective code.",
+    "coverImageUrl": "./500a13f688abaf7a9f0324159c3adba6009fb65130dcfb670d2da0b1ef93b65f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593275846/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593275846/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

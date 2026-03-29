@@ -1,0 +1,75 @@
+{
+  "issueNumber": 69,
+  "title": "Bash Pitfalls",
+  "slug": "2018-07-02-069-bash-pitfalls",
+  "date": "2018-07-02",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #26, 2018",
+  "quote": {
+    "text": "That’s been one of my mantras — focus and simplicity. Simple can be harder than complex; you have to work hard to get your thinking clean to make it simple",
+    "author": "Steve Jobs",
+    "authorTitle": "Apple co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Jobs"
+  },
+  "links": [
+    {
+      "title": "Bash Pitfalls",
+      "url": "http://mywiki.wooledge.org/BashPitfalls",
+      "description": "A vast wiki focused on common errors that Bash programmers make. File iterations, assignments, word splitting, quotes and a lot more... with a total of 55 common mistakes, after reading this guide, your bash skills will definitely feel more solid!",
+      "imageUrl": "./dbd19536680fc9dcedd1a8aa4f7bd930541e128591a04218f767f6668c49d7a7.png",
+      "featured": true
+    },
+    {
+      "title": "3 upcoming changes to JavaScript",
+      "url": "https://medium.freecodecamp.org/here-are-three-upcoming-changes-to-javascript-that-youll-love-387bce1bfb0b",
+      "description": "Let’s take a look at some useful upcoming features in JavaScript: **Optional chaining**, **Nullish****coalescing** and the glorious **Pipeline operator**. In this article, you’ll see the new syntax, some meaningful example and, finally, some links to keep up to date with these features and figure out when they'll be officially included in the language.",
+      "imageUrl": "./2f286abe9d1e739674786169c47ef5528e78ff0a94043323dfb19b8fbdd28f64.jpg",
+      "featured": false
+    },
+    {
+      "title": "Dealing with Hard Problems",
+      "url": "https://artofproblemsolving.com/articles/hard-problems",
+      "description": "A few strategies for dealing with hard problems, and the frustration that comes with them. As programmers, we often face hard problems, but this guide is not specifically focused on programming and it can be useful in all sort of complex problems you might find in your own personal path.",
+      "imageUrl": "./7c43d497cee12a37899d6e41b267abb48cafe7d0bb69ca83cc17198625d145a7.png",
+      "featured": false
+    },
+    {
+      "title": "Using JavaScript modules on the web",
+      "url": "https://developers.google.com/web/fundamentals/primers/modules",
+      "description": "Using JavaScript modules on the web By Addy Osmani & Mathias Bynens is an article that describes how to get started with JavaScript modules, now supported in all major browsers! This article explains how to use JS modules, how to deploy them responsibly, and what's coming next in this field.",
+      "imageUrl": "./67337487a3e95d6b84878aaa4215b190433e7b03c754130b7bf591b3a892d0cc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Architect, a new Serverless Framework",
+      "url": "https://blog.reifyworks.com/architect-the-killer-serverless-framework-41565372811b",
+      "description": "An introduction to Architect, a new serverless framework in the block. The idea of Architect is to be opinionated but simple to understand and use, even for those who are not experienced already with the whole serverless idea.",
+      "imageUrl": "./df1d824a9470832d2c27d0d779a11580b5689872f14a30d7257fe8a276dc2f56.jpg",
+      "featured": false
+    },
+    {
+      "title": "Drawing Images with CSS Gradients",
+      "url": "https://css-tricks.com/drawing-images-with-css-gradients",
+      "description": "It's not new that you can draw fairly complicated pictures by crafting particularly obscure CSS declarations. This article will explore a new technique to draw images with CSS that is based on using the \"background\" property in combination with gradients.",
+      "imageUrl": "./0923def53528652bbd693cdeb4dd2915761ec71ecda05a5361118d5c835ff34a.jpg",
+      "featured": false
+    },
+    {
+      "title": "How To Build A Movie Search App With React and ElasticSearch",
+      "url": "https://medium.appbase.io/how-to-build-a-movie-search-app-with-react-and-elasticsearch-2470f202291c",
+      "description": "In this post, we will use React and Elasticsearch to build a MovieSearch app. A very interesting project to improve your full stack skills.",
+      "imageUrl": "./0827fa8098cace359262d4adf766a0ecf4a4bcfb4ed68a7b7a3aeef4fde9d693.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Graph Databases: New Opportunities for Connected Data",
+    "author": "Ian Robinson",
+    "description": "Discover how graph databases can help you manage and query highly connected data. With this practical book, you’ll learn how to design and implement a graph database that brings the power of graphs to bear on a broad range of problem domains. Whether you want to speed up your response to user queries or build a database that can adapt as your business evolves, this book shows you how to apply the schema-free graph model to real-world problems.",
+    "coverImageUrl": "./5688bd18a6677e59e5b8c680c2848ab320dd4d4d28db65515d0e83fccec1d924.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491930896/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491930896/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

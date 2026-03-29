@@ -1,0 +1,75 @@
+{
+  "issueNumber": 179,
+  "title": "Beyond Media Queries",
+  "slug": "2020-09-14-179-beyond-media-queries",
+  "date": "2020-09-14",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #37, 2020",
+  "quote": {
+    "text": "Never trust a computer you can’t throw out a window",
+    "author": "Steve Wozniak",
+    "authorTitle": "American inventor & Apple co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Wozniak"
+  },
+  "links": [
+    {
+      "title": "Beyond Media Queries",
+      "url": "https://css-tricks.com/beyond-media-queries-using-newer-html-css-features-for-responsive-designs",
+      "description": "Beyond using media queries and modern CSS layouts, like flexbox and grid, to create responsive websites, there are certain overlooked things we can do like responsive images, setting min and max boundaries for css properties and using responsive units.",
+      "imageUrl": "./a22b43708dd1625e116e3f4206fa32ac07fe6027a985e2c935b38a28ed29ce70.jpg",
+      "featured": true
+    },
+    {
+      "title": "React is becoming a black box",
+      "url": "https://jaredpalmer.com/blog/react-is-becoming-a-black-box",
+      "description": "Jared Palmer, a prominent voice in the React community, believes that React is on the verge of becoming a black box. If you are into React, you should be interested in checking out Jared's opinion.",
+      "imageUrl": "./9ac491269070eedcf69ea22c0fb2faeb822cda77a5ab6597ee037f99c663a7a2.png",
+      "featured": false
+    },
+    {
+      "title": "Custom bullets with CSS ::marker",
+      "url": "https://web.dev/css-marker-pseudo-element",
+      "description": "It is now trivial to customize the color, size or type of number or bullet when using a list in HTML. Here are some new tips for maximum customizability!",
+      "imageUrl": "./968c654b070f2a0fc6ff76c27e3c7b19f8d59c8acd4ba48afd833da82a68ca52.jpg",
+      "featured": false
+    },
+    {
+      "title": "Making WAVs: Understanding, Parsing, and Creating WAV Files in JavaScript",
+      "url": "https://youtube.com/watch?v=udbA7u1zYfc",
+      "description": "The WAVE file format is a binary format that encodes high fidelity audio data. But how is the audio encoded and stored? Let's find out by writing some JavaScript!",
+      "imageUrl": "./9a36224bd14a4b2ded1cf6eac2928642ba251af07fc6651cc0c38fd7b6140994.jpg",
+      "featured": false
+    },
+    {
+      "title": "Intercepting Zoom's encrypted data with BPF",
+      "url": "https://confused.ai/posts/intercepting-zoom-tls-encryption-bpf-uprobes",
+      "description": "How to use Rust and BPF to intercept the data sent and received by programs that use OpenSSL, for instance Zoom!",
+      "imageUrl": "./4fc09336d955e832df060269f58b3a142cbc8dbbf815df31e34e2c3ece2d78f4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Browsers may throttle requestAnimationFrame",
+      "url": "https://mattperry.is/writing-code/browsers-may-throttle-requestanimationframe-to-30fps",
+      "description": "In specific situations Safari and Firefox may throttle requestAnimationFrame. Here’s why your JavaScript animations are looking janky.",
+      "imageUrl": "./e2df29bf8b4a9f749a4a22469fd6670c8412f8df3c5df133ea82020491c5a387.jpg",
+      "featured": false
+    },
+    {
+      "title": "Peeking inside a Rust enum",
+      "url": "https://fasterthanli.me/articles/peeking-inside-a-rust-enum",
+      "description": "An incredibly in-depth article about how Rust stores Enum types in memory. If you are like us and like Rust because gives you a peek on lower-level concepts, you will definitely enjoy this article!",
+      "imageUrl": "./d04d8e25e6b06f62a76544b1facb1d61eb5bd51e6a40991c0cb2d6bba84ac54a.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elasticsearch: The Definitive Guide: A Distributed Real-Time Search and Analytics Engine",
+    "author": "Clinton Gormley",
+    "description": "Whether you need full-text search or real-time analytics of structured data—or both—the Elasticsearch distributed search engine is an ideal way to put your data to work. This practical guide not only shows you how to search, analyze, and explore data with Elasticsearch, but also helps you deal with the complexities of human language, geolocation, and relationships. If you’re a newcomer to both search and distributed systems, you’ll quickly learn how to integrate Elasticsearch into your application.",
+    "coverImageUrl": "./2ddcf691a406ca14d2511a89ef30ae08a29fa1c50fa8de58d3b1506180ab6520.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358543/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449358543/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

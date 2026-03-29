@@ -1,0 +1,75 @@
+{
+  "issueNumber": 165,
+  "title": "Tools for better thinking",
+  "slug": "2020-06-08-165-tools-for-better-thinking",
+  "date": "2020-06-08",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #23, 2020",
+  "quote": {
+    "text": "Good programmers use their brains, but good guidelines save us having to think out every case",
+    "author": null,
+    "authorTitle": "Author",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "Tools for better thinking",
+      "url": "https://untools.co/",
+      "description": "Collection of thinking tools and frameworks to help you solve problems, make decisions and understand systems.",
+      "imageUrl": "./41743d8681a1cbe3fa990ccd62d7fc432a3229995c94bdeda07e8b0e1144ec38.png",
+      "featured": true
+    },
+    {
+      "title": "RoughNotation",
+      "url": "https://roughnotation.com/",
+      "description": "A small JavaScript library to create and animate hand-drawn annotations on a web page",
+      "imageUrl": "./33910d369882a97c8da0927ae77b7354de1fdecc13945d1b37266dd550484140.jpg",
+      "featured": false
+    },
+    {
+      "title": "Modern Touch-Friendly Design",
+      "url": "https://addyosmani.com/blog/touch-friendly-design",
+      "description": "Touch-friendly guidelines for mobile apps and websites: Place primary content and actions at the center of the screen, Place secondary actions and tabs along the edges, and much more!",
+      "imageUrl": "./2f0e5d8ad13c2b2cdc9abf78d193d49718f0f006291fad9860cf7b0be1efc74f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Making Vue 3",
+      "url": "https://increment.com/frontend/making-vue-3",
+      "description": "Evan You, creator of Vue, describes the new process, the challenges and the lessons learned from rewriting the next major version of Vue.",
+      "imageUrl": "./0421401bce5881aca50d5ea78d6088103abb3d0942f5e895a36a3ce18ce88e22.jpg",
+      "featured": false
+    },
+    {
+      "title": "10 excellent font pairing tools for designers",
+      "url": "https://dribbble.com/stories/2020/05/27/font-pairing-tools-for-designers",
+      "description": "On the hunt for the perfect font combination? Here you will find some of the best font pairing tools and generators for graphic designers and web designers. Check them out and bookmark your favourites!",
+      "imageUrl": "./0c2115fefdb14ea70372f5fb7b4cbd2b842d4503eb83e87c2d73690beb547069.jpg",
+      "featured": false
+    },
+    {
+      "title": "The beauty of Unix pipelines",
+      "url": "https://prithu.xyz/posts/unix-pipeline",
+      "description": "Even if they have been around for a while, Unix pipes are still an incredible example of the effectiveness of building software that is simple and extensible and that communicates through simple interfaces, like a plain text stream. With this article you can learn more about Unix pipes and why they are still extremely useful still today!",
+      "imageUrl": "./8faccc1d842937446df210ff440c88ac065d24003825179a892c35c917a51cc4.png",
+      "featured": false
+    },
+    {
+      "title": "Here’s what I didn’t know about “content”",
+      "url": "https://matuzo.at/blog/heres-what-i-didnt-know-about-content",
+      "description": "In part 3 of this series, a number of very interesting details and use cases for the `content` CSS property.",
+      "imageUrl": "./e009658b2131de85e6349c1abd3e9e6722f16d469048a937b204f86d36bd131b.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Getting Started with hapi.js",
+    "author": "John Brett",
+    "description": "This book will introduce hapi.js and walk you through the creation of your first working application using the out-of-the-box features hapi.js provides. Packed with real-world problems and examples, this book introduces some of the basic concepts of hapi.js and Node.js and takes you through the typical journey you'll face when developing an application. Starting with easier concepts such as routing requests, building APIs serving JSON, using templates to build websites and applications, and connecting databases, we then move on to more complex problems such as authentication, model validation, caching, and techniques for structuring your codebase to scale gracefully.",
+    "coverImageUrl": "./d31bcb4e84d816e5d5fcc91de57a73e2d10b8c811815001c4ed2997d6b526a79.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785888188/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785888188/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

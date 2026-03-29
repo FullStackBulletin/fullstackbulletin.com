@@ -1,0 +1,75 @@
+{
+  "issueNumber": 16,
+  "title": "Webpack 3: Official Release!",
+  "slug": "2017-06-26-016-webpack-3-official-release",
+  "date": "2017-06-26",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #25, 2017",
+  "quote": {
+    "text": "There are two ways to write error-free programs; only the third one works",
+    "author": "Alan J. Perlis",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_J._Perlis"
+  },
+  "links": [
+    {
+      "title": "Webpack 3: Official Release!",
+      "url": "https://medium.com/webpack/webpack-3-official-release-15fd2dd8f07b",
+      "description": "With a faster and more stable release cycle and a bunch of new exciting features (Scope Hoisting, “magic comments”, and more) the new major release of the most famous JavaScript bundle is here!",
+      "imageUrl": "./1de7c7a30de6c8891d07d98bc368a9c13cd5fb92bc64a8634346d6fbacc24bb2.jpg",
+      "featured": true
+    },
+    {
+      "title": "19+ JavaScript Shorthand Coding Techniques",
+      "url": "https://sitepoint.com/shorthand-javascript-techniques",
+      "description": "Must read for any serious JavaScript developer. Regardless if you program in vanilla JavaScript or if you use a famous framework or library like React, Angular or jQuery this reference for learning shorthand JavaScript coding techniques will be a useful read.",
+      "imageUrl": "./fb625d4de7dfd0e0bfb5753f7213810c5cc83bbc3a4a387360c0a337abfa5eaf.jpg",
+      "featured": false
+    },
+    {
+      "title": "Amplitude.js: The HTML Audio Player for the Modern Era",
+      "url": "https://521dimensions.com/open-source/amplitudejs",
+      "description": "Amplitude.js is the HTML5 audio player for the modern era. Using no dependencies, take control of the browser and design an audio player the way you want it to look. Available for free on Github.",
+      "imageUrl": "./ed4a5c4c9b999e8f36078a30121349cc9e4850d14953b28f6e52841cfe364d56.jpg",
+      "featured": false
+    },
+    {
+      "title": "grab/front-end-guide",
+      "url": "https://github.com/grab/front-end-guide",
+      "description": "Study guide and introduction to the modern front end stack, tailored to large engineering teams. Open source guide, available on Github.",
+      "imageUrl": "./20baef5d883f29d462da0a9dc49da6d4ca12b3c4d7f190c6cb8d72a5c8b88918.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building Production-Ready CSS Grid Layouts Today",
+      "url": "https://smashingmagazine.com/2017/06/building-production-ready-css-grid-layout",
+      "description": "Find out which new layout opportunities and challenges the CSS Grid Layout brings to the web industry today, and what old problems it solves.",
+      "imageUrl": "./036cb5777ed22d5f9f77b83b5127b11e389cbe94c57e8e3e057a8c13d8b691d7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Build a Mini Netflix with React in 10 Minutes",
+      "url": "http://scotch.io/tutorials/build-a-mini-netflix-with-react-in-10-minutes",
+      "description": "In this goal-oriented tutorial, you will learn how to use React to build a Netflix clone. If you are a Netflix fan and a software developer I am sure you always wanted to try something like this!",
+      "imageUrl": "./ec84c4430138df105a711fc481b17e5166695beb49ba2f5023f22176dd515d88.jpg",
+      "featured": false
+    },
+    {
+      "title": "Addy Osmani: The Browser Hackers Guide To Instantly Loading Everything",
+      "url": "https://youtube.com/watch?v=7vUs5yOuv-o",
+      "description": "Venture deep into the belly of the browser to uncover the secret incantations to instantly load anything. Learn how to use preload, prefetch, preconnect, HTTP/2 Server Push and Service Workers! Finally, you will also learn how the heck you can ship JavaScript bundles that don’t break the bank on mobile!",
+      "imageUrl": "./11d7098aa2401adc7cd2e8d8d2b8b0eb941ea6ee151287bfa890381a219e6aaf.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Angular 2: From Theory To Practice",
+    "author": "Asim Hussain",
+    "description": "In this quickstart you'll get a 50,000 foot view of the major features of Angular 2 including: Typescript & ES6 Javascript, Components & Binding, Directives, Dependancy Injection & Services, Angular Modules & Bootstrapping your Angular application., SPAs & Routing, Angular CLI, Forms, Reactive Programming with RXJs, HTTP and finally Unit Testing.",
+    "coverImageUrl": "./42ae68e2ba03e04a5972b7f48fcbb414c89e74b4747aae1715503d876e99f3df.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01N9S0CZN/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01N9S0CZN/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

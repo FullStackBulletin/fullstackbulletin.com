@@ -1,0 +1,75 @@
+{
+  "issueNumber": 29,
+  "title": "Winamp2-js • Winamp in your browser",
+  "slug": "2017-10-02-029-winamp2-js-winamp-in-your-browser",
+  "date": "2017-10-02",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #39, 2017",
+  "quote": {
+    "text": "UNIX is simple.  It just takes a genius to understand its simplicity",
+    "author": "Dennis Ritchie",
+    "authorTitle": "Computer scientist and inventor of the C language",
+    "authorUrl": "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+  },
+  "links": [
+    {
+      "title": "Winamp2-js • Winamp in your browser",
+      "url": "https://jordaneldredge.com/projects/winamp2-js",
+      "description": "A functional clone of Winamp 2.9 reimplemented in HTML5 and JavaScript so that it can run in a web page. The code is open source and available on GitHub.",
+      "imageUrl": "./21c71730b861c3c26ff6bb3d1009cc05dd1c8e923a49115c0200d725c23c3b6f.jpg",
+      "featured": true
+    },
+    {
+      "title": "React v16.0 released!",
+      "url": "https://reactjs.org/blog/2017/09/26/react-v16.0.html",
+      "description": "Among the changes are some long-standing feature requests, including fragments, error boundaries, portals, support for custom DOM attributes, improved server-side rendering, and reduced file size.",
+      "imageUrl": "./eab28b4cb123d5a9b6ac4b48c908fe17fdd77002cdfa9b67248a632b13d28983.jpg",
+      "featured": false
+    },
+    {
+      "title": "Relicensing React, Jest, Flow, and Immutable.js",
+      "url": "https://code.facebook.com/posts/300798627056246",
+      "description": "Facebook is going to re-license some of their most famous open source technologies including React, Jest and Immutable.js under MIT license. This is a big step forward after the heated discussion going on the web during the latest months about the current license.",
+      "imageUrl": "./70062211625cf8b547a4292de82b4852b2aa8067efbc00b52ea057ae7009fced.png",
+      "featured": false
+    },
+    {
+      "title": "Designing Websites for iPhone X",
+      "url": "https://webkit.org/blog/7929/designing-websites-for-iphone-x",
+      "description": "Safari displays your existing websites beautifully on the edge-to-edge display of the new iPhone X. Content is automatically inset within the display’s safe area so it is not obscured by the rounded corners or the device. But the iPhone X \"notch\" might pose some new design challenges. This article will address those by using some CSS code.",
+      "imageUrl": "./753bd3b8abfc238687871297167676be98a7eb5675dec7d53208d01981d7b546.jpg",
+      "featured": false
+    },
+    {
+      "title": "mbeaudru/modern-js-cheatsheet",
+      "url": "https://github.com/mbeaudru/modern-js-cheatsheet",
+      "description": "A fantastic cheat sheet for the JavaScript knowledge you will frequently encounter in modern projects.",
+      "imageUrl": "./4344f6a5eeab56122410373c7bc6b6a7365aea6338f9853832beabf72eff4466.jpg",
+      "featured": false
+    },
+    {
+      "title": "Color, psychology and design – UX Planet",
+      "url": "https://uxplanet.org/how-color-can-effect-emotion-ccab0431b1d",
+      "description": "In design, the color act as a key function that grabs the attention of the user. Color is the easiest aspect to remember when come to encountering new things for the users. There are some facts that quite important when coming to color psychology.",
+      "imageUrl": "./4f6f1bca49a2b3c6f8c19555a8a5d9300c6b094145a5b429b9a4a3cc1bfe5288.jpg",
+      "featured": false
+    },
+    {
+      "title": "Trace your microservices with Open Tracing",
+      "url": "http://devcampy.com/talks/cncf-italy/2017/06/15/trace-your-microservices-zipkin-opentracing-php.html",
+      "description": "A practical approach to OpenTracing in a set of PHP microservice applications. In this talk, we will focus on Zipkin and OpenTracing. An example of integration in an online application clarifies our needs of tracing and measuring things in our Software, simply because measure is the key to science.",
+      "imageUrl": "./51cc65d59b44c84f4e27a6149e092c4a49aaac436cee68434de7e6a1e23d8f15.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Agile Web Development with Rails 5",
+    "author": "Sam Ruby",
+    "description": "Rails 5 and Ruby 2.2 bring many improvements, including new APIs and substantial performance enhancements, and the fifth edition of this award-winning classic is now updated! If you're new to Rails, you'll get step-by-step guidance. If you're an experienced developer, this book will give you the comprehensive, insider information you need for the latest version of Ruby on Rails.",
+    "coverImageUrl": "./8ce7511fb3c8594f256f41ec4168254572d3e762c632005637323efef4d09ba0.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501712/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501712/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

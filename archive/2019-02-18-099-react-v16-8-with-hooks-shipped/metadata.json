@@ -1,0 +1,75 @@
+{
+  "issueNumber": 99,
+  "title": "React v16.8 (With Hooks) shipped",
+  "slug": "2019-02-18-099-react-v16-8-with-hooks-shipped",
+  "date": "2019-02-18",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #7, 2019",
+  "quote": {
+    "text": "Technology is a word that describes something that doesn’t work yet",
+    "author": "Douglas Adams",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Douglas_Adams"
+  },
+  "links": [
+    {
+      "title": "React v16.8 (With Hooks) shipped",
+      "url": "https://reactjs.org/blog/2019/02/06/react-v16.8.0.html",
+      "description": "With React 16.8, React Hooks are available in a stable release! What Are Hooks? Hooks let you use state and other React features without writing a class. You can also build your own Hooks to share reusable stateful logic between components.",
+      "imageUrl": "./7874d8c8837ccfd39ff50c00555945d6c7fdb31a3b8c165d8c07654b508735d4.png",
+      "featured": true
+    },
+    {
+      "title": "Comprehensive Python Cheatsheet",
+      "url": "https://gto76.github.io/python-cheatsheet",
+      "description": "Exhaustive, simple, beautiful and concise. A truly pythonic cheat sheet about Python programming language.",
+      "imageUrl": "./b92f5667b9a95fa1e6893638a107986acb097c5783383d0c08df7d21dc2aef76.png",
+      "featured": false
+    },
+    {
+      "title": "Basic Color Theory for Web Developers",
+      "url": "https://dev.to/nzonnenberg/basic-color-theory-for-web-developers-15a0",
+      "description": "How to make your website look good when you can't even match your socks.",
+      "imageUrl": "./0c678b3f54bbb66f405e9d92d8059427b22b517d7fd9702c7c63357c2f1cbe8a.jpg",
+      "featured": false
+    },
+    {
+      "title": "5 Ways to animate a React app",
+      "url": "https://medium.com/@dmitrynozhenko/5-ways-to-animate-a-reactjs-app-in-2019-56eb9af6e3bf",
+      "description": "Animations in React apps is a popular topic and there are many ways to create different types of animations.",
+      "imageUrl": "./16ced1914fc3b2d31134d46307803cb57fcace65815a0e2861ca677ccb7336e1.jpg",
+      "featured": false
+    },
+    {
+      "title": "Blotter.js",
+      "url": "http://blotter.js.org/",
+      "description": "A JavaScript API for drawing unconventional text effects on the web.",
+      "imageUrl": "./5a526aa3e7dac54245b08f3ec76e11556bf276ae870b6c8bb13c709e96ecd209.jpg",
+      "featured": false
+    },
+    {
+      "title": "On Being A Principal Engineer",
+      "url": "https://blog.dbsmasher.com/2019/01/28/on-being-a-principal-engineer.html",
+      "description": "A very interesting article about career progression in Tech. Does being a Principal Engineer means that you have to step into management or is there a career path that will allow you to stay highly technical and still grow within your company?",
+      "imageUrl": "./c537f12b64b955ac6a0573580d1c00fe6646dc07fdedab915ebc3dab75920000.jpg",
+      "featured": false
+    },
+    {
+      "title": "grpc / The state of gRPC in the browser",
+      "url": "https://grpc.io/blog/state-of-grpc-web",
+      "description": "A high performance, open source, general RPC framework that puts mobile and HTTP/2 first.",
+      "imageUrl": "./43829b0aa3ea4e0bf76811a14dc357a866d87521d767c8268de0037d15a8696b.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Big Data: Principles and best practices of scalable realtime data systems",
+    "author": "Nathan Marz",
+    "description": "Big Data teaches you to build big data systems using an architecture that takes advantage of clustered hardware along with new tools designed specifically to capture and analyze web-scale data. It describes a scalable, easy-to-understand approach to big data systems that can be built and run by a small team.",
+    "coverImageUrl": "./f109f576f51b956a93fffd90f2756794ef95a8d46f118a0f1e23f611c7af4a75.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617290343/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617290343/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

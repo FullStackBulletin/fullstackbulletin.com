@@ -1,0 +1,75 @@
+{
+  "issueNumber": 287,
+  "title": "JavaScript Visualized: Event Loop",
+  "slug": "2022-08-22-274-javascript-visualized-event-loop",
+  "date": "2022-08-22",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Errors using inadequate data are much less than those using no data at all",
+    "author": "Charles Babbage",
+    "authorTitle": "Mathematician",
+    "authorUrl": "https://en.wikipedia.org/wiki/Charles_Babbage"
+  },
+  "links": [
+    {
+      "title": "JavaScript Visualized: Event Loop",
+      "url": "https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif",
+      "description": "The event loop is probably one of the most misleading and misunderstood pieces of the JavaScript ecosystem. This article does a fantastic job by explaining how it work in a clear way using illustrations and animations. Get finally rid of the fear of the event loop!",
+      "imageUrl": "./6424d6b0fd3c155b6f675cc60977dd873b0f9994ca6412c9e441f4a79e249182.jpg",
+      "featured": true
+    },
+    {
+      "title": "Redis Explained",
+      "url": "https://architecturenotes.co/redis",
+      "description": "If the event loop doesn't scare you, but instead you are trying to get more comfortable with Redis and understand its inner workings, make sure to check out this other awesome illustrated article!",
+      "imageUrl": "./61ef35b363fdff9f5163be40db60d4859930f1a3ade3beb7f51ebe0548223fed.jpg",
+      "featured": false
+    },
+    {
+      "title": "How To Use Multithreading in Node.js",
+      "url": "https://digitalocean.com/community/tutorials/how-to-use-multithreading-in-node-js",
+      "description": "Who said that JavaScript and Node.js are single-threaded!?! That's true, but also not! How? Check out this article to find out that you can actually use threads with Node.js if you really want to!",
+      "imageUrl": "./2de4d73672780e7643fbb0d342def1e0e96a83a94bc1870202b241a424e6d647.jpg",
+      "featured": false
+    },
+    {
+      "title": "SSH Tips and Tricks",
+      "url": "https://carlosbecker.dev/posts/ssh-tips-and-tricks",
+      "description": "SSH is one of those tools that you never know enough! This article does a great job explaining some of the more advanced features that might come in handy when using SSH heavily during your daily routine!",
+      "imageUrl": "./40eee4a4596fd1a20794b81350ed98081485ff108d1ea796ceb389ef2552639b.png",
+      "featured": false
+    },
+    {
+      "title": "Accounting for Developers",
+      "url": "https://moderntreasury.com/journal/accounting-for-developers-part-i",
+      "description": "In this first part of a two-part series, we walk through basic accounting principles for anyone building products that move and track money. This is a really interesting topic which can also teach you a thing or two about how to accounting correctly!",
+      "imageUrl": "./6b6124d685658b1ed182cf22026343ba3f1ccc804f2216113979b7a93fc62269.jpg",
+      "featured": false
+    },
+    {
+      "title": "GoogleChromeLabs/dark-mode-toggle",
+      "url": "https://github.com/GoogleChromeLabs/dark-mode-toggle",
+      "description": "A ready-made custom element that allows you to easily put a Dark Mode 🌒 toggle or switch on your site. Directly by GoogleLabs!",
+      "imageUrl": "./f6f5c85ae159392844c2878167d9542106601fce385765eeabf278cd8c782342.png",
+      "featured": false
+    },
+    {
+      "title": "How to Minify your JavaScript Code",
+      "url": "https://getbutterfly.com/code-golfing-tips-tricks-how-to-minify-your-javascript-code",
+      "description": "Whether you are into code golfing (the art of writing crazy short snippets of code that do crazy things) or just looking to minify your code, here’s a collection of tips and tricks to help you understand JavaScript intricacies and make your code shorter.",
+      "imageUrl": "./e7e3ec58dff3399db15ab7de0ee5705c86e590e6e3b76ea7faac7e0d59de8701.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "description": "Most programming languages contain good and bad parts, but JavaScript has more than its share of the bad, having been developed and released in a hurry before it could be refined. This authoritative book scrapes away these bad features to reveal a subset of JavaScript that's more reliable, readable, and maintainable than the language as a whole—a subset you can use to create truly extensible and efficient code. Considered the JavaScript expert by many people in the development community, author Douglas Crockford identifies the abundance of good ideas that make JavaScript an outstanding object-oriented programming language-ideas such as functions, loose typing, dynamic objects, and an expressive object literal notation.",
+    "coverImageUrl": "./b4beb220d7fc9561d1a7ac83cc89192fb78f862d089424d2a5ef352069ce6e33.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0596517742/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0596517742/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

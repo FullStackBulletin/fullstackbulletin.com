@@ -1,0 +1,75 @@
+{
+  "issueNumber": 101,
+  "title": "Programming is Hard",
+  "slug": "2019-03-04-101-programming-is-hard",
+  "date": "2019-03-04",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #9, 2019",
+  "quote": {
+    "text": "I think that novels that leave out technology misrepresent life as badly as Victorians misrepresented life by leaving out sex",
+    "author": "Kurt Vonnegut",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Kurt_Vonnegut"
+  },
+  "links": [
+    {
+      "title": "Programming is Hard",
+      "url": "https://dev.to/somedood/programming-is-hard-2p87",
+      "description": "Indeed it is. Hollywood films often portray programmers as fast-typing computer wizards who can \"hack\" into anything. We all know that this can never be farther from the truth. Here is an article that discusses what goes into the many aspects of \"real\" programming.",
+      "imageUrl": "./186bf4ec6444ef183a9c7709e3865a5c6937e7f0843c50bcd0b8eebe7e19a7de.jpg",
+      "featured": true
+    },
+    {
+      "title": "UTF8 & the unicode miracle",
+      "url": "https://www.youtube.com/watch?v=MijmeoH9LT4%3Futm_source%3Dfullstackbulletin.com",
+      "description": "Representing symbols, characters and letters that are used worldwide is no mean feat, but unicode managed it - how? Tom Scott explains how the web has settled on a clever and highly efficient standard.",
+      "imageUrl": "./1b97b0bdf8584175c1fb45f27e119da0e9a24dd0cfe56023c8628be187d992a8.jpg",
+      "featured": false
+    },
+    {
+      "title": "An Introduction To WebBluetooth",
+      "url": "https://smashingmagazine.com/2019/02/introduction-to-webbluetooth",
+      "description": "With Progressive Web Apps, you can now use the web to build full-blown apps. Thanks to WebBluetooth, we can now build Progressive Web Apps that can control your lights, drive a car or even control a drone.",
+      "imageUrl": "./531ae24ac9ab9cb990df049d9818da3347fa38d1ebf6a67fe3d42be4590cdee3.jpg",
+      "featured": false
+    },
+    {
+      "title": "Learn OpenGL",
+      "url": "https://learnopengl.com/",
+      "description": "LearnOpenGL provides good and clear modern 3.3+ OpenGL tutorials with clear examples. A great resource to learn modern OpenGL aimed at beginners.",
+      "imageUrl": "./e72b17d1eaf412841f1254cec11c07b36fc02b873889ea6a0f1dfd08722d048d.png",
+      "featured": false
+    },
+    {
+      "title": "React lifecycle methods in plain language",
+      "url": "https://blog.logrocket.com/the-new-react-lifecycle-methods-in-plain-approachable-language-61a2105859f3",
+      "description": "What are lifecycle methods? How do the new React16+ lifecycle methods fit in? How can you intuitively understand what they are and why they are useful?",
+      "imageUrl": "./0bbe18b212a1da7b997c0010d24af17ed167c740c7fef89d48e2a7ba1b33da5f.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Beauty of Pattern Matching in Elixir",
+      "url": "https://www.poeticoding.com/the-beauty-of-pattern-matching-in-elixir",
+      "description": "This article shows one of the most interesting features of Elixir, pattern matching. Elixir is pattern matching can be extensively used all over the code not just to do matching, but also for destructuring, error handling and control flow.",
+      "imageUrl": "./c040365ddefd2508ca93dc0dd4eecfb06651b61b865cb39b887cfdd93192db06.png",
+      "featured": false
+    },
+    {
+      "title": "Colorful Pattern Masking in Illustrator",
+      "url": "https://veerle.duoh.com/design/colorful-pattern-masking-in-illustrator",
+      "description": "Ever wondered how you can mask a colorful pattern into letter shapes, while keeping the text editable? Sounds more difficult than it is. The hard part is actually finding the right pattern and colors.",
+      "imageUrl": "./5d600ea2543172d8d26ab3bef62fb5b93635acbebe8f6713d5c292240677ca97.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "RESTful Web APIs: Services for a Changing World",
+    "author": "Leonard Richardson",
+    "description": "The popularity of REST in recent years has led to tremendous growth in almost-RESTful APIs that don’t include many of the architecture’s benefits. With this practical guide, you’ll learn what it takes to design usable REST APIs that evolve over time.",
+    "coverImageUrl": "./9c4219f67796409cdc3651baaeb21d2190a783120c0f90db3533777479bc62a9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358063/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449358063/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

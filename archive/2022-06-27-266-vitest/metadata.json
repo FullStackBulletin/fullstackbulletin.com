@@ -1,0 +1,75 @@
+{
+  "issueNumber": 279,
+  "title": "Vitest",
+  "slug": "2022-06-27-266-vitest",
+  "date": "2022-06-27",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "There are two ways to write error-free programs; only the third one works",
+    "author": "Alan J. Perlis",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_J._Perlis"
+  },
+  "links": [
+    {
+      "title": "Vitest",
+      "url": "https://vitest.dev/",
+      "description": "A blazing fast unit test framework powered by Vite. It is compatible with Jest and it supports TypeScript, ESM and JSX out of the box!",
+      "imageUrl": "./e172992081a7891a003026d99c9f556208ab854281e2273d4f90b6f37d177e4c.jpg",
+      "featured": true
+    },
+    {
+      "title": "Mobile-First CSS: Is It Time for a Rethink?",
+      "url": "https://alistapart.com/article/mobile-first-css-is-it-time-for-a-rethink",
+      "description": "Is mobile-first CSS always the best option? Patrick Clancey explores the pros and cons of the classic methodology, as well as when other solutions might work better.",
+      "imageUrl": "./613df530420276b1dbddaa8aa505cf364c2242d24c60dd01b01d9db81c966303.jpg",
+      "featured": false
+    },
+    {
+      "title": "Object VS Map in JavaScript",
+      "url": "https://zhenghao.io/posts/object-vs-map",
+      "description": "When should you use a plain JavaScript object as a map or when you should use the more specific `Map` class instead? Which one is faster, which one uses less memory and under which circumstances? In this article you will find some interesting answers to these questions! Spoiler: there is no silver bullet, it always \"depends\".",
+      "imageUrl": "./a78070eac0ba915960cd42a0047206753da386e603a0534ddc393180f04c311a.png",
+      "featured": false
+    },
+    {
+      "title": "AbortController is your friend",
+      "url": "https://whistlr.info/2022/abortcontroller-is-your-friend",
+      "description": "The AbortController is ostensibly for fetch, but it has some other ways we can use it too. Do you need examples outside fetch? What about closing **websocket** connections, or removing **event handlers**, or even **React hooks**?",
+      "imageUrl": "./983b06834145f8fee443ff9cba75742d940f5c5bd93365f1fcc8b516cb68d871.jpg",
+      "featured": false
+    },
+    {
+      "title": "Zero-config TypeScript build and development toolkit",
+      "url": "https://github.com/sonnyt/just",
+      "description": "**Just** is a new open source projects that aspires to be an excellent Zero-config TypeScript build and development toolkit. Check it out on GitHub!",
+      "imageUrl": "./d6681500f07ad97a1c1d681c4fac10c5484b101c19c8659a0cf3d8780a46ca68.jpg",
+      "featured": false
+    },
+    {
+      "title": "Monolith, Microservices and Micro Monoliths, A story on rightsizing teams to services.",
+      "url": "https://blog.hulacorn.com/2022/06/19/monolith-microservices-and-micro-monoliths-a-story-on-rightsizing-teams-to-services/",
+      "description": "This article offers a very interesting take on how going blindly into microservices can introduce too much complexity and lead to disaster. Microservices architectures are not necessarily silver bullets and therefore they need to be used only in the right context!",
+      "imageUrl": "./630220ba84d1334b1f1483a1ddf3ce7fa7bb09c38d321b520a1876624acc1a9b.png",
+      "featured": false
+    },
+    {
+      "title": "The cost of convenience",
+      "url": "https://surma.dev/things/cost-of-convenience",
+      "description": "It is tempting to build abstractions so developers have to do less and build more. However, this can easily end up causing frustrations with developers if not done right.",
+      "imageUrl": "./3dde5236986f0a8ea019f36f687febbcc7a4cfa0b3e8408ee906ecb87ba57b17.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "AI as a Service",
+    "author": "Eóin Shanaghy & Peter Elger",
+    "description": "Companies everywhere are moving everyday business processes over to the cloud, and AI is increasingly being given the reins in these tasks. As this massive digital transformation continues, the combination of serverless computing and AI promises to become the de facto standard for business-to-consumer platform development—and developers who can design, develop, implement, and maintain these systems will be in high demand! AI as a Service is a practical handbook to building and implementing serverless AI applications, without bogging you down with a lot of theory. Instead, you'll find easy-to-digest instruction and two complete hands-on serverless AI builds in this must-have guide!",
+    "coverImageUrl": "./3ad85ca00f1a077be7e902b50f2e3c5d0f340ed37eac07cc002daaa8c92ab0db.jpeg",
+    "amazonUs": null,
+    "amazonUk": null
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

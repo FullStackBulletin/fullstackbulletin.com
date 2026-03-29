@@ -1,0 +1,75 @@
+{
+  "issueNumber": 180,
+  "title": "How HTTPS works",
+  "slug": "2020-09-21-180-how-https-works",
+  "date": "2020-09-21",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #38, 2020",
+  "quote": {
+    "text": "The best way to predict the future is to implement it",
+    "author": "David Heinemeier Hansson",
+    "authorTitle": "Software Developer and Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/David_Heinemeier_Hansson"
+  },
+  "links": [
+    {
+      "title": "How HTTPS works",
+      "url": "https://howhttps.works/",
+      "description": "If you always wanted to understand in detail how HTTPS actually works, this is your chance to do it in a quite simple and fun way: that is a cat that explains how HTTPS works in a comic! 😻",
+      "imageUrl": "./a1cdc8574e17c4d4379c657199681bdf8cd19129061c120b53139e16b8256046.jpg",
+      "featured": true
+    },
+    {
+      "title": "OAuth in Node.js CLI Apps",
+      "url": "http://thecodebarbarian.com/oauth-in-nodejs-cli-apps",
+      "description": "OAuth is a popular tool for logging in to web apps, but Node makes it easy to use OAuth for CLI apps too. Here's how you can add OAuth support to a Slack CLI app.",
+      "imageUrl": "./47aded8625fc212bb061ee94c48795017a797d7b8ab44e7d4129852104e96669.png",
+      "featured": false
+    },
+    {
+      "title": "Testing Microservices, the sane way",
+      "url": "https://medium.com/@copyconstruct/testing-microservices-the-sane-way-9bb31d158c16",
+      "description": "Testing microservice is hard and sometimes even \"controversial\"... Do you try to replicate the entire microservices architecture on developers machine? That's always hard and somewhat accurate... so what's the alternative?",
+      "imageUrl": "./c42bd3adae07afd2edaeb7b369b68d1a1758e80312839eae352a2c726d004ec5.png",
+      "featured": false
+    },
+    {
+      "title": "Migrating cdnjs to serverless with Workers KV",
+      "url": "https://blog.cloudflare.com/migrating-cdnjs-to-serverless-with-workers-kv",
+      "description": "Cloudflare powers cdnjs, an open-source project that delivers popular JavaScript libraries to over 11% of websites. Today, we are excited to announce its migration to a serverless infrastructure using Cloudflare Workers and its distributed key-value store Workers KV!",
+      "imageUrl": "./2802da76c216903cfb20d1e66ef0c4c3eb3d063ae48ab6d6370f20397d2525f8.png",
+      "featured": false
+    },
+    {
+      "title": "DevTools architecture refresh: Migrating to JavaScript modules",
+      "url": "https://developers.google.com/web/updates/2020/09/migrating-to-js-modules",
+      "description": "How we migrate Chrome DevTools to JavaScript modules. The Chrome DevTools engineering blog - by the developers who build the DevTools.",
+      "imageUrl": "./67337487a3e95d6b84878aaa4215b190433e7b03c754130b7bf591b3a892d0cc.jpg",
+      "featured": false
+    },
+    {
+      "title": "A brief history of the UUID",
+      "url": "https://segment.com/blog/a-brief-history-of-the-uuid",
+      "description": "Did you ever wonder what's in a UUID or even how UUIDs actually came into existence? If you are curious about this topic, this article goes in great depth about the history of UUID and it's extremely interesting!",
+      "imageUrl": "./ff120978715d8fa2fc0c87be875def3b56e27031ae5c4f94fc569765a3b963a9.png",
+      "featured": false
+    },
+    {
+      "title": "Tech writing pocket list",
+      "url": "https://github.com/rubymorillo/pocket-tech-writing-list",
+      "description": "A small but formidable list of technical writing resources for software developers. Tech writing is definitely one of those soft skills to master and this repository can be of great help!",
+      "imageUrl": "./5b39fcb5e9b9839d76e72af04990505c802cceab3da4256bc6799409123d3806.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "ReactJS by Example- Building Modern Web Applications with React",
+    "author": "Vipul A M",
+    "description": "tarting with a project on Open Library API, you will be introduced to React and JSX before moving on to learning about the life cycle of a React component. In the second project, building a multi-step wizard form, you will learn about composite dynamic components and perform DOM actions. You will also learn about building a fast search engine by exploring server-side rendering in the third project on a search engine application. Next, you will build a simple frontpage for an e-commerce app in the fourth project by using data models and React add-ons. In the final project you will develop a complete social media tracker by using the flux way of defining React apps and know about the best practices and use cases with the help of ES6 and redux.",
+    "coverImageUrl": "./a4e0dee4571c84ad4a0d244e4ef6cdb129bb9185a1fdb2fc5e8eecb99c12e3c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1785289640/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1785289640/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

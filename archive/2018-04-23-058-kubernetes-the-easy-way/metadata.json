@@ -1,0 +1,75 @@
+{
+  "issueNumber": 58,
+  "title": "Kubernetes, the easy way",
+  "slug": "2018-04-23-058-kubernetes-the-easy-way",
+  "date": "2018-04-23",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #16, 2018",
+  "quote": {
+    "text": "The real danger is not that computers will begin to think like men, but that men will begin to think like computers",
+    "author": "Sydney Harris",
+    "authorTitle": "Journalist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Sydney_Harris"
+  },
+  "links": [
+    {
+      "title": "Kubernetes, the easy way",
+      "url": "https://youtu.be/kOa_llowQ1c",
+      "description": "Kelsey Hightower delivers an awesome presentation on Kubernetes via several demos during his keynote talk on the KubeCon 2017. The amazing part is how he set the boundaries between a developer using kubernetes and a devops installing kubernetes.",
+      "imageUrl": "./b1df0f594cca3cfb20d4f37271bb2713db1712bae9323e524976c6b10d5ff5a7.png",
+      "featured": true
+    },
+    {
+      "title": "Traversing the DOM with JavaScript",
+      "url": "https://zellwk.com/blog/dom-traversals/",
+      "description": "A good JavaScript developer needs to know how to traverse the DOM—it’s the act of selecting an element from another element.",
+      "imageUrl": "./f30378fad0a58e141a9a84842f94b92d4e4709efca3fd059dd13ec9a10c52d9f.png",
+      "featured": false
+    },
+    {
+      "title": "Front-End Developer Handbook 2018",
+      "url": "https://frontendmasters.com/books/front-end-handbook/2018",
+      "description": "A guide for front-end developers to equip themselves with latest learning resources and development tools in front-end engineering.",
+      "imageUrl": "./8d50efd01a938501aad2dc2d5c86468fa31bd73131a76040d6dcb8546b2c03f1.jpg",
+      "featured": false
+    },
+    {
+      "title": "A new standard for password-free logins",
+      "url": "https://theverge.com/2018/4/10/17215406/webauthn-support-chrome-firefox-edge-fido-password-free",
+      "description": "Chrome and Firefox will support a new standard for password-free logins! This is one small step towards a world without phishing.",
+      "imageUrl": "./613bbc391373a072de5fe53332f2987f811c979a258050d0abba29cb02301d9b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Write your own JS Promise lib",
+      "url": "http://thecodebarbarian.com/write-your-own-node-js-promise-library-from-scratch",
+      "description": "You need to understand promises to master async/await. This article, will walk you through writing your own promise library and getting a better understanding on how async/await actually works.",
+      "imageUrl": "./c3029183ff7bcb5cc3bb502b081bc0c31fe7dc96982757c92d682acc204ff08b.png",
+      "featured": false
+    },
+    {
+      "title": "Helvetica Is Now An Encryption Device",
+      "url": "https://fastcodesign.com/90167210/helvetica-is-now-an-encryption-device",
+      "description": "An innocent piece of text can now hold secret messages. Are you curious to find out how? If not, trust us, this is crazy interesting! :)",
+      "imageUrl": "./d0be84b09a7a980527358613f53a0f2ebae292adcadb4fa131021de6b9c7be8e.jpg",
+      "featured": false
+    },
+    {
+      "title": "WebAssembly.Studio",
+      "url": "https://hacks.mozilla.org/2018/04/sneak-peek-at-webassembly-studio",
+      "description": "WebAssembly.Studio is an online IDE (integrated development environment) that helps you learn and teach others. It’s also a Swiss Army knife that comes in handy whenever working with WebAssembly.",
+      "imageUrl": "./01a3c8dd600b0474d97afbe89b1bb41db5ab4269f45c1b1a9f1e828ca8bb0149.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Scraping with Python: Collecting Data from the Modern Web",
+    "author": "Ryan Mitchell",
+    "description": "Learn web scraping and crawling techniques to access unlimited data from any web source in any format. With this practical guide, you’ll learn how to use Python scripts and web APIs to gather and process data from thousands—or even millions—of web pages at once. Ideal for programmers, security professionals, and web administrators familiar with Python, this book not only teaches basic web scraping mechanics, but also delves into more advanced topics, such as analyzing raw data or using scrapers for frontend website testing.",
+    "coverImageUrl": "./3b1c651ba95d78b7e56b9d061b654489f967bb664b283d5be64ac9f029b88bec.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B00ZJNH0G0/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B00ZJNH0G0/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

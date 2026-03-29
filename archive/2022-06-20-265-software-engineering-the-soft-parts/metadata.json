@@ -1,0 +1,75 @@
+{
+  "issueNumber": 278,
+  "title": "Software Engineering - The Soft Parts",
+  "slug": "2022-06-20-265-software-engineering-the-soft-parts",
+  "date": "2022-06-20",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "First learn computer science and all the theory.  Next develop a programming style.  Then forget all that and just hack",
+    "author": "George Carrette",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/George_Charrette"
+  },
+  "links": [
+    {
+      "title": "Software Engineering - The Soft Parts",
+      "url": "https://addyosmani.com/blog/software-engineering-soft-parts",
+      "description": "The famous Addy Osmany shares their take on the necessary soft skills that software engineers must develop today. Based on Addy's experience after 10 years at Google, in this article you will learn about mastery, how to think critically, how to build a strong foundation of skills and a lot more! Really well worth your time to read this, if you ask us!",
+      "imageUrl": "./7d565dd7352da602f4c336a38944f97e5ed3b5e69744003cab7d20f696e8999a.jpg",
+      "featured": true
+    },
+    {
+      "title": "Building Interoperable Web Components That Work",
+      "url": "https://css-tricks.com/building-interoperable-web-components-react",
+      "description": "This post will show you how to build low-level UI web components once, in a framework-agnostic way, and then re-use them between frameworks.",
+      "imageUrl": "./fdc6c04c9df471fd071c29d5af8a132aab36bbc790dcd5be5c93f4ca4aaf335d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using GraphQL with Strawberry, FastAPI, and Next.js",
+      "url": "https://blog.logrocket.com/using-graphql-strawberry-fastapi-next-js",
+      "description": "Use FastAPI, Strawberry, and GraphQL in a Next.js app that improves developer experience by using types and automating the code generation. A great read if you like GraphQL and you want to write your backend in Python!",
+      "imageUrl": "./3619e1ff4fd08e11e26ee87c2e0599fdb0060db12383da6ddc696796348d738e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Writing Parsers With nom Parser Combinator Framework",
+      "url": "https://iximiuz.com/en/posts/rust-writing-parsers-with-nom",
+      "description": "What is a parser combinator framework? Essentially, it's a library that makes heavy use of the builder pattern to help you define a parser for a custom data format. If you want to do this with Rust, you should check out **nom**, a fantastic parser combinator framework that can be used for both text-based and even binary protocols.",
+      "imageUrl": "./c07c0d2dc1f08c1cd3ae8737976eacc83d7b188dd1dc6c4c14f677dd82b9f9ab.jpg",
+      "featured": false
+    },
+    {
+      "title": "Implementing a robust digital identity",
+      "url": "https://github.blog/2022-06-10-implementing-a-robust-digital-identity",
+      "description": "Identity management, authentication and authorization are tricky subjects. And yet, we are often confronted with having to deal with these topics! In this article the GitHub team shares their insights on how you can robustly assert and identify a user’s identity.",
+      "imageUrl": "./b27ebeb491d49746a8cc38cc39e7bdf7f17ad9638cb67b14e08de061fcf84cc4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Makefile for lazy developers",
+      "url": "https://localheinz.com/blog/2018/01/24/makefile-for-lazy-developers",
+      "description": "I admit I try to avoid makefiles as much as I can and I have been vocal abut it! This was until Andreas Möller, reached out to me sharing an amazing article they wrote a few years back (still very relevant). If you have been hating makefiles with a passion, read this one, it will most likely change your mind.",
+      "imageUrl": "./988b457ae46ac0665976aac215bfb0cec25afb3e0d70806f9a76205dd6996558.jpg",
+      "featured": false
+    },
+    {
+      "title": "Inconsistent thoughts on database consistency",
+      "url": "https://alexdebrie.com/posts/database-consistency",
+      "description": "A great blog post by Alex DeBrie (the DynamoDB master!) that thoroughly explains the different concepts of consistency as applied to distributed databases, as well as some issues with the conversation of consistency.",
+      "imageUrl": "./1260645f9ee171f7ed1e9255386eb8880d69cd5686ad29edd1434e951980a532.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Self-Taught Programmer: The Definitive Guide to Programming Professionally",
+    "author": "Cory Althoff",
+    "description": "This book is not just about learning to program; although you will learn to code. If you want to program professionally, it is not enough to learn to code; that is why, in addition to helping you learn to program, it also covers the rest of the things you need to know to program professionally that classes and books don't teach you.",
+    "coverImageUrl": "./0d26611bf9dd58f18784b3d3fcf7f9dc3df28576b928cd220faae5debef9813e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01M01YDQA/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01M01YDQA/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

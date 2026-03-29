@@ -1,0 +1,108 @@
+{
+  "issueNumber": 386,
+  "title": "Open source illustrations kit",
+  "slug": "2024-08-19-368-open-source-illustrations-kit",
+  "date": "2024-08-19",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #386!\n\nLast week, I discovered that [Gorillaz is a band that doesn't exist](https://www.youtube.com/watch?v=Nso2dc8azSw) or rather a *virtual* band. It was founded by a singer ([Damon Albarn](https://en.wikipedia.org/wiki/Damon_Albarn), the same as [Blur](https://en.wikipedia.org/wiki/Blur_(band)), BTW) and a comic artist ([Jamie Hewlett](https://en.wikipedia.org/wiki/Jamie_Hewlett))! *\"What does this have to do with full-stack web development?\"* I can hear you asking... Well, probably nothing, but it made me think how sometimes collaborations between professionals with very different skills and coming from different industries can lead to incredibly original results! So don't hesitate to collaborate with people who are not in tech and try to establish a very open and honest exchange of opinions. Something magical might happen!\n\nNow let's get inspired with some awesome full-stack content that I carefully curated for you!\n\n— Your editor, [Luciano](https://loige.co/)\n\nPS: if you like **Rust** and/or **AWS Lambda**, I am doing a live stream about those tomorrow with the [Believe in Serverless community](https://www.youtube.com/watch?v=eqUehphXNvs)!",
+  "quote": {
+    "text": "The more you draw, the better you get.",
+    "author": null,
+    "authorTitle": "Artist",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "Open source illustrations kit",
+      "url": "https://illlustrations.co/",
+      "description": "A large set of beautiful opensource illustrations that you can use completely for free and without attribution. A great resource to spice up your next web project!",
+      "imageUrl": "./05fea929ae900561dd37f173e12b38d18515f3890dfa694e2a60fd0f5e4a46db.png",
+      "featured": true
+    },
+    {
+      "title": "Floating UI",
+      "url": "https://floating-ui.com/",
+      "description": "An open-source JavaScript library to position floating elements and create interactions for them. Ideal to create your custom tooltips, popovers, dropdowns, and more.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "postgres.new",
+      "url": "https://supabase.com/blog/postgres-new",
+      "description": "Are you looking for a friendly environment where you can get better at SQL (specifically Postgres) by playing with a real database, directly in the browser? Well, this one also comes with an AI assistant and it's totally free!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "CSS relative Color Syntax",
+      "url": "https://frontendmasters.com/blog/relative-color-syntax-basic-use-cases",
+      "description": "Support for the relative color syntax in CSS is across the board now (go interop!), so here we look at some basic (and still very useful) use cases, like applying alpha to a color you have on hand.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "ArkType",
+      "url": "https://arktype.io/",
+      "description": "Do you like [Zod](https://zod.dev/) and [Valibot](https://valibot.dev/)? Well, I do (a lot!) but I realised that ArkType is an even better TypeScript validation library. The main reason? It's fast and it has a fantastic developer experience. Check it out if you don't believe me!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Okay, I really like WezTerm",
+      "url": "https://alexplescan.com/posts/2024/08/10/wezterm",
+      "description": "If you are feeling like trying a new terminal emulator, it looks like WezTerm might be a great option since is getting lots of props in the tech community! I am tempted to try it myself based on this article alone. Let's see if I give up on my beloved iTerm2... let me know if you try this one and if you like it!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "An approach to optimizing TypeScript type checking performance",
+      "url": "https://edgedb.com/blog/an-approach-to-optimizing-typescript-type-checking-performance",
+      "description": "A process for measuring and optimizing TypeScript type checking performance.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Algorithm Design Manual",
+    "author": "Steven S. Skiena",
+    "description": "\"My absolute favorite for this kind of interview preparation is Steven Skiena's The Algorithm Design Manual. More than any other book it helped me understand just how astonishingly commonplace … graph problems are -- they should be part of every working programmer's toolkit. The book also covers basic data structures and sorting algorithms, which is a nice bonus. … every 1 - pager has a simple picture, making it easy to remember. This is a great way to learn how to identify hundreds of problem types.\" (Steve Yegge, Get that Job at Google) \"Steven Skiena's Algorithm Design Manual retains its title as the best and most comprehensive practical algorithm guide to help identify and solve problems. … Every programmer should read this book, and anyone working in the field should keep it close to hand. … This is the best investment … a programmer or aspiring programmer can make.\" (Harold Thimbleby, Times Higher Education) \"It is wonderful to open to a random spot and discover an interesting algorithm. This is the only textbook I felt compelled to bring with me out of my student days.... The color really adds a lot of energy to the new edition of the book!\" (Cory Bart, University of Delaware) \"The is the most approachable book on algorithms I have.\" (Megan Squire, Elon University)",
+    "coverImageUrl": "./b25223c935ae908581884f32ce5cf9deadc87014fab96716644dea60a883e6d4.jpg",
+    "amazonUs": "https://www.amazon.com/dp/3030542556?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/3030542556?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Enhancing TypeScript: Implementing Robust Error Handling with Result and Option",
+      "url": "https://dev.to/brunoalmeidakotesky/enhancing-typescript-implementing-robust-error-handling-with-result-and-option-o5j"
+    },
+    {
+      "title": "swan-io/boxed: Essential building-blocks for functional & safe TypeScript code",
+      "url": "https://github.com/swan-io/boxed"
+    },
+    {
+      "title": "Stop self-selecting out of opportunities!",
+      "url": "https://codu.co/letters/stop-self-selecting-out-of-opportunities"
+    },
+    {
+      "title": "A Node and Command Line Tool to Find Obsolete HTML",
+      "url": "https://meiert.com/en/blog/find-obsolete-html"
+    },
+    {
+      "title": "The anchor element",
+      "url": "https://heydonworks.com/article/the-anchor-element"
+    },
+    {
+      "title": "Crafting a JavaScript 13KB Game: The Story of Space Huggers",
+      "url": "https://frankforce.com/space-huggers-how-i-made-a-game-in-13-kilobytes"
+    },
+    {
+      "title": "Rust with Lambda, easy-mode Rust & future of Middy (podcast)",
+      "url": "https://https//www.youtube.com/watch?v=FVYub3dzrAY%3Futm_source%3Dfullstackbulletin.com"
+    },
+    {
+      "title": "Death of the Follower & the Future of Creativity on the Web (video)",
+      "url": "https://www.youtube.com/watch?v=hwn6-8XpIuE%3Futm_source%3Dfullstackbulletin.com"
+    }
+  ],
+  "sponsor": null
+}

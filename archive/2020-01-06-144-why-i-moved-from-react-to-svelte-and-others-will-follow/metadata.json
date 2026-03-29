@@ -1,0 +1,75 @@
+{
+  "issueNumber": 144,
+  "title": "Why I moved from React to Svelte and others will follow",
+  "slug": "2020-01-06-144-why-i-moved-from-react-to-svelte-and-others-will-follow",
+  "date": "2020-01-06",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #1, 2020",
+  "quote": {
+    "text": "Technology is anything that wasn’t around when you were born",
+    "author": "Alan Kay",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Kay"
+  },
+  "links": [
+    {
+      "title": "Why I moved from React to Svelte and others will follow",
+      "url": "https://mikenikles.com/blog/why-i-moved-from-react-to-svelte-and-why-others-will-follow",
+      "description": "A post about my React experience, why Svelte impressed me and code snippets to compare React with Svelte.",
+      "imageUrl": "./eb4aa7a463fc31960fd7c2341ac59872ce7ca2e2b7af18cce882486ccd7c1304.jpg",
+      "featured": true
+    },
+    {
+      "title": "Why are my Go executable files so large?",
+      "url": "https://cockroachlabs.com/blog/go-file-size",
+      "description": "An interesting research from Cockroach labs on why Go executables tend to be particularly large and some tricks you can use to reduce their size.",
+      "imageUrl": "./7578f756213952363db4de1107a389be58de61debd37a2a983707c0d998724b4.jpg",
+      "featured": false
+    },
+    {
+      "title": "imsnif/bandwhich",
+      "url": "https://github.com/imsnif/bandwhich",
+      "description": "A command-line bandwidth utilization tool (formerly known as \"what\") that will display which processes are eating all your bandwidth!",
+      "imageUrl": "./683af3c4a1636194aba95d29e49d8aec42a396c88559b56d6adf7f63d2a178f8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Implementing a Cuckoo Filter in Go",
+      "url": "https://medium.com/@meeusdylan/implementing-a-cuckoo-filter-in-go-147a5f1f7a9",
+      "description": "As an alternative to bloom filters, Cuckoo filters can help you with managing the membership problem in high cardinality sets. A Cuckoo Filter gives us the possibility to not only store items but also delete them from the filter without sacrificing on performance. In this post you will learn how to write a Cuckoo filter in Go.",
+      "imageUrl": "./d8705ccc09193ade3ed6f9a29186baa6ea89c9e48ac690944df0b095d607ecd7.jpg",
+      "featured": false
+    },
+    {
+      "title": "How To Install Apache Kafka on Debian 10",
+      "url": "https://digitalocean.com/community/tutorials/how-to-install-apache-kafka-on-debian-10",
+      "description": "Apache Kafka is a popular distributed message broker designed to efficiently handle large volumes of real-time data. In this tutorial, you will install and configure Apache Kafka 2.1.1 securely on a Debian 10 server, then test your setup by producing and consuming messages.",
+      "imageUrl": "./3a19aa62473dccf7fd11d03a117e86b0da507698be6c5089411a0a37135e4523.jpg",
+      "featured": false
+    },
+    {
+      "title": "Dealing with links in Next.js",
+      "url": "https://blog.logrocket.com/dealing-with-links-in-next-js",
+      "description": "Using Next.js as the example, we explain two techniques for isolating routing in your application, which will make it more resilient and easier to update.",
+      "imageUrl": "./47d3387880a540baf34a5ff6a2125ca18bec1a6e8e8f54031c7c399e6c0601d5.jpg",
+      "featured": false
+    },
+    {
+      "title": "New Year, New Job? Let's Make a Grid-Powered Resume!",
+      "url": "https://css-tricks.com/new-year-new-job-lets-make-a-grid-powered-resume",
+      "description": "Many popular resume designs are making the most of the available page space by laying sections out in a grid shape. Let’s use CSS Grid to create a layout",
+      "imageUrl": "./cbf0c1fa72813bf7150cf11564cbf2ec6a60a86e555b0f7feb54169884f700c4.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Algorithms to live by",
+    "author": "Brian Christian and Tom Griffiths",
+    "description": "A fascinating exploration of how computer algorithms can be applied to our everyday lives, helping to solve common decision-making problems and illuminate the workings of the human mindAll our lives are constrained by limited space and time, limits that give rise to a particular set of problems. What should we do, or leave undone, in a day or a lifetime? How much messiness should we accept? What balance of new activities and familiar favourites is the most fulfilling?",
+    "coverImageUrl": "./24438c07b3bd2a14108cd79d826105f246b331801bf6b194abd1244f7b8e66af.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0008166099/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0008166099/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,104 @@
+{
+  "issueNumber": 432,
+  "title": "What Evangelion can teach us about AI",
+  "slug": "2025-08-04-412-what-evangelion-can-teach-us-about-ai",
+  "date": "2025-08-04",
+  "templateType": "mce-mailchimp",
+  "intro": "Bonjour, \npardon my French, but I’m writing this issue from beautiful Paris and getting a little carried away! 😛\n\nAnd since I’m in the mood for something a bit more thought-provoking, we’re kicking things off with a piece about AI and the idea that maybe the smartest systems are the ones that can argue with themselves. Doubt and self-questioning are deeply human traits, and sometimes they lead to our biggest discoveries. Maybe the future of AI could use a bit of that too.\n\nFrom there, it’s back to our usual full-stack adventures: date parsing quirks in Eleventy, the slow march toward native CSS Masonry, a look at the ever-growing zoo of JavaScript runtimes, and more.\n\nHope you enjoy the ride. And if something sparks a thought, makes you smile, or gets you yelling at your screen, hit reply. I’d love to hear what you think, suggest something for the next issue, or just say salut. Or maybe, if you’ve been to Paris, reply with your favorite restaurant and what dish I should try here. Food might just be one of the few things I love more than full-stack web development.\n\nÀ bientôt !\n— Luciano",
+  "quote": {
+    "text": "Technology feeds on itself. Technology makes more technology possible“",
+    "author": "Alvin Toffler",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alvin_Toffler"
+  },
+  "links": [
+    {
+      "title": "What Evangelion can teach us about AI",
+      "url": "https://medium.com/@danny.tlc/the-magi-model-what-evangelion-can-teach-us-about-building-a-safer-agi-9ac83c30acdc",
+      "description": "This week’s off-script pick leans more into philosophy than frameworks, but stay with me. It’s the kind of read that stretches your imagination and offers a fresh perspective on how the bigger themes in tech might shape the future of full-stack development. A few days ago, Eleftheria posed a question on X: ***[\"could a country be governed by AI?\"](https://x.com/BatsouElef/status/1950432920927416653)*** That instantly brought back memories of an anime I watched nearly 20 years ago: **Neon Genesis Evangelion**. In the story, critical decisions are handled by the **MAGI**, a system made of three computers that don’t just crunch numbers but debate with one another first. Each one embodies a different facet of the same scientist: her logical mind, her maternal instincts, and her inner doubts. Only when all three agree does the system act. This article offers a clear and fascinating explanation of the MAGI, and raises an important question: could we ever build something like it? Today’s conversations around AGI mostly focus on a single, all-knowing intelligence. But what if the safest form of AI is one that questions itself? Would you trust a system that argues with itself before making a decision? Or does that idea make it even harder to sleep at night? And more to the point: should AI ever be allowed to govern, with or without an inner debate?.",
+      "imageUrl": "./aa8d320928a61d0b7b1a709a53ae264db5515e5ea18b1e7c279dbfe4c3a043b1.png",
+      "featured": true
+    },
+    {
+      "title": "Never write your own Date Parsing Library",
+      "url": "https://zachleat.com/web/adventures-in-date-parsing",
+      "description": "Two topics I somehow keep circling back to in this newsletter: **Eleventy** (a beautiful static site generator I can’t help but love) and the many, many headaches of dealing with **dates** and **timezones**. If you’re into both, this is your dream post. And even if you’re not, it’s still a fascinating case study in how hard it is to make technical decisions when you’re constantly juggling trade-offs, edge cases, and real-world limitations. Zach, the creator and main contributor of Eleventy, is working to make the project run on more environments than just Node.js. That means stripping away as many dependencies as possible, including date parsing libraries. But replacing those with homegrown logic isn’t exactly straightforward...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Let AI agents take care of your project docs",
+      "url": "https://github.com/divar-ir/ai-doc-gen",
+      "description": "Here’s another one for the AI lovers... I admit I haven’t had the chance to give this one a proper spin yet, but I’m definitely intrigued... if also a bit skeptical! I’ve tried a handful of AI agent systems before, and to be honest, none of them have fully delivered that “aha!” moment for me. Maybe I’m using them wrong. Maybe they’re just not there yet. Still, this one feels promising. It is an open-source multi-agent system designed to crawl through your codebase and generate comprehensive documentation automatically. It supports multiple LLMs, runs tasks concurrently for speed, and even hooks into GitLab. If it works well, this could be one of those rare use cases where AI actually shines: improving developer onboarding, easing the pain of legacy code spelunking, and generating useful docs with minimal effort or risk. I’ve got high hopes. Let’s see if they get rewarded this time.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Design Guidelines For Better Notifications UX",
+      "url": "https://smashingmagazine.com/2025/07/design-guidelines-better-notifications-ux",
+      "description": "This one covers a topic I’ll admit I hadn’t given much thought to. Until now. Notifications are everywhere, but how often do we actually step back and think about how to design them well? This article does a great job setting the stage and offering practical guidance on a subject that definitely deserves more attention. How do we craft user notifications that are clear, useful, and timely without being annoying? And how do we coordinate across all the layers: custom toasts on a web page, browser prompts, operating system notifications, mobile apps. emails? How do we make them work together instead of overwhelming users? It’s a surprisingly deep dive that’s made me reflect on my own assumptions. If you’ve ever shipped a feature that needed to \"just notify the user,\" this is absolutely worth a read.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "It's time for modern CSS to kill the SPA",
+      "url": "https://jonoalderson.com/conjecture/its-time-for-modern-css-to-kill-the-spa",
+      "description": "I started working on the web even before jQuery was a thing. Back then, we were still using tables for layout and some truly terrible JavaScript to sprinkle in the occasional interaction. Nothing remotely close to the kind of rich, dynamic apps we can build today with just a fraction of the effort. But the web is still evolving. This article dives into one of its more recent advancements: native CSS transitions. The central thesis? That this one feature quietly eliminates the strongest argument for client-side routing. I’m not totally convinced, at least not across the board. But it’s a compelling idea. Especially now, as multi-page applications are making a serious comeback. Just look at how much traction tools like Astro are getting. If you care about the direction of the web platform, and how much JavaScript we really need, this is one worth reading.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Making a Masonry Layout That Works Today",
+      "url": "https://css-tricks.com/making-a-masonry-layout-that-works-today",
+      "description": "I’ve been looking into Masonry layouts recently. You know, those nicely packed element walls you see on Pinterest and similar apps. I wanted to use one in the reviews section of a website and quickly realized it’s not as simple as it seems. Turns out I’m not alone. This layout pattern is getting a lot of attention lately, with several proposals aiming to make it a native CSS feature. There are three competing syntaxes being discussed: `display: masonry`, `grid-template-rows: masonry`, and `item-pack: collapse`. Firefox already supports the second one, while Chrome is experimenting with the first. But with no clear winner and inconsistent support, we’re still not quite there yet. This article gives a solid overview of the situation and shares a simple, reliable JavaScript implementation you can use today. BTW, for my current use case, since I am using Astro, I ended up using this excellent library: [astro-masonry](https://github.com/OlivierEstevez/astro-masonry).",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The many, many, many JavaScript runtimes of the last decade",
+      "url": "https://buttondown.com/whatever_jamie/archive/the-many-many-many-javascript-runtimes-of-the-last-decade",
+      "description": "Lately, I’ve been joking that the era of *“a new JavaScript framework every other day”* is over. We’ve now entered the era of *“a new JavaScript runtime every other day.”* Just think of **Deno**, **Bun**, [**LLRT**](https://github.com/awslabs/llrt), [**Bare**](https://bare.pears.com/), and the growing list of others popping up everywhere. Of course, it’s a silly joke... I’m not bashing these efforts. In fact, I’m genuinely excited. It’s great to see so many teams exploring how to make JavaScript and TypeScript faster, lighter, and more portable across platforms. That kind of innovation is exactly what full-stack developers need. This article is a great reminder that this isn’t entirely new. The race for better runtimes has been happening for decades. It walks through the many, many (many!) attempts to improve how we run JavaScript, from well-known contenders to more obscure experiments. If you’re curious about what the future of running JavaScript might look like, it’s worth taking a look back.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Secrets of the JavaScript Ninja",
+    "author": "John Resig, Bear Bibeault, and Josip Maras",
+    "description": "More than ever, the web is a universal platform for all types of applications, and JavaScript is the language of the web. If you're serious about web development, it's not enough to be a decent JavaScript coder. You need to be ninja-stealthy, efficient, and ready for anything. This book shows you how. Secrets of the JavaScript Ninja, Second Edition uses practical examples to clearly illustrate each core concept and technique. This completely revised edition shows you how to master key JavaScript concepts such as functions, closures, objects, prototypes, and promises. It covers APIs such as the DOM, events, and timers. You'll discover best practice techniques such as testing, and cross-browser development, all taught from the perspective of skilled JavaScript practitioners.What's Inside",
+    "coverImageUrl": "./79896bf6926e76cfec46f452c1c26cb952fba8807739d55d73021744efbf7b5d.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617292850?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617292850?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "Carousel Gallery (CSS-only carousel options)",
+      "url": "https://chrome.dev/carousel"
+    },
+    {
+      "title": "Stop Re-Rendering with TanStack DB",
+      "url": "https://tanstack.com/blog/tanstack-db-0.1-the-embedded-client-database-for-tanstack-query"
+    },
+    {
+      "title": "The Useless useCallback in React",
+      "url": "https://tkdodo.eu/blog/the-useless-use-callback"
+    },
+    {
+      "title": "The Fastest Node 22 Lambda Coldstart Configuration",
+      "url": "https://speedrun.nobackspacecrew.com/blog/2025/07/21/the-fastest-node-22-lambda-coldstart-configuration.html"
+    },
+    {
+      "title": "Better Upload - Simple and easy file uploads for React",
+      "url": "https://better-upload.com/"
+    },
+    {
+      "title": "So many ranges, so little time: A cheatsheet of animation-ranges for your next scroll-driven animation",
+      "url": "https://webkit.org/blog/17184/so-many-ranges-so-little-time-a-cheatsheet-of-animation-ranges-for-your-next-scroll-driven-animation"
+    },
+    {
+      "title": "A Windows 7-alike component system!",
+      "url": "https://khang-nd.github.io/7.css"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,108 @@
+{
+  "issueNumber": 398,
+  "title": "11 HTML best practices for login & sign-up forms",
+  "slug": "2024-11-11-380-11-html-best-practices-for-login-sign-up-forms",
+  "date": "2024-11-11",
+  "templateType": "mce-mailchimp",
+  "intro": "Ciao, \nThis week’s hand-picked selection is inspired by the content that caught my attention last week. It’s a mix of fresh takes on web development, from HTML best practices for login forms to the magic of container queries, with a dash of animated UI fun and React tips. I’ve put this together with the hope that it keeps you inspired and informed on the latest trends in full-stack development. If you have been following along for the last few issues, you can probably tell that I have been working on React/frontend-heavy projects lately... But  I am curious to know what you’re working on! Reply to this email and let me know, I'd love to hear from you!\n\n— Your editor, [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Science and technology revolutionize our lives, but memory, tradition and myth frame our response“",
+    "author": "Arthur Schlesinger",
+    "authorTitle": "Historian",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_Schlesinger"
+  },
+  "links": [
+    {
+      "title": "11 HTML best practices for login & sign-up forms",
+      "url": "https://evilmartians.com/chronicles/html-best-practices-for-login-and-signup-forms",
+      "description": "Let’s be real, login and signup forms are everywhere, but they’re rarely done right. This guide from Evil Martians cuts through the noise with straightforward HTML tips to make your forms more accessible, secure, and user-friendly.",
+      "imageUrl": "./35e7778f6c62bc09895081279bb0d7960e4f0fc10d8c8e8cd301f8776fca971e.png",
+      "featured": true
+    },
+    {
+      "title": "Why would anyone need JavaScript generator functions?",
+      "url": "https://jrsinclair.com/articles/2022/why-would-anyone-need-javascript-generator-functions",
+      "description": "Here’s an article I stumbled upon again and couldn't resist sharing, even though it's not brand new. Generators are one of my favorite JavaScript features, and James Sinclair’s piece is a clear, practical dive into why they’re more useful than you might think. Have you ever used generator functions for something meaningful in production? I’d love to hear about it—let me know! If you haven't, make sure to check this one out!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "A Friendly Introduction to Container Queries",
+      "url": "https://joshwcomeau.com/css/container-queries-introduction",
+      "description": "We keep featuring Josh Comeau’s content because it’s consistently solid and a pleasure to read. His introduction to CSS container queries is no exception—it breaks down how to style elements based on their own size, not just the viewport, bringing a new level of responsiveness to your layouts.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "EldoraUI",
+      "url": "https://eldoraui.site/",
+      "description": "EldoraUI isn’t your typical toolkit—no standard buttons or modals here. Instead, it’s packed with animated elements that can bring your designs to life. If you're curious, check out their crazy tag component [here](https://www.eldoraui.site/components/special-animations/tag) for a taste (spoiler, it's 3D and uses [three.js](https://threejs.org/))... Definitely worth a look, even if just for a healthy dose of inspiration!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Component Composition in React",
+      "url": "https://tkdodo.eu/blog/component-composition-is-great-btw",
+      "description": "Component composition is one of the most interesting patterns I have seen lately in React and I often wondered how one could implement it. In my research, I discovered this article that explains the pattern really well and provides some excellent examples.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Fluid Everything Else",
+      "url": "https://css-tricks.com/fluid-everything-else",
+      "description": "We’ve already touched on container queries, which are gaining traction in responsive web design. Now, this CSS-Tricks article takes it a step further, showing how to make everything else in your design—like typography, images, and more—fluid, not just the layout. It's a great read for developers looking to create a truly responsive experience across all screen sizes.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The magic of keeping one level of abstraction per function",
+      "url": "https://tymzap.com/blog/the-magic-of-keeping-one-abstraction-level-per-function",
+      "description": "This article dives into the concept of keeping one abstraction level per function, a simple but powerful practice that can make your code easier to understand and maintain. This is a short read, but I liked the React-focused examples.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Linux Command Line, 2nd Edition: A Complete Introduction",
+    "author": "William Shotts",
+    "description": "You've experienced the shiny, point-and-click surface of your Linux computer—now dive below and explore its depths with the power of the command line. The Linux Command Line takes you from your very first terminal keystrokes to writing full programs in Bash, the most popular Linux shell (or command line). Along the way you'll learn the timeless skills handed down by generations of experienced, mouse-shunning gurus: file navigation, environment configuration, command chaining, pattern matching with regular expressions, and more. In addition to that practical knowledge, author William Shotts reveals the philosophy behind these tools and the rich heritage that your desktop Linux machine has inherited from Unix supercomputers of yore.",
+    "coverImageUrl": "./2324c9286f1eced27314fb1f6df2b46d6759657ce2fc7f8a82e1e4751499bc17.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1593279523?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1593279523?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "TanStack Form v0",
+      "url": "https://tanstack.com/form"
+    },
+    {
+      "title": "Exploring the browser rendering process",
+      "url": "https://abhisaha.com/blog/exploring-browser-rendering-process"
+    },
+    {
+      "title": "SVG Shaders",
+      "url": "https://svg-shaders.vercel.app/"
+    },
+    {
+      "title": "Maverick - Build & ship fast components with ease",
+      "url": "https://github.com/maverick-js"
+    },
+    {
+      "title": "Kevin Powell's top 5 most popular front-end tips (video)",
+      "url": "https://youtube.com/watch?feature=youtu.be&v=DGOeyJjq80g"
+    },
+    {
+      "title": "Ship faster with landing page templates",
+      "url": "https://awesome-landingpages.vercel.app/"
+    },
+    {
+      "title": "total-typescript/tsconfig: The simplest way to set up your tsconfig.json (genuinely a time-saver!)",
+      "url": "https://github.com/total-typescript/tsconfig"
+    },
+    {
+      "title": "time-flies (amazing JavaScript web-based clock visualization)",
+      "url": "https://github.com/vnglst/time-flies"
+    }
+  ],
+  "sponsor": null
+}

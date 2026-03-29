@@ -1,0 +1,75 @@
+{
+  "issueNumber": 207,
+  "title": "How branches work in Git",
+  "slug": "2021-04-19-207-how-branches-work-in-git",
+  "date": "2021-04-19",
+  "templateType": "old-mailchimp",
+  "intro": "Make the keys to everything you do online easier and safer. Stop resetting passwords and filling out forms. Try Dashlane on your first device for free [here](https://www.dashlane.com/fullstackbulletin).",
+  "quote": {
+    "text": "This is the whole point of technology.  It creates an appetite for immortality on the one hand.  It threatens universal extinction on the other. Technology is lust removed from nature",
+    "author": "Don DeLillo",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Don_DeLillo"
+  },
+  "links": [
+    {
+      "title": "How branches work in Git",
+      "url": "https://stackoverflow.blog/2021/04/05/a-look-under-the-hood-how-branches-work-in-git",
+      "description": "Git branches allow you to keep different versions of your code cleanly separated. Here's a look at how they work and why you should know about them.",
+      "imageUrl": "./19281abc5a8191f1d4bc364de2d94189f9692b1e18f0c77e3c5ef821a55e1153.jpg",
+      "featured": true
+    },
+    {
+      "title": "Integrate SSO with PWM",
+      "url": "https://go.dashlane.com/Why-You-Should-Integrate-PWM-SSO.html",
+      "description": "Single sign-on (SSO) alone cannot protect every employee credential. Threat actors, meanwhile, have realized that stealing credentials is a high-reward, low-effort way to access company data. That’s why protecting credentials requires a password management solution to complement SSO technology. sponsored",
+      "imageUrl": "./9b8e47e421134780f8188cd11dbea98b8ab8bad7018b89a3a2b8760278ae5ca3.png",
+      "featured": false
+    },
+    {
+      "title": "Tailwind CSS v2.1",
+      "url": "https://blog.tailwindcss.com/tailwindcss-2-1",
+      "description": "Tailwind CSS v2.1 was recently released with a new exciting features: the new JIT engine (which makes compilation super fast and generated files smaller), first-class CSS filter support, and much more!",
+      "imageUrl": "./7b0e405ad8402e5b5a87b5886dfa3e3e0e9b3d7b7f36b354d8b2e4238e223ff5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Vanilla JavaScript Code Snippets",
+      "url": "https://smashingmagazine.com/2021/04/vanilla-javascript-code-snippets",
+      "description": "A guide to vanilla JavaScript code snippets — with resources and lightweight libraries to help you solve a problem without a large overhead or third-party dependencies.",
+      "imageUrl": "./2f1186cbd564550d59bdb0ebdb49db12cc6fb0694c1f3c25f40f646a9bd25b97.jpg",
+      "featured": false
+    },
+    {
+      "title": "You-Dont-Need-GUI",
+      "url": "https://github.com/you-dont-need/You-Dont-Need-GUI",
+      "description": "Stop relying on Graphic User Interfaces (GUIs) with this opinionated (yet interesting) repository which helps you to embrace the art of the command line more. Check it out, you might learn a trick or two!",
+      "imageUrl": "./be7e1006baa4572cd79756c963eed35b0d98c1d92af2543ea309194989862109.jpg",
+      "featured": false
+    },
+    {
+      "title": "Sticky Headers: 5 Ways to Make Them Better",
+      "url": "https://nngroup.com/articles/sticky-headers",
+      "description": "Persistent headers can be useful to users if they are unobtrusive, high-contrast, minimally animated, and fit user needs. With this article you can learn some new interesting ways to handle sticky headers in your web pages.",
+      "imageUrl": "./b848865a52b7251150ebfec139f6138cb8a4d7d3cacab776d67fa86c5bf198a1.jpg",
+      "featured": false
+    },
+    {
+      "title": "Space Jam",
+      "url": "https://mxb.dev/blog/space-jam",
+      "description": "I'm running a speed test on the new Space Jam site: the 1996 version on dial-up VS. the 2021 version on a 3G connection. Who will win?",
+      "imageUrl": "./1cb4116818fe2e9358182931e61d6974dc0baa938ebd154e817131a232d06c79.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Reactive Programming with RxJava: Creating Asynchronous, Event-Based Applications",
+    "author": "Tomasz Nurkiewicz",
+    "description": "In today’s app-driven era, when programs are asynchronous and responsiveness is so vital, reactive programming can help you write code that’s more reliable, easier to scale, and better-performing. With this practical book, Java developers will first learn how to view problems in the reactive way, and then build programs that leverage the best features of this exciting new programming paradigm.",
+    "coverImageUrl": "./bfc89b612724cc827df12cd74bfda688fa86774c756e46d104dc6fce54b5ba7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491931655/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491931655/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

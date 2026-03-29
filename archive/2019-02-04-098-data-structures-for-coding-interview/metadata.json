@@ -1,0 +1,75 @@
+{
+  "issueNumber": 98,
+  "title": "Data Structures for Coding Interview",
+  "slug": "2019-02-04-098-data-structures-for-coding-interview",
+  "date": "2019-02-04",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #5, 2019",
+  "quote": {
+    "text": "It has become appallingly obvious that our technology has exceeded our humanity",
+    "author": "Albert Einstein",
+    "authorTitle": "Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "links": [
+    {
+      "title": "Data Structures for Coding Interviews",
+      "url": "https://interviewcake.com/article/java/data-structures-coding-interview",
+      "description": "Finally, a dead-simple explanation of CS data structures (linked lists, hash maps, etc.). No CS degree necessary. No proofs, and no confusing academic jargon.",
+      "imageUrl": "./0a8edf5848ea7046928f18ca44e1d2fe9bb9c1b4d47e3420e294eabc9a7659a1.jpg",
+      "featured": true
+    },
+    {
+      "title": "Node.js multithreading",
+      "url": "https://blog.logrocket.com/node-js-multithreading-what-are-worker-threads-and-why-do-they-matter-48ab102f8b10",
+      "description": "What are Worker Threads and why do they matter? Since the release of Node.js v10.5.0 there’s a new worker_threads module available. In this post, you will learn why we need it.",
+      "imageUrl": "./571813701f56d6a12ecbb2c3dd9432f0d461d6126dda44d22c49911f2b351ffd.jpg",
+      "featured": false
+    },
+    {
+      "title": "Everything you should know about certificates and PKI",
+      "url": "https://smallstep.com/blog/everything-pki.html",
+      "description": "PKI is really powerful, and really interesting. The math is complicated, and the standards are stupidly baroque, but the core concepts are actually quite simple. Certificates are the best way to identify code and devices, and identity is super useful for security, monitoring, metrics, and a million other things. Using certificates is not that hard. No harder than learning a new language or database. It’s just slightly annoying and poorly documented.",
+      "imageUrl": "./d8ebe5f40f3b63f1d8aa338d291c5ff773f06e09a91409a168fc9ed24cac9d82.jpg",
+      "featured": false
+    },
+    {
+      "title": "RE:DOM",
+      "url": "https://redom.js.org/",
+      "description": "Tiny (2 KB) turboboosted JavaScript library for creating user interfaces.",
+      "imageUrl": "./d7abfa20f62f1bf7820a3d5bf5a7bb6a32f9afde3aa2f6e11c40067d920dc463.png",
+      "featured": false
+    },
+    {
+      "title": "Writing a GraphQL Client in Vanilla JS",
+      "url": "https://medium.com/walmartlabs/writing-a-graphql-client-in-vanilla-js-d2a09aee7c6c",
+      "description": "A short tutorial on writing a GraphQL client with zero dependencies.",
+      "imageUrl": "./5f66d652ed100245c887b32dd1c19947968e0f7bbb0fa0d86570b0ab52854b41.jpg",
+      "featured": false
+    },
+    {
+      "title": "Medium stack",
+      "url": "https://medium.engineering/the-stack-that-helped-medium-drive-2-6-millennia-of-reading-time-e56801f7c492",
+      "description": "The Stack That Helped Medium Drive 2.6 Millennia of Reading Time. From the team organisation to the actual technological evolution that the platform undertook to support the ever increasing traffic.",
+      "imageUrl": "./667258dcfb14433fc98cda84690102a7dd5d9eb6dc49dfd1c17ea8d301892d5b.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Better Way to Develop Node.js with Docker",
+      "url": "https://hackernoon.com/a-better-way-to-develop-node-js-with-docker-cd29d3a0093",
+      "description": "How to use Docker and Docker Compose for development with Node.js, React, Parcel and development tools.",
+      "imageUrl": "./bbe34e106a5bfc42d8f4be655c98f29e29def4e5c4e0b9865e4afe0ab9debee2.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "PHP and MySQL Web Development (5th Edition) (Developer's Library)",
+    "author": "Luke Welling",
+    "description": "PHP and MySQL are popular open-source technologies that are ideal for quickly developing database-driven Web applications. PHP is a powerful scripting language designed to enable developers to create highly featured Web applications quickly, and MySQL is a fast, reliable database that integrates well with PHP and is suited for dynamic Internet-based applications",
+    "coverImageUrl": "./215552defe4b9e1ca9846aa5b85f2a20bdf3752b7580570be5a6d3bda1582bfa.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321833899/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321833899/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

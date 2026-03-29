@@ -1,0 +1,75 @@
+{
+  "issueNumber": 95,
+  "title": "mkcert: valid HTTPS certificates for localhost",
+  "slug": "2019-01-14-095-mkcert-valid-https-certificates-for-localhost",
+  "date": "2019-01-14",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #2, 2019",
+  "quote": {
+    "text": "Any sufficiently advanced technology is equivalent to magic",
+    "author": "Arthur C. Clarke",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_C._Clarke"
+  },
+  "links": [
+    {
+      "title": "mkcert: valid HTTPS certificates for localhost",
+      "url": "https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost",
+      "description": "The web is moving to HTTPS, preventing network attackers from observing or injecting page contents. But HTTPS needs TLS certificates, and while deployment is increasingly a solved issue thanks to the ACME protocol and Let's Encrypt, local development still mostly ends up happening over HTTP because of the lack of local tooling. Mkcert solves this issue by providing **an effective way to generate TLS certificates for localhost**!",
+      "imageUrl": "./60531f891486db331cc237825ddb7deb844c68c57c8d8834a461b6ed1297947e.png",
+      "featured": true
+    },
+    {
+      "title": "Coconut Programming Language",
+      "url": "http://coconut-lang.org/",
+      "description": "**A simple, elegant, Pythonic functional programming**. Coconut is built as a superset of the Python language and it provides extended functionality like pipeline-style programming, prettier lambdas, partial application, pattern-matching, destructuring assignment, infix notation, operator functions, function composition, lazy lists, parallel programming, tail call optimization, algebraic data types and much more!",
+      "imageUrl": "./53dd7f4d18eedcefd2cce1c19c7cd0d0a2dacfcb905bca4eb04982990c296300.png",
+      "featured": false
+    },
+    {
+      "title": "How Airbnb is Moving 10x Faster at Scale with GraphQL and Apollo",
+      "url": "https://medium.com/airbnb-engineering/how-airbnb-is-moving-10x-faster-at-scale-with-graphql-and-apollo-aa4ec92d69e2",
+      "description": "This article is an extract from a talk by Airbnb that showcases how their development speed has been extremely improved since they moved to GraphQL and specifically to Apollo server.\n\nIf you are curious to know more about how these technologies play in a real context such as Airbnb, this article is for you!",
+      "imageUrl": "./4f5f3d58ade096f0ccb5dc1b0985b2bf8c7f582ee64b2da99b9b7c09a84afd1d.jpg",
+      "featured": false
+    },
+    {
+      "title": "FBT · An internationalization framework",
+      "url": "https://facebookincubator.github.io/fbt/index.html",
+      "description": "FBT is a framework for internationalizing user interfaces in JavaScript built and open sourced by Facebook. It is designed to be not only powerful and flexible, but also simple and intuitive. Getting grammatically correct translated texts in dynamic applications is hard. Let FBT do the hard work for you.",
+      "imageUrl": "./9bbb74127cf9e02306f154ddadffe7e922681be95611e87880846ea777cede09.jpg",
+      "featured": false
+    },
+    {
+      "title": "Top JavaScript Frameworks and Topics to Learn in 2019",
+      "url": "https://medium.com/javascript-scene/top-javascript-frameworks-and-topics-to-learn-in-2019-b4142f38df20",
+      "description": "It’s that time of year again: The annual overview of the JavaScript tech ecosystem. Our aim is to highlight the learning topics and technologies with the highest potential job ROI. What are people using in the workforce? What do the trends look like?",
+      "imageUrl": "./2af5861a72115bf40da8aa4fd5f6e9e962487bc71a6d0efe6d9f7b794c742860.jpg",
+      "featured": false
+    },
+    {
+      "title": "Web Page Usability Matters",
+      "url": "https://addyosmani.com/blog/usability/",
+      "description": "Users appreciate pages being usable and interactive soon after they're visually ready. UI interactions (scrolls, taps, clicks) can be delayed by script and other browser work so minimizing their impact can really help your users.",
+      "imageUrl": "./0355076113043d5ec057e5c2210c065926f9461abfd9daff6ef24e86447ab4ee.png",
+      "featured": false
+    },
+    {
+      "title": "A step-by-step guide to building a simple chess AI",
+      "url": "https://medium.freecodecamp.org/simple-chess-ai-step-by-step-1d55a9266977",
+      "description": "This article explains to you how to build a simple chess AI in JavaScript. In particular, it will cover algorithms for move-generation, board evaluation, minimax, and alpha-beta pruning. Extremely interesting even if you are not into game AI development.",
+      "imageUrl": "./73ca8d44a588cba676e784a24cdea1f7b25af6556575f6d0ff1c685ab7ba9036.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Fluent Python: Clear, Concise, and Effective Programming",
+    "author": "Luciano Ramalho",
+    "description": "Python’s simplicity lets you become productive quickly, but this often means you aren’t using everything it has to offer.  With this hands-on guide, you’ll learn how to write effective, idiomatic Python code by leveraging its best—and possibly most neglected—features.",
+    "coverImageUrl": "./30290ce19e65a7fffc72aab6893578a1fc0008018337e91d311736d9b587c8fe.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491946008/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491946008/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

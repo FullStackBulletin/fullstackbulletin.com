@@ -1,0 +1,75 @@
+{
+  "issueNumber": 92,
+  "title": "JSX alternative using standard tagged templates",
+  "slug": "2018-12-24-092-jsx-alternative-using-standard-tagged-templates",
+  "date": "2018-12-24",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #51, 2018",
+  "quote": {
+    "text": "It's still magic even if you know how it's done",
+    "author": "Terry Pratchett",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Terry_Pratchett"
+  },
+  "links": [
+    {
+      "title": "JSX alternative using standard tagged templates",
+      "url": "https://github.com/developit/htm",
+      "description": "**Htm** (Hyperscript Tagged Markup) is a new library that is intended to be a JSX alternative that uses standard tagged templates. You can build React-like components (also in Preact) without having to use a transpiler like Babel. You can still compile your templates for better performance in production.",
+      "imageUrl": "./810b70c58c80f7cf93264a468eb3e3da13f7a878d24ce92f53ddbaebc660afbf.png",
+      "featured": true
+    },
+    {
+      "title": "20 web design trends for 2019",
+      "url": "https://webflow.com/blog/20-web-design-trends-for-2019",
+      "description": "Discover the web design trends, techniques, and tools that will define website and digital product design in 2019 — and beyond.",
+      "imageUrl": "./e39bd6bc73721bda4d5f919285bb2e61916c99899e4f0767d26f8ac3ce0fa8c7.jpg",
+      "featured": false
+    },
+    {
+      "title": "How Unix programmers at restaurants search menus for their favorite plate",
+      "url": "https://dev.to/miguelmota/how-unix-programmers-at-restaurants-search-menus--46ad",
+      "description": "A Unix programmer heads over to the local diner to get something to eat for lunch. You can't expect they are going to use the menu like any other mortal being... They are going to do something special using their own bash scripting wizardry! Maybe you want to learn some of this magic...",
+      "imageUrl": "./fa0e1a3f3d42c347f64a6155c49cb296c31ebc0e17ce4144c55b8ff43d7ead40.jpg",
+      "featured": false
+    },
+    {
+      "title": "You Can Do it in SQL, Stop Writing Extra Code for it",
+      "url": "https://dev.to/geshan/you-can-do-it-in-sql-stop-writing-extra-code-for-it-lok",
+      "description": "Use SQL to do math like sum, average etc. Utilize it for grouping one to many relational values like getting categories of product. Leverage SQL for string manipulation like using CONCAT_WS for concating first name and last name. Exploit SQL to sort by a custom priority formula. **Moar SQL == less code**!",
+      "imageUrl": "./77e237ebcf975797d5e1dceba8927a9e39a191ddf3e7b3e5677db6ddf05f0362.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building a Simple Virtual DOM from Scratch",
+      "url": "https://dev.to/ycmjason/building-a-simple-virtual-dom-from-scratch-3d05",
+      "description": "We believe there's no better way to learn something in IT than building it! If you wanted to know how virtual DOM libraries actually work, this tutorial is a fantastic resource as it will show, step by step, how to build a new vDOM library!",
+      "imageUrl": "./400de21de58a733540bae04f09ac6de9bb2f642b71be657ccf1f77b70aa3306b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Learning Go — from zero to hero",
+      "url": "https://medium.freecodecamp.org/learning-go-from-zero-to-hero-d2a3223b3d86",
+      "description": "This article covers all the main features of Go in a very compact and expressive way. A great starting point if you have been thinking to explore and start to play with this new language.",
+      "imageUrl": "./678e9753340282d7a7f56ed33c80f35cf822f900da4e8098298269d45d8033d3.jpg",
+      "featured": false
+    },
+    {
+      "title": "19 ways to become a better Node.JS developer in 2019",
+      "url": "https://medium.com/@me_37286/19-ways-to-become-a-better-node-js-developer-in-2019-ffd3a8fbfe38",
+      "description": "Strategic ideas for things you should learn to create robust Node.js & Javascript application in 2019!",
+      "imageUrl": "./945dc126988172453b4874c1e4d4b22505cf3790527e18a24512cfd43986de2a.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "SQL Pocket Guide: A Guide to SQL Usage",
+    "author": "Jonathan Gennick",
+    "description": "If you're a programmer or database administrator who uses SQL in your day-to-day work, this popular pocket guide is the ideal on-the-job reference. You'll find many examples that address the language's complexity, along with key aspects of SQL used in IBM DB2 Release 9.7, MySQL 5.1, Oracle Database 11g Release 2, PostgreSQL 9.0, and Microsoft SQL Server 2008 Release 2. SQL Pocket Guide describes how these database systems implement SQL syntax for querying, managing transactions, and making changes to data. It also shows how the systems use SQL functions, regular expression syntax, and type conversion functions and formats.",
+    "coverImageUrl": "./35a5ca46259353653af886e2e2f8fc5d46ab2919392341b928656ba9804d943e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449394094/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449394094/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

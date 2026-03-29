@@ -1,0 +1,75 @@
+{
+  "issueNumber": 174,
+  "title": "Polymorphism in JavaScript",
+  "slug": "2020-08-10-174-polymorphism-in-javascript",
+  "date": "2020-08-10",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #32, 2020",
+  "quote": {
+    "text": "Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway",
+    "author": "Andrew S. Tanenbaum",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum"
+  },
+  "links": [
+    {
+      "title": "Polymorphism in JavaScript",
+      "url": "https://zellwk.com/blog/polymorphism-javascript/",
+      "description": "There are three kinds of Polymorphism—Adhoc Polymorphism, Parametric Polymorphism, and Subtype Polymorphism. This article explains what each of them is and what they do.",
+      "imageUrl": "./39f209e9f7bab4c3c6eee21fadc3826c9a5c42d5db080fdd711d57b45d4b222d.png",
+      "featured": true
+    },
+    {
+      "title": "Dark Ages of the Web",
+      "url": "https://pavellaptev.github.io/web-dark-ages",
+      "description": "Old Web features — frontend and UI patterns that shaped the history of Web Design during the first years of the World Wide Web. Can you recall some of these trends? Would you use any of them today? 😇",
+      "imageUrl": "./41336a7e7ce427b5550f0c9163313df41135d5451ffb05b9b9487963d254f67a.jpg",
+      "featured": false
+    },
+    {
+      "title": "PHP 8: named arguments",
+      "url": "https://stitcher.io/blog/php-8-named-arguments",
+      "description": "Named arguments — also called named parameters — are finally supported in PHP 8! In this post we'll discuss their ins and outs.",
+      "imageUrl": "./d5ba00091ee2b0d1b931d199aa77d545f934601b41550ad69057d2a3806e9f55.png",
+      "featured": false
+    },
+    {
+      "title": "Bringing Modern JavaScript to Libraries",
+      "url": "https://dev.to/garylchew/bringing-modern-javascript-to-libraries-432c",
+      "description": "This article explores some new strategies to ship modern JavaScript code (ES2017) directly to modern browsers without transpilation or bundling and how to fallback to provide support for older browsers.",
+      "imageUrl": "./a75c1b2842e5d84fda98d1ae4c36cc30335eefc651c9ee351edcb24d443782a8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Is serverless cheaper for your use case? Find out with this calculator.",
+      "url": "https://medium.com/serverless-transformation/is-serverless-cheaper-for-your-use-case-find-out-with-this-calculator-2f8a52fc6a68",
+      "description": "Serverless is not always cheaper than the more classic alternatives. With this calculator you can actually simulate how much Serverless is going to cost for you and find out whether it's going to be a cheaper option or not!",
+      "imageUrl": "./72f8149961802ac572c87e7ac2fd90d40a45edd1df287ba71532ab6925a6e85e.jpg",
+      "featured": false
+    },
+    {
+      "title": "pretzelhammer/rust-blog",
+      "url": "https://github.com/pretzelhammer/rust-blog",
+      "description": "An education GitHub repository that provides articles targeting developers who are currently learning Rust.",
+      "imageUrl": "./aa40e959712e72d39dbeb2d3f99d8baab44cc880142c99779cd26a05a2311725.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Making of: Netlify's Million Devs SVG Animation Site",
+      "url": "https://css-tricks.com/the-making-of-netlifys-million-devs-svg-animation-site",
+      "description": "The following article captures the process of building the Million Developers microsite for Netlify, a wonderfully animated website that tells the story of Netlify and how it scaled to 1mln users.",
+      "imageUrl": "./2d5071fee30aa14a0b1306c2e5ee5aef8dc3ea5eec2219b4527c3cfde2415a09.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The DevOps 2.0 Toolkit: Automating the Continuous Deployment Pipeline with Containerized Microservices",
+    "author": "Viktor Farcic",
+    "description": "This book is about different techniques that help us architect software in a better and more efficient way with microservices packed as immutable containers, tested and deployed continuously to servers that are automatically provisioned with configuration management tools. It's about fast, reliable and continuous deployments with zero-downtime and ability to roll-back. It's about scaling to any number of servers, design of self-healing systems capable of recuperation from both hardware and software failures and about centralized logging and monitoring of the cluster.",
+    "coverImageUrl": "./541c1dd09cac26ae06429687c2601da19e8cb4c7894063854cb3ae1c65eb6db9.jpg",
+    "amazonUs": "https://www.amazon.com/dp/152391744X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/152391744X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

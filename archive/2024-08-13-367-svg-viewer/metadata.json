@@ -1,0 +1,104 @@
+{
+  "issueNumber": 385,
+  "title": "SVG Viewer",
+  "slug": "2024-08-13-367-svg-viewer",
+  "date": "2024-08-13",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nAnother week, another issue of FSB! Except for last week when I messed up and I accidentally sent 2! 😅\n\nI apologise for the noise! I was so eager to go on holiday that I forgot to disable the original unedited email... Yes, if you got two emails, the good one was the one with an intro and a better selection of articles and descriptions! I'll try my best not to mess up again!\n\nNow let's jump into some full-stack content! I hope you will be inspired!\n\n— Your editor, [Luciano](https://x.com/loige)",
+  "quote": {
+    "text": "One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man“",
+    "author": "Elbert Hubbard",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Elbert_Hubbard"
+  },
+  "links": [
+    {
+      "title": "SVG Viewer",
+      "url": "https://svgviewer.dev/",
+      "description": "Is that little detail in an SVG annoying you and you just want to change it? SVG is great because it's a XML-based format, so if you know where to look you only need a text editor to change things. But with complex SVGs it's not always obvious to understand what to change! SVG Viewer is a new FREE online tool that allows you to visualise your SVGs and highlight which part of the SVG corresponds to which part of the image! I started using it and I am loving it! [**Check it out!**](https://svgviewer.dev/)",
+      "imageUrl": null,
+      "featured": true
+    },
+    {
+      "title": "It’s Time To Talk About “CSS5”",
+      "url": "https://smashingmagazine.com/2024/08/time-to-talk-about-css5",
+      "description": "Have you ever wondered what happened after CSS3? It’s common knowledge that we never saw CSS4 come after it, yet we have a plethora of new features that have no similar way of defining when they were introduced. The W3C CSS-Next community group is actively searching for better approaches for how we describe the evolution of CSS over time and identify feature sets as effectively as we did with CSS3 in 2009 — and you can help.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Building A Generative AI Platform",
+      "url": "https://huyenchip.com/2024/07/25/genai-platform.html",
+      "description": "(Almost) Everyone is adding some kind of **GenAI** feature to their apps and web applications. If you find yourself confused by this new world and you want to learn more, this article showcases a study on how companies deploy generative AI applications and it provides some good reference architectures.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Video with alpha transparency on the web",
+      "url": "https://jakearchibald.com/2024/video-with-transparency",
+      "description": "[Jake Archibald](https://twitter.com/jaffathecake) discusses the complexities of using videos with alpha transparency on the web. He examines the limitations and inefficiencies of native methods like AVIF and animated formats, which struggle with performance, browser compatibility, and features. He ultimately proposes a custom solution using a WebGL fragment shader that combines the video and alpha channel into a more efficient format. This approach significantly reduces file size while maintaining compatibility across browsers, and he provides an NPM package to implement it.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How to Build Anything Extremely Quickly",
+      "url": "https://learnhowtolearn.org/how-to-build-extremely-quickly",
+      "description": "Do “outline speedrunning”: Recursively outline an MVP, speedrun filling it in, and only then go back and perfect it. I found this to be an insightful article which gave me a few ideas on how I can be more focused and productive when working on a project.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Scaling One Million Checkboxes to 650,000,000 checks",
+      "url": "http://eieio.games/essays/scaling-one-million-checkboxes",
+      "description": "This article discusses the challenges and solutions involved in efficiently handling a large number of checkboxes in web applications, specifically up to 650 million checks. The author explores performance issues, optimization strategies, and techniques like batching, virtualization, and efficient data structures.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "How To Master JavaScript Performance Optimization",
+      "url": "https://thenewstack.io/how-to-master-javascript-performance-optimization",
+      "description": "Elevate your JavaScript game with techniques like code splitting, lazy loading, using web workers, minifying files and asynchronous loading.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Node.js Web Development: Go on a comprehensive journey from the fundamentals to advanced web development with Node.js",
+    "author": "Adam Freeman",
+    "description": null,
+    "coverImageUrl": "./9935ed43e703180f5288f8d7f01deaa77f3927576a010a87cfd5bb85a810515c.jpg",
+    "amazonUs": null,
+    "amazonUk": null
+  },
+  "additionalLinks": [
+    {
+      "title": "Revealing the Inner Structure of AWS Session Tokens",
+      "url": "https://medium.com/@TalBeerySec/revealing-the-inner-structure-of-aws-session-tokens-a6c76469cba7"
+    },
+    {
+      "title": "Browsers, cookies and surfing the web: The quirky history of internet lingo",
+      "url": "https://blog.mozilla.org/en/internet-culture/history-of-internet-terms"
+    },
+    {
+      "title": "HTML Web Components Make Progressive Enhancement And CSS Encapsulation Easier!",
+      "url": "https://css-tricks.com/html-web-components-make-progressive-enhancement-and-css-encapsulation-easier"
+    },
+    {
+      "title": "The Sneaky Costs of Scaling Serverless",
+      "url": "https://zachleat.com/web/serverless-cost"
+    },
+    {
+      "title": "How Postgres stores data on disk – this one's a page turner",
+      "url": "https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk"
+    },
+    {
+      "title": "Learn Web Components",
+      "url": "https://learn-wcs.com/"
+    },
+    {
+      "title": "Y'all are sleeping on HTTP/3",
+      "url": "https://kmcd.dev/posts/yall-are-sleeping-on-http3"
+    }
+  ],
+  "sponsor": null
+}

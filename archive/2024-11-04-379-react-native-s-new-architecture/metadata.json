@@ -1,0 +1,104 @@
+{
+  "issueNumber": 397,
+  "title": "React Native's New Architecture",
+  "slug": "2024-11-04-379-react-native-s-new-architecture",
+  "date": "2024-11-04",
+  "templateType": "mce-mailchimp",
+  "intro": "Hey there, developers! 🎃\nWelcome to this week’s edition of the FullStack Bulletin! With Halloween behind us we don’t need to code any scary web experiences anymore! Instead, let’s focus on building amazing projects that impress and inspire.\nWe’ve curated some fantastic resources for you this week, from the exciting updates in React Native’s architecture to practical tips for shrinking your Git repository size. Each new insight you gain brings you one step closer to mastering your craft, so let’s embrace this journey together and keep pushing the boundaries of what we can create! 🚀Happy full-stack coding! 💻\n— Your scary editor, [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "The art challenges the technology, and the technology inspires the art“",
+    "author": "John Lasseter",
+    "authorTitle": "Director",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_Lasseter"
+  },
+  "links": [
+    {
+      "title": "React Native's New Architecture",
+      "url": "https://reactnative.dev/blog/2024/10/23/the-new-architecture-is-here",
+      "description": "Exciting changes are rolling out in the React Native world, and if you’re a full-stack developer occasionally building mobile apps you might love this! The new React Native architecture (rolled out in v0.76) promises a more streamlined experience for both developers and users, focusing on a modular design that improves speed, adaptability, and scalability across platforms.",
+      "imageUrl": "./1b5c88fbb8a5395b8bbf15235b9a42c2aa7089d56287c3b65a12976880810e67.jpg",
+      "featured": true
+    },
+    {
+      "title": "How we shrunk our Javascript monorepo git size by 94%",
+      "url": "https://jonathancreamer.com/how-we-shrunk-our-git-repo-size-by-94-percent",
+      "description": "Keeping your Git repository lightweight can be a real challenge, especially as projects scale and teams grow. Jonathan Creamer shares a practical, in-depth look at how his team managed to shrink their Git repo size by an impressive 94% (from 178GB to 5GB)! For full-stack developers dealing with bloated repos or long clone times, this post offers actionable techniques and tools for reducing repo size without sacrificing essential history.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Understanding npm audit and fixing vulnerabilities",
+      "url": "https://niraj.life/blog/understanding-npm-audit-fixing-vulnerabilities-nodejs",
+      "description": "Security vulnerabilities in Node.js applications can feel like an ever-present threat, but tools like `npm audit` offer ways to stay ahead. Niraj's guide dives into how to make the most of `npm audit` to identify and fix vulnerabilities, making it an invaluable read for anyone committed to secure, stable code.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Headless, boneless, skinless & lifeless UI",
+      "url": "https://nerdy.dev/headless-boneless-and-skinless-ui",
+      "description": "UI abstractions are always evolving, and Nerdy Dev dives into some of the most interesting ones, even giving them playful names—think \"skinless,\" \"boneless,\" and \"lifeless\" components! This article explores how these lightweight, highly customizable abstractions differ from the \"fully loaded\" libraries (like Chakra, ShadCN, Radix, or MUI) and why they might make sense for developers wanting ultimate flexibility. I loved this read; it’s the first time I’ve seen UI toolkits categorized in such a unique way! It’s perfect for anyone aiming to build a modular design system that’s tailored to their own logic and style.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "CSS Triggers",
+      "url": "https://css-triggers.com/",
+      "description": "CSS Triggers is a powerful piece of documentation that breaks down how different CSS properties interact with browser rendering, detailing their effects across the key rendering phases: Layout, Paint, and Composite. It’s a must-read for anyone looking to optimize their CSS. Did you know, for example, that changing `z-index` in WebKit can alter an element’s geometry, potentially shifting other elements and requiring a layout update? Covering Blink (Chromium), Gecko (Firefox), and WebKit (Safari), this resource offers a deep dive into performance considerations for all major browsers.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Nix explained from the ground up",
+      "url": "https://youtube.com/watch?v=5D3nUU1OVx8",
+      "description": "Are you curious about Nix and how it enables software to be built in a completely deterministic way? Lately, I’ve been trying to get into Nix myself, and let me tell you, it’s been a bit of a rocky journey. However, I’ve come across what I believe is the best video on the topic so far. It explains Nix from the ground up with clear and sensible examples, covering everything from its origins to core concepts like builtins, paths, derivations, and even NixOS. If you’re looking to learn Nix to automate your environments, standardize your deployments, or for countless other reasons, this video is a fantastic place to start!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "vizzu",
+      "url": "https://lib.vizzuhq.com/latest",
+      "description": "Vizzu is an exciting library packed with tools to help you create engaging interactive visualizations. If you’re dealing with complex datasets and want to present your information in a clear and dynamic way, this library is a fantastic option. It offers a user-friendly interface along with powerful features that can be tailored to fit your specific needs.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems",
+    "author": "Martin Kleppmann",
+    "description": "Data is at the center of many challenges in system design today. Difficult issues need to be figured out, such as scalability, consistency, reliability, efficiency, and maintainability. In addition, we have an overwhelming variety of tools, including relational databases, NoSQL datastores, stream or batch processors, and message brokers. What are the right choices for your application? How do you make sense of all these buzzwords? In this practical and comprehensive guide, author Martin Kleppmann helps you navigate this diverse landscape by examining the pros and cons of various technologies for processing and storing data. Software keeps changing, but the fundamental principles remain the same. With this book, software engineers and architects will learn how to apply those ideas in practice, and how to make full use of data in modern applications.",
+    "coverImageUrl": "./df3d8a2772fadc77d4a39343e02de90d990f2bd082e84cb971374cb38bb84a55.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449373321?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449373321?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "HTML Form Validation is heavily underused",
+      "url": "https://expressionstatement.com/html-form-validation-is-heavily-underused"
+    },
+    {
+      "title": "How to create a React Dropdown",
+      "url": "https://robinwieruch.de/react-dropdown"
+    },
+    {
+      "title": "Next.js 15 + React 19",
+      "url": "https://ui.shadcn.com/docs/react-19"
+    },
+    {
+      "title": "snow-fall: A web component to add snow to your web site (or to an element on your web site).",
+      "url": "https://github.com/zachleat/snow-fall"
+    },
+    {
+      "title": "Making content-aware components using CSS :has(), grid, and quantity queries",
+      "url": "https://piccalil.li/blog/making-content-aware-components-using-css-has-grid-and-quantity-queries"
+    },
+    {
+      "title": "Re-implementing JavaScript's == in JavaScript",
+      "url": "https://evanhahn.com/re-implementing-javascript-double-equals-in-javascript"
+    },
+    {
+      "title": "Eliminate the IAM User (AWS Bites podcast)",
+      "url": "https://awsbites.com/134-eliminate-the-iam-user/"
+    }
+  ],
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 326,
+  "title": "A Complete Visual Guide to Understanding the Node.js Event Loop",
+  "slug": "2023-06-26-312-a-complete-visual-guide-to-understanding-the-node-js-event-l",
+  "date": "2023-06-26",
+  "templateType": "old-mailchimp",
+  "intro": "🏃‍♂️ 🏃‍♀️ 🏃 Join us as we keep improving the automation code behind Fullstack Bulletin [live on Twitch](https://twitch.tv/loige). We also have the recordings from our previous sessions [on YouTube](https://www.youtube.com/playlist?list=PLbNOKnE-Oyr1tsUft4j0QZDyk5iFcVVy_).",
+  "quote": {
+    "text": "There are two ways to write error-free programs; only the third one works",
+    "author": "Alan J. Perlis",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_J._Perlis"
+  },
+  "links": [
+    {
+      "title": "A Complete Visual Guide to Understanding the Node.js Event Loop",
+      "url": "https://builder.io/blog/visual-guide-to-nodejs-event-loop",
+      "description": "You've been working with Node.js for a while. You've built some apps, played around with different modules, and even gotten comfortable with asynchronous programming. But there's something that's been nagging at you — the event loop. It's not an easy one to grasp, so let's take this amazing article and let's dive in!",
+      "imageUrl": "./bf7d1ef82db2162597ac40028fc1a17a43c46bd9ec746d425f8c619d8fd6d8db.jpg",
+      "featured": true
+    },
+    {
+      "title": "Designing a Scalable Backend in Node.js",
+      "url": "https://blog.appsignal.com/2023/06/07/designing-a-scalable-backend-in-nodejs.html",
+      "description": "Let's examine three scaling challenges for a Node.js app and see how you can avoid them. Specifically this article covers logins (and bursty workloads), failed transactions and slow transactions. A really interesting article if you have built a Node.js app and you are about to go to production. It might be a great opportunity to give it another review under a different lens!",
+      "imageUrl": "./174db2b1aff4d81a7f27cd0534fd63f992d9598f2486b713bfb33516e99f26f0.jpg",
+      "featured": false
+    },
+    {
+      "title": "Panda CSS",
+      "url": "https://panda-css.com/",
+      "description": "We never get tired of exploring new ways to write CSS, let's be honest about that... What Panda proposes is a new way to write CSS-inJS using a build-time type-safe approach. This is a project from the same author of ChackraUI and just by looking at the website, you can tell they put a lot of effort into this project!",
+      "imageUrl": "./9a058e55f524f8e7aceaea9e5db82fa5f5cc6c6fe1abb0e64c4644ea7b705fcb.png",
+      "featured": false
+    },
+    {
+      "title": "An introduction to debugging in Node.js",
+      "url": "https://blog.openreplay.com/an-introduction-to-debugging-in-nodejs",
+      "description": "Another article aiming at strengthening your Node.js skills. This time it is about debugging. How to debug your Node.js server code? This article presents a series of well-illustrated techniques to ramp up your debugging game!",
+      "imageUrl": "./2a77e235702889edd2b8090433b44fc7d1c3ef8648dce948283e4b89e3b55d37.jpg",
+      "featured": false
+    },
+    {
+      "title": "Creating a tilt effect with React",
+      "url": "https://www.julienthibeaut.xyz/blog/create-tilt-effect-with-react",
+      "description": "This is a relatively new design trend on the web: images that when hovered tilt slightly in the 3D space depending on the position of the mouse. Have you ever wondered how to recreate this particular effect? In this article, you can learn how to do exactly that using **React**!",
+      "imageUrl": "./9fa29e04a126194cdc16bd12cd65b3f9c687c74f22c6ecb89ee15c9a47c12429.png",
+      "featured": false
+    },
+    {
+      "title": "Computer Science self-study program",
+      "url": "https://github.com/Lesabotsy/bootcamp",
+      "description": "An awesome repository that aims to be the point of reference for finding material to self-study all the basics of Computer Science. Regardless if you are a Computer Science graduate or a self-taught programmer, in this repo you'll definitely find some noteworthy material.",
+      "imageUrl": "./c6474be2396633c35920c5fe1b451ba56fece6caabeafc904d7285ae27417345.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Difference Between Root Certificate Authorities, Intermediates, and Resellers",
+      "url": "https://agwa.name/blog/post/roots_intermediates_and_resellers",
+      "description": "Behind the scenes of secure websites and digital certificates lies a complex web of entities. When incidents involving SSL certificate providers occur, doubts about the entire certificate authority system arise. Let's unravel the differences between certificate authorities, root CAs, intermediates, and resellers, so you can navigate the digital landscape confidently.",
+      "imageUrl": "./050b608a7e478e3be0d9357798d8de3b99713e26392555af8b4d70d11f625eb3.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Angular 2: From Theory To Practice",
+    "author": "Asim Hussain",
+    "description": "In this quickstart you'll get a 50,000 foot view of the major features of Angular 2 including: Typescript & ES6 Javascript, Components & Binding, Directives, Dependancy Injection & Services, Angular Modules & Bootstrapping your Angular application., SPAs & Routing, Angular CLI, Forms, Reactive Programming with RXJs, HTTP and finally Unit Testing.",
+    "coverImageUrl": "./42ae68e2ba03e04a5972b7f48fcbb414c89e74b4747aae1715503d876e99f3df.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01N9S0CZN/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01N9S0CZN/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

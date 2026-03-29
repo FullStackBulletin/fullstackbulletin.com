@@ -1,0 +1,75 @@
+{
+  "issueNumber": 233,
+  "title": "Processing CPU-intensive Jobs in Node.js",
+  "slug": "2021-10-25-233-processing-cpu-intensive-jobs-in-node-js",
+  "date": "2021-10-25",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #42, 2021",
+  "quote": {
+    "text": "It would appear that we have reached the limits of what it is possible to achieve with computer technology, although one should be careful with such statements, as they tend to sound pretty silly in 5 years",
+    "author": "John Von Neumann",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/John_von_Neumann"
+  },
+  "links": [
+    {
+      "title": "Processing CPU-intensive Jobs in Node.js",
+      "url": "https://dev.to/eunovo/processing-cpu-intensive-jobs-in-nodejs-5epd",
+      "description": "CPU intensive work will block the Node.js event loop, so it's not a great thing to do in Node.js. But what if you really have to do some CPU intensive work? This article explores the `worker_threads` module and how it can be used to offload CPU intensive work to another thread, so that our event loops does not get blocked.",
+      "imageUrl": "./fac5582f06f88b8a22962b4968564a0bd95e4b91d3eec3028e39e62a4b971dda.jpg",
+      "featured": true
+    },
+    {
+      "title": "Solving CLS Issues In A Next.js-Powered Website",
+      "url": "https://smashingmagazine.com/2021/10/nextjs-ecommerce-cls-case-study",
+      "description": "Cumulative Layout Shift (CLS) is one of the hardest core web vital to debug. In this article, we go through different tools to investigate CLS, when to use them (and when not), and solutions to some of the CLS issues we faced in our Next.js-based e-commerce website.",
+      "imageUrl": "./442a2b41ff1c5b71f063fb64f9838a67b04c0157368d25dd382829270e613f2a.jpg",
+      "featured": false
+    },
+    {
+      "title": "JAMstack Developers’ Favorite Frameworks of 2021",
+      "url": "https://css-tricks.com/jamstack-developers-favorite-frameworks-of-2021",
+      "description": "Which new framework should I learn this year? Is it time to ditch my CMS? What tools should I pick up if I want to scale my site? In this developer survey you can learn what are the web technologies most loved by JAMStack developers.",
+      "imageUrl": "./b691623714a5ef6ad9fddbf562a1f81622a4b620033c629da870e022a7bf914a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Best practices for using third-party embeds",
+      "url": "https://web.dev/embed-best-practices",
+      "description": "This article discusses performance best practices that you can use when loading third-party embeds, efficient loading techniques and the Layout Shift Terminator tool that helps reduce layout shifts for popular embeds.",
+      "imageUrl": "./1b78357cd0849d5c85975edd1c9c848d929335ce4cb9818119a5ef4a3ff03e65.jpg",
+      "featured": false
+    },
+    {
+      "title": "Huge List of Database Benchmark",
+      "url": "http://kokizzu.blogspot.com/2019/04/huge-list-of-database-benchmark.html",
+      "description": "If you love databases and performance benchmarks in this article you can see an in-depth comparison between several different distributed databases.",
+      "imageUrl": "./bf4c93f3b681b5963bda2bd374e529123f0c1d88dd5a1a638f3d6e9794563a8b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Are you releasing as often as you can?",
+      "url": "https://medium.com/@eugenserbanescu/are-you-releasing-as-often-as-you-can-ee38f2206562",
+      "description": "Releasing software often is a good thing and it can improve the quality of your work and the dynamics within your teams. In this article you can find a more in-depth analysis of this idea.",
+      "imageUrl": "./bb4b0bea94049372535b06065315f3daf7b8c16485e8466c2d81090dc28bdd93.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to cancel an HTTP request in Node.js",
+      "url": "https://simonplend.com/how-to-cancel-an-http-request-in-node-js",
+      "description": "It's now possible to properly cancel an HTTP request in Node.js. Let's learn how the Abort API can help us.",
+      "imageUrl": "./a939f950c17b69885b8be439675c51e9488f2ffee70fac558491684c6f3c7f22.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "React.js Essentials",
+    "author": "Artemij Fedosejev",
+    "description": "A fast-paced guide to designing and building scalable and maintainable web apps with React.js. Begin by exploring how you can create single and multiple user interface elements. Create stateless and stateful components and make them reactive, learn to interact between your components and lifecycle methods and gauge how to effectively integrate your user interface components with other JavaScript libraries. Delve deep into the core elements of the Flux architecture and learn how to manage your application using stores. Finish by going that extra mile with the Jest test framework, running multiple tests on your application and find solutions to scale it further without complexity.",
+    "coverImageUrl": "./eb95347c1c0e80dbd4676f9526e1a8610c6ada33f97b47b2a0d06ce514d88632.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1783551623/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1783551623/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

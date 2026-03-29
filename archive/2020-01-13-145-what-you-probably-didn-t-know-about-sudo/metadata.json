@@ -1,0 +1,75 @@
+{
+  "issueNumber": 145,
+  "title": "What You Probably Didn’t Know About Sudo",
+  "slug": "2020-01-13-145-what-you-probably-didn-t-know-about-sudo",
+  "date": "2020-01-13",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #2, 2020",
+  "quote": {
+    "text": "Any sufficiently advanced technology is equivalent to magic",
+    "author": "Arthur C. Clarke",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Arthur_C._Clarke"
+  },
+  "links": [
+    {
+      "title": "What You Probably Didn’t Know About Sudo",
+      "url": "https://aster.cloud/2019/12/17/what-you-probably-didnt-know-about-sudo",
+      "description": "Sudo is not just a simple administrative tool for most Linux and BSD based systems, there is a lot more to it. This article explores some interesting sudo capabilities that you might not be aware of.",
+      "imageUrl": "./ed85bab103a73d6d15e86e1fe9240b7f5e0faa43c8fba2814c2be79daccb5cb5.jpg",
+      "featured": true
+    },
+    {
+      "title": "aceakash/string-similarity",
+      "url": "https://github.com/aceakash/string-similarity",
+      "description": "A JavaScript library that allows you to find the degree of similarity between two strings. The algorithm is based on Dice's Coefficient, which is mostly better than Levenshtein distance.",
+      "imageUrl": "./12b00bf8b5e5df9695911ba75e4ac00e9b29c1203f0d528b7a5c992f6fc0c658.jpg",
+      "featured": false
+    },
+    {
+      "title": "Memory Leaks Demystified",
+      "url": "http://nodesource.com/blog/memory-leaks-demystified",
+      "description": "Tracking down memory leaks in Node.js has been a recurring topic, and this article explores it in great detail.",
+      "imageUrl": "./c56f16fdea775568720f4c19b2ffeec5563a9fd6bc34bd3888cceae252f287ac.jpg",
+      "featured": false
+    },
+    {
+      "title": "Writing AWS Lambda Functions in Rust",
+      "url": "https://silentbyte.com/writing-aws-lambda-functions-in-rust",
+      "description": "This article is intended to serve as a guide on how to write serverless AWS Lambda Functions in the Rust programming language and how to deploy them onto Amazon Web Services.",
+      "imageUrl": "./4241ac053712fe6e7e2977d3c83f0e1e221e0eb92cd77a6c765a70629ec93d71.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using easing for more than just CSS transitions",
+      "url": "https://kilianvalkhof.com/2020/css-html/using-easing-for-more-than-just-css-transitions",
+      "description": "We can define easing curves for the transitions and animations on our websites to give them a more natural and subtle feel. But it’s not just animations that benefit from easing curves. Let's see a couple of examples...",
+      "imageUrl": "./e741bb120025227e075640658585b2a8011b73e59466d386ff8880b3855dd146.png",
+      "featured": false
+    },
+    {
+      "title": "Building a BitTorrent client from the ground up in Go",
+      "url": "https://blog.jse.li/posts/torrent",
+      "description": "What is the complete path between visiting thepiratebay and sublimating an mp3 file from thin air? In this post, we'll implement enough of the BitTorrent protocol in Go and use it to download a Debian image.",
+      "imageUrl": "./70d2f72d6323d1529a35fd1ee565cb2d5eb5b82faf901a9ff20352b210e01e79.png",
+      "featured": false
+    },
+    {
+      "title": "Understanding filesystem takeover vulnerabilities in npm",
+      "url": "https://snyk.io/blog/understanding-filesystem-takeover-vulnerabilities-in-npm-javascript-package-manager",
+      "description": "On the 11th of December, 2019  a security vulnerability which extends to all major JavaScript package managers (npm, yarn and pnpm) was publicly disclosed. Learn how it works and what to do to keep yourself safe.",
+      "imageUrl": "./102bec2a586901ab2bc942f74b2386af619e649de20d1395bf9c6b0253752a2f.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Fluent Python: Clear, Concise, and Effective Programming",
+    "author": "Luciano Ramalho",
+    "description": "Python’s simplicity lets you become productive quickly, but this often means you aren’t using everything it has to offer.  With this hands-on guide, you’ll learn how to write effective, idiomatic Python code by leveraging its best—and possibly most neglected—features.",
+    "coverImageUrl": "./30290ce19e65a7fffc72aab6893578a1fc0008018337e91d311736d9b587c8fe.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491946008/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491946008/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 115,
+  "title": "A SQL parser in Go",
+  "slug": "2019-06-17-115-a-sql-parser-in-go",
+  "date": "2019-06-17",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #24, 2019",
+  "quote": {
+    "text": "First learn computer science and all the theory.  Next develop a programming style.  Then forget all that and just hack",
+    "author": "George Carrette",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/George_Charrette"
+  },
+  "links": [
+    {
+      "title": "A SQL Parser in Go",
+      "url": "https://marianogappa.github.io/software/2019/06/05/lets-build-a-sql-parser-in-go/",
+      "description": "This article aims to be the simplest introduction to constructing an LL(1) parser in Go, in this case for parsing SQL queries. It assumes minimal programming competence (functions, structs, ifs and for-loops).",
+      "imageUrl": "./96ed6fbef712b5cf1116552cd6106f193c205f4fca8743c52a08c3e09504242c.png",
+      "featured": true
+    },
+    {
+      "title": "The concept of Micro-frontends",
+      "url": "https://martinfowler.com/articles/micro-frontends.html",
+      "description": "Scaling frontend development so that many teams can work simultaneously on a large and complex product is hard. This article describes a recent trend of breaking up frontend monoliths into many smaller, more manageable pieces, and how this architecture can increase the effectiveness and efficiency of teams working on frontend code.",
+      "imageUrl": "./8b74f2f49c3902cbcc31af0ff8f800cc398c6dac09cc5af17277d70b95c34fb0.png",
+      "featured": false
+    },
+    {
+      "title": "Extract critical CSS",
+      "url": "https://web.dev/extract-critical-css",
+      "description": "Learn how to improve render times with critical CSS technique and how to choose the best tool for your project.",
+      "imageUrl": "./81f36303ac2d0be2ecb6c552a5e2ee8d7e68d3192ab6d60d1fdbcf8d6da44ba9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Urql v1.0",
+      "url": "https://formidable.com/blog/2019/urql-2019",
+      "description": "A minimalist GraphQL client which recently matured to v1.0. Definitely worth checking out if you are looking for a small and simple but powerful client to query your GraphQL backends.",
+      "imageUrl": "./d986c6d1217bf63c963d323d35805e1f03ef279d7cdd077adb5895241b7c7f2a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Non-Relational Databases and Mixed Workloads",
+      "url": "http://scotch.io/bar-talk/non-relational-databases-and-supporting-mixed-workloads",
+      "description": "Suppose that you’re building an e-commerce platform and as part of the exercise, you need to come up with a new data architecture for inventory management. You need to support fast, transactional workloads to actually keep track of inventory in near real-time.",
+      "imageUrl": "./324e3a81a76dd985798c79eba5d173bd405b8a1f3c048566916b1e400566a205.jpg",
+      "featured": false
+    },
+    {
+      "title": "Top Programming Languages 2019: Python, Go and TypeScript Keep Rising",
+      "url": "https://codingsans.com/blog/top-programming-languages-2019",
+      "description": "Coding Sans collected the data for the top programming languages 2019, and we're sharing all the valuable insight in the state of software development.",
+      "imageUrl": "./c4356c8653bd78df8bdd48a69e4b454a01f0c6d0107eb631a8fba332948425bc.jpg",
+      "featured": false
+    },
+    {
+      "title": "React Data Survival Kit",
+      "url": "https://ponyfoo.com/articles/react-data-survival-kit",
+      "description": "Learn how to handle data inside of React with this collection of patterns for fetching, storing, and retrieving data in React.",
+      "imageUrl": "./16359f50a90e3023139458e17ed26c2f4925dec7e05d6c7cfb6f63204dd807d2.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Self-Taught Programmer: The Definitive Guide to Programming Professionally",
+    "author": "Cory Althoff",
+    "description": "This book is not just about learning to program; although you will learn to code. If you want to program professionally, it is not enough to learn to code; that is why, in addition to helping you learn to program, it also covers the rest of the things you need to know to program professionally that classes and books don't teach you.",
+    "coverImageUrl": "./0d26611bf9dd58f18784b3d3fcf7f9dc3df28576b928cd220faae5debef9813e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01M01YDQA/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01M01YDQA/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

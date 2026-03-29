@@ -1,0 +1,75 @@
+{
+  "issueNumber": 208,
+  "title": "Say Hello To CSS Container Queries",
+  "slug": "2021-04-26-208-say-hello-to-css-container-queries",
+  "date": "2021-04-26",
+  "templateType": "old-mailchimp",
+  "intro": "Make the keys to everything you do online easier and safer. Stop resetting passwords and filling out forms. Try Dashlane on your first device for free [here](https://www.dashlane.com/fullstackbulletin).",
+  "quote": {
+    "text": "The real danger is not that computers will begin to think like men, but that men will begin to think like computers",
+    "author": "Sydney Harris",
+    "authorTitle": "Journalist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Sydney_Harris"
+  },
+  "links": [
+    {
+      "title": "Say Hello To CSS Container Queries",
+      "url": "http://ishadeed.com/article/say-hello-to-css-container-queries",
+      "description": "Let's learn about how CSS container queries work with lots of examples and use-cases. This new addition to CSS has the power to revolutionize the way frontend components can adapt to all sorts of different scenarios!",
+      "imageUrl": "./7e7f8d09d64d28994f7e1d8949961429e37f6d2b4917de4071d053031aec5654.jpg",
+      "featured": true
+    },
+    {
+      "title": "How often do people actually copy and paste from Stack Overflow?",
+      "url": "https://stackoverflow.blog/2021/04/19/how-often-do-people-actually-copy-and-paste-from-stack-overflow-now-we-know",
+      "description": "April Fool's may be over, but once we set up a system to react every time someone typed Command+C, we realized there was also an opportunity to learn about how people use our site. Here’s what we found.",
+      "imageUrl": "./ff8ded6db0f0ae01e03d905cad19d0de6c8613360683bad7bca0c34f519fa55e.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Complete Guide To HTML Email",
+      "url": "https://smashingmagazine.com/2021/04/complete-guide-html-email-templates-tools",
+      "description": "Recently we’ve covered CSS generators, SVG generators and accessible front-end components. This time we look into HTML email, with tools, templates and guides for designers and developers.",
+      "imageUrl": "./51e9120f7fbb5c6d004ec8cd5863f2a7010bd147b14e0ff63a15b07885576a23.jpg",
+      "featured": false
+    },
+    {
+      "title": "Practical Guide to Cybersecurity",
+      "url": "https://go.dashlane.com/eBook-Guide-to-Cybersecurity-with-a-PWM.html",
+      "description": "Implementing a password manager into your cybersecurity plans empowers your employees to do their part in keeping company data secure.\nIn this guide, we discuss the simple steps you can take to improve cybersecurity in your organization and maintain the cyberhealth of your business and its people, partners, services and products. sponsored",
+      "imageUrl": "./c05c2d154e79c4dd5f7ca37052e04a99aa339b0f5279312fa6f18f3325174426.png",
+      "featured": false
+    },
+    {
+      "title": "How to actually test UIs",
+      "url": "https://storybook.js.org/blog/how-to-actually-test-uis",
+      "description": "Testing UIs is awkward. Users expect frequent releases packed with features. But every new feature introduces more UI and new states that you then have to test. Every testing tool promises “easy, not flaky, fast”, but has trade-offs in the fine print. In thist article you will find testing techniques used by leading engineering teams!",
+      "imageUrl": "./be4b3b6312a5160f31d9f1e8132463b567bc36e9fa5a100824f0d6fa086bda1f.png",
+      "featured": false
+    },
+    {
+      "title": "OAuth 2.0 flows explained in GIFs",
+      "url": "https://dev.to/hem/oauth-2-0-flows-explained-in-gifs-2o7a",
+      "description": "OAuth 2.0 is possibly the most important authentication protocol on the web these days... It is certainly important for a full-stack developer to understand it in depth!\n\nIn this post, we will be covering all OAuth 2.0 flows using GIFs that are simple and easier to understand.",
+      "imageUrl": "./26cc2757be083b76431ff9ad46c365d6ff026c3e2855900bb05e38413d60267c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Comparing the New Generation of Build Tools",
+      "url": "https://css-tricks.com/comparing-the-new-generation-of-build-tools",
+      "description": "A bunch of new developer tools have landed in the past year and they are biting at the heels of the tools that have dominated front-end development over the last decade. Should you be interested in these new tools? Yes, and here's why!",
+      "imageUrl": "./306bf6bf3c0c52fd1adce4a610215718792fabf003df9bb1397f2bc864ed9a8f.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Web Scraping with Python: Collecting Data from the Modern Web",
+    "author": "Ryan Mitchell",
+    "description": "Learn web scraping and crawling techniques to access unlimited data from any web source in any format. With this practical guide, you’ll learn how to use Python scripts and web APIs to gather and process data from thousands—or even millions—of web pages at once. Ideal for programmers, security professionals, and web administrators familiar with Python, this book not only teaches basic web scraping mechanics, but also delves into more advanced topics, such as analyzing raw data or using scrapers for frontend website testing.",
+    "coverImageUrl": "./3b1c651ba95d78b7e56b9d061b654489f967bb664b283d5be64ac9f029b88bec.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B00ZJNH0G0/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B00ZJNH0G0/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

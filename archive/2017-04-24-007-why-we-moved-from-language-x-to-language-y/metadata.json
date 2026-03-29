@@ -1,0 +1,68 @@
+{
+  "issueNumber": 7,
+  "title": "Why we moved from language X to language Y",
+  "slug": "2017-04-24-007-why-we-moved-from-language-x-to-language-y",
+  "date": "2017-04-24",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #16, 2017",
+  "quote": {
+    "text": "The real danger is not that computers will begin to think like men, but that men will begin to think like computers",
+    "author": "Sydney Harris",
+    "authorTitle": "Journalist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Sydney_Harris"
+  },
+  "links": [
+    {
+      "title": "Why we moved from language X to language Y",
+      "url": "https://erikbern.com/2017/03/15/the-eigenvector-of-why-we-moved-from-language-x-to-language-y.html",
+      "description": "In case you ever thought \"Someone should make a N*N contingency table of all engineering blog posts titled *Why we moved from X  to Y*\".",
+      "imageUrl": "./f74f4c6e0db8234c16572c2e3a39d34933eefc3bdae247ecf30bcb994ae621ea.png",
+      "featured": true
+    },
+    {
+      "title": "Guetzli: A New Open Source JPEG Encoder",
+      "url": "https://research.googleblog.com/2017/03/announcing-guetzli-new-open-source-jpeg.html",
+      "description": "Introducing Guetzli, a new open source JPEG compressor that produces smaller image file sizes without sacrificing quality.",
+      "imageUrl": "./3f07ec95f5d87fa344054278a2bf3c49e22c912f43cc317dc03468ae139ce262.jpg",
+      "featured": false
+    },
+    {
+      "title": "It's Time To Start Using CSS Custom Properties",
+      "url": "https://smashingmagazine.com/2017/04/start-using-css-custom-properties",
+      "description": "CSS custom properties are opening new horizons for web development. They look and work like CSS variables, and the way they work is reflected in their name.",
+      "imageUrl": "./c3aad2c91e4b56eccd2606b6f015125a4465629ece3e1c561f805bb4ed1c6f2a.jpg",
+      "featured": false
+    },
+    {
+      "title": "The New Web Typography",
+      "url": "https://robinrendle.com/essays/new-web-typography",
+      "description": "How should we go about making typographic laws, rules and guidelines for the web?",
+      "imageUrl": "./9893d4d2227f2468ddddb4ac0138902e3560b64e7fd5e7aa0a48d7c0a835c04f.png",
+      "featured": false
+    },
+    {
+      "title": "A Complete Guide to CSS Grid",
+      "url": "https://tympanus.net/codrops/css_reference/grid",
+      "description": "Learn everything about the CSS Grid Module in this illustrated guide with practical examples and demos. A Codrops CSS Reference entry by Hui Jing Chen.",
+      "imageUrl": "./97ce23d740d0e1c590af57951bcc18ced33cfcc7652e4cc8e044785504b01391.jpg",
+      "featured": false
+    },
+    {
+      "title": "Which Responsive Design Framework Is Best?",
+      "url": "https://smashingmagazine.com/2017/03/which-responsive-design-framework-is-best",
+      "description": "Which framework should we be using, and why? Also, should we be using the whole framework or just parts of it? Find out in this article.",
+      "imageUrl": "./34d3bad840045ce13e2ef39c7000c72295a75ae15278dc25bcc79d0b91540f8b.jpg",
+      "featured": false
+    },
+    {
+      "title": "The rules of responsive web typography",
+      "url": "http://creativebloq.com/how-to/the-rules-of-responsive-web-typography",
+      "description": "Discover the principles and systems you need to know to take the mystery out of responsive web typography.",
+      "imageUrl": "./87d2dff22c7938cf9ce59873fca3852ecbb65fc50506f79e4a31e64ec8bb1ad0.jpg",
+      "featured": false
+    }
+  ],
+  "book": null,
+  "additionalLinks": null,
+  "sponsor": null
+}

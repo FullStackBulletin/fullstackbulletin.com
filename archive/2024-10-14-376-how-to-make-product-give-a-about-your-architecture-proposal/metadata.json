@@ -1,0 +1,112 @@
+{
+  "issueNumber": 394,
+  "title": "How to make Product give a 💩 about your architecture proposal",
+  "slug": "2024-10-14-376-how-to-make-product-give-a-about-your-architecture-proposal",
+  "date": "2024-10-14",
+  "templateType": "mce-mailchimp",
+  "intro": "Hey, \nGet ready to supercharge your skills with this week’s newsletter! We’re diving into how to make your architecture proposals resonate with product teams, ensuring your tech voice is heard loud and clear. Plus, explore the exciting future of Vite and how void(0) will reshape JavaScript tooling with the power of Rust.\nDon’t miss our look at WebAssembly's game-changing potential for high-performance web apps, and check out Oops.js for adding seamless undo/redo functionality to your projects.\nAlso, be sure to explore the Online JWT Cracker for your security testing needs and SkellyCSS, the fun lightweight framework perfect for your Halloween-themed loading screens. Finally, TypeScript 5.7 Beta is out, packed with features to enhance your development experience.\nLet’s jump in and keep pushing the boundaries of what’s possible!\n\n— Your editor, [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "This is the whole point of technology. It creates an appetite for immortality on the one hand. It threatens universal extinction on the other. Technology is lust removed from nature“",
+    "author": "Don DeLillo",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Don_DeLillo"
+  },
+  "links": [
+    {
+      "title": "How to make Product give a 💩 about your architecture proposal",
+      "url": "https://gieseanw.wordpress.com/2024/10/09/how-to-make-product-give-a-shit-about-your-architecture-proposal",
+      "description": "In full stack development, mastering the art of working with product teams can be one of the most valuable skills in a technical team's toolkit. **Andrew Giesemann** addresses the often-overlooked challenge of aligning technical needs with product priorities. Giesemann provides practical strategies to help you navigate this critical skill—one that can influence not only technical outcomes but the overall success of your projects.",
+      "imageUrl": "./af164462a003dfb8ba36e62e0e35fc0cd4b3c1d04883f1692b100ea759612d27.jpg",
+      "featured": true
+    },
+    {
+      "title": "Vite and the Future of JavaScript Tooling",
+      "url": "https://youtube.com/watch?v=EKvvptbTx6k",
+      "description": "I’m super excited to see this work happening! Not only does [Evan You](https://evanyou.me/) dive deep into the details of how [*void(0)*](https://voidzero.dev/) will evolve [Vite](https://vite.dev/), but this new tooling also involves a lot of Rust—one of my favorite languages lately. In this video, Evan explains how they’re addressing Vite’s current flaws and building it into the future engine for web development. If you’ve been following the announcement like I have, this video is packed with valuable insights directly from Evan, giving a clearer picture of the path forward.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Wasm is the new CGI",
+      "url": "https://roborooter.com/post/wasm-is-the-new-cgi",
+      "description": "This article dives into how WebAssembly (WASM) is changing the landscape of web development by enabling native-like performance and unlocking new possibilities for both frontend and backend work. Even though WASM adoption has been slow, I’m sure it will play a fundamental role in the future of the Web. The piece does a great job explaining why this technology is poised to become a game-changer, especially for high-performance applications and more complex web functionality.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "🤭 Oops.js: undo/redo capabilities for your app",
+      "url": "https://github.com/HeyPuter/Oops.js",
+      "description": "Oops.js is a powerful library that brings industry-leading undo/redo capabilities to your applications, similar to what's found in software like Figma, Photoshop, and Visual Studio Code. For fullstack developers, this opens up exciting possibilities—whether you're building a simple text editor or a complex design tool, Oops.js makes it easy to add robust, intuitive undo/redo functionality. If you’re working on applications that require seamless user interactions and error correction, this library provides the tools you need to create a user experience that feels polished and professional.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Online JWT Cracker",
+      "url": "https://jwt-cracker.online/",
+      "description": "This web-based tool allows you to brute-force HS256, HS384, or HS512 JWT tokens directly from your browser—no software installation is needed. I'm super happy to see this project come to life, inspired by one of my open-source projects ([jwt-cracker](https://github.com/lmammino/jwt-cracker)). Beyond its practical use for developers needing to test the security of their JWT implementations, the website’s futuristic-techno design stands out. It feels like something straight out of a hacker movie, adding a fun edge to its functionality while offering a sleek user experience. If you're into security testing or love cool web tools, this is worth checking out.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "☠️ skellyCSS: A light-weight CSS framework to implement skeletons",
+      "url": "https://github.com/ritterim/skellyCSS",
+      "description": "SkellyCSS is a lightweight CSS framework that helps you quickly implement skeleton loading screens into your projects. These placeholder elements give users a visual indication that content is loading, improving the overall experience by reducing perceived wait times and layout shift after loading... And with Halloween around the corner, it’s the perfect time to bring out your inner skeleton — because nothing says \"*spook-tacular user experience*\" like a friendly skeleton loading screen!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "TypeScript 5.7 Beta",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-5-7-beta",
+      "description": "This latest version introduces a host of features and improvements designed to enhance the developer experience and streamline code management. From catching never-initialized variables to supporting ES2024 and refining path handling for in-place imports, TypeScript 5.7 aims to empower developers with greater flexibility and efficiency in their projects. Check out this article if you are curious to see the full list of features and some code examples!",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Hands-on Rust: Effective Learning through 2D Game Development and Play",
+    "author": "Herbert Wolverson",
+    "description": "Rust is an exciting new programming language combining the power of C with memory safety, fearless concurrency, and productivity boosters - and what better way to learn than by making games. Each chapter in this book presents hands-on, practical projects ranging from \"Hello, World\" to building a full dungeon crawler game. With this book, you'll learn game development skills applicable to other engines, including Unity and Unreal. Rust is an exciting programming language combining the power of C with memory safety, fearless concurrency, and productivity boosters. With Rust, you have a shiny new playground where your game ideas can flourish. Each chapter in this book presents hands-on, practical projects that take you on a journey from \"Hello, World\" to building a full dungeon crawler game. Start by setting up Rust and getting comfortable with your development environment. Learn the language basics with practical examples as you make your own version of Flappy Bird. Discover what it takes to randomly generate dungeons and populate them with monsters as you build a complete dungeon crawl game. Run game systems concurrently for high-performance and fast game-play, while retaining the ability to debug your program. Unleash your creativity with magical items, tougher monsters, and intricate dungeon design. Add layered graphics and polish your game with style.",
+    "coverImageUrl": "./fc839545e0ce9d054a8e5fd06bd9db03bc2c7e6cb606d0a346f712450d6b9bfd.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680508164?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680508164?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "HTML is for people",
+      "url": "https://htmlforpeople.com/"
+    },
+    {
+      "title": "Tenno: A live editable Markdown editor that lets you add cells like Excel!",
+      "url": "https://tenno.app/"
+    },
+    {
+      "title": "Visualize and process JSON in seconds",
+      "url": "https://json4u.com/"
+    },
+    {
+      "title": "sq: like jq but for databases",
+      "url": "https://sq.io/"
+    },
+    {
+      "title": "Avoiding the Lambda Doom Loop",
+      "url": "https://aaronstuyvenberg.com/posts/lambda-timeout-doom-loop"
+    },
+    {
+      "title": "Deno 2.0",
+      "url": "https://deno.com/blog/v2.0"
+    },
+    {
+      "title": "10+ ECMAScript Proposals",
+      "url": "https://socket.dev/blog/tc39-advances-10-ecmascript-proposals-key-features-to-watch"
+    },
+    {
+      "title": "Building a Single-Page App with htmx",
+      "url": "https://jakelazaroff.com/words/building-a-single-page-app-with-htmx/"
+    },
+    {
+      "title": "Node vs Bun: no backend performance difference",
+      "url": "https://evertheylen.eu/p/node-vs-bun/"
+    }
+  ],
+  "sponsor": null
+}

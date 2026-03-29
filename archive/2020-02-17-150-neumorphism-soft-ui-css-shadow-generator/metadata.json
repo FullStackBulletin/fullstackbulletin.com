@@ -1,0 +1,75 @@
+{
+  "issueNumber": 150,
+  "title": "Neumorphism/Soft UI CSS shadow generator",
+  "slug": "2020-02-17-150-neumorphism-soft-ui-css-shadow-generator",
+  "date": "2020-02-17",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #7, 2020",
+  "quote": {
+    "text": "Technology is a word that describes something that doesn’t work yet",
+    "author": "Douglas Adams",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Douglas_Adams"
+  },
+  "links": [
+    {
+      "title": "Neumorphism/Soft UI CSS shadow generator",
+      "url": "https://neumorphism.io/",
+      "description": "CSS code generator that will help with colors, gradients and shadows to adapt this new design trend or discover its posibilities.",
+      "imageUrl": "./ba236151e97e9a7d3e679eb801cb74d6ab39159fe5fcc2c815f61f49c2d62027.jpg",
+      "featured": true
+    },
+    {
+      "title": "Take 'this' Quiz, Understand How 'this' Works in JavaScript",
+      "url": "https://dev.to/liaowow/take-this-quiz-understand-how-this-works-in-javascript-44dj",
+      "description": "Among all the abstract ideas JavaScript has to offer, the 'this' keyword can be one of the most challenging to understand. This article illustrates the challenges of this concept by presenting few interesting examples.",
+      "imageUrl": "./49b16cb266d1be8e350490feba985db75ba0a809735653564eb0c2056c67cd36.jpg",
+      "featured": false
+    },
+    {
+      "title": "Node.js Async Best Practices & Avoiding Callback Hell",
+      "url": "https://blog.risingstack.com/node-js-async-best-practices-avoiding-callback-hell-node-js-at-scale",
+      "description": "This post covers what tools and techniques you have at your disposal when handling Node.js asynchronous operations. Learn how to avoid the callback hell!",
+      "imageUrl": "./f7eeaf4454fe4bff3c64cf3e6eb7369fbedab6a4b0616ea37ba4164691fb0c7f.jpg",
+      "featured": false
+    },
+    {
+      "title": "CO2 emissions on the web",
+      "url": "https://dannyvankooten.com/website-carbon-emissions",
+      "description": "I’ve spent the last month trying to reduce the carbon footprint of the websites I have (some) control over. When talking about this with other people they often look at me blankly before asking “aren’t you taking this a little too far?”.",
+      "imageUrl": "./0f2c2d98d38a25dae6fe9cb9c1a927a85d343955958f8acd3737af422e193dd6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Design Systems, Agile, and Industrialization",
+      "url": "https://bradfrost.com/blog/post/design-systems-agile-and-industrialization",
+      "description": "There’s a big difference between having smart, reusable patterns at your disposal and creating a dictatorial culture designed to enforce conformity and swat down anyone coloring outside the lines... but you should blame the implementation, not the technique.",
+      "imageUrl": "./0cb0e8a93d8e8c882de4c916ba8c13221a39036ec6c1dd1d14f09742ec6a63d0.jpg",
+      "featured": false
+    },
+    {
+      "title": "React Kawaii",
+      "url": "https://react-kawaii.now.sh/",
+      "description": "Cute React SVG Components that you can really use to make your site more playful and engaging!",
+      "imageUrl": "./ce741753061a2aeefd708c350ca3386cc2f6580e68dcbebc7693d0226a5fd5df.png",
+      "featured": false
+    },
+    {
+      "title": "Performant front-end architecture",
+      "url": "https://debugbear.com/blog/performant-front-end-architecture",
+      "description": "Learn how to make your client-side apps load fast and provide a good user experience.",
+      "imageUrl": "./113bba6515850f210ba9f934f956b17968ea9ed80ce95c221c45f42d93d79fb3.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Big Data: Principles and best practices of scalable realtime data systems",
+    "author": "Nathan Marz",
+    "description": "Big Data teaches you to build big data systems using an architecture that takes advantage of clustered hardware along with new tools designed specifically to capture and analyze web-scale data. It describes a scalable, easy-to-understand approach to big data systems that can be built and run by a small team.",
+    "coverImageUrl": "./f109f576f51b956a93fffd90f2756794ef95a8d46f118a0f1e23f611c7af4a75.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617290343/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617290343/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

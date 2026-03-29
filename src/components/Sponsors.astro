@@ -1,0 +1,62 @@
+---
+import { sponsors } from '../data/site';
+import Icon from './Icon.astro';
+---
+
+<section class="py-16 md:py-24 px-4 md:px-10 bg-black">
+  <div class="max-w-4xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+      <!-- Thank you, readers -->
+      <div>
+        <Icon name="heart" size={32} class="text-brand-primary mb-4" />
+        <h2 class="font-heading text-2xl md:text-3xl font-semibold text-white title-bar mb-8">
+          Thank you, readers and supporters
+        </h2>
+        <div class="space-y-4 text-base md:text-lg text-neutral-light leading-relaxed">
+          <p>
+            Thank you to the thousands of you who opened our emails every week, clicked through the links,
+            sent us messages and suggestions, filled out our feedback forms, and recommended us to sponsors.
+            You kept us going for almost a decade.
+          </p>
+          <p>
+            You have probably been the best part of this trip. Connecting with each and every one of you has
+            surely enriched our lives and made this endeavour worthwhile.
+          </p>
+          <p>
+            Please let's keep in touch even beyond FullStack Bulletin. You can find our contacts <a href="#founders" class="text-brand-primary hover:text-brand-light transition-colors underline underline-offset-2">below</a>.
+          </p>
+        </div>
+      </div>
+
+      <!-- Thank you, sponsors -->
+      <div>
+        <Icon name="users" size={28} class="text-brand-primary mb-4" />
+        <h2 class="font-heading text-2xl md:text-3xl font-semibold text-white title-bar mb-4">
+          Thank you, sponsors
+        </h2>
+        <p class="text-base md:text-lg text-neutral-light mb-10 leading-relaxed">
+          Running a newsletter for nearly a decade isn't free. These companies believed in what we were doing
+          and helped us keep the lights on. We're genuinely grateful for their support and we encourage you
+          to check them out.
+        </p>
+        <div class="grid grid-cols-3 md:grid-cols-2 gap-8 items-center">
+          {sponsors.map((sponsor) => (
+            <a
+              href={sponsor.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="opacity-70 hover:opacity-100 transition-opacity flex items-center justify-center"
+              title={sponsor.name}
+            >
+              <img
+                src={`/images/sponsors/${sponsor.logo}`}
+                alt={sponsor.name}
+                class="h-10 md:h-12 w-auto max-w-[140px] object-contain"
+              />
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

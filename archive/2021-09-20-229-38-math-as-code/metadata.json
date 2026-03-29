@@ -1,0 +1,75 @@
+{
+  "issueNumber": 229,
+  "title": "#229: Math as code",
+  "slug": "2021-09-20-229-38-math-as-code",
+  "date": "2021-09-20",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Never trust a computer you can’t throw out a window",
+    "author": "Steve Wozniak",
+    "authorTitle": "American inventor & Apple co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Wozniak"
+  },
+  "links": [
+    {
+      "title": "Math as code",
+      "url": "https://github.com/Jam3/math-as-code",
+      "description": "A beautiful cheat-sheet for mathematical notation in code form. A great resource to be able to visualise maths from the perspective of software engineers!",
+      "imageUrl": "./6e18b2afe5d1fe4aea6bbb6ecf5d4999faf980795eb02c078def63c57dd5ad08.jpg",
+      "featured": true
+    },
+    {
+      "title": "Interactive Learning Tools For Front-End Developers",
+      "url": "https://smashingmagazine.com/2021/09/interactive-learning-tools-front-end-developers",
+      "description": "Let's admit it: learning is hard and can be tiring. Gamifying learning is a great way to reduce some of the stress related to learning and it can make the whole experience a lot more enjoyable. This article presents a large collection of interactive coding tools to help you learn CSS, JavaScript, SQL, React, Vim, regular expressions and JAMstack.",
+      "imageUrl": "./aae4d183a093649a0d1ff124d033e9cea19844dfd034873a7a87a199ad7c8512.jpg",
+      "featured": false
+    },
+    {
+      "title": "htmlq: Like jq, but for HTML.",
+      "url": "https://github.com/mgdm/htmlq",
+      "description": "Did you ever need to extract some information from a webpage using a quick command line command? Well maybe you didn't because you didn't think it was possible or that it was too complicated... Now you can use htmlq, a command line tool that works pretty much like jq, but for HTML.",
+      "imageUrl": "./20604f775d338b4efe681031441eabdfb6a411838ed75f39577663b1128dea4d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Web Scraping with Javascript and Node.js - ZenRows",
+      "url": "https://zenrows.com/blog/web-scraping-with-javascript-and-nodejs",
+      "description": "Learn how to build a web scraper with Javascript and Node.js. Add anti-blocking techniques, a headless browser, and parallelize requests with a queue.",
+      "imageUrl": "./e4e15d2e5624d34176bdab3d5a901ea762d79e0f078af0c896e1503b06d2af0f.jpg",
+      "featured": false
+    },
+    {
+      "title": "gobang — access databases from the CLI",
+      "url": "https://github.com/TaKO8Ki/gobang",
+      "description": "A cross-platform TUI database management tool written in Rust. It can be particularly useful if you want a quick way to explore a remote databases from a bastion host or a private network where you only have CLI access.",
+      "imageUrl": "./1fb5a0f0a18d642a8aebb4409fb0cbfce4ed5f31acae575480d6dcffe2453107.jpg",
+      "featured": false
+    },
+    {
+      "title": "Writing Well-Documented Code - Learn from Examples",
+      "url": "https://codecatalog.org/2021/09/04/well-documented-code.html",
+      "description": "How to document code is always a highly debated topic. Some think that code should be self descriptive, other have a series of tips to add documentation here and there. This article tries to provide an interesting take on the topic by giving a number of interesting example of how to write well documented code.",
+      "imageUrl": "./74654798ca0a1b92694a3e0334eb90b1d2b3867e7d9cef948c8e0006fae792a0.jpg",
+      "featured": false
+    },
+    {
+      "title": "So you want to mock an API?",
+      "url": "https://getsynth.com/docs/blog/2021/09/07/mocking-a-production-api",
+      "description": "This blog post is an overview of a 5 day prototyping journey building a mock API.",
+      "imageUrl": "./e712d5aaf277d97446ac2220df8ebf22cff2c4574d0a8bfc6fc341b46e124880.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elasticsearch: The Definitive Guide: A Distributed Real-Time Search and Analytics Engine",
+    "author": "Clinton Gormley",
+    "description": "Whether you need full-text search or real-time analytics of structured data—or both—the Elasticsearch distributed search engine is an ideal way to put your data to work. This practical guide not only shows you how to search, analyze, and explore data with Elasticsearch, but also helps you deal with the complexities of human language, geolocation, and relationships. If you’re a newcomer to both search and distributed systems, you’ll quickly learn how to integrate Elasticsearch into your application.",
+    "coverImageUrl": "./2ddcf691a406ca14d2511a89ef30ae08a29fa1c50fa8de58d3b1506180ab6520.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358543/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449358543/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

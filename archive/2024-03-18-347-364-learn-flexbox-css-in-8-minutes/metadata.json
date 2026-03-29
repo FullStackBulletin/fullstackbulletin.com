@@ -1,0 +1,116 @@
+{
+  "issueNumber": 364,
+  "title": "#364: Learn Flexbox CSS in 8 minutes",
+  "slug": "2024-03-18-347-364-learn-flexbox-css-in-8-minutes",
+  "date": "2024-03-18",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, *|LIST:NAME|*\nWelcome to issue #364, my dear full-stack friend!\n\nHere we are with another issue full of amazing content. I especially loved the featured one! If you have been struggling with **flexbox**, I am sure you'll love it! And, as usual, there's a lot more to keep you inspired and to tell you what's going on in the beautiful world of full-stack web development! Enjoy\n\n— Luciano",
+  "quote": {
+    "text": "The only way to learn a new programming language is by writing programs in it“",
+    "author": "Dennis Ritchie",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+  },
+  "links": [
+    {
+      "title": "Learn Flexbox CSS in 8 minutes (video)",
+      "url": "https://youtube.com/watch?v=phWxA89Dy94",
+      "description": "I love Flexbox, but I have to be honest and admit I always struggle a little bit to come up with the right set of CSS properties to achieve what I want to achieve. Only after watching this video, I realised that this was the case because I didn't really have a correct mental model for Flexbox and I wasn't too familiar with some of the nuances that come with combining certain properties. If you feel like you also struggle with Flexbox or simply want to have a nice recap on how they work, this video is definitely worth 8 minutes of your time!",
+      "imageUrl": "./c7bdfb1df30f608ef57387806b5bb1cc47a406bf95b10ad305f909caa67257ea.jpg",
+      "featured": true
+    },
+    {
+      "title": "Gallery of error 404 page designs",
+      "url": "https://www.404s.design/",
+      "description": "404 pages, where joy and errors meet! If you want to know how much care was put into the design of a website, there's no better place to look than on the 404 error page! This website is an inspiration gallery, collecting hundreds and hundreds of astonishing designs for 404 pages! Definitely worth having a quick look to gather some inspirations for your next web project... Or maybe to renew your personal website... that's maybe what I should do. Speaking of which, what do you think about [my website 404 page](https://loige.co/404)?",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "JPEG XL and the Pareto Front",
+      "url": "https://cloudinary.com/blog/jpeg-xl-and-the-pareto-front",
+      "description": "Version 0.10 of libjxl, the reference implementation for JPEG XL, has just been released. The main improvement this version brings is that the so-called “streaming encoding” API has now been fully implemented. This API allows encoding a large image in “chunks.” Instead of processing the entire image at once, which may require a significant amount of RAM if the image is large, the image can now be processed in a more memory-friendly way. Is this going to be the future of images on the web? We will see!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Scalar: Beautiful API docs from OpenAPI",
+      "url": "https://github.com/scalar/scalar",
+      "description": "BA fantastic open-source project that can help you to build beautiful API references starting from your OpenAPI definition. If you want to quickly check out what the final result might look like, they have an [interactive demo page online](https://docs.scalar.com/swagger-editor) where you can copy-paste your API spec or start with the usual pet store example. I really like their design, but the feature that I love the most is the section that generates snippets for curl and for many different programming languages and HTTP clients.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The quiet, pervasive devaluation of frontend",
+      "url": "https://joshcollinsworth.com/blog/devaluing-frontend",
+      "description": "Something that I have been noticing lately talking with some customers during my consulting work is that many of them would say phrases such as *\"Yeah, it's just a piece of UI\"* or *\"Don't worry about the frontend, that's easy\"*, etc... I thought it was only my perception, but it looks like I am not alone. This article brings another scary perspective on how the industry is diminishing the value (and the efforts) of creating good frontends.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The faster Lambda runtime: NodeJS or LLRT? We benchmarked",
+      "url": "https://learnaws.io/blog/node-vs-llrt",
+      "description": "We already spoke about LLRT in a previous issue, but if you missed it, it is a Low Latency Runtime for AWS Lambda built with **QuickJS** & **Rust**. Can it replace Node.js for serverless? LLRT reduces your Lambda cost by 2x, and cold start by 10x. Let's look at some benchmarks, but let's not forget to look at the feature tradeoffs too!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Techniques to Break Words",
+      "url": "https://adrianroselli.com/2024/02/techniques-to-break-words.html",
+      "description": "How can you break words on the web? There are a few different CSS properties and layouts you can combine to achieve different effects. This article offers extensive guidance and even an interactive playground. It might sound like an unimportant topic, but it can have a significant effect on your designs, especially if you need to support multiple languages, including Right-to-Left ones.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Introduction to Algorithms, Third Edition (International Edition)",
+    "author": "Thomas H. Cormen",
+    "description": "Some books on algorithms are rigorous but incomplete; others cover masses of material but lack rigor. Introduction to Algorithms uniquely combines rigor and comprehensiveness. The book covers a broad range of algorithms in depth, yet makes their design and analysis accessible to all levels of readers. Each chapter is relatively self-contained and can be used as a unit of study. The algorithms are described in English and in a pseudocode designed to be readable by anyone who has done a little programming. The explanations have been kept elementary without sacrificing depth of coverage or mathematical rigor.",
+    "coverImageUrl": "./ada166c15107ba9d6c6eec0fcaaef5daa371a0f2d5e3550a7ea6e624aed90770.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0262533057/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0262533057/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "S3 is files, but not a filesystem",
+      "url": "https://calpaterson.com/s3.html"
+    },
+    {
+      "title": "Creating color palettes with the CSS color-mix() function",
+      "url": "https://developer.mozilla.org/en-US/blog/color-palettes-css-color-mix"
+    },
+    {
+      "title": "Retrofitting fluid typography",
+      "url": "https://clagnut.com/blog/2428"
+    },
+    {
+      "title": "Supercharge compression efficiency with shared dictionaries",
+      "url": "https://developer.chrome.com/blog/shared-dictionary-compression"
+    },
+    {
+      "title": "Menus, toasts and more with the Popover API, the dialog element, invokers, anchor positioning and @starting-style",
+      "url": "https://frontendmasters.com/blog/menus-toasts-and-more"
+    },
+    {
+      "title": "List of 2024 Leap Day Bugs",
+      "url": "https://codeofmatt.com/list-of-2024-leap-day-bugs"
+    },
+    {
+      "title": "My favourite data structure: The trie",
+      "url": "https://jamesg.blog/2024/01/16/trie"
+    },
+    {
+      "title": "WinterJS 1.0 - a new JavaScript runtime!",
+      "url": "https://wasmer.io/posts/winterjs-v1"
+    },
+    {
+      "title": "Awesome design effects you can achieve using blur wisely (video)",
+      "url": "https://www.youtube.com/watch?v=--4n9c4-h1Y%3Futm_source%3Dfullstackbulletin.com"
+    },
+    {
+      "title": "The landing zone: Managing multiple AWS accounts (podcast)",
+      "url": "https://awsbites.com/118-the-landing-zone-managing-multiple-aws-accounts/"
+    }
+  ],
+  "sponsor": null
+}

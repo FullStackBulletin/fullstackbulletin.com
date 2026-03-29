@@ -1,0 +1,75 @@
+{
+  "issueNumber": 242,
+  "title": "How to win at CORS",
+  "slug": "2021-12-27-242-how-to-win-at-cors",
+  "date": "2021-12-27",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #51, 2021",
+  "quote": {
+    "text": "It's still magic even if you know how it's done",
+    "author": "Terry Pratchett",
+    "authorTitle": "Writer",
+    "authorUrl": "https://en.wikipedia.org/wiki/Terry_Pratchett"
+  },
+  "links": [
+    {
+      "title": "How to win at CORS",
+      "url": "https://jakearchibald.com/2021/cors",
+      "description": "CORS (Cross-Origin Resource Sharing) is hard. It's hard because it's part of how browsers fetch stuff, and that's a set of behaviours that started with the very first web browser over thirty years ago. Since then, it's been a constant source of development; adding features, improving defaults, and papering over past mistakes without breaking too much of the web. In this article you can learn the 'how' and 'why' of CORS, from start to finish!",
+      "imageUrl": "./77eae7025bd8f3df708e962ee029288e17d4e085dde6ac7eb2689236f57f8b6f.jpg",
+      "featured": true
+    },
+    {
+      "title": "Deep-copying in JavaScript using structuredClone",
+      "url": "https://web.dev/structured-clone",
+      "description": "For the longest time, you had to resort to workarounds and libraries to create a deep copy of a JavaScript value. The Platform now ships with `structuredClone()`, a built-in function for deep-copying.",
+      "imageUrl": "./a55a44b079f9b4e755771b962904034925753803838fd22b65070b9f920161fd.jpg",
+      "featured": false
+    },
+    {
+      "title": "Implementing RSA in Python from Scratch (Part 1)",
+      "url": "https://coderoasis.com/implementing-rsa-from-scratch-in-python",
+      "description": "I'm sure many programmers, particularly web developers have heard of the RSA cryptography system. RSA is an asymmetric cryptography system, meaning that one key is used for encryption and the other for decryption. Sometimes building is the best way to learn something and with this article you can learn how to build RSA from scratch using Python.",
+      "imageUrl": "./f398fd5add3e044efec870c0773bf3edc1072ebe2885f36934f2058c74fe521d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Top Docker alternatives for 2022",
+      "url": "https://blog.logrocket.com/top-docker-alternatives-2022",
+      "description": "Explore seven of the top alternatives to Docker in 2022 for building, running, and distributing container images.",
+      "imageUrl": "./7bfbc4f90b2da3bba3f13b03819209d5f4bc5036e07eb80e1e5025ede24fca16.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to Use the .github Repository",
+      "url": "https://freecodecamp.org/news/how-to-use-the-dot-github-repository",
+      "description": "GitHub supports a special folder called `.github` in every repo. You can put files with a particular name and format in this folder to enable some cool behaviours in your repository: build pipelines, contribution guidelines, and much more!",
+      "imageUrl": "./85e69776695d1b1c40d0b6dde1d4dab54ad3b0f34a2eb10b9df6ca7867704abf.jpg",
+      "featured": false
+    },
+    {
+      "title": "UNO CSS",
+      "url": "https://unocss.antfu.me/",
+      "description": "UNO CSS is an interesting younger alternative to TailwindCSS that is designed with flexibility and performance in mind. In UnoCSS, there are no core utilities; all functionalities are provided via presets. Check it out if you want to try something new in this space.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Starting a Prisma + TypeScript Project",
+      "url": "https://sabinadams.hashnode.dev/starting-a-prisma-typescript-project",
+      "description": "With such a rich selection of ORMs out there, choosing which one to use for your JavaScript-based project can be tough. If you are using TypeScript, you might be interested in Prisma and this article is the first one of a series dedicated to Prisma and TypeScript, a great resource to get started with these technologies.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "SQL Pocket Guide: A Guide to SQL Usage",
+    "author": "Jonathan Gennick",
+    "description": "If you're a programmer or database administrator who uses SQL in your day-to-day work, this popular pocket guide is the ideal on-the-job reference. You'll find many examples that address the language's complexity, along with key aspects of SQL used in IBM DB2 Release 9.7, MySQL 5.1, Oracle Database 11g Release 2, PostgreSQL 9.0, and Microsoft SQL Server 2008 Release 2. SQL Pocket Guide describes how these database systems implement SQL syntax for querying, managing transactions, and making changes to data. It also shows how the systems use SQL functions, regular expression syntax, and type conversion functions and formats.",
+    "coverImageUrl": "./35a5ca46259353653af886e2e2f8fc5d46ab2919392341b928656ba9804d943e.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449394094/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449394094/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

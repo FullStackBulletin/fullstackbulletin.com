@@ -1,0 +1,75 @@
+{
+  "issueNumber": 300,
+  "title": "Thirteen Years of Go",
+  "slug": "2022-11-21-287-thirteen-years-of-go",
+  "date": "2022-11-21",
+  "templateType": "old-mailchimp",
+  "intro": "300 🎉\n\nThis is issue #300! It has been quite a journey, so let's just celebrate with a \"random\" GIF!",
+  "quote": {
+    "text": "To err is human, but to really foul things up you need a computer",
+    "author": "Paul Ehrlich",
+    "authorTitle": "Physician and scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Paul_Ehrlich"
+  },
+  "links": [
+    {
+      "title": "Thirteen Years of Go",
+      "url": "https://go.dev/blog/13years",
+      "description": "Do you like Go (Google's own programming language)? It's a great language if you ask me but even if you are not a big fan of it, it's still worth remarking that Go is not a 13-year-old language! In this awesome post, Russ Cox (core team) reflects on the Go journey and wishes it a \"Happy Birthday\"!",
+      "imageUrl": "./f28ed3e04441f2f9c135fc7511e22034fe1c4c8943fb0eff9d12c6893377fe22.jpg",
+      "featured": true
+    },
+    {
+      "title": "Python Asyncio: The Complete Guide",
+      "url": "https://superfastpython.com/python-asyncio",
+      "description": "If you thought async/await existed only in JavaScript you are missing out on one of the most interesting recent additions to Python... Asyncio allows us to use asynchronous programming with coroutine-based concurrency in Python. Although asyncio has been available in Python for many years now, it remains one of the most under utilized features of the language. So check this our if you write any Python!",
+      "imageUrl": "./90aad768a95ee97ea069000a225146d360e2fd376c5bf5e59a87816c6a4b3c98.jpg",
+      "featured": false
+    },
+    {
+      "title": "Jamstack Community Survey Results 2022",
+      "url": "https://jamstack.org/survey/2022",
+      "description": "If you like to build static websites as much as I do, you should check out the Jamstack community survey result for this year. It's interesting because it doesn't just highlight the trends in the world of static websites but covers also more generic trends in terms of employment and where the world of web development is going. Yes, WordPress is still one of the most used tools to build websites... 🤷‍♀️",
+      "imageUrl": "./a278c4a31f87b48033878ea83fc7303d4d7ec925d3bd50c657ab3fa256c09203.jpg",
+      "featured": false
+    },
+    {
+      "title": "Experiments with Astro and the Shared Element Transition API",
+      "url": "https://maxiferreira.com/blog/astro-page-transitions",
+      "description": "This article presents a fantastic transition effect that you can achieve while transitioning between pages in a Astro website. Quite a clever trick for a multi-page application (MPA) framework like Astro...",
+      "imageUrl": "./ba38187c10ae2b1723c2fb9dbeae09d7851a58061016afecb55cc8953b032891.jpg",
+      "featured": false
+    },
+    {
+      "title": "Server-side rendering micro-frontends",
+      "url": "https://aws.amazon.com/blogs/compute/server-side-rendering-micro-frontends-the-architecture",
+      "description": "Our good friend [Luca Mezzalira](https://twitter.com/lucamezzalira), architect at AWS and worldwide expert on Micro-frontends, wrote an awesome post that highlights an architecture that you could be using on AWS to host and serve micro-frontends at scale. This is actually the first post of a series. The next post will explore the UI composer and micro-frontend discovery implementations.",
+      "imageUrl": "./bbf696ffb5df1d59062d03f2b62267882a3ab49411d9b75e78b19ddf3116e0e9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Inside the mind of a frontend developer: Hero section",
+      "url": "http://ishadeed.com/article/inside-frontend-developer-mind-hero-section",
+      "description": "How does a web frontend developer (and designer) think about the hero section of a new website? [Ahmad Shadeed](https://twitter.com/shadeed9), whose articles we have been featuring many times, explores this idea with an excellent tutorial that you should rely on when building your next hero section!",
+      "imageUrl": "./136bcea4a217dde6cfaa75943db3b19e350e2f69587b15a0d05f5eb2854d7819.jpg",
+      "featured": false
+    },
+    {
+      "title": "34 Must Know Terms for Embedded Rust Newbies",
+      "url": "https://apollolabsblog.hashnode.dev/34-must-know-terms-for-embedded-rust-newbies",
+      "description": "I think at this point it's no secret that I really enjoy Rust... But I do know very little about embedded computing. So I found this blog post very fascinating and great for an intro level to the world of embedded... I know it's not strictly web dev related, but we have to step out of our comfort zone sometimes and love to learn foreign things...",
+      "imageUrl": "./5b35d6733e814c3d51633724bf10636a26b5154d79c583c3006ee9925cfc539a.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Mastery",
+    "author": "Andy Budd",
+    "description": "Fully updated to the latest CSS modules, make the journey to CSS mastery as simple and painless as possible. This book dives into advanced aspects of CSS-based design, such as responsive design, modular CSS, and CSS typography. Through a series of easy-to-follow tutorials, you will learn practical CSS techniques you can immediately start using in your daily work.",
+    "coverImageUrl": "./513cab7982483119d4449542560da5b139ad8ff61b1c9e3b7d2904bd9a602db5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1430258632/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1430258632/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 128,
+  "title": "Usage Share of Internet Browsers from 1996",
+  "slug": "2019-09-16-128-usage-share-of-internet-browsers-from-1996",
+  "date": "2019-09-16",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #37, 2019",
+  "quote": {
+    "text": "Never trust a computer you can’t throw out a window",
+    "author": "Steve Wozniak",
+    "authorTitle": "American inventor & Apple co-founder",
+    "authorUrl": "https://en.wikipedia.org/wiki/Steve_Wozniak"
+  },
+  "links": [
+    {
+      "title": "Usage Share of Internet Browsers from 1996",
+      "url": "https://reddit.com/r/dataisbeautiful/comments/cxuah9/usage_share_of_internet_browsers_1996_2019_oc",
+      "description": "A mind-bogging animation that shows the \"browser war\" for market share from 1996 to these days. Really interesting to see how trends have been shifting and if you have been around the dev block for a while, you might have some nice feeling watching this.",
+      "imageUrl": "./fa710733adbd666dca788b1e60aebb0e5868e225802cf44b58cafd51325a8ad1.jpg",
+      "featured": true
+    },
+    {
+      "title": "Cytoscape.js",
+      "url": "https://js.cytoscape.org/",
+      "description": "A fanstastic graph theory and network library for analysis and visualisation - compatible with CommonJS/Node.js/Browserify/Webpack, AMD/Require.js, npm, Bower, jspm, Meteor/Atmosphere, jQuery, and plain JS/JavaScript!",
+      "imageUrl": "./c4356c8653bd78df8bdd48a69e4b454a01f0c6d0107eb631a8fba332948425bc.jpg",
+      "featured": false
+    },
+    {
+      "title": "A beginner's guide to scrollytelling",
+      "url": "https://webflow.com/blog/scrollytelling-guide",
+      "description": "Discover how to tell a compelling and dynamic story using the full power of web design.",
+      "imageUrl": "./9ee3ab03d36449725da549b4d0c9574ad8ebf601763d11d76c987de59fe8de32.jpg",
+      "featured": false
+    },
+    {
+      "title": "Stop Infinite Scrolling on Your Website",
+      "url": "https://hackernoon.com/stop-infinite-scrolling-on-your-website-now-ie6rg31eu",
+      "description": "Do people love infinite scrolling on the websites they visit or are theyfine with clicking on ‘Read more’ or ‘View more?’ Infinite scrolling eliminatesthe need for pagination which is the process of separating digital content into different pages. Here’s my view on infinite scrolling and why it is a…",
+      "imageUrl": "./bfcacdfffb6918ca529c67389f948f43324931306250569f3b9b92ddf3a9dc76.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building in-app notification system in React Native",
+      "url": "https://medium.com/@vadimkorr/building-in-app-notification-system-in-react-native-96efd478ef31",
+      "description": "Notifications are one of the most important parts of any application. In this article, I want to share the experience of implementing a reliable and good looking notification system leveraging written in React Native.",
+      "imageUrl": "./b837362de7387e546e61be9f05dda2d829bff86c089c7f536342bf0b00618885.jpg",
+      "featured": false
+    },
+    {
+      "title": "Build a JS Interpreter in JavaScript Using Acorn as a Parser",
+      "url": "https://blog.bitsrc.io/build-a-js-interpreter-in-javascript-using-acorn-as-a-parser-5487bb53390c",
+      "description": "Learn how the JS engine works by building your own JS interpreter — in JS.",
+      "imageUrl": "./1a3e88d75a70643407c43c0ac4535cddffef3e00862c8f458da536c6770ba2e7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Fix the slow render before you fix the re-render",
+      "url": "https://kentcdodds.com/blog/fix-the-slow-render-before-you-fix-the-re-render",
+      "description": "How to start optimizing your React app renders focusing on what's important.",
+      "imageUrl": "./be31254c3f4c55c22b94edf1e93bb75e039c5ca45d68eef654b8a41682efbbd2.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Elasticsearch: The Definitive Guide: A Distributed Real-Time Search and Analytics Engine",
+    "author": "Clinton Gormley",
+    "description": "Whether you need full-text search or real-time analytics of structured data—or both—the Elasticsearch distributed search engine is an ideal way to put your data to work. This practical guide not only shows you how to search, analyze, and explore data with Elasticsearch, but also helps you deal with the complexities of human language, geolocation, and relationships. If you’re a newcomer to both search and distributed systems, you’ll quickly learn how to integrate Elasticsearch into your application.",
+    "coverImageUrl": "./2ddcf691a406ca14d2511a89ef30ae08a29fa1c50fa8de58d3b1506180ab6520.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449358543/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449358543/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

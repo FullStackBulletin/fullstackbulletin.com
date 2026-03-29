@@ -1,0 +1,75 @@
+{
+  "issueNumber": 290,
+  "title": "Peter Eckersley, founder of Let's Encrypt, dies at 43",
+  "slug": "2022-09-12-277-peter-eckersley-founder-of-let-s-encrypt-dies-at-43",
+  "date": "2022-09-12",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Code generation, like drinking alcohol, is good in moderation",
+    "author": "Alex Lowe",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alex_Lowe"
+  },
+  "links": [
+    {
+      "title": "😢 Peter Eckersley, founder of Let's Encrypt, dies at 43",
+      "url": "https://techspot.com/news/95870-peter-eckersley-tech-activist-founder-encrypt-dies-43.html",
+      "description": "Just a couple of weeks ago I wrote a tweet saying that [Letsencrypt has been one of the best innovations of the latest decade and that it should get more credit](https://twitter.com/loige/status/1565313039884320769?s=21&t=0E_-IFuf51qQH4zB_Um5Pw)… little did I know that Peter Eckersley, Letsencrypt founder, was about to pass away 😢… Peter is not one of the most well-known names in the computer industry, but his contribution to modern internet and technology are notable, so it’s only fair to read a bit about him and discover what he has accomplished!",
+      "imageUrl": "./34dcbc190fed1a317d63a3f4ebcc281de4ebf6fe0795e9f85f37a7e0c031e65b.jpg",
+      "featured": true
+    },
+    {
+      "title": "IdreesInc/Monocraft: A programming font based on the typeface used in Minecraft",
+      "url": "https://github.com/IdreesInc/Monocraft",
+      "description": "If you are looking for a new and original programming font to impress your colleagues in your next pairing session, seek no more! Monocraft is a programming font based on the typeface used in Minecraft. I am thinking to use it in one of my [next streams](https://twitch.tv/loige)…",
+      "imageUrl": "./abbbe6e2e06cd60665dfb2ea01b22307ea7fad0eba3ec119748c876ac7c0684c.jpg",
+      "featured": false
+    },
+    {
+      "title": "uncino: Fast, hooks system for Javascript and Node.js",
+      "url": "https://github.com/riktar/uncino",
+      "description": "Uncino is a fast, tiny and solid hooks system for Javascript and Node.js. When do you need something like this? When you are writing code that might need to be extended in ways you might not foresee or when you are writing a library that needs to expose some kind of plugin interface.",
+      "imageUrl": "./f706d9f02a8e919400bf4f94a9ca3c3761c9d87630945c13f12e5bfe73fb0c2e.jpg",
+      "featured": false
+    },
+    {
+      "title": "4 Ways to Minimize Your Dependencies in Node.js",
+      "url": "https://blog.appsignal.com/2022/08/31/4-ways-to-minimize-your-dependencies-in-nodejs.html",
+      "description": "Less dependencies generally means faster and safer applications! So, let's dive into four methods to minimize your Node.js code!",
+      "imageUrl": "./f9f847845082858e573ec27cab7a29778f2be383f5631aaf3e1721c9c198f546.jpg",
+      "featured": false
+    },
+    {
+      "title": "So your designer wants stuff to overlap",
+      "url": "https://chenhuijing.com/blog/so-your-designer-wants-stuff-to-overlap",
+      "description": "Overlapping content can be tricky to achieve in web design with CSS. This article explores a few different techniques that can help you if you are trying to implement a design with overlapping content.",
+      "imageUrl": "./fcae74f1386ea418ab9408f58bbbfe0908ca61bc8d1042109a345e0ead92c662.jpg",
+      "featured": false
+    },
+    {
+      "title": "Installing and running Node.js bin scripts",
+      "url": "https://2ality.com/2022/08/installing-nodejs-bin-scripts.html",
+      "description": "The package.json property \"bin\" lets an npm package specify which shell scripts it provides. If we install such a package, Node.js ensures that we can access these shell scripts (so-called bin scripts). This is how things like the serverless framework install themselves into your system. Are you curious to find out more about this?",
+      "imageUrl": "./f9d0de9efd05617b7601ccc26917ec7af475bad4b94197adbee2693218894785.jpg",
+      "featured": false
+    },
+    {
+      "title": "Adding Social Share Links in Eleventy",
+      "url": "https://raymondcamden.com/2022/08/22/adding-social-share-links-in-eleventy",
+      "description": "A quick example of adding social sharing links to your Eleventy site. If your readers like your (static) content, you can easily allow them to share it on socials!",
+      "imageUrl": "./c8f5f300728ba64ecc949f441933ed317a7b386d69f646fc53d44dde60220252.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "MongoDB: The Definitive Guide: Powerful and Scalable Data Storage",
+    "author": "Kristina Chodorow",
+    "description": "Manage the huMONGOus amount of data collected through your web application with MongoDB. This authoritative introduction—written by a core contributor to the project—shows you the many advantages of using document-oriented databases, and demonstrates how this reliable, high-performance system allows for almost infinite horizontal scalability. This book provides guidance for database developers, advanced configuration for system administrators, and an overview of the concepts and use cases for other people on your project.",
+    "coverImageUrl": "./d98bc829eaad931cbbfe76cf5cddb28b6b469caa0a8f6f508749d164568b6f11.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1449344682/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1449344682/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

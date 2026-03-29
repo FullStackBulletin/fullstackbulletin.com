@@ -1,0 +1,75 @@
+{
+  "issueNumber": 87,
+  "title": "A Complete Guide to Flexbox",
+  "slug": "2018-11-05-087-a-complete-guide-to-flexbox",
+  "date": "2018-11-05",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #44, 2018",
+  "quote": {
+    "text": "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human",
+    "author": "Alan Turing",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Turing"
+  },
+  "links": [
+    {
+      "title": "A Complete Guide to Flexbox",
+      "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox",
+      "description": "This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element (the flex container) and the child elements (the flex items). It also includes history, demos, patterns, and more…",
+      "imageUrl": "./7e70420987338419d30947f1319daa9de5d01560b9358d558d2fbae55669d3ec.png",
+      "featured": true
+    },
+    {
+      "title": "Introducing React Hooks",
+      "url": "https://reactjs.org/docs/hooks-intro.html",
+      "description": "Hooks are a new feature proposal that lets you use state and other React features without writing a class. They’re currently in React v16.7.0-alpha and being discussed in an open RFC.",
+      "imageUrl": "./dfc0bb1a9a5834f01f5808f9ae52d1fd6039a1bdc65f7c0cf8823f7eff4b2a97.png",
+      "featured": false
+    },
+    {
+      "title": "Playing Mortal Kombat with TensorFlow.js",
+      "url": "https://blog.mgechev.com/2018/10/20/transfer-learning-tensorflow-js-data-augmentation-mobile-net",
+      "description": "Did you ever think about combining JavaScript with Machine Learning and Mortal Kombat? Well... somebody actually did and documented this marvellous idea very very well, you should have a look!",
+      "imageUrl": "./0687f764669d7c65102f43862eec397f5c92f659fdd7eccf6c440aabd37b150e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Web Performance 101: JS, CSS, HTTP, images & fonts",
+      "url": "https://3perf.com/talks/web-perf-101",
+      "description": "Learn how (and why) to make your app faster by optimizing JS, CSS, images/fonts and other things.",
+      "imageUrl": "./e82776509a92af3f0f13d2a3609a31f02031ce2fb1ab366770bc8ee6cdfa637c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why Netflix Rolled Its Own Node.js Functions-as-a-Service Runtime",
+      "url": "https://thenewstack.io/why-netflix-rolled-its-own-node-js-functions-as-a-service-runtime",
+      "description": "The New Stack spoke with Yunong Xiao, a software engineer at Netflix and design/architecture lead for the Netflix API Platform, about the company’s experience rolling their own in-house Functions as a Service capabilities.",
+      "imageUrl": "./c4c976f070cbbc6e25d21d996a37a3486c03d503a7452805f65d94d3efbad00c.jpg",
+      "featured": false
+    },
+    {
+      "title": "GraphQL: A success story for PayPal",
+      "url": "https://medium.com/paypal-engineering/graphql-a-success-story-for-paypal-checkout-3482f724fb53",
+      "description": "GraphQL as a complete game changer to the way apps are built at PayPal. This article presents a real use case about the new GraphQL powered checkout experience on the PayPal website.",
+      "imageUrl": "./ce5edee66ef48371c5d0550847d357298133b5c1ceb49c100bfe24f339780671.jpg",
+      "featured": false
+    },
+    {
+      "title": "WebAssembly Threads",
+      "url": "https://developers.google.com/web/updates/2018/10/wasm-threads",
+      "description": "WebAssembly thread support has shipped in Chrome 70 under an origin-trial. This feature will make the web platform even more flexible and powerful!",
+      "imageUrl": "./67337487a3e95d6b84878aaa4215b190433e7b03c754130b7bf591b3a892d0cc.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise",
+    "author": "Martin L. Abbott and Michael T. Fisher",
+    "description": "Writing for technical and nontechnical decision-makers, Abbott and Fisher cover everything that impacts scalability, including architecture, process, people, organization, and technology. Their insights and recommendations reflect more than thirty years of experience at companies ranging from eBay to Visa, and Salesforce.com to Apple. You’ll find updated strategies for structuring organizations to maximize agility and scalability, as well as new insights into the cloud (IaaS/PaaS) transition, NoSQL, DevOps, business metrics, and more. Using this guide’s tools and advice, you can systematically clear away obstacles to scalability–and achieve unprecedented IT and business performance.",
+    "coverImageUrl": "./27758fc426f7d2d06617adef6757d946de680ad0276de90acaaf5ee4c6715d29.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134032802/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134032802/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

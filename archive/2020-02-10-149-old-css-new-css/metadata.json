@@ -1,0 +1,75 @@
+{
+  "issueNumber": 149,
+  "title": "Old CSS, new CSS",
+  "slug": "2020-02-10-149-old-css-new-css",
+  "date": "2020-02-10",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #6, 2020",
+  "quote": {
+    "text": "One machine can do the work of fifty ordinary men.  No machine can do the work of one extraordinary man",
+    "author": "Elbert Hubbard",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Elbert_Hubbard"
+  },
+  "links": [
+    {
+      "title": "Old CSS, new CSS",
+      "url": "https://eev.ee/blog/2020/02/01/old-css-new-css",
+      "description": "An interesting overview of how CSS evolved since the web of the 90's. From table based design and the Space Jam website to Flexbox and CSS Grids through DHTML and the era of CSS hacks. A brilliant read with some nostalgia involved!",
+      "imageUrl": "./b49b587311d6ea884d978e45eb8857dcd943f247b8fde7946daac9f13e4a6f6c.jpg",
+      "featured": true
+    },
+    {
+      "title": "JavaScript Libraries Are Almost Never Updated Once Installed",
+      "url": "https://blog.cloudflare.com/javascript-libraries-are-almost-never-updated",
+      "description": "An analysis, based on CDNJS data, of when and if JavaScript libraries are updated after being installed onto websites.",
+      "imageUrl": "./ac0f353f628db2896516d799d71ba55e8837e9139a0ae698cb864f2456255efa.jpg",
+      "featured": false
+    },
+    {
+      "title": "Design Systems 101: What, Why, & How | Adobe XD Ideas",
+      "url": "https://xd.adobe.com/ideas/principles/design-systems/introduction-to-design-systems",
+      "description": "Learn how to get started with design systems. Based on internal Adobe research & interviews with experts & designers working on design systems.",
+      "imageUrl": "./ae13fd1c4411748353f7dc3f2ee23b47bc72eb823a0dd552d76c0c842eab06ef.jpg",
+      "featured": false
+    },
+    {
+      "title": "Standards for Writing Accessibly",
+      "url": "https://alistapart.com/article/standards-for-writing-accessibly",
+      "description": "In this excerpt from Writing Is Designing, Michael J. Metts and Andy Welfle discuss critical accessibility considerations for content authors, including reading order, references to additional content and colors.",
+      "imageUrl": "./a9a0a38b7ab5d6a879e1591f3bab3e7dd6afc996fdade72a2fc8c3f355c4ac3a.jpg",
+      "featured": false
+    },
+    {
+      "title": "A new technique for making responsive, JavaScript-free charts",
+      "url": "https://dev.to/richharris/a-new-technique-for-making-responsive-javascript-free-charts-gmp",
+      "description": "There are countless libraries for generating charts on the web. Each serves a slightly different niche, but all of them have one thing in common: they require JavaScript. Here's a JavaScript-less alternative!",
+      "imageUrl": "./63948592232b3b6db1d51d1182fb0f752a65c911104ed3afe9c5ddb127d730bc.jpg",
+      "featured": false
+    },
+    {
+      "title": "React Libraries in 2020",
+      "url": "https://robinwieruch.de/react-libraries",
+      "description": "A comprehensive list of all the relevant React libraries used in 2020. If you are new to React, its ecosystem may be overwhelming at first. However, all these React libraries offer everything you need to build large scale applications with React.",
+      "imageUrl": "./ffbed61db268b8a41d0bef12c92916710a6ba3b2788fc1f3f86c57463ab4a81a.jpg",
+      "featured": false
+    },
+    {
+      "title": "HTML attributes to improve your users' two factor authentication experience",
+      "url": "https://twilio.com/blog/html-attributes-two-factor-authentication-autocomplete",
+      "description": "Learn how to use the HTML autocomplete, inputmode and pattern attributes to improve the user experience of logging in.",
+      "imageUrl": "./997bf5b645198bc5c99fc8c4b8c1fd46bbb49730d0a6550718c3423db6850da0.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "E. Gamma, R. Helm, R. Johnson, J. Vlissides",
+    "description": "Capturing a wealth of experience about the design of object-oriented software, four top-notch designers present a catalog of simple and succinct solutions to commonly occurring design problems. Previously undocumented, these 23 patterns allow designers to create more flexible, elegant, and ultimately reusable designs without having to rediscover the design solutions themselves.",
+    "coverImageUrl": "./3d2f9c2ee1c817b2dcd3443fbb6f71d7fcb0499b00de983a9ffe8f8c6058fa29.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0201633612/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0201633612/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

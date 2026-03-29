@@ -1,0 +1,104 @@
+{
+  "issueNumber": 366,
+  "title": "Trix: A rich text editor for everyday writing",
+  "slug": "2024-04-01-349-trix-a-rich-text-editor-for-everyday-writing",
+  "date": "2024-04-01",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello, \nWelcome to issue #366!\n\nIf you missed the announcement in our latest issue, I am trying to gather as much feedback as possible on this newsletter to see what can we do to make it more useful to you. If you would like to share your opinion, please [consider filling this quick **feedback** form](https://fstack.link/lets-make-it-better), I'd really appreciate it! ❤️\n\nIn other news, last week I had the pleasure to attend RustNation UK and meet the lovely Rust community (unsurprisingly you'll see some Rust material in this issue!). I presented a workshop about using **AWS Lambda** with **Rust**, two topics I have been passionate about for the last few years. If that's something you are curious about, [my slides are available online, so go check them out](https://loige.link/lambda-nation-24)!\n\nAmong other awesome people, I had the pleasure of meeting [Ben Wishovic](https://benw.is/), one of the main contributors to **[Leptos](https://leptos.dev/)**, an ambitious project that allows you to build full-stack web projects completely in Rust (yes, even the frontend). If you are into Rust, or just thinking to learn it, you should check it out!\n\nNow, let's get to some cool full-stack content 👇\n\n— Your editor, [Luciano](https://loige.co/)!",
+  "quote": {
+    "text": "We shall do a much better programming job, provided we approach the task with a full appreciation of its tremendous difficulty, provided that we respect the intrinsic limitations of the human mind and approach the task as very humble programmers“",
+    "author": "Alan Turing",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Turing"
+  },
+  "links": [
+    {
+      "title": "Trix: A rich text editor for everyday writing",
+      "url": "https://trix-editor.org/",
+      "description": "Compose If you are building some kind of Admin UI for a CMS or just need your users to input formatted text, I recently discovered Trix: an interesting WYSIWYG editor for the web by 37Signals, the creator of Basecamp and Ruby on Rails. I haven't played with it too much, but from a few quick tests, it seems powerful enough for most use cases and relatively easy to integrate.",
+      "imageUrl": "./bdc82b800b4948b38891b23938b522b5bc5d0bb1877f494ee410b3a84ff7e451.png",
+      "featured": true
+    },
+    {
+      "title": "The Unreasonable Effectiveness of Inlining CSS",
+      "url": "https://strikingloo.github.io/inlining-css",
+      "description": "There are so many friggin' ways, frameworks, and philosophies to do CSS these days. The most bare-bone way I can think about is ignoring CSS files completely and writing raw inline style attributes in all your HTML markup. This is probably going to be very hard to maintain by hand, so it's probably not a great idea. But what about performance? Isn't this approach going to bloat our pages? Well maybe, but it turns out that there might be some unexpected performance benefits in adopting this approach...",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Why choose async/await over threads?",
+      "url": "http://notgull.net/why-not-threads",
+      "description": "As a software engineer with significant experience with JavaScript I got used to the idea of async and I have a high-level understanding of why it can be convenient for IO-intensive applications. This article explores this topic from the perspective of a very experienced Rust developer and it tries to compare the async approach with the multi-threaded approach. Even though you might not be interested in Rust, this is a great read to understand better what kind of tradeoffs we are adopting when we use async programming.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Web component extensions to the standard <time> element",
+      "url": "https://github.com/github/relative-time-element",
+      "description": "Do you have users that might adopt your product from different timezones? Have you thought it might be convenient to display any date in the user-specific timezone? How can we do that in a very easy way? Well, you can use this simple (yet effective) open-source web component!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "What You Need to Know about Modern CSS",
+      "url": "https://frontendmasters.com/blog/what-you-need-to-know-about-modern-css-spring-2024-edition",
+      "description": "CSS is ever-evolving. Especially in the last few years! The amount of stuff that has been coming out might have been somewhat hard to keep up with. This article does a great job at summarising the main things that you should absolutely know and that you can already adopt in your web projects!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "JavaScript Visualized - Promise Execution",
+      "url": "https://lydiahallie.framer.website/blog/promise-execution",
+      "description": "This guide covers some of the inner workings of Promises in the JavaScript language. It explores how they leverage concepts like the Microtask Queue and Event Loop to enable non-blocking async code. The best part is that it provides some great visualizations that can help a ton to build a good mental model for these concepts.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Setting And Persisting Color Scheme Preferences",
+      "url": "https://smashingmagazine.com/2024/03/setting-persisting-color-scheme-preferences-css-javascript",
+      "description": "There are many ways to approach a “Dark Mode” feature that respects a user’s system color scheme preferences and allows for per-site customization. And it's tricky to get the switch right. If you don't do it correctly you'll risk having that annoying flash of unstyled content that your users might hate! In this article, you walk through a new possibility that leans into cutting-edge CSS, with minimal JavaScript to support persisting the user’s color scheme preference across pages.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Principles of Beautiful Web Design",
+    "author": "Jason Beaird, Alex Walker, and James George",
+    "description": null,
+    "coverImageUrl": "./6a5be59995a1a1b2ba344538fb7d39eac70ba05b09cb1e75db08b66ad57f04ef.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1925836363?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1925836363?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "CSS color-scheme-dependent colors with light-dark()",
+      "url": "https://web.dev/articles/light-dark"
+    },
+    {
+      "title": "magick.css",
+      "url": "https://css.winterveil.net/"
+    },
+    {
+      "title": "Radix Themes 3.0",
+      "url": "https://radix-ui.com/blog/[slug]"
+    },
+    {
+      "title": "Spicing up text with text-emphasis in CSS",
+      "url": "https://amitmerchant.com/spicing-up-text-with-text-emphasis-in-css"
+    },
+    {
+      "title": "Add Superpowers to Your CSS Variables with Style Queries",
+      "url": "https://thathtml.blog/2024/03/superpowered-container-style-queries"
+    },
+    {
+      "title": "How To Use The Web Bluetooth API",
+      "url": "https://confidence.sh/blog/how-to-use-the-web-bluetooth-api"
+    },
+    {
+      "title": "Inspirational Websites Roundup",
+      "url": "https://tympanus.net/codrops/2024/03/15/inspirational-websites-roundup-57"
+    }
+  ],
+  "sponsor": null
+}

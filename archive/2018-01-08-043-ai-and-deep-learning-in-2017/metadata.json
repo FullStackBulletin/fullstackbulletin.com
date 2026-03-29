@@ -1,0 +1,75 @@
+{
+  "issueNumber": 43,
+  "title": "AI and Deep Learning in 2017",
+  "slug": "2018-01-08-043-ai-and-deep-learning-in-2017",
+  "date": "2018-01-08",
+  "templateType": "old-mailchimp",
+  "intro": "— Happy new year from Fullstack bulletin 🎉\nBest 7 links of week #1, 2018",
+  "quote": {
+    "text": "Technology is anything that wasn’t around when you were born",
+    "author": "Alan Kay",
+    "authorTitle": "Computer Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Kay"
+  },
+  "links": [
+    {
+      "title": "AI and Deep Learning in 2017",
+      "url": "http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/",
+      "description": "A number of Artificial Intelligence and Deep learning topics that made 2017 a great year for this field. If you are curious to see what 2018 will bring, this article is a good starting point.",
+      "imageUrl": "./efac9caa68e19b48ae9c971454a056d6211b8e7a55ea73426f46cccdb23198e2.png",
+      "featured": true
+    },
+    {
+      "title": "The Future Belongs to CSS",
+      "url": "https://codepen.io/joshuajcollinsworth/pen/aEJGvg",
+      "description": "A fantastic Codepen that demonstrates once again how much CSS is underrated. See how a combination of CSS Grid, Flexbox and position \"sticky\" can help you achieve dynamic layouts without a single line of JavaScript.",
+      "imageUrl": "./0d7481b8aeac88a63fde5993e042c599202059719578ebc6b54a21b181e11125.png",
+      "featured": false
+    },
+    {
+      "title": "Minimum Viable Sharing Meta Tags",
+      "url": "http://www.phpied.com/minimum-viable-sharing-meta-tags/",
+      "description": "A super interesting research aiming at defining the minimum viable set of sharing meta tags to achieve good visibility on Facebook and Twitter and, at the same time, keep your markup as light as possible.",
+      "imageUrl": "./f2d8a5fa316e0e023c1bf867355e8f9d6ee3e21a4fceeb7827695af59d2ca7a0.png",
+      "featured": false
+    },
+    {
+      "title": "Top JavaScript Libraries & Tech to Learn in 2018",
+      "url": "https://medium.com/javascript-scene/top-javascript-libraries-tech-to-learn-in-2018-c38028e028e6",
+      "description": "This article proposes few bets on the JavaScript libraries and related technologies that will be worth learning in 2018. Pretty interesting if you are trying to define your new learning paths for this year.",
+      "imageUrl": "./d9f8fbbbccd6ba2c5a637ed663d11ebd3fdb8e8e7215eb759bb6fe7711390e6c.jpg",
+      "featured": false
+    },
+    {
+      "title": "To Serve Man, with Software",
+      "url": "https://blog.codinghorror.com/to-serve-man-with-software",
+      "description": "An inspiring article by Jeff Atwood (founder of Stack Overflow and Discourse) that describes the role of software developers and delves into ethics in this \"era of software\". Can we be responsible developers and create software for a better world?",
+      "imageUrl": "./798d8d2c15c04a37c956020a8446ca31616f0e5fb86a493a84ec3048560698a5.png",
+      "featured": false
+    },
+    {
+      "title": "Best Data Viz Projects of '17",
+      "url": "http://flowingdata.com/2017/12/28/10-best-data-visualization-projects-of-2017",
+      "description": "A collection of 10 fantastic data visualization projects that ruled the past year. This projects will not just inspire you but also teach you some of the most unexpected lessons ever, for instance \"Why eggs are shaped like eggs\"...",
+      "imageUrl": "./41458d14e0f06453079dd54e0acc030bbea096b6a4fcdd0a2b403b8d4b0eda60.png",
+      "featured": false
+    },
+    {
+      "title": "From Bootstrap to CSS Grid",
+      "url": "https://open.nytimes.com/bootstrap-to-css-grid-87b3f5f830e4",
+      "description": "Despite many clever hacks and creative workarounds, there hasn’t been a simple answer for creating a layout on the web. Developers have been saying for years that there has to be a better way to create responsive websites, and finally, there is: CSS Grid, a proper layout tool for the web baked right into CSS itself, is here.",
+      "imageUrl": "./c4d7fe7206ece7e3fbbf13a83ef1ad48b7a1c9561e8c57cdd334bb72e66f1ddb.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Algorithms to live by",
+    "author": "Brian Christian and Tom Griffiths",
+    "description": "A fascinating exploration of how computer algorithms can be applied to our everyday lives, helping to solve common decision-making problems and illuminate the workings of the human mindAll our lives are constrained by limited space and time, limits that give rise to a particular set of problems. What should we do, or leave undone, in a day or a lifetime? How much messiness should we accept? What balance of new activities and familiar favourites is the most fulfilling?",
+    "coverImageUrl": "./24438c07b3bd2a14108cd79d826105f246b331801bf6b194abd1244f7b8e66af.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0008166099/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0008166099/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

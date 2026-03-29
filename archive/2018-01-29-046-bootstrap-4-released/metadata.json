@@ -1,0 +1,75 @@
+{
+  "issueNumber": 46,
+  "title": "Bootstrap 4, released!",
+  "slug": "2018-01-29-046-bootstrap-4-released",
+  "date": "2018-01-29",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #4, 2018",
+  "quote": {
+    "text": "Just because something doesn’t do what you planned it to do doesn’t mean it’s useless",
+    "author": "Thomas Edison",
+    "authorTitle": "Inventor",
+    "authorUrl": "https://en.wikipedia.org/wiki/Thomas_Edison"
+  },
+  "links": [
+    {
+      "title": "Bootstrap 4, released!",
+      "url": "http://blog.getbootstrap.com/2018/01/18/bootstrap-4",
+      "description": "The most popular HTML, CSS, and JS framework in the world finally got out of beta and had its first v4 stable published, go check it out.",
+      "imageUrl": "./b9a4054f81189c0c80c80c17f4afb10e933c1a8088507cd85b2f2dcb8e962c0e.jpg",
+      "featured": true
+    },
+    {
+      "title": "Free CSS Grid course by Wes Bos",
+      "url": "https://cssgrid.io/",
+      "description": "Learn all about CSS Grid with this 4 hours free video series by Wes Bos!",
+      "imageUrl": "./995591c6d934ace19ff13c6aae51301caac66435ade77516acc0c50e0ec2718f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Scaling Kubernetes to 2,500 Nodes",
+      "url": "https://blog.openai.com/scaling-kubernetes-to-2500-nodes",
+      "description": "A great Kubernetes case study for deep learning research. A cluster that has been running for over two years. Kubernetes provides a fast iteration cycle, reasonable scalability, and a lack of boilerplate which makes it ideal for most of the use cases described in this article.",
+      "imageUrl": "./ddeecdc3f358a970ee9463d4c741a3ecf8ef5d24260ba8953d5d7fae6e80ff05.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Ultimate Guide to JavaScript Frameworks",
+      "url": "https://javascriptreport.com/the-ultimate-guide-to-javascript-frameworks",
+      "description": "Keeping up with JavaScript frameworks can be a challenge. There are a lot of them, and seemingly another one every month. How do you know which ones might be right for your project? What are their strengths and weaknesses?",
+      "imageUrl": "./3f2b0febd10e3d2f907daec5670eb89ada7a32f7ee44ece9a6041b84a79841b1.jpg",
+      "featured": false
+    },
+    {
+      "title": "Dispatch, an Open Source Serverless Framework",
+      "url": "https://blogs.vmware.com/opensource/2018/01/12/dispatch-project-open-source-serverless-framework",
+      "description": "Dispatch, an open source serverless framework, is available now on GitHub. VMware explains why this Functions as a Service (FaaS) is more than just functions.",
+      "imageUrl": "./8b5b52fe2b6e4832b620c96c153e09bc3f03e85445863b6983beb49071b1cd3d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Drag and Drop for Design Systems",
+      "url": "https://uxdesign.cc/drag-and-drop-for-design-systems-8d40502eb26d",
+      "description": "Drag and drop interactions are often overlooked or go unnoticed. Sometimes they happen so naturally that you don’t even realize it. But if you look closely and compare different examples you can find very different UX standards around drag and drop.",
+      "imageUrl": "./6944707771f87d0c149f643abf3ee4441845c37523e3847af9ac4fbc71404dcd.jpg",
+      "featured": false
+    },
+    {
+      "title": "Keep Webpack Fast",
+      "url": "https://slack.engineering/keep-webpack-fast-a-field-guide-for-better-build-performance-f56a5995e8f1",
+      "description": "Webpack is a brilliant tool for bundling frontend assets. When you start to have complex build configurations, it might start to slow down sensibly. This article describes some rules that can help you to keep Webpack build speed fast.",
+      "imageUrl": "./69d3373f21cd4a6842388dfd10176014908cc5f82cd4cb722bcd3b02538245b7.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Regular Expressions",
+    "author": "Jeffrey E. F. Friedl",
+    "description": "Regular expressions are an extremely powerful tool for manipulating text and data. They are now standard features in a wide range of languages and popular tools, including Perl, Python, Ruby, Java, VB.NET and C# (and any language using the .NET Framework), PHP, and MySQL.If you don't use regular expressions yet, you will discover in this book a whole new world of mastery over your data. If you already use them, you'll appreciate this book's unprecedented detail and breadth of coverage.",
+    "coverImageUrl": "./396d6f15a915700637c37f7d2fcde88b8839c4580fbc81d9acd6add805980fd3.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0596528124/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0596528124/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

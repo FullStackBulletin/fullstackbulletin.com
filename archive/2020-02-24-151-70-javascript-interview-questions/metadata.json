@@ -1,0 +1,75 @@
+{
+  "issueNumber": 151,
+  "title": "70 JavaScript Interview Questions",
+  "slug": "2020-02-24-151-70-javascript-interview-questions",
+  "date": "2020-02-24",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #8, 2020",
+  "quote": {
+    "text": "Humanity is acquiring all the right technology for all the wrong reasons",
+    "author": "R. Buckminster Fuller",
+    "authorTitle": "Inventor and Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/R._Buckminster_Fuller"
+  },
+  "links": [
+    {
+      "title": "70 JavaScript Interview Questions",
+      "url": "https://dev.to/macmacky/70-javascript-interview-questions-5gfi",
+      "description": "Preparing for a JavaScript interview? Or simply, are you curious to know how in-depth do you understand JavaScript? In this article, you will find 70 amazing non-obvious questions that can satisfy your curiosity on this topic!",
+      "imageUrl": "./8fffb4ee9648e4f2d8e41c46ead334c245d8a89cc6db6d72fb2c05ef479c3826.jpg",
+      "featured": true
+    },
+    {
+      "title": "Why JavaScript is Eating HTML",
+      "url": "https://css-tricks.com/why-javascript-is-eating-html",
+      "description": "In recent years, JavaScript developers have started to define page structure in JavaScript instead of pure HTML. Is this a good practice? This article tries to find a pragmatic answer to this question.",
+      "imageUrl": "./d3f8d15c7df33be2f4c850ea5bcc7c51221a5d3a209108f590bc96e93ba371c9.jpg",
+      "featured": false
+    },
+    {
+      "title": "Scaling to 100k Users",
+      "url": "https://alexpareto.com/scalability/systems/2020/02/03/scaling-100k.html",
+      "description": "Many startups have been there - what feels like legions of new users are signing up for accounts every day and the engineering team is scrambling to keep things running?\n\nThis article offers a pragmatic guide on some architectural choices you can make to scale as you grow and avoid over-engineering.",
+      "imageUrl": "./9e8854ac38e60c6db8c0a217affa96909eefec90f6b89e8ffb3ff8b5a211750f.jpg",
+      "featured": false
+    },
+    {
+      "title": "evanw/esbuild",
+      "url": "https://github.com/evanw/esbuild",
+      "description": "An extremely fast JavaScript bundler and minifier that can be used as an alternative to Webpack and parcel. Written in Go and available on GitHub!",
+      "imageUrl": "./3e8e5402a430d52c194b6b43d199ef81aa55482479564df03381075ec3eff6e7.png",
+      "featured": false
+    },
+    {
+      "title": "10 JavaScript Array Methods You Should Know",
+      "url": "https://dev.to/rebeccauranga/10-array-methods-you-should-know-nn5",
+      "description": "JavaScript arrays are generally considered simple, but do you know all the sweet things you can do with an array instance? Read this article if you want to find out more!",
+      "imageUrl": "./99b47c6836a3f7436da68a86870376fea1e17cf4d2b4e860223786d1bfb2055c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Node.js CLI apps best practices",
+      "url": "https://github.com/lirantal/nodejs-cli-apps-best-practices",
+      "description": "A wonderful repository collecting a list of best practices that you should follow if you are building a CLI application with Node.js.",
+      "imageUrl": "./789230483c3d29243fe2a23226493646a108e28efe8863d6feba75ed5bee7c54.png",
+      "featured": false
+    },
+    {
+      "title": "The Theory: A Semantic Color System",
+      "url": "https://dev.to/ynab/a-semantic-color-system-the-theory-hk7",
+      "description": "Colours are a foundational element of interfaces but frequently end up becoming a mess of inline definitions, different naming conventions across platforms, confusion around when to use what colour, and issues with updates when things change... This article explores a more systematic approach to define colours in your design system. A great resource if you are working on a design system right now or if you want to improve your existing system!",
+      "imageUrl": "./f51211d3ad2883a7c08df6a6c852aef9f20b9dc99a3231a3e947d7fcd9df22cb.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Information Architecture: For the Web and Beyond",
+    "author": "Louis Rosenfeld",
+    "description": "Information architecture (IA) is far more challenging—and necessary—than ever. With the glut of information available today, anything your organization wants to share should be easy to find, navigate, and understand. But the experience you provide has to be familiar and coherent across multiple interaction channels, from the Web to smartphones, smartwatches, and beyond.To guide you through this broad ecosystem, this popular guide—now in its fourth edition—provides essential concepts, methods, and techniques for digital design that have withstood the test of time.",
+    "coverImageUrl": "./6479919bd4c4e1ab7a2cbc0f5cf23b45ee7ca46af986574798fd02163903111f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491911689/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491911689/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

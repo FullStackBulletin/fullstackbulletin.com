@@ -1,0 +1,75 @@
+{
+  "issueNumber": 31,
+  "title": "The Dangers of CSV Injection",
+  "slug": "2017-10-16-031-the-dangers-of-csv-injection",
+  "date": "2017-10-16",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #41, 2017",
+  "quote": {
+    "text": "I think computer viruses should count as life.  I think it says something about human nature that the only form of life we have created so far is purely destructive.  We’ve created life in our own image",
+    "author": "Stephen Hawking",
+    "authorTitle": "Theoretical physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+  },
+  "links": [
+    {
+      "title": "The Dangers of CSV Injection",
+      "url": "http://georgemauer.net/2017/10/07/csv-injection.html",
+      "description": "Did you ever thought about SQL injections but for Excel? Maybe it sounds like a crazy useless idea, but in reality, it might be more dangerous than you think!",
+      "imageUrl": "./9a3e3091a5c436384ebba52dfb4783e04e68315bcb66e8cba7ca91cc35252280.png",
+      "featured": true
+    },
+    {
+      "title": "Image Effects with CSS",
+      "url": "http://bennettfeely.com/image-effects",
+      "description": "A collection of CSS snippets to create fast, complex image effects for websites.",
+      "imageUrl": "./439fa3963cecb2b180e08406fbf03d302ba031c8b13bfd9a51a006b1df388f61.jpg",
+      "featured": false
+    },
+    {
+      "title": "Determinism in League of Legends",
+      "url": "https://engineering.riotgames.com/news/determinism-league-legends-unified-clock",
+      "description": "This post covers the single largest area of effort required to achieve determinism: the unified clock. You’ll learn how you can measure time in games by following the best practices adopted by Riot Games for League of Legends.",
+      "imageUrl": "./55ba35defe7d99f3bc32df7dfdad4ee1cc4283d6453a01d9d4f9960a2f77d15d.jpg",
+      "featured": false
+    },
+    {
+      "title": "CSS Grid Challenge",
+      "url": "https://smashingmagazine.com/2017/10/css-grid-challenge-2017-winners",
+      "description": "Discover the winners of the CSS Grid Challenge 2017 by Smashing Magazine and download all the code. A nice way to see CSS grid in action in many original ways.",
+      "imageUrl": "./626766192e829aa5c3b0622da0e1d3fe72e94811a288365aa1dc4faffb370289.png",
+      "featured": false
+    },
+    {
+      "title": "CSS Grid Gotchas And Stumbling Blocks",
+      "url": "https://smashingmagazine.com/2017/09/css-grid-gotchas-stumbling-blocks",
+      "description": "Getting to the bottom of CSS Grid with the most common questions asked when using the specification, including gotchas and things to keep in mind.",
+      "imageUrl": "./422cc473fd71bb421599fd212e215c7d93ca9cec9670cc6bcd02eca9967e6a10.png",
+      "featured": false
+    },
+    {
+      "title": "From jQuery to Vue.js",
+      "url": "https://laravel-news.com/vue-js-tutorial-jquery-vue-js",
+      "description": "As far as JavaScript libraries are concerned, there’s never been a more popular library than jQuery. This article aims to explore Vue.js transitioning from jQuery. A great starting point for those who are used to jQuery and want to migrate to a more modern and effective way of building interactive web apps.",
+      "imageUrl": "./fd919d34e0258578aedab4a22a17ff81f6d885269837d1d7eb3ae7b7f3f48926.jpg",
+      "featured": false
+    },
+    {
+      "title": "A Look at Bootstrap 4's New CSS Reset",
+      "url": "http://scotch.io/tutorials/a-look-at-bootstrap-4s-new-reset-rebootcss",
+      "description": "Bootstrap introduces a renewed CSS reset stylesheet. This article goes in deep and explores all the rationale behind it and explain why it is good!",
+      "imageUrl": "./19b2d28d6a8014c23aa838058fa49200615d72e122923f6438268ba65c35be4b.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Cassandra: The Definitive Guide: Distributed Data at Web Scale",
+    "author": "Jeff Carpenter and Eben Hewitt",
+    "description": "Imagine what you could do if scalability wasn't a problem. With this hands-on guide, you’ll learn how the Cassandra database management system handles hundreds of terabytes of data while remaining highly available across multiple data centers. This expanded second edition—updated for Cassandra 3.0 provides the technical details and practical examples you need to put this database to work in a production environment. Authors Jeff Carpenter and Eben Hewitt demonstrate the advantages of Cassandra’s non-relational design, with special attention to data modeling.",
+    "coverImageUrl": "./10919e24e677765bb72655af277029f8dbb8ee40b9d66eeac77305bc7fd728c8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491933666/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491933666/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

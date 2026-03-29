@@ -1,0 +1,108 @@
+{
+  "issueNumber": 391,
+  "title": "The State of ES5 on the Web",
+  "slug": "2024-09-23-373-the-state-of-es5-on-the-web",
+  "date": "2024-09-23",
+  "templateType": "mce-mailchimp",
+  "intro": "Hello,  and welcome to issue #391!\nThis issue is packed with handpicked content curated just for you. We’re diving into whether you should still support ES5 in your JavaScript projects, why Rust’s error handling is so great (and how you can use it in JavaScript/TypeScript), and exploring a modern Next.js SaaS starter kit.\nYou’ll also find essential tips for running Node.js in production, a deep dive into FarmHash, and a guide to TanStack Router for type-safe navigation. Plus, Bun’s latest feature lets you compile and run C from JavaScript—opening up some fascinating possibilities.There’s even more great content waiting for you—enjoy!\n\n– Your editor, [Luciano](https://loige.co/)\n\nPS: last week I had the pleasure to speak at the AWS Community Day in beautiful Munich. If you want to learn more about [how to build secure and efficient SaaS platforms on AWS serverless](https://fth.link/aws-saas), you can check out our slides!",
+  "quote": {
+    "text": "You cannot endow even the best machine with initiative; the jolliest steamroller will not plant flowers“",
+    "author": "Walter Lippmann",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Walter_Lippmann"
+  },
+  "links": [
+    {
+      "title": "The State of ES5 on the Web",
+      "url": "https://philipwalton.com/articles/the-state-of-es5-on-the-web",
+      "description": "If you have recently authored a JavaScript library for the browser you probably asked yourself: \"Should I still support ES5?\". This post looks at what the data suggests based on what popular libraries, tools, and websites are doing.",
+      "imageUrl": "./479a4076bfb5ec5ff6d17feb047a78fac26aa26f6ad758f10cda05e2ca48c385.jpg",
+      "featured": true
+    },
+    {
+      "title": "Rust error handling is perfect",
+      "url": "https://bitfieldconsulting.com/posts/rust-errors-option-result",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Next.js SaaS starter",
+      "url": "https://github.com/leerob/next-saas-starter",
+      "description": "If you like Next.js, this repository provides a modern take on how to build your next SaaS venture using Postgres, Drizzle ORM, Stripe, shadcn/ui, and other cool tech.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "The Nine Node.js Pillars",
+      "url": "https://platformatichq.com/node-principles",
+      "description": "Our friends at Platformatic have published 9 Principles for Doing Node.js Right in Enterprise Environments. This includes how to avoid blocking the event loop, monitoring important metrics such as memory, CPU, and event loop utilization (ELU), and what to do about these metrics. It also covers automation (code quality, security, and testing), how to avoid dependency creep and so much more. An incredibly useful read if you run Node.js applications in production.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Node.js implementation of FarmHash",
+      "url": "https://github.com/lovell/farmhash",
+      "description": "FarmHash is a relatively new high-performance hashing algorithm that came out of Google. This package provides binding for Node.js. This is a bit of a nerdy pick since it's probably something with very few niche practical use cases, but I am sure that if you like algorithms or if you want to learn more about what happens inside a hashing function, this can be the entrance to a very interesting rabbit hole! 🕳️🐇",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Introducing TanStack Router",
+      "url": "https://frontendmasters.com/blog/introducing-tanstack-router",
+      "description": "TanStack Router is a comprehensive JavaScript framework for client-side applications, emphasizing type-safe routing and navigation. It includes nested layouts and efficient data loading. This article serves as a tutorial to get started quickly with TanStack Router by building a minimalistic project-planning application.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Compile and run C in JavaScript",
+      "url": "https://bun.sh/blog/compile-and-run-c-in-js",
+      "description": "Bun now supports compiling and running C from JavaScript to make using systems libraries easier. In the classic spirit of Bun, this article compares how this solution is so much better than Node.js N-API. Still, it's an interesting read and if you are using Bun or you have a niche use case like converting videos from JavaScript, this can be very useful.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Programming Rust: Fast, Safe Systems Development",
+    "author": "Jim Blandy, Jason Orendorff, and Leonora Tindall",
+    "description": "Systems programming provides the foundation for the world's computation. Writing performance-sensitive code requires a programming language that puts programmers in control of how memory, processor time, and other system resources are used. The Rust systems programming language combines that control with a modern type system that catches broad classes of common mistakes, from memory management errors to data races between threads. With this practical guide, experienced systems programmers will learn how to successfully bridge the gap between performance and safety using Rust. Jim Blandy, Jason Orendorff, and Leonora Tindall demonstrate how Rust's features put programmers in control over memory consumption and processor use by combining predictable performance with memory safety and trustworthy concurrency. You'll learn:",
+    "coverImageUrl": "./dbe31bd7b95cec77ab0c7da3e88898bd123090331269de72db23f95bf7b77dd8.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1492052590?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1492052590?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "React 19 Cheat Sheet",
+      "url": "https://epicreact.dev/react-19-cheatsheet"
+    },
+    {
+      "title": "React and FormData",
+      "url": "https://reacttraining.com/blog/react-and-form-data"
+    },
+    {
+      "title": "How Infinite Queries work",
+      "url": "https://tkdodo.eu/blog/how-infinite-queries-work"
+    },
+    {
+      "title": "SPA Lazy Loading Pitfalls",
+      "url": "https://reacttraining.com/blog/spa-lazy-loading-pitfalls"
+    },
+    {
+      "title": "The “Other” C in CSS (video)",
+      "url": "https://youtube.com/watch?v=ob_M_qXeDVE"
+    },
+    {
+      "title": "Zine: A Static Site Generator Written in Zig",
+      "url": "https://kristoff.it/blog/zine-ssg-zig"
+    },
+    {
+      "title": "Binary data in JavaScript (Bun)",
+      "url": "https://bun.sh/docs/api/binary-data"
+    },
+    {
+      "title": "CloudFormation Drift (podcast)",
+      "url": "https://awsbites.com/131-what-do-you-do-about-cloudformation-drift/"
+    }
+  ],
+  "sponsor": null
+}

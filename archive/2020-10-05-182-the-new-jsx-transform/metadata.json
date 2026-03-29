@@ -1,0 +1,75 @@
+{
+  "issueNumber": 182,
+  "title": "The New JSX Transform",
+  "slug": "2020-10-05-182-the-new-jsx-transform",
+  "date": "2020-10-05",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #40, 2020",
+  "quote": {
+    "text": "Should array indices start at 0 or 1?  My compromise of 0.5 was rejected without, I thought, proper consideration",
+    "author": "Stan Kelly-Bootle",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Stan_Kelly-Bootle"
+  },
+  "links": [
+    {
+      "title": "The New JSX Transform",
+      "url": "https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html",
+      "description": "Browsers don’t understand JSX out of the box, so most React users rely on a compiler like Babel or TypeScript to transform JSX code into regular JavaScript. Many preconfigured toolkits like Create React App or Next.js also include a JSX transform under the hood. React 17 ships with a new implementation of the JSX transform. Find out more about it in this official article.",
+      "imageUrl": "./eab28b4cb123d5a9b6ac4b48c908fe17fdd77002cdfa9b67248a632b13d28983.jpg",
+      "featured": true
+    },
+    {
+      "title": "Exploring Node.js Async Hooks",
+      "url": "https://blog.appsignal.com/2020/09/30/exploring-nodejs-async-hooks.html",
+      "description": "Node.js async hooks, more specifically the async_hooks module, provides a clear and easy-to-use API to track async resources in Node.js.",
+      "imageUrl": "./7fd6d811d1b62880164d9ef48ec61178eee17de57306fbc596a8431d526fbd42.jpg",
+      "featured": false
+    },
+    {
+      "title": "ffmpegwasm/ffmpeg.wasm",
+      "url": "https://github.com/ffmpegwasm/ffmpeg.wasm",
+      "description": "FFmpeg for browser and node, powered by WebAssembly - This will make it much easier to embed FFmpeg within your Node.js and browser applications!",
+      "imageUrl": "./a52c1b5f6f7bb8e50ab6a6807e4d43c99ba4a161922d79e8ce05f1ab3d697067.jpg",
+      "featured": false
+    },
+    {
+      "title": "Shapefest™ - A massive library of free 3D shapes",
+      "url": "https://shapefest.com/",
+      "description": "A massive free library of beautifully rendered 3D shapes. 160,000+ high resolution PNG images in one cohesive library.",
+      "imageUrl": "./a95074fce623372cf98ed65371a9d5ab4ffc14cc7f7b23af476e2ac251eb848e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Silind/twitter-api-client",
+      "url": "https://github.com/Silind/twitter-api-client",
+      "description": "A user-friendly Node.js / JavaScript client library for interacting with the Twitter API.",
+      "imageUrl": "./7ea54714067a429f99a1639bb16d9a6de29c85ba567b8fa246e54ec7e89b81ac.jpg",
+      "featured": false
+    },
+    {
+      "title": "Guidelines to improve your React folder structure",
+      "url": "https://maxrozen.com/guidelines-improve-react-app-folder-structure",
+      "description": "People often say to 'move files around until it feels right', but what does 'right' even mean? Let's learn in this article.",
+      "imageUrl": "./92fc50fca53472755e3e1dbab829fc501c636ec993b7c1166c3ad18f447a7795.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building complex animations with React and Framer Motion",
+      "url": "https://able.bio/drenther/building-complex-animations-with-react-and-framer-motion--2d5cbc0e",
+      "description": "Learn to build smooth advanced animations in React with clean and minimal declarative code.",
+      "imageUrl": "./75a64c163f19b16867a95bfdc0543b622bc6af880a4c16fdcea4b4adda94caf0.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Introduction to Algorithms, Third Edition (International Edition)",
+    "author": "Thomas H. Cormen",
+    "description": "Some books on algorithms are rigorous but incomplete; others cover masses of material but lack rigor.  Introduction to Algorithms uniquely combines rigor and comprehensiveness. The book covers a broad range of algorithms in depth, yet makes their design and analysis accessible to all levels of readers. Each chapter is relatively self-contained and can be used as a unit of study. The algorithms are described in English and in a pseudocode designed to be readable by anyone who has done a little programming. The explanations have been kept elementary without sacrificing depth of coverage or mathematical rigor.",
+    "coverImageUrl": "./ada166c15107ba9d6c6eec0fcaaef5daa371a0f2d5e3550a7ea6e624aed90770.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0262533057/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0262533057/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

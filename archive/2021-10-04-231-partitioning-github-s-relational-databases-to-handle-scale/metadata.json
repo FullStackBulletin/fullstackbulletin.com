@@ -1,0 +1,75 @@
+{
+  "issueNumber": 231,
+  "title": "Partitioning GitHub’s relational databases to handle scale",
+  "slug": "2021-10-04-231-partitioning-github-s-relational-databases-to-handle-scale",
+  "date": "2021-10-04",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "UNIX is simple.  It just takes a genius to understand its simplicity",
+    "author": "Dennis Ritchie",
+    "authorTitle": "Computer scientist and inventor of the C language",
+    "authorUrl": "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+  },
+  "links": [
+    {
+      "title": "Partitioning GitHub’s relational databases to handle scale",
+      "url": "https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale",
+      "description": "An interesting case study from GitHub showing how partitioning a relational database can unlock the next level of scalability. A very interesting read if you want to understand better how relational database work and learn more about system scalability.",
+      "imageUrl": "./5fd26be8c3b3b754d4aa2ebd17e7b6023bcd42c0e7eed93593541b94d08eb4de.jpg",
+      "featured": true
+    },
+    {
+      "title": "You don't need moment.js",
+      "url": "https://github.com/you-dont-need/You-Dont-Need-Momentjs",
+      "description": "List of functions which you can use to replace moment.js and an awesome ESLint Plugin that will help you to refactor the parts of your code using moment.js. Check out this repository if you want to get rid of moment.js.",
+      "imageUrl": "./95466ed22fc864bfb3d03817a0987de154a1c1929d78ee6b1b402e173f69a480.jpg",
+      "featured": false
+    },
+    {
+      "title": "Node.js Garbage Collection Explained",
+      "url": "https://blog.risingstack.com/node-js-at-scale-node-js-garbage-collection",
+      "description": "Learn how Node.js garbage collection and memory management works in practice. Code-level explanation and garbage collection examples inside.",
+      "imageUrl": "./fbd36f1f301313ab2b8dd96557fac4a045a3017764da806bc0b2d221e24cc319.jpg",
+      "featured": false
+    },
+    {
+      "title": "Twitter's div Soup and Uglyfied CSS, Explained",
+      "url": "https://giuseppegurgone.com/twitter-html",
+      "description": "If you ever tried to have a look at Twitter's HTML code you might have noticed that it's full of DIVs and it looks rather ugly. In this article, Giuseppe goes into great detail explaining why that is the case and illustrates how React Native for web works.",
+      "imageUrl": "./e82c35b1c4944cf4fad0da6d3767a80157a7000bbb9b3f9a03df6aaf87aea1b7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Accessible Palette: stop using HSL for color systems",
+      "url": "https://wildbit.com/blog/2021/09/16/accessible-palette-stop-using-hsl-for-color-systems",
+      "description": "An interesting deep dive on what it takes to build accessible color palettes and an introduction to Accessible Palette, an app for building color systems with consistent lightness and predictable contrast ratios across color levels.",
+      "imageUrl": "./f809aa2d1a293963c646148ed2d08883ee1d5d0e02cd75bf78bfab7fae32fb87.jpg",
+      "featured": false
+    },
+    {
+      "title": "Best Way to Format And Manipulate Numbers In JavaScript",
+      "url": "https://devdojo.com/myogeshchavan97/best-way-to-format-and-manipulate-numbers-in-javascript",
+      "description": "This short article introduces **Numeral**, a simple and small JavaScript library that can be used to format numbers in many different ways.",
+      "imageUrl": "./15fb7378632fde1551b8db53184687ae2109e715959b7c99871c22cfd25c5731.png",
+      "featured": false
+    },
+    {
+      "title": "How to Implement Logging in a Node.js Application With Pino-logger",
+      "url": "https://css-tricks.com/how-to-implement-logging-in-a-node-js-application-with-pino-logger",
+      "description": "Logging, on its own, is a key aspect of any application. In this article you can learn how to implement logging best practices for Node.js projects using pino as a logging library.",
+      "imageUrl": "./fbaae5c4e785de43ba2f6e1d209414a971d92761bbab872ffc72e402c4c81d92.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Agile Web Development with Rails 5",
+    "author": "Sam Ruby",
+    "description": "Rails 5 and Ruby 2.2 bring many improvements, including new APIs and substantial performance enhancements, and the fifth edition of this award-winning classic is now updated! If you're new to Rails, you'll get step-by-step guidance. If you're an experienced developer, this book will give you the comprehensive, insider information you need for the latest version of Ruby on Rails.",
+    "coverImageUrl": "./8ce7511fb3c8594f256f41ec4168254572d3e762c632005637323efef4d09ba0.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501712/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501712/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

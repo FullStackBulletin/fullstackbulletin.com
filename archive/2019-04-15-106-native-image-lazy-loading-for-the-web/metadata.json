@@ -1,0 +1,75 @@
+{
+  "issueNumber": 106,
+  "title": "Native image lazy-loading for the web",
+  "slug": "2019-04-15-106-native-image-lazy-loading-for-the-web",
+  "date": "2019-04-15",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #15, 2019",
+  "quote": {
+    "text": "This is the whole point of technology.  It creates an appetite for immortality on the one hand.  It threatens universal extinction on the other. Technology is lust removed from nature",
+    "author": "Don DeLillo",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Don_DeLillo"
+  },
+  "links": [
+    {
+      "title": "Native image lazy-loading for the web!",
+      "url": "https://addyosmani.com/blog/lazy-loading",
+      "description": "In this post, we'll look at the new loading attribute which brings native <img> and <iframe> lazy-loading to the web!",
+      "imageUrl": "./3cca7d5a3bec9249491463da84eb7d5f56a2bc2bbf2bd3a20d41599637f6e65d.jpg",
+      "featured": true
+    },
+    {
+      "title": "How Does a Database Work?",
+      "url": "https://cstack.github.io/db_tutorial",
+      "description": "Writing a SQLite clone from scratch in C can teach you a lot about how databases work. If you are interested in this topic you cannot miss this series of tutorials.",
+      "imageUrl": "./c4356c8653bd78df8bdd48a69e4b454a01f0c6d0107eb631a8fba332948425bc.jpg",
+      "featured": false
+    },
+    {
+      "title": "10 Data Structure, Algorithms, and SQL Courses",
+      "url": "https://dev.to/javinpaul/10-data-structure-algorithms-sql-and-java-courses-to-crack-any-programming-job-interview-11f6",
+      "description": "A collection of programming, algorithms, and data structure online courses to prepare for Programming Job interviews.",
+      "imageUrl": "./2f02c24429ac0911b58c9fdcbb1de6cdf0c6505e2ee838461d54b4a42504b2b5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Managing Z-Index In A Component-Based Web Application",
+      "url": "https://smashingmagazine.com/2019/04/z-index-component-based-web-application",
+      "description": "The `z-index` property, is still widely misunderstood and mishandled. Stacking issues in a complex single-page web application can become a major pain. Adhering to some principles, however, we can easily avoid these issues.",
+      "imageUrl": "./81e99affc954b5453f2da4f817adc75ba33b0deb3ba1ae0d7e67a8371c777faf.jpg",
+      "featured": false
+    },
+    {
+      "title": "Browser Rendering Optimizations for Frontend Development",
+      "url": "http://scotch.io/tutorials/browser-rendering-optimizations-for-frontend-development",
+      "description": "In this article, we explore the conditions that can enable (and prevent) a web application to run (optimally) at 60 frames per second. We also look at several optimizations that can be plugged into the broser's rendering pipeline.",
+      "imageUrl": "./c1eaf10c471f08492d76e451e43dc8481ccb1aaa535971cf515eb60110a17c27.jpg",
+      "featured": false
+    },
+    {
+      "title": "Comparing Nuclio and AWS Lambda",
+      "url": "https://devops.com/comparing-nuclio-and-aws-lambda",
+      "description": "We compare the Nuclio serverless platform with AWS Lambda, see how Nuclio addresses AWS Lambda's limitations and explore new use cases Nuclio can unlock.",
+      "imageUrl": "./21e15bad31cdc877b11113079573c91338e00202a71832cf25ab393b475498cf.jpg",
+      "featured": false
+    },
+    {
+      "title": "Domain-Oriented Observability",
+      "url": "https://martinfowler.com/articles/domain-oriented-observability.html",
+      "description": "Add observability to your code without adding cruft to your domain logic or compromising on testability.",
+      "imageUrl": "./44448cd9fc4c6d991d91380a1a7ef9be5ba636fc2686ec15c940a5ecb76cd08e.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Reactive Programming with RxJava: Creating Asynchronous, Event-Based Applications",
+    "author": "Tomasz Nurkiewicz",
+    "description": "In today’s app-driven era, when programs are asynchronous and responsiveness is so vital, reactive programming can help you write code that’s more reliable, easier to scale, and better-performing. With this practical book, Java developers will first learn how to view problems in the reactive way, and then build programs that leverage the best features of this exciting new programming paradigm.",
+    "coverImageUrl": "./bfc89b612724cc827df12cd74bfda688fa86774c756e46d104dc6fce54b5ba7a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1491931655/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1491931655/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

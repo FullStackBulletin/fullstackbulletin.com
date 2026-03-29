@@ -1,0 +1,75 @@
+{
+  "issueNumber": 137,
+  "title": "Binary Space Partitioning in Doom",
+  "slug": "2019-11-18-137-binary-space-partitioning-in-doom",
+  "date": "2019-11-18",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #46, 2019",
+  "quote": {
+    "text": "To err is human, but to really foul things up you need a computer",
+    "author": "Paul Ehrlich",
+    "authorTitle": "Physician and scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Paul_Ehrlich"
+  },
+  "links": [
+    {
+      "title": "Binary Space Partitioning in Doom",
+      "url": "https://twobithistory.org/2019/11/06/doom-bsp.html",
+      "description": "A short history of the data structure that powered the classic first-person shooter.",
+      "imageUrl": "./0033c87ffde04fb91033f75555391b390fc054dd72fe469dc03aae5432208ed4.png",
+      "featured": true
+    },
+    {
+      "title": "The secure and composable future of WebAssembly",
+      "url": "https://hacks.mozilla.org/2019/11/announcing-the-bytecode-alliance",
+      "description": "Lin Clark introduces the Bytecode Alliance, and uses Code Cartoon illustrations to share their vision of a WebAssembly ecosystem that is secure and composable by default.",
+      "imageUrl": "./1903e79877dc5722e15eb3bb473cc0c11f4074439451172db05b7461c44f5b8f.jpg",
+      "featured": false
+    },
+    {
+      "title": "Generating PDFs with Node",
+      "url": "https://buttercms.com/blog/generating-pdfs-with-node",
+      "description": "What would we do without PDFs? It’s the safest, most secure way of storing visual information, and it’s accessible on every major platform in the world. In this article you will learn different ways to generate PDFs using Node.js.",
+      "imageUrl": "./10a660d0c8260e0d3db43a21c3685e751a66493a42a71f41fb827dddc1ba57d8.jpg",
+      "featured": false
+    },
+    {
+      "title": "Things You Didn't Know About GNU Readline",
+      "url": "https://twobithistory.org/2019/08/22/readline.html",
+      "description": "GNU Readline was originally created in the 1980s by the Free Software Foundation. Today, it is an important if invisible part of everyone’s computing infrastructure, maintained by a single volunteer.",
+      "imageUrl": "./7622eece5ab58de400766300ad8132603157793390e44d32bb277e1e9a4bd2dd.jpg",
+      "featured": false
+    },
+    {
+      "title": "Building Distributed Systems with Node.js",
+      "url": "https://youtube.com/watch?v=GUtd-zEDgjQ",
+      "description": "In this amazing talk from Nordic.js 2019, James Simpson explains how to use Node.js to build fantastic distributed systems. A must watch if you are into Node.js or distributed systems (or both)!",
+      "imageUrl": "./d50111456a9f16b2c440b59e0f5f48eca8e3bf1c9537a634925da8b16b100078.jpg",
+      "featured": false
+    },
+    {
+      "title": "12 uncommon ways to invoke your serverless functions on AWS",
+      "url": "https://medium.com/hackernoon/how-to-faas-like-a-pro-12-uncommon-ways-to-invoke-your-serverless-functions-on-aws-part-3-2ae2b8def4d7",
+      "description": "This article discusses and showcases some less common ways to invoke serverless functions in AWS.",
+      "imageUrl": "./783d0116637ea3960e6d4769632d97da7f8455ad629e41ea156d06e3b5686fed.jpg",
+      "featured": false
+    },
+    {
+      "title": "10 Best monospace programming fonts with ligatures",
+      "url": "https://slant.co/topics/5611/~monospace-programming-fonts-with-ligatures",
+      "description": "Fira Code, Hasklig, and Iosevka are probably your best bets out of the 10 options considered. \"Many ligatures supported\" is the primary reason people pick Fira Code over the competition. This page is powered by a knowledgeable community that helps you make an informed decision.",
+      "imageUrl": "./bf1493b10f747cd1e9c414b0b043d5fe0577641eddc94f01621a7aeed7344356.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "CSS Mastery",
+    "author": "Andy Budd",
+    "description": "Fully updated to the latest CSS modules, make the journey to CSS mastery as simple and painless as possible. This book dives into advanced aspects of CSS-based design, such as responsive design, modular CSS, and CSS typography. Through a series of easy-to-follow tutorials, you will learn practical CSS techniques you can immediately start using in your daily work.",
+    "coverImageUrl": "./513cab7982483119d4449542560da5b139ad8ff61b1c9e3b7d2904bd9a602db5.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1430258632/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1430258632/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

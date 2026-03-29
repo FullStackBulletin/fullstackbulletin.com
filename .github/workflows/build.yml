@@ -13,19 +13,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v2
-        with:
-          version: 8.15
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: 'pnpm'
+          cache-dependency-path: pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
-      - name: Test
-        run: pnpm test
-        env:
-          CI: true
       - name: Build
-        run: pnpm prod:build
+        run: pnpm build
         env:
           CI: true
       - name: Release to GH pages if on main

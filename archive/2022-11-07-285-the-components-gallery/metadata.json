@@ -1,0 +1,75 @@
+{
+  "issueNumber": 298,
+  "title": "The Components Gallery",
+  "slug": "2022-11-07-285-the-components-gallery",
+  "date": "2022-11-07",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human",
+    "author": "Alan Turing",
+    "authorTitle": "Computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Turing"
+  },
+  "links": [
+    {
+      "title": "The Components Gallery",
+      "url": "https://component.gallery/components",
+      "description": "The Component Gallery is a collection of components from the best Design Systems. It's a great resource if you are working on your own component system and trying to brainstorm what kind of components you would need.",
+      "imageUrl": "./412fe9611c0e6fb7fac9ab336273816e8628279294b70738a5dce3294c804cb3.jpg",
+      "featured": true
+    },
+    {
+      "title": "unfurl",
+      "url": "https://github.com/jacktuck/unfurl",
+      "description": "Unfurl is an open-source library that allows you to scrape metadata from a URL. It supports oEmbed, Twitter Cards and Open Graph Protocol and it is written in JavaScript (for Node.js). We wrote something similar (but much more primitive) for FullStack bulletin, so we are considering switching to Unfurl!",
+      "imageUrl": "./92854604815dd5b2ce4e5d4d62bbac53f101583db33f2edf6f74434c1cd49ccb.jpg",
+      "featured": false
+    },
+    {
+      "title": "4 Ways to Fix CORS Errors",
+      "url": "https://fatimamo.com/become-a-cors-wizard",
+      "description": "CORS is great for our browser security, but let's face it, as developers, CORS can be a PITA! 🥵 This article helps us to solve some of the most common CORS errors and in time of need, it can be a lifesaver!",
+      "imageUrl": "./1499cdd159f3fdc2da0356f9bb6851f5185123dd09dca82c332ee7b270869f98.png",
+      "featured": false
+    },
+    {
+      "title": "5 Best Node.js Logging Libraries",
+      "url": "https://highlight.io/blog/highlight.io",
+      "description": "Looking for a Node.js logging library to help you get your project off the ground? Check out our list of the five best options available!",
+      "imageUrl": "./475d8f9a8db090f1c8f58e48c64e144686256aeb3bb8d67c38ad53a468f69285.jpg",
+      "featured": false
+    },
+    {
+      "title": "Secure JavaScript URL validation",
+      "url": "https://snyk.io/blog/secure-javascript-url-validation",
+      "description": "URL validation checks whether URLs follow proper URL syntax — the structure every URL must have. URL validation can save our applications from URL-based vulnerabilities like malicious script injection and server-side request forgery (SSRF). This article teaches us how to validate URLs correctly with JavaScript!",
+      "imageUrl": "./c4519d2295880f0f567f107dd203a161bb542ba4e529ccd0b56e139374584ec5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Setting up API monitoring with Treblle in Sails",
+      "url": "https://blog.sailscasts.com/setting-up-api-monitoring-with-treblle-in-sails",
+      "description": "Our dear [Kelvin](https://twitter.com/Dominus_Kelvin), recently discovered Treblle - an API monitoring service that lets you monitor your APIs in production and he shows us how to set it up in a Sails project.",
+      "imageUrl": "./77b35f6f4deca1658712406e4382f413e5f049155783e9e756f8a8126e77eb3c.jpg",
+      "featured": false
+    },
+    {
+      "title": "OG Image Generation",
+      "url": "https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation",
+      "description": "Vercel just launched a new interesting [open-source project](https://github.com/vercel/satori) to generate OpenGraph images from SVG and this service is also available online if you want to do that on demand.",
+      "imageUrl": "./1a8d9f53bfb1a92dc4887fb34a1609f2f9b1f13aa8876453f874c7cb47086964.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise",
+    "author": "Martin L. Abbott and Michael T. Fisher",
+    "description": "Writing for technical and nontechnical decision-makers, Abbott and Fisher cover everything that impacts scalability, including architecture, process, people, organization, and technology. Their insights and recommendations reflect more than thirty years of experience at companies ranging from eBay to Visa, and Salesforce.com to Apple. You’ll find updated strategies for structuring organizations to maximize agility and scalability, as well as new insights into the cloud (IaaS/PaaS) transition, NoSQL, DevOps, business metrics, and more. Using this guide’s tools and advice, you can systematically clear away obstacles to scalability–and achieve unprecedented IT and business performance.",
+    "coverImageUrl": "./27758fc426f7d2d06617adef6757d946de680ad0276de90acaaf5ee4c6715d29.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0134032802/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0134032802/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

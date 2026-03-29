@@ -1,0 +1,75 @@
+{
+  "issueNumber": 172,
+  "title": "A URL Shortener in 52 minutes",
+  "slug": "2020-07-27-172-a-url-shortener-in-52-minutes",
+  "date": "2020-07-27",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #30, 2020",
+  "quote": {
+    "text": "To iterate is human, to recurse divine",
+    "author": "L. Peter Deutsch",
+    "authorTitle": "Software developer and Entrepreneur",
+    "authorUrl": "https://en.wikipedia.org/wiki/L._Peter_Deutsch"
+  },
+  "links": [
+    {
+      "title": "A URL Shortener in 52 minutes",
+      "url": "https://youtube.com/watch?v=gq5yubc1u18",
+      "description": "This video will show some live code that aims to build a complete URL shorter service including setting up DNS and deploying it!",
+      "imageUrl": "./931396744783a202841b07f253b050607197d1cc7210545422eaf3e1d426508d.jpg",
+      "featured": true
+    },
+    {
+      "title": "Systems design for advanced beginners",
+      "url": "https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners",
+      "description": "An entertaining fictional story about a new startup and how they came to define their own system architecture. While the story is (maybe) fictional, there are some invaluable system design lessons to learn throughout this article!",
+      "imageUrl": "./7b65672f13d9bf7266c0358baf78377a331881db67bf6a36a0798feb79823c5d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Webpack: A gentle introduction",
+      "url": "https://ui.dev/webpack/",
+      "description": "Why Webpack exists? What kind of problems can it solve for you? Why is Webpack worth learning and where do you even start?",
+      "imageUrl": "./bf3cf3065576efe31681d20cfa5880cc48100d1c8481a72bfe5b3335067e2152.png",
+      "featured": false
+    },
+    {
+      "title": "React Guitar",
+      "url": "https://react-guitar.com/",
+      "description": "A beautiful and flexible guitar component for React. Because... why not?! 🎸",
+      "imageUrl": "./147c79e10faf37f3d995bdf59c00aa3cf553fec3f3e90238668b4774b59c297e.png",
+      "featured": false
+    },
+    {
+      "title": "Clear explanation of Rust’s module system",
+      "url": "http://sheshbabu.com/posts/rust-module-system",
+      "description": "Easy to understand explanation using visual aids and practical examples. If Rust module system has been confusing you, this article will definitely shed some light for you!",
+      "imageUrl": "./0232e090f1555cfeeaed7b29af6c59ef3d9a0de7241af0c37e65e12ad99aaf51.png",
+      "featured": false
+    },
+    {
+      "title": "Building SVG Components with React.js and d3.js",
+      "url": "https://pganalyze.com/blog/building-svg-components-in-react",
+      "description": "Learn how to use SVG with React and d3, what SVG is, when to use it, handling, sizing, styling, layouting and interactivity in SVG and how to embed HTML in SVG.",
+      "imageUrl": "./a8e81d1986e7f0199e8c403c0ab78f790cafb04f60f8a80fb75ebcbb854e8278.jpg",
+      "featured": false
+    },
+    {
+      "title": "jhuckaby/megahash",
+      "url": "https://github.com/jhuckaby/megahash",
+      "description": "A super-fast C++ hash table with Node.js wrapper, tested up to 1 billion keys.",
+      "imageUrl": "./0982339e5b9f710c9238199814966e43f1d7940833e9e7e04e1a614e69937c86.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Symfony",
+    "author": "Sohail Salehi",
+    "description": "In this book, you will learn some lesser known aspects of development with Symfony, and you will see how to use Symfony as a framework to create reliable and effective applications. You might have developed some impressive PHP libraries in other projects, but what is the point when your library is tied to one particular project? With Symfony, you can turn your code into a service and reuse it in other projects.",
+    "coverImageUrl": "./d8bd967503d4ad357e4fca70c6900b2da278b7cd54f0417d9683194425c0bcbf.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1784390313/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1784390313/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

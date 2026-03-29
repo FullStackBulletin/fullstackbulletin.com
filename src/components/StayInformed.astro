@@ -1,0 +1,66 @@
+---
+import { recommendedNewsletters, recommendedCreators } from '../data/site';
+import Button from './Button.astro';
+import Icon from './Icon.astro';
+---
+
+<section class="bg-neutral-lightest py-16 md:py-24 px-4 md:px-10 bg-pattern-dots">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="font-heading text-2xl md:text-3xl font-semibold title-bar mb-2">
+      Let's not stop the fullstack love
+    </h2>
+    <p class="text-base md:text-lg text-neutral-medium mb-6 max-w-[700px]">
+      Always keep learning and staying inspired.
+    </p>
+    <p class="text-base md:text-lg text-neutral-dark mb-6 max-w-[700px] leading-relaxed">
+      There's no replacing FullStack Bulletin. It was unique in its own way. But that doesn't mean the
+      world isn't still full of beautiful places and people that you can learn from and be inspired by.
+    </p>
+    <p class="text-base md:text-lg text-neutral-dark mb-12 max-w-[700px] leading-relaxed">
+      Many of these are the same resources from which we drew inspiration for our newsletter
+      and often a direct source of the content we proposed every week. They are all worth your time.
+    </p>
+
+    <div class="mb-12">
+      <h3 class="font-heading text-lg font-semibold mb-6">Newsletters and websites</h3>
+      <div class="flex flex-wrap gap-3">
+        {recommendedNewsletters.map((resource) => (
+          <a
+            href={resource.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center px-4 py-2 bg-white border border-neutral-light/50 rounded-full text-sm font-heading text-neutral-darkest hover:border-brand-primary hover:bg-brand-primary/15 hover:shadow-sm transition-all duration-200"
+          >
+            {resource.name}
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <div class="mb-12">
+      <h3 class="font-heading text-lg font-semibold mb-6">Amazing creators and builders to follow</h3>
+      <div class="flex flex-wrap gap-3">
+        {recommendedCreators.map((creator) => (
+          <a
+            href={creator.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center px-4 py-2 bg-white border border-neutral-light/50 rounded-full text-sm font-heading text-neutral-darkest hover:border-brand-primary hover:bg-brand-primary/15 hover:shadow-sm transition-all duration-200"
+          >
+            {creator.name}
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <div class="border border-brand-primary/30 bg-brand-primary/5 rounded-lg p-6 max-w-[700px]">
+      <p class="text-base text-neutral-dark leading-relaxed mb-4">
+        Want to follow all of them in one go? Here's an OPML file you can import into your favourite RSS reader for a unified stream of fullstack inspiration.
+      </p>
+      <Button href="/fullstackbulletin-recommended-feeds.opml" variant="primary" size="md" download>
+        <Icon name="rss" size={16} />
+        Download OPML
+      </Button>
+    </div>
+  </div>
+</section>

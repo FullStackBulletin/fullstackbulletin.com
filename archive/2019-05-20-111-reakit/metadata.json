@@ -1,0 +1,75 @@
+{
+  "issueNumber": 111,
+  "title": "Reakit",
+  "slug": "2019-05-20-111-reakit",
+  "date": "2019-05-20",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #20, 2019",
+  "quote": {
+    "text": "The science of today is the technology of tomorrow",
+    "author": "Edward Teller",
+    "authorTitle": "Theoretical physicist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Edward_Teller"
+  },
+  "links": [
+    {
+      "title": "Reakit",
+      "url": "https://reakit.io/",
+      "description": "A powerful open source UI toolkit for building accessible rich web applications with React.",
+      "imageUrl": "./e555a18888a967d95b41fb70477dda339b7d99fcea5fc6f74588c82413731778.jpg",
+      "featured": true
+    },
+    {
+      "title": "Dark themes",
+      "url": "https://material.io/design/color/dark-theme.html",
+      "description": "An set of useful guidelines on how to design Dark themes, specifically in the context of material design.",
+      "imageUrl": "./c4356c8653bd78df8bdd48a69e4b454a01f0c6d0107eb631a8fba332948425bc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Hybrid Lazy Loading",
+      "url": "https://smashingmagazine.com/2019/05/hybrid-lazy-loading-progressive-migration-native",
+      "description": "In this article, you’ll learn how you can progressively replace your JavaScript-driven lazy loading with its native alternative — thanks to hybrid lazy loading.",
+      "imageUrl": "./ca10374783a154a2c77939bbbdb61da49398a1df5c1bc05ee3f9aac659b1b957.jpg",
+      "featured": false
+    },
+    {
+      "title": "Glide.js",
+      "url": "https://glidejs.com/",
+      "description": "A dependency-free JavaScript ES6 slider and carousel. It’s lightweight, flexible and fast. Designed to slide. No less, no more",
+      "imageUrl": "./4acff2303cdca061a1c3ce511d209d63a80526b9aff203bcd4c2a34dc0f93fc4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Azure SQL Database serverless",
+      "url": "https://docs.microsoft.com/en-us/azure/sql-database/sql-database-serverless",
+      "description": "Microsoft Azure SQL Database serverless (preview) is a compute tier that bills for the amount of compute used by a single database on a per second basis.",
+      "imageUrl": "./cf536d899459a8e82edd44ea629187c016c84f55d1c7f0b9ed2a8209c93e5f12.png",
+      "featured": false
+    },
+    {
+      "title": "Why That Change Took So Long",
+      "url": "https://simplethread.com/dear-client-heres-why-that-change-took-so-long",
+      "description": "Changes in complex software systems seem like they take forever, don’t they? Even to engineers it often feels like changes take longer than they should, and we understand the reasons for the underlying complexity in the system! For stakeholders, it can be even more obtuse and frustrating...",
+      "imageUrl": "./ea9d0577e7849c113d06a7eb0cc5efe8d617f8c74d4e430a8dbc32e78a4f5b1a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Multi-line text background effect",
+      "url": "https://codyhouse.co/blog/post/multi-line-text-background",
+      "description": "In this tutorial, we'll take a look at how to create a hover underline effect that works when your text spans on multiple lines.",
+      "imageUrl": "./4565630a4afc0e7820e202571ae0531ab073311263c59cb168f2e012e4e484dd.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "The Pragmatic Programmer: From Journeyman to Master",
+    "author": "Andrew Hunt",
+    "description": "he Pragmatic Programmer cuts through the increasing specialization and technicalities of modern software development to examine the core process-taking a requirement and producing working, maintainable code that delights its users. It covers topics ranging from personal responsibility and career development to architectural techniques for keeping your code flexible and easy to adapt and reuse.",
+    "coverImageUrl": "./2ffb12a41f490125695aeff2d4c3ea84a96f4f6c7298432191fdc3c1a104af4b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/020161622X/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/020161622X/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

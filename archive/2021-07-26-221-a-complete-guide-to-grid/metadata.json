@@ -1,0 +1,75 @@
+{
+  "issueNumber": 221,
+  "title": "A Complete Guide to Grid",
+  "slug": "2021-07-26-221-a-complete-guide-to-grid",
+  "date": "2021-07-26",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "Standards are always out of date.  That’s what makes them standards",
+    "author": "Alan Bennett",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Alan_Bennett"
+  },
+  "links": [
+    {
+      "title": "A Complete Guide to Grid",
+      "url": "https://css-tricks.com/snippets/css/complete-guide-grid",
+      "description": "A comprehensive guide to CSS grid, focusing on all the settings both for the grid parent container and the grid child elements.",
+      "imageUrl": "./7393d6b72c344a65ace293f9d2f214c8795729334ac1c13a6010e84940eaf7d3.jpg",
+      "featured": true
+    },
+    {
+      "title": "WebAssembly from Scratch",
+      "url": "https://github.com/diekmann/wasm-fizzbuzz",
+      "description": "WebAssembly from Scratch: From FizzBuzz to DooM. A comprehensive and engaging guide on all things WebAssembly.",
+      "imageUrl": "./6e06ef2cf3b26faa50d3342b80bbe6f8d1c092d3dfbb6702f46ebb8e943641bf.jpg",
+      "featured": false
+    },
+    {
+      "title": "Magic Link Authentication and Route Controls with Supabase and Next.js",
+      "url": "https://dev.to/dabit3/magic-link-authentication-and-route-controls-with-supabase-and-next-js-leo",
+      "description": "In this post, we'll build out a Next.js app that enables navigation, authentication, authorization, redirects (client and server-side), and a profile view.",
+      "imageUrl": "./68d808075238cdc1581e620cadd38067379450ffd77c7cb5157c0cadd1d1713d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Expansion of AWS Lambda states to all functions",
+      "url": "https://aws.amazon.com/blogs/compute/coming-soon-expansion-of-aws-lambda-states-to-all-functions",
+      "description": "AWS Lambda is now allowing you to track the lifecycle of your functions as they transition through the states (creation, pending, active, inactive, or failed). Find out how this might impact you and what new capabilities can this change allow.",
+      "imageUrl": "./e9316b708106d6e9f46e8eebb6a99d68e0291ce453fb9a0342f6612e237adf12.png",
+      "featured": false
+    },
+    {
+      "title": "Decoupling on AWS: The Big Comparison",
+      "url": "https://hackernoon.com/aws-decoupling-the-big-comparison-cm2x35lj",
+      "description": "A comparisons between AWS services that allows you to dispatch and handle asynchronous messages: Kinesis, SQS, SNS. With these services you can decouple sending and receiving data. This post includes examples in Python examples.",
+      "imageUrl": "./ef2f9597e7e715e58f2b33008de382af9d150cf974dee56bff6549c32b499a2d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using Redis with Node.js",
+      "url": "https://sitepoint.com/using-redis-node-js",
+      "description": "Need fast data interactions in your Node app? Learn how Redis speeds caching, message brokering, sessions, analytics, streaming and more.",
+      "imageUrl": "./f49b64a34eaf1edd8d26b1949182235a17e4641f1e1591f126944404f35dd6d8.jpg",
+      "featured": false
+    },
+    {
+      "title": "The Database Ruins All Good Ideas",
+      "url": "http://squarism.com/2021/07/08/databases-ruin-all-good-ideas",
+      "description": "An interesting opinion piece on the role of databases in modern multi-tier distributed web applications. The database is often underestimated and this piece will highlight some pitfalls you need to be aware of when designing distributed architectures.",
+      "imageUrl": "./b739fa28c47069ffc3ae0da5dabe4d6c3e427c8b32b49132cae3b81370577bfe.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Irresistible APIs: Designing web APIs that developers will love",
+    "author": "Kirsten Hunter",
+    "description": "Well-designed APIs feel like a natural extension of the application, rather than just a new interface into the backend database. Designing Web APIs based on use cases allows an organization to develop irresistible APIs, which developers can consume easily and which support the business values of that organization.",
+    "coverImageUrl": "./30b0a33a50dce31e700a6e019b8e0d6136b4e6d656592cb23358dc5b945f4c2a.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1617292559/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1617292559/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

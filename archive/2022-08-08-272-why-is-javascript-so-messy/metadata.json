@@ -1,0 +1,75 @@
+{
+  "issueNumber": 285,
+  "title": "Why is JavaScript so messy?",
+  "slug": "2022-08-08-272-why-is-javascript-so-messy",
+  "date": "2022-08-08",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "Computers are good at following instructions, but not at reading your mind",
+    "author": "Donald Knuth",
+    "authorTitle": "Author and computer scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Donald_Knuth"
+  },
+  "links": [
+    {
+      "title": "Why is JavaScript so messy?",
+      "url": "https://twitter.com/loige/status/15549227112263925787",
+      "description": "Last week, I wrote a Twitter thread giving my perspective on the history of JavaScript and why its ecosystem might look a bit messy in the eyes of a newcomer to the language. It got quite a bit of positive feedback so I wanted to re-share it here! If you like it give me a follow and consider a re-tweet! Thanks ❤️",
+      "imageUrl": "./59dd89ae7b23e24a2c4a15b75025bcbc4be4a49ed9913d1df103534b9a81993c.jpeg",
+      "featured": true
+    },
+    {
+      "title": "Cloudscape – AWS own Design System",
+      "url": "https://cloudscape.design/",
+      "description": "Recently AWS launched Cloudscape, a design system that offers user interface guidelines, front-end components, design resources, and development tools for building user experiences for the cloud. It's interesting to see AWS finally investing in proper UI/UX and I personally look forward to seeing how this product will influence AWS itself (before the broader open source community)!",
+      "imageUrl": "./e5edb9aa51be9c6729bae7c67276e06f5d769f4ed6db924991779a6786e886bc.jpg",
+      "featured": false
+    },
+    {
+      "title": "Vimified: Learn Vim the Simple Way",
+      "url": "https://vimified.com/",
+      "description": "I always wanted to get more proficient at Vim. And yet, every time I tried to get better at it I was quickly discouraged and went back to Sublime, Atom or Visual Studio code. But last week I found this new interactive vim training resource which looks awesome! Maybe it's time to give learning Vim properly another shot!",
+      "imageUrl": "./1745cc85347b675ec4b25a3037772a9886e90c1de118c22a621f6715b88f4fe8.png",
+      "featured": false
+    },
+    {
+      "title": "Roll your own JavaScript runtime",
+      "url": "https://deno.com/blog/roll-your-own-javascript-runtime",
+      "description": "The folks at Deno wrote a very interesting walk-through that showcases how to create a CLI that executes JavaScript files. This is done in Rust reusing some of the V8 binding libraries written for Deno. After this article, Deno, Bun, and even Node.js should look less magical to you!",
+      "imageUrl": "./8f7208390368f6320cc40e3b47f584292acf2995828dab95d3595b4a5c17a181.jpg",
+      "featured": false
+    },
+    {
+      "title": "Serverless testing strategy",
+      "url": "https://jeromevdl.medium.com/serverless-testing-strategy-b12ada2252f",
+      "description": "This article describes and rates different testing options for serverless applications on AWS, and gives a recommended testing strategy. Test is important in every application, but it's even more important in the context of serverless where things are sometimes a bit hard to fully test locally!",
+      "imageUrl": "./6713ed980b4ca7982d2904c971ed1a35ee0b73f3e70bda7d75afba729aeeda4d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Serverless Internationalisation",
+      "url": "https://leejamesgilmore.medium.com/serverless-internationalisation-cf8c8f39a65b",
+      "description": "Are you building a product that needs to support multiple languages? Are you building it with Serverless technologies? Well, if you answered YES to both questions I am sure you'll love this article. It provides a great example of building serverless solutions that can easily be extended to support multiple languages and locales.",
+      "imageUrl": "./7790675320a3a68106af778a56d76f1736e9f9674dde1783c4b3296b0ecb90f4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Load Testing: An Unorthodox Guide",
+      "url": "https://marcobehler.com/guides/load-testing",
+      "description": "Load test is somewhat of an arcane art. It's hard to do it well and it's hard to get consistent and reliable results. If you want to learn more about this topic, check out this guide to understand how to properly execute load tests, what data to collect during load tests and how to interpret that data.",
+      "imageUrl": "./649f68df7b02fcbb96c64b7d63704db100b8ff466c4e120993928dea158a1e2d.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Rails, Angular, Postgres, and Bootstrap: Powerful, Effective, and Efficient Full-Stack Web Development",
+    "author": "David B. Copeland",
+    "description": "As a Rails developer, you care about user experience and performance, but you also want simple and maintainable code. Achieve all that by embracing the full stack of web development, from styling with Bootstrap, building an interactive user interface with AngularJS, to storing data quickly and reliably in PostgreSQL. Take a holistic view of full-stack development to create usable, high-performing applications, and learn to use these technologies effectively in a Ruby on Rails environment.",
+    "coverImageUrl": "./916a92b54ef122132c9c594e8eb8d9182649599a02cfe38f79d2f203037b008c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501267/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501267/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

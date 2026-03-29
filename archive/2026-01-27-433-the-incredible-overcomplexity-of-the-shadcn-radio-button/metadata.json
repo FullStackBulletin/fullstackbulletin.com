@@ -1,0 +1,112 @@
+{
+  "issueNumber": 453,
+  "title": "The Incredible Overcomplexity of the Shadcn Radio Button",
+  "slug": "2026-01-27-433-the-incredible-overcomplexity-of-the-shadcn-radio-button",
+  "date": "2026-01-27",
+  "templateType": "buttondown-markdown",
+  "intro": "This issue is kindly sponsored by",
+  "quote": {
+    "text": "So much complexity in software comes from trying to make one thing do two things",
+    "author": "Ryan Singer",
+    "authorTitle": "Software Developer",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "The Incredible Overcomplexity of the Shadcn Radio Button",
+      "url": "https://paulmakeswebsites.com/writing/shadcn-radio-button/",
+      "description": "I admit, when I read the title of this one I was skeptical. It sounded like the usual *“look how silly the JavaScript world is”* take. Then I read it, and an old, dismissed feeling came back to me. You know, the first time I tried **shadcn/ui**, I was not really sold. The components looked great, but the implementation felt heavier than it needed to be for a lot of the basics. Then I kept using it, because the convenience is real and the results look good fast, and that nagging feeling basically vanished. This article brings it back in the best way. It walks through how a simple `<input type=\"radio\">` turns into a little universe of React wrappers, Radix primitives, ARIA plumbing, Tailwind classes, and even an icon dependency just to draw a circle. And the author is not dunking on libraries. The point is sharper than that. We keep rebuilding native controls because styling used to be painful, even though modern CSS can often get us what we want without dragging in a whole stack. I have a strong feeling now that maybe I should reconsider my choice of UI libraries and pick something simpler that leans on web standards a bit more. Any suggestions?",
+      "imageUrl": "./bcc8a79e1791619c2a8a89c5b9e6a9e397e5fc05ec4c09d40539cb2b4b0fab74.jpg",
+      "featured": true
+    },
+    {
+      "title": "Tiled Words (web Game)",
+      "url": "https://tiledwords.com/",
+      "description": "OK, I admit I feel a bit like a stalker mentioning this one. After reading the previous article, I got curious and clicked around the author’s site *“just a little.”* That is when I found they built this awesome daily game. It feels like a genius mashup of a **classic crossword** and **Tetris**. You drag tiles around, rotate them, and slowly turn a messy board into something that actually makes sense. It is not our usual link to a web resource or tutorial, but it is a perfect little break when your brain needs a reset. Or maybe it is not a break at all, because I *also* went snooping on GitHub and found what looks like [the full source code](https://github.com/Paul-Hebert/tiled-words) of the game. It is a clean **Vue** + **Vite** project, and it is such a fun example of how you can build a beautiful, entertaining web game without having to learn Unity or Unreal. [**Take a Break and Play**](https://tiledwords.com/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Basecoat UI",
+      "url": "https://basecoatui.com/",
+      "description": "...And speaking of simpler alternatives to shadcn, one that got mentioned at the end of the featured article is Basecoat UI. The vibe is familiar (copy the component into your codebase, tweak it, ship it), but it is not trying to pull you into a React shaped world. It leans on CSS variables, Tailwind, and a CLI to grab the pieces you want, which makes it feel like a nice fit for full stack apps that render on the server, live in templates, or just want solid UI building blocks without adopting a whole runtime framework. I have not had a chance to use this one yet, but it seems quite well done. Could be especially interesting for a static website you want to keep simple and content-focused and doesn't need a full blown React frontend... Have you already seen it used in the wild? [**Browse Components**](https://basecoatui.com/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Extism",
+      "url": "https://extism.org/",
+      "description": "A few days ago I was working on implementing a spec for signing HTTP responses. Since I was in Rust mode, I ended up building a little Rust library for it. Then I hit the annoying part. The spec is still pretty new, I could not find many implementations (even in other languages), and I kept thinking, “How do I share this with other people without forcing them to adopt Rust?” That question is what led me to Extism. Extism is basically a practical way to ship logic across languages using WebAssembly. You compile your code once, then host it as a plugin inside apps written in all sorts of languages, with a tighter sandbox and a capability based surface so you are not handing out the keys to the kingdom. If you have ever wanted a plugin system, customer specific extensions, or a safe “bring your own logic” workflow, this feels like a really interesting foundation to explore. [**Check it out**](https://extism.org/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Common Expression Language (CEL)",
+      "url": "https://cel.dev/",
+      "description": "This one has a fun little origin story that ties nicely to the previous link. I was recently updating [my open source OIDC Lambda authorizer](https://github.com/lmammino/oidc-authorizer) and I wanted a clean way to let users express extra validation rules on the OIDC JSON Web Token without them having to fork the code. This comes up a lot in the real world. People want to validate custom claims, and once you open that door, it quickly becomes a “how do I support every weird check without hardcoding everything” problem. And it is a tricky problem. You want to support checks like “is this claim present,” “is it within a range,” “is it one of these allowed values,” and even arbitrary combinations using logical operators like AND and OR. You could let users write JavaScript or Python, but then you have to sandbox it, and you really do not want to slow down something as hot as auth that runs on basically every request. I could have used Extism, but that felt a bit heavy handed for this specific niche use case. That is when I discovered CEL (Common Expression Language). CEL gives you tiny, safe logic that is fast, portable, and intentionally constrained. The best part is it is available across most of the trending languages (yes, including Rust in my case), and it is surprisingly easy to integrate. Maybe my example is a bit too niche, but the same idea applies to much more generic problems too: think of a rule system for coupon eligibility in an e-commerce checkout, or a car rental pricing engine where discounts, surcharges, and eligibility constraints need to be expressed as composable rules. Also, if you want to learn it or just sanity check an expression, there is [a nice little web playground](https://playcel.undistro.io/). I had a lot of fun using this and I am sure I'll use it again in the future! [**Learn More**](https://cel.dev/)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Node.js is getting a config file",
+      "url": "https://docs.google.com/presentation/d/1Vcezsx8QZLN9IXov_VG0Nj3XIG15uGnoas8L8oZWItI/edit?usp=sharing",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "SeqFlow JS",
+      "url": "https://github.com/allevo/seqflow-js",
+      "description": null,
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "TypeScript Cookbook: Real World Type-Level Programming",
+    "author": "Stefan Baumgartner",
+    "description": "TypeScript is one of the most important tools for JavaScript developers. Still, even experienced developers wonder why the TypeScript compiler is throwing squiggly red lines at them. Enter TypeScript Cookbook. With this practical guide, author Stefan Baumgartner provides senior engineers with solutions for everyday TypeScript problems.\nIf you're conversant with TypeScript as well as JavaScript basics, this book provides actionable recipes to help you tackle a wide array of issues. From setting up complex project structures to developing advanced helper types, each self-contained recipe guides you through the problem and discusses why and how a solution works.\nThe ideal companion for your ongoing TypeScript journey, this cookbook helps you:",
+    "coverImageUrl": "./0d9c062f0813cf1276c0d481c32696b12aef9e6f54af306b5a1e96033ab08de2.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1098136659",
+    "amazonUk": "https://www.amazon.co.uk/dp/1098136659"
+  },
+  "additionalLinks": [
+    {
+      "title": "Open Props custom media recipes",
+      "url": "https://css-tricks.com/open-props-custom-media-recipes/"
+    },
+    {
+      "title": "Responsive hexagon grid using modern CSS",
+      "url": "https://css-tricks.com/responsive-hexagon-grid-using-modern-css/"
+    },
+    {
+      "title": "Understanding the fundamentals of CSS Layout",
+      "url": "https://polypane.app/blog/understanding-the-fundamentals-of-css-layout/"
+    },
+    {
+      "title": "Faking a Fieldset Legend",
+      "url": "https://cloudfour.com/thinks/faking-a-fieldset-legend/"
+    },
+    {
+      "title": "How to write a good spec for AI agents",
+      "url": "https://addyosmani.com/blog/good-spec/"
+    },
+    {
+      "title": "In The Beginning There Was Slop",
+      "url": "https://blog.jim-nielsen.com/2026/in-the-beginning-slop/"
+    },
+    {
+      "title": "robots.txt issues can get your site delisted",
+      "url": "https://www.alanwsmith.com/en/37/wa/jz/s1/"
+    },
+    {
+      "title": "Responsive and Fluid Typography with Baseline CSS Features",
+      "url": "https://www.oddbird.net/2026/01/08/typography-baseline-css/"
+    },
+    {
+      "title": "EC2 loves Lambda - Lambda Managed Instances (AWS Bites podcast)",
+      "url": "https://awsbites.com/151-ec2-loves-lambda-lambda-managed-instances/"
+    }
+  ],
+  "sponsor": null
+}

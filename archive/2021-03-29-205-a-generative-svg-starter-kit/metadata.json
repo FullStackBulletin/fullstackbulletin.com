@@ -1,0 +1,75 @@
+{
+  "issueNumber": 205,
+  "title": "A Generative SVG Starter Kit",
+  "slug": "2021-03-29-205-a-generative-svg-starter-kit",
+  "date": "2021-03-29",
+  "templateType": "old-mailchimp",
+  "intro": "Make the keys to everything you do online easier and safer. Stop resetting passwords and filling out forms. Try Dashlane on your first device for free [here](https://www.dashlane.com/fullstackbulletin).",
+  "quote": {
+    "text": "You cannot endow even the best machine with initiative; the jolliest steamroller will not plant flowers",
+    "author": "Walter Lippmann",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Walter_Lippmann"
+  },
+  "links": [
+    {
+      "title": "A Generative SVG Starter Kit",
+      "url": "https://dev.to/georgedoescode/a-generative-svg-starter-kit-5cm1",
+      "description": "SVG is a fantastic medium for generative art. It can scale to any resolution, is a joy to debug, and has a multitude of incredible filters/effects built-in. With this post you can explore the idea of using SVG for generative art and you might learn one trick or two that can make your websites way more interactive and fun!",
+      "imageUrl": "./f1aa26770ced383520b95989e0e01911d3a3fae65d2f4f5073b627d462f40d1c.jpg",
+      "featured": true
+    },
+    {
+      "title": "Introducing Amazon S3 Object Lambda",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-s3-object-lambda-use-your-code-to-process-data-as-it-is-being-retrieved-from-s3",
+      "description": "When you store data in Amazon Simple Storage Service (S3), you can easily share it for use by multiple applications. However, each application has its own requirements and may need a different view of the data. With S3 Object Lambda you can finally modify the content on the fly!",
+      "imageUrl": "./179f1e4ea87845e1796b411bb816eddcde54a41ff1dffbf589362d937b3432a2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Responsibilities of a Senior Dev",
+      "url": "https://dev.to/kaydacode/responsibilities-of-a-senior-dev-4i3i",
+      "description": "What are the responsibilities of a senior developer? In this post, you will hear the real story of a senior engineer, their daily responsibilities and required awareness, and how their responsibilities shifted while they progressed through their career.",
+      "imageUrl": "./3a948b3651df7efbe8992bca3a33c3910b0da85272446514598f2a8ffd5db90b.jpg",
+      "featured": false
+    },
+    {
+      "title": "Rust vs. Go: Why They’re Better Together",
+      "url": "https://thenewstack.io/rust-vs-go-why-theyre-better-together",
+      "description": "Go and Rust are not competitors. This article goes in-depth to analyse the strengths and weakness of both languages and shows how they are not competitive nor mutually exclusive. In certain cases you'd be better off picking Go, in other cases, you should prefer Rust!",
+      "imageUrl": "./ae559054590caff6bb0c0a0b8098bc28142cfbb8cf483bfe31ee07aeb37edc29.jpg",
+      "featured": false
+    },
+    {
+      "title": "Identity and Access Management",
+      "url": "https://go.dashlane.com/Identity-and-Access-Management-101.html",
+      "description": "As the frequency and sophistication of cyberattacks rise, small- and medium-size businesses need stronger and more secure ways to fend off threat actors and protect sensitive assets. In *“Identity and Access Management 101”*, we explain how you can flexibly and securely manage user identities by automating authentication and authorization. sponsored",
+      "imageUrl": "./9e02d5f64ae6616199a364a1fc8d82981abf754d0b00eceec313df6cff8c443d.png",
+      "featured": false
+    },
+    {
+      "title": "Understanding Streams in Node.js",
+      "url": "http://nodesource.com/blog/understanding-streams-in-nodejs",
+      "description": "Streams are one of the fundamental concepts that power Node.js applications. This blog post provides a wonderful introduction that can help with understanding them!",
+      "imageUrl": "./ccf65e4bd464d6bd648cdf27237619da868ee802783c927fde88253b68c4d7d2.png",
+      "featured": false
+    },
+    {
+      "title": "Javascript and the next decade of data programming",
+      "url": "http://benschmidt.org/post/2020-01-15/2020-01-15-webgpu",
+      "description": "A beautiful article with tons of interactive visualizations that tries to make the point of how JavaScript is in a unique position for providing efficient visualization tools on the web.",
+      "imageUrl": "./1bdeb2b264980d2b0a642c9b697fcc64348918919d9bb528756e60be8baf741b.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Build APIs You Won't Hate: Everyone and their dog wants an API, so you should probably learn how to build them",
+    "author": "Phil Sturgeon",
+    "description": "API development is becoming increasingly common for server-side developers thanks to the rise of front-end JavaScript frameworks, iPhone applications, and API-centric architectures. It might seem like grabbing stuff from a data source and shoving it out as JSON would be easy, but surviving changes in business logic, database schema updates, new features, or deprecated endpoints can be a nightmare. After finding many of the existing resources for API development to be lacking, Phil learned a lot of things the hard way through years of trial and error. This book aims to condense that experience, taking examples and explanations further than the trivial apples and pears nonsense tutorials often provide. By passing on some best practices and general good advice you can hit the ground running with API development, combined with some horror stories and how they were overcome/avoided/averted.",
+    "coverImageUrl": "./546c5cf136073615afda5cab173feff341171a26a848cf7ce09bb8bd8b07ce89.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0692232699/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0692232699/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

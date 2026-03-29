@@ -1,0 +1,75 @@
+{
+  "issueNumber": 293,
+  "title": "Type-Level TypeScript",
+  "slug": "2022-10-03-280-type-level-typescript",
+  "date": "2022-10-03",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "UNIX is simple.  It just takes a genius to understand its simplicity",
+    "author": "Dennis Ritchie",
+    "authorTitle": "Computer scientist and inventor of the C language",
+    "authorUrl": "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+  },
+  "links": [
+    {
+      "title": "Type-Level TypeScript",
+      "url": "https://type-level-typescript.com/",
+      "description": "Last week [I learned about some advanced features of TypeScript](https://twitter.com/loige/status/1574800290481672194) and I was blown away. Some of them are crazy; basically, the type system is a Turing-complete language. If you are into TypeScript you might enjoy this advanced course!",
+      "imageUrl": "./b4615b535be4448777936c4adb709960a6b81285488bab2f7fd78a916680180b.jpg",
+      "featured": true
+    },
+    {
+      "title": "Best practices for creating a modern npm package",
+      "url": "https://snyk.io/blog/best-practices-create-modern-npm-package",
+      "description": "If you are creating a new package for Node.js/JavaScript you should definitely check out this comprehensive tutorial. It explores step by step what you need to do to create an npm package using modern best practices (as of 2022).",
+      "imageUrl": "./1f8f01d6f08b9616ccc6b7b6d535326c9571260fc8d8021cd8fe98ed3ec7b868.jpg",
+      "featured": false
+    },
+    {
+      "title": "Experimenting a new syntax to write SVG",
+      "url": "https://yuanchuan.dev/experimenting-a-new-syntax-to-write-svg",
+      "description": "The [CSS doodle](https://css-doodle.com/) project proposes a new interesting (and definitely more succinct) way of defining the content of an SVG image. I found it awesome to read, but I haven't tried authoring an SVG with it just yet! What do you think?",
+      "imageUrl": "./0078317e5bdf8d17960c34b6dcbef9b78c1d37158fad5909c0da73be00c1f3d1.png",
+      "featured": false
+    },
+    {
+      "title": "How to Build AWS Lambdas with TypeScript",
+      "url": "https://blog.appsignal.com/2022/09/21/how-to-build-aws-lambdas-with-typescript.html",
+      "description": "Do you like AWS Lambda but also like to write code in TypeScript? I have to admit it's not yet obvious how to author and deploy Lambda code with TypeScript. In this first part of a four-part series, you can start to learn everything there's to know about this topic!",
+      "imageUrl": "./11eba5b8ce3c7961ca20ec231dbbb5cc5c4be5808685de48b9cc15c14e231ce4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why You Shouldn't Mix Promise.then() With Async/Await Syntax",
+      "url": "https://maximorlov.com/why-you-shouldnt-mix-promise-then-with-async-await",
+      "description": "Mixing Promise.then() with async/await syntax is a recipe for bugs. Here's why you shouldn't do it and what to do instead.",
+      "imageUrl": "./fef474f2e85964d28ab8baecfe525c7a6a6ec87018ab05bb3edbf918789fbdda.jpg",
+      "featured": false
+    },
+    {
+      "title": "Client-side WebAssembly WordPress with no server",
+      "url": "https://make.wordpress.org/core/2022/09/23/client-side-webassembly-wordpress-with-no-server",
+      "description": "This early demo runs a full WordPress directly in the browser without a PHP server! While it isn’t fully stable yet, it is a major breakthrough that could transform not just WordPress but the web industry as a whole!",
+      "imageUrl": "./f00498a44b798ba846b373637d66ac584e71f89746a8420fedbdde09ac1baf2a.jpg",
+      "featured": false
+    },
+    {
+      "title": "Hex strings validation in TypeScript",
+      "url": "https://catchts.com/hex-validation",
+      "description": "If you liked the first article in this issue, this one provides a specific example of how you can use the TypeScript type system to be able to validate strings that should contain only hex characters (specifically to encode hex colors).",
+      "imageUrl": "./8dcc5fde9371b88c71b7c62525e732b389f4fa8d9fbd6db8f483e6c1d6054541.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Agile Web Development with Rails 5",
+    "author": "Sam Ruby",
+    "description": "Rails 5 and Ruby 2.2 bring many improvements, including new APIs and substantial performance enhancements, and the fifth edition of this award-winning classic is now updated! If you're new to Rails, you'll get step-by-step guidance. If you're an experienced developer, this book will give you the comprehensive, insider information you need for the latest version of Ruby on Rails.",
+    "coverImageUrl": "./8ce7511fb3c8594f256f41ec4168254572d3e762c632005637323efef4d09ba0.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1680501712/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1680501712/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

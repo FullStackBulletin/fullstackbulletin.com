@@ -1,0 +1,92 @@
+{
+  "issueNumber": 402,
+  "title": "A framework for better documentation",
+  "slug": "2024-12-09-383-a-framework-for-better-documentation",
+  "date": "2024-12-09",
+  "templateType": "mce-mailchimp",
+  "intro": "Ciao, \nI’m back from an unforgettable week at AWS re:Invent in Las Vegas! I am writing this after 30+ hrs with almost no sleep, so there might be a typo or two... consider them part of the charm. 😅\n\nThis year, I focused less on the hardcore technical deep dives and more on communication, networking (the people kind!), and soaking up all the wisdom from conversations and sessions. You’ll notice this issue reflects that shift, with some great resources on soft skills and collaboration to balance out the tech-heavy content. One thing that caught my eye at re:Invent was the new [Amazon Aurora DSQL](https://aws.amazon.com/rds/aurora/dsql/) database, a promising serverless distributed relational database. I’m curious to explore it more in the future, but what about you? If you’re into AWS or tuned into re:Invent (whether in person or virtually), let me know which announcements stood out to you. Just hit reply—I’d love to hear your thoughts!\n\nPS: If you don't care much about the cloud and AWS, don't worry, the rest of the content in this issue is not AWS-specific!\n\n- Your editor, [Luciano](https://loige.co/)",
+  "quote": {
+    "text": "Good programmers use their brains, but good guidelines save us having to think out every case“",
+    "author": null,
+    "authorTitle": "Author",
+    "authorUrl": null
+  },
+  "links": [
+    {
+      "title": "A Framework for Better Documentation",
+      "url": "https://diataxis.fr/",
+      "description": "As a book author and someone who’s spent years teaching, training, and running workshops, I often wonder: is there a reliable way to write content that works for all kinds of audiences and situations? The **Diátaxis** framework might just have the answer. It breaks documentation into four clear types: tutorials, how-to guides, explanations, and references, helping you create effective and easy-to-use content... And let’s be honest: writing good documentation isn’t just a nice-to-have; it’s a core skill every full-stack developer should master.",
+      "imageUrl": "./faf011e25c3b34fd9f5a834057be94778851683567ab139f48e6d78352fab102.png",
+      "featured": true
+    },
+    {
+      "title": "Inside Bluesky’s Engineering Culture",
+      "url": "https://newsletter.pragmaticengineer.com/p/bluesky-engineering-culture",
+      "description": "The BlueSky engineering culture offers fascinating insights into how a fully remote, open source-first tech company is building a challenger social media platform. The article explores how BlueSky fosters collaboration, prioritizes quality, and balances innovation with pragmatism—all while maintaining a lean team.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Skia Canvas",
+      "url": "https://skia-canvas.org/",
+      "description": "Need to create or edit images programmatically on the backend? Skia Canvas is a browser-less implementation of the HTML Canvas API for Node.js, powered by Google’s Skia engine. It’s fast, GPU-accelerated, and highly versatile—supporting raster (PNG, JPEG) and vector (PDF, SVG) formats, 3D transformations, advanced typography, and more. Perfect for server-side graphics, multi-page PDFs, and custom visualizations. I have been using [node-canvas](https://github.com/Automattic/node-canvas) to generate OpenGraph images for my blog, but this one seems more powerful and performant. I might consider switching over, meanwhile, let me know if you use it!",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Effective Multistep Forms",
+      "url": "https://smashingmagazine.com/2024/12/creating-effective-multistep-form-better-user-experience",
+      "description": "Forms are tricky enough to style, but creating a great user experience goes beyond just validation. In this article, Jima Victor dives into designing effective multi-step forms, with a focus on smooth navigation between sections.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "JS Animations with Kinesis",
+      "url": "https://kinesisjs.com/",
+      "description": "Looking to add sleek, real-time animations to your web projects? Check out Kinesis, a lightweight JS library for creating parallax effects, cursor tracking, and scroll-based animations. Simple, fast, and perfect for full-stack devs who want to elevate their UIs without extra bulk. (No, it’s not Amazon Kinesis... this one’s about smooth animations, not streaming terabytes of data!)",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Mapping Over Promises in JavaScript",
+      "url": "https://telerik.com/blogs/mapping-promises-javascript",
+      "description": "Ever run into the classic \"*why is my map returning promises instead of resolved values*\" problem? This article dives into the best ways to handle mapping promises, from using for...of loops to leveraging `Promise.all()` (or `Promise.allSettled()`). But there's more: `p-map`, a popular third-party library for keeping your async workflows clean and powerful.",
+      "imageUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Astro 5.0",
+      "url": "https://astro.build/blog/astro-5/",
+      "description": "This new release, among many things, introduces the **Content Layer API**, a game-changing way to manage content. It provides a unified, type-safe API to define, load, and access your content, no matter the source. Since my blog is built with Astro (still on an older version), I can’t wait to upgrade and try out the Content Layer API myself.",
+      "imageUrl": null,
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "How JavaScript Works",
+    "author": "Douglas Crockford",
+    "description": "Douglas Crockford starts by looking at the fundamentals: names, numbers, booleans, characters, and bottom values. JavaScript's number type is shown to be faulty and limiting, but then Crockford shows how to repair those problems. He then moves on to data structures and functions, exploring the underlying mechanisms and then uses higher order functions to achieve class-free object oriented programming. The book also looks at eventual programming, testing, and purity, all the while looking at the requirements of The Next Language. Most of our languages are deeply rooted in the paradigm that produced FORTRAN. Crockford attacks those roots, liberating us to consider the next paradigm. He also presents a strawman language and develops a complete transpiler to implement it. The book is deep, dense, full of code, and has moments when it is intentionally funny.",
+    "coverImageUrl": "./15962fb5d3ae6174e8116cff85aa1b5155cb4cfe0889e72b477fc268122def1c.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1949815005?tag=loige0e-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1949815005?tag=loige-21"
+  },
+  "additionalLinks": [
+    {
+      "title": "How To Improve INP: React⚛️",
+      "url": "https://kurtextrem.de/posts/improve-inp-react"
+    },
+    {
+      "title": "React Bluesky Embed",
+      "url": "https://react-bluesky-embed.vercel.app/"
+    },
+    {
+      "title": "Working with JavaScript's Scheduler API",
+      "url": "https://trevorlasn.com/blog/javascript-scheduler-api"
+    },
+    {
+      "title": "Biome's Approach to Multi-File Analysis",
+      "url": "https://arendjr.nl/blog/2024/11/biome_approach_to_multi_file_analysis"
+    }
+  ],
+  "sponsor": null
+}

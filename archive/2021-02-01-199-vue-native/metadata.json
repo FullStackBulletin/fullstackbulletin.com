@@ -1,0 +1,75 @@
+{
+  "issueNumber": 199,
+  "title": "Vue Native",
+  "slug": "2021-02-01-199-vue-native",
+  "date": "2021-02-01",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #5, 2021\n\n\n⭐️ FullStack Bulletin has outgrown its free plan! If you enjoy this newsletter, consider supporting us:\n\n\n[Donate on Patreon](https://patreon.com/lucianomammino) - [Discuss sponsorship](https://fstack.link/sponsor)",
+  "quote": {
+    "text": "Just because something doesn’t do what you planned it to do doesn’t mean it’s useless",
+    "author": "Thomas Edison",
+    "authorTitle": "Inventor",
+    "authorUrl": "https://en.wikipedia.org/wiki/Thomas_Edison"
+  },
+  "links": [
+    {
+      "title": "Vue Native",
+      "url": "https://vue-native.io/",
+      "description": "If you prefer Vue to React and you always wished there was something like React Native, but using Vue, well now you can finally cheer up and use Vue even for mobile apps development!",
+      "imageUrl": "./4647a39728e92fb93409e3228d7bf517f630b7c14621c53ffb34198bdb47461f.jpg",
+      "featured": true
+    },
+    {
+      "title": "kettanaito/naming-cheatsheet",
+      "url": "https://github.com/kettanaito/naming-cheatsheet",
+      "description": "An interesting repository presenting a comprehensive and language-agnostic guide on variables naming",
+      "imageUrl": "./f9a5fd5d084432d48e464eec296a5c73d76e0131ce259f69ed7e1c83bbbf1c05.png",
+      "featured": false
+    },
+    {
+      "title": "How We Improved SmashingMag Performance",
+      "url": "https://smashingmagazine.com/2021/01/smashingmag-performance-case-study",
+      "description": "In this article, we’ll take a close look at some of the changes we made on Smashing Magazine, now running on JAMStack with React, to optimize the web performance and improve the Core Web Vitals metrics.",
+      "imageUrl": "./dd5ca781598cb22d234cd1c21e43f4f8332ca6b4989c3c28cdcee543769ad81c.jpg",
+      "featured": false
+    },
+    {
+      "title": "Responsible Web Applications",
+      "url": "https://responsibleweb.app/",
+      "description": "HTML and CSS Tips and Tricks for creating applications that are both responsive and accessible out of the box.",
+      "imageUrl": "./fec7f5de77206ec9331ea0edcbe531840c99f49d5053f0bdd4465b889c7190a2.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why Rust Has a Bright Future in the Cloud",
+      "url": "https://qovery.com/blog/why-rust-has-a-bright-future-in-the-cloud",
+      "description": "This high-level article explores some of the most important characteristics of Rust and highlights why it will be a successful language for the development of cloud applications.",
+      "imageUrl": "./934edbe809ed15ebe54e28fdb7045acafb3b5101116382a89fb1d1ef75721177.jpg",
+      "featured": false
+    },
+    {
+      "title": "Cache poisoning in popular open source packages",
+      "url": "https://snyk.io/blog/cache-poisoning-in-popular-open-source-packages",
+      "description": "This blog post provides an introduction to web cache poisoning and demonstrates why open source maintainers should take this issue into account.",
+      "imageUrl": "./b24053a7172304dadcb5ef2702087de2933c12771413dac22653f4229f4d7356.png",
+      "featured": false
+    },
+    {
+      "title": "Analysing Algorithms: Worst Case Running Time",
+      "url": "https://thatcomputerscientist.com/analysing-algorithms-worst-case-running-time",
+      "description": "Have you ever been asked about Big O Notation in an interview? Do you feel like you need to understand more about it? If that's your case, this article is a great resource that goes in detail about analyzing algorithms today, specifically the worst-case running time of algorithms.",
+      "imageUrl": "./2bff2f8cbb82e454e78d35e13300ff454cdc19d4a9e0aaf7ce5ff5796302bda8.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Mastering Regular Expressions",
+    "author": "Jeffrey E. F. Friedl",
+    "description": "Regular expressions are an extremely powerful tool for manipulating text and data. They are now standard features in a wide range of languages and popular tools, including Perl, Python, Ruby, Java, VB.NET and C# (and any language using the .NET Framework), PHP, and MySQL.If you don't use regular expressions yet, you will discover in this book a whole new world of mastery over your data. If you already use them, you'll appreciate this book's unprecedented detail and breadth of coverage.",
+    "coverImageUrl": "./396d6f15a915700637c37f7d2fcde88b8839c4580fbc81d9acd6add805980fd3.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0596528124/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0596528124/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

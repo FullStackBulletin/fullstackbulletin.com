@@ -1,0 +1,75 @@
+{
+  "issueNumber": 220,
+  "title": "Hack the \"Deploy to Netlify\" Button",
+  "slug": "2021-07-19-220-hack-the-deploy-to-netlify-button",
+  "date": "2021-07-19",
+  "templateType": "old-mailchimp",
+  "intro": "This issue is kindly sponspored by:\n\n\n\n\n\nWe help upcoming influencers and businesses do big things 🚀\n\n\t\t\tStart scheduling content today for free [here](https://feedhive.io/).",
+  "quote": {
+    "text": "I do not fear computers. I fear lack of them",
+    "author": "Isaac Asimov",
+    "authorTitle": "Author and Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Isaac_Asimov"
+  },
+  "links": [
+    {
+      "title": "Hack the \"Deploy to Netlify\" Button",
+      "url": "https://css-tricks.com/hack-the-deploy-to-netlify-button-using-environment-variables-to-make-a-customizable-site-generator",
+      "description": "The \"Deploy to Netlify\" button allows you to create a boilerplate project that can easily be deployed by other users to their Netlify accounts. In this article you can learn more about this feature and some extra interesting options that come with it!",
+      "imageUrl": "./cbdb438d1e676cbbea21f4ed191124833bf1f4cbc1204dc591ed77fe11a35308.jpg",
+      "featured": true
+    },
+    {
+      "title": "JavaScript Frameworks and Metagaming",
+      "url": "https://dev.to/this-is-learning/javascript-frameworks-and-metagaming-pb5",
+      "description": "The author of SolidJS looks at the framework from the perspective of game theory. Being an avid Magic The Gathering player, they try to explain what can you learn from the game and how these learnings can be applied to building web frameworks.",
+      "imageUrl": "./3d978817bac4bd8a1b899419a18c7486ea35ad722f6dc82664aebb65ad09348e.jpg",
+      "featured": false
+    },
+    {
+      "title": "Saving data to Supabase and getting it back again",
+      "url": "https://netlify.com/blog/2021/06/28/saving-data-to-supabase-and-getting-it-back-again",
+      "description": "How to add a database to your web project with Supabase and interact with it using serverless functions.",
+      "imageUrl": "./f54e78c8a2ea0b75d9faa94dc449f46205ac36b9136b7d644602dbfb000c5a97.jpg",
+      "featured": false
+    },
+    {
+      "title": "The great decoupling: Why web developers are looking at the edge",
+      "url": "https://protocol.com/enterprise/jamstack-web-development-edge",
+      "description": "Web development hasn't changed a lot in 10 years, but modern browsers and APIs are opening the door for a new, decentralized approach known as Jamstack.",
+      "imageUrl": "./a03bab8feb8c35025cd9407f9bf0073478952053ff7f2cdebff732c0732af049.jpg",
+      "featured": false
+    },
+    {
+      "title": "Creating a dynamic color converter with 11ty Serverless",
+      "url": "https://bryanlrobinson.com/blog/creating-a-dynamic-color-converter-with-11ty-serverless",
+      "description": "11ty started out as a static site generator, but is quickly getting into the dynamic game. Use the templates and structure you love, but use them on the server, as well!",
+      "imageUrl": "./07960e06f5de992a5ca409fa50bc06b9355d992cfeb207bef79770d399a336eb.jpg",
+      "featured": false
+    },
+    {
+      "title": "How To Choose A Headless CMS",
+      "url": "https://smashingmagazine.com/2021/07/how-to-choose-a-headless-cms",
+      "description": "There is an array of Headless CMSes out there. In this article, we delve into headless CMS features to satisfy your content editors, marketers and yourself as a developer.",
+      "imageUrl": "./2839fb0714eaa8ed01a0c86445a9374c2289969b85a74ea0a09e55249826d424.jpg",
+      "featured": false
+    },
+    {
+      "title": "Mercurius",
+      "url": "https://mercurius.dev/",
+      "description": "Mercurius is a **GraphQL** adapter for **Fastify**. Mercurious has performance has first class citizen and a lot of other interesting features. Absoluterly recommended if you are building GraphQL APIs using **Node.js**.",
+      "imageUrl": "./ec493df9eb49d34830d3eca00a82b16e32e8191f1e54fc916594cd73c501c0dc.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Angular 2 Cookbook",
+    "author": "Matt Frisbie",
+    "description": "This book covers all the most complicated Angular concepts and at the same time introduces the best practices with which to wield these powerful tools. It also covers in detail all the concepts you'll need to get you building applications faster. Often neglected topics such as testing and performance optimization are widely covered as well. A developer that reads through all the content in this book will have a broad and deep understanding of all the major topics in the Angular 2 universe.",
+    "coverImageUrl": "./b6885ee25caf4d2b67b01862d2a10f60300e0c6c69537686826de54524ca4ac3.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01JLBMC86/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/B01JLBMC86/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

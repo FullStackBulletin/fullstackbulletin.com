@@ -1,0 +1,75 @@
+{
+  "issueNumber": 319,
+  "title": "Fontpair - beautiful fonts pairings for you",
+  "slug": "2023-04-03-306-fontpair-beautiful-fonts-pairings-for-you",
+  "date": "2023-04-03",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "We are stuck with technology when what we really want is just stuff that works",
+    "author": "Douglas Adams",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Douglas_Adams"
+  },
+  "links": [
+    {
+      "title": "Fontpair - beautiful fonts pairings for you",
+      "url": "https://fontpair.co/",
+      "description": "Picking a good font pairing can make a hell of a lot of a difference in the final look and feel of a website. But if you are like me and if you feel you don't have an eye for these things, you might find this website with curated font pairings to be a precious resource!",
+      "imageUrl": "./59ad9ae9d81a89cb9aee95f5ea5955fce91930e0ddb822e5d253c0ee3efadcc2.jpg",
+      "featured": true
+    },
+    {
+      "title": "Why you should use Python and Rust together",
+      "url": "https://opensource.com/article/23/3/python-loves-rust",
+      "description": "Rust and Python have complementary strengths and weaknesses. Prototype in Python and move performance bottlenecks to Rust. This article showcases a library called [PyO3](https://docs.rs/pyo3/latest/pyo3/) which makes it easy to run Rust code from your Python scripts.",
+      "imageUrl": "./2561d8dee6221cc8420c40511fb7674ce3e32cf34504cbba1c265fc7dcb1a7fa.jpg",
+      "featured": false
+    },
+    {
+      "title": "Why We Added package.json Support to Deno",
+      "url": "https://deno.com/blog/package-json-support",
+      "description": "Deno was born to \"repair\" some tragic mistakes Ryan Dahl felt had made when creating Node. One of these mistakes was the way packages are managed through NPM. So why now is Deno stepping back and introducing support for package.json into the runtime? Sound like a weird decision, so let's find out from Ryan himself what's motivating this decision!",
+      "imageUrl": "./58231bb9706bc88b4e9979f49ddeb6302cf6035eeb991be481e2f0225d0538e5.jpg",
+      "featured": false
+    },
+    {
+      "title": "One-Time Password (HOTP/TOTP) library for Node.js, Deno, Bun, and browsers.",
+      "url": "https://github.com/hectorm/otpauth",
+      "description": "If you are trying to add an extra layer of security to your applications and thinking to add support for MFA using One-Time Passwords (such as HOTP and TOTP), you should check out this awesome library for Node.js, Deno, Bun, and the browser!",
+      "imageUrl": "./7f62a912312846dc5ac2ab6b4c7542d93091561c6f8708878a76cd23fd3fe5b3.jpg",
+      "featured": false
+    },
+    {
+      "title": "Laying Out a Print Book With CSS",
+      "url": "https://iangmcdowell.com/blog/posts/laying-out-a-book-with-css",
+      "description": "CSS are now more powerful than ever. But have you ever thought to use CSS not for a website, but for a book?! If this sounds like an insane idea you should check out the code snippets in this article and I am sure they'll definitely change your mind. And, if you are still not convinced, check out [Typst](https://github.com/typst/typst), another interesting project written in Rust that I discovered last week!",
+      "imageUrl": "./b4cb6a21c5842b3bb89dd8b2ee18e00bcde41d2116904ebcbaaae0eb23072ee0.png",
+      "featured": false
+    },
+    {
+      "title": "Local-storage-first web applications",
+      "url": "https://evilmartians.com/chronicles/cool-front-end-arts-of-local-first-storage-sync-and-conflicts",
+      "description": "Web applications often require an internet connection, but a fair chunk of users can also work offline. This article shows how to gracefully implement the big 3 local-first solutions: storage, synchronization, and conflict resolution.",
+      "imageUrl": "./ddb10a923cacb597a9efbe3017d52ce33333298079d9cb05b79674b1af74aaf0.png",
+      "featured": false
+    },
+    {
+      "title": "Selecting previous siblings with CSS :has()",
+      "url": "https://tobiasahlin.com/blog/previous-sibling-css-has",
+      "description": "Using CSS to select a previous sibling in the DOM was for long time an impossible feat! But now things have changed thanks to the **has()** pseudo-class selector. This new selector keeps surprising and here's just another great use case for it!",
+      "imageUrl": "./50168f9dd6efb937bc412a31e9769315e09408fb004629926f71f61e653ca742.png",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence",
+    "author": "Pramod J. Sadalage",
+    "description": "The need to handle increasingly larger data volumes is one factor driving the adoption of a new class of nonrelational “NoSQL” databases. Advocates of NoSQL databases claim they can be used to build systems that are more performant, scale better, and are easier to program.",
+    "coverImageUrl": "./96f077a648367bca955163aa3692e65c5704f3d7a7c6557690997e5ffeea975b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321826620/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321826620/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

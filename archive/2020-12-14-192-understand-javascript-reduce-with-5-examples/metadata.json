@@ -1,0 +1,75 @@
+{
+  "issueNumber": 192,
+  "title": "Understand JavaScript Reduce With 5 Examples",
+  "slug": "2020-12-14-192-understand-javascript-reduce-with-5-examples",
+  "date": "2020-12-14",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #50, 2020\n\n \n\n⭐️ FullStack Bulletin has outgrown its free plan! Now... we need some help! 🤗\n[Donate on Patreon](https://patreon.com/lucianomammino) - [Discuss sponshorship](https://fstack.link/sponsor)",
+  "quote": {
+    "text": "In C++ it’s harder to shoot yourself in the foot, but when you do, you blow off your whole leg",
+    "author": "Bjarne Stroustrup",
+    "authorTitle": "Computer scientist and C++ inventor",
+    "authorUrl": "https://en.wikipedia.org/wiki/Bjarne_Stroustrup"
+  },
+  "links": [
+    {
+      "title": "Understand JavaScript Reduce With 5 Examples",
+      "url": "http://thecodebarbarian.com/javascript-reduce-in-5-examples",
+      "description": "Here's 5 examples to help you understand how to use `Array#reduce()` in JavaScript, including 4 common use cases and one not-so-common use case.",
+      "imageUrl": "./ceb9332fb3321a82b76764a6a724b4044adacdaaff81701865ca1def21e9e1a9.jpg",
+      "featured": true
+    },
+    {
+      "title": "Awesome Go",
+      "url": "https://awesome-go.com/",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "imageUrl": "./43d5a89c958c1c187dc98374f4f7c255e8b5910ba3e2d3b95bead02a697ac6e6.jpg",
+      "featured": false
+    },
+    {
+      "title": "Container Image Support for AWS Lambda",
+      "url": "https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support",
+      "description": "With AWS Lambda, you upload your code and run it without thinking about servers. Many customers enjoy the way this works, but if you’ve invested in container tooling for your development workflows, it’s not easy to use the same approach to build applications using Lambda. Well, until now…",
+      "imageUrl": "./51facd3f3dd1d75cdd3b7f1ce00083b230f5a7864ada2fb059fa97b6146655a4.jpg",
+      "featured": false
+    },
+    {
+      "title": "Styling Comment Threads",
+      "url": "https://css-tricks.com/styling-comment-threads/",
+      "description": "Comment threads are one of those things that look really simple when executed right. When designing them yourself, you may find that they are rather deceptively simple. There is a lot that goes into designing nice and usable comment threads, and in this article, you will walk through the steps to building a comment thread, that is great to look at, and a joy to use.",
+      "imageUrl": "./9345be3f87c51ff933f68aef2488e96dee381d444ac3b427db76e40d76ec5791.png",
+      "featured": false
+    },
+    {
+      "title": "Writing testable serverless apps",
+      "url": "https://dev.to/aws-heroes/writing-testable-serverless-apps-and-preventing-vendor-lock-in-using-hexagonal-architecture-3mi5",
+      "description": "What is the scariest thing about serverless? For some people its testing, for others is vendor lock-in... This article explains how to write testable serverless applications and how to avoid vendor lock-in by leveraging the hexagonal architecture pattern.",
+      "imageUrl": "./dd00eaa32dd4867cf44b24b61e5ed60b014f353f44a6cb90033518c4a143ef2d.jpg",
+      "featured": false
+    },
+    {
+      "title": "Futures explained in 200 lines of Rust",
+      "url": "https://cfsamson.github.io/books-futures-explained/introduction.html",
+      "description": "Rust futures and Async/Await are two of the most interesting and well-tought features of the language. In this article, you can explore in more depth how these features actually work and have a peek at them by looking at some code.",
+      "imageUrl": "./372671ed295c97e38465309313c365ff0ddd373636e139393d0f37c8d327fff9.png",
+      "featured": false
+    },
+    {
+      "title": "Container orchestration tools explained",
+      "url": "https://dev.to/sarmadsaleem/container-orchestration-tools-explained-1c4i",
+      "description": "The way we write, ship, and maintain software today has evolved drastically in the last few years thanks to docker and containers... In this article you can deep dive on how container orchestration tools actually work!",
+      "imageUrl": "./af778f3b43eff201e46acbb6fbdaa76b5ccb8047d8f07375929fe27bced11705.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Docker in Action",
+    "author": "Jeff Nickoloff",
+    "description": "After starting with a clear explanation of the Docker model, you will learn how to package applications in containers, including techniques for testing and distributing applications. You will also learn how to run programs securely and how to manage shared resources. Using carefully designed examples, the book teaches you how to orchestrate containers and applications from installation to removal. Along the way, you'll discover techniques for using Docker on systems ranging from dev-and-test machines to full-scale cloud deployments.",
+    "coverImageUrl": "./f7904cb457d00eac2148258f1c19521c542a8bdd85bebcf49fa71431fd10b07f.jpg",
+    "amazonUs": "https://www.amazon.com/dp/1633430235/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/1633430235/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

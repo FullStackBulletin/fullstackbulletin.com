@@ -1,0 +1,75 @@
+{
+  "issueNumber": 153,
+  "title": "500+ Customizable CSS Icons",
+  "slug": "2020-03-09-153-500-customizable-css-icons",
+  "date": "2020-03-09",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #10, 2020",
+  "quote": {
+    "text": "The human spirit must prevail over technology",
+    "author": "Albert Einstein",
+    "authorTitle": "Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  "links": [
+    {
+      "title": "500+ Customizable CSS Icons",
+      "url": "https://css.gg/",
+      "description": "Minimalistic icon library Designed by code, Customizable & Retina-Ready icons — built 100% in pure CSS. Easy integration: Embed, NPM & API",
+      "imageUrl": "./eca3357ee849c99ad5d208c4902f4b4d5c528e5976c9ec712853fde8a340891b.jpg",
+      "featured": true
+    },
+    {
+      "title": "Being Glue",
+      "url": "https://noidea.dog/glue",
+      "description": "A wonderful talk by Tanya Reilly about \"Glue Work\" in a tech team. Glue work means working away from code and investing in auxiliary (and necessary) activities such as writing docs, setting up meetings, defining coding standards, improving processes, mentoring and onboarding. How much do we underestimate glue work?",
+      "imageUrl": "./9903abf0a581b7aa84f45656c69b6123aef9e80c9779f82c0d0dbbab41c6b038.jpg",
+      "featured": false
+    },
+    {
+      "title": "To Get Good, Go After The Metagame",
+      "url": "http://commoncog.com/blog/to-get-good-go-after-the-metagame",
+      "description": "A-non-strictly techincal article about getting better at anything... What do metagames have to do with the acquisition of expertise? What actually is the metagame and how can we leverage it to get better at something?",
+      "imageUrl": "./73646934468afbd3e213adde7b816b3f526b09ce40c7f6bfcc735879d299db9a.jpg",
+      "featured": false
+    },
+    {
+      "title": "A half-hour to learn Rust",
+      "url": "https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust",
+      "description": "In order to increase fluency in a programming language, one has to read a lot of it. But how can you read a lot of it if you don't know what it means? This article, instead of focusing on one or two concepts, tries to go through as many Rust snippets as possible to make the syntax easier to understand and to set the foundation for learning more about the language.",
+      "imageUrl": "./017d94f339514fdf9dee9e3c7d16119f06075048e39c571f54cf4f8c80808fdf.jpg",
+      "featured": false
+    },
+    {
+      "title": "sharkdp/fd",
+      "url": "https://github.com/sharkdp/fd",
+      "description": "A simple, fast and user-friendly alternative to the UNIX \"find\" command. If you use \"find\" a lot, you are going to love this alternative!",
+      "imageUrl": "./8b6770127b6a7f2763c1027c979a6f534743516990281446386c3c1240b52b78.jpg",
+      "featured": false
+    },
+    {
+      "title": "How to brainstorm great business ideas",
+      "url": "https://indiehackers.com/post/how-to-brainstorm-great-business-ideas-ab51c3d51c",
+      "description": "It's been said that ideas don't matter, execution does. In reality, you need both to succeed, but you can only get so good at execution... A great idea gives you much more leverage! So how can we discriminate ideas to find the best ones?",
+      "imageUrl": "./cf65eda670c2b0875e231adaf595ef30eb65056c0d6243cfa91e497a994f4cd5.jpg",
+      "featured": false
+    },
+    {
+      "title": "Mining my mailbox for top email service providers",
+      "url": "https://obem.be/2020/02/18/mining-my-mailbox-for-top-email-service-providers.html",
+      "description": "An interesting experiment that aims to find the most used email services providers by mining your own mailbox programmatically! Did you ever think to \"crawl\" an email box?",
+      "imageUrl": "./747e3af716ef814b1651d0c03fc355d4f8b5d0d26430e08cb9714d97822862f8.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Test Driven Development: By Example",
+    "author": "Kent Beck",
+    "description": "Developers face complex programming challenges every day, yet they are not always readily prepared to determine the best solution. More often than not, such difficult projects generate a great deal of stress and bad code. To garner the strength and courage needed to surmount seemingly Herculean tasks, programmers should look to test-driven development (TDD), a proven set of techniques that encourage simple designs and test suites that inspire confidence.",
+    "coverImageUrl": "./ef72fdfbf05d98a13cd8c799cb261327f791b8743ab00f96b9dc0c4c1fb91ed1.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321146530/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321146530/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

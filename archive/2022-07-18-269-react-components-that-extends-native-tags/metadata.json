@@ -1,0 +1,75 @@
+{
+  "issueNumber": 282,
+  "title": "React components that extends native tags",
+  "slug": "2022-07-18-269-react-components-that-extends-native-tags",
+  "date": "2022-07-18",
+  "templateType": "old-mailchimp",
+  "intro": null,
+  "quote": {
+    "text": "I do not fear computers. I fear lack of them",
+    "author": "Isaac Asimov",
+    "authorTitle": "Author and Scientist",
+    "authorUrl": "https://en.wikipedia.org/wiki/Isaac_Asimov"
+  },
+  "links": [
+    {
+      "title": "React components that extends native tags",
+      "url": "https://dev.to/fabiobiondi/how-to-write-react-uikit-components-in-typescript-that-extends-native-elements-1f2k",
+      "description": "Have you ever created a **`Button`** component in React?! Well, if you have done your tiny share of React, I am sure it did happen! Well, did you ever wanted an easy way to allow your button component to accept all the properties that you could pass to a native **`<button>`** component and have those type-checked by TypeScript? If the answer is yes, make sure to read about this neat trick!",
+      "imageUrl": "./ed0e2aead2babbc71dc1df2a5e410ca8819d4817eb255fadb33ec023762a424d.jpg",
+      "featured": true
+    },
+    {
+      "title": "CSS Style queries",
+      "url": "https://una.im/style-queries/",
+      "description": "You may have heard of **container queries** and the new **contain-level-3** spec which is currently in experimental browsers, but have you heard of **style container queries**, which are also a part of this (very exciting) spec?",
+      "imageUrl": "./3f2b4c639646faddea94111d463f60d29439f3d413ebf14d40f9ad3f8c0dafeb.png",
+      "featured": false
+    },
+    {
+      "title": "Body Margin 8px",
+      "url": "https://miriamsuzanne.com/2022/07/04/body-margin-8px",
+      "description": "All browsers add an **8px margin** on the body element – it’s part of the w3c-recommended default stylesheet which browsers generally use as a starting point for their own ‘user agent’ styles. But why 8px? Where does that come from?",
+      "imageUrl": "./88d5bf8fadffa6b3b194aaadf91e23af2e238cacedf60df76bc2caa568509f5d.jpg",
+      "featured": false
+    },
+    {
+      "title": "The new wave of React state management",
+      "url": "https://frontendmastery.com/posts/the-new-wave-of-react-state-management",
+      "description": "Is Redux dead?! Certainly not, but we cannot ignore the new wave of frontend state management libraries! In this article, the author explores modern approaches and patterns that can be found in libraries like **Recoil**, **Jotai**, **Zustand**, **Valtio** and how others like **React tracked** and **React query** fit into the ever evolving landscape.",
+      "imageUrl": "./d18a0ed1b64a6655d600119e076f3403d25c0e612afb3142b7ec0a0063b705f0.png",
+      "featured": false
+    },
+    {
+      "title": "CSS complexity: it's complicated",
+      "url": "https://projectwallace.com/blog/css-complexity",
+      "description": "There's lots of places in CSS to have complexity, but we tend to focus on selectors most of the time. Let's have a look at other places too.",
+      "imageUrl": "./3c9b910cdcd614728f1749201d9d80b64560f99710b95e7e64c163b0f00b5f13.png",
+      "featured": false
+    },
+    {
+      "title": "Vite 3.0 is out!",
+      "url": "https://vitejs.dev/blog/announcing-vite3.html",
+      "description": "Vite is quickly becoming the frontend tool of reference (and for good reasons, that's for sure!). Last week we saw the announcement of a new polished major release: Vite 3! Check out what's new and why you should make the switch to Vite (if you haven't done that already).",
+      "imageUrl": "./ba4bc41e72b1b9c18e5d59d9b33fde3e367c07958078226daad8ed638a959dfd.png",
+      "featured": false
+    },
+    {
+      "title": "How to Import SVGs in a React and Vite app",
+      "url": "https://freecodecamp.org/news/how-to-import-svgs-in-react-and-vite",
+      "description": "Are you having difficulties importing SVGs into your React app? This is a problem that many developers face, especially when setting up a new React app with a module bundler like Vite. In this article, you can learn a few different ways of importing SVGs in React and getting your favourite module bundler to play nice with it!",
+      "imageUrl": "./412e5d64f3161bb68e0d291064bf0b0b46cacec647f78af08edde47754e4cdd0.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "Effective Software Testing: A Developer's Guide",
+    "author": "Maurício Aniche",
+    "description": "Go beyond unit tests! Great software testing makes the entire development process more efficient, from understanding your code before you write it to catching bugs in tricky corner cases.Effective Software Testing teaches you a systematic approach to software testing. You’ll master easy-to-apply techniques to create strong test suites that are specifically engineered for your code.",
+    "coverImageUrl": "./6c57ceb468e904ed2311df450f0879ac293e74619b940a790d96497327735e63.jpg",
+    "amazonUs": "https://www.amazon.com/dp/B01JLBMC86/?tag=fullstackbulletin-20",
+    "amazonUk": null
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}

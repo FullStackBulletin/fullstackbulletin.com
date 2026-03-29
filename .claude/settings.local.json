@@ -2,7 +2,39 @@
   "permissions": {
     "allow": [
       "Bash(pnpm dev)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "WebFetch(domain:docs.astro.build)",
+      "Bash(for f in raw_archives/*/metadata.json)",
+      "Bash(do jq -r '[.issueNumber, .date] | @tsv' \"$f\")",
+      "Bash(done)",
+      "Bash(node:*)",
+      "Bash(mkdir:*)",
+      "Bash(pnpm:*)",
+      "Bash(npx playwright:*)",
+      "Bash(lsof:*)",
+      "Bash(do jq:*)",
+      "Bash(python3:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Read(//tmp/**)",
+      "Bash(__NEW_LINE_f8eea16f2bad7195__ echo:*)",
+      "Read(//private/tmp/**)",
+      "Bash(for dir:*)",
+      "Bash(do echo:*)",
+      "Read(//Users/luciano/repos/fullstackbulletin.com/raw_archives/*-$dir-*/**)",
+      "Bash(cat:*)",
+      "WebFetch(domain:fullstackbulletin.github.io)",
+      "Bash(curl:*)",
+      "WebSearch",
+      "WebFetch(domain:pagefind.app)",
+      "Bash(wc -l /Users/luciano/repos/fullstackbulletin.com/views/components/_*.pug)",
+      "Bash(wc -l /Users/luciano/repos/fullstackbulletin.com/raw_archives/*/metadata.json)",
+      "Bash(shasum -a 256 2017-03-13-001-introducing-lottie-airbnb-engineering-data-science/54ba1d29-fdc4-4e32-9470-dd844c9be037.png 2020-01-06-144-why-i-moved-from-react-to-svelte-and-others-will-follow/54ba1d29-fdc4-4e32-9470-dd844c9be037.png 2026-03-09-438-an-interactive-intro-to-crdts/54ba1d29-fdc4-4e32-9470-dd844c9be037.png)",
+      "Bash(xargs shasum:*)",
+      "WebFetch(domain:loige.co)",
+      "Bash(duckdb --version)",
+      "WebFetch(domain:sidebar.io)",
+      "Bash(git:*)"
     ]
   }
 }

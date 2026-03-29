@@ -1,0 +1,573 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en"
+      >
+    <head>
+        
+        
+
+
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Language" content="en">
+<meta name="google" content="notranslate" />
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+<meta name="generator" content="Buttondown" />
+<link rel="webmention" href="https://buttondown.com/webmentions/register">
+
+    <meta name="theme-color" content="#06b6d4" />
+    
+
+
+    <link rel="shortcut icon" href="54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+    <link rel="apple-touch-icon" href="54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+        
+    
+
+
+
+
+    <title>🟢 21 Lessons from 14 Years at Google — FullStack Bulletin #450 • Buttondown</title>
+
+
+    
+<meta name="description" content="21 Lessons from 14 Years at Google, rare license plates with TypeScript, new ty for Python, seniority, Tailwind, JSDoc types, better logging, self hosted Postgres, and Node.js Design Patterns." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+<meta name="twitter:site" content="@buttondown" />
+<meta name="twitter:title" content="🟢 21 Lessons from 14 Years at Google — FullStack Bulletin #450" />
+<meta name="twitter:description" content="21 Lessons from 14 Years at Google, rare license plates with TypeScript, new ty for Python, seniority, Tailwind, JSDoc types, better logging, self hosted Postgres, and Node.js Design Patterns." />
+
+    
+        <link rel="alternate"
+              type="application/rss+xml"
+              title="RSS Feed for 🟢 21 Lessons from 14 Years at Google — FullStack Bulletin #450"
+              href="/fullstackbulletin/rss" />
+    
+
+<link rel="me" href="https://fullstackbulletin.com" />
+
+    <link rel="sitemap"
+          type="application/xml"
+          title="Sitemap"
+          href="/fullstackbulletin/sitemap.xml" />
+
+<meta property="og:title" content="🟢 21 Lessons from 14 Years at Google — FullStack Bulletin #450" />
+<meta property="og:description" content="21 Lessons from 14 Years at Google, rare license plates with TypeScript, new ty for Python, seniority, Tailwind, JSDoc types, better logging, self hosted Postgres, and Node.js Design Patterns." />
+<meta property="og:type" content="website" />
+
+    <meta name="twitter:image" content="https://image-generator.buttondown.email/api/emphasize-subject?subject=%F0%9F%9F%A2%2021%20Lessons%20from%2014%20Years%20at%20Google%20%E2%80%94%20FullStack%20Bulletin%20%23450&amp;author=FullStack%20Bulletin&amp;date=2025-12-22&amp;img=54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+    <meta property="og:image" content="https://image-generator.buttondown.email/api/emphasize-subject?subject=%F0%9F%9F%A2%2021%20Lessons%20from%2014%20Years%20at%20Google%20%E2%80%94%20FullStack%20Bulletin%20%23450&amp;author=FullStack%20Bulletin&amp;date=2025-12-22&amp;img=54ba1d29-fdc4-4e32-9470-dd844c9be037.png" />
+
+
+    
+    <meta property="og:url" content="https://buttondown.com/fullstackbulletin/archive/450-21-lessons-from-14-years-at-google/" />
+    <link rel="alternate"
+          type="application/json+oembed"
+          href="https://buttondown.com/embed?url=https://buttondown.com/fullstackbulletin/archive/450-21-lessons-from-14-years-at-google/"
+          title="🟢 21 Lessons from 14 Years at Google — FullStack Bulletin #450 / oEmbed" />
+
+<link rel="canonical" href="https://buttondown.com/fullstackbulletin/archive/450-21-lessons-from-14-years-at-google/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "url": "https://buttondown.com/fullstackbulletin/archive/450-21-lessons-from-14-years-at-google/", "mainEntityOfPage": "https://buttondown.com/fullstackbulletin/archive/450-21-lessons-from-14-years-at-google/", "headline": "\ud83d\udfe2 21 Lessons from 14 Years at Google \u2014 FullStack Bulletin #450", "description": "21 Lessons from 14 Years at Google, rare license plates with TypeScript, new ty for Python, seniority, Tailwind, JSDoc types, better logging, self hosted Postgres, and Node.js Design Patterns.", "image": [], "datePublished": "2025-12-22T17:00:00+00:00", "dateModified": "2025-12-22T17:00:19.953510+00:00", "isAccessibleForFree": true, "author": [{"@type": "Person", "name": "FullStack Bulletin", "url": "https://buttondown.com/fullstackbulletin", "identifier": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": {"@type": "ImageObject", "contentUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "thumbnailUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png"}}], "publisher": {"@type": "Organization", "name": "FullStack Bulletin", "url": "https://buttondown.com/fullstackbulletin", "description": "FullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.", "identifier": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": {"@type": "ImageObject", "contentUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "thumbnailUrl": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png"}}}</script>
+
+
+        
+        
+        <script type="module" crossorigin="" src="https://static-assets.buttondown.com/subscriber_facing_fonts-DU3ilTNG.js"></script>
+<link href="https://static-assets.buttondown.com/preload-helper-HIQHktoD.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/_sentry-release-injection-file-DRmiww3Y.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+        
+        
+            <link rel="stylesheet" href="https://static-assets.buttondown.com/subscriber_facing_modern_css-CaffE7Di.css">
+        
+        
+        <style>
+            :root {
+                --tint-color: #06b6d4;
+                
+                    
+                
+            }
+        </style>
+        
+            <script nonce="Cp6fWjnJ8BTM3ICYL_eRDA">
+                var VARIANT = "archive_page";
+                
+                
+            </script>
+        
+        
+            <style>article img {
+  max-width: 100%;
+}</style>
+        
+    </head>
+    <body class="route--email">
+        
+
+
+
+        <div class="app-container">
+            <div class="header-navigation-container">
+                <div class="header-navigation">
+                    
+                        <img class="header-brand-icon"
+                             src="54ba1d29-fdc4-4e32-9470-dd844c9be037.png"
+                             alt="FullStack Bulletin logo"
+                             width="24"
+                             height="24" />
+                    
+                    <div class="header-navigation-content">
+                        <h1>
+                            <a class="header-brand" href="https://buttondown.com/fullstackbulletin">
+                                <span class="header-brand-name">FullStack Bulletin</span>
+                            </a>
+                        </h1>
+                        <button class="header-navigation-toggle"
+                                type="button"
+                                aria-label="Toggle navigation menu"
+                                aria-expanded="false">
+                            <svg class="header-navigation-toggle-icon"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <line x1="3" y1="6" x2="21" y2="6"></line>
+    <line x1="3" y1="12" x2="21" y2="12"></line>
+    <line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+                            <svg class="header-navigation-toggle-icon header-navigation-toggle-icon--close"
+     width="24"
+     height="24"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line>
+    <line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+                        </button>
+                        <div class="header-navigation-overlay" aria-hidden="true"></div>
+                        <nav class="header-navigation-nav" aria-expanded="false">
+                            <div class="header-navigation-nav-handle"></div>
+                            
+                                <a class="header-navigation-link"
+                                   href="/fullstackbulletin/archive/">
+                                    <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" data-slot="icon" class="w-4 h-4">
+    <path d="M7.25 3.688a8.035 8.035 0 0 0-4.872-.523A.48.48 0 0 0 2 3.64v7.994c0 .345.342.588.679.512a6.02 6.02 0 0 1 4.571.81V3.688ZM8.75 12.956a6.02 6.02 0 0 1 4.571-.81c.337.075.679-.167.679-.512V3.64a.48.48 0 0 0-.378-.475 8.034 8.034 0 0 0-4.872.523v9.268Z" />
+</svg>
+
+                                    <div>Archives</div>
+                                </a>
+                            
+                            
+                            
+                            
+                            
+                                <button class="header-navigation-link archive-search-trigger"
+                                        type="button"
+                                        aria-label="Search...">
+                                    <svg width="16"
+     height="16"
+     viewBox="0 0 24 24"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="1.5"
+     xmlns="http://www.w3.org/2000/svg">
+    <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" />
+    <line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+</svg>
+
+                                    <div>Search...</div>
+                                </button>
+                            
+                            
+                            
+                                <button class="header-navigation-link header-navigation-link--subscribe subscribe-modal-trigger"
+                                        type="button">
+                                    <svg width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" data-slot="icon" class="w-4 h-4">
+    <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+    <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+</svg>
+
+                                    <div>Subscribe</div>
+                                </button>
+                            
+                            
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+    
+
+
+    <div class="email-body-container">
+        <article class="email-body">
+            
+                
+
+
+    <date>
+    
+        December 22, 2025
+    
+    </date>
+
+<h1 class="subject">🟢 21 Lessons from 14 Years at Google — FullStack Bulletin #450</h1>
+<h2 class="description">21 Lessons from 14 Years at Google, rare license plates with TypeScript, new ty for Python, seniority, Tailwind, JSDoc types, better logging, self hosted Postgres, and Node.js Design Patterns.</h2>
+
+                
+
+
+<div class="email-body-content ">
+    
+        <p>Hello, </p>
+<p>This issue is a little love letter to curiosity. From long careers at big companies to silly side projects that spiral into real engineering, from new tools to old ideas seen in a new light, everything here is an invitation to keep poking at the world, asking questions, and learning one small thing at a time. Skills compound when you let yourself explore, and I hope at least one link here sends you down a fun rabbit hole.</p>
+<p>This might also be the last issue of the year. I expect a busy Christmas period ahead and I am not fully sure I will find the time and energy for more issues. I might or I might not, let us see how it goes. If you do not hear from me, have a great Christmas if you celebrate it and an even better start to the new year.</p>
+<p>Keep building. The future is compounding!<br/>
+— <a href="https://loige.co?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=450-21-lessons-from-14-years-at-google" target="_blank">Luciano</a></p>
+<hr/>
+<blockquote>
+<p>"Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter"<br/>
+—<a href="https://en.wikipedia.org/wiki/Eric_S._Raymond?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=450-21-lessons-from-14-years-at-google" target="_blank">Eric S. Raymond</a>, Software Developer</p>
+</blockquote>
+<hr/>
+<p><a href="https://addyo.substack.com/p/21-lessons-from-14-years-at-google?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=image" rel="noopener noreferrer" target="_blank"><img alt="Cartoon illustration of a keynote speaker beside bold “21 Lessons” title" draggable="false" src="https://assets.buttondown.email/images/383a80e2-9dbc-442d-ab6b-0912c8efa25d.png?w=960&amp;fit=max"/></a></p>
+<p><a href="https://addyo.substack.com/p/21-lessons-from-14-years-at-google?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank"><strong>21 Lessons from 14 Years at Google</strong></a> — <a href="https://buttondown.com/fullstackbulletin/archive/449-ai-cant-do-your-job/" target="_blank">Last week</a> we featured <a href="https://www.patterns.dev/?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=450-21-lessons-from-14-years-at-google" target="_blank">patterns.dev</a>, another brilliant creation from Addy Osmani. This week I stumbled onto a more personal side of his work, a piece I read recently and genuinely enjoyed. In it Addy shares 21 lessons from his long and still ongoing career at Google, touching on craft, collaboration, impact, and how to keep growing inside a huge company without losing your curiosity. My favorite line is a simple one that hits very close to home: <em>“Writing forces clarity. The fastest way to learn something better is to try teaching it.”</em> I have been lucky enough to teach in different ways over the years, from workshops to books and blog articles and even through mentoring, and every single time I feel like I walk away more enriched than the people I was supposed to help. If you care about being not just a better engineer but a clearer thinker, this is a very rewarding read. <a href="https://addyo.substack.com/p/21-lessons-from-14-years-at-google?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://jack.bio/blog/licenseplate?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank"><strong>Using TypeScript to Obtain One of the Rarest License Plates</strong></a> — If the title of this post was not already enough to make you smash that link, I am honestly not sure anything I say here will do the trick. But let us try anyway. This is one of those gloriously unhinged side projects that starts with a silly idea and somehow ends up flexing serious fullstack skills, plenty of clever tricks, and way more polish than anyone would expect from something that began with basically “what if I just tried this for fun.” This is perhaps another demonstration that knowing how to code can come in handy to solve some real life problems. Well, maybe this was not really <em>a problem</em>, but still... you know what I mean! :D <a href="https://jack.bio/blog/licenseplate?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://astral.sh/blog/ty?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank"><strong><code>ty</code>: An extremely fast Python type checker and language server</strong></a> — If you write a lot of Python in big projects, you have probably developed a real appreciation for how a well typed codebase can quietly save your future self. Fewer bugs, easier refactors, clearer intent, less fear every time you touch that scary folder called "legacy". With Python there are now quite a few flavors of type checkers, and recently a very promising new one stepped onto the stage: <code>ty</code>, from the Astral team, aims to be an extremely fast type checker and language server that you can actually lean on in large codebases without growing old while it runs. This post walks through what makes ty interesting as an alternative to tools like <code>mypy</code> or <code>Pyright</code>, especially if you care about fast feedback loops and working productively in bigger Python systems. It also comes from the same folks who built <code>uv</code>, a Python package manager and toolkit I have been personally really enjoying, so even if I have not yet had the chance to try <code>ty</code> myself, my expectations are pretty high. <a href="https://astral.sh/blog/ty?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://terriblesoftware.org/2025/11/25/what-actually-makes-you-senior?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank"><strong>What Actually Makes You Senior</strong></a> — I have a lot of opinions about this topic. I have written a few <a href="https://loige.co/the-senior-dev/?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=450-21-lessons-from-14-years-at-google" target="_blank">articles</a> on it and even delivered a couple of <a href="https://lmammino.github.io/the-senior-dev/?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=450-21-lessons-from-14-years-at-google" target="_blank">talks</a> about what it really means to be a senior engineer. This article hits many of the same nerves. It argues that seniority is not about how many years you have been around or how fancy your title sounds. It is about your ability to take messy, ambiguous problems and turn them into clear plans that a team can actually execute. It digs into the unsexy parts of the job, like managing expectations, noticing risks before they blow up, and quietly filling ownership gaps that no one officially assigned to you. It is the sort of article you read nodding along, thinking of teammates who are secretly the glue of the whole system, whether their title says senior or not. <a href="https://terriblesoftware.org/2025/11/25/what-actually-makes-you-senior?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://justfuckingusetailwind.com/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank"><strong>Just F***ing Use Tailwind</strong></a> — This one was a really fun read for me. I love Tailwind, but I would not advocate for it quite as fiercely as this piece does, so take it with a little grain of salt. It is clearly written with a bit of irony, yet I still find myself nodding along with most of the points about why utility first CSS can keep your UI codebase more consistent, easier to evolve, and frankly more pleasant to work on. If you do not mind a few swear words and you are even a tiny bit Tailwind curious, this might be the push that finally convinces you to give it a try. And if you are still convinced Tailwind (and utility classes in general) are not for you, that is totally fine, but I would say you might still have a little fun reading this one. <a href="https://justfuckingusetailwind.com/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://culi.bearblog.dev/jsdoc-is-typescript?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank"><strong>JSDoc <em>is</em> TypeScript</strong></a> — Back to talking about adding types to untyped languages... This time it is JavaScript. Or, since we are talking about its typed twin brother, maybe I should say TypeScript. This piece explores a neat middle ground where you stay in JavaScript land, but use JSDoc for type annotations. The <em>aha</em> moment for me was realizing that even if you just use JSDoc, the TypeScript language service is still quietly powering everything, from IntelliSense governed by a tsconfig file to type checking a project that only has <code>.js</code> files. When you do this you are already using TypeScript, even if you keep telling everyone you are still writing plain old JS. It is a really nice option if you want type safety and better tooling for an existing codebase without a huge migration. And the best part is that this kind of migration keeps things simple for everyone, even those who are still skeptical about TypeScript and hate having to deal with a transpilation step before running their code. <a href="https://culi.bearblog.dev/jsdoc-is-typescript?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://loggingsucks.com/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank"><strong>Logging sucks... And here's how to make it better.</strong></a> —  A friend of mine shared this article with me and I really enjoyed reading it. It starts from a feeling many of us know too well, staring at walls of logs at three in the morning and learning absolutely nothing useful about what actually went wrong. Then it walks through why traditional logging can be such a bad fit for modern distributed systems and argues for treating logs as rich structured records of what happened to a request, with concepts like wide events and canonical log lines. My favorite line is <em>“OTel is just plumbing. You decide what flows through it.”</em> which perfectly captures the idea that tooling itself will never fix your observability problems. You still have to be deliberate about what you record, which signals matter for you, and all the context future you will need when things go sideways. If you have ever felt that your logs are lying to you, this is a very satisfying rethink of how observability can actually work in practice. <a href="https://loggingsucks.com/?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://pierce.dev/notes/go-ahead-self-host-postgres?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank"><strong>Go ahead, self-host Postgres</strong></a> — This was a great read for me, mostly because it triggered a bit of an inner conflict. As a cloud expert and consultant I tend to reach for managed services first, since they keep things simple and let the team focus on what matters most, the product rather than the underlying infrastructure. I am absolutely one of those people who will say <em>"undifferentiated heavy lifting"</em> without blinking, and before this I did not even know that phrase is credited to <em>Jeff</em> (yes, <em>that</em> Jeff). The conflict comes from how convincingly this piece argues that running your own Postgres is not as scary as cloud providers like to make it sound. I suspect the truth is somewhere in the middle, and the best position you can be in is knowing how to self host, then deciding case by case when that effort is worth it and when you would rather lean on a fully managed service. Am I turning into a cloud misbeliever? I do not think so, but time will tell... <a href="https://pierce.dev/notes/go-ahead-self-host-postgres?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<p><a href="https://loige.co/nodejs-design-patterns-fourth-edition?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank"><strong>Node.js Design Patterns: Fourth Edition is out!</strong></a> — I left this one for last because I do not want you to think I am doing too much self promotion. If you do, please tell me and keep me honest... Anyway, It took me a while, but I finally managed to write my own official blog post about the new edition of Node.js Design Patterns. The fourth edition of Node.js Design Patterns is here, and in this post I share why we decided to write a new edition in the first place, what is new this time around, and some of my thoughts on where Node.js is heading next. If you have been using Node.js for a while or you are just curious about how to build more robust backends with it, I hope you will find this a useful behind the scenes look at the book and the ecosystem around it. <a href="https://loige.co/nodejs-design-patterns-fourth-edition?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=description" target="_blank"><strong>Read Article</strong></a></p>
+<hr/>
+<h1>📕 Book of the week!</h1>
+<p><a href="https://www.amazon.com/dp/1098138716?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=450-21-lessons-from-14-years-at-google" target="_blank"><strong>Fluent React: Build Fast, Performant, and Intuitive Web Applications</strong>, by Tejas Kumar</a></p>
+<p><a href="https://www.amazon.com/dp/1098138716?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=450-21-lessons-from-14-years-at-google" target="_blank"><img alt="Fluent React: Build Fast, Performant, and Intuitive Web Applications" class="newsletter-image" src="fluent-react-1-tejas-kumar.jpg"/></a></p>
+<p>When it comes to building user interfaces on the web, React enables web developers to unlock a new world of possibilities. This practical book helps you take a deep dive into fundamental concepts of this JavaScript library, including JSX syntax and advanced patterns, the virtual DOM, React reconciliation, and advanced optimization techniques. By becoming fluent in React, you'll quickly learn how to build better web applications.
+Author Tejas Kumar helps you explore the depths of React in plain English, without the typical software engineering jargon, so you can more easily understand how this JavaScript library works. You'll learn how to write intuitive React code that fully understands the nuances and layers of React, unlocking a whole new level of fluency.
+You will:</p>
+<ul>
+<li>Understand how React works at a deeper level</li>
+<li>Write React apps while optimizing them along the way</li>
+<li>Build resilient React applications that work well at arbitrary scale</li>
+<li>Create React applications for other platforms adjacent to the web and mobile devices</li>
+<li>Know when to reach for different mechanisms exposed by React, such as reducers versus state versus refs</li>
+</ul>
+<p><a href="https://www.amazon.com/dp/1098138716?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=450-21-lessons-from-14-years-at-google" target="_blank"><strong>Buy on Amazon.com</strong></a> - <a href="https://www.amazon.co.uk/dp/1098138716?utm_source=fullstackbulletin&amp;utm_medium=email&amp;utm_campaign=450-21-lessons-from-14-years-at-google" target="_blank"><strong>Buy on Amazon.co.uk</strong></a></p>
+<hr/>
+<h3>Hand-picked extras to keep your brain buzzing! ⚡</h3>
+<ul>
+<li><a href="https://loige.co/debugging-api-gateway-http-oidc-jwt-authorizer?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank">Debugging AWS API Gateway HTTP with OIDC-JWT authorizers</a></li>
+<li><a href="https://calendar.perfplanet.com/2025/how-to-load-css-fast?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank">How to load CSS (fast)</a></li>
+<li><a href="https://kb.databasedesignbook.com/posts/sql-joins?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank">A modern guide to SQL JOINs</a></li>
+<li><a href="https://una.im/scroll-state-scrolled?utm_source=fullstackbulletin.com&amp;utm_medium=newsletter&amp;utm_campaign=fullstackBulletin-450&amp;utm_content=title" target="_blank">Directional CSS with scroll-state(scrolled)</a></li>
+</ul>
+<hr/>
+<h2>That's all folks! 🐰</h2>
+<p>Thank you for getting to the end of this issue! If you enjoyed it or simply want to suggest something, hit reply and let us know! We'd love to hear from you! ❤️</p>
+    
+</div>
+
+
+                
+
+
+    <aside class="related-emails-widget"
+           aria-labelledby="related-widget-heading">
+        <header class="related-emails-header">
+            <h3 id="related-widget-heading" class="related-emails-title">
+                <span class="related-emails-title-text">Read more:</span>
+            </h3>
+        </header>
+        <ul class="related-email-container" role="list">
+            
+                
+                    <li class="related-email">
+                        <a href="https://buttondown.com/fullstackbulletin/archive/449-ai-cant-do-your-job/" class="related-email-link">
+                            
+                            <div class="related-email-content">
+                                
+                                    <time class="related-email-date"
+                                          datetime="2025-12-15T17:00:00+00:00">
+                                        December 15, 2025
+                                    </time>
+                                
+                                <h4 class="related-email-title">📩 AI Can’t Do Your Job — FullStack Bulletin #449</h4>
+                                
+                                    <p class="related-email-description">Exploring AI&#x27;s role in coding, pondering barcodes as art, and combating React vulnerabilities!</p>
+                                
+                                <span class="related-email-cta" aria-hidden="true">
+                                    Read article <span class="related-email-cta-icon">→</span>
+                                </span>
+                            </div>
+                        </a>
+                    </li>
+                
+            
+        </ul>
+    </aside>
+
+
+                
+
+
+                <div class="card-container">
+                    <div class="card-container-header">
+                        
+                            Don't miss what's next. Subscribe to FullStack Bulletin:
+                        
+                    </div>
+                    
+<div id="subscribe-form">
+    <div class="card subscription-form-fallback">
+        <form method="post"
+              action="/api/emails/embed-subscribe/fullstackbulletin">
+            
+            <label for="sfi-email" class="sr-only">Email address (required)</label>
+            <input id="sfi-email"
+                   name="email"
+                   required=""
+                   type="email"
+                   placeholder="Your email (you@example.com)"
+                   autocomplete="email" />
+            <button class="button tinted blue" id="submit" type="submit">
+                <div style="flex: 1 1 0%; text-align: center;">Subscribe</div>
+            </button>
+        </form>
+    </div>
+</div>
+<script id="newsletter" type="application/json">{"absolute_url": "https://buttondown.com/fullstackbulletin", "account": "c0c89dde-4f8d-4f6b-bb46-917fb74d7239", "address": "", "archive_navigation_links": [], "archive_redirect_url": "", "archive_theme": "modern", "automatically_remind_unconfirmed_subscribers": true, "autonomy_fields": [], "bluesky_username": null, "body_template": "", "buysellads_url": null, "cached_analytics_data": {"open_rate": 40.93, "retention": 57.446808510638306, "click_rate": 6.33, "created_subscribers": 2699.0}, "css": "body {\n  width: 100% !important;\n  max-width: 600px !important;\n  display: block;\n  margin: 0 auto;\n  box-sizing: border-box;\n  border: 1em solid transparent;\n}\n\nimg {\n  max-width: 100%;\n}\n\n", "theme_configuration": {}, "custom_archive_template": "", "custom_archives_template": "", "custom_email_template": "", "custom_expired_trial_notification_body": "", "custom_expired_trial_notification_subject": "", "custom_expired_trial_notification_template": null, "custom_gift_subscription_email_body": "", "custom_gift_subscription_email_subject": "", "custom_gift_subscription_email_template": null, "custom_preamble": "", "custom_premium_confirmation_email_body": "", "custom_premium_confirmation_email_subject": "", "custom_premium_confirmation_email_template": null, "custom_subscription_confirmation_email_subject": "", "custom_subscription_confirmation_email_template": null, "custom_subscription_confirmation_email_text": "", "custom_subscription_confirmation_reminder_email_subject": "", "custom_subscription_confirmation_reminder_email_template": null, "custom_subscription_confirmation_reminder_email_text": "", "custom_subscription_confirmed_email_subject": "", "custom_subscription_confirmed_email_template": null, "custom_subscription_confirmed_email_text": "", "default_behavior_for_subscriber_imports": "append", "description": "\u003C!-- buttondown-editor-mode: fancy --\u003E\u003Cp\u003EFullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.\u003C/p\u003E", "disablement_reason": null, "domain": "archive.fullstackbulletin.com", "email_address": "luciano@fullstackbulletin.com", "email_domain": "fullstackbulletin.com", "enabled_features": ["comments", "portal", "referrals", "archives", "automations", "tags", "api", "metadata", "css"], "effective_locale": "en-US", "fathom_code": null, "fathom_subscribe_code": null, "footer": "", "from_name": "FullStack Bulletin", "google_tag_manager_code": null, "h2_redirect_url": "", "header": "", "hidden_settings": [], "icon": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "id": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": "", "indexing_mode": "enabled", "is_archive_searchable": true, "is_custom_archive_template_enabled": false, "is_custom_archives_template_enabled": false, "is_paid_subscription_free_trials_enabled": false, "is_sponsorship_enabled": false, "is_using_plausible": false, "locale": "en", "memberful_username": null, "meta_pixel_id": null, "metadata": {}, "metadata_keys": {"email": ["id"], "subscriber": ["first_name", "last_name", "name"]}, "name": "FullStack Bulletin", "paid_subscription_free_trial_duration": 0, "paid_subscriptions_status": "inactive", "prices": [], "publicly_visible_analytics": ["confirmed_subscribers"], "reddit_code": null, "reply_to_address": "", "seline_code": null, "sharing_networks": ["linkedin", "twitter", "reddit", "hacker_news", "mastodon", "bluesky"], "shopify_url": null, "should_add_utm_sources": true, "should_be_private": false, "should_disable_non_premium_subscriptions": false, "should_expose_rss": true, "should_hide_issue_numbers": false, "should_hide_social_media": false, "should_immediately_show_payment_element": false, "should_noindex_archive_page": false, "should_noindex_subscribe_page": false, "should_require_double_optin": true, "should_send_latest_email_to_new_subscribers": false, "should_send_subscription_confirmation_email": true, "simple_analytics_enabled": false, "tinylytics_code": null, "socials": [{"url": "https://fullstackbulletin.com", "type": "generic", "label": null}], "sponsorship_text": null, "status": "active", "stripe_account": "", "subscription_button_text": "", "subscription_confirmation_redirect_url": "", "subscription_form_text": "", "subscription_redirect_url": "", "template": "classic", "thank_you_text": "", "tint_color": "#06b6d4", "timezone": "Europe/Dublin", "umami_website_id": null, "unsubscription_reasons": [], "upgrade_text": "", "username": "fullstackbulletin", "web_css": "article img {\n  max-width: 100%;\n}", "web_footer": "", "web_header": ""}</script>
+<script id="subscriber_facing_authentication" type="application/json">{"status": "unauthenticated", "email_address": null, "account_id": null, "subscribers": []}</script>
+
+    <script id="referring_subscriber_id" type="application/json">null</script>
+
+<script id="referer" type="application/json">""</script>
+
+<script nonce="Cp6fWjnJ8BTM3ICYL_eRDA">
+    var NEWSLETTER = JSON.parse(document.getElementById('newsletter').textContent);
+    var SUBSCRIBER_FACING_AUTHENTICATION = JSON.parse(document.getElementById('subscriber_facing_authentication').textContent);
+    var REFERRING_SUBSCRIBER_ID = JSON.parse(document.getElementById('referring_subscriber_id').textContent);
+    
+    var STRIPE_LIVE_PUBLIC_KEY = null;
+    
+
+    var TINT_COLOR = NEWSLETTER.tint_color || '#0069FF';
+    document.documentElement.style.setProperty("--tint-color", TINT_COLOR);
+    var referer = JSON.parse(document.getElementById('referer').textContent);
+    var account = null;
+
+    
+    var VARIANT = "archive_page";
+    
+</script>
+
+                    
+                        
+                            
+                        
+                    
+                </div>
+                
+
+
+  
+    <section class="card-container" aria-labelledby="comments-heading">
+      
+      <div class="archive__comments-container">
+        
+        <div id="comment-form" class="archive__comment-form-wrapper">
+          <h4 class="card-container-header">Add a comment:</h4>
+          <form method="post" action="comment" class="comment-input card">
+            <input type="hidden" name="csrfmiddlewaretoken" value="OfJvnXWoclxqkTum2BcpffMbcmYoJcEclCzIB5EqhpWXu2JQsslhHODlzRXFIIoe">
+            
+              
+
+
+
+<fieldset class="comment-input__fields">
+    <div class="comment-input__field comment-input__field--textarea">
+        <textarea id="body" name="body" class="comment-input__textarea" placeholder="What do you think?"></textarea>
+    </div>
+
+    <input type="hidden" name="email" value="5249c4f4-c049-4723-9121-289b2150caeb">
+    <input type="hidden" name="parent" value="">
+
+    <div class="comment-input__field comment-input__user-info">
+        
+            <input type="text" name="name" class="comment-input__input" placeholder="Your name"
+                value="">
+        
+
+        
+            <input type="email" id="email_address" name="email_address" class="comment-input__input" placeholder="Your email address"
+                value="">
+        
+    </div>
+</fieldset>
+
+<div class="comment-input__actions">
+    
+        <button type="submit" class="archive__button">
+            
+                Comment and Subscribe
+            
+        </button>
+    
+</div> 
+            
+          </form>
+        </div>
+      </div>
+    </section>
+  
+
+
+                <div class="card-container">
+                    
+
+
+    
+        
+            <div class="card-container">
+                <div class="card-container-header">Share this email:</div>
+                <div class="archive__social-share-link-container">
+                    
+                        
+                        
+                            <a href="https://twitter.com/intent/tweet?text=%F0%9F%9F%A2%2021%20Lessons%20from%2014%20Years%20at%20Google%20%E2%80%94%20FullStack%20Bulletin%20%23450&url=https%3A//buttondown.com/fullstackbulletin/archive/450-21-lessons-from-14-years-at-google/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Twitter
+                            </a>
+                        
+                        
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//buttondown.com/fullstackbulletin/archive/450-21-lessons-from-14-years-at-google/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on LinkedIn
+                            </a>
+                        
+                        
+                            <a href="https://share.bingo/hn?url=https%3A//buttondown.com/fullstackbulletin/archive/450-21-lessons-from-14-years-at-google/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Hacker News
+                            </a>
+                        
+                        
+                        
+                            <a href="https://share.bingo/reddit?url=https%3A//buttondown.com/fullstackbulletin/archive/450-21-lessons-from-14-years-at-google/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Reddit
+                            </a>
+                        
+                        
+                        
+                            <a href="https://toot.kytta.dev/?text=%F0%9F%9F%A2%2021%20Lessons%20from%2014%20Years%20at%20Google%20%E2%80%94%20FullStack%20Bulletin%20%23450%0A%0Ahttps%3A//buttondown.com/fullstackbulletin/archive/450-21-lessons-from-14-years-at-google/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Mastodon
+                            </a>
+                        
+                        
+                            <a href="https://share.bingo/bluesky?url=https%3A//buttondown.com/fullstackbulletin/archive/450-21-lessons-from-14-years-at-google/"
+                               target="_blank"
+                               class="archive__social-share-link">
+                                Share on Bluesky
+                            </a>
+                        
+                    
+                </div>
+            </div>
+        
+    
+
+
+                </div>
+            
+        </article>
+    </div>
+
+        </div>
+        
+
+        
+            <div class="footer">
+                
+                    
+
+
+<div class="social-networks archive__social-links-inner">
+    
+        <div class="archive__social-links-item">
+            <a href="https://fullstackbulletin.com" class="archive__social-links-link"><img width='16' height='16' src='favicons.png' alt='fullstackbulletin.com' /></a>
+        </div>
+    
+</div>
+
+                
+                
+                    <div>Powered by <a href="https://buttondown.com/refer/fullstackbulletin">Buttondown</a>, the easiest way to start and grow your newsletter.</div>
+                
+            </div>
+        
+        
+            <div id="archive-search-modal-container"
+                 data-archive-url="/fullstackbulletin/archive/"
+                 data-placeholder="Search..."
+                 data-title="Search..."
+                 data-search-param="q"
+                 data-username="fullstackbulletin"></div>
+        
+        <script id="newsletter" type="application/json">{"absolute_url": "https://buttondown.com/fullstackbulletin", "account": "c0c89dde-4f8d-4f6b-bb46-917fb74d7239", "address": "", "archive_navigation_links": [], "archive_redirect_url": "", "archive_theme": "modern", "automatically_remind_unconfirmed_subscribers": true, "autonomy_fields": [], "bluesky_username": null, "body_template": "", "buysellads_url": null, "cached_analytics_data": {"open_rate": 40.93, "retention": 57.446808510638306, "click_rate": 6.33, "created_subscribers": 2699.0}, "css": "body {\n  width: 100% !important;\n  max-width: 600px !important;\n  display: block;\n  margin: 0 auto;\n  box-sizing: border-box;\n  border: 1em solid transparent;\n}\n\nimg {\n  max-width: 100%;\n}\n\n", "theme_configuration": {}, "custom_archive_template": "", "custom_archives_template": "", "custom_email_template": "", "custom_expired_trial_notification_body": "", "custom_expired_trial_notification_subject": "", "custom_expired_trial_notification_template": null, "custom_gift_subscription_email_body": "", "custom_gift_subscription_email_subject": "", "custom_gift_subscription_email_template": null, "custom_preamble": "", "custom_premium_confirmation_email_body": "", "custom_premium_confirmation_email_subject": "", "custom_premium_confirmation_email_template": null, "custom_subscription_confirmation_email_subject": "", "custom_subscription_confirmation_email_template": null, "custom_subscription_confirmation_email_text": "", "custom_subscription_confirmation_reminder_email_subject": "", "custom_subscription_confirmation_reminder_email_template": null, "custom_subscription_confirmation_reminder_email_text": "", "custom_subscription_confirmed_email_subject": "", "custom_subscription_confirmed_email_template": null, "custom_subscription_confirmed_email_text": "", "default_behavior_for_subscriber_imports": "append", "description": "\u003C!-- buttondown-editor-mode: fancy --\u003E\u003Cp\u003EFullStack Bulletin is a FREE weekly curated newsletter for ambitious full stack developers. We sift the internet for builders, covering frontend, backend, databases, DevOps, and architecture to find what truly matters. Expect practical picks, clear takeaways, and fresh ideas that cut the noise, sharpen your skills, and fuel your creativity so you can put them to work right away.\u003C/p\u003E", "disablement_reason": null, "domain": "archive.fullstackbulletin.com", "email_address": "luciano@fullstackbulletin.com", "email_domain": "fullstackbulletin.com", "enabled_features": ["comments", "portal", "referrals", "archives", "automations", "tags", "api", "metadata", "css"], "effective_locale": "en-US", "fathom_code": null, "fathom_subscribe_code": null, "footer": "", "from_name": "FullStack Bulletin", "google_tag_manager_code": null, "h2_redirect_url": "", "header": "", "hidden_settings": [], "icon": "54ba1d29-fdc4-4e32-9470-dd844c9be037.png", "id": "0ec2bb8d-acee-41e3-90d2-d59463c4fe6e", "image": "", "indexing_mode": "enabled", "is_archive_searchable": true, "is_custom_archive_template_enabled": false, "is_custom_archives_template_enabled": false, "is_paid_subscription_free_trials_enabled": false, "is_sponsorship_enabled": false, "is_using_plausible": false, "locale": "en", "memberful_username": null, "meta_pixel_id": null, "metadata": {}, "metadata_keys": {"email": ["id"], "subscriber": ["first_name", "last_name", "name"]}, "name": "FullStack Bulletin", "paid_subscription_free_trial_duration": 0, "paid_subscriptions_status": "inactive", "prices": [], "publicly_visible_analytics": ["confirmed_subscribers"], "reddit_code": null, "reply_to_address": "", "seline_code": null, "sharing_networks": ["linkedin", "twitter", "reddit", "hacker_news", "mastodon", "bluesky"], "shopify_url": null, "should_add_utm_sources": true, "should_be_private": false, "should_disable_non_premium_subscriptions": false, "should_expose_rss": true, "should_hide_issue_numbers": false, "should_hide_social_media": false, "should_immediately_show_payment_element": false, "should_noindex_archive_page": false, "should_noindex_subscribe_page": false, "should_require_double_optin": true, "should_send_latest_email_to_new_subscribers": false, "should_send_subscription_confirmation_email": true, "simple_analytics_enabled": false, "tinylytics_code": null, "socials": [{"url": "https://fullstackbulletin.com", "type": "generic", "label": null}], "sponsorship_text": null, "status": "active", "stripe_account": "", "subscription_button_text": "", "subscription_confirmation_redirect_url": "", "subscription_form_text": "", "subscription_redirect_url": "", "template": "classic", "thank_you_text": "", "tint_color": "#06b6d4", "timezone": "Europe/Dublin", "umami_website_id": null, "unsubscription_reasons": [], "upgrade_text": "", "username": "fullstackbulletin", "web_css": "article img {\n  max-width: 100%;\n}", "web_footer": "", "web_header": ""}</script>
+        
+            <script id="subscriber_facing_authentication" type="application/json">{"status": "unauthenticated", "email_address": null, "account_id": null, "subscribers": []}</script>
+        
+        
+        <div id="subscriber-facing-app"></div>
+        <link  rel="stylesheet" href="https://static-assets.buttondown.com/event-listener-C4a0MggJ.css" />
+<link  rel="stylesheet" href="https://static-assets.buttondown.com/subscriber_facing_app-CMddTf0D.css" />
+<script type="module" crossorigin="" src="https://static-assets.buttondown.com/subscriber_facing_app-DIYFgv7W.js"></script>
+<link href="https://static-assets.buttondown.com/modulepreload-polyfill-C5-T9T-W.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/vueQueryPlugin-BD6xQQsM.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/event-listener-5QAwhQxM.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/_sentry-release-injection-file-DRmiww3Y.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/preload-helper-HIQHktoD.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://static-assets.buttondown.com/PendingIndicator.vue_vue_type_script_setup_true_lang-9IrbzFdh.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+        
+    </body>
+</html>

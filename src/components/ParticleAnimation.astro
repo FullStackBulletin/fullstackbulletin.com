@@ -1,0 +1,68 @@
+---
+// Port of the SCSS particle animation
+// 30 particles distributed on a circle, animated with fade-in + scale
+const PARTICLES = 30;
+const RADIUS = 1800; // px, matches original $radius: rem-calc(1800)
+const BASE_SIZE = 90; // px
+const INITIAL_SCALE = 0.4;
+const ANIMATION_DURATION = 6000; // ms
+
+function getRandomPosition(seed: number) {
+  // Pseudo-random based on seed for SSR consistency
+  const theta = 2 * Math.PI * ((seed * 2654435761 >>> 0) % 1000) / 1000;
+  const u1 = ((seed * 340573321 >>> 0) % 1000) / 1000;
+  const u2 = ((seed * 1013904223 >>> 0) % 1000) / 1000;
+  const u = u1 + u2;
+  const r = u > 1 ? 2 - u : u;
+  const x = r * Math.cos(theta);
+  const y = r * Math.sin(theta);
+  const distance = Math.sqrt(x * x + y * y);
+  return { x, y, distance };
+}
+
+const particles = Array.from({ length: PARTICLES }, (_, i) => {
+  const pos = getRandomPosition(i + 1);
+  const translateX = pos.x * RADIUS;
+  const translateY = pos.y * RADIUS;
+  // Scale formula: 1 - sin(distance * PI/2) (matches original SCSS)
+  const scale = 1 - Math.sin(pos.distance * Math.PI / 2);
+  const delay = Math.floor(Math.random() * ANIMATION_DURATION);
+  return { translateX, translateY, scale, delay, index: i };
+});
+---
+
+<div class="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
+  {particles.map((p) => (
+    <div
+      class="particle absolute inset-0 m-auto bg-brand-primary opacity-0"
+      style={`
+        width: ${BASE_SIZE}px;
+        height: ${BASE_SIZE}px;
+        transform: translateX(${p.translateX}px) translateY(${p.translateY}px) scale(${p.scale});
+        animation: particle-drift ${ANIMATION_DURATION}ms cubic-bezier(0.125, 0, 0.41, 0) ${p.delay}ms infinite reverse;
+      `}
+    />
+  ))}
+</div>
+
+<style>
+  @keyframes particle-drift {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0) translateY(0) scale(0.4);
+    }
+  }
+
+  @media (min-width: 112.5rem) {
+    .particle {
+      width: 180px !important;
+      height: 180px !important;
+    }
+  }
+</style>

@@ -1,0 +1,75 @@
+{
+  "issueNumber": 55,
+  "title": "gRPC Support in NGINX",
+  "slug": "2018-04-02-055-grpc-support-in-nginx",
+  "date": "2018-04-02",
+  "templateType": "old-mailchimp",
+  "intro": "Best 7 links of week #13, 2018",
+  "quote": {
+    "text": "We are stuck with technology when what we really want is just stuff that works",
+    "author": "Douglas Adams",
+    "authorTitle": "Author",
+    "authorUrl": "https://en.wikipedia.org/wiki/Douglas_Adams"
+  },
+  "links": [
+    {
+      "title": "gRPC Support in NGINX",
+      "url": "https://nginx.com/blog/nginx-1-13-10-grpc",
+      "description": "NGINX now proxies gRPC traffic, so you can terminate, inspect, and route gRPC method calls. Manage encryption and load balance gRPC traffic.",
+      "imageUrl": "./957005cc131df02985f99e087fbb6e362c100eac69a78c9c6275c0227708b734.jpg",
+      "featured": true
+    },
+    {
+      "title": "AWS Lambda runtimes performance",
+      "url": "https://read.acloud.guru/comparing-aws-lambda-performance-of-node-js-python-java-c-and-go-29c1163c2581",
+      "description": "An updated runtime performance benchmark of all five programming languages supported by AWS Lambda",
+      "imageUrl": "./32ad1bc4c6f0265a512d3b56632a01a7a361e5870686dbf7538a5fe9b3a47bc6.jpg",
+      "featured": false
+    },
+    {
+      "title": "UI Toggles to turn you on",
+      "url": "https://blog.prototypr.io/ui-toggles-to-turn-you-on-83de3ef91e21",
+      "description": "Some incredible UI Inspiration for designing fresh and funny toggle buttons.",
+      "imageUrl": "./fa5161526f16b889f4d6459b2169451524029a978a7da086b8c257c10e04aa35.jpg",
+      "featured": false
+    },
+    {
+      "title": "Using JSX with Vue",
+      "url": "http://scotch.io/tutorials/using-jsx-with-vue-and-why-you-should-care",
+      "description": "Vue.js has an easy API and several options for defining HTML templates in our components. You can also use JSX with it and this article is going to tell you why you might want to do that!",
+      "imageUrl": "./df6d7d5e57dcfba1ec779900e51e071a259a374c19648a1982d87ca966ec6bd7.jpg",
+      "featured": false
+    },
+    {
+      "title": "Optimizing a Static Site",
+      "url": "https://hackernoon.com/optimizing-a-static-site-d5ab6899f249",
+      "description": "An amazing case study about optimizing a static website to the point of making it 10 times more performant.",
+      "imageUrl": "./2f0da4b5864d624f1ba6edc7b14fe53c7d27f0428a49ff78974facd94e4a416a.jpg",
+      "featured": false
+    },
+    {
+      "title": "JavaScript vs. TypeScript vs. ReasonML",
+      "url": "http://2ality.com/2018/03/javascript-typescript-reasonml.html",
+      "description": "This blog post describes the pros and cons of JavaScript, TypeScript and ReasonML. Descriptions are based on recent experiences with TypeScript and ReasonML on a few smaller real-world projects and on years of experience with JavaScript.",
+      "imageUrl": "./d8a13364300a11d8d3580234bf685a6e643d9f1d0927ad5f3d2a5db3649bbc19.jpg",
+      "featured": false
+    },
+    {
+      "title": "First Contact With 'var' In Java 10",
+      "url": "https://blog.codefx.org/java/java-10-var-type-inference",
+      "description": "Java 10 introduces the var keyword, which lets the compiler infer local variable types. Here's how var works, why it exists, how it impacts readability.",
+      "imageUrl": "./c19f501076cdb8cf37f40e326e4525af8c67af14c1bfd72222b5f26ef957a5c2.jpg",
+      "featured": false
+    }
+  ],
+  "book": {
+    "title": "NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence",
+    "author": "Pramod J. Sadalage",
+    "description": "The need to handle increasingly larger data volumes is one factor driving the adoption of a new class of nonrelational “NoSQL” databases. Advocates of NoSQL databases claim they can be used to build systems that are more performant, scale better, and are easier to program.",
+    "coverImageUrl": "./96f077a648367bca955163aa3692e65c5704f3d7a7c6557690997e5ffeea975b.jpg",
+    "amazonUs": "https://www.amazon.com/dp/0321826620/?tag=fullstackbulletin-20",
+    "amazonUk": "https://www.amazon.co.uk/dp/0321826620/?tag=fullstackbulletin-21"
+  },
+  "additionalLinks": null,
+  "sponsor": null
+}
