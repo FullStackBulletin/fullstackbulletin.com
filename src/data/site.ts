@@ -141,6 +141,7 @@ export const recommendedNewsletters = [
   { name: 'DuckTyped', url: 'https://www.ducktyped.org/' },
   { name: 'web.dev', url: 'https://web.dev/' },
   { name: 'Pope Tech Blog', url: 'https://blog.pope.tech/' },
+  { name: "Luca Mezzalira's Micro-frontends newsletter", url: 'https://www.buildingmicrofrontends.com/' },
 ];
 
 export const recommendedCreators = [
@@ -216,4 +217,8 @@ export const recommendedCreators = [
   { name: 'Marvin Hagemeister', url: 'https://marvinh.dev/' },
   { name: 'Malte Ubl', url: 'https://www.industrialempathy.com/' },
   { name: 'Ben Howdle', url: 'https://benhowdle.im/' },
+  { name: 'Soumaya Erradi', url: 'https://www.soumayaerradi.it/' },
+  { name: 'Luca Del Puppo', url: 'https://blog.delpuppo.net/' },
+  { name: 'Tommaso Allevi', url: 'https://medium.com/@allevo' },
+  { name: 'Emanuele Bartolesi', url: 'https://www.emanuelebartolesi.com/' },
 ];

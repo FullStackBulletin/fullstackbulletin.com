@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FullStack Bulletin - Recommended Feeds</title>
-    <dateCreated>Wed, 18 Mar 2026 15:21:09 GMT</dateCreated>
+    <dateCreated>Sun, 29 Mar 2026 10:48:31 GMT</dateCreated>
     <docs>https://fullstackbulletin.com</docs>
   </head>
   <body>
@@ -111,6 +111,9 @@
         <outline text="Marvin Hagemeister" title="Marvin Hagemeister" type="rss" xmlUrl="https://marvinh.dev/feed.xml" htmlUrl="https://marvinh.dev/"/>
         <outline text="Malte Ubl" title="Malte Ubl" type="rss" xmlUrl="https://www.industrialempathy.com/feed/feed.xml" htmlUrl="https://www.industrialempathy.com/"/>
         <outline text="Ben Howdle" title="Ben Howdle" type="rss" xmlUrl="http://benhowdle.im/feed.xml" htmlUrl="https://benhowdle.im/"/>
+        <outline text="Luca Del Puppo" title="Luca Del Puppo" type="rss" xmlUrl="https://blog.delpuppo.net/rss.xml" htmlUrl="https://blog.delpuppo.net/"/>
+        <outline text="Tommaso Allevi" title="Tommaso Allevi" type="rss" xmlUrl="https://medium.com/feed/@allevo" htmlUrl="https://medium.com/@allevo"/>
+        <outline text="Emanuele Bartolesi" title="Emanuele Bartolesi" type="rss" xmlUrl="https://www.emanuelebartolesi.com/rss.xml" htmlUrl="https://www.emanuelebartolesi.com/"/>
     </outline>
   </body>
 </opml>

@@ -610,5 +610,23 @@
     "siteUrl": "https://benhowdle.im/",
     "feedUrl": "http://benhowdle.im/feed.xml",
     "category": "creator"
+  },
+  {
+    "name": "Luca Del Puppo",
+    "siteUrl": "https://blog.delpuppo.net/",
+    "feedUrl": "https://blog.delpuppo.net/rss.xml",
+    "category": "creator"
+  },
+  {
+    "name": "Tommaso Allevi",
+    "siteUrl": "https://medium.com/@allevo",
+    "feedUrl": "https://medium.com/feed/@allevo",
+    "category": "creator"
+  },
+  {
+    "name": "Emanuele Bartolesi",
+    "siteUrl": "https://www.emanuelebartolesi.com/",
+    "feedUrl": "https://www.emanuelebartolesi.com/rss.xml",
+    "category": "creator"
   }
 ]
