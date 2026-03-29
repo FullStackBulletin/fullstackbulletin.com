@@ -1,0 +1,165 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #435: An Interactive Guide to SVG Paths | FullStack Bulletin</title><meta name="description" content="Hello, 
+
+Big milestone this week: this is our first issue sent via [Buttondown](https://buttondown.com/)! 🎉
+
+Switching away from Mailchimp is something I’ve wanted to do for a long time. Don’t get me wrong... Mailchimp served us well over the years (all previous 434 issues, in fact!), but it’s been getting pricey, and honestly... I was never fully happy with their content editor and the email layout. Some of you even told me the emails weren’t super readable on mobile. Fair feedback!
+
+So, Buttondown! I’m hoping this move helps us keep costs a bit more under control, but more importantly, that it gives you a smoother, cleaner experience as a reader.
+
+The migration itself went fairly smoothly (altough I still need to migrate some of my beloved [automation](https://github.com/FullStackBulletin/automation) and part of the [website](https://fullstackbulletin.com/)), but you know how these things go... If you spot a broken link, weird formatting, or — worst-case — you unsubscribed recently and somehow ended up back here, I’m really sorry for that. You can unsubscribe again easily (link in the footer), and I promise I’m not trying to spam anyone. Just an honest hiccup in the switch.
+
+As always, I’d love to hear your thoughts. If anything’s broken (or awesome), hit reply and let me know. Feedback is gold.
+
+Now! Let’s dive into this week’s hand-picked full-stack goodness, curated with love, as always 💛
+
+Happy reading and coding!  
+
+— [Luciano](https://loige.co/)"><link rel="canonical" href="https://fullstackbulletin.com/archive/2025-08-25-415-an-interactive-guide-to-svg-paths/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2025-08-25-415-an-interactive-guide-to-svg-paths/"><meta property="og:title" content="Issue #435: An Interactive Guide to SVG Paths | FullStack Bulletin"><meta property="og:description" content="Hello, 
+
+Big milestone this week: this is our first issue sent via [Buttondown](https://buttondown.com/)! 🎉
+
+Switching away from Mailchimp is something I’ve wanted to do for a long time. Don’t get me wrong... Mailchimp served us well over the years (all previous 434 issues, in fact!), but it’s been getting pricey, and honestly... I was never fully happy with their content editor and the email layout. Some of you even told me the emails weren’t super readable on mobile. Fair feedback!
+
+So, Buttondown! I’m hoping this move helps us keep costs a bit more under control, but more importantly, that it gives you a smoother, cleaner experience as a reader.
+
+The migration itself went fairly smoothly (altough I still need to migrate some of my beloved [automation](https://github.com/FullStackBulletin/automation) and part of the [website](https://fullstackbulletin.com/)), but you know how these things go... If you spot a broken link, weird formatting, or — worst-case — you unsubscribed recently and somehow ended up back here, I’m really sorry for that. You can unsubscribe again easily (link in the footer), and I promise I’m not trying to spam anyone. Just an honest hiccup in the switch.
+
+As always, I’d love to hear your thoughts. If anything’s broken (or awesome), hit reply and let me know. Feedback is gold.
+
+Now! Let’s dive into this week’s hand-picked full-stack goodness, curated with love, as always 💛
+
+Happy reading and coding!  
+
+— [Luciano](https://loige.co/)"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #435: An Interactive Guide to SVG Paths | FullStack Bulletin"><meta name="twitter:description" content="Hello, 
+
+Big milestone this week: this is our first issue sent via [Buttondown](https://buttondown.com/)! 🎉
+
+Switching away from Mailchimp is something I’ve wanted to do for a long time. Don’t get me wrong... Mailchimp served us well over the years (all previous 434 issues, in fact!), but it’s been getting pricey, and honestly... I was never fully happy with their content editor and the email layout. Some of you even told me the emails weren’t super readable on mobile. Fair feedback!
+
+So, Buttondown! I’m hoping this move helps us keep costs a bit more under control, but more importantly, that it gives you a smoother, cleaner experience as a reader.
+
+The migration itself went fairly smoothly (altough I still need to migrate some of my beloved [automation](https://github.com/FullStackBulletin/automation) and part of the [website](https://fullstackbulletin.com/)), but you know how these things go... If you spot a broken link, weird formatting, or — worst-case — you unsubscribed recently and somehow ended up back here, I’m really sorry for that. You can unsubscribe again easily (link in the footer), and I promise I’m not trying to spam anyone. Just an honest hiccup in the switch.
+
+As always, I’d love to hear your thoughts. If anything’s broken (or awesome), hit reply and let me know. Feedback is gold.
+
+Now! Let’s dive into this week’s hand-picked full-stack goodness, curated with love, as always 💛
+
+Happy reading and coding!  
+
+— [Luciano](https://loige.co/)"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:August 25, 2025">
+Issue #435 &middot; August 25, 2025 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> An Interactive Guide to SVG Paths </h1> </header> <div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello, </p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Big milestone this week: this is our first issue sent via <a href="https://buttondown.com/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-435&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Buttondown</a>! 🎉</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Switching away from Mailchimp is something I’ve wanted to do for a long time. Don’t get me wrong... Mailchimp served us well over the years (all previous 434 issues, in fact!), but it’s been getting pricey, and honestly... I was never fully happy with their content editor and the email layout. Some of you even told me the emails weren’t super readable on mobile. Fair feedback!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">So, Buttondown! I’m hoping this move helps us keep costs a bit more under control, but more importantly, that it gives you a smoother, cleaner experience as a reader.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">The migration itself went fairly smoothly (altough I still need to migrate some of my beloved <a href="https://github.com/FullStackBulletin/automation?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-435&utm_content=intro-link" target="_blank" rel="noopener noreferrer">automation</a> and part of the <a href="https://fullstackbulletin.com/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-435&utm_content=intro-link" target="_blank" rel="noopener noreferrer">website</a>), but you know how these things go... If you spot a broken link, weird formatting, or — worst-case — you unsubscribed recently and somehow ended up back here, I’m really sorry for that. You can unsubscribe again easily (link in the footer), and I promise I’m not trying to spam anyone. Just an honest hiccup in the switch.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">As always, I’d love to hear your thoughts. If anything’s broken (or awesome), hit reply and let me know. Feedback is gold.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Now! Let’s dive into this week’s hand-picked full-stack goodness, curated with love, as always 💛</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Happy reading and coding!  </p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">— <a href="https://loige.co/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-435&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://joshwcomeau.com/svg/interactive-guide-to-paths?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-435&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/cf0139fcf049887c999ae3760af32024d4b861e7bfbe78fb15a8edbf5257adac.png" alt="An Interactive Guide to SVG Paths" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://joshwcomeau.com/svg/interactive-guide-to-paths?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-435&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> An Interactive Guide to SVG Paths </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">I’ve always had a bit of a thing for vector graphics. There’s something deeply satisfying about how SVGs are just… text. That’s right, pure markup magic. And once you wrap your head around the syntax, it opens the door to dynamically generating shapes, animations, and interactive artwork with code. It’s like programming meets drawing, and it scratches that creative itch in a way few things do. What makes SVGs even cooler? You can poke at them through the DOM and sprinkle in JavaScript to make them dance. So if you’ve ever been even a little curious about how <code>&lt;path&gt;</code> works in SVG, this interactive guide is pure gold. It’s visual, hands-on, and honestly a joy to go through. Let your creative side out to play!</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://browser-use.com/posts/playwright-to-cdp?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-435&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Closer to the Metal: Leaving Playwright for CDP </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Let’s switch gears... but not completely. We’re still talking about automation through code, only this time we’re steering it straight into the world of browsers! Have you ever used <strong>Playwright</strong>? It’s one of the best E2E testing tools out there, giving you the power to script real browser behavior like clicking buttons, filling forms, or navigating between pages. But here’s the twist: Playwright isn’t magic! Under the hood, it talks to browsers using something called <strong>CDP (Chrome DevTools Protocol)</strong>, a lower-level interface that gives you even more control. This article is a solid deep dive into how Playwright builds on top of CDP, and why you might want to explore CDP directly if you’re looking for performance, flexibility, or just want to know how the <em>puppeteering</em> actually works (pun intended... if you got it).</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://developerway.com/posts/local-storage-instead-of-context?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-435&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Can We Use Local Storage Instead of Context-Redux-Zustand? </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">This is a question I’ve found myself circling back to a few times, especially after discovering <strong>signals</strong> in <strong>SolidJS</strong>. They opened my eyes to a whole new way of thinking about state, reactivity, and where (and how) data should live. This article dives right into that same curiosity. It explores when using <code>LocalStorage</code> might actually be a better fit than React Context. Think global state that needs to persist across sessions but doesn’t necessarily need to trigger re-renders every time it changes... It’s a thought-provoking read that’ll challenge some default assumptions about app architecture and possibly nudge you toward simpler, more efficient patterns.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://nextjs.org/blog/next-15-5?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-435&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Next.js 15.5 </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Let’s be honest, Next.js is probably the most widely used full-stack framework in web development right now. Whether you love it, tolerate it, or secretly grumble about it while using it anyway (like I do), it’s become the default choice for a huge chunk of the ecosystem. Even LLMs seem to default to it when asked how to build a web app! So like it or not, having some level of Next.js fluency is becoming table stakes. And guess what? There’s a new version out. Next.js 15.5 brings some solid updates to caching, partial pre-rendering, and the app router. If you’re working on production-grade apps (or plan to), it’s worth skimming this changelog to see what’s evolving under the hood.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://sebastianwessel.github.io/quickjs/index.html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-435&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> QuickJS Sandbox: Execute JavaScript and TypeScript code safe and secure </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">This project is absolutely bonkers in the best way. It runs QuickJS (a tiny, embeddable JavaScript engine written in C) right in the browser, via WebAssembly. Yep, that means you can fire up a fully separate JavaScript runtime inside your browser tab and start executing code in a completely isolated context. Why would you want this? Well, for one: sandboxing. For another: curiosity. And also because it’s just really cool to see stuff like this working entirely client-side. Think interactive REPLs, teaching tools, plugin systems, or even experiments with running multiple JS runtimes side-by-side. <a href="https://sebastianwessel.github.io/quickjs/index.html?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-435&utm_content=description-link" target="_blank" rel="noopener noreferrer"><strong>Check out project</strong></a></p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://socket.dev/blog/npm-trusted-publishing?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-435&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> npm Adopts OIDC for Trusted Publishing in CI/CD Workflows </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I’m a huge fan of <strong>OIDC</strong>. I’ve implemented it in all sorts of business contexts, and one of my favorite use cases is letting GitHub Actions deploy to AWS using short-lived credentials. No more static secrets, no more long-lived tokens... just clean, secure, on-demand access that disappears when the job's done. And for the longest time, I wished I could do the same thing when publishing packages to npm. Well... now we finally can! This post dives into npm's new <em>Trusted Publishing</em> feature, which brings first-class OIDC support to the registry. That means you can authorize your GitHub repo to publish directly with no access tokens and therefore no secret leakage risk!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://idiallo.com/blog/react-and-image-format?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-435&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> What Learning React Won&#39;t Teach You: Image Formats </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">We started this issue with a solid deep dive into SVGs, so it only feels right to close it with a nod to their pixel-powered cousins: <strong>JPG</strong> and <strong>PNG</strong>, the two most widely used raster image formats on the web. What I loved about this article is how clearly it lays out a truth that’s easy to overlook: JPG and PNG are not truly interchangeable. They each have specific strengths and trade-offs, and mixing them up can lead to seriously suboptimal results. Think bloated file sizes, blurry compression artifacts, or sharp edges that suddenly go fuzzy. If you’ve ever found yourself exporting assets without thinking too hard about the format, this is your friendly wake-up call.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/357c19aebbd32079fe61584581b8d78910ea6d463a7601e7042a222025c8ef96.jpg" alt="Building Microservices: Designing Fine-Grained Systems" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Building Microservices: Designing Fine-Grained Systems</h4> <p class="text-sm text-neutral-medium mb-2">by Sam Newman</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">As organizations shift from monolithic applications to smaller, self-contained microservices, distributed systems have become more fine-grained. But developing these new systems brings its own host of problems. This expanded second edition takes a holistic view of topics that you need to consider when building, managing, and scaling microservices architectures. Through clear examples and practical advice, author Sam Newman gives everyone from architects and developers to testers and IT operators a firm grounding in the concepts. You'll dive into the latest solutions for modeling, integrating, testing, deploying, and monitoring your own autonomous services. Real-world cases reveal how organizations today manage to get the most out of these architectures. Microservices technologies continue to move quickly. This book brings you up to speed.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1492034029?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-435&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1492034029?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-435&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2025-08-18-414-why-llms-can-t-really-build-software" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2025-09-01-416-the-crazy-history-of-themeable-user-interfaces" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

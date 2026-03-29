@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #382: Poku: a cross-platform JavaScript test runner | FullStack Bulletin</title><meta name="description" content="Hello dear, 
+Welcome to issue #382!
+
+Last week I was on holiday, so I edited this issue from sunny (and rather hot 🥵) Sicily! I had lots of time to read and keep myself up to date while enjoying the seaside, so I hope you'll appreciate the content I selected for this issue because t*he full-stack love never goes on holiday*! (OK, I admit this one was a bit cringe, sorry!) 😝
+
+ENJOY!
+
+Your (sunburnt) editor, [Luciano](https://x.com/loige)!"><link rel="canonical" href="https://fullstackbulletin.com/archive/2024-07-22-364-poku-a-cross-platform-javascript-test-runner/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2024-07-22-364-poku-a-cross-platform-javascript-test-runner/"><meta property="og:title" content="Issue #382: Poku: a cross-platform JavaScript test runner | FullStack Bulletin"><meta property="og:description" content="Hello dear, 
+Welcome to issue #382!
+
+Last week I was on holiday, so I edited this issue from sunny (and rather hot 🥵) Sicily! I had lots of time to read and keep myself up to date while enjoying the seaside, so I hope you'll appreciate the content I selected for this issue because t*he full-stack love never goes on holiday*! (OK, I admit this one was a bit cringe, sorry!) 😝
+
+ENJOY!
+
+Your (sunburnt) editor, [Luciano](https://x.com/loige)!"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #382: Poku: a cross-platform JavaScript test runner | FullStack Bulletin"><meta name="twitter:description" content="Hello dear, 
+Welcome to issue #382!
+
+Last week I was on holiday, so I edited this issue from sunny (and rather hot 🥵) Sicily! I had lots of time to read and keep myself up to date while enjoying the seaside, so I hope you'll appreciate the content I selected for this issue because t*he full-stack love never goes on holiday*! (OK, I admit this one was a bit cringe, sorry!) 😝
+
+ENJOY!
+
+Your (sunburnt) editor, [Luciano](https://x.com/loige)!"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:July 22, 2024">
+Issue #382 &middot; July 22, 2024 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> Poku: a cross-platform JavaScript test runner </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;All of the biggest technological inventions created by man - the airplane, the automobile, the computer - says little about his intelligence, but speaks volumes about his laziness“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Mark_Kennedy?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Mark Kennedy </a> <span>, Author</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello dear, 
+Welcome to issue #382!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Last week I was on holiday, so I edited this issue from sunny (and rather hot 🥵) Sicily! I had lots of time to read and keep myself up to date while enjoying the seaside, so I hope you'll appreciate the content I selected for this issue because t<em>he full-stack love never goes on holiday</em>! (OK, I admit this one was a bit cringe, sorry!) 😝</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">ENJOY!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Your (sunburnt) editor, <a href="https://x.com/loige?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-382&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a>!</p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://poku.io/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/610c51a1504404e95d2e309a360da4de5dd6f1c68fcc590224eb5f4de78ae471.png" alt="Poku: a cross-platform JavaScript test runner" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://poku.io/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Poku: a cross-platform JavaScript test runner </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed"><strong>Poku</strong> is a new JavaScript test runner that promises to make it easy to write tests for projects that need to run on <strong>Node.js</strong>, <strong>Deno,</strong> and <strong>Bun</strong>. If you are creating a library that you want to ensure is well supported on all these different runtimes, Poku should make writing the tests quite easy following the spirit of "Write once, run it everywhere". I haven't tried this yet, but it seems like a good candidate for my <a href="https://www.npmjs.com/package/financial?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-382&utm_content=description-link" target="_blank" rel="noopener noreferrer"><code>financial</code></a> library, which now has dedicated tests for different runtimes... which is a pain for maintenance! 🥲 <a href="https://poku.io/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-382&utm_content=description-link" target="_blank" rel="noopener noreferrer"><strong>View project</strong></a></p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://effectivetypescript.com/2024/07/17/advent2023-zig/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> A TypeScripter&#39;s Take on Zig </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">What can Zig learn from TypeScript, and what can TypeScript learn from Zig? If you are into languages, this intro should be captivating enough! 😀</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://github.com/mafintosh/why-is-node-running?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> why-is-node-running </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">When writing JavaScript scripts (pun intended), you might accidentally end up allocating resources that will keep your Node.js process running indefinitely. If you are expecting your script to do something and then exit, this can be a problem... A new package, originally named <code>why-is-node-running</code>, is here to help you figure out what keeps your Node.js process from exiting! BTW, I was curious to see how this module was implemented and, by looking at the code, I discovered that this is a great example to see how useful Node.js <code>async_hooks</code> can be!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://davidgerrells.com/blog/how-fast-is-javascript-simulating-20-000-000-particles?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> How fast is JavaScript? Simulating 20,000,000 particles </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">The challenge, simulate 1,000,000 particles in plain JavaScript at 60 fps on a phone using only the CPU. This one is one hell of an experiment with really fascinating results. It doesn't run as smoothly on my Macbook Pro M2 in power-saving mode, but it's still impressive and you can easily reduce the number of particles to get better results that can suit your hardware! Experiment aside, there's lots to learn here about <em>LOW_LEVEL</em> JavaScript.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://zdnet.com/article/cloudflare-reports-almost-7-percent-of-internet-traffic-is-malicious?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Cloudflare reports almost 7% of internet traffic is malicious </a> </h3>  </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://lucvandonkersgoed.com/2024/07/13/dear-aws-please-let-me-be-a-cloud-engineer-again?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Dear AWS, please let me be a cloud engineer again </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">My friend <a href="https://x.com/donkersgood?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-382&utm_content=description-link" target="_blank" rel="noopener noreferrer">Luc</a> is an AWS Serverless Hero and a principal engineer at an AWS-centric logistics company. Luc builds lots of cool stuff on AWS including the brilliant <a href="https://aws-news.com/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-382&utm_content=description-link" target="_blank" rel="noopener noreferrer">AWS News Feed</a>. In this article, he makes the point that AWS is shifting their approach more and more to follow the current AI hype and it looks like they are forgetting about cloud engineers and what they need to succeed. I couldn't agree more with this post. If you are a heavy AWS user, you'll probably relate to this one too!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://hallofshame.design/collection?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Collection of Dark Patterns and Unethical Design </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Nothing upsets web developers and UX designers more than some unhealthy <strong>dark patterns</strong> when you spot them on a random website! But to be fair they are also ingenious and interesting at times! On this website, you can discover a variety of dark pattern examples, sorted by category, to better understand deceptive design practices. My favourite? The <strong>roach motel</strong>! 🪳</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/c5bce5753cd461f04911ed74e8eb355beca73fb67f1cd9040cedb1b7ddfc9508.jpg" alt="Fluent Python: Clear, Concise, and Effective Programming" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Fluent Python: Clear, Concise, and Effective Programming</h4> <p class="text-sm text-neutral-medium mb-2">by Luciano Ramalho</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">Don't waste time bending Python to fit patterns you've learned in other languages. Python's simplicity lets you become productive quickly, but often this means you aren't using everything the language has to offer. With the updated edition of this hands-on guide, you'll learn how to write effective, modern Python 3 code by leveraging its best ideas. Discover and apply idiomatic Python 3 features beyond your past experience. Author Luciano Ramalho guides you through Python's core language features and libraries and teaches you how to make your code shorter, faster, and more readable. Complete with major updates throughout, this new edition features five parts that work as five short books within the book:</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1492056359?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1492056359?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://frontendmasters.com/blog/animating-dialog?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Animating the Dialog Element</a></li><li class="font-body text-sm"><a href="https://utilitybend.com/blog/an-update-on-invokers-invoker-commands-in-html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">An update on invokers: Invoker commands in HTML</a></li><li class="font-body text-sm"><a href="https://docs.aws.amazon.com/prescriptive-guidance/latest/micro-frontends-aws/introduction.html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Understanding and implementing micro-frontends on AWS</a></li><li class="font-body text-sm"><a href="https://remysharp.com/2024/07/12/is-ai-part-and-parcel-of-web-dev?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Is AI part and parcel of web dev?</a></li><li class="font-body text-sm"><a href="https://andreasimonecosta.dev/posts/parsing-raw-data-with-existential-types?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Parsing raw data with existential types</a></li><li class="font-body text-sm"><a href="https://digitalocean.com/community/developer-center/how-to-deploy-your-react-app-using-container-registry?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">How to deploy your React app using Container Registry</a></li><li class="font-body text-sm"><a href="https://tedium.co/2024/06/16/jpeg-image-format-history?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">JPEG History: Compressing It Down, Keeping The Essence</a></li><li class="font-body text-sm"><a href="https://shippingbytes.com/2024/07/18/you-are-not-looking-for-remote-work/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-382&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">You are not looking for remote work</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2024-07-15-363-reverse-engineering-ticketmaster-s-rotating-barcodes" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2024-07-29-365-how-airbnb-smoothly-upgrades-react" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

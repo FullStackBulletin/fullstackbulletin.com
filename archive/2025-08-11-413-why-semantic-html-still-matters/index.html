@@ -1,0 +1,142 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #433: Why semantic HTML still matters | FullStack Bulletin</title><meta name="description" content="Hello, 
+Ready to dive into some hand-picked full-stack goodness? I thought so. But before we get there, I have a bit of personal news to share. As some of you know, I have been working on a new edition of [Node.js Design Patterns](https://www.nodejsdesignpatterns.com/) over the past year. It has been a huge amount of work, but we are almost there. Our publisher, Packt, will soon release a preview of the new edition with a few chapters available completely free. If you are interested, just [fill out this form](https://forms.office.com/e/c2TRRWyZJy). I would really value your feedback once you have had a read.
+
+Now, let’s jump into this week’s selection of full-stack gems. I hope you enjoy them as much as I did picking them.
+
+Cheers,
+— Luciano"><link rel="canonical" href="https://fullstackbulletin.com/archive/2025-08-11-413-why-semantic-html-still-matters/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2025-08-11-413-why-semantic-html-still-matters/"><meta property="og:title" content="Issue #433: Why semantic HTML still matters | FullStack Bulletin"><meta property="og:description" content="Hello, 
+Ready to dive into some hand-picked full-stack goodness? I thought so. But before we get there, I have a bit of personal news to share. As some of you know, I have been working on a new edition of [Node.js Design Patterns](https://www.nodejsdesignpatterns.com/) over the past year. It has been a huge amount of work, but we are almost there. Our publisher, Packt, will soon release a preview of the new edition with a few chapters available completely free. If you are interested, just [fill out this form](https://forms.office.com/e/c2TRRWyZJy). I would really value your feedback once you have had a read.
+
+Now, let’s jump into this week’s selection of full-stack gems. I hope you enjoy them as much as I did picking them.
+
+Cheers,
+— Luciano"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #433: Why semantic HTML still matters | FullStack Bulletin"><meta name="twitter:description" content="Hello, 
+Ready to dive into some hand-picked full-stack goodness? I thought so. But before we get there, I have a bit of personal news to share. As some of you know, I have been working on a new edition of [Node.js Design Patterns](https://www.nodejsdesignpatterns.com/) over the past year. It has been a huge amount of work, but we are almost there. Our publisher, Packt, will soon release a preview of the new edition with a few chapters available completely free. If you are interested, just [fill out this form](https://forms.office.com/e/c2TRRWyZJy). I would really value your feedback once you have had a read.
+
+Now, let’s jump into this week’s selection of full-stack gems. I hope you enjoy them as much as I did picking them.
+
+Cheers,
+— Luciano"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:August 11, 2025">
+Issue #433 &middot; August 11, 2025 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> Why semantic HTML still matters </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;To err is human, but to really foul things up you need a computer“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Paul_Ehrlich?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Paul Ehrlich </a> <span>, Scientist</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello, 
+Ready to dive into some hand-picked full-stack goodness? I thought so. But before we get there, I have a bit of personal news to share. As some of you know, I have been working on a new edition of <a href="https://www.nodejsdesignpatterns.com/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-433&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Node.js Design Patterns</a> over the past year. It has been a huge amount of work, but we are almost there. Our publisher, Packt, will soon release a preview of the new edition with a few chapters available completely free. If you are interested, just <a href="https://forms.office.com/e/c2TRRWyZJy?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-433&utm_content=intro-link" target="_blank" rel="noopener noreferrer">fill out this form</a>. I would really value your feedback once you have had a read.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Now, let’s jump into this week’s selection of full-stack gems. I hope you enjoy them as much as I did picking them.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Cheers,
+— Luciano</p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://jonoalderson.com/conjecture/why-semantic-html-still-matters?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/d08571af3db03ce58d29646b343a50a94c8e468cf2b4dda968f8098db00ee1d9.png" alt="Why semantic HTML still matters" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://jonoalderson.com/conjecture/why-semantic-html-still-matters?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Why semantic HTML still matters </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">I still remember when HTML5 became mainstream around 2014 and everyone was buzzing about semantic markup. We swapped out walls of meaningless <code>&lt;div&gt;</code>s for shiny new <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;section&gt;</code> tags. Some folks even slapped the bright orange “<a href="https://commons.wikimedia.org/wiki/File:HTML5_Badge.svg?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-433&utm_content=description-link" target="_blank" rel="noopener noreferrer">HTML5 badge</a>” on their sites like it was a superhero emblem. But here we are in 2025, and I find myself wondering... do we still care? Should we still care? The answer is a resounding yes, and this article lays out some excellent, concrete reasons why semantic HTML is just as important today as it was back then.</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://alexkondov.com/i-know-when-youre-vibe-coding?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> I Know When You&#39;re Vibe Coding </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I vibe code, you vibe code, your friends are vibe coding, everyone is vibe coding! No… it’s not quite like everyone is on cocaine, but it’s not exactly healthy either. This short piece explores the idea that while vibe coding can be great for moving fast and riding the momentum, it also tempts us to switch off our brains, hit “accept” without thinking, and lose sight of what makes our work ours. The real takeaway? Speed is fine, but keep your critical thinking (and above all your creativity) in the mix, because coding should still be a craft shaped with art and love.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://bluefishjs.org/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Bluefish: The missing diagramming framework </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I’m pretty excited about this one. I’ve used tools like Mermaid to make diagramming faster and more standardized, but honestly, I always end up struggling to learn and remember their syntax. What should be a speed boost often turns into a time sink, and when I want to generate diagrams programmatically, the last thing I want is to build yet another Mermaid compiler. That’s why Bluefish caught my attention. It takes a programmatic approach to creating diagrams and strikes a nice balance between simplicity and control. It’s written in TypeScript, works with vanilla JS, and (drum roll) even supports SolidJS, which makes it even more exciting for me. I haven’t used it in anger yet, but it looks promising. Give it a try!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://grantslatton.com/how-to-design-document?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Writing a good design document </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">OK… documentation! Raise your hand if you like writing it… no hands? What a surprise! Nobody loves writing docs, and to be fair, it’s hard work. Writing design docs is even harder. A design document is a technical report that explains the implementation strategy for a system, framed around trade-offs and constraints. We often forget about them, yet they’re among the most important documents a project can have. If you want to get better at writing docs (and you should), this article offers a solid strategy for crafting clear and genuinely useful design docs. PS: remember the AI documentation tool we mentioned <a href="https://us15.campaign-archive.com/?u=b015626aa6028495fe77c75ea&amp%3Bid=a46ec69e32&utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-433&utm_content=description-link" target="_blank" rel="noopener noreferrer">last week</a>? You could combine the two ideas for an AI-assisted workflow. Just don’t let the AI take the wheel… you’re still the driver! :)</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://rahuljuliato.com/posts/react-workers?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Unlocking Web Workers with React </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">You thought you’d get away with a FullStack Bulletin issue that didn’t mention React? WRONG! OK… bear with me, because this one is both nerdy and exciting. It combines the still underappreciated power of Web Workers with React. So if you ever need to run a CPU-heavy task in the UI, you’ll know exactly how to hand it off to a worker thread, keeping your interface smooth and your users happy... because freezing the UI is the last thing you want!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://developerway.com/posts/i-tried-react-compiler?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> I tried React Compiler today, and guess what... </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">OK… one more React piece :) I’ll admit it, I like SolidJS more than React. YES, I said it! But React is so widespread that you can’t just ignore it and move everything to SolidJS. I’d love to, but that’s simply not realistic. So I’ve kept React as my go-to for most serious or commercial projects, quietly hoping it would start picking up some of SolidJS’s best ideas. And now it is, with the newly announced React Compiler. But is it all good news? Let’s see what the author of this piece has to say!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://voidzero.dev/posts/whats-new-jul-2025?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> What’s New in ViteLand: July 2025 Recap </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Let’s stick to frontend-land and talk about Vite, one of my favorite frontend technologies of the last few years (and yes, I don’t miss Webpack). This piece rounds up the latest advancements in Vite and its growing ecosystem of tools. My favorite part? All the Rust-powered magic happening with Rolldown and Oxc that’s set to make builds much faster. But that’s just one highlight, so check it out if you want a glimpse of what Vite could look like in the years ahead!</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/14920457583ff6df9cc24a78e77b4f2ab4fb187f779a523cfcf43040ea54dfec.jpg" alt="The DevOps Handbook: How to Create World-Class Agility, Reliability, &#38; Security in Technology Organizations" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">The DevOps Handbook: How to Create World-Class Agility, Reliability, &amp; Security in Technology Organizations</h4> <p class="text-sm text-neutral-medium mb-2">by Gene Kim, Jez Humble, Patrick Debois, John Willis, and Nicole Forsgren</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">This award-winning and bestselling business handbook for digital transformation is now fully updated and expanded with the latest research and new case studies! “[The DevOps Handbook] remains a must-read for any organization seeking to scale up its IT capability and expand DevOps practices across multiple departments or lines of business.” ―Mike Perrow, TechBeacon For years, The DevOps Handbook has been the definitive guide for taking the successes laid out in the bestselling The Phoenix Project and applying them in any organization. Now, with this fully updated and expanded edition, it's time to take DevOps out of the IT department and apply it across the full business. Technology is now at the core of every company, no matter the business model or product. The theories and practices laid out in The DevOps Handbook are tools to be used by anyone from across the organization to create joy and succeed in the marketplace.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1950508404?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1950508404?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://evilmartians.com/chronicles/what-we-learned-from-creating-postcss?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">What we learned from creating PostCSS</a></li><li class="font-body text-sm"><a href="https://piccalil.li/blog/building-a-typed-fetch-in-typescript-with-conditional-types-and-infer?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Building a typed fetch in TypeScript with conditional types and infer</a></li><li class="font-body text-sm"><a href="https://uxdesign.cc/its-incredible-how-many-bad-user-experiences-are-still-out-there-in-2025-212b0e7e8d3c?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">It’s incredible how many bad user experiences are still out there in 2025</a></li><li class="font-body text-sm"><a href="https://thehistoryoftheweb.com/we-are-still-the-web?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">We Are Still the Web</a></li><li class="font-body text-sm"><a href="https://tkdodo.eu/blog/react-query-selectors-supercharged?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">React Query Selectors, Supercharged</a></li><li class="font-body text-sm"><a href="https://calendar.ilamy.io/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">ilamy Calendar: Interactive React Calendar Component</a></li><li class="font-body text-sm"><a href="https://css-tricks.com/thinking-deeply-about-theming-and-color-naming?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-433&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Thinking Deeply About Theming and Color Naming</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2025-08-04-412-what-evangelion-can-teach-us-about-ai" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2025-08-18-414-why-llms-can-t-really-build-software" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #416: Why One Developer Chose Remix Over Next.js | FullStack Bulletin</title><meta name="description" content="Hello, 
+This week, I want to shine a spotlight on a newsletter that’s earned a permanent spot in my inbox: [Web Weekly](https://webweekly.email/) by **Stefan Judis**. Stefan is one of those web devs who just oozes passion (seriously, peek at [his blog](https://www.stefanjudis.com/) and you’ll see what I mean), and his newsletter is a goldmine of hand-picked links, tips, and curiosities. Confession time: I’ve definitely “borrowed” a few links from Web Weekly for this very newsletter — it’s that good. If you think there’s no such thing as too many awesome web dev newsletters (same), then go check it out. You won’t regret it.
+
+In the meantime, I hope this week’s collection of hand-curated content helps you stay motivated, sharp, and maybe even a little inspired.
+
+Have fun — and happy full-stack coding!
+
+—Your editor, Luciano"><link rel="canonical" href="https://fullstackbulletin.com/archive/2025-03-31-397-why-one-developer-chose-remix-over-next-js/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2025-03-31-397-why-one-developer-chose-remix-over-next-js/"><meta property="og:title" content="Issue #416: Why One Developer Chose Remix Over Next.js | FullStack Bulletin"><meta property="og:description" content="Hello, 
+This week, I want to shine a spotlight on a newsletter that’s earned a permanent spot in my inbox: [Web Weekly](https://webweekly.email/) by **Stefan Judis**. Stefan is one of those web devs who just oozes passion (seriously, peek at [his blog](https://www.stefanjudis.com/) and you’ll see what I mean), and his newsletter is a goldmine of hand-picked links, tips, and curiosities. Confession time: I’ve definitely “borrowed” a few links from Web Weekly for this very newsletter — it’s that good. If you think there’s no such thing as too many awesome web dev newsletters (same), then go check it out. You won’t regret it.
+
+In the meantime, I hope this week’s collection of hand-curated content helps you stay motivated, sharp, and maybe even a little inspired.
+
+Have fun — and happy full-stack coding!
+
+—Your editor, Luciano"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #416: Why One Developer Chose Remix Over Next.js | FullStack Bulletin"><meta name="twitter:description" content="Hello, 
+This week, I want to shine a spotlight on a newsletter that’s earned a permanent spot in my inbox: [Web Weekly](https://webweekly.email/) by **Stefan Judis**. Stefan is one of those web devs who just oozes passion (seriously, peek at [his blog](https://www.stefanjudis.com/) and you’ll see what I mean), and his newsletter is a goldmine of hand-picked links, tips, and curiosities. Confession time: I’ve definitely “borrowed” a few links from Web Weekly for this very newsletter — it’s that good. If you think there’s no such thing as too many awesome web dev newsletters (same), then go check it out. You won’t regret it.
+
+In the meantime, I hope this week’s collection of hand-curated content helps you stay motivated, sharp, and maybe even a little inspired.
+
+Have fun — and happy full-stack coding!
+
+—Your editor, Luciano"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:March 31, 2025">
+Issue #416 &middot; March 31, 2025 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> Why One Developer Chose Remix Over Next.js </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;Standards are always out of date. That&#39;s what makes them standards“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Alan_Bennett?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Alan Bennett </a> <span>, Author</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello, 
+This week, I want to shine a spotlight on a newsletter that’s earned a permanent spot in my inbox: <a href="https://webweekly.email/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-416&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Web Weekly</a> by <strong>Stefan Judis</strong>. Stefan is one of those web devs who just oozes passion (seriously, peek at <a href="https://www.stefanjudis.com/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-416&utm_content=intro-link" target="_blank" rel="noopener noreferrer">his blog</a> and you’ll see what I mean), and his newsletter is a goldmine of hand-picked links, tips, and curiosities. Confession time: I’ve definitely “borrowed” a few links from Web Weekly for this very newsletter — it’s that good. If you think there’s no such thing as too many awesome web dev newsletters (same), then go check it out. You won’t regret it.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">In the meantime, I hope this week’s collection of hand-curated content helps you stay motivated, sharp, and maybe even a little inspired.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Have fun — and happy full-stack coding!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">—Your editor, Luciano</p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://epicweb.dev/why-i-wont-use-nextjs?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/cdb43a1ef0a7ea9d7d2d9dc8a2976d9f37305a99872ff4423ac1efa058e185e7.png" alt="Why One Developer Chose Remix Over Next.js" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://epicweb.dev/why-i-wont-use-nextjs?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Why One Developer Chose Remix Over Next.js </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">Lately, I’ve been hearing more and more devs share their frustrations with Next.js. And to be honest, I’ve had my own share of grudges too — which is why I’m always curious when someone lays out a thoughtful critique and suggests an alternative. This article by Kent C. Dodds isn’t exactly new (fun fact: the framework he recommends has since changed its name 😅), but revisiting it was a surprisingly relevant experience. Kent lays out 9 reasons why he moved away from Next.js — touching on everything from web fundamentals and DX tradeoffs to the platform lock-in that quietly shapes our stack decisions. He also brings in voices from across the community, making it feel more like a conversation than a hot take. And while he’s clearly opinionated, Kent closes with a refreshingly grounded reminder: <strong>“Whatever you use is probably fine!”</strong></p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://addyo.substack.com/p/mcp-what-it-is-and-why-it-matters?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> MCP: What It Is and Why It Matters </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">In his recent article, "MCP: What It Is and Why It Matters," Addy Osmani introduces the Model Context Protocol (MCP), a standard designed to facilitate seamless communication between AI assistants and various software tools. By providing a unified language, MCP enables AI systems to interact with multiple applications without the need for tool-specific integrations, thereby enhancing extensibility and interoperability. Osmani illustrates how MCP functions similarly to a GraphQL supergraph, connecting multiple endpoints under a unified API. This approach has the potential to significantly advance AI engineering practices by simplifying the integration process and fostering a more cohesive ecosystem.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://developer.chrome.com/blog/a-customizable-select?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The &lt;select&gt; element can now be customized with CSS </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">For years, customizing the native <code>&lt;select&gt;</code> element has been a thorn in the side of web developers. The lack of styling options forced many of us to reinvent the wheel, crafting custom dropdown components from scratch—often at the expense of accessibility and performance. But now, with the introduction of <code>appearance: base-select</code> in Chrome 135, there's a light at the end of the tunnel. This new CSS property unlocks a world of customization possibilities, allowing for rich content, consistent styling, and a more streamlined development process. It's exciting to think that in the near future, we might finally bid farewell to those cumbersome custom components and embrace a more standardized approach. For a deep dive into these new capabilities and how to implement them, check out this insightful article.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://blogs.windows.com/msedgedev/2025/03/19/minding-the-gaps-a-new-way-to-draw-separators-in-css?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> A new way to draw separators in CSS </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Here’s another CSS-related gem! Drawing separator lines between different sections of a webpage is such a common design need — yet doing it cleanly in modern layouts like Flexbox or Grid has always felt a bit hacky. This post from the Edge team dives into a new proposal that could change that: gap-based separators. Think of it like column-rule, but for rows and across more layout types. It’s still early days, but the direction looks super promising. If you’ve ever had to wrangle <code>::before</code> elements just to get a nice dividing line, this one’s worth a read.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://generativefonts.xyz/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> NaN Glyph Filters fonts </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I’m a huge font nerd and this collection instantly grabbed me. <strong>NaN Glyph Filters</strong> is a wild and wonderful set of procedurally generated display fonts, along with the actual codebase used to design them. Each typeface feels alive, experimental, and full of personality. I genuinely love how unique they are — and I’m already dreaming up ways to use them in a future design… maybe even in this very newsletter! If you’re into creative coding, generative design, or just love a good typeface, go explore this one. Oh yeah... did I tell you that these fonts are fully open-source?!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://socket.dev/blog/node-js-tsc-votes-to-stop-distributing-corepack?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Node.js will stop distributing Corepack </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">This one made me a bit sad. The Node.js TSC has voted to stop distributing Corepack by default — and as someone who’s been using it for the past year, I have to say: I really liked it! Corepack acts as a bridge between Node and package managers like Yarn and pnpm, letting you pin and automatically install the right version without asking users to do it manually. Super handy. That said, the decision makes sense. The post breaks down the reasoning clearly — from maintenance concerns to the broader conversation around what belongs in Node core. If you’ve relied on Corepack or are just curious what this means going forward, it’s a good one to catch up on.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://read.highgrowthengineer.com/p/unspoken-git-secrets?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Unspoken Git secrets </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Raise your hand if you consider yourself a Git master! …I definitely wouldn’t raise mine — especially after reading this post. This isn’t your usual “git basics” refresher. It’s packed with lesser-known commands, deep explanations of how Git actually works under the hood, and tips that’ll make you feel both smarter and slightly embarrassed you didn’t know them already. If Git still feels like a bit of a black box (or you just want to level up your mental model), this one’s a goldmine.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/ef2c5ae990ce035a13c2749dd507692c42cf9b0267033911320d028377b6e293.jpg" alt="Fundamentals of Software Architecture: An Engineering Approach" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Fundamentals of Software Architecture: An Engineering Approach</h4> <p class="text-sm text-neutral-medium mb-2">by Mark Richards, and Neal Ford</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">Salary surveys worldwide regularly place software architect in the top 10 best jobs, yet no real guide exists to help developers become architects. Until now. This book provides the first comprehensive overview of software architecture's many aspects. Aspiring and existing architects alike will examine architectural characteristics, architectural patterns, component determination, diagramming and presenting architecture, evolutionary architecture, and many other topics. Mark Richards and Neal Ford—hands-on practitioners who have taught software architecture classes professionally for years—focus on architecture principles that apply across all technology stacks. You'll explore software architecture in a modern light, taking into account all the innovations of the past decade.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1492043451?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1492043451?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://github.com/oxc-project?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">The JavaScript Oxidation Compiler</a></li><li class="font-body text-sm"><a href="https://tune-demo.fiddle.digital/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">String Tune</a></li><li class="font-body text-sm"><a href="https://eduardoboucas.com/posts/2025-03-25-you-should-know-this-before-choosing-nextjs?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">You should know this before choosing Next.js</a></li><li class="font-body text-sm"><a href="https://robinwieruch.de/next-authorization?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Authorization in Next.js</a></li><li class="font-body text-sm"><a href="https://gomakethings.com/design-systems-and-legos?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Design Systems and Legos</a></li><li class="font-body text-sm"><a href="https://fullystacked.net/dark-mode-svg?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-416&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Dark mode for SVG</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2025-03-24-396-io-devices-and-latency" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2025-04-07-398-is-it-time-to-write-e2e-tests-using-ai" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

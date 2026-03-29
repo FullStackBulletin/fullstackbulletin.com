@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #410: The Illustrated DeepSeek-R1 | FullStack Bulletin</title><meta name="description" content="Ciao, 
+Not much exciting personal news to share this week, it's been a pretty quiet one on my end. However, I definitely couldn't escape the Deepseek buzz this past week! Like many of you, I found myself drawn in, and as a result, I ended up diving into some interesting content related to it (which, of course, you'll see in this week's selection 😉).
+
+Honestly, the more I explore these advancements in AI, the more convinced I become that it's quickly becoming a fundamental tool for us as developers. This isn't just hype— it’s a genuine shift. So, I believe it's in our best interest to really deep dive into the core concepts, understanding both the strengths and limitations of AI so that we can leverage it most effectively in our day-to-day work.
+
+Ok, enough with my AI musings! Without further ado, let's jump into this week's handpicked content. As always, I've carefully selected a mix of articles, tutorials, and resources that I hope will keep you inspired, informed, and ready for whatever challenges or innovations this wonderful, but endless, full-stack journey throws our way.
+
+Your passionate editor,
+— [Luciano](https://loige.co/)"><link rel="canonical" href="https://fullstackbulletin.com/archive/2025-02-03-391-the-illustrated-deepseek-r1/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2025-02-03-391-the-illustrated-deepseek-r1/"><meta property="og:title" content="Issue #410: The Illustrated DeepSeek-R1 | FullStack Bulletin"><meta property="og:description" content="Ciao, 
+Not much exciting personal news to share this week, it's been a pretty quiet one on my end. However, I definitely couldn't escape the Deepseek buzz this past week! Like many of you, I found myself drawn in, and as a result, I ended up diving into some interesting content related to it (which, of course, you'll see in this week's selection 😉).
+
+Honestly, the more I explore these advancements in AI, the more convinced I become that it's quickly becoming a fundamental tool for us as developers. This isn't just hype— it’s a genuine shift. So, I believe it's in our best interest to really deep dive into the core concepts, understanding both the strengths and limitations of AI so that we can leverage it most effectively in our day-to-day work.
+
+Ok, enough with my AI musings! Without further ado, let's jump into this week's handpicked content. As always, I've carefully selected a mix of articles, tutorials, and resources that I hope will keep you inspired, informed, and ready for whatever challenges or innovations this wonderful, but endless, full-stack journey throws our way.
+
+Your passionate editor,
+— [Luciano](https://loige.co/)"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #410: The Illustrated DeepSeek-R1 | FullStack Bulletin"><meta name="twitter:description" content="Ciao, 
+Not much exciting personal news to share this week, it's been a pretty quiet one on my end. However, I definitely couldn't escape the Deepseek buzz this past week! Like many of you, I found myself drawn in, and as a result, I ended up diving into some interesting content related to it (which, of course, you'll see in this week's selection 😉).
+
+Honestly, the more I explore these advancements in AI, the more convinced I become that it's quickly becoming a fundamental tool for us as developers. This isn't just hype— it’s a genuine shift. So, I believe it's in our best interest to really deep dive into the core concepts, understanding both the strengths and limitations of AI so that we can leverage it most effectively in our day-to-day work.
+
+Ok, enough with my AI musings! Without further ado, let's jump into this week's handpicked content. As always, I've carefully selected a mix of articles, tutorials, and resources that I hope will keep you inspired, informed, and ready for whatever challenges or innovations this wonderful, but endless, full-stack journey throws our way.
+
+Your passionate editor,
+— [Luciano](https://loige.co/)"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:February 3, 2025">
+Issue #410 &middot; February 3, 2025 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> The Illustrated DeepSeek-R1 </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;Good programmers use their brains, but good guidelines save us having to think out every case“&rdquo;
+</p>  </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Ciao, 
+Not much exciting personal news to share this week, it's been a pretty quiet one on my end. However, I definitely couldn't escape the Deepseek buzz this past week! Like many of you, I found myself drawn in, and as a result, I ended up diving into some interesting content related to it (which, of course, you'll see in this week's selection 😉).</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Honestly, the more I explore these advancements in AI, the more convinced I become that it's quickly becoming a fundamental tool for us as developers. This isn't just hype— it’s a genuine shift. So, I believe it's in our best interest to really deep dive into the core concepts, understanding both the strengths and limitations of AI so that we can leverage it most effectively in our day-to-day work.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Ok, enough with my AI musings! Without further ado, let's jump into this week's handpicked content. As always, I've carefully selected a mix of articles, tutorials, and resources that I hope will keep you inspired, informed, and ready for whatever challenges or innovations this wonderful, but endless, full-stack journey throws our way.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Your passionate editor,
+— <a href="https://loige.co/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-410&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/218be0b76042233865864bed4827302a79178505a92fe0023faf884d1d69e0da.png" alt="The Illustrated DeepSeek-R1" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The Illustrated DeepSeek-R1 </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">Have you ever caught yourself wondering, 'How do those crazy-smart AI models actually think through complex problems?' This article gets into the nitty-gritty of <a href="https://www.deepseek.com/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-410&utm_content=description-link" target="_blank" rel="noopener noreferrer">DeepSeek-R1</a>, a new, super-powerful LLM that's causing a stir in the AI world. It breaks down how they trained this thing using techniques like supervised fine-tuning and reinforcement learning to get it crushing reasoning tasks. Now, I know this sounds like hardcore AI research, but hear me out – it's actually super valuable for us full-stack devs. Why did I pick this? Because I believe that AI is quickly becoming a fundamental part of our lives as developers. I know, I know, there's a lot of hype, and maybe you're feeling a little burnt out by it, but it's important to understand the basics, like how these models work. This knowledge will be key to using AI effectively, becoming more productive, and understanding where our industry is heading!</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://wasmgroundup.com/blog/wasm-compiler-in-a-tweet?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> A WebAssembly compiler that fits in a tweet </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Ever thought about how compilers actually work? This article takes you on a wild ride into the depths of WebAssembly, exploring a mind-bending concept: a complete compiler that fits into a single tweet! Seriously, the initial version was just 192 bytes. The author walks us through a step-by-step process of 'de-obfuscating' the code, which involves a ton of clever JavaScript tricks. It might sound a bit intimidating at first, but it's a fantastic exercise in understanding WebAssembly's low-level structure and how it all comes together. I chose this piece because it's a fun, unusual take on a fundamental topic. As full-stack developers, understanding these foundational technologies helps us build more optimized, performant apps. This article is also a great example of pushing the limits of what is possible.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://labs.iximiuz.com/tutorials/how-to-choose-nodejs-container-image?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Why my Node.js Docker image has Python!? </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Choosing the right Docker image for your Node.js app can feel complex, and this article is here to help. It provides a comprehensive guide to the many options available, from the 'official' images to distroless and everything in between. You'll learn why your default Node.js image might be surprisingly bloated with things you don't need (like Python!), the security implications of different image choices, and when to use which image for development, build, or production. This is not just a boring list of options: the author explains the pros and cons of each, providing clear guidelines, and challenging common (and often wrong!) assumptions about these images.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://2ality.com/2025/01/regexp-escape.html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> ECMAScript proposal: RegExp escaping </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Dealing with user-generated content in web applications? Then you've likely run into the headache of escaping strings for use in regular expressions. This article explores the details of the upcoming <code>RegExp.escape()</code> function, a new addition to JavaScript that will make this process much easier. The author dives into how the function works, explains various use cases, and goes over the many considerations needed for proper escaping within regular expressions, making it a fundamental tool for string manipulation.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://romaglushko.com/blog/whats-aouth2?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> What&#39;s OAuth2 Anyway? </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Have you ever wondered how <em>'Sign in with Google'</em> actually works? This article takes a deep dive into <strong>OAuth2</strong>, the protocol that powers most modern authorization flows. It goes way beyond the basic 'click the button' understanding, explaining the 'whys' behind its design and exploring the different authorization grants in detail, from the classic authorization code to device code and more. The article also tackles a wide range of important topics such as token handling, security measures, best practices and other relevant concepts related to this framework.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://thenewstack.io/solidjs-creator-on-confronting-web-framework-complexity?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Solid.js Creator on Web Framework Complexity </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">This article features <a href="https://dev.to/ryansolid?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-410&utm_content=description-link" target="_blank" rel="noopener noreferrer">Ryan Carniato</a>, the creator of Solid.js (a framework I'm a big fan of!), sharing his thoughts on the complexity we've created in our quest for simplicity. He delves into the divide between isomorphic SPAs and split-execution MPAs, discusses the role of compilers in dealing with this complexity, and even makes some interesting predictions about the future of frontend development. Ryan's insights are always spot-on, and this article is no exception, IMHO.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://labs.iximiuz.com/skill-paths/build-container-images?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Build Container Images Like a Pro </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">A hands-on, interactive tutorial designed to take you from the basics to building production-ready images. You'll practice creating images, choosing the right base, mastering multi-stage Dockerfiles, and troubleshooting common issues through a series of engaging challenges.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/7ce186d4ac0bb4d214e5374a34dde91a20e59b75b9385e72f0f48de2c7d34e3f.jpg" alt="Kafka: The Definitive Guide" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Kafka: The Definitive Guide</h4> <p class="text-sm text-neutral-medium mb-2">by Gwen Shapira, Todd Palino, Rajini Sivaram, and Krit Petty</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">Every enterprise application creates data, whether it consists of log messages, metrics, user activity, or outgoing messages. Moving all this data is just as important as the data itself. With this updated edition, application architects, developers, and production engineers new to the Kafka streaming platform will learn how to handle data in motion. Additional chapters cover Kafka's AdminClient API, transactions, new security features, and tooling changes.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1492043087?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1492043087?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://www.aihero.dev/vercel-ai-sdk-tutorial?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">(Free) Vercel AI SDK (Video) Tutorial</a></li><li class="font-body text-sm"><a href="https://lucumr.pocoo.org/2025/1/24/build-it-yourself?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Build It Yourself</a></li><li class="font-body text-sm"><a href="https://mattrighetti.com/2025/01/20/you-dont-need-sql-builders.html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">You Probably Don&#39;t Need Query Builders</a></li><li class="font-body text-sm"><a href="https://aihero.dev/what-are-evals?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">What Are Evals?</a></li><li class="font-body text-sm"><a href="https://philna.sh/blog/2025/01/14/troubles-with-multipart-form-data-fetch-node-js?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Troubles with multipart form data and fetch in Node.js</a></li><li class="font-body text-sm"><a href="https://humanwhocodes.com/blog/2025/01/introducing-mentoss-fetch-mocker?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Introducing Mentoss: The fetch mocker</a></li><li class="font-body text-sm"><a href="https://theburningmonk.com/2025/01/how-we-built-an-ai-code-reviewer-with-serverless-and-bedrock?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">How we built an AI code reviewer with serverless and Bedrock</a></li><li class="font-body text-sm"><a href="https://awsbites.com/139-building-great-apis-with-powertools/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-410&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Building Great APIs on Lambda with Powertools (podcast)</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2025-01-27-390-react-admin" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2025-02-10-392-expressive-code" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

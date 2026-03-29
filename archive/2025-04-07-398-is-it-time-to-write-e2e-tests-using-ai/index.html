@@ -1,0 +1,162 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #417: Is it time to write E2E tests using AI? | FullStack Bulletin</title><meta name="description" content="Hey folks! 👋
+
+This week’s selection is packed with exciting content—and yes, there’s a bit of a recurring theme: **AI** and how it’s shaping the way we work as full-stack web developers. Not too surprising, right? It’s definitely something we’ll all need to live with (and ideally, leverage). Personally, I find this kind of content fascinating, and I hope you do too. And don’t worry—AI won’t be taking our jobs anytime soon. Probably...
+
+On a personal note, last week I had the pleasure of attending **AWS Community Day Italy** in Milan, where I gave a talk on some advanced Serverless techniques for building secure and cost-efficient multi-tenant architectures. If that sounds up your alley, feel free to [check out the slides](https://fth.link/saas-it).
+
+Also, I’m excited to share that the **podcast** I recorded with **Solomon Eseme** on using Rust for Serverless is finally out! If you’re curious about that intersection, you can [watch it here](https://www.youtube.com/watch?v=Zqi-zRoTErI).
+
+Now, let’s dive into some full-stack goodness!
+
+Have a great week!
+
+Your editor,
+Luciano"><link rel="canonical" href="https://fullstackbulletin.com/archive/2025-04-07-398-is-it-time-to-write-e2e-tests-using-ai/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2025-04-07-398-is-it-time-to-write-e2e-tests-using-ai/"><meta property="og:title" content="Issue #417: Is it time to write E2E tests using AI? | FullStack Bulletin"><meta property="og:description" content="Hey folks! 👋
+
+This week’s selection is packed with exciting content—and yes, there’s a bit of a recurring theme: **AI** and how it’s shaping the way we work as full-stack web developers. Not too surprising, right? It’s definitely something we’ll all need to live with (and ideally, leverage). Personally, I find this kind of content fascinating, and I hope you do too. And don’t worry—AI won’t be taking our jobs anytime soon. Probably...
+
+On a personal note, last week I had the pleasure of attending **AWS Community Day Italy** in Milan, where I gave a talk on some advanced Serverless techniques for building secure and cost-efficient multi-tenant architectures. If that sounds up your alley, feel free to [check out the slides](https://fth.link/saas-it).
+
+Also, I’m excited to share that the **podcast** I recorded with **Solomon Eseme** on using Rust for Serverless is finally out! If you’re curious about that intersection, you can [watch it here](https://www.youtube.com/watch?v=Zqi-zRoTErI).
+
+Now, let’s dive into some full-stack goodness!
+
+Have a great week!
+
+Your editor,
+Luciano"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #417: Is it time to write E2E tests using AI? | FullStack Bulletin"><meta name="twitter:description" content="Hey folks! 👋
+
+This week’s selection is packed with exciting content—and yes, there’s a bit of a recurring theme: **AI** and how it’s shaping the way we work as full-stack web developers. Not too surprising, right? It’s definitely something we’ll all need to live with (and ideally, leverage). Personally, I find this kind of content fascinating, and I hope you do too. And don’t worry—AI won’t be taking our jobs anytime soon. Probably...
+
+On a personal note, last week I had the pleasure of attending **AWS Community Day Italy** in Milan, where I gave a talk on some advanced Serverless techniques for building secure and cost-efficient multi-tenant architectures. If that sounds up your alley, feel free to [check out the slides](https://fth.link/saas-it).
+
+Also, I’m excited to share that the **podcast** I recorded with **Solomon Eseme** on using Rust for Serverless is finally out! If you’re curious about that intersection, you can [watch it here](https://www.youtube.com/watch?v=Zqi-zRoTErI).
+
+Now, let’s dive into some full-stack goodness!
+
+Have a great week!
+
+Your editor,
+Luciano"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:April 7, 2025">
+Issue #417 &middot; April 7, 2025 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> Is it time to write E2E tests using AI? </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;To iterate is human, to recurse divine“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/L._Peter_Deutsch?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> L. Peter Deutsch </a> <span>, Software Developer</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hey folks! 👋</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">This week’s selection is packed with exciting content—and yes, there’s a bit of a recurring theme: <strong>AI</strong> and how it’s shaping the way we work as full-stack web developers. Not too surprising, right? It’s definitely something we’ll all need to live with (and ideally, leverage). Personally, I find this kind of content fascinating, and I hope you do too. And don’t worry—AI won’t be taking our jobs anytime soon. Probably...</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">On a personal note, last week I had the pleasure of attending <strong>AWS Community Day Italy</strong> in Milan, where I gave a talk on some advanced Serverless techniques for building secure and cost-efficient multi-tenant architectures. If that sounds up your alley, feel free to <a href="https://fth.link/saas-it?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-417&utm_content=intro-link" target="_blank" rel="noopener noreferrer">check out the slides</a>.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Also, I’m excited to share that the <strong>podcast</strong> I recorded with <strong>Solomon Eseme</strong> on using Rust for Serverless is finally out! If you’re curious about that intersection, you can <a href="https://www.youtube.com/watch?v=Zqi-zRoTErI&utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-417&utm_content=intro-link" target="_blank" rel="noopener noreferrer">watch it here</a>.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Now, let’s dive into some full-stack goodness!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Have a great week!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Your editor,
+Luciano</p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://github.com/microsoft/playwright-mcp?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/2d974bb5fc486114bc3487c008350bbf93bfb7ff2d01af10cfe21ae0fc60480a.png" alt="Is it time to let AI write our E2E tests?" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://github.com/microsoft/playwright-mcp?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Is it time to let AI write our E2E tests? </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">Imagine an AI that doesn’t just understand your UI, but can interact with it—click buttons, fill forms, and verify outcomes—all by reading structured accessibility data instead of staring at pixels. That’s what Microsoft’s new <strong>Playwright MCP</strong> is aiming for. By exposing a Model Context Protocol (MCP) server, it gives large language models the power to drive Playwright in a more semantic, accessible, and reliable way. And it’s not just for testing. This opens the door to a whole new class of automated workflows—think smart form fillers, assistants that navigate the web for you, or bots that perform repetitive UI tasks with context awareness. Of course, this isn’t going to remove the human from the loop (at least not anytime soon), but it might just take the edge off some of the boring bits of test automation. I’m definitely looking forward to giving this a spin the next time I have to write an E2E test that needs browser automation.</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://resend.com/blog/react-email-4?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> React Email 4.0 </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I’ve been using React Email in my latest work project, and honestly—it’s become my favorite way of crafting emails for web products. It gives you the flexibility of React, the power of components, and takes away a lot of the pain that usually comes with building HTML emails. It even automatically generates the plain text version for you, so you don’t have to worry about duplicating content or doing extra work for proper email client support. The new v4 release brings a bunch of solid improvements, especially around making sure your emails render reliably across the wild jungle of email clients and platforms. There’s a clear focus on polish and stability here, which makes it even easier to ship professional-looking emails without battling inconsistent styles and broken layouts. If you’re already building React apps, bringing that same mindset to email just feels... right.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://serce.me/posts/2025-31-03-there-is-no-vibe-engineering?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> There is no &quot;Vibe Engineering&quot; </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Coding and engineering are often used interchangeably—but they’re not the same thing. Not even close. This article is a timely reminder that while writing code is a key part of building software, engineering is something else entirely. It’s about understanding constraints, making trade-offs, designing systems that are maintainable, reliable, and scalable—and communicating all of that clearly within a team. That’s why AI, no matter how good it gets at generating code, isn’t doing real engineering work. Not yet, anyway. It doesn’t understand context, business needs, user goals, or the long-term impact of architectural decisions. Which is why blindly handing over the reins to AI isn’t a clever shortcut—it’s a recipe for disaster. Instead, this is our chance to double down on what we, as humans, bring to the table: judgment, empathy, experience. And yes, we can use AI as an assistant—just not as a replacement.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://julian.digital/2025/03/27/the-case-against-conversational-interfaces?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The case against conversational interfaces </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">As conversational interfaces become more common—even for coding—not every problem needs to be solved with a blinking cursor and a vaguely helpful AI. In this sharp take, the author argues that chat-based UIs are often a poor substitute for clear, reliable, well-designed UX. They can feel vague, unpredictable, and—ironically—less human when what users really want is clarity and control. This isn’t an anti-AI rant, but a call for thoughtful design. Before adding a chatbot, ask yourself: is it actually improving the experience—or just adding friction disguised as friendliness?</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://fancycomponents.dev/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Fancy React Components </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">If you’re tired of building UI components from scratch but still want your app to look polished and original, Fancy Components might become your new favorite playground. It’s a collection of beautifully crafted, copy-paste-ready pieces built with Tailwind CSS and Radix UI primitives—so they’re not just stylish, they’re also accessible and composable. Two of my favorite touches? The satisfying underline animations on hover and those snappy typing effects you often see in hero sections. Small details, big vibes.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://documenso.com/blog/why-we-moved-off-next-js?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Why (even) Documenso moved off Next.js </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Following on from last week’s featured article about switching from Next.js to React Router, here’s another thoughtful take—this time from the team at Documenso. They explain why they decided to leave Next.js behind, citing everything from dev experience quirks to framework complexity and performance trade-offs. Now, don’t get me wrong—I’m not anti-Next.js. I use it almost every day at work. But I do agree with many of these takes, and I’d really love to see Vercel take an honest look at these concerns. There’s a real opportunity here to make Next.js better for everyone—and at the same time, there are a few other frameworks that are perfectly capable of competing with it and definitely deserve a bit more spotlight (React Router, Astro, and TanStack being among my favourites).</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://thirty-five.com/overengineered-anchoring?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Overengineered anchor links </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Anchor links seem simple—click, scroll, done. But if you’ve ever implemented them, you might’ve hit the active anchor problem: headings near the bottom that can’t scroll into view properly. In this fun and slightly overengineered post, the author explores a range of solutions—from quick fixes to architecture-level madness. What really stands out, though, is the format: the blog pairs text on the right with synchronized animations on the left, making the whole experience incredibly interactive. Even if you’re not obsessed with anchor behavior, it’s worth a look just to get inspired by how effectively it teaches through motion.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/0e54f571e116ea50414cbe86c8dcda9117c58b39514b241661d11bc6f84da15b.jpg" alt="Fullstack Vue: The Complete Guide to Vue.js" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Fullstack Vue: The Complete Guide to Vue.js</h4> <p class="text-sm text-neutral-medium mb-2">by Hassan Djirdeh, Nate Murray, and Ari Lerner</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">Ready to Master Vue.js? What if you could master the entire framework - with solid foundations - in less time without beating your head against a wall? Imagine how quickly you could work if you knew the best practices and the best tools? Stop wasting your time searching and have everything you need to be productive in one, well-organized place, with complete examples to get your project up without needing to resort to endless hours of research.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1987595297?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1987595297?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://websvg.com/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Web SVG</a></li><li class="font-body text-sm"><a href="https://manuel.kiessling.net/2025/03/31/how-seasoned-developers-can-achieve-great-results-with-ai-coding-agents?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Senior Developer Skills in the AI Age: Leveraging Experience for Better Results</a></li><li class="font-body text-sm"><a href="https://alexop.dev/posts/what-is-local-first-web-development?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">What is Local-first Web Development?</a></li><li class="font-body text-sm"><a href="https://medium.com/ssense-tech/building-resilient-payment-systems-at-ssense-our-journey-towards-asynchronous-processing-56d46dc2b348?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Building Resilient Payment Systems</a></li><li class="font-body text-sm"><a href="https://metastable.org/five?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Five Things AI Will Not Change</a></li><li class="font-body text-sm"><a href="https://blog.logrocket.com/express-typescript-node?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">How to set up TypeScript with Node.js and Express</a></li><li class="font-body text-sm"><a href="https://www.platformatichq.com/reports/the-node-book?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">The (FREE) Node.js Book for Enterprise</a></li><li class="font-body text-sm"><a href="https://awsbites.com/142-escape-from-s3/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-417&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Moving data between S3-compatible storage (podcast)</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2025-03-31-397-why-one-developer-chose-remix-over-next-js" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2025-04-14-399-not-gonna-lie-anime-js-looks-seriously-cool" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

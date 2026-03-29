@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #345: System Design Primer: Design large-scale systems | FullStack Bulletin</title><meta name="description" content="Howdy, *|LIST:NAME|*
+... and welcome back for issue #345!
+
+Last week has been quite intense for me! We had the great pleasure of interviewing [Jeremy Daly about all things serverles](https://awsbites.com/102-getting-ampt-with-jeremy-daly/)s at AWS Bites, I have been working on a new open-source project implementing a [custom OIDC authorizer for API Gateway](https://github.com/lmammino/oidc-authorizer) (please give me a star on GitHub), and I even wrote a article about what I learned [debugging custom APIGateway authorizers](https://loige.co/debugging-custom-apigateway-authorizers/).
+
+This week I will have a lot of FOMO for missing the awesome NodeConfEU (probably the coolest Node.js conf in Europe), but let me console myself with some cool FullStack content, which, hopefully, you'll find interesting too!
+
+Without further ado, let's get into it!"><link rel="canonical" href="https://fullstackbulletin.com/archive/2023-11-06-330-system-design-primer-design-large-scale-systems/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2023-11-06-330-system-design-primer-design-large-scale-systems/"><meta property="og:title" content="Issue #345: System Design Primer: Design large-scale systems | FullStack Bulletin"><meta property="og:description" content="Howdy, *|LIST:NAME|*
+... and welcome back for issue #345!
+
+Last week has been quite intense for me! We had the great pleasure of interviewing [Jeremy Daly about all things serverles](https://awsbites.com/102-getting-ampt-with-jeremy-daly/)s at AWS Bites, I have been working on a new open-source project implementing a [custom OIDC authorizer for API Gateway](https://github.com/lmammino/oidc-authorizer) (please give me a star on GitHub), and I even wrote a article about what I learned [debugging custom APIGateway authorizers](https://loige.co/debugging-custom-apigateway-authorizers/).
+
+This week I will have a lot of FOMO for missing the awesome NodeConfEU (probably the coolest Node.js conf in Europe), but let me console myself with some cool FullStack content, which, hopefully, you'll find interesting too!
+
+Without further ado, let's get into it!"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #345: System Design Primer: Design large-scale systems | FullStack Bulletin"><meta name="twitter:description" content="Howdy, *|LIST:NAME|*
+... and welcome back for issue #345!
+
+Last week has been quite intense for me! We had the great pleasure of interviewing [Jeremy Daly about all things serverles](https://awsbites.com/102-getting-ampt-with-jeremy-daly/)s at AWS Bites, I have been working on a new open-source project implementing a [custom OIDC authorizer for API Gateway](https://github.com/lmammino/oidc-authorizer) (please give me a star on GitHub), and I even wrote a article about what I learned [debugging custom APIGateway authorizers](https://loige.co/debugging-custom-apigateway-authorizers/).
+
+This week I will have a lot of FOMO for missing the awesome NodeConfEU (probably the coolest Node.js conf in Europe), but let me console myself with some cool FullStack content, which, hopefully, you'll find interesting too!
+
+Without further ado, let's get into it!"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:November 6, 2023">
+Issue #345 &middot; November 6, 2023 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> System Design Primer: Design large-scale systems </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;Beware of bugs in the above code; I have only proved it correct, not tried it“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Donald_Knuth?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Donald Knuth </a> <span>, Computer Scientist</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Howdy, <em>|LIST:NAME|</em>
+... and welcome back for issue #345!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Last week has been quite intense for me! We had the great pleasure of interviewing <a href="https://awsbites.com/102-getting-ampt-with-jeremy-daly/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-345&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Jeremy Daly about all things serverles</a>s at AWS Bites, I have been working on a new open-source project implementing a <a href="https://github.com/lmammino/oidc-authorizer?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-345&utm_content=intro-link" target="_blank" rel="noopener noreferrer">custom OIDC authorizer for API Gateway</a> (please give me a star on GitHub), and I even wrote a article about what I learned <a href="https://loige.co/debugging-custom-apigateway-authorizers/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-345&utm_content=intro-link" target="_blank" rel="noopener noreferrer">debugging custom APIGateway authorizers</a>.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">This week I will have a lot of FOMO for missing the awesome NodeConfEU (probably the coolest Node.js conf in Europe), but let me console myself with some cool FullStack content, which, hopefully, you'll find interesting too!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Without further ado, let's get into it!</p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://github.com/donnemartin/system-design-primer?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/be06ba6bf624ebb61104abe3793fd4afefff6384d8bdd134969005bdb35b57df.png" alt="System Design Primer: Design large-scale systems" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://github.com/donnemartin/system-design-primer?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> System Design Primer: Design large-scale systems </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">A fantastic GitHub repository that collects a huge amount of resources that can teach you how to design large-scale systems. This is something that can be extremely useful if you are looking for your next step in your FullStack career and you want to move to more architecture-oriented roles, or simply if you want to give more breadth to your engineering views and learn what it takes to build scalable systems.</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://dev.to/codebeast/can-nextjs-handle-5000-pages-1ejn?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Can Next.js Handle 5000 Pages? </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">If you are a fan of Next.js you might enjoy this tutorial showing you how you can build a Next.js website with 5000 different pages and how to host that on AWS. In the process, you will also learn whether Next.js can scale to these numbers and why... I am not going to give you any spoilers, you'll have to go and read the article to find out 😛</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://wasmer.io/posts/announcing-winterjs-service-workers?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Announcing WinterJS </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Who needs another JavaScript runtime? NOBODY! Oh wait, this one promises compatibility with the <a href="https://wintercg.org/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-345&utm_content=description-link" target="_blank" rel="noopener noreferrer">WinterCG</a> specification, and it can be compiled into WebAssembly... so it's actually quite interesting! And I didn't even say that it uses SpiderMonkey and that it is written in Rust! OK, go check it out and see what you can build with it...</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://github.com/bufferhead-code/nextjs-use-php?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Use PHP code right within your React App. With &quot;use php&quot; </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Have you ever wanted to use PHP code right into your React components? NO! WHY NOT?! Come on! Okay, this is a bit of a prank project, but the crazy thing is that it actually works. Not kidding, you can really use PHP in your React components thanks to React server components' black magic! If you think this is crazy, you haven't seen the implementation for <a href="https://github.com/elnardu/react-use-c?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-345&utm_content=description-link" target="_blank" rel="noopener noreferrer">C</a> and <a href="https://github.com/elnardu/react-use-rust?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-345&utm_content=description-link" target="_blank" rel="noopener noreferrer">Rust</a> yet ...</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://yarnpkg.com/blog/release/4.0?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Release: Yarn 4.0 </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">After more than a year of work the Yarn team releases a stable version of the 4.x release line! This version comes with some interesting features. Perhaps the most interesting is the <a href="https://yarnpkg.com/features/constraints?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-345&utm_content=description-link" target="_blank" rel="noopener noreferrer">constraint engine</a> (written in a JavaScript Prolog!) which lets you define arbitrary rules for your workspaces. For instance, you could say that all projects in the workspace need to use the same version of a specific dependency. But that's not the only reason why you should consider upgrading if you use Yarn... Another good reason is that v4 is significantly faster than the previous versions...</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://zackoverflow.dev/writing/flappy-bird-in-type-level-typescript?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Flappy Bird Implemented in Typescript types </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">TypeScript annotations are known to be quite powerful. In fact, they are a Turing-complete language, which means that you can technically build anything you want with them (it's not necessarily easy, but you still can!)... Now this brings people to do all sorts of crazy experiments, like building a fully-fledged Flappy Bird game just with TypeScript types... Before reading this article you couldn't even fathom how this would be possible, but now I can and maybe that's going to be useful to me, one day...</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://webauthn.wtf/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> WebAuthn.wtf </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">WebAuthn (short for Web Authentication) is an API specification that enables applications to use strong and secure authentication methods for user registration and login. It provides a way for end users to authenticate themselves using hardware- or software-based authenticators, such as USB security keys or secure hardware elements integrated with a laptop or mobile device, instead of relying solely on passwords. This is probably going to be the future of authentication on the web, and this website does a great job at teaching you everything you need to know about the standard and how you can integrate it today into your apps.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/dc82d3e22d7d2516883c5adc587d3a8817d011c764cda892712040ff1b3ea3e1.jpg" alt="You Don't Know JS: ES6 &#38; Beyond" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">You Don&#39;t Know JS: ES6 &amp; Beyond</h4> <p class="text-sm text-neutral-medium mb-2">by Kyle Simpson</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">As part of the "You Don’t Know JS" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built. Learn new ES6 syntax that eases the pain points of common programming idioms. Organize code with iterators, generators, modules, and classes. Express async flow control with Promises combined with generators. Use collections to work more efficiently with data in structured waysLeverage new API helpers, including Array, Object, Math, Number, and String. Extend your program’s capabilities through meta programming.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1491904240/?tag=fullstackbulletin-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1491904240/?tag=fullstackbulletin-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://sindresorhus.com/blog/goodbye-nodejs-buffer?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Goodbye, Node.js Buffer</a></li><li class="font-body text-sm"><a href="https://blog.izs.me/2023/09/software-testing-assertion-styles?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Test Assertion Styles in JavaScript</a></li><li class="font-body text-sm"><a href="https://openjsf.org/blog/2023/10/05/wikimedia-case-study?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">How the Wikimedia Foundation Balances Security and Open Information in Web Development</a></li><li class="font-body text-sm"><a href="https://marvinh.dev/blog/speeding-up-javascript-ecosystem-part-8?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Speeding up the JavaScript ecosystem - Tailwind CSS</a></li><li class="font-body text-sm"><a href="https://raymondcamden.com/2023/10/31/building-a-generic-rss-parser-service-with-cloudflare-workers?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Building a Generic RSS Parser Service with Cloudflare Workers</a></li><li class="font-body text-sm"><a href="https://zachleat.com/web/browser-window?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">browser-window Web Component</a></li><li class="font-body text-sm"><a href="https://jvns.ca/blog/2023/11/01/confusing-git-terminology?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Confusing git terminology</a></li><li class="font-body text-sm"><a href="https://awsbites.com/102-getting-ampt-with-jeremy-daly/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Getting Ampt with Jeremy Daly</a></li><li class="font-body text-sm"><a href="https://loige.co/debugging-custom-apigateway-authorizers?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Debugging custom ApiGateway authorizers</a></li><li class="font-body text-sm"><a href="https://www.alexdebrie.com/posts/lambda-custom-authorizers/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-345&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">The Complete Guide to Custom Authorizers with AWS Lambda and API Gateway</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2023-10-30-329-let-s-develop-a-qr-code-generator" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2023-11-13-331-10-insights-on-real-world-container-use" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

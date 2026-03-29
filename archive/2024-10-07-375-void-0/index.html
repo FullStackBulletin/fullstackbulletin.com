@@ -1,0 +1,140 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #393: void(0) | FullStack Bulletin</title><meta name="description" content="Hello, 
+
+Welcome to this issue of our newsletter! I have some exciting topics lined up for you, starting with the announcement of VoidZero Inc., founded by Evan You, the creator of Vue and Vite. We’ll also explore developer happiness with insights from GitHub, practical strategies for reducing Docker image size, and how to incorporate the golden ratio into your CSS designs. Additionally, we’ll dive into TypeScript’s unknown type, the importance of TCP’s three-way handshake, and a fun QRCode library called QRFrame.
+
+As always, we aim to inspire you to keep learning and exploring new concepts in full-stack development. So I hope you'll enjoy this curated selection for this week! Happy coding!
+
+— Your editor, [Luciano](https://loige.co/)"><link rel="canonical" href="https://fullstackbulletin.com/archive/2024-10-07-375-void-0/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2024-10-07-375-void-0/"><meta property="og:title" content="Issue #393: void(0) | FullStack Bulletin"><meta property="og:description" content="Hello, 
+
+Welcome to this issue of our newsletter! I have some exciting topics lined up for you, starting with the announcement of VoidZero Inc., founded by Evan You, the creator of Vue and Vite. We’ll also explore developer happiness with insights from GitHub, practical strategies for reducing Docker image size, and how to incorporate the golden ratio into your CSS designs. Additionally, we’ll dive into TypeScript’s unknown type, the importance of TCP’s three-way handshake, and a fun QRCode library called QRFrame.
+
+As always, we aim to inspire you to keep learning and exploring new concepts in full-stack development. So I hope you'll enjoy this curated selection for this week! Happy coding!
+
+— Your editor, [Luciano](https://loige.co/)"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #393: void(0) | FullStack Bulletin"><meta name="twitter:description" content="Hello, 
+
+Welcome to this issue of our newsletter! I have some exciting topics lined up for you, starting with the announcement of VoidZero Inc., founded by Evan You, the creator of Vue and Vite. We’ll also explore developer happiness with insights from GitHub, practical strategies for reducing Docker image size, and how to incorporate the golden ratio into your CSS designs. Additionally, we’ll dive into TypeScript’s unknown type, the importance of TCP’s three-way handshake, and a fun QRCode library called QRFrame.
+
+As always, we aim to inspire you to keep learning and exploring new concepts in full-stack development. So I hope you'll enjoy this curated selection for this week! Happy coding!
+
+— Your editor, [Luciano](https://loige.co/)"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:October 7, 2024">
+Issue #393 &middot; October 7, 2024 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> void(0) </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;Technology made large populations possible; large populations now make technology indispensable“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Joseph_Krutch?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Joseph Krutch </a> <span>, Author</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello, </p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Welcome to this issue of our newsletter! I have some exciting topics lined up for you, starting with the announcement of VoidZero Inc., founded by Evan You, the creator of Vue and Vite. We’ll also explore developer happiness with insights from GitHub, practical strategies for reducing Docker image size, and how to incorporate the golden ratio into your CSS designs. Additionally, we’ll dive into TypeScript’s unknown type, the importance of TCP’s three-way handshake, and a fun QRCode library called QRFrame.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">As always, we aim to inspire you to keep learning and exploring new concepts in full-stack development. So I hope you'll enjoy this curated selection for this week! Happy coding!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">— Your editor, <a href="https://loige.co/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-393&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://voidzero.dev/posts/announcing-voidzero-inc?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/f07b6a4c23eab975fb1eab6d425e3bb0d1d1b31b60abf17561d4502951bf6ddc.jpg" alt="Announcing void(0)" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://voidzero.dev/posts/announcing-voidzero-inc?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Announcing void(0) </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">Last week, I bumped into this announcement from VoidZero Inc., and full stack developers should be excited. Founded by <strong>Evan You</strong>, the creator of Vue and Vite, this new venture promises scalable, developer-friendly tools like <strong>Rolldown</strong>, a powerful JavaScript bundler, and <strong>Oxc</strong>, a versatile linter, formatter, and more. Fun fact: most of these tools are written in Rust! 🦀 If you're looking for cutting-edge solutions that evolve with you, VoidZero Inc. is definitely one to watch.</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://github.blog/engineering/engineering-principles/the-ultimate-guide-to-developer-happiness?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The ultimate guide to developer happiness </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">This guide from GitHub breaks down the engineering principles that lead to happier, more productive developers, covering everything from better tooling to team culture. Packed with practical advice and actionable tips, it’s perfect for full stack developers and engineering leaders looking to create an environment where developers thrive and build better software.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://dev.to/prodevopsguytech/how-to-reduce-docker-image-size-best-practices-and-tips-for-devops-engineers-1ahg?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> How to Reduce Docker Image Size </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">In this article, you'll learn practical strategies for minimizing image size, such as leveraging multi-stage builds, using smaller base images, and cleaning up unnecessary files. The article also highlights common pitfalls to avoid, making it easier to maintain efficient and performant Docker containers. If you're managing containerized applications, these actionable tips will help streamline your Docker process.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://dev.to/madsstoumann/the-golden-ratio-in-css-53d0?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The Golden Ratio in CSS </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">This post will teach you about incorporating the golden ratio into your CSS design, and I found it super insightful! It dives into how this timeless principle can elevate your web projects by creating beautiful, balanced proportions. You'll pick up practical tips on applying the golden ratio to layout, spacing, and typography, which can really help enhance the overall user experience. If you’re looking to up your front-end game, this guide is worth checking out! Also, did you know that the golden ratio is based on the Fibonacci sequence? 🤯</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://mariusschulz.com/blog/the-unknown-type-in-typescript?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The unknown Type in TypeScript </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I bumped into this well-written article on the <code>unknown</code> type in TypeScript while researching the topic, and I found it really complete. Although it’s not super recent, it dives deep into what the <code>unknown</code> type is, how it differs from any and never, and when to use it effectively. I also love that it incorporates the <code>Result</code> type a-la-Rust, which is something we mentioned in a previous newsletter! The explanations are clear, making it easy to grasp the nuances of this type. If you’re looking to deepen your understanding of TypeScript, this piece is definitely worth your time!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://pixelstech.net/article/1727412048-Why-TCP-needs-3-handshakes?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Why TCP needs 3 handshakes </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I came across this article on why TCP needs three handshakes, and it's a great read for anyone working on the web—no need to be a network nerd! After all, everything we do online goes over TCP, so it's essential to understand the technology we build upon. The article explains the three-way handshake process in an accessible way, making it easier to grasp how it establishes a reliable connection.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://github.com/zhengkyl/qrframe?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> qrframe: code-based qr code generator </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I stumbled upon this GitHub repository for a library called QRFrame, and I couldn't help but feel excited—especially since I have a bit of a fixation with QRCodes (if you've been following this newsletter for a while, you might have picked that up). This library provides a simple way to create customizable QR code frames, making it easy to enhance your QR code designs. If you're looking to add a creative touch to your QR codes or simply to programmatically generate many cool QRCodes, definitely check it out!</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/b5cf0046d51c250e66dbc458a337359201ce1bb52dd6391d606480d69e623211.jpg" alt="Zero To Production In Rust: An introduction to backend development" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Zero To Production In Rust: An introduction to backend development</h4> <p class="text-sm text-neutral-medium mb-2">by Luca Palmieri</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">Zero To Production is the ideal starting point for your journey as a Rust backend developer. You will learn by doing: you will build a fully functional email newsletter API, starting from scratch. You'll learn how to:</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/B0BHLDMFDQ?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/B0BHLDMFDQ?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://github.com/better-auth/better-auth?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">better-auth: The most comprehensive authentication library for TypeScript</a></li><li class="font-body text-sm"><a href="https://dev.to/ryansolid/web-components-are-not-the-future-48bh?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Web Components Are Not the Future</a></li><li class="font-body text-sm"><a href="https://gomakethings.com/the-handleevent-method-is-the-absolute-best-way-to-handle-events-in-web-components?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">The handleEvent() method is the absolute best way to handle events in Web Components</a></li><li class="font-body text-sm"><a href="https://piccalil.li/blog/a-guide-to-destructuring-in-javascript?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">A guide to destructuring in JavaScript</a></li><li class="font-body text-sm"><a href="https://htmx.org/essays/why-gumroad-didnt-choose-htmx?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Why Gumroad Didn&#39;t Choose htmx</a></li><li class="font-body text-sm"><a href="https://x.com/shadcn/status/1842329158879420864?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">10 Tailwind techniques (Shadcn&#39;s thread on X)</a></li><li class="font-body text-sm"><a href="https://awsbites.com/132-github-action-runners-on-aws/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-393&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">GitHub Action Runners on AWS (AWS Bites Podcast)</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2024-09-30-374-how-discord-stores-trillions-of-messages" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2024-10-14-376-how-to-make-product-give-a-about-your-architecture-proposal" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

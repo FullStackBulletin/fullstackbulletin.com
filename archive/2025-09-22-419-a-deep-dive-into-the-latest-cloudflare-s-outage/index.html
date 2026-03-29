@@ -1,0 +1,150 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #439: A deep dive into the latest Cloudflare’s outage | FullStack Bulletin</title><meta name="description" content="Ciao,
+
+This week reminded me how easy it is for small bugs to scale into massive problems, and how the tiniest bit of clever engineering can completely flip your perspective.
+
+From Cloudflare's real-world `useEffect` drama, to Bun’s relentless pursuit of speed, to the question of whether S3 is about to eat vector databases for breakfast... this issue is packed with sharp lessons, curious experiments, and more than one “huh, that’s actually brilliant” moment.
+
+Also, a confession: I spent way too long nerding out over UTF-8 and queue delivery semantics. You’ve been warned.
+
+Happy reading and coding!
+
+— [Luciano](https://loige.co/)"><link rel="canonical" href="https://fullstackbulletin.com/archive/2025-09-22-419-a-deep-dive-into-the-latest-cloudflare-s-outage/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2025-09-22-419-a-deep-dive-into-the-latest-cloudflare-s-outage/"><meta property="og:title" content="Issue #439: A deep dive into the latest Cloudflare’s outage | FullStack Bulletin"><meta property="og:description" content="Ciao,
+
+This week reminded me how easy it is for small bugs to scale into massive problems, and how the tiniest bit of clever engineering can completely flip your perspective.
+
+From Cloudflare's real-world `useEffect` drama, to Bun’s relentless pursuit of speed, to the question of whether S3 is about to eat vector databases for breakfast... this issue is packed with sharp lessons, curious experiments, and more than one “huh, that’s actually brilliant” moment.
+
+Also, a confession: I spent way too long nerding out over UTF-8 and queue delivery semantics. You’ve been warned.
+
+Happy reading and coding!
+
+— [Luciano](https://loige.co/)"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #439: A deep dive into the latest Cloudflare’s outage | FullStack Bulletin"><meta name="twitter:description" content="Ciao,
+
+This week reminded me how easy it is for small bugs to scale into massive problems, and how the tiniest bit of clever engineering can completely flip your perspective.
+
+From Cloudflare's real-world `useEffect` drama, to Bun’s relentless pursuit of speed, to the question of whether S3 is about to eat vector databases for breakfast... this issue is packed with sharp lessons, curious experiments, and more than one “huh, that’s actually brilliant” moment.
+
+Also, a confession: I spent way too long nerding out over UTF-8 and queue delivery semantics. You’ve been warned.
+
+Happy reading and coding!
+
+— [Luciano](https://loige.co/)"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:September 22, 2025">
+Issue #439 &middot; September 22, 2025 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> A deep dive into the latest Cloudflare’s outage </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;The use of COBOL cripples the mind; its teaching should therefore be regarded as a criminal offense&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/E._W._Dijkstra?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> E.W. Dijkstra </a> <span>, Computer Scientist</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Ciao,</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">This week reminded me how easy it is for small bugs to scale into massive problems, and how the tiniest bit of clever engineering can completely flip your perspective.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">From Cloudflare's real-world <code>useEffect</code> drama, to Bun’s relentless pursuit of speed, to the question of whether S3 is about to eat vector databases for breakfast... this issue is packed with sharp lessons, curious experiments, and more than one “huh, that’s actually brilliant” moment.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Also, a confession: I spent way too long nerding out over UTF-8 and queue delivery semantics. You’ve been warned.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Happy reading and coding!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">— <a href="https://loige.co/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-439&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://blog.cloudflare.com/deep-dive-into-cloudflares-sept-12-dashboard-and-api-outage?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/4bd3c21a876966f35bf94bb905e948a65bbc5cbc617d08d48b3c31e549d5d041.jpg" alt="A deep dive into the latest Cloudflare’s outage" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://blog.cloudflare.com/deep-dive-into-cloudflares-sept-12-dashboard-and-api-outage?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> A deep dive into the latest Cloudflare’s outage </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">React’s <code>useEffect</code> hook is well known for causing developers all sorts of headaches. It’s a useful and powerful API, but also easy to misuse. It hooks into the lifecycle of a React component and is often used to load data from a remote source when that component is mounted in the DOM. One of the confusing parts about <code>useEffect</code> is the dependency array. This array tells React when to re-run the effect. If you want the effect to <em>never</em> re-run, you MUST pass an <strong>empty</strong> array. But what if you leave it out entirely? Well, here’s the kicker: the effect will re-run <strong>on every single render</strong>. If your effect is fetching data from an API, this means you're potentially generating tons of unnecessary requests! Now imagine this mistake happening on a heavily used dashboard. Suddenly, you’ve unintentionally turned your well-meaning users into a distributed denial-of-service army! That’s exactly what happened to Cloudflare. A small frontend mistake, compounded at scale, created a serious production outage. Fair play to Cloudflare for fixing it fast and sharing the full story so openly. If you enjoy learning from real-world postmortems as much as I do, this one is well worth a read.</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://bun.com/blog/behind-the-scenes-of-bun-install?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Behind The Scenes of Bun Install </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Have you ever used different JavaScript package managers (npm, pnpm, yarn, bun) and noticed how some of them feel way faster than others, even when running on the exact same big project? That’s not a fluke. Some of them are consistently faster. Installing a complex graph of dependencies is no trivial task, and there are a lot of different ways to tackle it. Some are... fine. Others are blazing fast. And that’s exactly what the team at Bun is aiming for. In this deep technical dive, they break down the secret sauce behind bun install and how it’s become one of the fastest installers on the landscape. We’re talking low-level optimizations, parallelism, smart compression, even skipping the tar step entirely. It’s geeky in the best way. If you love detailed engineering breakdowns and want to understand what makes dev tools really fast, this one’s a treat.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://github.com/sindresorhus/trash?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Move files and directories to the trash </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">A quick mention for a lovely little JavaScript library I stumbled across last week: <code>trash</code>. It lets you move files to the system trash. Sounds simple enough that you wouldn’t need a library for it, right? Well... not quite. Turns out the trash bin is very OS-dependent, and if your app needs to work across macOS, Windows, and Linux, this library saves you from dealing with all the subtle differences. Clean API, cross-platform, and does exactly what it says. Take a peek at the code if you're curious how file deletion <em>should</em> be done properly. <a href="https://github.com/sindresorhus/trash?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-439&utm_content=description-link" target="_blank" rel="noopener noreferrer"><strong>Check Repo</strong></a></p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://lyra.horse/blog/2025/08/you-dont-need-js?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> You no longer need JavaScript </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Before you think I’ve turned against my beloved JavaScript... let me explain. This article isn’t calling for a total JS ban. It’s more of a thoughtful reflection on how much modern CSS can handle on its own. Things that used to need custom JavaScript are now possible with native CSS features. And that’s a win in my book. The more you can push into declarative styling, the better. JavaScript should be reserved for actual business logic, interactivity, and anything that truly needs code behind it. Everything else? CSS has it covered. A solid reminder that writing less JavaScript doesn't mean building less.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://iamvishnu.com/posts/utf8-is-brilliant-design?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> UTF-8 is a Brilliant Design </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Another one for the information nerds! And if you’ve been reading this newsletter for a while, you know I’m a sucker for anything that dives into emoji encoding and other text-related oddities. Well, here’s a great post that breaks down the brilliance behind UTF-8, the most common text encoding in use today. It explains why its design is so clever and why it’s still holding up decades later. If you’ve ever wondered why a single emoji might count as "2" or "7" characters (depending on who you ask... looking at you, JavaScript), this article clears things up. Also super useful if you’ve ever streamed Unicode text and ended up with the occasional garbled character. Chances are, you split a multi-byte character right down the middle! Fascinating stuff, and a great read if you enjoy peeking under the hood of how text actually works.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://dbos.dev/blog/durable-queues?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> How I solved a distributed queue problem after 15 years </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">If you ever needed a queue system to process background tasks (sending emails, generating reports, scaling images, etc), you’ve probably used an external service like Kafka, RabbitMQ, or a SaaS like SQS. Well, you can also host your own queues if you’re brave enough! This article explores how to build durable, crash-safe queues directly on top of a database transaction log. No external broker, no extra services, just smart engineering layered on top of Postgres. It also does a great job explaining why queueing systems are not as simple as they seem. You’ll learn about different delivery guarantees (like at-most-once, at-least-once, and exactly-once), why they matter, and what it takes to get them right. While I think I’ll still prefer using SQS for the foreseeable future, this read felt like a love letter to simplicity, reliability, and the kind of backend architecture that quietly does the job right.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://zilliz.com/blog/will-amazon-s3-vectors-kill-vector-databases-or-save-them?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Will Amazon S3 Vectors Kill Vector Databases—or Save Them? </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Last week I was working on a blog and adding a “related articles” feature. I had this moment: <em>Blimey, that’s a perfect use case for vector databases!</em> Then I remembered <a href="https://awsfundamentals.com/blog/building-related-posts-with-bedrock-knowledgebase-and-s3-vectors?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-439&utm_content=description-link" target="_blank" rel="noopener noreferrer">an article</a> I’d read recently showing exactly that—using AWS S3’s new vector indexing features to power related content. Super clever stuff. So when I came across this new post, it had my full attention. The author digs into a big question: will S3’s built-in vector storage and indexing kill the rising market of vector databases... or actually boost it? If you’ve been following the whole vector DB hype and wondering where it’s headed, this is a thoughtful take that’s absolutely worth a read.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/6b5ab82690c0fa63fdb4caae4cdb292135e7df49400c1359a2d67d56a100a1d1.jpg" alt="Accelerate: The Science of Lean Software and DevOps" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Accelerate: The Science of Lean Software and DevOps</h4> <p class="text-sm text-neutral-medium mb-2">by Nicole Forsgren  PhD, Jez Humble, and Gene Kim</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">How can we apply technology to drive real business value?</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1942788339?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a>  </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://reactsquad.io/blog/how-to-set-up-express-5-in-2025?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">How To Set Up Express 5 For Production In 2025</a></li><li class="font-body text-sm"><a href="https://allan.reyes.sh/posts/keeping-secrets-out-of-logs?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Keeping Secrets Out of Logs</a></li><li class="font-body text-sm"><a href="https://cekrem.github.io/posts/the-discipline-of-constraints-elm-usereducer-lessons?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">The Discipline of Constraints: What Elm Taught Me About React&#39;s useReducer</a></li><li class="font-body text-sm"><a href="https://playfulprogramming.com/posts/seo-nextjs-guide?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Quick SEO Guidelines for Your Next.js App</a></li><li class="font-body text-sm"><a href="https://zachleat.com/web/stable-scrollbar-gutters?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">A tiny bit-o-CSS for Stable Scrollbar Gutters</a></li><li class="font-body text-sm"><a href="https://jakearchibald.com/2025/fetch-streams-not-for-progress?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Fetch streams are great, but not for measuring upload/download progress</a></li><li class="font-body text-sm"><a href="https://awsbites.com/149-headless-cms-on-aws?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-439&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Strapi: Headless CMS on AWS (AWS Bites Podcast)</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2025-09-15-418-interactive-animations-that-actually-feel-fun-to-build" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2025-09-29-420-node-js-design-patterns-4th-edition-is-out" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

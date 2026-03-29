@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #369: Coding Interview University | FullStack Bulletin</title><meta name="description" content="Hello, 
+Are you ready for issue #369? We're diving into **coding mastery**, **UI magic**, and **design innovation**. Ever wondered about **perfect spacing in web design**? We've got the scoop. Plus, a **CSS-only gecko game** and **backend tips** await. And don't miss a **minimalist web stack**!
+
+Let's level up together!
+
+BTW, I am attending the AWS Summit in London this week! So if you are there, reach out to me! I'd love to have a face to face chat in front of a coffee!
+
+- Your editor, [Luciano](https://twitter.com/loige)"><link rel="canonical" href="https://fullstackbulletin.com/archive/2024-04-22-352-coding-interview-university/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2024-04-22-352-coding-interview-university/"><meta property="og:title" content="Issue #369: Coding Interview University | FullStack Bulletin"><meta property="og:description" content="Hello, 
+Are you ready for issue #369? We're diving into **coding mastery**, **UI magic**, and **design innovation**. Ever wondered about **perfect spacing in web design**? We've got the scoop. Plus, a **CSS-only gecko game** and **backend tips** await. And don't miss a **minimalist web stack**!
+
+Let's level up together!
+
+BTW, I am attending the AWS Summit in London this week! So if you are there, reach out to me! I'd love to have a face to face chat in front of a coffee!
+
+- Your editor, [Luciano](https://twitter.com/loige)"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #369: Coding Interview University | FullStack Bulletin"><meta name="twitter:description" content="Hello, 
+Are you ready for issue #369? We're diving into **coding mastery**, **UI magic**, and **design innovation**. Ever wondered about **perfect spacing in web design**? We've got the scoop. Plus, a **CSS-only gecko game** and **backend tips** await. And don't miss a **minimalist web stack**!
+
+Let's level up together!
+
+BTW, I am attending the AWS Summit in London this week! So if you are there, reach out to me! I'd love to have a face to face chat in front of a coffee!
+
+- Your editor, [Luciano](https://twitter.com/loige)"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:April 22, 2024">
+Issue #369 &middot; April 22, 2024 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> Coding Interview University </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;Technology like art is a soaring exercise of the human imagination“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Daniel_Bell?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Daniel Bell </a> <span>, Author</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello, 
+Are you ready for issue #369? We're diving into <strong>coding mastery</strong>, <strong>UI magic</strong>, and <strong>design innovation</strong>. Ever wondered about <strong>perfect spacing in web design</strong>? We've got the scoop. Plus, a <strong>CSS-only gecko game</strong> and <strong>backend tips</strong> await. And don't miss a <strong>minimalist web stack</strong>!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Let's level up together!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">BTW, I am attending the AWS Summit in London this week! So if you are there, reach out to me! I'd love to have a face to face chat in front of a coffee!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">- Your editor, <a href="https://twitter.com/loige?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-369&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://github.com/jwasham/coding-interview-university?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/17d6bcc3f389664406cbe1699bb45398b7b1cfe6b5c0adfe0b485db848fd3f18.png" alt="Coding Interview University" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://github.com/jwasham/coding-interview-university?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Coding Interview University </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">A complete (FREE and open-source) computer science study plan to become a software engineer... or simply to pass your next coding interview. This one is especially awesome if you are thinking of applying to a big tech company like one of the FAANGs or simply if you feel like you want to harden your computer science skills! If you manage to complete this one, you'll probably be like Neo in The Matrix and learn to slow time and dodge all kinds of bullets! 😇</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://component.gallery/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The Component Gallery </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">The Component Gallery is a collection of components from the best Design Systems available on the web. It provides some useful information about best practices for various kinds of common components (Popover, Rating, Accordion, Quote, Pagination, Tabs, Button, etc). In addition to that every component has an impressive amount of links attached to back up some of the suggestions and provide additional inspiration from real-world use cases. A fantastic resource if you want to get better at designing and developing UIs or if you are working on a design system. <a href="https://component.gallery/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-369&utm_content=description-link" target="_blank" rel="noopener noreferrer"><strong>Check out the website</strong></a></p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://vercel.com/blog/design-engineering-at-vercel?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Design Engineering at Vercel: What we do and how we do it </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Vercel is one of those companies that is pushing the boundaries of the web. Not just from a web development perspective, but also from a design perspective. Some of their animations or effects are simply astonishing and inspirational. This article from Vercel explores how they think about design. So one more resource to love if you are trying to skill up with your frontend/design game!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://youtube.com/watch?v=9ElrcTtAxzA&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The Secret Science of Perfect Spacing </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Last week, I bumped into this interesting YouTube video that discusses the topic of web design from the perspective of spacing. It might seem like a trivial topic, but understanding how to design pleasing spacing, padding and margins between your elements can make a huge difference in how users will enjoy your web products. Worth a watch if you have 10 minutes to spare!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://dev.to/warkentien2/curious-geckos-the-most-precise-css-only-position-aware-mini-game-16i2?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> 🦎 Curious Geckos: The Most Precise CSS-only Position-Aware Mini-Game! </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">A CSS-only, no JS, no checkbox, position-aware (hover/touch aware) interactive gecko-luring game! A mind-blowing example of how CSS has evolved and what kind of capabilities it provides. Another proof that you don't always need JavaScript to build interactive experiences on the web. Check it out, it's quite fun to see!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://blog.appsignal.com/2024/04/03/how-to-implement-rate-limiting-in-express-for-nodejs.html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> How to Implement Rate Limiting in Express for Node.js </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">WOk, let's get into a more backendy topic! Have you ever tried to implement a rate-limiting mechanism on your Node.js-based backend? This is something you should consider if you are building a public-facing product and you want to make sure no one is going to try to DDoS your service (either intentionally or not).</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://logsnag.com/blog/the-tiny-stack?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The Tiny Stack (Astro, SQLite, Litestream) </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">In the world of software there is always a struggle between simplicity and feature richness. It's hard to find the right tradeoffs and we always see ways of new simple approaches that eventually will become highly adopted and then get bloated. In this article, a new interesting web development stack is introduced. This is a stack that aims to be simple, robust, and minimal, and its focused on building web applications with Astro, SQLite, and Litestream.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/7d1c002ac1bba732d68fc10e0d71c3f53d8da0459cfbf9fa9dade3403a1c3529.jpg" alt="Node.js Design Patterns - Third edition: Design and implement production-grade Node.js applications using proven patterns and techniques" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Node.js Design Patterns - Third edition: Design and implement production-grade Node.js applications using proven patterns and techniques</h4> <p class="text-sm text-neutral-medium mb-2">by Mario Casciaro, and Luciano Mammino</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">Learn proven patterns, techniques, and tricks to take full advantage of the Node.js platform. Master well-known design principles to create applications that are readable, extensible, and that can grow big. What you will learn</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1839214112?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1839214112?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://read.highgrowthengineer.com/p/exactly-what-to-say-in-code-reviews?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Exactly what to say in code reviews</a></li><li class="font-body text-sm"><a href="https://astro.build/blog/node-test-migration?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Migrating 500+ tests from Mocha to Node.js</a></li><li class="font-body text-sm"><a href="https://frontendmasters.com/blog/node-js-debugging-in-chrome-devtools?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Node.js Debugging in Chrome DevTools</a></li><li class="font-body text-sm"><a href="https://kizu.dev/layered-toggles?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Layered Toggles: Optional CSS Mixins</a></li><li class="font-body text-sm"><a href="https://joshwcomeau.com/react/folding-the-dom?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Folding the DOM</a></li><li class="font-body text-sm"><a href="https://dolthub.com/blog/2024-04-08-storybook-react-components?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Setting Up Storybook for React Components</a></li><li class="font-body text-sm"><a href="https://frontendmasters.com/blog/drawing-a-line-to-connect-elements-with-css-anchor-positioning?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Drawing a Line to Connect Elements with CSS Anchor Positioning</a></li><li class="font-body text-sm"><a href="https://awsbites.com/121-5-ways-to-extend-cloudformation/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-369&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">5 Ways to extend AWS CloudFormation (podcast)</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2024-04-15-351-oh-my-git" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2024-04-29-353-the-shape-of-ai" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

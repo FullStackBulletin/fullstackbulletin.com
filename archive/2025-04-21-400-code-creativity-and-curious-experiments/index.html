@@ -1,0 +1,162 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #419: Code, Creativity, and Curious Experiments | FullStack Bulletin</title><meta name="description" content="Hey folks 👋
+
+This week’s edition is a weird one... in the best possible way, of course!
+
+We’ve got a mix of deep technical content (think: building your own analytics engine or coding an AI agent from scratch), alongside some visually striking, graphics-heavy inspiration, like dreamy WebGL gradients and clever CSS scroll effects that’ll make your layouts pop.
+
+I hope you enjoy the ride!
+
+But hey, if you feel like taking a breather from code, I’ve got something a little different for you too. It’s a short novel I recently stumbled across — strange, unique, and unexpectedly philosophical. *[A conversation between a flip-flopped philosopher and a sarcastic machine](https://write.as/nullbeam/conversations-between-a-flip-flopped-philosopher-and-a-sarcastic-machine)*. It’s funny, thoughtful, and might even make you question the meaning of life… or at least why you put your pants on every day in these weird times that we are living in.
+
+Enjoy this week’s picks — and as always, feel free to reply with any feedback, suggestions, or cool links worth sharing. Also, let me know if you liked (or didn’t like) the short story — so I’ll know whether to dig up more of these next time!
+
+Your editor,
+— [Luciano](https://loige.co/)"><link rel="canonical" href="https://fullstackbulletin.com/archive/2025-04-21-400-code-creativity-and-curious-experiments/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2025-04-21-400-code-creativity-and-curious-experiments/"><meta property="og:title" content="Issue #419: Code, Creativity, and Curious Experiments | FullStack Bulletin"><meta property="og:description" content="Hey folks 👋
+
+This week’s edition is a weird one... in the best possible way, of course!
+
+We’ve got a mix of deep technical content (think: building your own analytics engine or coding an AI agent from scratch), alongside some visually striking, graphics-heavy inspiration, like dreamy WebGL gradients and clever CSS scroll effects that’ll make your layouts pop.
+
+I hope you enjoy the ride!
+
+But hey, if you feel like taking a breather from code, I’ve got something a little different for you too. It’s a short novel I recently stumbled across — strange, unique, and unexpectedly philosophical. *[A conversation between a flip-flopped philosopher and a sarcastic machine](https://write.as/nullbeam/conversations-between-a-flip-flopped-philosopher-and-a-sarcastic-machine)*. It’s funny, thoughtful, and might even make you question the meaning of life… or at least why you put your pants on every day in these weird times that we are living in.
+
+Enjoy this week’s picks — and as always, feel free to reply with any feedback, suggestions, or cool links worth sharing. Also, let me know if you liked (or didn’t like) the short story — so I’ll know whether to dig up more of these next time!
+
+Your editor,
+— [Luciano](https://loige.co/)"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #419: Code, Creativity, and Curious Experiments | FullStack Bulletin"><meta name="twitter:description" content="Hey folks 👋
+
+This week’s edition is a weird one... in the best possible way, of course!
+
+We’ve got a mix of deep technical content (think: building your own analytics engine or coding an AI agent from scratch), alongside some visually striking, graphics-heavy inspiration, like dreamy WebGL gradients and clever CSS scroll effects that’ll make your layouts pop.
+
+I hope you enjoy the ride!
+
+But hey, if you feel like taking a breather from code, I’ve got something a little different for you too. It’s a short novel I recently stumbled across — strange, unique, and unexpectedly philosophical. *[A conversation between a flip-flopped philosopher and a sarcastic machine](https://write.as/nullbeam/conversations-between-a-flip-flopped-philosopher-and-a-sarcastic-machine)*. It’s funny, thoughtful, and might even make you question the meaning of life… or at least why you put your pants on every day in these weird times that we are living in.
+
+Enjoy this week’s picks — and as always, feel free to reply with any feedback, suggestions, or cool links worth sharing. Also, let me know if you liked (or didn’t like) the short story — so I’ll know whether to dig up more of these next time!
+
+Your editor,
+— [Luciano](https://loige.co/)"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:April 21, 2025">
+Issue #419 &middot; April 21, 2025 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> Code, Creativity, and Curious Experiments </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Andrew S. Tanenbaum </a> <span>, Computer Scientist</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hey folks 👋</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">This week’s edition is a weird one... in the best possible way, of course!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">We’ve got a mix of deep technical content (think: building your own analytics engine or coding an AI agent from scratch), alongside some visually striking, graphics-heavy inspiration, like dreamy WebGL gradients and clever CSS scroll effects that’ll make your layouts pop.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">I hope you enjoy the ride!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">But hey, if you feel like taking a breather from code, I’ve got something a little different for you too. It’s a short novel I recently stumbled across — strange, unique, and unexpectedly philosophical. <em><a href="https://write.as/nullbeam/conversations-between-a-flip-flopped-philosopher-and-a-sarcastic-machine?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-419&utm_content=intro-link" target="_blank" rel="noopener noreferrer">A conversation between a flip-flopped philosopher and a sarcastic machine</a></em>. It’s funny, thoughtful, and might even make you question the meaning of life… or at least why you put your pants on every day in these weird times that we are living in.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Enjoy this week’s picks — and as always, feel free to reply with any feedback, suggestions, or cool links worth sharing. Also, let me know if you liked (or didn’t like) the short story — so I’ll know whether to dig up more of these next time!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Your editor,
+— <a href="https://loige.co/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-419&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://orjpap.github.io/valtown/http/analytics/blog/jekyll/2025/04/15/blog-analytics.html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/93f5fcf4095cb92485e27fc303d6890667e7f52d3e42d1ea02002f6ac5b9ae53.png" alt="Roll your own blog analytics in 130 lines of code" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://orjpap.github.io/valtown/http/analytics/blog/jekyll/2025/04/15/blog-analytics.html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Roll your own blog analytics in 130 lines of code </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">This week's top pick is a brilliant example of DIY ingenuity. Why rely on Google Analytics or Plausible when you can craft a lightweight, privacy-friendly analytics solution yourself? In just under 130 lines of JavaScript, <a href="https://www.linkedin.com/in/orestis-papadopoulos-38612b358/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-419&utm_content=description-link" target="_blank" rel="noopener noreferrer">Orestis Papadopoulos</a> shows how to set up a serverless analytics system using <a href="https://www.val.town/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-419&utm_content=description-link" target="_blank" rel="noopener noreferrer">Val town</a> (a collaborative code editor for writing and hosting serverless APIs). OK, maybe you don’t care too much about building your analytics, but I’m personally tinkering with using Val Town to add some engaging interactive stuff to my own website… it feels like a simpler and possibly a more fun alternative to AWS Lambda!</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://alexharri.com/blog/webgl-gradients?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> A flowing WebGL gradient, deconstructed </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">We need more articles like this one. WebGL has been on my “want to learn” list for a while, but finding approachable, well-explained content is… tough. That’s why I was so impressed with this piece! It dives into creating smooth, interactive gradients using WebGL and GLSL, and it’s packed with beautifully crafted interactive widgets that make each step easy to follow. What makes this especially cool is that once you start to master WebGL, you unlock endless possibilities to bring virtually any kind of visual or graphic effect to your websites — no limits, just creativity and shaders. BTW, if you like this topic, another cool resource we featured before is <a href="https://webgl2fundamentals.org/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-419&utm_content=description-link" target="_blank" rel="noopener noreferrer">WebGL Fundamentals</a>.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://endler.dev/2025/best-programmers?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The Best Programmers I Know </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Have you ever wondered what it takes to get better at the art of software engineering? What if you want to become one of the very best? In this thoughtful post, the author reflects on the traits that truly set great developers apart — things like mastering your tools, simplifying problems, reading docs like a pro, and staying endlessly curious. It is not about genius-level breakthroughs, but consistency, clarity, and care. This really resonated with me because it is very much in line with the mission of this very newsletter, where we try to curate content that keeps you curious and informed.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://ampcode.com/how-to-build-an-agent?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> How To Build An Agent </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">If you are not sick of AI and agents yet, and are actually intrigued by the idea of building one yourself, here is a solid pick. This post walks you through creating a code-editing terminal agent powered by Claude, in under 400 lines of Go. It reads, writes, and modifies files, and it is all orchestrated through a surprisingly simple feedback loop. Sure, this might feel like it lives outside the usual full-stack web dev space, but the truth is, AI is quickly becoming part of every field in software engineering. A few years from now, having a solid grasp of how these systems work might not just be a bonus… it might be expected.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://overreacted.io/jsx-over-the-wire?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> What if we sent JSX over the wire? </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">In his latest post, Mr. React himself (Dan Abramov) explores what it might look like to send JSX over the network and treat it as a real data format (i.e. an alternative to JSON!), not just a compile-time convenience. It is thought-provoking, a bit wild, and full of those classic Dan moments that make you question how the web even works. I have to admit — I am not fully convinced this is a good idea… but then again, I felt the same way the first time I saw JSX. And well, I ended up using it every day. So who knows? Maybe this is one of those ideas that just needs to grow on you.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://largeapps.dev/case-studies/advanced?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Advanced React in the Wild </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">If you are thirsting for more React content… here is a biggie! This case study dives deep into advanced patterns for scaling React in large applications — think context boundaries, co-location, smart versus dumb components, and more. I have been working myself on a Next.js project over the last 6 months that is starting to grow bigger and will soon need to power five different websites… so I am pretty sure I will be using some of these learnings very soon!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://codepen.io/HejChristian/full/YPzLbYX?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Holographic masks experiment </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">We saved the best for last! This is another one’s for those of you who are constantly hunting for unique, creative touches that make a website feel truly special... especially in an age where everything is starting to look a bit too Vercel or shadcn-flavored! This CodePen experiment recreates a stunning scroll-based holographic effect using CSS masks and <code>background-attachment: fixed</code>. Scroll through it, be amazed, and don’t forget to click the button to peek under the hood and see how the effect is built. There’s even a link to the <a href="https://robbowen.digital/wrote-about/css-blend-mode-shaders/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-419&utm_content=description-link" target="_blank" rel="noopener noreferrer">original article</a> that inspired it, in case you want to dive deeper!</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/806c9e86ca8151e590b609e28c816dae7e97eef441efaf81e0a4d1415f0a0b19.jpg" alt="Building Micro-Frontends: Scaling Teams and Projects, Empowering Developers" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Building Micro-Frontends: Scaling Teams and Projects, Empowering Developers</h4> <p class="text-sm text-neutral-medium mb-2">by Luca Mezzalira</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">What's the answer to today's increasingly complex web applications? Micro-frontends. Inspired by the microservices model, this approach lets you break interfaces into separate features managed by different teams of developers. With this practical guide, Luca Mezzalira shows software architects, tech leads, and software developers how to build and deliver artifacts atomically rather than use a big bang deployment. You'll learn how micro-frontends enable your team to choose any library or framework. This gives your organization technical flexibility and allows you to hire and retain a broad spectrum of talent. Micro-frontends also support distributed or colocated teams more efficiently. Pick up this book and learn how to get started with this technological breakthrough right away.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1492082996?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1492082996?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://andrews.substack.com/p/hako?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Hako (yet another JavaScript runtime...)</a></li><li class="font-body text-sm"><a href="https://2ality.com/2025/04/deploying-typescript-present-future.html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Deploying TypeScript: recent advances and possible future directions</a></li><li class="font-body text-sm"><a href="https://permit.io/blog/state-of-authorization-2025?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">The State of Authorization in 2025</a></li><li class="font-body text-sm"><a href="https://allthingssmitty.com/2025/04/10/mastering-default-values-in-javascript-with-the-nullish-coalescing-operator?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Mastering default values in JavaScript with the nullish coalescing (??) operator</a></li><li class="font-body text-sm"><a href="https://tempertemper.net/blog/skip-links-what-why-and-how?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Skip links: what, why, and how</a></li><li class="font-body text-sm"><a href="https://tigerbeetle.com/blog/2023-07-11-we-put-a-distributed-database-in-the-browser?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">We Put a Distributed Database In the Browser – And Made a Game of It!</a></li><li class="font-body text-sm"><a href="https://piccalil.li/links/css-custom-properties-vs-sass-variables-a-pragmatic-guide?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-419&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">CSS Custom Properties vs. Sass Variables: A Pragmatic Guide</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2025-04-14-399-not-gonna-lie-anime-js-looks-seriously-cool" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2025-04-28-401-let-s-go-with-the-item-flow-rethinking-web-layouts" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

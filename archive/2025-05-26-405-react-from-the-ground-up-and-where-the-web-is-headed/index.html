@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #423: React, from the Ground Up and Where the Web Is Headed | FullStack Bulletin</title><meta name="description" content="Hello, 
+Today’s issue is, in many ways, about the future of the web. Yes, it’s been on my mind quite a bit lately. From deep dives into the fundamentals of React, to Mozilla’s latest push to protect browser competition, to fresh updates from Google I/O that aren’t (only) about AI, this week’s collection feels like it forms a narrative of its own: from the early days of the web to what’s coming next. It’s a reminder that the web is still evolving in meaningful ways, and that we, as developers, have a role in shaping where it goes. So don’t be afraid to form your own opinions and get involved in whatever way makes sense to you. Your voice matters.
+
+You’ll also find a few picks that lean more into the practical side of things: keeping React apps secure, using React components to build actual hardware (yes, really), and seeing React Server Components take shape outside of Next.js. There’s plenty to chew on, like a juicy, crunchy pizza slice. Sorry, I had a great one yesterday and it’s still living rent-free in my brain.
+
+As always, thanks for reading and for being part of this curious, thoughtful corner of the web. It's great to have you here! And feel free to reply to this email to just say hello, I am always happy to connect more directly with each and every one of you!
+
+Happy reading and coding,
+— Luciano"><link rel="canonical" href="https://fullstackbulletin.com/archive/2025-05-26-405-react-from-the-ground-up-and-where-the-web-is-headed/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2025-05-26-405-react-from-the-ground-up-and-where-the-web-is-headed/"><meta property="og:title" content="Issue #423: React, from the Ground Up and Where the Web Is Headed | FullStack Bulletin"><meta property="og:description" content="Hello, 
+Today’s issue is, in many ways, about the future of the web. Yes, it’s been on my mind quite a bit lately. From deep dives into the fundamentals of React, to Mozilla’s latest push to protect browser competition, to fresh updates from Google I/O that aren’t (only) about AI, this week’s collection feels like it forms a narrative of its own: from the early days of the web to what’s coming next. It’s a reminder that the web is still evolving in meaningful ways, and that we, as developers, have a role in shaping where it goes. So don’t be afraid to form your own opinions and get involved in whatever way makes sense to you. Your voice matters.
+
+You’ll also find a few picks that lean more into the practical side of things: keeping React apps secure, using React components to build actual hardware (yes, really), and seeing React Server Components take shape outside of Next.js. There’s plenty to chew on, like a juicy, crunchy pizza slice. Sorry, I had a great one yesterday and it’s still living rent-free in my brain.
+
+As always, thanks for reading and for being part of this curious, thoughtful corner of the web. It's great to have you here! And feel free to reply to this email to just say hello, I am always happy to connect more directly with each and every one of you!
+
+Happy reading and coding,
+— Luciano"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #423: React, from the Ground Up and Where the Web Is Headed | FullStack Bulletin"><meta name="twitter:description" content="Hello, 
+Today’s issue is, in many ways, about the future of the web. Yes, it’s been on my mind quite a bit lately. From deep dives into the fundamentals of React, to Mozilla’s latest push to protect browser competition, to fresh updates from Google I/O that aren’t (only) about AI, this week’s collection feels like it forms a narrative of its own: from the early days of the web to what’s coming next. It’s a reminder that the web is still evolving in meaningful ways, and that we, as developers, have a role in shaping where it goes. So don’t be afraid to form your own opinions and get involved in whatever way makes sense to you. Your voice matters.
+
+You’ll also find a few picks that lean more into the practical side of things: keeping React apps secure, using React components to build actual hardware (yes, really), and seeing React Server Components take shape outside of Next.js. There’s plenty to chew on, like a juicy, crunchy pizza slice. Sorry, I had a great one yesterday and it’s still living rent-free in my brain.
+
+As always, thanks for reading and for being part of this curious, thoughtful corner of the web. It's great to have you here! And feel free to reply to this email to just say hello, I am always happy to connect more directly with each and every one of you!
+
+Happy reading and coding,
+— Luciano"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:May 26, 2025">
+Issue #423 &middot; May 26, 2025 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> React, from the Ground Up and Where the Web Is Headed </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;Never trust a computer you can&#39;t throw out a window“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Steve_Wozniak?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Steve Wozniak </a> <span>, Entrepreneur</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello, 
+Today’s issue is, in many ways, about the future of the web. Yes, it’s been on my mind quite a bit lately. From deep dives into the fundamentals of React, to Mozilla’s latest push to protect browser competition, to fresh updates from Google I/O that aren’t (only) about AI, this week’s collection feels like it forms a narrative of its own: from the early days of the web to what’s coming next. It’s a reminder that the web is still evolving in meaningful ways, and that we, as developers, have a role in shaping where it goes. So don’t be afraid to form your own opinions and get involved in whatever way makes sense to you. Your voice matters.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">You’ll also find a few picks that lean more into the practical side of things: keeping React apps secure, using React components to build actual hardware (yes, really), and seeing React Server Components take shape outside of Next.js. There’s plenty to chew on, like a juicy, crunchy pizza slice. Sorry, I had a great one yesterday and it’s still living rent-free in my brain.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">As always, thanks for reading and for being part of this curious, thoughtful corner of the web. It's great to have you here! And feel free to reply to this email to just say hello, I am always happy to connect more directly with each and every one of you!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Happy reading and coding,
+— Luciano</p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://react.gg/visualized?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/bbb96385cc769e5b7be7383fad2bbee4992d009366faf6f6b0a37de7768b7552.jpg" alt="React, from the ground up" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://react.gg/visualized?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> React, from the ground up </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">I’ve been building for the web for almost 20 years. In that time, I’ve seen frameworks come and go, paradigms rise and fall. But through all the noise, one thing has stayed constant: the fundamentals. How browsers render pages, how the DOM works, how events flow through the system. These are the roots. That’s why <strong>React Visualized</strong> immediately stood out to me. It doesn’t just teach React. It starts with where the web began and walks forward from there, showing how React builds on the core ideas that have been around for decades. The visual approach makes the concepts click, but it’s the framing that makes it powerful. React isn’t magic. It’s a smart abstraction over what browsers have always done. This resource helps you see that clearly.</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://tscircuit.com/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> You can design Electronics with React Components </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I’ve never been big on electronics. I dabbled now and then, but it always felt like a foreign world. One I wasn’t really part of. That might be why <strong>TSCircuit</strong> caught my attention. It brings electronics into the realm of React, which suddenly made the whole thing feel less alien. With this free, open-source tool, you can design circuits using actual React components. You build schematics, generate PCB layouts, and even prep for manufacturing, all inside a setup that feels oddly familiar if you come from the web world. If you’ve been curious about electronics but never quite found the right doorway in, this might be the perfect excuse to take the first step.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://css-tricks.com/html-email-accessibility-report-2025?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Are HTML Emails Accessible in 2025? </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">If you’ve ever felt like HTML emails live in their own frustrating little world, the 2025 accessibility report from the Email Markup Consortium will feel very familiar. Released just after Global Accessibility Awareness Day, the study looked at over 443,000 real-world emails. <strong>Only 21 passed all automated accessibility checks!</strong> ... and all of those came from the same author! Isn't this crazy and worrying? The most common issues were things like missing language and direction attributes, poor contrast, unhelpful link text, and alt text that technically exists but doesn’t add meaningful context. It’s the third year with nearly identical results, reflecting the same stagnation seen in WebAIM’s broader accessibility findings. This article is an opinionated summary, so if you want to know all the details, check out the <a href="https://emailmarkup.org/en/reports/accessibility/2025/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-423&utm_content=description-link" target="_blank" rel="noopener noreferrer">full report</a> goes which goes deeper, especially into which email clients support which accessibility features.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://remix.run/blog/rsc-preview?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> React Router RSC Preview </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I’ve been deep in React lately, especially trying to wrap my head around the client and server boundary. So if I sound like a broken record, bear with me. This one is genuinely exciting. React Router (previously Remix) just released preview support for React Server Components. You can load RSCs through existing loaders and actions, or try out new server-first routes. It also supports <code>"use client"</code> and <code>"use server"</code>, along with middleware for batching and caching. It’s still early and running on Parcel for now, since Vite doesn’t support RSC yet. But it’s a promising step toward something a lot of us have been hoping for: more concrete alternatives to Next.js for running React on the server.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://snyk.io/blog/best-practices-react-typescript-security?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Security practices for React + TypeScript </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I’ve been using <strong>DomPurify</strong> recently to sanitize markdown content coming from a CMS, so security has been on my mind. That’s why I appreciated this article. It’s a solid reminder of the kinds of issues that can slip through the cracks when working with React and TypeScript. It covers things like the risks of using <code>any</code>, how prop validation can affect safety, and why escaping content properly is essential to avoid <strong>XSS</strong>. There’s also mention of SSR and safe handling of data between client and server. Nothing too advanced here, but it reinforces a simple point. Security should not be an afterthought. It should be part of how we build, how we think, and how we work every day.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://web.dev/blog/whats-new-in-web-io2025?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Google I/O 2025 was not just about AI! </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Google I/O was packed with wild announcements this year, most of them orbiting around AI in one form or another. But in the middle of all that noise, I wanted to call out this update that focuses squarely on the web platform itself. The latest roundup from the Chrome team covers improvements in performance tooling, new CSS features, progress on baseline compatibility, and updates to WebAssembly and WebGPU. It’s a solid look at where the web is headed, beyond just AI hype.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://blog.mozilla.org/en/mozilla/internet-policy/amicus_brief?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The future of the web depends on getting this right </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">And speaking of the future of the web, as the U.S. vs. Google search antitrust case wraps up, Mozilla is urging the court not to adopt remedies that could accidentally harm browser competition. One proposal would ban Google from sharing search revenue with independent browsers like Firefox. Mozilla argues this would cripple their ability to fund development of Firefox and the Gecko engine, the only real alternative to Apple and Google’s browser stacks (yes, commendable alternatives such as <a href="https://ladybird.org/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-423&utm_content=description-link" target="_blank" rel="noopener noreferrer">Ladybird</a> exist, but it will take quite a few years before they are ready for prime time). It would hurt innovation and user choice, while doing almost nothing to shift Google’s market share. Supporting search competition is important, but not at the cost of wiping out browser diversity.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/481058b0c8479a8d0fca54fd719223f5cc41a2226b5d2a66266f059bf67d0107.jpg" alt="Grokking Web Application Security" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Grokking Web Application Security</h4> <p class="text-sm text-neutral-medium mb-2">by Malcolm McDonald</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">When you launch an application on the web, every hacker in the world has access to it. Are you sure your web apps can stand up to the most sophisticated attacks? Grokking Web Application Security is a brilliantly illustrated and clearly written guide that delivers detailed coverage on:</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1633438260?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1633438260?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://bryn.codes/writing/the-joy-in-alt-text/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Finding the Joy in Alt Text</a></li><li class="font-body text-sm"><a href="https://webreflection.medium.com/surviving-the-structured-clone-algorithm-130608b69f47?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Surviving the Structured Clone algorithm</a></li><li class="font-body text-sm"><a href="https://react-chrono.prabhumurthy.com/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">React Chrono</a></li><li class="font-body text-sm"><a href="https://eslint.org/blog/2025/05/eslint-html-plugin?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">ESLint can now lint HTML using the html-eslint language plugin</a></li><li class="font-body text-sm"><a href="https://awsbites.com/144-lambda-billing-changes-cold-start-costs-and-log-savings-what-you-need-to-know?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-423&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">AWS Lambda Billing Changes, Cold Start Costs, and Log Savings: What You Need to Know (AWS Bites podcast)</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2025-05-19-404-i-thought-i-understood-css-height-for-15-years-i-didn-t" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2025-06-09-406-the-lost-art-of-reinventing-the-wheel" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #372: The many new features of Node.js | FullStack Bulletin</title><meta name="description" content="Hello, 
+Welcome to issue #372!
+
+Last week I announced my new side project, a book titled [**&#34;Crafting Lambda Functions in Rust&#34;**](https://rust-lambda.com/). You can probably guess what it is about! 😇 I am working on this project with the awesome [James Eastham](https://jameseastham.co.uk/) and we look forward to seeing how it will evolve! If you are curious, you can check out [our website](https://rust-lambda.com/) and if you want to support us you can already [purchase the book in early access mode](https://app.gumroad.com/checkout?product=mheuj&#38;quantity=1&#38;code=early-access) (with a 60% discount!) and support our efforts! I'd really appreciate it if you do that!
+
+But now, without further ado, let's get into some full-stack news! This week we have lots of cool stuff in store for you! I enjoyed the first link, so if you have to be picky, just go for that one!
+
+Have a great full-stack week!
+
+— Your lovely editor, [Luciano](https://loige.co/)"><link rel="canonical" href="https://fullstackbulletin.com/archive/2024-05-13-355-the-many-new-features-of-node-js/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2024-05-13-355-the-many-new-features-of-node-js/"><meta property="og:title" content="Issue #372: The many new features of Node.js | FullStack Bulletin"><meta property="og:description" content="Hello, 
+Welcome to issue #372!
+
+Last week I announced my new side project, a book titled [**&#34;Crafting Lambda Functions in Rust&#34;**](https://rust-lambda.com/). You can probably guess what it is about! 😇 I am working on this project with the awesome [James Eastham](https://jameseastham.co.uk/) and we look forward to seeing how it will evolve! If you are curious, you can check out [our website](https://rust-lambda.com/) and if you want to support us you can already [purchase the book in early access mode](https://app.gumroad.com/checkout?product=mheuj&#38;quantity=1&#38;code=early-access) (with a 60% discount!) and support our efforts! I'd really appreciate it if you do that!
+
+But now, without further ado, let's get into some full-stack news! This week we have lots of cool stuff in store for you! I enjoyed the first link, so if you have to be picky, just go for that one!
+
+Have a great full-stack week!
+
+— Your lovely editor, [Luciano](https://loige.co/)"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #372: The many new features of Node.js | FullStack Bulletin"><meta name="twitter:description" content="Hello, 
+Welcome to issue #372!
+
+Last week I announced my new side project, a book titled [**&#34;Crafting Lambda Functions in Rust&#34;**](https://rust-lambda.com/). You can probably guess what it is about! 😇 I am working on this project with the awesome [James Eastham](https://jameseastham.co.uk/) and we look forward to seeing how it will evolve! If you are curious, you can check out [our website](https://rust-lambda.com/) and if you want to support us you can already [purchase the book in early access mode](https://app.gumroad.com/checkout?product=mheuj&#38;quantity=1&#38;code=early-access) (with a 60% discount!) and support our efforts! I'd really appreciate it if you do that!
+
+But now, without further ado, let's get into some full-stack news! This week we have lots of cool stuff in store for you! I enjoyed the first link, so if you have to be picky, just go for that one!
+
+Have a great full-stack week!
+
+— Your lovely editor, [Luciano](https://loige.co/)"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:May 13, 2024">
+Issue #372 &middot; May 13, 2024 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> The many new features of Node.js </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;TypeScript is not a language, it is a multiverse of languages where your universe depends on your tsconfig.json&rdquo;
+</p>  </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello, 
+Welcome to issue #372!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Last week I announced my new side project, a book titled <a href="https://rust-lambda.com/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-372&utm_content=intro-link" target="_blank" rel="noopener noreferrer"><strong>"Crafting Lambda Functions in Rust"</strong></a>. You can probably guess what it is about! 😇 I am working on this project with the awesome <a href="https://jameseastham.co.uk/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-372&utm_content=intro-link" target="_blank" rel="noopener noreferrer">James Eastham</a> and we look forward to seeing how it will evolve! If you are curious, you can check out <a href="https://rust-lambda.com/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-372&utm_content=intro-link" target="_blank" rel="noopener noreferrer">our website</a> and if you want to support us you can already <a href="https://app.gumroad.com/checkout?product=mheuj&amp%3Bquantity=1&amp%3Bcode=early-access&utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-372&utm_content=intro-link" target="_blank" rel="noopener noreferrer">purchase the book in early access mode</a> (with a 60% discount!) and support our efforts! I'd really appreciate it if you do that!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">But now, without further ado, let's get into some full-stack news! This week we have lots of cool stuff in store for you! I enjoyed the first link, so if you have to be picky, just go for that one!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Have a great full-stack week!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">— Your lovely editor, <a href="https://loige.co/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-372&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://www.youtube.com/live/evCnOaVaOTo?si=NDVzm8OcCQjpzKfw%3Futm_source%3Dfullstackbulletin.com&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/c0c3155cc25e0d3fe791ccfe54cfff7cb15a5cbb7ece1ac8c2cd81fc9ddd76ab.png" alt="🎥 The Many New Features of Node.js" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://www.youtube.com/live/evCnOaVaOTo?si=NDVzm8OcCQjpzKfw%3Futm_source%3Dfullstackbulletin.com&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> 🎥 The Many New Features of Node.js </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">In this live stream, <a href="https://www.learnwithjason.dev/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-372&utm_content=description-link" target="_blank" rel="noopener noreferrer">Jason Lengstorf</a> and <a href="https://nodeland.dev/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-372&utm_content=description-link" target="_blank" rel="noopener noreferrer">Matteo Collina</a>, two of my favourite tech content creators out there, showcase some of the new amazing features available in Node.js 22. They debate how the perception of Node.js seems to have been locked in the past and how not many people are taking advantage of these new advancements. If you do any Node.js, this is a must-watch!</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://developer.chrome.com/blog/scroll-driven-animations-video-course?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Unleash the power of Scroll-Driven Animations </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">A 10-part FREE video course to learn all about scroll-driven animations. And by the way, this is using some new cool CSS properties, not with JavaScript! Any cool modern website has some kind of scroll-driven animation these days, so defo worth checking this one out!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://thenewstack.io/microsofts-1m-vote-of-confidence-in-rusts-future?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Microsoft&#39;s $1M Vote of Confidence in Rust&#39;s Future </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">We mentioned before that Rust is becoming more and more a great candidate language for full-stack web development thanks to frameworks such as <a href="https://github.com/leptos-rs/leptos?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-372&utm_content=description-link" target="_blank" rel="noopener noreferrer">leptos</a>. Last week, Microsoft has made an unrestricted $1 million donation to the Rust Foundation, demonstrating its commitment to the Rust programming language and its ecosystem. This is one big step forward for the language and it will probably means, more adoption in the months and years to come. If you haven't invested in Rust, maybe it's time to start to play with it a little bit.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://vercel.com/blog/latency-numbers-every-web-developer-should-know?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Latency numbers every frontend developer should know </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">In this article, Vercel dissects the topic of latency. It provides all common numbers and measurements that every web developer should be familiar with. Building speedy websites is a multi-faceted effort, so this is a great guide to get the lay of the land on what's important to measure and improve.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://thetshaped.dev/p/6-tools-to-ease-software-engineer-life?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> 6 tools that made my life much easier as a Software Engineer </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">An interesting collection of tools that can make your life as a software engineer a little bit easier, especially if you are on a Mac. I really enjoyed this one and discovered a couple of new tools, I wasn't familiar with. Hopefully, you'll like it as well.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://frontendmasters.com/blog/popover-api-is-here?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Popover API is Here </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">This API, which you can use entirely in HTML, allows you to open an element on top of <strong>everything</strong> despite where it lives in the DOM and without any particular styling. It's pretty cool and, most importantly, it doesn't require JavaScript!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://adrianroselli.com/2024/05/a-brief-note-on-highlighted-text.html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> A Brief Note on Highlighted Text </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Did you know that you can style the look and feel of selected text using CSS? You can actually style a lot more and soon you'll be able to style even the text highlighted by your browser after you run a "search in page" action. If this topic interests you, this article has a lot of fascinating details, so go check it out!</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/980e49699b60835a88fd632929264b1f2e3b9c90c89cbd3eafb11eff9783a30b.jpg" alt="Ultimate Node.js for Cross-Platform App Development: Learn to Build Robust, Scalable, and Performant Server-Side JavaScript Applications with Node.js (English Edition)" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Ultimate Node.js for Cross-Platform App Development: Learn to Build Robust, Scalable, and Performant Server-Side JavaScript Applications with Node.js (English Edition)</h4> <p class="text-sm text-neutral-medium mb-2">by Ramesh Kumar</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">Unlock the full potential of Node.js for modern web development with this comprehensive handbook to developing applications and services. The book will cover the fundamentals to advanced techniques, and explore the intricacies of building powerful applications. You will master Express server creation, develop RESTful APIs with efficient routing, and dive into MongoDB for seamless data persistence. It will uncover the nuances of template engines, middleware, and robust authentication methods. Leverage Socket.IO for real-time capabilities and adeptly handle errors with effective logging. The projects will double as versatile boilerplates for kickstarting your own development endeavors. In the later chapter, you will learn Test-Driven Development with Mocha, gain insights into debugging, and perfect the art of building and deploying Node.js applications. Each example in the book adheres to common best practices, providing valuable insights to help you avoid common pitfalls. Designed as both a learning resource and a reference guide, this book equips you with the knowledge to tackle challenging problems at any stage of development.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/8196815158?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/8196815158?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://kettanaito.com/blog/why-patching-globals-is-harmful?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Why Patching Globals Is Harmful</a></li><li class="font-body text-sm"><a href="https://blog.sentry.io/why-dont-we-talk-about-minifying-css?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Why don’t we talk about minifying CSS anymore?</a></li><li class="font-body text-sm"><a href="https://evilmartians.com/chronicles/keep-it-together-5-essential-design-patterns-for-dev-tool-uis?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Keep it together: 5 essential design patterns for dev tool UIs</a></li><li class="font-body text-sm"><a href="https://noahliebman.net/2024/03/making-room-for-long-list-markers-with-subgrid?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Making room for long list markers with subgrid</a></li><li class="font-body text-sm"><a href="https://bram.us/2024/05/05/misconceptions-about-css-specificity?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Misconceptions about CSS Specificity</a></li><li class="font-body text-sm"><a href="https://blog.logrocket.com/using-react-shepherd-build-site-tour?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Using React Shepherd to build a site tour</a></li><li class="font-body text-sm"><a href="https://github.com/rafasofizada/pechkin?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-372&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Pechkin: an asynchronous Node.js file upload with multipart/form-data support</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2024-05-06-354-react-19-beta" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2024-05-20-356-merging-remix-and-react-router" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

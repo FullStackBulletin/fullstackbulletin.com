@@ -1,0 +1,132 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #388: CSS finally adds vertical centering | FullStack Bulletin</title><meta name="description" content="Hello, 
+Dear friend of FullStack Bulletin, I've carefully chosen each piece of content in this issue because they have the power to spark new ideas, reignite your passion for coding, or offer a fresh take on familiar challenges - from mastering regular expressions (because, yes, those two problems can still haunt us) to creating efficient strings in Rust. Will one of these articles finally help you break free from the curse of vertical DIV centering? Only time will tell. But what I do know is that they're all here to inspire and challenge you, so take a few minutes to explore what's inside... Have fun!
+
+— Your editor, [Luciano](https://loige.co/)"><link rel="canonical" href="https://fullstackbulletin.com/archive/2024-09-02-370-css-finally-adds-vertical-centering/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2024-09-02-370-css-finally-adds-vertical-centering/"><meta property="og:title" content="Issue #388: CSS finally adds vertical centering | FullStack Bulletin"><meta property="og:description" content="Hello, 
+Dear friend of FullStack Bulletin, I've carefully chosen each piece of content in this issue because they have the power to spark new ideas, reignite your passion for coding, or offer a fresh take on familiar challenges - from mastering regular expressions (because, yes, those two problems can still haunt us) to creating efficient strings in Rust. Will one of these articles finally help you break free from the curse of vertical DIV centering? Only time will tell. But what I do know is that they're all here to inspire and challenge you, so take a few minutes to explore what's inside... Have fun!
+
+— Your editor, [Luciano](https://loige.co/)"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #388: CSS finally adds vertical centering | FullStack Bulletin"><meta name="twitter:description" content="Hello, 
+Dear friend of FullStack Bulletin, I've carefully chosen each piece of content in this issue because they have the power to spark new ideas, reignite your passion for coding, or offer a fresh take on familiar challenges - from mastering regular expressions (because, yes, those two problems can still haunt us) to creating efficient strings in Rust. Will one of these articles finally help you break free from the curse of vertical DIV centering? Only time will tell. But what I do know is that they're all here to inspire and challenge you, so take a few minutes to explore what's inside... Have fun!
+
+— Your editor, [Luciano](https://loige.co/)"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:September 2, 2024">
+Issue #388 &middot; September 2, 2024 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> CSS finally adds vertical centering </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;I think that novels that leave out technology misrepresent life as badly as Victorians misrepresented life by leaving out sex“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Kurt_Vonnegut?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Kurt Vonnegut </a> <span>, Author</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello, 
+Dear friend of FullStack Bulletin, I've carefully chosen each piece of content in this issue because they have the power to spark new ideas, reignite your passion for coding, or offer a fresh take on familiar challenges - from mastering regular expressions (because, yes, those two problems can still haunt us) to creating efficient strings in Rust. Will one of these articles finally help you break free from the curse of vertical DIV centering? Only time will tell. But what I do know is that they're all here to inspire and challenge you, so take a few minutes to explore what's inside... Have fun!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">— Your editor, <a href="https://loige.co/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-388&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://build-your-own.org/blog/20240813_css_vertical_center?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/8cb4b045b010a0b5de2cc230b19889c6367b5abafa255cde5c4d36d52ec5badc.png" alt="CSS finally adds vertical centering in 2024" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://build-your-own.org/blog/20240813_css_vertical_center?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> CSS finally adds vertical centering in 2024 </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">If you've ever sweated bullets during a job interview, nervously fumbling for the right CSS magic to center a <code>&lt;div&gt;</code> vertically - fear no more! We're excited to share with you the long-awaited solution that's finally here. In this article, we'll dive into the history of vertical centering techniques and show you how to use the new and improved rule in just one simple line of code.</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://freepublicapis.com/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Free Public APIs </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">This incredible collection of over 200 free public APIs is the ultimate resource for anyone looking to fuel their next experiment. Not only does it provide easy access to these APIs, but it also takes the guesswork out of testing them. With daily checks and rigorous categorization, you can trust that every API on this list is accurate and ready to use - saving you precious time and effort in your development journey.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://fasterthanli.me/articles/small-strings-in-rust?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Small strings in Rust </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">If you're interested in fine-tuning your code for maximum performance or just enjoy working with Rust, this article is worth a read. It explores some interesting techniques and libraries to store strings in a memory-efficient way and improve performance. I found it to be a fascinating look at the trade-offs involved in optimizing string storage, and you might too.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://totaltypescript.com/how-to-create-an-npm-package?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> How To Create An NPM Package </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed"><a href="https://x.com/mattpocockuk?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-388&utm_content=description-link" target="_blank" rel="noopener noreferrer">Matt Pocock</a> has written an excellent article on publishing high-quality JavaScript packages to NPM. If you're planning to share your code with the world through NPM, you should definitely check out Matt's comprehensive guide. He covers everything from best practices for writing maintainable and efficient code, to setting up dual-mode support for both CommonJS and ESM, and even provides guidance on testing, linting, and automating the build process. It's one of the most thorough resources I've seen on this topic, and it's definitely worth reading if you're new to publishing packages or just want to improve your existing workflow.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://www.rob.directory/blog/react-from-scratch?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Implementing React from scratch </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">If you're curious about how React works under the hood, this article offers a unique perspective on its internal mechanics. By building a simplified version of React from scratch, you'll gain hands-on insight into the fundamental principles that drive its behavior. As physicist <a href="https://en.wikipedia.org/wiki/Richard_Feynman?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-388&utm_content=description-link" target="_blank" rel="noopener noreferrer">Richard Feynman</a> once said, <em>"What I cannot create, I do not understand."</em> This mindset is exactly what drives the author's approach in this article - by trying to recreate React's core features, they aim to develop a deeper understanding of its inner workings.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://smashingmagazine.com/2024/08/history-future-regular-expressions-javascript?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The History And Future Of Regular Expressions In JavaScript </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Regular expressions have come a long way since their early days as clunky, error-prone beasts. As <a href="https://en.wikipedia.org/wiki/Jamie_Zawinski?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-388&utm_content=description-link" target="_blank" rel="noopener noreferrer">Jamie Zawinski</a> once joked, using regular expressions can sometimes create two problems instead of solving one - but for the right situations, they're an incredibly powerful tool. <a href="https://x.com/slevithan?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-388&utm_content=description-link" target="_blank" rel="noopener noreferrer">Steven Levithan</a>'s article takes us on a journey through the history and evolution of regular expressions in JavaScript, highlighting their recent improvements and emerging trends that will shape their future. If you're curious about how regexes have transformed over time and want to gain a deeper understanding of these complex tools, this article is a great resource for anyone who wants to use them effectively when they really need to.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://grantslatton.com/software-pathfinding?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Algorithms we develop software by </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">A tech CEO and engineer shares his unconventional approach to solving complex problems in software development - starting each day from scratch on a feature, deleting it all if he doesn't finish by nightfall (except for unit tests). This method is just one of several creative heuristics discussed, including writing everything twice and challenging oneself with an unrealistically tight deadline ("the gun to the head" technique), which can help break anchors and biases, leading to new insights and better solutions. The article offers a unique perspective on how to become a more effective problem-solver as an engineer.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/bdeefc4e4d3b9554c6d3ee7246ce50a89412300a2a4830b9b10d9b6c05cc8226.jpg" alt="The Self-Taught Computer Scientist: The Beginner's Guide to Data Structures &#38; Algorithms" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">The Self-Taught Computer Scientist: The Beginner&#39;s Guide to Data Structures &amp; Algorithms</h4> <p class="text-sm text-neutral-medium mb-2">by Cory Althoff</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">The follow-up to Cory Althoff's bestselling The Self-Taught Programmer, which inspired hundreds of thousands of professionals to learn to program outside of school! Fresh out of college and with just a year of self-study behind him, Cory Althoff was offered a dream first job as a software engineer for a well-known tech company, but he quickly found himself overwhelmed by the amount of things he needed to know, but hadn't learned yet. This experience combined with his personal journey learning to program inspired his widely praised guide, The Self-Taught Programmer. Now Cory's back with another guide for the self-taught community of learners focusing on the foundations of computer science. The Self-Taught Computer Scientist introduces beginner and self-taught programmers to computer science fundamentals that are essential for success in programming and software engineering fields. Computer science is a massive subject that could cover an entire lifetime of learning. This book does not aim to cover everything you would learn about if you went to school to get a computer science degree. Instead, Cory's goal is to give you an introduction to some of the most important concepts in computer science that apply to a programming career. With a focus on data structures and algorithms, The Self-Taught Computer Scientist helps you fill gaps in your knowledge, prepare for a technical interview, feel knowledgeable and confident on the job, and ultimately, become a better programmer.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1119724414?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1119724414?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://anyblockers.com/posts/postgres-as-a-search-engine?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Postgres as a search engine</a></li><li class="font-body text-sm"><a href="https://betterstack.com/community/guides/scaling-nodejs/understanding-abortcontroller?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Understanding AbortController in Node.js: A Complete Guide | Better Stack Community</a></li><li class="font-body text-sm"><a href="https://alexkondov.com/interface-segregation-principle-in-react?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-388&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Interface Segregation Principle in React</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2024-08-26-369-continuous-reinvention-a-brief-history-of-block-storage-at-a" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2024-09-09-371-greppability-is-an-underrated-code-metric" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

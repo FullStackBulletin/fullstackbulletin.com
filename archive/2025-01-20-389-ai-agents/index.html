@@ -1,0 +1,154 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #408: AI Agents | FullStack Bulletin</title><meta name="description" content="Ciao, 
+This week is a big one for me! I'm excited to share that I'll be attending and speaking at [Coderful](https://www.coderful.io/), an amazing Italian conference for Full-Stack devs. What makes it extra special? It's happening in the beautiful [Catania](https://en.wikipedia.org/wiki/Catania), the city where I was born, and after years of public speaking, this will be my first talk in my city! Wish me luck... I might need it! 😉
+
+I’ll be diving into **Static APIs**, a way of developing APIs that I still feel is wildly underutilized. It's definitely not a silver bullet, and it does come with some constraints, but when those constraints are manageable, the benefits are huge. As always, I'll be sharing the slides after the talk, so stay tuned.
+
+In other news, while preparing for Coderful, I created a Notion template to consolidate my tech talk ideas and streamline my slide creation process. I figured it could help other tech speakers, so I turned it into [a free Notion template](https://www.notion.com/templates/prepare-a-tech-talk). Feel free to grab it, and if you find it useful, please let me know and share it with your friends and colleagues!
+
+Now, let's dive into some awesome full-stack content, and let's keep ourselves inspired!
+
+Your editor,
+— [Luciano](https://loige.co/)"><link rel="canonical" href="https://fullstackbulletin.com/archive/2025-01-20-389-ai-agents/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2025-01-20-389-ai-agents/"><meta property="og:title" content="Issue #408: AI Agents | FullStack Bulletin"><meta property="og:description" content="Ciao, 
+This week is a big one for me! I'm excited to share that I'll be attending and speaking at [Coderful](https://www.coderful.io/), an amazing Italian conference for Full-Stack devs. What makes it extra special? It's happening in the beautiful [Catania](https://en.wikipedia.org/wiki/Catania), the city where I was born, and after years of public speaking, this will be my first talk in my city! Wish me luck... I might need it! 😉
+
+I’ll be diving into **Static APIs**, a way of developing APIs that I still feel is wildly underutilized. It's definitely not a silver bullet, and it does come with some constraints, but when those constraints are manageable, the benefits are huge. As always, I'll be sharing the slides after the talk, so stay tuned.
+
+In other news, while preparing for Coderful, I created a Notion template to consolidate my tech talk ideas and streamline my slide creation process. I figured it could help other tech speakers, so I turned it into [a free Notion template](https://www.notion.com/templates/prepare-a-tech-talk). Feel free to grab it, and if you find it useful, please let me know and share it with your friends and colleagues!
+
+Now, let's dive into some awesome full-stack content, and let's keep ourselves inspired!
+
+Your editor,
+— [Luciano](https://loige.co/)"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #408: AI Agents | FullStack Bulletin"><meta name="twitter:description" content="Ciao, 
+This week is a big one for me! I'm excited to share that I'll be attending and speaking at [Coderful](https://www.coderful.io/), an amazing Italian conference for Full-Stack devs. What makes it extra special? It's happening in the beautiful [Catania](https://en.wikipedia.org/wiki/Catania), the city where I was born, and after years of public speaking, this will be my first talk in my city! Wish me luck... I might need it! 😉
+
+I’ll be diving into **Static APIs**, a way of developing APIs that I still feel is wildly underutilized. It's definitely not a silver bullet, and it does come with some constraints, but when those constraints are manageable, the benefits are huge. As always, I'll be sharing the slides after the talk, so stay tuned.
+
+In other news, while preparing for Coderful, I created a Notion template to consolidate my tech talk ideas and streamline my slide creation process. I figured it could help other tech speakers, so I turned it into [a free Notion template](https://www.notion.com/templates/prepare-a-tech-talk). Feel free to grab it, and if you find it useful, please let me know and share it with your friends and colleagues!
+
+Now, let's dive into some awesome full-stack content, and let's keep ourselves inspired!
+
+Your editor,
+— [Luciano](https://loige.co/)"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:January 20, 2025">
+Issue #408 &middot; January 20, 2025 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> AI Agents </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;Standards are always out of date. That&#39;s what makes them standards“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Alan_Bennett?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Alan Bennett </a> <span>, Author</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Ciao, 
+This week is a big one for me! I'm excited to share that I'll be attending and speaking at <a href="https://www.coderful.io/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-408&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Coderful</a>, an amazing Italian conference for Full-Stack devs. What makes it extra special? It's happening in the beautiful <a href="https://en.wikipedia.org/wiki/Catania?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-408&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Catania</a>, the city where I was born, and after years of public speaking, this will be my first talk in my city! Wish me luck... I might need it! 😉</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">I’ll be diving into <strong>Static APIs</strong>, a way of developing APIs that I still feel is wildly underutilized. It's definitely not a silver bullet, and it does come with some constraints, but when those constraints are manageable, the benefits are huge. As always, I'll be sharing the slides after the talk, so stay tuned.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">In other news, while preparing for Coderful, I created a Notion template to consolidate my tech talk ideas and streamline my slide creation process. I figured it could help other tech speakers, so I turned it into <a href="https://www.notion.com/templates/prepare-a-tech-talk?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-408&utm_content=intro-link" target="_blank" rel="noopener noreferrer">a free Notion template</a>. Feel free to grab it, and if you find it useful, please let me know and share it with your friends and colleagues!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Now, let's dive into some awesome full-stack content, and let's keep ourselves inspired!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Your editor,
+— <a href="https://loige.co/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-408&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://huyenchip.com/2025/01/07/agents.html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/55d1d65394095fa667898757e8500401c438301d4b14275221fdda68190c8dc2.png" alt="AI Agents" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://huyenchip.com/2025/01/07/agents.html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> AI Agents </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">You're probably hearing everyone talking about AI Agents, but what the heck are those? I admit, I've been a bit confused myself, and this article was a great resource to clarify my confusion. I suspect that in the future, our role as full-stack devs will require us to create APIs and websites that can easily integrate with the work of AI Agents, so this is a very relevant topic for 2025 and the years to come! <a href="https://x.com/chipro?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-408&utm_content=description-link" target="_blank" rel="noopener noreferrer">Chip Huyen</a>'s latest post dissects the inner workings of AI agents, revealing how they leverage tools and planning to tackle complex tasks. Forget passive models – this piece explores the active, autonomous world of agentic applications, offering insights into tool selection, planning strategies, and even the critical failure modes you need to watch out for. If you're looking to build the next generation of intelligent applications, this is a must-read to understand the fundamentals.</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://xeiaso.net/notes/2024/bash-hashmap?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Bash has hashmaps </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I have to admit, I kinda hate bash as a language. Although I totally recognize its value, every time I want to do something with it, I feel stuck. But this is probably because I never spent enough time properly learning the ins and outs of the language. So, last week I was hoping to learn a bit more, and I bumped into this interesting and well-written article. Turns out, bash has hashmaps! This article dives into how you can use associative arrays to manage key-value data directly in your scripts. If you've ever found yourself wrestling with complex bash logic and needing a better way to store mappings, this is a surprisingly helpful resource.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://developer.chrome.com/blog/css-text-box-trim?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> CSS text-box-trim </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">CSS is becoming more and more powerful, and text styling is one of those areas where there are still lots of improvements that can happen. Recently, we got <code>text-box-trim</code>, a new CSS property that lets developers and designers tailor the space above and below text. Curious? Let's discover together what kinds of cool effects you can design with it!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://learn.yjs.dev/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Learn Yjs </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Ever dreamed of building those super cool, interactive multiplayer web experiences? Imagine creating a browser-based card game where everyone's actions sync in real-time! This Learn Yjs tutorial series is your gateway to making that dream a reality. It introduces Yjs, a library that lets you build collaborative apps with ease. This very page is a live demo of its power! You can see other people's cursors moving around, and you can actually interact with it and change things for everyone else! This resource will teach you the fundamentals of Yjs, what CRDTs are, and how to handle state in distributed systems. Though still a work in progress, there are already enough chapters to get you started, with interactive demos and code exercises that will give you a feel for how Yjs really works.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://joyofrails.com/articles/simple-trick-to-understand-ruby-lazy-enumerator?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> A simple trick to understand Ruby’s lazy enumerator </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Streams and lazy iterators are a favorite of mine, and though I'm not a Ruby expert, this article clearly explained lazy enumerators vs. eager ones. It's a concept you can apply to any language for more performant, scalable code. The article uses a cool interactive demo to show how Ruby's <code>Enumerator::Lazy</code> avoids unnecessary work. If you want to optimize your code or handle big data, this is a great read, no matter what language you use.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://mattsayar.com/why-does-cloudflare-pages-have-such-a-generous-free-tier?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Why does Cloudflare Pages have such a generous Free tier? </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Static websites are one of my favorite topics in web development, and as I prepare a talk on static sites and APIs, this article came up during my research. It's a super interesting take on understanding how CDNs work, what the main players in this space are, and how their pricing models and features compare. Why does Cloudflare Pages offer unlimited bandwidth? This piece dives into that question, exploring the strategic reasons behind Cloudflare’s generous free tier for static sites, while also comparing its offering with GitHub Pages, Netlify, and more. If you're looking for a cheap place to host your next static site, or just want to understand how these platforms operate, this is a great read.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://motion.dev/blog/reacts-experimental-view-transition-api?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> React&#39;s experimental animations API </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">After 12 years, React gets its own animation API! This article explores the new <code>&lt;ViewTransition/&gt;</code> component, enabling powerful view animations using the browser's API. You'll learn how to use it in React/Next.js, the difference between view and layout animations, and how it fits into the render cycle. A major leap for React devs wanting a native solution! If you care about fluid, modern web apps, this is a must-read to see what's coming.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/737b4ea5f199894518ccb4d5a72083943c6abad8e16ee1c49fd03408b8bb7d21.jpg" alt="SQL Pocket Guide: A Guide to SQL Usage" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">SQL Pocket Guide: A Guide to SQL Usage</h4> <p class="text-sm text-neutral-medium mb-2">by Alice Zhao</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">If you use SQL in your day-to-day work as a data analyst, data scientist, or data engineer, this popular pocket guide is your ideal on-the-job reference. You'll find many examples that address the language's complexities, along with key aspects of SQL used in Microsoft SQL Server, MySQL, Oracle Database, PostgreSQL, and SQLite. In this updated edition, author Alice Zhao describes how these database management systems implement SQL syntax for both querying and making changes to a database. You'll find details on data types and conversions, regular expression syntax, window functions, pivoting and unpivoting, and more.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1492090409?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1492090409?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://marcgg.com/blog/2025/01/06/levels-of-defensiveness?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Levels of Defensiveness</a></li><li class="font-body text-sm"><a href="https://cassidoo.co/post/css-for-dialogs?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">A couple CSS tricks for HTML Dialog elements</a></li><li class="font-body text-sm"><a href="http://aqora.io/blog/AEJsb2dBcnRpY2xlAZRgyH4wdeKfFHS0yil0Fw/implementing-streaming-ssr-with-react-relay-and-vite?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Implementing Streaming SSR with React Relay and Vite</a></li><li class="font-body text-sm"><a href="https://htmx.org/essays/future?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">The future of htmx</a></li><li class="font-body text-sm"><a href="https://octopus.com/devops?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">What is DevOps?</a></li><li class="font-body text-sm"><a href="https://rdrn.me/react-forms?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Progressive Forms with React 19</a></li><li class="font-body text-sm"><a href="https://debugbear.com/blog/poor-performance-score-good-performance?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-408&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">You Might Not Have A Web Performance Problem</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2025-01-13-388-tailwindcss-motion" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2025-01-27-390-react-admin" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

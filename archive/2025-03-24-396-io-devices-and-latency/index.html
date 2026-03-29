@@ -1,0 +1,144 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #415: IO devices and latency | FullStack Bulletin</title><meta name="description" content="Hello, 
+This week’s edition is a true full-stack buffet: we’ve got IO performance deep-dives, JavaScript/SQL puzzles to sharpen your skills, a spicy critique of Go’s `return (T, error)` pattern, and even a dead-simple GitHub Actions workflow for deploying static sites. Whether you’re debugging a legacy monolith or tinkering with greenfield code, there’s something here to fuel your next “aha!” moment.
+
+PS: I’ll be at [AWS Community Day Italy](https://www.awscommunityday.it/) in Milan on April 2nd! If you’re there, come say *Ciao*, I’d love to connect!
+
+Stay curious &#38; keep learning ✌️
+
+— Your editor, [Luciano](https://loige.co/)"><link rel="canonical" href="https://fullstackbulletin.com/archive/2025-03-24-396-io-devices-and-latency/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2025-03-24-396-io-devices-and-latency/"><meta property="og:title" content="Issue #415: IO devices and latency | FullStack Bulletin"><meta property="og:description" content="Hello, 
+This week’s edition is a true full-stack buffet: we’ve got IO performance deep-dives, JavaScript/SQL puzzles to sharpen your skills, a spicy critique of Go’s `return (T, error)` pattern, and even a dead-simple GitHub Actions workflow for deploying static sites. Whether you’re debugging a legacy monolith or tinkering with greenfield code, there’s something here to fuel your next “aha!” moment.
+
+PS: I’ll be at [AWS Community Day Italy](https://www.awscommunityday.it/) in Milan on April 2nd! If you’re there, come say *Ciao*, I’d love to connect!
+
+Stay curious &#38; keep learning ✌️
+
+— Your editor, [Luciano](https://loige.co/)"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #415: IO devices and latency | FullStack Bulletin"><meta name="twitter:description" content="Hello, 
+This week’s edition is a true full-stack buffet: we’ve got IO performance deep-dives, JavaScript/SQL puzzles to sharpen your skills, a spicy critique of Go’s `return (T, error)` pattern, and even a dead-simple GitHub Actions workflow for deploying static sites. Whether you’re debugging a legacy monolith or tinkering with greenfield code, there’s something here to fuel your next “aha!” moment.
+
+PS: I’ll be at [AWS Community Day Italy](https://www.awscommunityday.it/) in Milan on April 2nd! If you’re there, come say *Ciao*, I’d love to connect!
+
+Stay curious &#38; keep learning ✌️
+
+— Your editor, [Luciano](https://loige.co/)"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:March 24, 2025">
+Issue #415 &middot; March 24, 2025 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> IO devices and latency </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;A year spent in artificial intelligence is enough to make one believe in God.“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Alan_Perlis?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Alan Perlis </a>  </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello, 
+This week’s edition is a true full-stack buffet: we’ve got IO performance deep-dives, JavaScript/SQL puzzles to sharpen your skills, a spicy critique of Go’s <code>return (T, error)</code> pattern, and even a dead-simple GitHub Actions workflow for deploying static sites. Whether you’re debugging a legacy monolith or tinkering with greenfield code, there’s something here to fuel your next “aha!” moment.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">PS: I’ll be at <a href="https://www.awscommunityday.it/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-415&utm_content=intro-link" target="_blank" rel="noopener noreferrer">AWS Community Day Italy</a> in Milan on April 2nd! If you’re there, come say <em>Ciao</em>, I’d love to connect!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Stay curious &amp; keep learning ✌️</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">— Your editor, <a href="https://loige.co/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-415&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://planetscale.com/blog/io-devices-and-latency?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/8c7196f68c5b62901c28c4c0ab72d3403bea453e5cce7a9ee2bc449745151d7f.png" alt="IO devices and latency" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://planetscale.com/blog/io-devices-and-latency?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> IO devices and latency </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">Damn! I love those articles with tons of interactive widgets that allow you to play around with the concepts that are being presented to you. This is one of those and it's an excellent one to understand different types of IO devices and their tradeoffs truly.  OK, this is maybe not out usual bread and butter as full-stack web devs, but I'd argue that understanding how storage works will make us more well-rounded software engineers, so I'd recommend having a peek at this one!</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://questdb.com/blog/design-by-decision-fatigue?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Design by Decision Fatigue </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Last week, I bumped into this article and really enjoyed it! The author unpacks how early technical choices (frameworks, code structure, etc.) in greenfield projects seed future tech debt. They share battle-tested strategies (prototyping, documenting decisions, leveraging opinionated tools, etc.) to combat decision fatigue. Full-stack devs juggle layered decisions daily; this is a playbook that can help you balance speed of delivery and long-term maintainability.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://rsdoctor.dev/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Rsdoctor hits v1.0 </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Last week, the team behind <strong>Rsdoctor</strong> announce the release of their first stable version. If you never heard of Rsdoctor, it is a build analyzer for the Rspack/webpack ecosystems, that offers visualized build insights, bottleneck detection, and custom optimization rules to understand what happens behind the scenes of complex builds. You can think of it like a "CT scan" for your build process. It pinpoints slow plugins, debug Rspack’s built-in loaders, and auto-scan for warnings. As a bonus, being written in Rust (in case you didn't guess that from the name!), it's supposedly super fast!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://hillelwayne.com/post/javascript-puzzle?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> A Perplexing Javascript Parsing Puzzle </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">OK, I admit that even with more than 15 years of JavaScript experience I failed at this one... So, are you ready for a little intriguing challenge? You'll need to look at some seemingly simple piece of JavaScript code and guess what is the value that the script is going to be evaluated to...  I'll give you just one spoiler: you'll be learning something new and unexpected about some legacy characteristics of the language. Also, I have a strong recommendation: please don't use this challenge in a technical interview!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://til.simonwillison.net/github-actions/github-pages?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Building and deploying a custom site using GitHub Actions and GitHub Pages </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">GitHub actions and GitHub pages are my favourite way to deploy static websites (and I have loads of them!) so I couldn't pass on this article :). This article showcases a minimal pattern for building a completely custom website using GitHub Actions and deploying the result to GitHub Pages. If you use something not custom (e.g. Next.js, VuePress, Docusaurus, or Astro) you can easily swap that <code>echo '&lt;h1&gt;Hello, world!&lt;/h1&gt;' &gt; _site/index.html</code> with your framework specific build step and off you go!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://datalemur.com/sql-game?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> SQL Squid Game </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Here we go with another challenge. This is actually more than a single challenge. It's an entire game where you can test and improve your SQL skills while competing for rounds of Squid game (Yeah the same one of the TV Show). So, is your SQL good enough for you to survive through these challenges? A funny little way to get better a SQL. Check it out! <a href="https://datalemur.com/sql-game?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-415&utm_content=description-link" target="_blank" rel="noopener noreferrer"><strong>Play the game</strong></a></p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://herecomesthemoon.net/2025/03/multiple-return-values-in-go?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Were multiple return values Go&#39;s biggest mistake? </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Whenever I use JavaScript, Python, C#, Java, or other exception-based languages I always find myself trying to avoid exceptions. There are many reasons for that and I should eventually write a blog post about it, but in short, it comes down to the "action at distance" problem. Your <code>catch</code> blocks often end up very far away from the exceptions you are handling, which is something that makes the code hard to read and maintain in the long term. That's why I have always appreciated different approaches based on plain value types like the ones adopted by Go and Rust. This article is actually a bit critical on some details of the Go implementation, but if you are a languages nerd like me, I am sure you'll enjoy this perspective.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/4ee9931f96171d4406198c8adde436c24b12f19c28feacfdea0d70b01c0df640.jpg" alt="Architecture Patterns with Python: Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Architecture Patterns with Python: Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices</h4> <p class="text-sm text-neutral-medium mb-2">by Harry Percival, and Bob Gregory</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">As Python continues to grow in popularity, projects are becoming larger and more complex. Many Python developers are taking an interest in high-level software design patterns such as hexagonal/clean architecture, event-driven architecture, and the strategic patterns prescribed by domain-driven design (DDD). But translating those patterns into Python isn't always straightforward. With this hands-on guide, Harry Percival and Bob Gregory from MADE.com introduce proven architectural design patterns to help Python developers manage application complexity―and get the most value out of their test suites. Each pattern is illustrated with concrete examples in beautiful, idiomatic Python, avoiding some of the verbosity of Java and C# syntax</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1492052205?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1492052205?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://aws.amazon.com/blogs/compute/handling-billions-of-invocations-best-practices-from-aws-lambda?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Handling billions of invocations – best practices from AWS Lambda</a></li><li class="font-body text-sm"><a href="https://cekrem.github.io/posts/beyond-react-memo-smarter-performance-optimization?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Beyond React.memo: Smarter Ways to Optimize Performance</a></li><li class="font-body text-sm"><a href="https://github.com/oxc-project?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">The JavaScript Oxidation Compiler</a></li><li class="font-body text-sm"><a href="https://kylegill.com/essays/next-vs-tanstack?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Next.js vs TanStack</a></li><li class="font-body text-sm"><a href="https://felgus.dev/blog/common-react-lib-architecture?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Common React libraries architecture</a></li><li class="font-body text-sm"><a href="https://blog.carlosn.com.br/post/writing-static-websites-with-vite-and-react?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Writing static websites with Vite and React</a></li><li class="font-body text-sm"><a href="https://seeinglogic.com/posts/visual-readability-patterns?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">What Makes Code Hard To Read: Visual Patterns of Complexity</a></li><li class="font-body text-sm"><a href="https://awsbites.com/141-step-functions-with-jsonata-and-variables/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-415&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">AWS Step Functions with JSONata and Variables (AWS Bites Podcast)</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2025-03-17-395-414-lynx-the-new-flutter-and-react-native-killer" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2025-03-31-397-why-one-developer-chose-remix-over-next-js" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

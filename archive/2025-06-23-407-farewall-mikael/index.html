@@ -1,0 +1,162 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #427: Farewall Mikael | FullStack Bulletin</title><meta name="description" content="Hey everyone,
+
+Sorry for skipping last week’s issue. I was knocked out with a nasty sinus infection and spent most of the time horizontal. Thankfully I’m finally on the mend and back at the keyboard.
+
+This week’s issue carries a bit of a heavier tone than usual. We’ve lost [Mikael Rogers](https://github.com/mikeal): an incredibly influential voice in the Node.js and broader web development world. Whether you knew him by name or not, his work likely touched your projects in some way. It’s a sad moment, but also a reminder of how much impact one person can have on this ever-growing, ever-connected ecosystem of ours.
+
+On a brighter note, a big thank you to **Murf AI** for sponsoring this issue. If you’ve been curious about voice generation, or you have an idea for an app that could use it, they’re running [a contest](https://lu.ma/0dzhcc01) right now that might be worth your time. Go check it out!
+
+As always, thanks for reading—and for being part of this curious and passionate community. Let’s keep building.
+
+Happy coding!
+— [Luciano](https://loige.co/)
+
+This issue is kindly sponsored by:"><link rel="canonical" href="https://fullstackbulletin.com/archive/2025-06-23-407-farewall-mikael/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2025-06-23-407-farewall-mikael/"><meta property="og:title" content="Issue #427: Farewall Mikael | FullStack Bulletin"><meta property="og:description" content="Hey everyone,
+
+Sorry for skipping last week’s issue. I was knocked out with a nasty sinus infection and spent most of the time horizontal. Thankfully I’m finally on the mend and back at the keyboard.
+
+This week’s issue carries a bit of a heavier tone than usual. We’ve lost [Mikael Rogers](https://github.com/mikeal): an incredibly influential voice in the Node.js and broader web development world. Whether you knew him by name or not, his work likely touched your projects in some way. It’s a sad moment, but also a reminder of how much impact one person can have on this ever-growing, ever-connected ecosystem of ours.
+
+On a brighter note, a big thank you to **Murf AI** for sponsoring this issue. If you’ve been curious about voice generation, or you have an idea for an app that could use it, they’re running [a contest](https://lu.ma/0dzhcc01) right now that might be worth your time. Go check it out!
+
+As always, thanks for reading—and for being part of this curious and passionate community. Let’s keep building.
+
+Happy coding!
+— [Luciano](https://loige.co/)
+
+This issue is kindly sponsored by:"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #427: Farewall Mikael | FullStack Bulletin"><meta name="twitter:description" content="Hey everyone,
+
+Sorry for skipping last week’s issue. I was knocked out with a nasty sinus infection and spent most of the time horizontal. Thankfully I’m finally on the mend and back at the keyboard.
+
+This week’s issue carries a bit of a heavier tone than usual. We’ve lost [Mikael Rogers](https://github.com/mikeal): an incredibly influential voice in the Node.js and broader web development world. Whether you knew him by name or not, his work likely touched your projects in some way. It’s a sad moment, but also a reminder of how much impact one person can have on this ever-growing, ever-connected ecosystem of ours.
+
+On a brighter note, a big thank you to **Murf AI** for sponsoring this issue. If you’ve been curious about voice generation, or you have an idea for an app that could use it, they’re running [a contest](https://lu.ma/0dzhcc01) right now that might be worth your time. Go check it out!
+
+As always, thanks for reading—and for being part of this curious and passionate community. Let’s keep building.
+
+Happy coding!
+— [Luciano](https://loige.co/)
+
+This issue is kindly sponsored by:"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:June 23, 2025">
+Issue #427 &middot; June 23, 2025 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> Farewall Mikael </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Stan_Kelly-Bootle?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Stan Kelly-Bootle </a> <span>, Author</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hey everyone,</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Sorry for skipping last week’s issue. I was knocked out with a nasty sinus infection and spent most of the time horizontal. Thankfully I’m finally on the mend and back at the keyboard.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">This week’s issue carries a bit of a heavier tone than usual. We’ve lost <a href="https://github.com/mikeal?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Mikael Rogers</a>: an incredibly influential voice in the Node.js and broader web development world. Whether you knew him by name or not, his work likely touched your projects in some way. It’s a sad moment, but also a reminder of how much impact one person can have on this ever-growing, ever-connected ecosystem of ours.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">On a brighter note, a big thank you to <strong>Murf AI</strong> for sponsoring this issue. If you’ve been curious about voice generation, or you have an idea for an app that could use it, they’re running <a href="https://lu.ma/0dzhcc01?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=intro-link" target="_blank" rel="noopener noreferrer">a contest</a> right now that might be worth your time. Go check it out!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">As always, thanks for reading—and for being part of this curious and passionate community. Let’s keep building.</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Happy coding!
+— <a href="https://loige.co/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">This issue is kindly sponsored by:</p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://github.com/mikeal/cancer-diaries?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/18ed2100d8ea03ef806657c40ba017ddbe1f6271b677785ce449e1ca9e04aa90.jpg" alt="Farewell Mikael" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://github.com/mikeal/cancer-diaries?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Farewell Mikael </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed"><strong>Mikael Rogers</strong>, a true pillar of the Node.js and open source communities, has passed away at just 42, after a fierce battle with cancer. I never met Mikael personally, but he influenced me more than he’ll ever know. If you’ve heard of <a href="https://github.com/nodejs/iojs.org?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=description-link" target="_blank" rel="noopener noreferrer">io.js</a> or used the popular <a href="https://www.npmjs.com/package/request?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=description-link" target="_blank" rel="noopener noreferrer">request</a> package, then you’ve already crossed paths with his work, even if unknowingly. Mikael wasn’t just a builder. He was a bridge between worlds, a fierce advocate for openness and community, and someone who helped shape how we write code today. It feels like losing a mentor from afar, a quiet guiding voice. So rather than despair, I want to invite you to celebrate him. <a href="https://blog.izs.me/2025/06/mikeal-rogers/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=description-link" target="_blank" rel="noopener noreferrer">Isaac</a> and <a href="https://b.h4x.zip/mikeal/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=description-link" target="_blank" rel="noopener noreferrer">John</a> both wrote moving tributes that I recommend reading. You can also sign a <a href="https://www.legacy.com/us/obituaries/nytimes/name/mikeal-rogers-obituary?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=description-link" target="_blank" rel="noopener noreferrer">guestbook</a> for his family. And if you want to dive deeper, here's a GitHub repo started by Mikael himself where people are sharing memories in the form of issues. Let’s remember Mikael by doing what he championed best: building things that matter, together. <em>Farewell Mikael!</em></p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://ui.aceternity.com/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Aceternity UI </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Last week I accidentally bumped into Aceternity UI… and honestly, it kind of blew my mind. This isn’t your typical component library with the usual suspects like buttons, date pickers, or input fields. Nope. Aceternity is all about vibes. It's a collection of animated, interactive, delight-driven components designed to make your site feel alive. Think gooey cursors, magnetic buttons, parallax backgrounds, hero sections that actually feel heroic… you get the idea.It’s built with React, Tailwind CSS, and Framer Motion, and all the available components are free to use, so you can just drop them into your project and go wild. There’s even a live playground where you can tweak things in real time before you copy the code. This might be the secret sauce your website might be missing. <a href="https://ui.aceternity.com/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=description-link" target="_blank" rel="noopener noreferrer"><strong>Visit project</strong></a></p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://vitest.dev/blog/vitest-3-2?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Announcing Vitest 3.2 </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Vitest has quickly become my favorite test runner (when I’m not using the <a href="https://nodejs.org/api/test.html?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=description-link" target="_blank" rel="noopener noreferrer">built-in Node.js one</a>, that is). It’s fast, full of useful features, and genuinely enjoyable to work with. Always great to see the community keeping the momentum strong. So what’s new in version 3.2? Quite a bit—and you can check out the full list in the release post if you're curious. My personal highlights? Two stand out. First, a much-improved coverage implementation. Second, the new ability to extend built-in matchers with your own custom ones. Love that kind of flexibility.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://historicaltechtree.com/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The Historical Tech Tree </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">This might seem a bit off-topic... but is it, really? The Historical Tech Tree is an interactive map that showcases humanity's most important technological inventions... starting all the way back with stone tools from 3 million years ago. That’s even before Homo sapiens entered the scene! And from those primitive beginnings, you can trace a mind-blowing acceleration of innovation leading all the way to things like... <strong>Reflective LLMs</strong>. If you want to keep it close to home, you can filter by <em><strong>Computing</strong></em> and follow the path from mechanical calculators to microchips to modern AI. It’s fascinating to see how every breakthrough stands on the shoulders of countless others. For us developers, it's a powerful reminder. What we build today doesn't live in a vacuum. We're part of a long, incredible chain of invention. And maybe... just maybe... something we write this week ends up as a tiny node on this tree someday. <a href="https://historicaltechtree.com/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=description-link" target="_blank" rel="noopener noreferrer"><strong>Visit website</strong></a></p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://icons.obra.studio/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Obra Icons </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I haven’t featured an icon pack in a while. Probably because I got into the lazy habit of defaulting to <a href="https://lucide.dev/icons/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=description-link" target="_blank" rel="noopener noreferrer">Lucide</a>, just because it’s so easy to use with React. But last week I discovered a nice alternative worth checking out. <strong>Obra Icons</strong> is a clean, consistent set of UI-friendly icons with both stroke and fill variants. They feel carefully designed and cover a wide range of use cases without getting too flashy. It also comes with convenient <strong>React</strong> and <strong>Svelte</strong> libraries, so you can drop icons into your project with minimal setup. Just install and go. There's even a <a href="https://www.figma.com/community/file/1511878363179181235/obra-icons-1-23-1?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-427&utm_content=description-link" target="_blank" rel="noopener noreferrer">Figma plugin</a> and a smart search to help you find what you need quickly. If your UI needs a little visual polish, this might be the perfect upgrade.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://github.com/psviderski/unregistry?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Pushing docker images directly to remote servers </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">For small side projects, I often skip setting up (and paying for) a Docker registry (I know... I am a cheap lazy bastard). I just push images from my machine or CI directly to a remote server. Usually that means saving the image to a tar and loading it over SSH. It works, but it’s not ideal. Docker ends up transferring the full image every time... no caching, no layer reuse! That’s where <strong>Unregistry</strong> comes in. It acts as a temporary registry over SSH, letting Docker push images while taking full advantage of layer caching. Only the new or changed layers get transferred, making deploys faster and way more efficient. If you’re tired of re-sending hundreds of MBs on every deploy, this little tool could save you a lot of time and bandwidth.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://joshwcomeau.com/animation/partial-keyframes?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Partial Keyframes </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">If you're the kind of person who loves crafting UI animations from scratch, not just copy-pasting them from Aceternity, this is a trick you’ll want in your toolbox. CSS keyframe animations are way more powerful than most developers realize. With partial keyframes, you don’t need to define both from and to. Just specify one end and the browser fills in the rest based on the current state. It sounds simple, but it opens the door to dynamic, reusable animations that layer beautifully without duplication. It completely changed how I think about writing animations. If you're serious about building elegant, maintainable motion in your UI, you'll love this pick.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/b3f0d1842f9d322702bad2d24580f2f381ab8a8dbc9683b9c1e07dce63db4083.jpg" alt="Hacking APIs: Breaking Web Application Programming Interfaces" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Hacking APIs: Breaking Web Application Programming Interfaces</h4> <p class="text-sm text-neutral-medium mb-2">by Corey J. Ball</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">Hacking APIs is a crash course in web API security testing that will prepare you to penetration-test APIs, reap high rewards on bug bounty programs, and make your own APIs more secure. You'll learn how REST and GraphQL APIs work in the wild and set up a streamlined API testing lab with Burp Suite and Postman. Then you'll master tools useful for reconnaissance, endpoint analysis, and fuzzing, such as Kiterunner and OWASP Amass. Next, you'll learn to perform common attacks, like those targeting an API's authentication mechanisms and the injection vulnerabilities commonly found in web applications. You'll also learn techniques for bypassing protections against these attacks.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1718502443?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1718502443?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://trevorlasn.com/blog/revisiting-legacy-javascript?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">How JavaScript Was Written Back In the Day</a></li><li class="font-body text-sm"><a href="https://smoothui.dev/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">SmoothUI: React UI with TailwindCSS &amp; Motion Animations</a></li><li class="font-body text-sm"><a href="https://hvpandya.com/liquid-glass?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Liquid Glass</a></li><li class="font-body text-sm"><a href="https://ui.glass/generator?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Glassmorphism CSS Generator</a></li><li class="font-body text-sm"><a href="https://nodejs.org/en/blog/release/v24.2.0?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-427&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Node.js v24.2.0</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2025-06-09-406-the-lost-art-of-reinventing-the-wheel" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2025-06-30-408-announcing-vite-7" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

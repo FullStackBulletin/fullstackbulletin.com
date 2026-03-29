@@ -1,0 +1,137 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #373: Merging Remix and React Router | FullStack Bulletin</title><meta name="description" content="Hello, 
+Welcome to issue #373. Last week, ReactConf was on! As you might imagine, this means that this issue is going to be somewhat React-heavy. So, hopefully, you like React and you look forward to catching up with all the React updates! I'll also leave you with the [full recording of day one](https://www.youtube.com/watch?v=T8TZQ6k4SLE) if you prefer to watch ALL OF IT!
+
+Without further ado, let's dive in!
+
+— Your editor, [Luciano](https://twitter.com/loige)"><link rel="canonical" href="https://fullstackbulletin.com/archive/2024-05-20-356-merging-remix-and-react-router/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2024-05-20-356-merging-remix-and-react-router/"><meta property="og:title" content="Issue #373: Merging Remix and React Router | FullStack Bulletin"><meta property="og:description" content="Hello, 
+Welcome to issue #373. Last week, ReactConf was on! As you might imagine, this means that this issue is going to be somewhat React-heavy. So, hopefully, you like React and you look forward to catching up with all the React updates! I'll also leave you with the [full recording of day one](https://www.youtube.com/watch?v=T8TZQ6k4SLE) if you prefer to watch ALL OF IT!
+
+Without further ado, let's dive in!
+
+— Your editor, [Luciano](https://twitter.com/loige)"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #373: Merging Remix and React Router | FullStack Bulletin"><meta name="twitter:description" content="Hello, 
+Welcome to issue #373. Last week, ReactConf was on! As you might imagine, this means that this issue is going to be somewhat React-heavy. So, hopefully, you like React and you look forward to catching up with all the React updates! I'll also leave you with the [full recording of day one](https://www.youtube.com/watch?v=T8TZQ6k4SLE) if you prefer to watch ALL OF IT!
+
+Without further ado, let's dive in!
+
+— Your editor, [Luciano](https://twitter.com/loige)"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:May 20, 2024">
+Issue #373 &middot; May 20, 2024 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> Merging Remix and React Router </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;Innovation is the outcome of a habit, not a random act“&rdquo;
+</p>  </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello, 
+Welcome to issue #373. Last week, ReactConf was on! As you might imagine, this means that this issue is going to be somewhat React-heavy. So, hopefully, you like React and you look forward to catching up with all the React updates! I'll also leave you with the <a href="https://www.youtube.com/watch?v=T8TZQ6k4SLE&utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-373&utm_content=intro-link" target="_blank" rel="noopener noreferrer">full recording of day one</a> if you prefer to watch ALL OF IT!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Without further ado, let's dive in!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">— Your editor, <a href="https://twitter.com/loige?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-373&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://remix.run/blog/merging-remix-and-react-router?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/ef18bc9982eaeaa8a2f3a941d9068f7312b409de2e985eb2fcacb2be32a1ae29.png" alt="Merging Remix and React Router" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://remix.run/blog/merging-remix-and-react-router?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Merging Remix and React Router </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">Remix is a full-stack web framework build on top of React. React Router? Well, if you have done any React SPA in the last 10 years, there are big chances you have bumped into it (7.8 million projects have React Router as a dependency!). If not, it's a router library that helps you to change views based on the current URL of the page (without triggering a full refresh). Since there's a significant overlap between the two communities of developers maintaining React Router and Remix, it makes sense that the 2 projects get merged into one. But what does it mean to merge a full-stack framework with a routing library? Isn't the scope of the two very different? Well, let's find out!</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://humanewebmanifesto.com/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Manifesto for a Humane Web </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">The web is becoming hostile to humans. Users are tracked and their privacy is routinely violated. Search results are populated with ads. We are constantly spammed by bots... If you feel all of this in your daily experience with the web, and, even more so, if you feel a responsibility as a web developer, this is the manifesto you were waiting for! Let's share it as much as we can!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://github.com/Julien-R44/hot-hook?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> hot-hook: 🪝 Simple HMR for NodeJS + ESM </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Simple HMR for Node.js + ESM. This is pretty cool! We are quite used to hot-reload on the frontend, but this is the first time that I am seeing this idea being brought to the backend. Let's find out why it can be quite useful!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://github.com/webpro/knip?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> ✂️ knip </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Another interesting open-source project on GitHub! Knip is a developer tool that allows you to find unused files, dependencies, and exports in your JavaScript and TypeScript projects and... you guessed it, remove them from the project before you ship them! Knip it before you ship it!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://smashingmagazine.com/2024/05/modern-guide-making-css-shapes?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The Modern Guide For Making CSS Shapes </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">In this comprehensive guide, Temani Afif explores different techniques for creating common shapes with the smallest and most flexible code possible. No SVGs, only CSS! This is a topic that has always been fascinating me, so if you are like me, you will enjoy this deep dive!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://joshwcomeau.com/react/use-deferred-value?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Snappy UI Optimization with useDeferredValue </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed"><code>useDeferredValue</code> is one of the most underrated React hooks. It allows us to dramatically improve the performance of our applications in certain contexts. The good ol' <a href="https://www.joshwcomeau.com/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-373&utm_content=description-link" target="_blank" rel="noopener noreferrer">Josh Comeau</a>, recently used it to solve a gnarly performance problem on his blog, so let's use this deep dive to learn more about this hook!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://docker.com/blog/new-dockerfile-capabilities-v1-7-0?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Updates for Dockerfile syntax (v1.7.0) </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Dockerfiles are fundamental tools for developers working with Docker, serving as a blueprint for creating Docker images. There's a new version of the DockerFile syntax which makes them more powerful and user friendly. So, let's learn about new Dockerfile capabilities and how you can leverage them in your projects to further optimize your Docker workflows.</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/8c14ea88b46dbac3e8b1fc3390351277227b4a9fed12dfac941c4c2405fa8294.jpg" alt="Event-Driven Architecture in Golang: Building complex systems with asynchronicity and eventual consistency" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Event-Driven Architecture in Golang: Building complex systems with asynchronicity and eventual consistency</h4> <p class="text-sm text-neutral-medium mb-2">by Michael Stack</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">Event-driven architecture in Golang is an approach used to develop applications that shares state changes asynchronously, internally, and externally using messages. EDA applications are better suited at handling situations that need to scale up quickly and the chances of individual component failures are less likely to bring your system crashing down. This is why EDA is a great thing to learn and this book is designed to get you started with the help of step-by-step explanations of essential concepts, practical examples, and more. You'll begin building event-driven microservices, including patterns to handle data consistency and resiliency. Not only will you learn the patterns behind event-driven microservices but also how to communicate using asynchronous messaging with event streams. You'll then build an application made of several microservices that communicates using both choreographed and orchestrated messaging. By the end of this book, you'll be able to build and deploy your own event-driven microservices using asynchronous communication.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1803238011?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1803238011?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://eliasbrange.dev/posts/opinionated-approach-to-serverless-apis?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">An opinionated approach to building serverless APIs on AWS</a></li><li class="font-body text-sm"><a href="https://cloudonaut.io/how-to-monetize-an-api-on-aws?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">How to monetize an API on AWS?</a></li><li class="font-body text-sm"><a href="https://rust-exercises.com/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">100 Exercises To Learn Rust</a></li><li class="font-body text-sm"><a href="https://awsbites.com/123-what-do-you-need-to-know-about-dynamodb/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-373&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">What do you need to know about DynamoDB? (podcast)</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2024-05-13-355-the-many-new-features-of-node-js" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2024-06-03-357-your-api-shouldn-t-redirect-http-to-https" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #413: OKLCH in CSS: why we moved from RGB and HSL | FullStack Bulletin</title><meta name="description" content="Hello, 
+Not much to report on the personal front, except for one exciting bit: I was in London last week for Rust Global! James Eastham and I delivered a talk about adopting Rust and serverless – arguing why that combo can be a game-changer for companies looking to start using Rust. If you're curious about the slides, you can check out [my speaking page](https://loige.co/speaking) (and I'll add a link to the video as soon as it's available!).
+
+Now, enough about me! Let's dive into the cool full-stack (and more!) content that I've hand-picked for this week. I hope it keeps you informed, and – perhaps most importantly – inspired to keep walking this endless path of full-stack mastery!
+
+Your passionate editor,
+— Luciano"><link rel="canonical" href="https://fullstackbulletin.com/archive/2025-02-24-394-oklch-in-css-why-we-moved-from-rgb-and-hsl/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2025-02-24-394-oklch-in-css-why-we-moved-from-rgb-and-hsl/"><meta property="og:title" content="Issue #413: OKLCH in CSS: why we moved from RGB and HSL | FullStack Bulletin"><meta property="og:description" content="Hello, 
+Not much to report on the personal front, except for one exciting bit: I was in London last week for Rust Global! James Eastham and I delivered a talk about adopting Rust and serverless – arguing why that combo can be a game-changer for companies looking to start using Rust. If you're curious about the slides, you can check out [my speaking page](https://loige.co/speaking) (and I'll add a link to the video as soon as it's available!).
+
+Now, enough about me! Let's dive into the cool full-stack (and more!) content that I've hand-picked for this week. I hope it keeps you informed, and – perhaps most importantly – inspired to keep walking this endless path of full-stack mastery!
+
+Your passionate editor,
+— Luciano"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #413: OKLCH in CSS: why we moved from RGB and HSL | FullStack Bulletin"><meta name="twitter:description" content="Hello, 
+Not much to report on the personal front, except for one exciting bit: I was in London last week for Rust Global! James Eastham and I delivered a talk about adopting Rust and serverless – arguing why that combo can be a game-changer for companies looking to start using Rust. If you're curious about the slides, you can check out [my speaking page](https://loige.co/speaking) (and I'll add a link to the video as soon as it's available!).
+
+Now, enough about me! Let's dive into the cool full-stack (and more!) content that I've hand-picked for this week. I hope it keeps you informed, and – perhaps most importantly – inspired to keep walking this endless path of full-stack mastery!
+
+Your passionate editor,
+— Luciano"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:February 24, 2025">
+Issue #413 &middot; February 24, 2025 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> OKLCH in CSS: why we moved from RGB and HSL </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;That&#39;s been one of my mantras — focus and simplicity. Simple can be harder than complex; you have to work hard to get your thinking clean to make it simple“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/Steve_Jobs?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> Steve Jobs </a> <span>, Entrepreneur</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello, 
+Not much to report on the personal front, except for one exciting bit: I was in London last week for Rust Global! James Eastham and I delivered a talk about adopting Rust and serverless – arguing why that combo can be a game-changer for companies looking to start using Rust. If you're curious about the slides, you can check out <a href="https://loige.co/speaking?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-413&utm_content=intro-link" target="_blank" rel="noopener noreferrer">my speaking page</a> (and I'll add a link to the video as soon as it's available!).</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Now, enough about me! Let's dive into the cool full-stack (and more!) content that I've hand-picked for this week. I hope it keeps you informed, and – perhaps most importantly – inspired to keep walking this endless path of full-stack mastery!</p><p class="text-sm md:text-base text-neutral-dark leading-relaxed">Your passionate editor,
+— Luciano</p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/ea710a5d1105c1deed15931230a439b11bb107447e6e91db2196c519e15f7de2.png" alt="OKLCH in CSS: why we moved from RGB and HSL" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> OKLCH in CSS: why we moved from RGB and HSL </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">Ready to ditch RGB and HSL? This article makes a strong case for adopting <strong>OKLCH</strong> as the go-to color notation in CSS. It explains why OKLCH is superior for readability, color modifications, accessibility, and wide-gamut (P3) colors and comes with its own <a href="https://oklch.com/?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-413&utm_content=description-link" target="_blank" rel="noopener noreferrer">interactive tool</a> to visualize the OKLCH color space! I also want to throw in the mix an extra resource: a crazy cool OKLCH <a href="https://uchu.style/simple.html?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-413&utm_content=description-link" target="_blank" rel="noopener noreferrer">color palette</a> that I discovered last week and that I am currently loving!</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://github.com/TanStack/create-tsrouter-app?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> create-tsrouter-app </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Given the recent 'official' deprecation of the Create React App CLI tool, you might be looking for a replacement... <strong>create-tsrouter-app</strong> is a CLI tool that builds <a href="https://tanstack.com/router?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-413&utm_content=description-link" target="_blank" rel="noopener noreferrer">TanStack Router</a>-based SPA applications. It's designed as a drop-in replacement for CRA, making it easy to get started with a more flexible and powerful routing solution. With interactive setup, <strong>TypeScript</strong> support, and <strong>Tailwind</strong> CSS integration, it streamlines the creation of new React projects.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> My LLM codegen workflow atm </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I admit, I'm starting to give AI a bit more credit than I used to when it comes to speeding up mundane programming tasks (and, to be fair, even the non-programming ones 😉). So, I'm becoming more receptive to content showcasing how other developers are leveraging AI... like this blog post, which offers a deep dive into Harper Reed's personal LLM-assisted workflow. It's a detailed account of his approach to both greenfield projects and legacy code, using tools like Claude, Aider, and Repomix. It's not just about the tools, but more about a new way of working as a software engineer. Will you try to use AI as much as possible to build your next website? I am personally starting to think I should give it a serious try!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://socket.dev/blog/react-team-updates-cra-migration-guidance-after-community-pushback?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> React Team Updates CRA Migration Guidance After Community Pushback </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">To continue our conversation on the deprecation of Create React App (CRA), the React team's decision to sunset CRA wasn't controversial, but their initial recommendation of frameworks over standalone build tools certainly was. To me, this felt a bit like someone saying they stopped producing the model of bicycle you really like but rather than offering you the option of a new model, they told you *"F*** off and go buy a race car"* 😅. This article explores the community's strong pushback, including Vue.js creator Evan You's critique and the React team's surprisingly quick response. It's honestly a fascinating example of community dialogue shaping the direction of a major ecosystem and ultimately I am really happy with how things turned out. What's your take?</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://debugbear.com/blog/use-chrome-devtools?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> How To Use Chrome&#39;s Developer Tools </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I use the Chrome DevTools quite a bit during my daily job and my various side projects, but it's such a huge ecosystem of tools and features that I'm always wary of something important that I don't know about... If you're like me, you might enjoy this article, which provides a very comprehensive overview of Chrome DevTools. It covers everything from basic inspection and debugging to advanced features like performance profiling, memory analysis, and security auditing. It explains how to troubleshoot websites, test features, and find new opportunities to improve performance and accessibility.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://evilmartians.com/chronicles/ruby-on-rails-on-webassembly-a-guide-to-full-stack-in-browser-action?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Ruby on Rails on WebAssembly </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Another crazy-good piece of content from Evil Martians! Now, I don't often feature Ruby content here (sorry, Rubyists! 😅) but this article is too cool to pass up. It explores the seemingly impossible: running a full-stack Ruby on Rails application entirely inside the browser using WebAssembly! It's an insane demonstration of how WebAssembly is opening up the frontend to much more than just JavaScript, breaking down all you need to know about such advanced topic. From running a monolithic server-side application within the browser sandbox to the opportunities that WebAssembly brings. Even if you don't write a line of Ruby, this will blow your mind and give you a glimpse into the future of web development.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://css-tricks.com/handwriting-an-svg-heart-with-our-hearts?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Handwriting An SVG Heart, With Our Hearts </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">This tutorial takes you on a charming journey of building an SVG heart from scratch. And seriously, if you have ever tried to figure out how SVG works, this article should be your gateway pill. The author teaches how you can come up with all sorts of cool shapes and designs with just XML (no fancy vector tools needed!). You'll learn about the &lt;path&gt; element, coordinates, strokes, and more. A fun, hands-on way to learn about SVG, so you can code the love into your websites... or maybe this will be the starting point for you to create crazy cool animated or interactive SVGs by just sprinkling a bit of clever JavaScript on top!</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/6942def41ec746c86529461f26dca74c3f9535ea9c0cf22e90d9b3b7c62df793.jpg" alt="Think Python: How to Think Like a Computer Scientist" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Think Python: How to Think Like a Computer Scientist</h4> <p class="text-sm text-neutral-medium mb-2">by Allen B. Downey</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">Python is an excellent way to get started in programming, and this clear, concise guide walks you through Python a step at a time—beginning with basic programming concepts before moving on to functions, data structures, and object-oriented design. This revised third edition reflects the growing role of large language models (LLMs) in programming and includes exercises on effective LLM prompts, testing code, and debugging skills.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1098155432?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1098155432?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://schepp.dev/posts/rethinking-find-in-page-accessibility-making-hidden-text-work-for-everyone?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Rethinking Find-in-Page Accessibility: Making Hidden Text Work for Everyone</a></li><li class="font-body text-sm"><a href="https://cloudfour.com/thinks/false-promises-of-webp-support?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">False Promises of WebP Support</a></li><li class="font-body text-sm"><a href="https://cloudfour.com/thinks/lazy-loading-hidden-images?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Lazy loading hidden images</a></li><li class="font-body text-sm"><a href="https://robinwieruch.de/typescript-node-js?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">TypeScript in a Node.js Project</a></li><li class="font-body text-sm"><a href="https://fullystacked.net/gradient-borders?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Gradient borders in CSS</a></li><li class="font-body text-sm"><a href="https://blog.jim-nielsen.com/2025/aspect-ratio-in-css-view-transitions?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Aspect Ratio Changes With CSS View Transitions</a></li><li class="font-body text-sm"><a href="https://blog.mgechev.com/2017/08/05/typed-lambda-calculus-create-type-checker-transpiler-compiler-javascript?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Developing Statically Typed Programming Language</a></li><li class="font-body text-sm"><a href="https://awsbites.com/140-duckdb-meets-aws-a-match-made-in-cloud?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-413&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">DuckDB Meets AWS: A Match Made in Cloud (AWS Bites Podcast)</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2025-02-17-393-use-the-index-luke" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2025-03-17-395-414-lynx-the-new-flutter-and-react-native-killer" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>

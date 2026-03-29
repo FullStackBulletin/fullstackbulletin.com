@@ -1,0 +1,138 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Issue #365: Node.js: The Documentary | FullStack Bulletin</title><meta name="description" content="Hello, 
+Welcome to issue #365!
+In the last couple of weeks, I have been thinking a lot about how we could make FullStack Bulletin better and more valuable to you. But, after all, getting your opinion is probably the most valuable thing we could do! So I have prepared **[a quick form to gather your opinion about FullStack Bulletin](https://fstack.link/lets-make-it-better)**! I hope you can spare 5 minutes to help us to help you 😀
+With that out of the way, now let's get into some full-stack content! And this week, we start with a bang, the highly anticipated Node.js documentary! 😱
+— Your editor, [Luciano](https://twitter.com/loige)"><link rel="canonical" href="https://fullstackbulletin.com/archive/2024-03-25-348-node-js-the-documentary/"><!-- Google Fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Space+Mono:wght@400&display=swap" rel="stylesheet"><!-- Favicons --><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta name="theme-color" content="#f8e81c"><!-- Open Graph --><meta property="og:type" content="website"><meta property="og:url" content="https://fullstackbulletin.com/archive/2024-03-25-348-node-js-the-documentary/"><meta property="og:title" content="Issue #365: Node.js: The Documentary | FullStack Bulletin"><meta property="og:description" content="Hello, 
+Welcome to issue #365!
+In the last couple of weeks, I have been thinking a lot about how we could make FullStack Bulletin better and more valuable to you. But, after all, getting your opinion is probably the most valuable thing we could do! So I have prepared **[a quick form to gather your opinion about FullStack Bulletin](https://fstack.link/lets-make-it-better)**! I hope you can spare 5 minutes to help us to help you 😀
+With that out of the way, now let's get into some full-stack content! And this week, we start with a bang, the highly anticipated Node.js documentary! 😱
+— Your editor, [Luciano](https://twitter.com/loige)"><meta property="og:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><meta property="og:locale" content="en_US"><!-- Twitter --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@fstackbulletin"><meta name="twitter:title" content="Issue #365: Node.js: The Documentary | FullStack Bulletin"><meta name="twitter:description" content="Hello, 
+Welcome to issue #365!
+In the last couple of weeks, I have been thinking a lot about how we could make FullStack Bulletin better and more valuable to you. But, after all, getting your opinion is probably the most valuable thing we could do! So I have prepared **[a quick form to gather your opinion about FullStack Bulletin](https://fstack.link/lets-make-it-better)**! I hope you can spare 5 minutes to help us to help you 😀
+With that out of the way, now let's get into some full-stack content! And this week, we start with a bang, the highly anticipated Node.js documentary! 😱
+— Your editor, [Luciano](https://twitter.com/loige)"><meta name="twitter:image" content="https://fullstackbulletin.com/images/share-banner-facebook.jpg"><link rel="stylesheet" href="/_astro/Footer.CSlJtjA-.css"></head> <body>  <header class="relative z-50" id="site-header" style="background: #000;"> <div class="max-w-6xl mx-auto px-4 py-1 md:py-4 huge:py-6 flex items-center justify-between transition-all duration-400 ease-in-out"> <a href="/" class="flex items-center gap-2 shrink-0"> <img src="/images/logo-minimal-white.svg" alt="FullStack Bulletin" class="w-[45px] md:hidden" id="header-logo-minimal"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="hidden md:block w-[165px] huge:w-[210px]" id="header-logo-full"> </a> <nav class="flex items-center gap-4 font-heading text-sm" aria-label="Site navigation"> <div class="relative" id="search-widget"> <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off" class="w-36 md:w-48 px-3 py-1.5 text-sm bg-neutral-900 text-neutral-white placeholder-neutral-medium rounded border border-neutral-700 focus:outline-none focus:ring-1 focus:ring-brand-primary focus:border-brand-primary transition-colors" aria-label="Search articles" aria-expanded="false" aria-controls="search-results" role="combobox"> <div id="search-results" class="hidden absolute top-full left-0 mt-1 w-80 max-h-96 overflow-y-auto bg-white rounded shadow-lg z-50 border border-neutral-200" role="listbox"></div> </div> <script>
+  (function () {
+    let pagefind = null;
+    let debounceTimer;
+
+    const input = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('search-results');
+
+    async function loadPagefind() {
+      if (!pagefind) {
+        try {
+          pagefind = await import('/pagefind/pagefind.js');
+          await pagefind.init();
+        } catch {
+          // Pagefind not available (e.g. dev mode)
+          return null;
+        }
+      }
+      return pagefind;
+    }
+
+    function showResults() {
+      resultsContainer.classList.remove('hidden');
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideResults() {
+      resultsContainer.classList.add('hidden');
+      input.setAttribute('aria-expanded', 'false');
+    }
+
+    async function performSearch(query) {
+      if (!query.trim()) {
+        hideResults();
+        resultsContainer.innerHTML = '';
+        return;
+      }
+
+      const pf = await loadPagefind();
+      if (!pf) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">Search is not available in dev mode.</div>';
+        showResults();
+        return;
+      }
+
+      const search = await pf.search(query);
+
+      if (search.results.length === 0) {
+        resultsContainer.innerHTML =
+          '<div class="px-4 py-3 text-sm text-neutral-500">No results found.</div>';
+        showResults();
+        return;
+      }
+
+      const resultData = await Promise.all(
+        search.results.slice(0, 10).map(function (r) { return r.data(); })
+      );
+
+      resultsContainer.innerHTML = resultData
+        .map(function (item) {
+          return '<a href="' + item.url + '" class="block px-4 py-3 hover:bg-neutral-100 border-b border-neutral-100 last:border-b-0 transition-colors" role="option">' +
+            '<div class="font-heading text-sm font-semibold text-neutral-900 leading-snug">' + (item.meta && item.meta.title ? item.meta.title : 'Untitled') + '</div>' +
+            (item.meta && item.meta.date ? '<div class="text-xs text-neutral-500 mt-0.5">' + item.meta.date + '</div>' : '') +
+            (item.excerpt ? '<div class="text-xs text-neutral-600 mt-1 leading-relaxed">' + item.excerpt + '</div>' : '') +
+            '</a>';
+        })
+        .join('');
+
+      showResults();
+    }
+
+    input.addEventListener('focus', function () {
+      loadPagefind();
+    });
+
+    input.addEventListener('input', function () {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(function () {
+        performSearch(input.value);
+      }, 200);
+    });
+
+    document.addEventListener('click', function (e) {
+      var widget = document.getElementById('search-widget');
+      if (widget && !widget.contains(e.target)) {
+        hideResults();
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        hideResults();
+        input.blur();
+      }
+    });
+  })();
+</script> <a href="/archive" class="hover:text-brand-dark font-semibold text-neutral-white">Archive</a> </nav> </div> </header> <main class="pt-8 pb-16" data-pagefind-body> <div class="max-w-[700px] mx-auto px-4 issue-content"> <header class="mb-8"> <div class="text-sm text-neutral-medium mb-2" data-pagefind-meta="date:March 25, 2024">
+Issue #365 &middot; March 25, 2024 </div> <h1 class="font-heading text-3xl md:text-4xl font-semibold leading-tight"> Node.js: The Documentary </h1> </header> <blockquote class="border-l-4 border-brand-primary pl-6 py-2 my-8 bg-neutral-lightest p-5 rounded-r"> <p class="font-body text-base md:text-lg italic text-neutral-darkest leading-relaxed">
+&ldquo;Anyone who considers arithmetical methods of producing random digits is, of course, in a state of sin“&rdquo;
+</p> <footer class="mt-3 font-body text-sm text-neutral-dark">
+&mdash;  <a href="https://en.wikipedia.org/wiki/John_von_Neumann?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=quote-author" target="_blank" rel="noopener noreferrer" class="text-brand-dark"> John Von Neumann </a> <span>, Computer Scientist</span> </footer> </blockquote><div class="my-8 space-y-4"> <p class="text-sm md:text-base text-neutral-dark leading-relaxed">Hello, 
+Welcome to issue #365!
+In the last couple of weeks, I have been thinking a lot about how we could make FullStack Bulletin better and more valuable to you. But, after all, getting your opinion is probably the most valuable thing we could do! So I have prepared <strong><a href="https://fstack.link/lets-make-it-better?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-365&utm_content=intro-link" target="_blank" rel="noopener noreferrer">a quick form to gather your opinion about FullStack Bulletin</a></strong>! I hope you can spare 5 minutes to help us to help you 😀
+With that out of the way, now let's get into some full-stack content! And this week, we start with a bang, the highly anticipated Node.js documentary! 😱
+— Your editor, <a href="https://twitter.com/loige?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-365&utm_content=intro-link" target="_blank" rel="noopener noreferrer">Luciano</a></p> </div><article class="my-8 border border-neutral-light/50 overflow-hidden"> <a href="https://youtube.com/watch?v=LB8KwiiUGy0&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="block"> <img src="/archive-images/877c6b698f3f98dc6b97257bdc0a16dba854c8f091c6190567ed723003b8735d.jpg" alt="Node.js: The Documentary" class="w-full h-auto" loading="lazy"> </a> <div class="p-5"> <h2 class="font-heading text-lg md:text-xl font-semibold mb-2"> <a href="https://youtube.com/watch?v=LB8KwiiUGy0&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=featured" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Node.js: The Documentary </a> </h2> <p class="text-sm text-neutral-dark leading-relaxed">Back in 2008, most people thought of JavaScript as just a client-side language and, honestly the reputation of the language wasn't even that good with many calling it <em>a toy language</em>. But when Google's V8 appeared, young developer Ryan Dahl made the connection and started to think about what using JavaScript on the server side could really look like... I really enjoyed this documentary (even though I was expecting it to cover some of the Deno drama as well) and it's mind-blowing to see that it got more than 60K views after less than one day!</p> </div> </article><section class="my-8"> <h2 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Articles
+</h2> <article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://www.bitecode.dev/p/there-is-no-eu-cookie-banner-law?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> There is no EU cookie banner law </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Did you know that if you are a multinational business and you have a presence outside the EU, your websites (except for the European ones) don't have to show a cookie banner? That's cool, but what's even more interesting (and possibly less known) is that a cookie banner is not strictly required even in the EU itself! If you, like me, hate cookie bars, you might enjoy this article.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://planetscale.com/blog/the-problem-with-using-a-uuid-primary-key-in-mysql?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The problem with using a UUID primary key in MySQL </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">Many times I have seen UUIDs being used as primary keys in all kinds of databases. It never crossed my mind that they could not be an ideal choice in some circumstances. So this article is great, it shines a light on all the (very many) versions of UUIDs and why using them as a primary key in MySQL can hurt database performance.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://www.emojisplosion.dev/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> Emojisplosion 💥🤯🤣 </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">I don't know if this can be useful, but I love it! Emojisplosion is a JavaScript library that allows you to create all sorts of emoji explosion effects (literally) on a web page. Maybe it's something you could use as an Easter egg or to reward a user after they complete some kind of important action. Well, one suggestion before you go crazy, remember to disable it with users with <code>prefers-reduced-motion</code> enabled.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://joyeecheung.github.io/blog/2024/03/18/require-esm-in-node-js/index.html?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> require(esm) in Node.js </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">This is big for the Node.js ecosystem, which has been in a weird limbo for the last 3-4 years trying to promote the shift to ESM over Common.js, which has been way more painful than anyone could have imagined. What's changing is that we now have experimental support for <code>require()</code>-ing synchronous ES modules, a feature that has been long overdue. Something that can ease the pain of those who are still stuck in CommonJS land. I can't wait for this to become stable and broadly available!</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://recompiled.dev/blog/type-system?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> The type system of the React compiler </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">The <a href="https://react.dev/blog/2024/02/15/react-labs-what-we-have-been-working-on-february-2024?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-365&utm_content=description-link#react-compiler" target="_blank" rel="noopener noreferrer">React Compiler</a> is no longer a research project: it powers instagram.com in production and it might soon become an integral part of the official React tooling ecosystem. So what's cool about it? In this article, you can learn some interesting details about the compiler type system and why this implementation enables some automatic optimizations.</p> </article><article class="py-4 border-b border-neutral-light/30 last:border-b-0"> <h3 class="font-heading text-base font-semibold mb-1"> <a href="https://aaronfrancis.com/2024/try-hard?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=title" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline"> What if you tried hard? </a> </h3> <p class="text-sm text-neutral-dark leading-relaxed">This is not a highly technical blog post, but once again, I think our friend <a href="https://twitter.com/aarondfrancis?utm_source=fullstackbulletin.com&utm_medium=newsletter&utm_campaign=fullstackBulletin-365&utm_content=description-link" target="_blank" rel="noopener noreferrer">Aaron Francis</a> hits the nail on the head with another inspirational post. So here's why, sometimes we should all try harder to succeed! So yeah...Thanks, Aaron! I hope you'll get motivated just as much as I did after reading this post!</p> </article> </section><section class="my-8 p-5 bg-neutral-lightest"> <h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-4 title-bar">
+Book of the week
+</h3> <div class="flex flex-col sm:flex-row gap-5"> <div class="flex-shrink-0"> <img src="/archive-images/5d355297a9b4cb81e5a7e90b2debcac984985e883c1e2a5848c40e973551658b.jpg" alt="Web Design Playground: HTML &#38; CSS the Interactive Way" class="w-24 h-auto shadow-sm" loading="lazy"> </div> <div> <h4 class="font-heading text-base font-semibold mb-1">Web Design Playground: HTML &amp; CSS the Interactive Way</h4> <p class="text-sm text-neutral-medium mb-2">by Paul McFedries</p> <p class="text-sm text-neutral-dark leading-relaxed mb-3">Web Design Playground takes you step by step from writing your first line of HTML to creating interesting, attractive web pages. In this project-based book, you'll use a custom online workspace to design websites, product pages, photo galleries, and more. Don't worry about setting up your own servers and domain names—the book comes with a free "playground" which lets you experiment without any of that! You can concentrate on core skills like adding images and video and laying out the page, plus learning typography, responsive design, and the other tools of the web trade.</p> <div class="flex gap-3"> <a href="https://www.amazon.com/dp/1617294403?tag=loige0e-20&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=amazon-us" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon US
+</a> <a href="https://www.amazon.co.uk/dp/1617294403?tag=loige-21&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=amazon-uk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-4 h-11 bg-brand-primary text-neutral-darkest font-heading text-xs font-semibold uppercase hover:bg-brand-dark transition-colors">
+Amazon UK
+</a> </div> </div> </div> </section><section class="my-8 p-5 border border-neutral-light/50 rounded-lg"><h3 class="font-heading text-sm font-semibold uppercase tracking-wider text-neutral-medium mb-3 title-bar">
+Additional Links
+</h3><ul class="list-disc pl-5 space-y-2"><li class="font-body text-sm"><a href="https://jvns.ca/blog/2024/03/08/how-head-works-in-git?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">How HEAD works in git</a></li><li class="font-body text-sm"><a href="https://jbernier.com/p?id=hn-who-is-hiring-chatgpt&#38;utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Parsing the HN Who is Hiring Thread with ChatGPT and Node.js</a></li><li class="font-body text-sm"><a href="https://wanago.io/2024/03/18/ecmascript-modules-esm-commonjs?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Comparing ECMAScript Modules and CommonJS</a></li><li class="font-body text-sm"><a href="https://internetingishard.netlify.app/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Interneting Is Hard</a></li><li class="font-body text-sm"><a href="https://runtime-compat.unjs.io/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">Runtime compatibility across JavaScript runtimes</a></li><li class="font-body text-sm"><a href="https://dbushell.com/2024/03/10/css-button-styles-you-might-not-know?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">CSS Button Styles You Might Not Know</a></li><li class="font-body text-sm"><a href="https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">A formula for responsive font-size</a></li><li class="font-body text-sm"><a href="https://awsbites.com/119-the-state-of-aws-2024-answers-community-survey-commentary/?utm_source=fullstackbulletin.com&#38;utm_medium=newsletter&#38;utm_campaign=fullstackBulletin-365&#38;utm_content=additional-link" target="_blank" rel="noopener noreferrer" class="hover:text-brand-dark underline">The state of AWS (video)</a></li></ul></section> <nav class="mt-12 pt-8 border-t border-neutral-light/50 flex justify-between items-center" aria-label="Issue navigation" data-pagefind-ignore> <a href="/archive/2024-03-18-347-364-learn-flexbox-css-in-8-minutes" class="font-heading text-sm font-semibold hover:text-brand-dark">
+&larr; Previous issue
+</a> <a href="/archive" class="font-heading text-sm text-neutral-medium hover:text-brand-dark">
+All issues
+</a> <a href="/archive/2024-04-01-349-trix-a-rich-text-editor-for-everyday-writing" class="font-heading text-sm font-semibold hover:text-brand-dark">
+Next issue &rarr;
+</a> </nav> </div> </main> <footer class="bg-black text-neutral-light py-12 px-4 md:px-10 border-t border-neutral-dark/20"> <div class="max-w-4xl mx-auto"> <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6"> <div> <a href="/" class="inline-block leading-none"> <img src="/images/logo-white.svg" alt="FullStack Bulletin" class="w-[130px] md:w-[150px]"> </a> <nav class="flex flex-wrap items-center gap-x-4 mt-4" aria-label="Footer navigation"> <a href="/archive" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> Archive </a><a href="https://loige.co" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> loige.co </a><a href="https://andreamangano.com" target="_blank" rel="noopener noreferrer" class="text-sm text-neutral-light hover:text-brand-primary transition-colors"> andreamangano.com </a> </nav> </div> <div class="md:text-right"> <p class="text-sm leading-relaxed">Made with passion and a bit of <a href="https://github.com/FullStackBulletin" target="_blank" class="underline hover:text-brand-primary transition-colors"><strong>automation</strong></a></p> <p class="mt-4 text-sm text-neutral-light flex items-center gap-1.5 md:justify-end">
+Curious how this site is built?
+<a href="https://github.com/FullStackBulletin/fullstackbulletin.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 text-brand-primary underline underline-offset-2 hover:text-brand-light transition-colors"> <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+Check out our public repo
+</a> </p> </div> </div> </div> </footer>  </body></html>
