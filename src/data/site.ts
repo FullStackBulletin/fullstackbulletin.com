@@ -3,7 +3,7 @@ export const meta = {
   locale: 'en_US',
   title: 'FullStack Bulletin',
   description:
-    'FullStack Bulletin (2017-2026). A farewell to our weekly newsletter for fullstack developers. Browse the full archive of 438 issues.',
+    'FullStack Bulletin (2017-2026). A farewell to our weekly newsletter for fullstack developers. Browse the full archive of 459 issues.',
   canonicalUrl: 'https://fullstackbulletin.com',
   twitterProfile: 'fstackbulletin',
 };
